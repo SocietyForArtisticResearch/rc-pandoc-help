@@ -4,35 +4,30 @@ contain some extra tools for using the workspace editor.
 
 ## COMMAND - OVERVIEW 
 
-The overview displays a second window on the right side of the editor. It is useful for navigation on the weave while editing. It also shows objects that might otherwise be invisible. It will be not part of your exposition in the preview. In the browser-view of your research (=preview) there is an own navigation window in the menu-bar, which is similar to the overview in commands.
+The overview displays a small window on the right side of the editor. It is useful for navigation on the weave while editing. It also shows objects that might otherwise be invisible. It will be not part of your exposition in the preview. In the browser-view of your research (= preview) there is an own navigation window in the menu-bar, which is similar to the overview in commands. 
 
-The overview shows you the size of the whole page. The note-tool implementation allows you to navigate trough the notes. You can also select or filter, which note you want to have displayed and which not. Under the note tool-implementation there is a overview from the complete page you are working on. The table below shows you the layers. Each item has an own layer in RC. Like in graphic-programs, you can change the order of the layers and bring the items in a specific hierarchy. Aspeacialy when you are working with the opacity of items, this pallett will help you to keep a visual overview.
+Below the map there is a list of all the tools (called layers) that are currently present in the presentation.
+When you click on one, the editor automatically scrolls to that tool. You can edit, lock or delete a tool with the buttons below the list.
 
+* _tip_: A tool will not scroll into view if it has a negative position (outside of your canvas). You can still change the position by clicking the edit button at the bottom of the view. *
 
+[> back to editor overview](#overview)
 
-> back to editor overview
-
- 
-
-COMMAND - SNAP TO GRID/ GRID SIZE / INVISIBLE GRID
-
+## COMMAND - SNAP TO GRID/ GRID SIZE / INVISIBLE GRID
 
 The weave has a grid in the background which makes it easy to define positions. This grid-size is default set by 5x5 px. You can easely change the size of the grid by clicking the pull-down-menu and choose on of the options from the list. You can also remove the grid by switching the size to 'invisible'.
 
-With snap to grid you activate the mode, that the item is not placeable fluently all over the weave. In dependence of the grid size the frame snaps into the grid. It makes it easy to find the same position when you want to site accurate.
+With snap to grid you activate the mode, that the item is not placeable fluently all over the weave. In dependence of the grid size the frame snaps into the grid. This can help with allignment.
 
 
- > back to editor overview
-
+[> back to editor overview](#overview)
  
 
-COMMAND - SET DEFAULT POSITION/ SHOW CURRENT POSITION
+## COMMAND - SET DEFAULT POSITION/ SHOW CURRENT POSITION
 
- 
+A rather unique feature of RC is the absolute positioning of items of the weave. With this you can define on the level of each pixel, where you want to have your text, picture, sound- or video player. This makes it possible to work very free with the weave and gives you the opportunity to navigate and link to a specific position on the weave.
 
-The special feature of RC is the absolute positioning of items of the weave. With this you can define on the level of each pixel, where you want to have your text, picture, sound- or video player. This makes it possible to work very free with the weave and gives you the opportunity to navigate and link to a specific position on the weave.
-
-With set default position you can set the entrance position of your page (which is 0;0 top/left by default) to any other position of the weave. Browse to the entrance coordinates, position or item and press set default position. A dialogue gives you the URL which includes the coordinates of the position.
+With _set default position_ you can set the entrance position of your page (which is 0;0 top/left by default) to any other position of the weave. Browse to the entrance coordinates, position or item and press set default position. A dialogue gives you the URL which includes the coordinates of the position.
 
 Maybe you want to link to a special position on the weave and you have to generate the URL for this. After browsindg to the coordinates or to the item you can generate the URL by clicking show current position. You can copy the URL and use it for hyperlinking, anchoring or for publishing.
 
