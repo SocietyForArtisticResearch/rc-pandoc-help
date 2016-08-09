@@ -1,6 +1,17 @@
 ## text tool
 
-The text tool is designed for quickly adding text. Its content can be directly edited in the weave. If you need more styling options, use the HTML-tool.
+The text tool is designed for quickly adding text. Its content can be directly edited in the weave, unlike the html tool, which' content edited in a seperate dialog box. It is a bit more limited in terms of text formatting options, so if you need more styling options, use the html-tool. 
+
+The text tool has two states: when in *active state* you can change the text, if you click outside, you can move the object and change the size of the outer box. Double click inside to start editing the text again. As soon as you clicked outside, the content is stored and a version is created under history.
+
+If you right click the text tool, you can find some extra edit options under __edit__.
+
+### Style
+
+[> style options](#style-options)
+
+### History
+[> history tab](#history)
 
 ## html tool
 
@@ -33,9 +44,7 @@ If a text is longer than its frame on the weave, a scrollbar is generated automa
 
 
 
-### History
 
-"History" provides a log of all changes that have been made to the tool. If you have unintentionally deleted a tool, you can restore it using "restore deleted tools" in the commands.
 
  
 
@@ -90,8 +99,6 @@ As in the picture tool, if it is necessary to provide textual information on the
 
 You can also use the play tool to synchronize certain video and audio tools.
 
-
- > back to editor overview
 
 
 PLAY TOOL
@@ -262,3 +269,7 @@ Please note, that notes are visible on the preview as well. If it is not part of
 # Style options
 
 You can use the buttons to directly add the basic stylings, eg. highlight it with bold or italic font or structure it with numerations or lists. You can change the font-family and in- or decrease the indent. You can also insert a link.
+
+# History
+
+"History" provides a log of all changes that have been made to the tool. If you have unintentionally deleted a tool, you can restore it using "restore deleted tools" in the commands.
