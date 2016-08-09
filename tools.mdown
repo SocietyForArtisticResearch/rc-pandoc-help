@@ -76,13 +76,13 @@ The style options are based on the html/CSS standard. Thus, you can define the p
 
 As with other players, the RC video player has different settings you can change, use, or specify.
 
-- loop
+- __loop__
 You can select if the video should play in a loop or stop at the end of the file. To set the player on loop, click the checkbox "" The player starts and loops the file after being activated by pressing play. 
 
-- autoplay 
+- __autoplay__ 
 To let the audio start without an active click, choose the option if this box is checked, the player starts to run the file when the page is loaded. If you are using multiple video players on the same weave and your page is quite big, visitors may find it helpful if you prevent overlapping by defining which player is playing. To do this, use the checkbox "stop other players". With this option selected, all players (video player, audio player on slideshows, other audio players) will stop when the selected player is running a file. When multiplaying is intended, we encourage you to use the play tool.
 
-- display minimal
+- __display minimal__
 When checked, the player constists of only the play button and the process bar.
 
 
