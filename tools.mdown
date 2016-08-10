@@ -26,7 +26,7 @@ If a text is longer than its frame on the weave, a scrollbar is generated automa
 
 The html tool is for advanced text editing. It is a *what-you-is-what-you-get* rich text editor. Unlike the text tool, you can only edit its content in a dialog box.
 
-### tabs: media tab
+### Media
 
 Text is edited in the "media" tab. To preformat the text, choose your settings before typing. The style can also be edited after typing by selecting either the whole page or sections of the page and changing the formatting options as required.
 
@@ -132,10 +132,7 @@ In "settings" you are able to lock the aspect ratio (the ratio from the width to
 
 # slideshow tool
 
-
 The slideshow tool allows you to create a gallery with pictures and graphics that can be displayed in a loop. You can start the slideshow in autoplay and you can add an audio file to each picture of the slideshow.
-
- 
 
 Drag and drop the slideshow icon to the weave to start the edit dialogue box.
 
@@ -145,9 +142,7 @@ To be able to select media you first have to upload an item into "simple media."
 
 ### Style
 
-You can style the borders of the pictures as well as the background with a additional picutre or with a colour. You can also create shadows and control the opacity of this whole element.
-
- 
+[> see style options](#style-options)
 
 ### Options
 
@@ -178,10 +173,9 @@ Please note, to be used on our server, all media will be transcoded from the RC.
 http://www.researchcatalogue.net/portal/faq or contact the RC User Support.
 
  
-
 ### Style
 
-The style options are based on the html standard. Thus, you can define the position and dimension of the audio player and the padding (the gap between object and border), you can style the borders and shadows of the player, and you can define the opacity of the item, create a coloured background, or set an image for the player from your simple media. 
+[> see style options](#style-options)
 
  
 
@@ -211,9 +205,7 @@ In the uploading dialogue box, you can choose to represent the PDF in your expos
 
  
 
-### Style
-
-The style options are based on the html standard. Thus, you can define the position and dimension of the tool and the padding (the gap between object and border), you can style the borders and shadows of the picture, and you can define the opacity of the item or create a colour or picture background for the tool. 
+[> see style options](#style-options)
 
  
 
@@ -230,12 +222,12 @@ Note is a tool that allows you to organize your work on RC. You can use it as st
 
 There you can define, who is responsible for the content (a change or revision, correction) of the note and you can set a date this work should be done.
 
-Please note, that notes are visible on the preview as well. If it is not part of your project please check, that all notes are removed from the weave.
+Notes are visible on the preview as well. If it is not part of your project please check, that all notes are removed from the weave.
 
-### Style options
+# Style options
 
 You can use the buttons to directly add the basic stylings, eg. highlight it with bold or italic font or structure it with numerations or lists. You can change the font-family and in- or decrease the indent. You can also insert a link.
 
-### History
+# History
 
 "History" provides a log of all changes that have been made to the tool. If you have unintentionally deleted a tool, you can restore it using "restore deleted tools" in the commands.
