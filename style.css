@@ -1,5 +1,10 @@
 body {
 	font-family: georgia, serif;
+	width:700px;
+}
+
+body * {
+	padding-left:25px;
 }
 
 h1,h2,h3,h4,h5 {
@@ -8,7 +13,7 @@ h1,h2,h3,h4,h5 {
 }
 
 h1 {
-    font-size:42px;
+    font-size:48px;
 }
 
 h2 {

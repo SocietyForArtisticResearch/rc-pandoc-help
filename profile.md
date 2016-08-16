@@ -7,10 +7,12 @@ the RC allows you to create a comprehensive public profile and gives you the opp
 ## upload CV (PDF)
 
 Next to the presentations of your artistic works and objects in the RC, it is possible to upload your own CV as PDF. In it, you can e.g. present your academic background or your list of publications without adding everything to your profile page.
+
 ![upload your cv](images/upload_cv.png "upload a cv")
 
 ## view public profile
 You can switch between your profile's editing mode (private) and your profile as the general public sees it. Click on 'MY PROFILE' for the editing mode and - below your image - click 'VIEW PUBLIC PROFILE' to hide all controls, grouping options and private research.
+
 ![view public profile](images/view_public_profile.png "view public profile")
 
 ## degrees

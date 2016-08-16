@@ -14,4 +14,4 @@ By the way, I found a library that can convert form markdown to html using only 
 https://github.com/jakov/js-pandoc
 
 This is the PANDOC command I use for my md files:
-__pandoc -s tools.mdown -o tools.html -c style.css__
+__pandoc -s tools.md -o tools.html -c style.css__

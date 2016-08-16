@@ -8,6 +8,25 @@ The text tool is designed for quickly adding text. Compared to the html tool, th
 
 The text tool has two states: when in *active state* you can change the text, if you click outside, you can move the object and change the size of the outer box. Double click inside to start editing the text again. Content is saved as soon as you exit the text editing state.
 
+<div>
+<style type="text/css">.easyhtml5video .eh5v_script{display:none}</style>
+<div class="easyhtml5video" style="position:relative;max-width:1380px;"><video controls="controls"  autoplay="autoplay" poster="eh5v.files/html5video/supershort_text_tool_demo.jpg" style="width:100%" title="supershort text tool demo">
+<source src="video/eh5v.files/html5video/supershort_text_tool_demo.m4v" type="video/mp4" />
+<source src="video/eh5v.files/html5video/supershort_text_tool_demo.webm" type="video/webm" />
+<source src="video/eh5v.files/html5video/supershort_text_tool_demo.ogv" type="video/ogg" />
+<object type="application/x-shockwave-flash" data="video/eh5v.files/html5video/flashfox.swf" width="1380" height="908" style="position:relative;">
+<param name="movie" value="video/eh5v.files/html5video/flashfox.swf" />
+<param name="allowFullScreen" value="true" />
+<param name="flashVars" value="autoplay=true&controls=true&fullScreenEnabled=true&posterOnEnd=true&loop=false&poster=video/eh5v.files/html5video/supershort_text_tool_demo.jpg&src=supershort_text_tool_demo.m4v" />
+ <embed src="video/eh5v.files/html5video/flashfox.swf" width="1380" height="908" style="position:relative;"  flashVars="autoplay=true&controls=true&fullScreenEnabled=true&posterOnEnd=true&loop=false&poster=video/eh5v.files/html5video/supershort_text_tool_demo.jpg&src=supershort_text_tool_demo.m4v"	allowFullScreen="true" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_en" />
+<img alt="supershort text tool demo" src="video/eh5v.files/html5video/supershort_text_tool_demo.jpg" style="position:absolute;left:0;" width="100%" title="Video playback is not supported by your browser" />
+</object>
+</video><div class="eh5v_script"><a href="http://easyhtml5video.com">html5 video converter</a> by EasyHtml5Video.com v3.9.1</div></div>
+<script src="video/eh5v.files/html5video/html5ext.js" type="text/javascript"></script>
+</div>
+
+		
+
 If you right click the text tool, you can find some extra edit options under __edit__.
 You can also click the ☰ icon and choose __edit__.
 
