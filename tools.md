@@ -6,7 +6,7 @@ __pandoc -s tools.mdown -o tools.html -c style.css__
 
 The text tool is designed for quickly adding text. Compared to the html tool, the text tool allows you to edit your text in the page, while the html tool works within a dialog. The text tool is a bit more limited in terms of text formatting options, so if you need more styling options, use the html-tool. 
 
-The text tool has two states: when in *active state* you can change the text, if you click outside, you can move the object and change the size of the outer box. Double click inside to start editing the text again. Content is saved as soon as you exit the text editing state.
+The text tool has two states: when in*active state*you can change the text, if you click outside, you can move the object and change the size of the outer box. Double click inside to start editing the text again. Content is saved as soon as you exit the text editing state.
 
 <div>
 <style type="text/css">.easyhtml5video .eh5v_script{display:none}</style>
