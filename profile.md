@@ -25,7 +25,7 @@ Here you can add a short text biography/CV, that other RC users will see when th
 ## add grouping
 
 __add grouping__ gives you the opportunity to create custom groups. You
-can combine objects of one theme you‘re working on or group objects of the same type - it's up to you. To add a new group press ADD GROUPING and type the name of the group you want to add. You can sort your objects via drag and drop and place them into a different order or into different groups, even. Click and drag a grouping to change the order of the groups. On the right of a group, press EDIT to edit the name of the group. Only custom groups can be deleted. If you have only one filled group, the group title will not be shown on your public profile. Empty groups will also not be shown, but be kept for future use.
+can combine objects of one theme you‘re working on or group objects of the same type - it's up to you. To add a new group press ADD GROUPING and type the name of the group you want to add. You can sort your objects via drag and drop and place them into a different order or into different groups, even. Click and drag a grouping to change the order of the groups. On the right of a group, press __edit__ to edit the name of the group. Only custom groups can be deleted. If you have only one filled group, the group title will not be shown on your public profile. Empty groups will also not be shown, but be kept for future use.
 
  
 
@@ -36,14 +36,14 @@ It is also possible to import expositions from your archive. Note that only expo
 
 ## add work
 
-A WORK is completed, autarchic creation. You can add your work's metadata, also in the  ENHANCED META. Here you can indicate the place of your work, the country or the material, technique or the format. It can be either a single file, or a collection of files.
+A __work__ is completed, autarchic creation. You can add your work's metadata, also in the __enhanced meta__. Here you can indicate the place of your work, the country or the material, technique or the format. It can be either a single file, or a collection of files.
 
 For collaborations, you can choose between co-authors, contributors and supervisors. For full supervision functionality (leaving notes etc...), it is prefered to embed the work in an exposition.
 A new feature is the RELATIONS-TAB. Here you can choose to relate a work to other objects.
 
 ## add project 
 
-A PROJECT is a container within which works or expositions may be produced. It may or may not be funded. Using the RELATIONS-TAB, those works or expositions can be linked to the project.
+A __project__ is a container within which works or expositions may be produced. It may or may not be funded. Using the RELATIONS-TAB, those works or expositions can be linked to the project.
 
 In case your project belongs to a degree, you can add ECTS-points.
 
