@@ -1,8 +1,8 @@
 
 
-# rc profile
+# Profile
 
-the RC allows you to create a comprehensive public profile and gives you the opportunity to structure your objects in groups. Your profile where you create different types of objects and present yourself and your research content.
+the RC allows you to create a detailed public profile and gives you the opportunity to structure your objects in groups. Your profile where you create different types of objects and present yourself and your research content.
 
 ## upload CV (PDF)
 
@@ -11,12 +11,12 @@ Next to the presentations of your artistic works and objects in the RC, it is po
 ![upload your cv](images/upload_cv.png "upload a cv")
 
 ## view public profile
-You can switch between your profile's editing mode (private) and your profile as the general public sees it. Click on 'MY PROFILE' for the editing mode and - below your image - click 'VIEW PUBLIC PROFILE' to hide all controls, grouping options and private research.
+You can switch between your profile's editing mode (private) and your profile as the general public sees it. Click on '__my profile__' for the editing mode and - below your image - click '__view public profile__' to hide all controls, grouping options and private research.
 
 ![view public profile](images/view_public_profile.png "view public profile")
 
 ## degrees
-You can also add your DEGREES to your profile. Enter the name, the level, the dates and the institution of your degree and link it via the RELATIONS-TAB to projects, expositions or works that you created in support for your degree.
+You can also add your __degrees__ to your profile. Enter the name, the level, the dates and the institution of your degree and link it via the __relations-tab__ to projects, expositions or works that you created in support for your degree.
 
 ## add CV details
 Here you can add a short text biography/CV, that other RC users will see when they visit your profile.
@@ -24,8 +24,7 @@ Here you can add a short text biography/CV, that other RC users will see when th
 
 ## add grouping
 
-__add grouping__ gives you the opportunity to create custom groups. You
-can combine objects of one theme you‘re working on or group objects of the same type - it's up to you. To add a new group press ADD GROUPING and type the name of the group you want to add. You can sort your objects via drag and drop and place them into a different order or into different groups, even. Click and drag a grouping to change the order of the groups. On the right of a group, press __edit__ to edit the name of the group. Only custom groups can be deleted. If you have only one filled group, the group title will not be shown on your public profile. Empty groups will also not be shown, but be kept for future use.
+__add grouping__ gives you the opportunity to create custom groups. You can combine objects of one theme you‘re working on or group objects of the same type - it's up to you. To add a new group press __add grouping__ and type the name of the group you want to add. You can sort your objects via drag and drop and place them into a different order or into different groups, even. Click and drag a grouping to change the order of the groups. On the right of a group, press __edit__ to edit the name of the group. Only custom groups can be deleted. If you have only one filled group, the group title will not be shown on your public profile. Empty groups will also not be shown, but be kept for future use.
 
  
 
@@ -56,41 +55,40 @@ The visibilty is ON by default. To switch it off click on the little circle on t
 ## consult this exposition
 
 The button __consult this exposition__ connects you to the entry page of your exposition. 
-This is the same as the PREVIEW version in the workspace.
+This is the same as the __preview__ version in the workspace.
 
 object menu, also known as hamburger menu ☰
 
 To access the menu, click on the ☰ symbol, located in the bottom right corner of an object (expositions or works). Some options are only available to the author of the object.
 
-- __Change layout__ Change the size of an object on the profile.
+* __Change layout__ Change the size of an object on the profile.
 
-- __Edit workspace__ Go to the workspace editor of this exposition.
+* __Edit workspace__ Go to the workspace editor of this exposition.
 
-- __Edit details__ Change the meta data of your exposition, and control collaboration with other users.
+* __Edit details__ Change the meta data of your exposition, and control collaboration with other users.
 
-- __Share__ Change who can see and access this item.
+* __Share__ Change who can see and access this item.
 
-- __Self-publish__ Turn an exposition into a fixed state.
+* __Self-publish__ Turn an exposition into a fixed state.
+
+* __Add to shortcut__ Add a compact link to this object on the top of your list. 
 
 Please note that publishing is a one-way action, once published one can not  unpublish. If you want to keep the option of removing an exposition, do not use this option.
 
-- __Submit__ for publication Submit an exposition to a portal for publication.
+* __Submit__ for publication Submit an exposition to a portal for publication.
 
-- __Add__ to shortcut Make a shortcut add the top of your profile.
+* __Add__ to shortcut Make a shortcut add the top of your profile.
 
-- __Connect__ to portal Send a connection request to a portal.
+* __Connect__ to portal Send a connection request to a portal.
 
-- __Export__ Export an exposition for further distribution.
+* __Export__ Export an exposition for further distribution.
 
-- __Delete__ Delete an exposition or work from the catalogue.
+* __Delete__ Delete an exposition or work from the catalogue.
 
+![object menu location](images/hamburger_location.png "image showing location of menu button")
+![the object menu](images/menu.png "object showing the menu")
 
-
-location of the menu button
-
-menu
-
-back to top
+[back to top](#profile)
 
 ## change layout
 
