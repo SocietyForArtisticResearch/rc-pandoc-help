@@ -40,6 +40,9 @@ Finally, click "Add Footnote" to confirm and create the footnote,
 which will subsequently appear in the list of footnotes on the left
 side of the screen. 
 
+
+![Preview of a footnote](images/footnote_preview.png)
+
 #### Editing a Footnote
 
 All footnotes are listed in the "Footnotes" tab on the left hand side.
@@ -61,12 +64,25 @@ of the main tab. (see image).
 Instead of using text as footnote links it is also possible to use
 numbered links. The numbers will be filled in and adjusted
 automatically. In order to create auto-numbered footnotes create a
-footnote in the text or HTML tool as described above without selecting
-any text. An "x" will appear in the text. This will be replaced by the
-correct number when the text is displayed.
+footnote in the text or HTML tool as described above but without
+selecting any text. An "x" will be inserted where the cursor is
+placed. This "x" will be replaced by the correct number when the text
+is displayed.
+
+![Auto-numbered footnote in the editor](images/footnote_auto.png)
+
+The numbering starts at 1 and encompasses all text and HTML objects on
+the weave. Numbering is performed by object and proceeds from the top
+and left to the bottom and right of the page.
 
 #### Pictures 
 
+It is also possible to use images as links to footnotes. When clicking
+on the image or moving over it with the mouse cursor the popover will
+be show. In order to use an image as a footnote click the "≡"-icon on
+the bottom right of the image (or right click the image) in order to
+open the context menu. Click the item "add footnote" from the context
+menu and fill in the appearing dialog window.
 
 [^1]: Footnote and popover are used almost interchangeably
 here. Footnote, however, refers rather to the textual concept of a
