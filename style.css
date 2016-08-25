@@ -4,6 +4,11 @@ body {
 	padding-left:50px;
 }
 
+body p {
+	line-height: 1.8;
+	font-size: 18px;
+}
+
 h1,h2,h3,h4,h5 {
 	font-family: helvetica, arial, sans-serif;
 	margin-top:100px;
