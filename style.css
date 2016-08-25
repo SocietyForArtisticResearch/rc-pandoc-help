@@ -31,5 +31,6 @@ font-size:18px;
 }
 
 img {
-	width:475px;
+    width:475px;
+    border:1px solid #000000;
 }
