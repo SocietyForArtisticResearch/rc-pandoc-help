@@ -1,17 +1,20 @@
 body {
-	font-family: georgia, serif;
-	width:700px;
-	padding-left:50px;
+	font-family: helvetica, arial, sans-serif;
+	margin:auto;
+	width:60%;
+}
+
+body hr {
+	margin-top:100px;
 }
 
 body p {
 	line-height: 1.8;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 h1,h2,h3,h4,h5 {
 	font-family: helvetica, arial, sans-serif;
-	margin-top:100px;
 }
 
 h1 {
@@ -19,11 +22,16 @@ h1 {
 }
 
 h2 {
+	margin-top:100px;
+	color:rgb(150,0,0);
 	font-size:36px;
 }
 
 h3 {
-	font-size:28px;
+	font-weight: bold;
+	margin-top:50px;
+	color:rgb(0,80,0);
+	font-size:18px;
 	background-color:#fdfdfd;
 }
 

@@ -30,22 +30,24 @@ The text tool has two states: when in*active state*you can change the text, if y
 If you right click the text tool, you can find some extra edit options under __edit__.
 You can also click the ☰ icon and choose __edit__.
 
-### Text tool > Style
+### text tool > style
 
 [> see style options](#style-options)
 
-### Text tool > Options
+### text tool > options
 
 If a text is longer than its frame on the weave, a scrollbar is generated automatically. You can control the visibility of the scrollbar in "options." The default setting is "automatic."
 
-### Text tool > History
+### text tool > history
 [> see history](#history)
 
-# html tool
+---
+
+## html tool
 
 The html tool is for advanced text editing. It is a *what-you-is-what-you-get* rich text editor. Unlike the text tool, you can only edit its content in a dialog box.
 
-### html tool > Media
+### html tool > media
 
 Text is edited in the "media" tab. To preformat the text, choose your settings before typing. The style can also be edited after typing by selecting either the whole page or sections of the page and changing the formatting options as required.
 
@@ -58,24 +60,25 @@ To enlarge the palette, click on the first button, "show/hide toolbars." Here yo
 
 You can add pictures or further HTML materials such as i-frames (the embedding of HTML pictures or video is not possible with uploaded audio-visual content, which means that you have to publish a URL from an external server to paste it into the dialogue). You can also choose the colour or the background of the text using the colour tools, insert symbols and tables, and control the edits with the "show changes" option.
 
-### html tool > Style
+### html tool > style
 
 [> see style options](#style-options)
 
-### html tool > Options
+### html tool > options
 
 If a text is longer than its frame on the weave, a scrollbar is generated automatically. You can control the visibility of the scrollbar in "options." The default setting is "automatic."
 
-### html tool > Templates
+### html tool > templates
 
 If you want to reuse the content of a html tool, you can create your own templates. This function is found in the "media" tab. After finishing the edit of your template, click "save as new template" and give the template a name in the dialogue box that appears. To load a template, click "load template" and choose one from the list in the dialogue box.
 
-### html tool > Submit, delete, or cancel
+### html tool > submit, delete, or cancel
 
 Finally, you have to quit the dialogue. If everything is the way you want it, choose "submit" and the text field will be loaded on the weave. To discard changes to the content, cancel the dialogue box. If you want to delete the whole HTML field, including all content in it, click "delete." Unintended deletions are restorable via "commands" – "restore deleted tools." In that location you can also learn how to restore deleted tools.
  
+---
 
-# Video Tool
+## Video Tool
 
 As with the other tools, you can use the video tool by dragging it from the tool palette and dropping it onto the weave.
 
@@ -91,11 +94,11 @@ http://www.researchcatalogue.net/portal/faq or contact the RC User Support.
 
 We highly recommend using low-size video files. People without a fast internet connection will not watch videos when they are too big to stream fluently. If your file is extremely large, you may want to convert it using Handbrake, FFMpeg or another video compression tool to make it smaller. 
 
-### Video tool > Style
+### video tool > style
 
 [> see style options](#style-options)
 
-### Video tool > Options
+### video tool > options
 
 As with other players, the RC video player has different settings you can change, use, or specify.
 
@@ -117,19 +120,23 @@ As in the picture tool, if it is necessary to provide textual information on the
 
 You can also use the play tool to synchronize certain video and audio tools.
 
-# Play tool
+---
+
+## Play tool
 
 The play tool is designed to synchronize the playback of selected video and audio tools on the same weave. With this tool one can create a single control for playing back various media files at the same time. This can, for example, be used to document video installations with multiple screens and allows playing back synchronized combinations of musical voices and audio tracks. The play tool displays an image which can be clicked and functions as play and pause button. Clicking the image will start the playback of the selected audio and video files. While playing the tool another image will be displayed instead. Clicking this image will pause the players.
 
-### Play tool > media
+### play tool > media
 
 In the media tab one can upload two image files. One image will be the play­placeholder, i.e.clicking the image will initiate the playback of the selected files. The other image will be the pause­placeholder, i.e. clicking this image will pause the selected audio and video files on the weave.
 
-### Play tool > options
+### play tool > options
 
 In the options tab one can select from among all audio and video files on the weave. These must have been uploaded first with the audio and video tools. The selected files will be controlled with the play tool. The option “pause other players when playing” will ensure that only the selected media files will be played back.
  
-# Picture tool
+---
+
+## Picture tool
 
 To add a picture, drag and drop the "picture" icon from the tool palette to the weave. As with all other tools, a pop-up dialogue starts automatically and gives you the choice between "selecting" or "adding" an item. 
 
@@ -139,17 +146,19 @@ For uploading PDFs, please use the PDF tool.
 
 To add an item, choose "add" and upload the object from your desktop to the RC servers. Next, name the file and make a declaration of the copyright holder. Once an image is uploaded it is also automatically added to the simple media tab.
 
-### Picture tool > Style
+### picture tool > style
 
 [> see style options](#style-options)
 
-### Picture tool > Options
+### picture tool > options
 
 There are different options concerning the properties of a picture and its position in relation to other objects. In the "position" menu in "options," you can specify how the picture relates to other objects: choose between contain, cover, fit, and auto. "Contain" is the default for this field. You also have the option to define the position of the picture in the picture frame (which is not visible in the browser unless you give it a specific style). The position is preset to "centre-centre."
 
 In "settings" you are able to lock the aspect ratio (the ratio from the width to the height), and you can allow readers to enlarge the image by activating the checkbox "on click open image in popup." If you want to use a picture as a hyperlink, paste a URL into the field "on click open link." It is also possible to show specific information when the cursor is moved over a picture. If the picture is set as a hyperlink, you could for example set plain text to appear that describes where the hyperlink goes to ("more," "...further information," "... go to," "introduction," "summary," etc.). In cases where the picture is of an artwork, or if the picture is the artwork, you could provide the title of the work and the name of the copyright holder. This is also possible by using the option "copyright & plain text." Please note, you can't change the copyright in the "edit picture" tool. To change the name or the copyright text, go to the item in "simple media" and click "edit" (also double click) to open the "edit media" dialogue.
 
-# Slideshow tool
+---
+
+## Slideshow tool
 
 The slideshow tool allows you to create a gallery with pictures and graphics that can be displayed in a loop. You can start the slideshow in autoplay and you can add an audio file to each picture of the slideshow.
 
@@ -159,11 +168,11 @@ To be able to select media you first have to upload an item into "simple media."
 
  
 
-### Slideshow tool > Style
+### slideshow tool > style
 
 [> see style options](#style-options)
 
-### Slideshow tool > Options
+### slideshow tool > options
 
 In options you can define the position of the picture within the frame. This is important when you are using pictures with different dimensions. In "settings" it is possible to choose to loop the slideshow. If "loop" is checked, after the final slide the slideshow will continue with the first slide again. You can choose whether to hide the navigation bar or whether to give the reader the option to enlarge the picture with a click on the picture in your weave.
 
@@ -175,8 +184,9 @@ As mentioned before, you can append audio files to each slide. Please note, you 
 
 The play shape tool is made for a simple usage of grafic elements in the RC. You can generate forms that could structure your layout or helps you to build up an own navigation. At the moment you can create rectangles or circles or lines. You can choose if they're filled or not so you can create a frame from the rectangle and a ring from the circle. You have also the possibility to specify the strongness of the frame and operate with the opacity of the elements. Next to this there are four types of arrows (left, right, up, down). You can resize the element on the weave via pulling or pushing the green frame. The yellow point offers you to turn the element.
  
+--- 
 
-# Audio tool
+## Audio tool
 
 As with the other tools, use the audio tool by dragging and dropping the icon from the tool palette to the weave. A pop-up dialogue starts automatically and gives you the choice between "selecting" or "adding" an item. 
 
@@ -192,13 +202,13 @@ Please note, to be used on our server, all media will be transcoded from the RC.
 http://www.researchcatalogue.net/portal/faq or contact the RC User Support.
 
  
-### Audio tool > Style
+### audio tool > style
 
 [> see style options](#style-options)
 
  
 
-### Audio tool > Options
+### audio tool > options
 
 As in other players, the RC audio player has different settings you can change, use, or specify.
 
@@ -210,8 +220,9 @@ You can also define some visual player settings. You can hide the whole menu bar
 
 As in the picture tool, if it is necessary to give textual information about the sound file, you can edit so that plain text or copyright information will be displayed when the mouse hovers over the item.
  
+---
 
-# pdf tool
+## pdf tool
 
 
 The PDF tools give you the opportunity to attach longer text documents to the RC. Sometimes it is neither convenient nor practical to present long text passages on the internet. If you nevertheless need or want to attach documents or materials to your exposition, the pdf tool can be very useful.
@@ -228,13 +239,13 @@ In the uploading dialogue box, you can choose to represent the PDF in your expos
 
  
 
-### pdf tool > Options
+### pdf tool > options
 
 RC gives you and your reader the possibility to read the PDF directly in the browser if the browser supports this. To use this option check "display in browser" in option > settings of the "edit pdf" tool dialogue box. As in the picture tool, you can provide further information using the hover option. To do this, select one of the options in the "show on hover" pull-down menu. In addition, you can create a plain text to be displayed when the reader's mouse hovers over the PDF preview. To use this, choose "plain text" or "copyright & plain text" from the pull-down menu and write your text in the text field below.
 
  
 
-# pdf tool > note tool
+## note tool
  
 
 Note is a tool that allows you to organize your work on RC. You can use it as sticky note, to make some notes for yourself while the editing of your research or you can use it as a communication tool for the collaborators of the project. The handling is very easy: Drag the note from the tool-pallett and drag it on the weave. You can write directly on the note without opening a new edit-window. Each note has a time-stamp which is generated when the note is sticked on the weave. Please check also the option of the note-view which is described here.
@@ -243,10 +254,10 @@ There you can define, who is responsible for the content (a change or revision, 
 
 Notes are visible on the preview as well. If it is not part of your project please check, that all notes are removed from the weave.
 
-# pdf tool > Style options
+### note tool > style options
 
 You can use the buttons to directly add the basic stylings, eg. highlight it with bold or italic font or structure it with numerations or lists. You can change the font-family and in- or decrease the indent. You can also insert a link.
 
-# pdf tool > History
+### note tool > history
 
 "History" provides a log of all changes that have been made to the tool. If you have unintentionally deleted a tool, you can restore it using "restore deleted tools" in the commands.
