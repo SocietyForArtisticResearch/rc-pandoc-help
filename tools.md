@@ -6,29 +6,26 @@ __pandoc -s tools.mdown -o tools.html -c style.css__
 
 The text tool is designed for quickly adding text. Compared to the html tool, the text tool allows you to edit your text in the page, while the html tool works within a dialog. The text tool is a bit more limited in terms of text formatting options, so if you need more styling options, use the html-tool. 
 
-The text tool has two states: when in*active state*you can change the text, if you click outside, you can move the object and change the size of the outer box. Double click inside to start editing the text again. Content is saved as soon as you exit the text editing state.
+The text tool has two states: when in *active state* you can change the text, if you click outside, you can move the object and change the size of the outer box. Double click inside to start editing the text again. Content is saved as soon as you exit the text editing state.
 
-<div>
-<style type="text/css">.easyhtml5video .eh5v_script{display:none}</style>
-<div class="easyhtml5video" style="position:relative;max-width:1380px;"><video controls="controls"  autoplay="autoplay" poster="eh5v.files/html5video/supershort_text_tool_demo.jpg" style="width:100%" title="supershort text tool demo">
-<source src="video/eh5v.files/html5video/supershort_text_tool_demo.m4v" type="video/mp4" />
-<source src="video/eh5v.files/html5video/supershort_text_tool_demo.webm" type="video/webm" />
-<source src="video/eh5v.files/html5video/supershort_text_tool_demo.ogv" type="video/ogg" />
-<object type="application/x-shockwave-flash" data="video/eh5v.files/html5video/flashfox.swf" width="1380" height="908" style="position:relative;">
+<div class="easyhtml5video" style="position:relative;max-width:1190px;"><video controls="controls"  autoplay="autoplay" poster="video/eh5v.files/html5video/Supershort_text_demo_2.jpg" style="width:100%" title="Supershort text demo 2">
+<source src="video/eh5v.files/html5video/Supershort_text_demo_2.m4v" type="video/mp4" />
+<source src="video/eh5v.files/html5video/Supershort_text_demo_2.webm" type="video/webm" />
+<object type="application/x-shockwave-flash" data="video/eh5v.files/html5video/flashfox.swf" width="1190" height="720" style="position:relative;">
 <param name="movie" value="video/eh5v.files/html5video/flashfox.swf" />
 <param name="allowFullScreen" value="true" />
-<param name="flashVars" value="autoplay=true&controls=true&fullScreenEnabled=true&posterOnEnd=true&loop=false&poster=video/eh5v.files/html5video/supershort_text_tool_demo.jpg&src=supershort_text_tool_demo.m4v" />
- <embed src="video/eh5v.files/html5video/flashfox.swf" width="1380" height="908" style="position:relative;"  flashVars="autoplay=true&controls=true&fullScreenEnabled=true&posterOnEnd=true&loop=false&poster=video/eh5v.files/html5video/supershort_text_tool_demo.jpg&src=supershort_text_tool_demo.m4v"	allowFullScreen="true" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_en" />
-<img alt="supershort text tool demo" src="video/eh5v.files/html5video/supershort_text_tool_demo.jpg" style="position:absolute;left:0;" width="100%" title="Video playback is not supported by your browser" />
+<param name="flashVars" value="autoplay=true&controls=true&fullScreenEnabled=true&posterOnEnd=true&loop=false&poster=video/eh5v.files/html5video/Supershort_text_demo_2.jpg&src=Supershort_text_demo_2.m4v" />
+ <embed src="video/eh5v.files/html5video/flashfox.swf" width="1190" height="720" style="position:relative;"  flashVars="autoplay=true&controls=true&fullScreenEnabled=true&posterOnEnd=true&loop=false&poster=video/eh5v.files/html5video/Supershort_text_demo_2.jpg&src=Supershort_text_demo_2.m4v"	allowFullScreen="true" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_en" />
+<img alt="Supershort text demo 2" src="video/eh5v.files/html5video/Supershort_text_demo_2.jpg" style="position:absolute;left:0;" width="100%" title="Video playback is not supported by your browser" />
 </object>
-</video><div class="eh5v_script"><a href="http://easyhtml5video.com">html5 video converter</a> by EasyHtml5Video.com v3.9.1</div></div>
+</video><div class="eh5v_script"><p class="caption">basic text tool usage</p></div></div>
 <script src="video/eh5v.files/html5video/html5ext.js" type="text/javascript"></script>
-</div>
+		
 
 		
 
 If you right click the text tool, you can find some extra edit options under __edit__.
-You can also click the ☰ icon and choose __edit__.
+You can also (while hovering over a text tool with your mouse) click the ☰ icon and choose __edit__.
 
 ### text tool > style
 
@@ -36,7 +33,7 @@ You can also click the ☰ icon and choose __edit__.
 
 ### text tool > options
 
-If a text is longer than its frame on the weave, a scrollbar is generated automatically. You can control the visibility of the scrollbar in "options." The default setting is "automatic."
+If a text is longer than its frame on the weave, a scrollbar is generated automatically. You can control the visibility of the scrollbar in __options__. The default setting is *automatic*.
 
 ### text tool > history
 [> see history](#history)
@@ -49,16 +46,18 @@ The html tool is for advanced text editing. It is a *what-you-is-what-you-get* r
 
 ### html tool > media
 
-Text is edited in the "media" tab. To preformat the text, choose your settings before typing. The style can also be edited after typing by selecting either the whole page or sections of the page and changing the formatting options as required.
+![media tab](images/html-tool.png)
+
+Text is edited in the __media__ tab. To preformat the text, choose your settings before typing. The style can also be edited after typing by selecting either the whole page or sections of the page and changing the formatting options as required.
 
 *! important: If you copy-paste your text from Word, Pages, LibreOffice, Google Docs or any other text editor,
 please note that not all fonts are available on every computer. Only the fonts that are listed in the RC editor will be rendered correctly for all readers (even if they do not have the font installed on their computer). A better practice is to import the text without any formatting.*
 
 You can choose standard type formats such as bold, italic, or underline, as well as adjusting text alignment, font, and size.
 
-To enlarge the palette, click on the first button, "show/hide toolbars." Here you will find different options for further formats, such as lists, enumerations, citations. It is also possible to create hyperlinks (chain symbol), or to set anchors for navigation.
+To enlarge the palette, click on the first button, __show/hide toolbars__. Here you will find different options for further formats, such as lists, enumerations, citations. It is also possible to create hyperlinks (chain symbol), or to set anchors for navigation.
 
-You can add pictures or further HTML materials such as i-frames (the embedding of HTML pictures or video is not possible with uploaded audio-visual content, which means that you have to publish a URL from an external server to paste it into the dialogue). You can also choose the colour or the background of the text using the colour tools, insert symbols and tables, and control the edits with the "show changes" option.
+You can add pictures or further HTML materials such as i-frames (the embedding of HTML pictures or video is not possible with uploaded audio-visual content, which means that you have to publish a URL from an external server to paste it into the dialogue). You can also choose the colour or the background of the text using the colour tools, insert symbols and tables, and control the edits with the __show changes__ option.
 
 ### html tool > style
 
@@ -66,15 +65,15 @@ You can add pictures or further HTML materials such as i-frames (the embedding o
 
 ### html tool > options
 
-If a text is longer than its frame on the weave, a scrollbar is generated automatically. You can control the visibility of the scrollbar in "options." The default setting is "automatic."
+If a text is longer than its frame on the weave, a scrollbar is generated automatically. You can control the visibility of the scrollbar in __options__. The default setting is *automatic*.
 
 ### html tool > templates
 
-If you want to reuse the content of a html tool, you can create your own templates. This function is found in the "media" tab. After finishing the edit of your template, click "save as new template" and give the template a name in the dialogue box that appears. To load a template, click "load template" and choose one from the list in the dialogue box.
+If you want to reuse the content of a html tool, you can create your own templates. This function is found in the __media__ tab. After finishing the edit of your template, click __save__ __as__ __new__ __template__ and give the template a name in the dialogue box that appears. To load a template, click __load template__ and choose one from the list in the dialogue box.
 
 ### html tool > submit, delete, or cancel
 
-Finally, you have to quit the dialogue. If everything is the way you want it, choose "submit" and the text field will be loaded on the weave. To discard changes to the content, cancel the dialogue box. If you want to delete the whole HTML field, including all content in it, click "delete." Unintended deletions are restorable via "commands" – "restore deleted tools." In that location you can also learn how to restore deleted tools.
+Finally, you have to quit the dialogue. If everything is the way you want it, choose __submit__ and the text field will be loaded on the weave. To discard changes to the content, cancel the dialogue box. If you want to delete the whole HTML field, including all content in it, click __delete__. Unintended deletions are restorable via __commands__ – __restore deleted tools__."In that location you can also learn how to restore deleted tools.
  
 ---
 
@@ -138,7 +137,7 @@ In the options tab one can select from among all audio and video files on the we
 
 ## Picture tool
 
-To add a picture, drag and drop the "picture" icon from the tool palette to the weave. As with all other tools, a pop-up dialogue starts automatically and gives you the choice between "selecting" or "adding" an item. 
+To add a picture, drag and drop the __picture__ icon from the tool palette to the weave. As with all other tools, a pop-up dialogue starts automatically and gives you the choice between "selecting" or "adding" an item. 
 
 You can upload to RC pictures and graphics in the following formats: 
 *jpg, png, tiff, gif, psd, tga, bmp.*
@@ -152,9 +151,9 @@ To add an item, choose "add" and upload the object from your desktop to the RC s
 
 ### picture tool > options
 
-There are different options concerning the properties of a picture and its position in relation to other objects. In the "position" menu in "options," you can specify how the picture relates to other objects: choose between contain, cover, fit, and auto. "Contain" is the default for this field. You also have the option to define the position of the picture in the picture frame (which is not visible in the browser unless you give it a specific style). The position is preset to "centre-centre."
+There are different options concerning the properties of a picture and its position in relation to other objects. In the "position" menu in "options," you can specify how the picture relates to other objects: choose between contain, cover, fit, and auto. *contain* is the default for this field. You also have the option to define the position of the picture in the picture frame (which is not visible in the browser unless you give it a specific style). The position is preset to *centre-centre*.
 
-In "settings" you are able to lock the aspect ratio (the ratio from the width to the height), and you can allow readers to enlarge the image by activating the checkbox "on click open image in popup." If you want to use a picture as a hyperlink, paste a URL into the field "on click open link." It is also possible to show specific information when the cursor is moved over a picture. If the picture is set as a hyperlink, you could for example set plain text to appear that describes where the hyperlink goes to ("more," "...further information," "... go to," "introduction," "summary," etc.). In cases where the picture is of an artwork, or if the picture is the artwork, you could provide the title of the work and the name of the copyright holder. This is also possible by using the option "copyright & plain text." Please note, you can't change the copyright in the "edit picture" tool. To change the name or the copyright text, go to the item in "simple media" and click "edit" (also double click) to open the "edit media" dialogue.
+In __settings__ you are able to lock the aspect ratio (the ratio from the width to the height), and you can allow readers to enlarge the image by activating the checkbox "on click open image in popup." If you want to use a picture as a hyperlink, paste a URL into the field *on click open link*. It is also possible to show specific information when the cursor is moved over a picture. If the picture is set as a hyperlink, you could for example set plain text to appear that describes where the hyperlink goes to ("more," "...further information," "... go to," "introduction," "summary," etc.). In cases where the picture is of an artwork, or if the picture is the artwork, you could provide the title of the work and the name of the copyright holder. This is also possible by using the option *copyright & plain text*. Please note, you can't change the copyright in the "edit picture" tool. To change the name or the copyright text, go to the item in __simple media__ and click __edit__ (also double click) to open the __edit media__ dialogue.
 
 ---
 
@@ -164,7 +163,7 @@ The slideshow tool allows you to create a gallery with pictures and graphics tha
 
 Drag and drop the slideshow icon to the weave to start the edit dialogue box.
 
-To be able to select media you first have to upload an item into "simple media." To add an item, choose "add" and upload the object from your desktop to the RC servers. Next, name the file and make a declaration of the copyright holder. After adding the file, you can edit the style of the picture with the html style standards. To add a sound file to the slide, the file has first to be uploaded to simple media.
+To be able to select media you first have to upload an item into __simple media__. To add an item, choose __add__ and upload the object from your desktop to the RC servers. Next, name the file and make a declaration of the copyright holder. After adding the file, you can edit the style of the picture with the html style standards. To add a sound file to the slide, the file has first to be uploaded to simple media.
 
  
 
@@ -174,11 +173,16 @@ To be able to select media you first have to upload an item into "simple media."
 
 ### slideshow tool > options
 
-In options you can define the position of the picture within the frame. This is important when you are using pictures with different dimensions. In "settings" it is possible to choose to loop the slideshow. If "loop" is checked, after the final slide the slideshow will continue with the first slide again. You can choose whether to hide the navigation bar or whether to give the reader the option to enlarge the picture with a click on the picture in your weave.
+In options you can define the position of the picture within the frame. This is important when you are using pictures with different dimensions. In __settings__ it is possible to choose to loop the slideshow. If __loop__ option is checked, after the final slide the slideshow will continue with the first slide again. You can choose whether to hide the navigation bar or whether to give the reader the option to enlarge the picture with a click on the picture in your weave.
 
-In "automate" you can set the autoplay to run automatically after the first click ("run after click") or after loading the page ("autoplay"). When choosing autoplay you must define the speed the slide will change. You can customise the duration of each slide ("speed per slide") or let each slide change at the default speed.
+In __automate__ you can set the autoplay to:
 
-As mentioned before, you can append audio files to each slide. Please note, you first have to upload the file into your "simple media" folder. In options > audio you can regulate the time of a crossfade (one audio file fades out while a second fades in at a specified time). You can also choose the fade duration and the timeout of an audio file.
+* *run after click* : run automatically after the first click 
+* *autoplay* 		: after loading the page
+
+When choosing *autoplay* you must define the speed the slide will change. You can customise the duration of each slide (*speed per slide*) or let each slide change at the default speed.
+
+As mentioned before, you can append audio files to each slide. Please note, you first have to upload the file into your __simple media__ folder. In __options__, __audio__ you can regulate the time of a crossfade (one audio file fades out while a second fades in at a specified time). You can also choose the fade duration and the timeout of an audio file.
 
 ### shape tool
 
@@ -254,10 +258,32 @@ There you can define, who is responsible for the content (a change or revision, 
 
 Notes are visible on the preview as well. If it is not part of your project please check, that all notes are removed from the weave.
 
-### note tool > style options
+### note tool > text style options
 
 You can use the buttons to directly add the basic stylings, eg. highlight it with bold or italic font or structure it with numerations or lists. You can change the font-family and in- or decrease the indent. You can also insert a link.
 
 ### note tool > history
 
 "History" provides a log of all changes that have been made to the tool. If you have unintentionally deleted a tool, you can restore it using "restore deleted tools" in the commands.
+
+
+## style options
+
+![image showing the style tab of an html tool](images/style-tab.png "the style tab of an html tool")
+
+The style tab allows you to set the way an object looks on the outside.
+Click on the small ">" to open one of these sections:
+
+* position & rotation
+* padding
+* border type, color and width
+* background (color or image)
+* shadow
+* opacity
+
+The style tab only sets the basic (mostly external) style of the object, text markup is done within the text or html tools.
+
+## history
+
+The *history tab* gives you the posibility to change the content __within the tool__ to an older version.
+The versions of a text object are created each time you have clicked outside it (and the three animated dots show inside). With the html tool, a version is created each time you clicked submit.

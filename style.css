@@ -8,7 +8,8 @@ body hr {
 	margin-top:100px;
 }
 
-body p {
+body p,li {
+	text-align: justify ;
 	line-height: 1.8;
 	font-size: 16px;
 }
@@ -28,22 +29,27 @@ h2 {
 }
 
 h3 {
-	font-weight: bold;
-	margin-top:50px;
+	/*margin-top:50px;*/
 	color:rgb(0,80,0);
 	font-size:18px;
 	background-color:#fdfdfd;
 }
 
 h4 {
-font-size:22px;
+    font-size:17px;
 }
 
 h5 {
-font-size:18px;
+    font-size:16px;
 }
 
 img {
     width:475px;
     border:1px solid #000000;
+}
+
+.caption {
+	text-align: center;
+	color: #bfbfbf;
+	font-size:12px;
 }
