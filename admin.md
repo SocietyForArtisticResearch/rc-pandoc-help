@@ -74,6 +74,17 @@ It has 3 actions:
 | Edit portal settings| <img src="images/edit.gif" class="icon">            |
 | Delete a portal     | <img src="images/remove.gif" class="icon">          |
 
+### Portal mail
+![portal mail dialog](images/portal-mail.png "image showing portal mail dialog")
+
+* __testmode__ only sends a test mail to your account
+* __type__ (default/digest/anouncement) currently not used
+* __target__ who is going to receive the mail
+* __content__ enter the text here
+
+For advanced layout, you can use the HTML button. Please note that it is not recommended to use URI encoded images in email, since some email clients do not like this. Better practice is to have the images hosted somewhere externally and link form there using a <xmp> <img src=...> </xmp> tag.
+
+
 ### Portal edit screen
 
 #### common
