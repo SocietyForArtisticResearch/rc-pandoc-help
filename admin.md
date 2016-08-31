@@ -39,16 +39,21 @@ If you are an admin in multiple portals, you can switch between them in the top 
 ### add / edit a user
 
 #### profile
+![user profile dialog](images/user-profile.png "image showing user profile dialog")
 Change the name, alias, email and password (optional).
 An administrator can also change these fields without having to change the password (by leaving the field empty).
 
 #### portal
+![user portal settings dialog](images/user-portal.png "image showing user portal settings")
+
 This controls to which portals a user is added. A user can be added to multiple portals at once. Portals which are selected are marked by a gray background.
 
 #### roles
+![user role settings dialog](images/user-roles.png "image showing user role settings")
 When the option is turned on, the user cannot create any content. The can still become supervisors or read expositions.
 
 #### settings
+![user email settings dialog](images/user-settings.png "image showing user email settings")
 Here you can set which emails the user should receive.
 
 ### log in as a user
@@ -65,9 +70,35 @@ It has 3 actions:
 
 | Action              | Icon                                                |
 | --------------------| --------------------------------------------------- |
-| Portal mail         | <img src="images/mail.png" class="icon">     |
-| Edit portal settings| <img src="images/edit.gif" class="icon">    |
-| Delete a portal     | <img src="images/remove.gif" class="icon">  |
+| Portal mail         | <img src="images/mail.png" class="icon">            |
+| Edit portal settings| <img src="images/edit.gif" class="icon">            |
+| Delete a portal     | <img src="images/remove.gif" class="icon">          |
+
+### Portal edit screen
+
+#### common
+![portal edit common screen](images/portal-edit-common.png "image showing portal edit common dialog")
+Here you can edit the basic information of the portal.
+View text allows you to change the template that is used to display expositions on the portal page:
+available placeholders: $author, $title, $portal, $edition, $published, $url, $now.
+
+#### roles
+![portal edit roles](images/portal-edit-roles.png "image showing the portal roles")
+Here you can edit the various roles of the portal:
+
+* Admins
+* Reviewers (see [reviewing](#reviewing "jump to reviewing"))
+* Contact persons (use this field to add persons that have an rc account)
+* Contact persons (use this for people without an rc account)
+
+#### issues
+![portal edit issues](images/portal-edit-issues.png "image showing portal issues")
+Here you can set the title of the issues (as in journal issues), one can use these in Reviewing.
+
+#### submissions
+![portal edit sumbmissions](images/portal-edit-submissions.png "image showing portal submissions")
+Here you can set which objects can be submitted to the portal.
+
 
 
 
