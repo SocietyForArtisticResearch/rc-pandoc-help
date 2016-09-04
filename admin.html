@@ -9,24 +9,25 @@
   <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 <body>
+<p>pandoc -s -f markdown_github -i admin.md -o admin.html -c style.css</p>
 <h1 id="administration-guide">Administration Guide</h1>
 <h2 id="administration-main-page">Administration Main Page</h2>
 <p>To reach the administration functionalities of the RC website, click on <strong>administration</strong>, located in the top right corner. To return to your own profile, you can click on the Research Catalogue logo.</p>
 <p><img src="images/admin_main.png" title="image showing the administration main page" alt="admin main page" /></p>
 <p>There are 5 pages to manage content for portal admins:</p>
-<ul>
+<ul class="incremental">
 <li><p><a href="#user-page" title="jump to user page documentation"><strong>User</strong></a><br />
 Adding, removing and editing user information to this portal</p></li>
 <li><p><a href="#portal-page" title="jump to portal page"><strong>Portal</strong></a><br />
 Portal settings, reviewers, sending portal mails</p></li>
-<li><p><strong>Research</strong><br />
+<li><p><a href="#research" title="jump to research"><strong>Research</strong></a><br />
 Management of connected expositions</p></li>
-<li><p><strong>Connection Requests</strong><br />
+<li><p><a href="#connection-requests" title="connection requests"><strong>Connection Requests</strong></a><br />
 Management of connection requests</p></li>
-<li><p><strong>Reviewing</strong><br />
+<li><p><a href="#reviewing" title="reviewing"><strong>Reviewing</strong></a><br />
 Review process of expositions and objects that are waiting to be published</p></li>
 </ul>
-<h3 id="multiple-portals">multiple portals:</h3>
+<h4 id="multiple-portals">multiple portals:</h4>
 <p>If you are an admin in multiple portals, you can switch between them in the top right corner of the site, through the drop down menu.</p>
 <h2 id="user-page">User page</h2>
 <p><img src="images/admin-user.png" title="image showing the admin user page" alt="admin user page" /></p>
@@ -100,7 +101,7 @@ It has 3 actions:</p>
 </table>
 <h3 id="portal-mail">Portal mail</h3>
 <p><img src="images/portal-mail.png" title="image showing portal mail dialog" alt="portal mail dialog" /></p>
-<ul>
+<ul class="incremental">
 <li><strong>testmode</strong> only sends a test mail to your account</li>
 <li><strong>type</strong> (default/digest/anouncement) currently not used</li>
 <li><strong>target</strong> who is going to receive the mail</li>
@@ -116,20 +117,51 @@ available placeholders: $author, $title, $portal, $edition, $published, $url, $n
 <h4 id="roles-1">roles</h4>
 <p><img src="images/portal-edit-roles.png" title="image showing the portal roles" alt="portal edit roles" /><br />
 Here you can edit the various roles of the portal:</p>
-<ul>
+<ul class="incremental">
 <li>Admins</li>
 <li>Reviewers (see <a href="#reviewing" title="jump to reviewing">reviewing</a>)</li>
 <li>Contact persons (use this field to add persons that have an rc account)</li>
 <li>Contact persons (use this for people without an rc account)</li>
 </ul>
-<h4 id="issues">issues</h4>
+<h4 id="issues">Issues</h4>
 <p><img src="images/portal-edit-issues.png" title="image showing portal issues" alt="portal edit issues" /><br />
 Here you can set the title of the issues (as in journal issues), one can use these in Reviewing.</p>
 <h4 id="submissions">submissions</h4>
 <p><img src="images/portal-edit-submissions.png" title="image showing portal submissions" alt="portal edit sumbmissions" /><br />
 Here you can set which objects can be submitted to the portal.</p>
 <h2 id="research-page">Research page</h2>
-<h2 id="connection-requists">Connection requists</h2>
+<p>Here you can manage all research connected to the portal. Expositions are sorted per issue. Those without a publishing date, have not been published yet. There are a number of actions available:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Action</th>
+<th>Icon</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Edit</td>
+<td><img src="images/research-icon-edit.png" class="icon"></td>
+</tr>
+<tr class="even">
+<td>Unpublish</td>
+<td><img src="images/research-icon-unpublish.png" class="icon"></td>
+</tr>
+<tr class="odd">
+<td>Comment</td>
+<td><img src="images/research-icon-comment.png" class="icon"></td>
+</tr>
+<tr class="even">
+<td>Block</td>
+<td><img src="images/research-icon-block.png" class="icon"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="unpublishing-an-exposition">Unpublishing an exposition</h3>
+<p>The unpublishing of expositions is not encuraged. Published expositions are supposed to be a permament reference, never to be deleted or changed. If an exposition is to be continuously changed or temporary, it is better to not publish, but simply set its sharing settings to <strong>public</strong>. When unpublishing an exposition make sure with the author of the exposition that there are no connected works that have been deleted since, otherwise it may be impossible to reconstruct the publication.</p>
+<h2 id="connection-requests">Connection requests</h2>
+<p>It is possible for users to connect a work or exposition to a portal. The works that have been accepted by an admin of the protal will be listed here.</p>
+<h2 id="section"></h2>
 <h2 id="reviewing">Reviewing</h2>
 </body>
 </html>

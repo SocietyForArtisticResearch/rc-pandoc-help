@@ -1,3 +1,5 @@
+pandoc -s -f markdown_github -i admin.md -o admin.html -c style.css
+
 # Administration Guide
 
 ## Administration Main Page
@@ -13,16 +15,16 @@ There are 5 pages to manage content for portal admins:
 * [__Portal__](#portal-page "jump to portal page")
   Portal settings, reviewers, sending portal mails
 
-* __Research__  
+* [__Research__](#research "jump to research")  
   Management of connected expositions
 
-* __Connection Requests__  
+* [__Connection Requests__](#connection-requests "connection requests")
   Management of connection requests
 
-* __Reviewing__  
+* [__Reviewing__](#reviewing "reviewing")
   Review process of expositions and objects that are waiting to be published
 
-### multiple portals:
+#### multiple portals:
 If you are an admin in multiple portals, you can switch between them in the top right corner of the site, through the drop down menu.
 
 ## User page
@@ -31,10 +33,10 @@ If you are an admin in multiple portals, you can switch between them in the top 
 
 | Action         | Icon                                                |
 | -------------- | --------------------------------------------------- |
-| Add a user     | <img src="images/add.gif" class="icon">     |
-| Edit a user    | <img src="images/edit.gif" class="icon">    |
-| Remove a user  | <img src="images/remove.gif" class="icon">  |
-| Login as a user| <img src="images/loginas.png" class="icon"> |
+| Add a user     | <img src="images/add.gif" class="icon">    		   |
+| Edit a user    | <img src="images/edit.gif" class="icon">            |
+| Remove a user  | <img src="images/remove.gif" class="icon">          |
+| Login as a user| <img src="images/loginas.png" class="icon">         |
 
 ### add / edit a user
 
@@ -102,7 +104,7 @@ Here you can edit the various roles of the portal:
 * Contact persons (use this field to add persons that have an rc account)
 * Contact persons (use this for people without an rc account)
 
-#### issues
+#### Issues
 ![portal edit issues](images/portal-edit-issues.png "image showing portal issues")
 Here you can set the title of the issues (as in journal issues), one can use these in Reviewing.
 
@@ -110,12 +112,23 @@ Here you can set the title of the issues (as in journal issues), one can use the
 ![portal edit sumbmissions](images/portal-edit-submissions.png "image showing portal submissions")
 Here you can set which objects can be submitted to the portal.
 
-
-
-
-
 ## Research page
+Here you can manage all research connected to the portal. Expositions are sorted per issue. Those without a publishing date, have not been published yet. There are a number of actions available:
 
-## Connection requists
+| Action    | Icon                                                         |
+| --------- | ------------------------------------------------------------ |
+| Edit      | <img src="images/research-icon-edit.png" class="icon">       |
+| Unpublish | <img src="images/research-icon-unpublish.png" class="icon">  |
+| Comment   | <img src="images/research-icon-comment.png" class="icon">    |
+| Block     | <img src="images/research-icon-block.png" class="icon">      |
+
+### Unpublishing an exposition
+The unpublishing of expositions is not encuraged. Published expositions are supposed to be a permament reference, never to be deleted or changed. If an exposition is to be continuously changed or temporary, it is better to not publish, but simply set its sharing settings to __public__.  When unpublishing an exposition make sure with the author of the exposition that there are no connected works that have been deleted since, otherwise it may be impossible to reconstruct the publication. 
+
+## Connection requests
+It is possible for users to connect a work or exposition to a portal. The works that have been accepted by an admin of the portal will be listed here.
+
+##
+
 
 ## Reviewing 
