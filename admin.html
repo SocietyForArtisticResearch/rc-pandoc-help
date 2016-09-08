@@ -9,7 +9,39 @@
   <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 <body>
-<p>pandoc -s -f markdown_github -i admin.md -o admin.html -c style.css</p>
+<div id="TOC">
+<ul class="incremental">
+<li><a href="#administration-guide">Administration Guide</a><ul class="incremental">
+<li><a href="#administration-main-page">Administration Main Page</a><ul class="incremental">
+<li><a href="#multiple-portals">Multiple portals:</a></li>
+</ul></li>
+<li><a href="#user-page">User page</a><ul class="incremental">
+<li><a href="#add-edit-a-user">Add / edit a user</a><ul class="incremental">
+<li><a href="#profile">Profile</a></li>
+<li><a href="#portal">Portal</a></li>
+<li><a href="#roles">Roles</a></li>
+<li><a href="#settings">Settings</a></li>
+</ul></li>
+<li><a href="#log-in-as-a-user">Log in as a user</a></li>
+</ul></li>
+<li><a href="#portal-page">Portal page</a><ul class="incremental">
+<li><a href="#portal-mail">Portal mail</a></li>
+<li><a href="#portal-edit-screen">Portal edit screen</a><ul class="incremental">
+<li><a href="#common">Common</a></li>
+<li><a href="#roles-1">Roles</a></li>
+<li><a href="#issues">Issues</a></li>
+<li><a href="#submissions">Submissions</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#research-page">Research page</a><ul class="incremental">
+<li><a href="#unpublishing-an-exposition">Unpublishing an exposition</a></li>
+</ul></li>
+<li><a href="#connection-requests">Connection requests</a></li>
+<li><a href="#reviewing">Reviewing</a></li>
+</ul></li>
+</ul>
+</div>
+<p>pandoc -s -f markdown_github -i admin.md -o admin.html -c style.css --toc</p>
 <h1 id="administration-guide">Administration Guide</h1>
 <h2 id="administration-main-page">Administration Main Page</h2>
 <p>To reach the administration functionalities of the RC website, click on <strong>administration</strong>, located in the top right corner. To return to your own profile, you can click on the Research Catalogue logo.</p>
@@ -27,7 +59,7 @@ Management of connection requests</p></li>
 <li><p><a href="#reviewing" title="reviewing"><strong>Reviewing</strong></a><br />
 Review process of expositions and objects that are waiting to be published</p></li>
 </ul>
-<h4 id="multiple-portals">multiple portals:</h4>
+<h4 id="multiple-portals">Multiple portals:</h4>
 <p>If you are an admin in multiple portals, you can switch between them in the top right corner of the site, through the drop down menu.</p>
 <h2 id="user-page">User page</h2>
 <p><img src="images/admin-user.png" title="image showing the admin user page" alt="admin user page" /></p>
@@ -57,21 +89,21 @@ Review process of expositions and objects that are waiting to be published</p></
 </tr>
 </tbody>
 </table>
-<h3 id="add-edit-a-user">add / edit a user</h3>
-<h4 id="profile">profile</h4>
+<h3 id="add-edit-a-user">Add / edit a user</h3>
+<h4 id="profile">Profile</h4>
 <p><img src="images/user-profile.png" title="image showing user profile dialog" alt="user profile dialog" /><br />
 Change the name, alias, email and password (optional).<br />
 An administrator can also change these fields without having to change the password (by leaving the field empty).</p>
-<h4 id="portal">portal</h4>
+<h4 id="portal">Portal</h4>
 <p><img src="images/user-portal.png" title="image showing user portal settings" alt="user portal settings dialog" /></p>
 <p>This controls to which portals a user is added. A user can be added to multiple portals at once. Portals which are selected are marked by a gray background.</p>
-<h4 id="roles">roles</h4>
+<h4 id="roles">Roles</h4>
 <p><img src="images/user-roles.png" title="image showing user role settings" alt="user role settings dialog" /><br />
 When the option is turned on, the user cannot create any content. The can still become supervisors or read expositions.</p>
-<h4 id="settings">settings</h4>
+<h4 id="settings">Settings</h4>
 <p><img src="images/user-settings.png" title="image showing user email settings" alt="user email settings dialog" /><br />
 Here you can set which emails the user should receive.</p>
-<h3 id="log-in-as-a-user">log in as a user</h3>
+<h3 id="log-in-as-a-user">Log in as a user</h3>
 <p>While logged in as another user, you will see a red bar on the top of your window that shows who you are and enables you to switch back to your own account. This feature is useful while helping somebody with issues specific to their account.</p>
 <p>Keep in mind: you become this user in all the tabs of your browser window, so you would temporarly loose some of you admin permissions while navigating as this user.</p>
 <h2 id="portal-page">Portal page</h2>
@@ -109,12 +141,12 @@ It has 3 actions:</p>
 </ul>
 <p>For advanced layout, you can use the HTML button. Please note that it is not recommended to use URI encoded images in email, since some email clients do not like this. Better practice is to have the images hosted somewhere externally and link form there using a <xmp> <img src=...> </xmp> tag.</p>
 <h3 id="portal-edit-screen">Portal edit screen</h3>
-<h4 id="common">common</h4>
+<h4 id="common">Common</h4>
 <p><img src="images/portal-edit-common.png" title="image showing portal edit common dialog" alt="portal edit common screen" /><br />
 Here you can edit the basic information of the portal.<br />
 View text allows you to change the template that is used to display expositions on the portal page:<br />
 available placeholders: $author, $title, $portal, $edition, $published, $url, $now.</p>
-<h4 id="roles-1">roles</h4>
+<h4 id="roles-1">Roles</h4>
 <p><img src="images/portal-edit-roles.png" title="image showing the portal roles" alt="portal edit roles" /><br />
 Here you can edit the various roles of the portal:</p>
 <ul class="incremental">
@@ -126,7 +158,7 @@ Here you can edit the various roles of the portal:</p>
 <h4 id="issues">Issues</h4>
 <p><img src="images/portal-edit-issues.png" title="image showing portal issues" alt="portal edit issues" /><br />
 Here you can set the title of the issues (as in journal issues), one can use these in Reviewing.</p>
-<h4 id="submissions">submissions</h4>
+<h4 id="submissions">Submissions</h4>
 <p><img src="images/portal-edit-submissions.png" title="image showing portal submissions" alt="portal edit sumbmissions" /><br />
 Here you can set which objects can be submitted to the portal.</p>
 <h2 id="research-page">Research page</h2>
@@ -160,8 +192,10 @@ Here you can set which objects can be submitted to the portal.</p>
 <h3 id="unpublishing-an-exposition">Unpublishing an exposition</h3>
 <p>The unpublishing of expositions is not encuraged. Published expositions are supposed to be a permament reference, never to be deleted or changed. If an exposition is to be continuously changed or temporary, it is better to not publish, but simply set its sharing settings to <strong>public</strong>. When unpublishing an exposition make sure with the author of the exposition that there are no connected works that have been deleted since, otherwise it may be impossible to reconstruct the publication.</p>
 <h2 id="connection-requests">Connection requests</h2>
-<p>It is possible for users to connect a work or exposition to a portal. The works that have been accepted by an admin of the protal will be listed here.</p>
-<h2 id="section"></h2>
+<p>It is possible for users to connect a work or exposition to a portal. The works that have been accepted by an admin of the portal will be listed here.<br />
+Requests can simply be accepted <strong>V</strong> or rejected <strong>X</strong>.</p>
 <h2 id="reviewing">Reviewing</h2>
+<p>The reviewing page allows managment of expositions that have been applied for publication. Reviewers can be assigned to works that are not yet published. There are two styles of reviewing: single blind or double blind. Single blind means that the author cannot see the reviewers. Double blind means that the reviewers cannot see each other.</p>
+<p>To edit the</p>
 </body>
 </html>

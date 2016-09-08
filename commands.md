@@ -1,4 +1,4 @@
-## commands tab
+# commands tab
 
 contain extra tools and settings for use in the workspace editor. 
 

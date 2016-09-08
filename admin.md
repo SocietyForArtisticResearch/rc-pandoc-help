@@ -1,4 +1,4 @@
-pandoc -s -f markdown_github -i admin.md -o admin.html -c style.css
+pandoc -s -f markdown_github -i admin.md -o admin.html -c style.css --toc
 
 # Administration Guide
 
@@ -24,7 +24,7 @@ There are 5 pages to manage content for portal admins:
 * [__Reviewing__](#reviewing "reviewing")
   Review process of expositions and objects that are waiting to be published
 
-#### multiple portals:
+#### Multiple portals:
 If you are an admin in multiple portals, you can switch between them in the top right corner of the site, through the drop down menu.
 
 ## User page
@@ -38,32 +38,30 @@ If you are an admin in multiple portals, you can switch between them in the top 
 | Remove a user  | <img src="images/remove.gif" class="icon">          |
 | Login as a user| <img src="images/loginas.png" class="icon">         |
 
-### add / edit a user
+### Add / edit a user dialog
 
-#### profile
+#### Profile
 ![user profile dialog](images/user-profile.png "image showing user profile dialog")
 Change the name, alias, email and password (optional).
 An administrator can also change these fields without having to change the password (by leaving the field empty).
 
-#### portal
+#### Portal
 ![user portal settings dialog](images/user-portal.png "image showing user portal settings")
 
 This controls to which portals a user is added. A user can be added to multiple portals at once. Portals which are selected are marked by a gray background.
 
-#### roles
+#### Roles
 ![user role settings dialog](images/user-roles.png "image showing user role settings")
 When the option is turned on, the user cannot create any content. The can still become supervisors or read expositions.
 
-#### settings
+#### Settings
 ![user email settings dialog](images/user-settings.png "image showing user email settings")
 Here you can set which emails the user should receive.
 
-### log in as a user
-While logged in as another user, you will see a red bar on the top of your window that shows who you are and enables you to switch back to your own account. This feature is useful while helping somebody with issues specific to their account.
+### Log in as a user
+The admins can log in as another user, for example to help resolve issues with a specific account. While logged in as another user, you will see a red bar on the top of your window that shows who you are and enables you to switch back to your own account. This feature is useful while helping somebody with issues specific to their account.
 
 Keep in mind: you become this user in all the tabs of your browser window, so you would temporarly loose some of you admin permissions while navigating as this user.
-
-
 
 ## Portal page
 
@@ -89,13 +87,13 @@ For advanced layout, you can use the HTML button. Please note that it is not rec
 
 ### Portal edit screen
 
-#### common
+#### Common
 ![portal edit common screen](images/portal-edit-common.png "image showing portal edit common dialog")
 Here you can edit the basic information of the portal.
 View text allows you to change the template that is used to display expositions on the portal page:
 available placeholders: $author, $title, $portal, $edition, $published, $url, $now.
 
-#### roles
+#### Roles
 ![portal edit roles](images/portal-edit-roles.png "image showing the portal roles")
 Here you can edit the various roles of the portal:
 
@@ -108,7 +106,7 @@ Here you can edit the various roles of the portal:
 ![portal edit issues](images/portal-edit-issues.png "image showing portal issues")
 Here you can set the title of the issues (as in journal issues), one can use these in Reviewing.
 
-#### submissions
+#### Submissions
 ![portal edit sumbmissions](images/portal-edit-submissions.png "image showing portal submissions")
 Here you can set which objects can be submitted to the portal.
 
@@ -127,8 +125,11 @@ The unpublishing of expositions is not encuraged. Published expositions are supp
 
 ## Connection requests
 It is possible for users to connect a work or exposition to a portal. The works that have been accepted by an admin of the portal will be listed here.
+Requests can simply be accepted __V__ or rejected __X__.
 
-##
 
+## Reviewing
+The reviewing page allows managment of expositions that have been applied for publication. Reviewers can be assigned to works that are not yet published. There are two styles of reviewing: single blind or double blind. Single blind means that the author cannot see the reviewers. Double blind means that the reviewers cannot see each other. 
 
-## Reviewing 
+To edit the 
+

@@ -1,6 +1,7 @@
 *note to self:*
 __pandoc -s tools.md -o tools.html -c style.css__
 
+# Research Catalogue Workspace Tools
 
 ## text tool
 
