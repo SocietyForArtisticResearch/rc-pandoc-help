@@ -1,14 +1,23 @@
-*note to self:*
-__pandoc -s tools.md -o tools.html -c style.css__
+<!--pandoc -s tools.md -o tools.html -c style.css-->
 
 # Research Catalogue Workspace Tools
 
 ## text tool
 
-The text tool is designed for quickly adding text. Compared to the html tool, the text tool allows you to edit your text in the page, while the html tool works within a dialog. The text tool is a bit more limited in terms of text formatting options, so if you need more styling options, use the html-tool. 
+The text tool is for quickly adding text. 
 
 The text tool has two states: when in *active state* you can change the text, if you click outside, you can move the object and change the size of the outer box. Double click inside to start editing the text again. Content is saved as soon as you exit the text editing state.
 
+If you right click the text tool, you can find some extra edit options under __edit__.
+You can also (while hovering over a text tool with your mouse) click the ☰ icon and choose __edit__.
+
+Compared to the html tool, the text tool allows you to edit your text directly in the page, while the html tool works within a dialog. If you need more styling options, use the html-tool. A text tool can be converted to an HTML tool via the menu option __convert to HTML tool__.
+
+For a visual tutorial see this [link](https://www.researchcatalogue.net/view/273532/273533/0/937 "link to video tutorials").
+
+<!-- insert link to video tutorials -->
+
+<!--
 <div class="easyhtml5video" style="position:relative;max-width:1190px;"><video controls="controls"  autoplay="autoplay" poster="video/eh5v.files/html5video/Supershort_text_demo_2.jpg" style="width:100%" title="Supershort text demo 2">
 <source src="video/eh5v.files/html5video/Supershort_text_demo_2.m4v" type="video/mp4" />
 <source src="video/eh5v.files/html5video/Supershort_text_demo_2.webm" type="video/webm" />
@@ -21,12 +30,12 @@ The text tool has two states: when in *active state* you can change the text, if
 </object>
 </video><div class="eh5v_script"><p class="caption">basic text tool usage</p></div></div>
 <script src="video/eh5v.files/html5video/html5ext.js" type="text/javascript"></script>
+-->
 		
 
 		
 
-If you right click the text tool, you can find some extra edit options under __edit__.
-You can also (while hovering over a text tool with your mouse) click the ☰ icon and choose __edit__.
+
 
 ### text tool > style
 
@@ -56,11 +65,11 @@ please note that not all fonts are available on every computer. Only the fonts t
 
 You can choose standard type formats such as bold, italic, or underline, as well as adjusting text alignment, font, and size.
 
-To enlarge the palette, click on the first button, __show/hide toolbars__. Here you will find different options for further formats, such as lists, enumerations, citations. It is also possible to create hyperlinks (chain symbol), or to set anchors for navigation. If you hover over an icon you can get a short text description of the function. The top right button opens the editor in fulls screen (very handy!) 
+To enlarge the palette, click on the first button, __show/hide toolbars__. Here you will find different options for further formats, such as lists, enumerations, citations. It is also possible to create hyperlinks (chain symbol), or to set anchors for navigation. If you hover over an icon you can get a short text description of the function. The top right button opens the editor in fullscreen.
 
 ![html extended tool options](images/html-tool-bar-extended.png) 
 
-You can add pictures or further HTML materials such as i-frames (the embedding of HTML pictures or video is not possible with uploaded audio-visual content, which means that you have to publish a URL from an external server to paste it into the dialogue). You can also choose the colour or the background of the text using the colour tools, insert symbols and tables, and control the edits with the __show changes__ option.
+You can add pictures or further HTML materials such as i-frames (the embedding of HTML pictures or video is not possible with uploaded audio-visual content, which means that you have to publish a URL from an external server to paste it into the dialog). You can also choose the colour or the background of the text using the colour tools, insert symbols and tables, and control the edits with the __show changes__ option.
 
 ### html tool > style
 
@@ -72,11 +81,11 @@ If a text is longer than its frame on the weave, a scrollbar is generated automa
 
 ### html tool > templates
 
-If you want to reuse the content of a html tool, you can create your own templates. This function is found in the __media__ tab. After finishing the edit of your template, click __save__ __as__ __new__ __template__ and give the template a name in the dialogue box that appears. To load a template, click __load template__ and choose one from the list in the dialogue box.
+If you want to reuse the content of a html tool, you can create your own templates. This function is found in the __media__ tab. After finishing the edit of your template, click __save__ __as__ __new__ __template__ and give the template a name in the dialog box that appears. To load a template, click __load template__ and choose one from the list in the dialog box.
 
 ### html tool > submit, delete, or cancel
 
-Finally, you have to quit the dialogue. If everything is the way you want it, choose __submit__ and the text field will be loaded on the weave. To discard changes to the content, cancel the dialogue box. If you want to delete the whole HTML field, including all content in it, click __delete__. Unintended deletions are restorable via __commands__ – __restore deleted tools__."In that location you can also learn how to restore deleted tools.
+Finally, you have to quit the dialog. If everything is the way you want it, choose __submit__ and the text field will be loaded on the weave. To discard changes to the content, cancel the dialog box. If you want to delete the whole HTML field, including all content in it, click __delete__. Unintended deletions are restorable via __commands__ – __restore deleted tools__."In that location you can also learn how to restore deleted tools.
  
 ---
 
@@ -84,7 +93,7 @@ Finally, you have to quit the dialogue. If everything is the way you want it, ch
 
 As with the other tools, you can use the video tool by dragging it from the tool palette and dropping it onto the weave.
 
-In the dialogue box that appears you have the opportunity to add items from your computer or select items from the "simple media" folder.
+In the dialog box that appears you have the opportunity to add items from your computer or select items from the "simple media" folder.
 At the moment, RC supports the following formats: *avi, mov, mp4, mpg* video container formats; *dv1394, h.264, mpeg2, mpeg1, mjepeg* video codec formats.
 
 Please note also our general format information in FAQ 2.5: http://www.researchcatalogue.net/portal/faq
@@ -102,17 +111,16 @@ We highly recommend using low-size video files. People without a fast internet c
 
 ### video tool > options
 
-As with other players, the RC video player has different settings you can change, use, or specify.
+The video player has a couple of options:
 
 - __loop__
-You can select if the video should play in a loop or stop at the end of the file. To set the player on loop, click the checkbox. The player starts and loops the file after being activated by pressing play. 
+Loops the video when it reaches the end.
 
 - __autoplay__ 
 The player starts to run the file when the page is loaded. 
 
 - __stop other players__
-
-If you are using multiple video players on the same weave and your page is quite big, visitors may find it helpful if you prevent overlapping by defining which player is playing. With this option selected, all players (video player, audio player on slideshows, other audio players) will stop when the selected player is running a file. When multiplaying is intended, we encourage you to use the play tool.
+If you are using multiple video players on the same weave and your page is quite big, visitors may find it helpful if you prevent overlapping by defining which player is playing. With this option selected, all players (video player, audio player on slideshows, other audio players) will stop when the selected player is running a file. When multiplaying is intended, we encourage you to use the [play tool](#play-tool "jump to play tool help").
 
 - __display minimal__
 When checked, the player constists of only the play button and the process bar.
@@ -140,7 +148,7 @@ In the options tab one can select from among all audio and video files on the we
 
 ## Picture tool
 
-To add a picture, drag and drop the __picture__ icon from the tool palette to the weave. As with all other tools, a pop-up dialogue starts automatically and gives you the choice between "selecting" or "adding" an item. 
+To add a picture, drag and drop the __picture__ icon from the tool palette to the weave. As with all other tools, a pop-up dialog starts automatically and gives you the choice between "selecting" or "adding" an item. 
 
 You can upload to RC pictures and graphics in the following formats: 
 *jpg, png, tiff, gif, psd, tga, bmp.*
@@ -156,7 +164,7 @@ To add an item, choose "add" and upload the object from your desktop to the RC s
 
 There are different options concerning the properties of a picture and its position in relation to other objects. In the "position" menu in "options," you can specify how the picture relates to other objects: choose between contain, cover, fit, and auto. *contain* is the default for this field. You also have the option to define the position of the picture in the picture frame (which is not visible in the browser unless you give it a specific style). The position is preset to *centre-centre*.
 
-In __settings__ you are able to lock the aspect ratio (the ratio from the width to the height), and you can allow readers to enlarge the image by activating the checkbox "on click open image in popup." If you want to use a picture as a hyperlink, paste a URL into the field *on click open link*. It is also possible to show specific information when the cursor is moved over a picture. If the picture is set as a hyperlink, you could for example set plain text to appear that describes where the hyperlink goes to ("more," "...further information," "... go to," "introduction," "summary," etc.). In cases where the picture is of an artwork, or if the picture is the artwork, you could provide the title of the work and the name of the copyright holder. This is also possible by using the option *copyright & plain text*. Please note, you can't change the copyright in the "edit picture" tool. To change the name or the copyright text, go to the item in __simple media__ and click __edit__ (also double click) to open the __edit media__ dialogue.
+In __settings__ you are able to lock the aspect ratio (the ratio from the width to the height), and you can allow readers to enlarge the image by activating the checkbox "on click open image in popup." If you want to use a picture as a hyperlink, paste a URL into the field *on click open link*. It is also possible to show specific information when the cursor is moved over a picture. If the picture is set as a hyperlink, you could for example set plain text to appear that describes where the hyperlink goes to ("more," "...further information," "... go to," "introduction," "summary," etc.). In cases where the picture is of an artwork, or if the picture is the artwork, you could provide the title of the work and the name of the copyright holder. This is also possible by using the option *copyright & plain text*. Please note, you can't change the copyright in the "edit picture" tool. To change the name or the copyright text, go to the item in __simple media__ and click __edit__ (also double click) to open the __edit media__ dialog.
 
 ---
 
@@ -164,7 +172,7 @@ In __settings__ you are able to lock the aspect ratio (the ratio from the width 
 
 The slideshow tool allows you to create a gallery with pictures and graphics that can be displayed in a loop. You can start the slideshow in autoplay and you can add an audio file to each picture of the slideshow.
 
-Drag and drop the slideshow icon to the weave to start the edit dialogue box.
+Drag and drop the slideshow icon to the weave to start the edit dialog box.
 
 To be able to select media you first have to upload an item into __simple media__. To add an item, choose __add__ and upload the object from your desktop to the RC servers. Next, name the file and make a declaration of the copyright holder. After adding the file, you can edit the style of the picture with the html style standards. To add a sound file to the slide, the file has first to be uploaded to simple media.
 
@@ -193,9 +201,9 @@ The play shape tool is made for a simple usage of grafic elements in the RC. You
  
 --- 
 
-## Audio tool
+## audio tool
 
-As with the other tools, use the audio tool by dragging and dropping the icon from the tool palette to the weave. A pop-up dialogue starts automatically and gives you the choice between "selecting" or "adding" an item. 
+As with the other tools, use the audio tool by dragging and dropping the icon from the tool palette to the weave. A pop-up dialog starts automatically and gives you the choice between "selecting" or "adding" an item. 
 
 You can upload to RC pictures and graphics in the following formats: ogg, wav, mov, au, mp4 audio container formats; mp2, mp3, aac, pcm a-law, flac audio codec formats.
 
@@ -217,10 +225,20 @@ http://www.researchcatalogue.net/portal/faq or contact the RC User Support.
 
 ### audio tool > options
 
-As in other players, the RC audio player has different settings you can change, use, or specify.
+The audio player has a number of settings:
 
-First you can choose whether the audio should play in a loop or finish at the end of the file. To set the player to loop, click the checkbox "loop." The player will then start and loop the file when it is activated by pressing play. To let the audio start without an active click, you can choose the option "autoplay." If this box is checked, the player starts to run the file when the page is loaded. If you are using more than one audio player on the same weave and your page is quite big, visitors may find it helpful if you prevent overlapping by defining which player is playing. To do this, use the checkbox "stop other players." If this option is chosen, all players (video player, audio player on slideshows, other audio players) will stop when the selected player is running the file.
+* __loop__
+Will loop the playback when it reaches the end of the file.
 
+* __autoplay__ 
+The player starts to run the file when the page is loaded. 
+
+* __stop other players__
+
+If you are using multiple audio (or video) players on the same weave and your page is quite big, visitors may find it helpful if you prevent overlapping by defining which player is playing. With this option selected, all players (video player, audio player on slideshows, other audio players) will stop when the selected player is running a file. When simultanious playback is intended, it may be helpful to use the play tool.
+
+* __display minimal__
+When checked, the player constists of only the play button and the process bar. 
 
 You can also define some visual player settings. You can hide the whole menu bar or you can set the visibility of the volume or define if you want a player with as few options as possible. When "display minimal" is checked, the player consists only of the play button and the process bar.
 
@@ -238,7 +256,7 @@ The PDF tools give you the opportunity to attach longer text documents to the RC
 After dragging the icon to the weave, you can upload the pdf in the "edit pdf" tool. You can also choose a pdf from "simple media" if it has been uploaded previously. An alternative way to upload is to click the "+" below "simple media."
 
 
-In the uploading dialogue box, you can choose to represent the PDF in your exposition either with a preview image of the file or with a different picture.
+In the uploading dialog box, you can choose to represent the PDF in your exposition either with a preview image of the file or with a different picture.
 
  
 
@@ -248,7 +266,7 @@ In the uploading dialogue box, you can choose to represent the PDF in your expos
 
 ### pdf tool > options
 
-RC gives you and your reader the possibility to read the PDF directly in the browser if the browser supports this. To use this option check "display in browser" in option > settings of the "edit pdf" tool dialogue box. As in the picture tool, you can provide further information using the hover option. To do this, select one of the options in the "show on hover" pull-down menu. In addition, you can create a plain text to be displayed when the reader's mouse hovers over the PDF preview. To use this, choose "plain text" or "copyright & plain text" from the pull-down menu and write your text in the text field below.
+RC gives you and your reader the possibility to read the PDF directly in the browser if the browser supports this. To use this option check "display in browser" in option > settings of the "edit pdf" tool dialog box. As in the picture tool, you can provide further information using the hover option. To do this, select one of the options in the "show on hover" pull-down menu. In addition, you can create a plain text to be displayed when the reader's mouse hovers over the PDF preview. To use this, choose "plain text" or "copyright & plain text" from the pull-down menu and write your text in the text field below.
 
  
 

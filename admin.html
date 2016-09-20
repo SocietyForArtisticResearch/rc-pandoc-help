@@ -9,45 +9,13 @@
   <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 <body>
-<div id="TOC">
-<ul class="incremental">
-<li><a href="#administration-guide">Administration Guide</a><ul class="incremental">
-<li><a href="#administration-main-page">Administration Main Page</a><ul class="incremental">
-<li><a href="#multiple-portals">Multiple portals:</a></li>
-</ul></li>
-<li><a href="#user-page">User page</a><ul class="incremental">
-<li><a href="#add-edit-a-user">Add / edit a user</a><ul class="incremental">
-<li><a href="#profile">Profile</a></li>
-<li><a href="#portal">Portal</a></li>
-<li><a href="#roles">Roles</a></li>
-<li><a href="#settings">Settings</a></li>
-</ul></li>
-<li><a href="#log-in-as-a-user">Log in as a user</a></li>
-</ul></li>
-<li><a href="#portal-page">Portal page</a><ul class="incremental">
-<li><a href="#portal-mail">Portal mail</a></li>
-<li><a href="#portal-edit-screen">Portal edit screen</a><ul class="incremental">
-<li><a href="#common">Common</a></li>
-<li><a href="#roles-1">Roles</a></li>
-<li><a href="#issues">Issues</a></li>
-<li><a href="#submissions">Submissions</a></li>
-</ul></li>
-</ul></li>
-<li><a href="#research-page">Research page</a><ul class="incremental">
-<li><a href="#unpublishing-an-exposition">Unpublishing an exposition</a></li>
-</ul></li>
-<li><a href="#connection-requests">Connection requests</a></li>
-<li><a href="#reviewing">Reviewing</a></li>
-</ul></li>
-</ul>
-</div>
-<p>pandoc -s -f markdown_github -i admin.md -o admin.html -c style.css --toc</p>
+<!-- pandoc -s -f markdown_github -i admin.md -o admin.html -c style.css --toc -->
 <h1 id="administration-guide">Administration Guide</h1>
 <h2 id="administration-main-page">Administration Main Page</h2>
 <p>To reach the administration functionalities of the RC website, click on <strong>administration</strong>, located in the top right corner. To return to your own profile, you can click on the Research Catalogue logo.</p>
 <p><img src="images/admin_main.png" title="image showing the administration main page" alt="admin main page" /></p>
 <p>There are 5 pages to manage content for portal admins:</p>
-<ul class="incremental">
+<ul>
 <li><p><a href="#user-page" title="jump to user page documentation"><strong>User</strong></a><br />
 Adding, removing and editing user information to this portal</p></li>
 <li><p><a href="#portal-page" title="jump to portal page"><strong>Portal</strong></a><br />
@@ -89,7 +57,7 @@ Review process of expositions and objects that are waiting to be published</p></
 </tr>
 </tbody>
 </table>
-<h3 id="add-edit-a-user">Add / edit a user</h3>
+<h3 id="add-edit-a-user-dialog">Add / edit a user dialog</h3>
 <h4 id="profile">Profile</h4>
 <p><img src="images/user-profile.png" title="image showing user profile dialog" alt="user profile dialog" /><br />
 Change the name, alias, email and password (optional).<br />
@@ -104,7 +72,7 @@ When the option is turned on, the user cannot create any content. The can still 
 <p><img src="images/user-settings.png" title="image showing user email settings" alt="user email settings dialog" /><br />
 Here you can set which emails the user should receive.</p>
 <h3 id="log-in-as-a-user">Log in as a user</h3>
-<p>While logged in as another user, you will see a red bar on the top of your window that shows who you are and enables you to switch back to your own account. This feature is useful while helping somebody with issues specific to their account.</p>
+<p>The admins can log in as another user, for example to help resolve issues with a specific account. While logged in as another user, you will see a red bar on the top of your window that shows who you are and enables you to switch back to your own account. This feature is useful while helping somebody with issues specific to their account.</p>
 <p>Keep in mind: you become this user in all the tabs of your browser window, so you would temporarly loose some of you admin permissions while navigating as this user.</p>
 <h2 id="portal-page">Portal page</h2>
 <p>The portal tab shows you which users are administrators on the portal.<br />
@@ -133,7 +101,7 @@ It has 3 actions:</p>
 </table>
 <h3 id="portal-mail">Portal mail</h3>
 <p><img src="images/portal-mail.png" title="image showing portal mail dialog" alt="portal mail dialog" /></p>
-<ul class="incremental">
+<ul>
 <li><strong>testmode</strong> only sends a test mail to your account</li>
 <li><strong>type</strong> (default/digest/anouncement) currently not used</li>
 <li><strong>target</strong> who is going to receive the mail</li>
@@ -149,7 +117,7 @@ available placeholders: $author, $title, $portal, $edition, $published, $url, $n
 <h4 id="roles-1">Roles</h4>
 <p><img src="images/portal-edit-roles.png" title="image showing the portal roles" alt="portal edit roles" /><br />
 Here you can edit the various roles of the portal:</p>
-<ul class="incremental">
+<ul>
 <li>Admins</li>
 <li>Reviewers (see <a href="#reviewing" title="jump to reviewing">reviewing</a>)</li>
 <li>Contact persons (use this field to add persons that have an rc account)</li>
@@ -195,7 +163,10 @@ Here you can set which objects can be submitted to the portal.</p>
 <p>It is possible for users to connect a work or exposition to a portal. The works that have been accepted by an admin of the portal will be listed here.<br />
 Requests can simply be accepted <strong>V</strong> or rejected <strong>X</strong>.</p>
 <h2 id="reviewing">Reviewing</h2>
-<p>The reviewing page allows managment of expositions that have been applied for publication. Reviewers can be assigned to works that are not yet published. There are two styles of reviewing: single blind or double blind. Single blind means that the author cannot see the reviewers. Double blind means that the reviewers cannot see each other.</p>
-<p>To edit the</p>
+<p>The reviewing page allows managment of expositions that have been applied for publication by the author. Reviewers can be assigned to these works. There are two styles of reviewing: single blind or double blind. Single blind means that the author cannot see the reviewers. Double blind means that the reviewers cannot see each other.</p>
+<p>On the koncon portal, supervisor notes can be seen by reviewers.</p>
+<p><img src="images/reviewing-edit-request.png" title="image showing edit reviewing screen" alt="reviewing edit reviewers dialog" /></p>
+<p>Review tag and comment can be used by the admin to organize the current in review documents.</p>
+<p>It is also possible to change supervisors while a</p>
 </body>
 </html>

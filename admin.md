@@ -1,10 +1,10 @@
-pandoc -s -f markdown_github -i admin.md -o admin.html -c style.css --toc
+<!-- pandoc -s -f markdown_github -i admin.md -o admin.html -c style.css -->
 
 # Administration Guide
 
 ## Administration Main Page
 
-To reach the administration functionalities of the RC website, click on __administration__, located in the top right corner. To return to your own profile, you can click on the Research Catalogue logo. 
+To reach the administration functionalities of the RC website, click on __administration__, located in the top right corner. To return to your own profile, you can click on the Research Catalogue logo. Only portal admins have access to these pages.
 
 ![admin main page](images/admin_main.png "image showing the administration main page")
 
@@ -15,7 +15,7 @@ There are 5 pages to manage content for portal admins:
 * [__Portal__](#portal-page "jump to portal page")
   Portal settings, reviewers, sending portal mails
 
-* [__Research__](#research "jump to research")  
+* [__Research__](#research-page "jump to research")  
   Management of connected expositions
 
 * [__Connection Requests__](#connection-requests "connection requests")
@@ -129,7 +129,31 @@ Requests can simply be accepted __V__ or rejected __X__.
 
 
 ## Reviewing
-The reviewing page allows managment of expositions that have been applied for publication. Reviewers can be assigned to works that are not yet published. There are two styles of reviewing: single blind or double blind. Single blind means that the author cannot see the reviewers. Double blind means that the reviewers cannot see each other. 
+The reviewing page allows managment of expositions that have been applied for publication by the author. Reviewers can be assigned to these works. There are two styles of reviewing: single blind or double blind. Single blind means that the author cannot see the reviewers. Double blind means that the reviewers cannot see each other. 
 
-To edit the 
+Please note that within the KonCon portal, supervisor notes can be seen by reviewers.
+
+![reviewing edit reviewers dialog](images/reviewing-edit-request.png "image showing edit reviewing dialog")
+
+Review tag and comment can be used by the admin to organize the current in review documents.
+
+It is also possible to change supervisors in the collaboration tab. Please note that only the admin can change collaborators, the author cannot change anything during review.
+
+![reviewing edit collaboration dialog](images/edit-publish-collaboration.png "image showing edit collaborators dialog");
+
+Once the reviewing process is complete, there are three scopes in which the research can be published:
+
+| Publish               | Visibility                             |
+| --------------------- | -------------------------------------- | 
+| Restricted to portal  | Only visible to members of the portal  |
+| Limited               | Only visible to members of the RC      |
+| Unlimited             | Visible to everyone                    |
+
+If you reject a request for publication, it is possible to edit the standard message that is sent to the author of the exposition.
+
+
+
+
+
+
 
