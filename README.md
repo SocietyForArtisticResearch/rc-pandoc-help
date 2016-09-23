@@ -16,4 +16,4 @@ https://github.com/jakov/js-pandoc
 
 This is the PANDOC command I use for my md files:
 
-pandoc -s *.md  -o output.html -c buttondown.css --toc -f markdown_github
+pandoc -s *.md -o output.html  -c style.css --toc -f markdown_github
