@@ -1,7 +1,12 @@
+#TOC {
+  margin-top:20px;
+}
+
 body {
 	font-family: helvetica, arial, sans-serif;
 	margin:auto;
 	width:60%;
+  min-width:280px;
 }
 
 body hr {
@@ -30,13 +35,11 @@ h1 {
 
 h2 {
 	margin-top:30px;
-	color:rgb(150,0,0);
 	font-size:36px;
 }
 
 h3 {
 	/*margin-top:50px;*/
-	color:rgb(0,80,0);
 	font-size:18px;
 	background-color:#fdfdfd;
 }
@@ -50,7 +53,7 @@ h5 {
 }
 
 img {
-    width:475px;
+    width:320px;
     border:1px solid #000000;
 }
 

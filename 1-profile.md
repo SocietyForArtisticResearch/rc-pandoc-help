@@ -1,4 +1,4 @@
-
+<div style="font-size:12px;position:fixed;top:0px;padding-top:5px;left:5px;background-color:#fff;width:100%;"><a href="#TOC">back to table of contents</a></div>
 
 # Profile
 
@@ -86,7 +86,6 @@ Please note that publishing is a one-way action, once published one can not  unp
 * __Delete__ Delete an exposition or work from the catalogue.
 
 ![object menu location](images/hamburger_location.png "image showing location of menu button")
-![the object menu](images/menu.png "object showing the menu")
 
 [back to top](#profile)
 
