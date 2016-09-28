@@ -24,10 +24,10 @@ There are 5 pages to manage content for portal admins:
 * [__Reviewing__](#reviewing "reviewing")
   Review process of expositions and objects that are waiting to be published
 
-#### Multiple portals:
+#### Multiple Portals:
 If you are an admin in multiple portals, you can switch between them in the top right corner of the site, through the drop down menu.
 
-## User page
+## User Page
 
 ![admin user page](images/admin-user.png "image showing the admin user page") 
 
@@ -38,23 +38,23 @@ If you are an admin in multiple portals, you can switch between them in the top 
 | Remove a user  | <img src="images/remove.gif" class="icon">          |
 | Login as a user| <img src="images/loginas.png" class="icon">         |
 
-### Add / edit a user dialog
+### Add / Edit A User Dialog
 
-#### Profile
+### Profile
 ![user profile dialog](images/user-profile.png "image showing user profile dialog")
 Change the name, alias, email and password (optional).
 An administrator can also change these fields without having to change the password (by leaving the field empty).
 
-#### Portal
+### Portal
 ![user portal settings dialog](images/user-portal.png "image showing user portal settings")
 
 This controls to which portals a user is added. A user can be added to multiple portals at once. Portals which are selected are marked by a gray background.
 
-#### Roles
+### Roles
 ![user role settings dialog](images/user-roles.png "image showing user role settings")
 When the option is turned on, the user cannot create any content. The can still become supervisors or read expositions.
 
-#### Settings
+### Settings
 ![user email settings dialog](images/user-settings.png "image showing user email settings")
 Here you can set which emails the user should receive.
 
@@ -85,15 +85,15 @@ It has 3 actions:
 For advanced layout, you can use the HTML button. Please note that it is not recommended to use URI encoded images in email, since some email clients do not like this. Better practice is to have the images hosted somewhere externally and link form there using a <xmp> <img src=...> </xmp> tag.
 
 
-### Portal edit screen
+## Portal Edit Screen
 
-#### Common
+### Common
 ![portal edit common screen](images/portal-edit-common.png "image showing portal edit common dialog")
 Here you can edit the basic information of the portal.
 View text allows you to change the template that is used to display expositions on the portal page:
 available placeholders: $author, $title, $portal, $edition, $published, $url, $now.
 
-#### Roles
+### Roles
 ![portal edit roles](images/portal-edit-roles.png "image showing the portal roles")
 Here you can edit the various roles of the portal:
 
@@ -102,11 +102,11 @@ Here you can edit the various roles of the portal:
 * Contact persons (use this field to add persons that have an rc account)
 * Contact persons (use this for people without an rc account)
 
-#### Issues
+### Issues
 ![portal edit issues](images/portal-edit-issues.png "image showing portal issues")
 Here you can set the title of the issues (as in journal issues), one can use these in Reviewing.
 
-#### Submissions
+### Submissions
 ![portal edit sumbmissions](images/portal-edit-submissions.png "image showing portal submissions")
 Here you can set which objects can be submitted to the portal.
 
@@ -123,7 +123,7 @@ Here you can manage all research connected to the portal. Expositions are sorted
 ### Unpublishing an exposition
 The unpublishing of expositions is not encuraged. Published expositions are supposed to be a permament reference, never to be deleted or changed. If an exposition is to be continuously changed or temporary, it is better to not publish, but simply set its sharing settings to __public__.  When unpublishing an exposition make sure with the author of the exposition that there are no connected works that have been deleted since, otherwise it may be impossible to reconstruct the publication. 
 
-## Connection requests
+## Connection Requests
 It is possible for users to connect a work or exposition to a portal. The works that have been accepted by an admin of the portal will be listed here.
 Requests can simply be accepted __V__ or rejected __X__.
 

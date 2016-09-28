@@ -1,6 +1,6 @@
 # Follow and Search
 
-#### Follow 
+### Follow 
 
 It is possible to "follow" other users, portals, and objects such as
 expositions and works.  Once you are logged in you will see "follow"
@@ -12,7 +12,7 @@ displayed on the "FEEDS" page. Clicking the wrench icon opens up a
 dialog in which you can adjust the precise information you want to see
 for each user, portal or object you follow.
 
-#### Search
+### Search
 
 You can search the RC by using the search field in the top right
 corner. Moreover you can use the "advanced search" functionality,
