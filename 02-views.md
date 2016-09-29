@@ -13,7 +13,7 @@ What follows now is a description of the various options in the navigation bar o
 
 ### Content
 Within the preview you can open content to get the table of contents.  At the bottom of the list a link to your personal profile and that of your co-authors can be found.
-To change the elements of the content list, please see the help section on [table of content](#table-of-content).
+To change the elements of the content list, please see the help section on [table of contents](#table-of-contents).
 
 ### Navigation
 Navigation is a (simplified) graphical map of all the exposition's content on the current weave. You can click on this map to jump to a certain location of the exposition page.
@@ -36,7 +36,7 @@ Terms of use leeds you and your readers to the terms of use of this and any expo
  
 ## Note view
  
-The note-view is to be used in conjunction with the note-tool of the RC. It is only available in the workspace editor, not in preview. Notes are meant to be used as a means to communicate between author and reviewers or supervisors and authors. The note-view displays a list of all the notes that are within an exposition. One can filter this list based on the author, assignee and weither it has been marked resolved. Also you can change these parameters in this view. 
+The note-view is to be used in conjunction with the note-tool of the RC. It is only available in the workspace editor, not in preview. Notes are meant to be used to communicate between author and reviewers or supervisors and authors. The note-view displays a list of all the notes that are within an exposition. One can filter this list based on the author, assignee and weither it has been marked resolved. Also you can change these parameters in this view. 
 
 ## Text view
 

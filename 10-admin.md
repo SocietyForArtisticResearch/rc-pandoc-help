@@ -70,7 +70,7 @@ It has 3 actions:
 
 | Action              | Icon                                                |
 | --------------------| --------------------------------------------------- |
-| Portal mail         | <img src="images/mail.png" class="icon">            |
+| Portal mail         | <img src="images/email.gif" class="icon">           |
 | Edit portal settings| <img src="images/edit.gif" class="icon">            |
 | Delete a portal     | <img src="images/remove.gif" class="icon">          |
 

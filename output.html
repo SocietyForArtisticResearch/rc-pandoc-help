@@ -19,15 +19,6 @@
 <li><a href="#cv">CV</a></li>
 <li><a href="#research">Research</a></li>
 </ul></li>
-<li><a href="#administration-guide">Administration Guide</a><ul>
-<li><a href="#administration-main-page">Administration Main Page</a></li>
-<li><a href="#user-page">User Page</a></li>
-<li><a href="#portal-page">Portal page</a></li>
-<li><a href="#portal-edit-screen">Portal Edit Screen</a></li>
-<li><a href="#research-page">Research page</a></li>
-<li><a href="#connection-requests">Connection Requests</a></li>
-<li><a href="#reviewing">Reviewing</a></li>
-</ul></li>
 <li><a href="#views">Views</a><ul>
 <li><a href="#preview">Preview</a></li>
 <li><a href="#note-view">Note view</a></li>
@@ -53,6 +44,20 @@
 <li><a href="#follow-and-search">Follow and Search</a></li>
 <li><a href="#collaborating-on-research">Collaborating on Research</a></li>
 <li><a href="#footnotes-and-popovers">Footnotes and Popovers</a></li>
+<li><a href="#administration-guide">Administration Guide</a><ul>
+<li><a href="#administration-main-page">Administration Main Page</a></li>
+<li><a href="#user-page">User Page</a></li>
+<li><a href="#portal-page">Portal page</a></li>
+<li><a href="#portal-edit-screen">Portal Edit Screen</a></li>
+<li><a href="#research-page">Research page</a></li>
+<li><a href="#connection-requests">Connection Requests</a></li>
+<li><a href="#reviewing-1">Reviewing</a></li>
+</ul></li>
+<li><a href="#views-1">Views</a><ul>
+<li><a href="#preview-1">Preview</a></li>
+<li><a href="#note-view-1">Note view</a></li>
+<li><a href="#text-view-1">Text view</a></li>
+</ul></li>
 </ul>
 </div>
 <div style="font-size:12px;position:fixed;top:0px;padding-top:5px;left:5px;background-color:#fff;width:100%;">
@@ -125,212 +130,31 @@
 <li><p>short and only one column wide, the smalles possible size</p></li>
 <li><p>short and across both columns</p></li>
 </ol>
-<!-- pandoc -s -f markdown_github -i admin.md -o admin.html -c style.css -->
-<h1 id="administration-guide">Administration Guide</h1>
-<h2 id="administration-main-page">Administration Main Page</h2>
-<p>To reach the administration functionalities of the RC website, click on <strong>administration</strong>, located in the top right corner. To return to your own profile, you can click on the Research Catalogue logo. Only portal admins have access to these pages.</p>
-<div class="figure">
-<img src="images/admin_main.png" title="image showing the administration main page" alt="admin main page" />
-<p class="caption">admin main page</p>
-</div>
-<p>There are 5 pages to manage content for portal admins: * <a href="#user-page" title="jump to user page documentation"><strong>User</strong></a><br />
-Adding, removing and editing user information to this portal</p>
-<ul>
-<li><p><a href="#portal-page" title="jump to portal page"><strong>Portal</strong></a> Portal settings, reviewers, sending portal mails</p></li>
-<li><p><a href="#research-page" title="jump to research"><strong>Research</strong></a><br />
-Management of connected expositions</p></li>
-<li><p><a href="#connection-requests" title="connection requests"><strong>Connection Requests</strong></a> Management of connection requests</p></li>
-<li><p><a href="#reviewing" title="reviewing"><strong>Reviewing</strong></a> Review process of expositions and objects that are waiting to be published</p></li>
-</ul>
-<h4 id="multiple-portals">Multiple Portals:</h4>
-<p>If you are an admin in multiple portals, you can switch between them in the top right corner of the site, through the drop down menu.</p>
-<h2 id="user-page">User Page</h2>
-<div class="figure">
-<img src="images/admin-user.png" title="image showing the admin user page" alt="admin user page" />
-<p class="caption">admin user page</p>
-</div>
-<table>
-<thead>
-<tr class="header">
-<th>Action</th>
-<th>Icon</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Add a user</td>
-<td><img src="images/add.gif" class="icon"></td>
-</tr>
-<tr class="even">
-<td>Edit a user</td>
-<td><img src="images/edit.gif" class="icon"></td>
-</tr>
-<tr class="odd">
-<td>Remove a user</td>
-<td><img src="images/remove.gif" class="icon"></td>
-</tr>
-<tr class="even">
-<td>Login as a user</td>
-<td><img src="images/loginas.png" class="icon"></td>
-</tr>
-</tbody>
-</table>
-<h3 id="add-edit-a-user-dialog">Add / Edit A User Dialog</h3>
-<h3 id="profile">Profile</h3>
-<p><img src="images/user-profile.png" title="image showing user profile dialog" alt="user profile dialog" /> Change the name, alias, email and password (optional). An administrator can also change these fields without having to change the password (by leaving the field empty).</p>
-<h3 id="portal">Portal</h3>
-<div class="figure">
-<img src="images/user-portal.png" title="image showing user portal settings" alt="user portal settings dialog" />
-<p class="caption">user portal settings dialog</p>
-</div>
-<p>This controls to which portals a user is added. A user can be added to multiple portals at once. Portals which are selected are marked by a gray background.</p>
-<h3 id="roles">Roles</h3>
-<p><img src="images/user-roles.png" title="image showing user role settings" alt="user role settings dialog" /> When the option is turned on, the user cannot create any content. The can still become supervisors or read expositions.</p>
-<h3 id="settings">Settings</h3>
-<p><img src="images/user-settings.png" title="image showing user email settings" alt="user email settings dialog" /> Here you can set which emails the user should receive.</p>
-<h3 id="log-in-as-a-user">Log in as a user</h3>
-<p>The admins can log in as another user, for example to help resolve issues with a specific account. While logged in as another user, you will see a red bar on the top of your window that shows who you are and enables you to switch back to your own account. This feature is useful while helping somebody with issues specific to their account.</p>
-<p>Keep in mind: you become this user in all the tabs of your browser window, so you would temporarly loose some of you admin permissions while navigating as this user.</p>
-<h2 id="portal-page">Portal page</h2>
-<p>The portal tab shows you which users are administrators on the portal. It has 3 actions:</p>
-<table>
-<thead>
-<tr class="header">
-<th>Action</th>
-<th>Icon</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Portal mail</td>
-<td><img src="images/mail.png" class="icon"></td>
-</tr>
-<tr class="even">
-<td>Edit portal settings</td>
-<td><img src="images/edit.gif" class="icon"></td>
-</tr>
-<tr class="odd">
-<td>Delete a portal</td>
-<td><img src="images/remove.gif" class="icon"></td>
-</tr>
-</tbody>
-</table>
-<h3 id="portal-mail">Portal mail</h3>
-<div class="figure">
-<img src="images/portal-mail.png" title="image showing portal mail dialog" alt="portal mail dialog" />
-<p class="caption">portal mail dialog</p>
-</div>
-<ul>
-<li><strong>testmode</strong> only sends a test mail to your account</li>
-<li><strong>type</strong> (default/digest/anouncement) currently not used</li>
-<li><strong>target</strong> who is going to receive the mail</li>
-<li><strong>content</strong> enter the text here</li>
-</ul>
-<p>For advanced layout, you can use the HTML button. Please note that it is not recommended to use URI encoded images in email, since some email clients do not like this. Better practice is to have the images hosted somewhere externally and link form there using a <xmp> <img src=...> </xmp> tag.</p>
-<h2 id="portal-edit-screen">Portal Edit Screen</h2>
-<h3 id="common">Common</h3>
-<p><img src="images/portal-edit-common.png" title="image showing portal edit common dialog" alt="portal edit common screen" /> Here you can edit the basic information of the portal. View text allows you to change the template that is used to display expositions on the portal page: available placeholders: $author, $title, $portal, $edition, $published, $url, $now.</p>
-<h3 id="roles-1">Roles</h3>
-<p><img src="images/portal-edit-roles.png" title="image showing the portal roles" alt="portal edit roles" /> Here you can edit the various roles of the portal:</p>
-<ul>
-<li>Admins</li>
-<li>Reviewers (see <a href="#reviewing" title="jump to reviewing">reviewing</a>)</li>
-<li>Contact persons (use this field to add persons that have an rc account)</li>
-<li>Contact persons (use this for people without an rc account)</li>
-</ul>
-<h3 id="issues">Issues</h3>
-<p><img src="images/portal-edit-issues.png" title="image showing portal issues" alt="portal edit issues" /> Here you can set the title of the issues (as in journal issues), one can use these in Reviewing.</p>
-<h3 id="submissions">Submissions</h3>
-<p><img src="images/portal-edit-submissions.png" title="image showing portal submissions" alt="portal edit sumbmissions" /> Here you can set which objects can be submitted to the portal.</p>
-<h2 id="research-page">Research page</h2>
-<p>Here you can manage all research connected to the portal. Expositions are sorted per issue. Those without a publishing date, have not been published yet. There are a number of actions available:</p>
-<table>
-<thead>
-<tr class="header">
-<th>Action</th>
-<th>Icon</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Edit</td>
-<td><img src="images/research-icon-edit.png" class="icon"></td>
-</tr>
-<tr class="even">
-<td>Unpublish</td>
-<td><img src="images/research-icon-unpublish.png" class="icon"></td>
-</tr>
-<tr class="odd">
-<td>Comment</td>
-<td><img src="images/research-icon-comment.png" class="icon"></td>
-</tr>
-<tr class="even">
-<td>Block</td>
-<td><img src="images/research-icon-block.png" class="icon"></td>
-</tr>
-</tbody>
-</table>
-<h3 id="unpublishing-an-exposition">Unpublishing an exposition</h3>
-<p>The unpublishing of expositions is not encuraged. Published expositions are supposed to be a permament reference, never to be deleted or changed. If an exposition is to be continuously changed or temporary, it is better to not publish, but simply set its sharing settings to <strong>public</strong>. When unpublishing an exposition make sure with the author of the exposition that there are no connected works that have been deleted since, otherwise it may be impossible to reconstruct the publication.</p>
-<h2 id="connection-requests">Connection Requests</h2>
-<p>It is possible for users to connect a work or exposition to a portal. The works that have been accepted by an admin of the portal will be listed here. Requests can simply be accepted <strong>V</strong> or rejected <strong>X</strong>.</p>
-<h2 id="reviewing">Reviewing</h2>
-<p>The reviewing page allows managment of expositions that have been applied for publication by the author. Reviewers can be assigned to these works. There are two styles of reviewing: single blind or double blind. Single blind means that the author cannot see the reviewers. Double blind means that the reviewers cannot see each other.</p>
-<p>Please note that within the KonCon portal, supervisor notes can be seen by reviewers.</p>
-<div class="figure">
-<img src="images/reviewing-edit-request.png" title="image showing edit reviewing dialog" alt="reviewing edit reviewers dialog" />
-<p class="caption">reviewing edit reviewers dialog</p>
-</div>
-<p>Review tag and comment can be used by the admin to organize the current in review documents.</p>
-<p>It is also possible to change supervisors in the collaboration tab. Please note that only the admin can change collaborators, the author cannot change anything during review.</p>
-<p><img src="images/edit-publish-collaboration.png" title="image showing edit collaborators dialog" alt="reviewing edit collaboration dialog" />;</p>
-<p>Once the reviewing process is complete, there are three scopes in which the research can be published:</p>
-<table>
-<thead>
-<tr class="header">
-<th>Publish</th>
-<th>Visibility</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Restricted to portal</td>
-<td>Only visible to members of the portal</td>
-</tr>
-<tr class="even">
-<td>Limited</td>
-<td>Only visible to members of the RC</td>
-</tr>
-<tr class="odd">
-<td>Unlimited</td>
-<td>Visible to everyone</td>
-</tr>
-</tbody>
-</table>
-<p>If you reject a request for publication, it is possible to edit the standard message that is sent to the author of the exposition.</p>
 <h1 id="views">Views</h1>
-<p>In RC you have three different options to view your exposition. Theese options are strong connected with the way how you work with the different tools on RC. In general we can differ the workspace view and the preview in browser. The workspace view is only for you and your collaborators or co-authors and shows you all tools, all files you have uploaded and the way you structure and layout your work on one or more weaves in the framing of the editor. The preview is the way how people from the RC community or the web can see your research in there browsers. It necessary to test the preview in different browsers, because every browser has its own way to display the html-code from your side. RC is mainly supporting the standard-browsers Mozilla Firefox, Safari, Chrome and Internet Explorer.</p>
+<p>In the RC there are different ways of viewing the exposition. In general we can differ the workspace view and the preview in browser. The workspace view is only for you and your collaborators or co-authors and shows you all tools, all files you have uploaded and the way you structure and layout your work on one or more weaves in the framing of the editor. The preview is the way how people from the RC community or the web can see your research in there browsers. It necessary to test the preview in different browsers, because every browser has its own way to display the html-code from your side.</p>
 <h2 id="preview">Preview</h2>
-<p>The preview gives you the opportunity to proof read the layout of your exposition in the browser. Click PREVIEW on the top-right and the preview will start in a new window or tab. By moving the mouse cursor over the top of the exposition the menu-bar will appear.</p>
-<h3 id="home">Home</h3>
-<p>Home is your general-navigator. All pages that are named in the meta-tab table of content are listet here. The list will be automatically finished with a link to your personal profile or the profiles of the collaborators and/ or co-authors.</p>
+<p>The PREVIEW shows what the page will look like to the reader. If you already have a preview tab open, the second time you click PREVIEW, it will refresh this previous tab. Note, that the video player, the audio player, the slideshow and object tool are only displayed fully in this PREVIEW view (once the audio or video file has been transcoded, at least).</p>
+<p>Preview shows always the tab (weave) that you are currently editing. This includes tabs that have not yet been entered in the table of contents.</p>
+<p>What follows now is a description of the various options in the navigation bar of an exposition:</p>
+<h3 id="content">Content</h3>
+<p>Within the preview you can open content to get the table of contents. At the bottom of the list a link to your personal profile and that of your co-authors can be found. To change the elements of the content list, please see the help section on <a href="#table-of-contents">table of contents</a>.</p>
 <h3 id="navigation">Navigation</h3>
-<p>Navigation is a graphical in-side-navigator. It shows all content of the present page with frames. So you and your reader have an overview of the dimensions of each page and the content that is presented on each page.</p>
+<p>Navigation is a (simplified) graphical map of all the exposition's content on the current weave. You can click on this map to jump to a certain location of the exposition page.</p>
 <h3 id="abstract">Abstract</h3>
-<p>When you add a new research, object or work, you can give them a short abstract, this is displayed under &quot;abstract&quot; in the menu-bar. It's a summary of your work or the question you are working or researching on. It's possible to save this abstract bilingual.</p>
-<h3 id="meta">Meta</h3>
-<p>By moving the mouse pointer over your account-name and the title of your research, a little window with metainformation will appear. The link which is shown, is the hyperlink of your exposition, with the page and the exact coordinates of the content you are looking at in this moment. This URL can be used to generated the hyperlink for intern hyperlinking or naviagation as well as the source you want your work to cite with in external contexts.</p>
-<h3 id="reviewing-1">Reviewing</h3>
-<p>Reviewing is strongly connected with the note tool and is made for the communication between the autor(s) and the reviewer during the reviewing-process. This option is not available when the exposition is published.</p>
+<p>When you add a new research exposition, object or work, you can give them a short abstract, this is displayed under &quot;abstract&quot; in the menu-bar. <!-- C: are abstracts also available under work, does this make sense ? --></p>
+<h3 id="title-meta">Title / meta</h3>
+<p>By moving the mouse pointer over your account-name and the title of your research, a little window with metadata will appear. The link (URL) of the current page is shown, including the current location where you are currently scrolled to. This URL can thus be used to generate the hyperlink for internal hyperlinking. You can also use this link to cite a specific location of an exposition in publications outside of the RC.</p>
+<h3 id="reviewing">Reviewing</h3>
+<p>Reviewing is connected with the note tool and is made for the communication between the author(s) and the reviewer during the reviewing-process. This option is not available when the exposition is published.</p>
 <h3 id="comments">Comments</h3>
 <p>Shows the latest and previous comments to your exposition from the RC community.</p>
 <h3 id="terms-of-use">Terms of use</h3>
 <p>Terms of use leeds you and your readers to the terms of use of this and any expositions on RC passed by the Society for Artistic Research (SAR)</p>
 <h2 id="note-view">Note view</h2>
-<p>The note-view is strongly connected to the note-tool of RC. Notes is conceived as a possibilty to make small conversations about specific problems directly at the mentioned content, like sticky notes. Because the usage of notes can be confusing from time to time we developed the note-view. To activate the note-view click on the buttons top-right on the view-options. A new window or tab will open and show you all notes listes aside the layout and the other content of your exposition. You can sort and filter the view with the filter options on the top of the browser. You can sort by the owner or by the assignee of the note or of the resolution, which means, if the note is open to clear or is already cleared. Next to each note you can find the status-options from the note. Who created this note and who is responsible for clearance (it's necessary when there are more than to authors in the project)? You can limit the clearance to a date and close open notes with the status pull-down-menu. All this options can help you to work efficient and purposeful with the RC.</p>
+<p>The note-view is to be used in conjunction with the note-tool of the RC. It is only available in the workspace editor, not in preview. Notes are meant to be used to communicate between author and reviewers or supervisors and authors. The note-view displays a list of all the notes that are within an exposition. One can filter this list based on the author, assignee and weither it has been marked resolved. Also you can change these parameters in this view.</p>
 <h2 id="text-view">Text view</h2>
-<p>Sometimes it can be confusing to retrace all the changes in one or more text(s) while editing the exposition. The text-view shields the texts from the grafic and media-content from your exposition. You can activate the the text-view by clicking on the button on the view-options. You have the opportunity to show or hide the changes of a text. You can also sort the items and open the html-editor to make changes directly in the text-view.</p>
-<p>You can close both views by clicking on &quot;close vote view&quot; or &quot;close text view&quot; top-right.</p>
+<p>Sometimes it can be confusing to retrace all the changes in one or more text(s) while editing the exposition. The text-view shields the texts from the graphic and media-content from your exposition. You can activate the text-view by clicking on the button on the view-options. You have the opportunity to show or hide the changes of a text. You can also sort the items and open the html-editor to make changes directly in the text-view.</p>
+<p>You can close both views by clicking on &quot;close note view&quot; or &quot;close text view&quot; top-right.</p>
 <!--pandoc -s tools.md -o tools.html -c style.css-->
 <h1 id="research-catalogue-workspace-tools">Research Catalogue Workspace Tools</h1>
 <h2 id="text-tool">Text Tool</h2>
@@ -523,9 +347,8 @@ Management of connected expositions</p></li>
 <h3 id="table-of-content">Table of Content</h3>
 <p>The table of content (There is a tutorial video explaining how to us the table of content on the <a href="https://www.researchcatalogue.net/view/273532/273533">RC Video Tutorials page</a>) is designed to facilitate the navigation through an exposition. In order to edit the table of content and enter entries click on the title of your exposition in the editor (one can also open this window by going to the exposition on the profile page and clicking &quot;edit details&quot;). This opens a dialogue window titled &quot;Edit Research.&quot; The second tab (&quot;table of content&quot;) of this window contains a series of entries. To make a new entry select the page (or &quot;weave&quot;) that this item in the table of content is supposed to link to from the pull down menu and enter a title for this entry to be displayed in the table of content. Moreover one can choose a specific position within the selected page. The &quot;X-Coord&quot; is the distance in pixels from the left margin of the exposition and the &quot;Y-Coord&quot; is the distance in pixels from the top margin (See the section on &quot;Commands&quot; for more information on obtaining position information.) The table of content thus not only allows structuring expositions by creating a series of weaves, but also by using various locations within one weave.</p>
 <h3 id="hyperlinking">Hyperlinking</h3>
-<p>It is possible to create hyperlinks (There is a tutorial video explaining how to use hyperlinks on the <a href="https://www.researchcatalogue.net/view/273532/273533">RC Video Tutorials page</a>) between pages (or &quot;weaves&quot;) of an exposition and within a single page. In order to create a link to a different page, select the target weave in the editor. Select the tab &quot;Commands&quot; on the right hand side and click on &quot;show current position.&quot; This will display the URL of the target page. Copy the URL into the clipboard (Ctrl-C/Cmd-C). Move the page where you want to create the link. Create an HTML-Tool (see the section on the HTML-Tool for more information) and enter the text to be displayed and selected it. By right-clicking open the context menu and select &quot;Insert/Edit Link,&quot; paste the copied URL into the text field labeled &quot;Link URL&quot; and close the HTML-Tool by clicking &quot;Submit.&quot; One can also create a link to a different position within the same page by moving to this position (see also the next section on the overview function) and following the same procedure.</p>
-<h3 id="overview-1">Overview</h3>
-<p>Within the &quot;Commands&quot; tab on the right-hand side of the editor there is a checkbox labeled &quot;Overview.&quot; Clicking the checkbox will open and close an a schematic overview on the right-hand side of the editor. The overview outlines all tools on the page, their size and position. By moving the red rectangle, which displays the currently visible part of the weave, one can navigate the page and alter the current selection.</p>
+<p>It is possible to create hyperlinks (There is a tutorial video explaining how to use hyperlinks on the <a href="https://www.researchcatalogue.net/view/273532/273533">RC Video Tutorials page</a>) between pages (or &quot;weaves&quot;) of an exposition and within a single page. In order to create a link to a different page, select the target weave in the editor. Select the tab &quot;Commands&quot; on the right hand side and click on &quot;show current position.&quot; This will display the URL of the target page. Copy the URL into the clipboard (Ctrl-C/Cmd-C). Move the page where you want to create the link. Create an HTML-Tool (see the section on the HTML-Tool for more information) and enter the text to be displayed and selected it. By right-clicking open the context menu and select &quot;Insert/Edit Link,&quot; paste the copied URL into the text field labeled &quot;Link URL&quot; and close the HTML-Tool by clicking &quot;Submit.&quot; One can also create a link to a different position within the same page by moving to this position (see also the next section on the overview function) and following the same procedure. ### Overview</p>
+<p>Within the &quot;Commands&quot; tab on the right-hand side of the editor thereis a checkbox labeled &quot;Overview.&quot; Clicking the checkbox will open andclose an a schematic overview on the right-hand side of theeditor. The overview outlines all tools on the page, their size andposition. By moving the red rectangle, which displays the currentlyvisible part of the weave, one can navigate the page and alter thecurrent selection.</p>
 <!-- TODO: Insert links to other parts of the documentation -->
 <h1 id="publishing-and-sharing">Publishing and Sharing</h1>
 <p>There are number of different ways to share and publish your work on the RC. This functionality can be accessed using the object menu (i.e. clicking the menu icon) for the given work or exposition on the My Profile page.</p>
@@ -612,5 +435,213 @@ Management of connected expositions</p></li>
 <p>The numbering starts at 1 and encompasses all text and HTML objects on the weave. Numbering is performed by object and proceeds from the top and left to the bottom and right of the page.</p>
 <h3 id="pictures">Pictures</h3>
 <p>It is also possible to use images as links to footnotes. When clicking on the image or moving over it with the mouse cursor the popover will be show. In order to use an image as a footnote click the menu icon on the bottom right of the image (or right click the image) in order to open the context menu. Click the item &quot;add footnote&quot; from the context menu and fill in the appearing dialog window.</p>
+<!-- pandoc -s -f markdown_github -i admin.md -o admin.html -c style.css -->
+<h1 id="administration-guide">Administration Guide</h1>
+<h2 id="administration-main-page">Administration Main Page</h2>
+<p>To reach the administration functionalities of the RC website, click on <strong>administration</strong>, located in the top right corner. To return to your own profile, you can click on the Research Catalogue logo. Only portal admins have access to these pages.</p>
+<div class="figure">
+<img src="images/admin_main.png" title="image showing the administration main page" alt="admin main page" />
+<p class="caption">admin main page</p>
+</div>
+<p>There are 5 pages to manage content for portal admins: * <a href="#user-page" title="jump to user page documentation"><strong>User</strong></a><br />
+Adding, removing and editing user information to this portal</p>
+<ul>
+<li><p><a href="#portal-page" title="jump to portal page"><strong>Portal</strong></a> Portal settings, reviewers, sending portal mails</p></li>
+<li><p><a href="#research-page" title="jump to research"><strong>Research</strong></a><br />
+Management of connected expositions</p></li>
+<li><p><a href="#connection-requests" title="connection requests"><strong>Connection Requests</strong></a> Management of connection requests</p></li>
+<li><p><a href="#reviewing" title="reviewing"><strong>Reviewing</strong></a> Review process of expositions and objects that are waiting to be published</p></li>
+</ul>
+<h4 id="multiple-portals">Multiple Portals:</h4>
+<p>If you are an admin in multiple portals, you can switch between them in the top right corner of the site, through the drop down menu.</p>
+<h2 id="user-page">User Page</h2>
+<div class="figure">
+<img src="images/admin-user.png" title="image showing the admin user page" alt="admin user page" />
+<p class="caption">admin user page</p>
+</div>
+<table>
+<thead>
+<tr class="header">
+<th>Action</th>
+<th>Icon</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Add a user</td>
+<td><img src="images/add.gif" class="icon"></td>
+</tr>
+<tr class="even">
+<td>Edit a user</td>
+<td><img src="images/edit.gif" class="icon"></td>
+</tr>
+<tr class="odd">
+<td>Remove a user</td>
+<td><img src="images/remove.gif" class="icon"></td>
+</tr>
+<tr class="even">
+<td>Login as a user</td>
+<td><img src="images/loginas.png" class="icon"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="add-edit-a-user-dialog">Add / Edit A User Dialog</h3>
+<h3 id="profile">Profile</h3>
+<p><img src="images/user-profile.png" title="image showing user profile dialog" alt="user profile dialog" /> Change the name, alias, email and password (optional). An administrator can also change these fields without having to change the password (by leaving the field empty).</p>
+<h3 id="portal">Portal</h3>
+<div class="figure">
+<img src="images/user-portal.png" title="image showing user portal settings" alt="user portal settings dialog" />
+<p class="caption">user portal settings dialog</p>
+</div>
+<p>This controls to which portals a user is added. A user can be added to multiple portals at once. Portals which are selected are marked by a gray background.</p>
+<h3 id="roles">Roles</h3>
+<p><img src="images/user-roles.png" title="image showing user role settings" alt="user role settings dialog" /> When the option is turned on, the user cannot create any content. The can still become supervisors or read expositions.</p>
+<h3 id="settings">Settings</h3>
+<p><img src="images/user-settings.png" title="image showing user email settings" alt="user email settings dialog" /> Here you can set which emails the user should receive.</p>
+<h3 id="log-in-as-a-user">Log in as a user</h3>
+<p>The admins can log in as another user, for example to help resolve issues with a specific account. While logged in as another user, you will see a red bar on the top of your window that shows who you are and enables you to switch back to your own account. This feature is useful while helping somebody with issues specific to their account.</p>
+<p>Keep in mind: you become this user in all the tabs of your browser window, so you would temporarly loose some of you admin permissions while navigating as this user.</p>
+<h2 id="portal-page">Portal page</h2>
+<p>The portal tab shows you which users are administrators on the portal. It has 3 actions:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Action</th>
+<th>Icon</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Portal mail</td>
+<td><img src="images/email.gif" class="icon"></td>
+</tr>
+<tr class="even">
+<td>Edit portal settings</td>
+<td><img src="images/edit.gif" class="icon"></td>
+</tr>
+<tr class="odd">
+<td>Delete a portal</td>
+<td><img src="images/remove.gif" class="icon"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="portal-mail">Portal mail</h3>
+<div class="figure">
+<img src="images/portal-mail.png" title="image showing portal mail dialog" alt="portal mail dialog" />
+<p class="caption">portal mail dialog</p>
+</div>
+<ul>
+<li><strong>testmode</strong> only sends a test mail to your account</li>
+<li><strong>type</strong> (default/digest/anouncement) currently not used</li>
+<li><strong>target</strong> who is going to receive the mail</li>
+<li><strong>content</strong> enter the text here</li>
+</ul>
+<p>For advanced layout, you can use the HTML button. Please note that it is not recommended to use URI encoded images in email, since some email clients do not like this. Better practice is to have the images hosted somewhere externally and link form there using a <xmp> <img src=...> </xmp> tag.</p>
+<h2 id="portal-edit-screen">Portal Edit Screen</h2>
+<h3 id="common">Common</h3>
+<p><img src="images/portal-edit-common.png" title="image showing portal edit common dialog" alt="portal edit common screen" /> Here you can edit the basic information of the portal. View text allows you to change the template that is used to display expositions on the portal page: available placeholders: $author, $title, $portal, $edition, $published, $url, $now.</p>
+<h3 id="roles-1">Roles</h3>
+<p><img src="images/portal-edit-roles.png" title="image showing the portal roles" alt="portal edit roles" /> Here you can edit the various roles of the portal:</p>
+<ul>
+<li>Admins</li>
+<li>Reviewers (see <a href="#reviewing" title="jump to reviewing">reviewing</a>)</li>
+<li>Contact persons (use this field to add persons that have an rc account)</li>
+<li>Contact persons (use this for people without an rc account)</li>
+</ul>
+<h3 id="issues">Issues</h3>
+<p><img src="images/portal-edit-issues.png" title="image showing portal issues" alt="portal edit issues" /> Here you can set the title of the issues (as in journal issues), one can use these in Reviewing.</p>
+<h3 id="submissions">Submissions</h3>
+<p><img src="images/portal-edit-submissions.png" title="image showing portal submissions" alt="portal edit sumbmissions" /> Here you can set which objects can be submitted to the portal.</p>
+<h2 id="research-page">Research page</h2>
+<p>Here you can manage all research connected to the portal. Expositions are sorted per issue. Those without a publishing date, have not been published yet. There are a number of actions available:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Action</th>
+<th>Icon</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Edit</td>
+<td><img src="images/research-icon-edit.png" class="icon"></td>
+</tr>
+<tr class="even">
+<td>Unpublish</td>
+<td><img src="images/research-icon-unpublish.png" class="icon"></td>
+</tr>
+<tr class="odd">
+<td>Comment</td>
+<td><img src="images/research-icon-comment.png" class="icon"></td>
+</tr>
+<tr class="even">
+<td>Block</td>
+<td><img src="images/research-icon-block.png" class="icon"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="unpublishing-an-exposition">Unpublishing an exposition</h3>
+<p>The unpublishing of expositions is not encuraged. Published expositions are supposed to be a permament reference, never to be deleted or changed. If an exposition is to be continuously changed or temporary, it is better to not publish, but simply set its sharing settings to <strong>public</strong>. When unpublishing an exposition make sure with the author of the exposition that there are no connected works that have been deleted since, otherwise it may be impossible to reconstruct the publication.</p>
+<h2 id="connection-requests">Connection Requests</h2>
+<p>It is possible for users to connect a work or exposition to a portal. The works that have been accepted by an admin of the portal will be listed here. Requests can simply be accepted <strong>V</strong> or rejected <strong>X</strong>.</p>
+<h2 id="reviewing-1">Reviewing</h2>
+<p>The reviewing page allows managment of expositions that have been applied for publication by the author. Reviewers can be assigned to these works. There are two styles of reviewing: single blind or double blind. Single blind means that the author cannot see the reviewers. Double blind means that the reviewers cannot see each other.</p>
+<p>Please note that within the KonCon portal, supervisor notes can be seen by reviewers.</p>
+<div class="figure">
+<img src="images/reviewing-edit-request.png" title="image showing edit reviewing dialog" alt="reviewing edit reviewers dialog" />
+<p class="caption">reviewing edit reviewers dialog</p>
+</div>
+<p>Review tag and comment can be used by the admin to organize the current in review documents.</p>
+<p>It is also possible to change supervisors in the collaboration tab. Please note that only the admin can change collaborators, the author cannot change anything during review.</p>
+<p><img src="images/edit-publish-collaboration.png" title="image showing edit collaborators dialog" alt="reviewing edit collaboration dialog" />;</p>
+<p>Once the reviewing process is complete, there are three scopes in which the research can be published:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Publish</th>
+<th>Visibility</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Restricted to portal</td>
+<td>Only visible to members of the portal</td>
+</tr>
+<tr class="even">
+<td>Limited</td>
+<td>Only visible to members of the RC</td>
+</tr>
+<tr class="odd">
+<td>Unlimited</td>
+<td>Visible to everyone</td>
+</tr>
+</tbody>
+</table>
+<p>If you reject a request for publication, it is possible to edit the standard message that is sent to the author of the exposition.</p>
+<h1 id="views-1">Views</h1>
+<p>In the RC there are different ways of viewing the exposition. In general we can differ the workspace view and the preview in browser. The workspace view is only for you and your collaborators or co-authors and shows you all tools, all files you have uploaded and the way you structure and layout your work on one or more weaves in the framing of the editor. The preview is the way how people from the RC community or the web can see your research in there browsers. It necessary to test the preview in different browsers, because every browser has its own way to display the html-code from your side.</p>
+<h2 id="preview-1">Preview</h2>
+<p>The PREVIEW shows what the page will look like to the reader. If you already have a preview tab open, the second time you click PREVIEW, it will refresh this previous tab. Note, that the video player, the audio player, the slideshow and object tool are only displayed fully in this PREVIEW view (once the audio or video file has been transcoded, at least).</p>
+<p>Preview shows always the tab (weave) that you are currently editing. This includes tabs that have not yet been entered in the table of contents.</p>
+<p>What follows now is a description of the various options in the navigation bar of an exposition:</p>
+<h3 id="content-1">Content</h3>
+<p>Within the preview you can open content to get the table of contents. At the bottom of the list a link to your personal profile and that of your co-authors can be found. To change the elements of the content list, please see the help section on <a href="#table-of-content">table of content</a>.</p>
+<h3 id="navigation-2">Navigation</h3>
+<p>Navigation is a (simplified) graphical map of all the exposition's content on the current weave. You can click on this map to jump to a certain location of the exposition page.</p>
+<h3 id="abstract-1">Abstract</h3>
+<p>When you add a new research exposition, object or work, you can give them a short abstract, this is displayed under &quot;abstract&quot; in the menu-bar. <!-- C: are abstracts also available under work, does this make sense ? --></p>
+<h3 id="title-meta-1">Title / meta</h3>
+<p>By moving the mouse pointer over your account-name and the title of your research, a little window with metadata will appear. The link (URL) of the current page is shown, including the current location where you are currently scrolled to. This URL can thus be used to generate the hyperlink for internal hyperlinking. You can also use this link to cite a specific location of an exposition in publications outside of the RC.</p>
+<h3 id="reviewing-2">Reviewing</h3>
+<p>Reviewing is connected with the note tool and is made for the communication between the author(s) and the reviewer during the reviewing-process. This option is not available when the exposition is published.</p>
+<h3 id="comments-1">Comments</h3>
+<p>Shows the latest and previous comments to your exposition from the RC community.</p>
+<h3 id="terms-of-use-1">Terms of use</h3>
+<p>Terms of use leeds you and your readers to the terms of use of this and any expositions on RC passed by the Society for Artistic Research (SAR)</p>
+<h2 id="note-view-1">Note view</h2>
+<p>The note-view is to be used in conjunction with the note-tool of the RC. It is only available in the workspace editor, not in preview. Notes are meant to be used as a means to communicate between author and reviewers or supervisors and authors. The note-view displays a list of all the notes that are within an exposition. One can filter this list based on the author, assignee and weither it has been marked resolved. Also you can change these parameters in this view.</p>
+<h2 id="text-view-1">Text view</h2>
+<p>Sometimes it can be confusing to retrace all the changes in one or more text(s) while editing the exposition. The text-view shields the texts from the graphic and media-content from your exposition. You can activate the text-view by clicking on the button on the view-options. You have the opportunity to show or hide the changes of a text. You can also sort the items and open the html-editor to make changes directly in the text-view.</p>
+<p>You can close both views by clicking on &quot;close note view&quot; or &quot;close text view&quot; top-right.</p>
 </body>
 </html>
