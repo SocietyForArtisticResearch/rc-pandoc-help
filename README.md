@@ -17,3 +17,10 @@ https://github.com/jakov/js-pandoc
 This is the PANDOC command I use for my md files:
 
 pandoc -s *.md -o output.html  -c style.css --toc -f markdown_github
+
+Here's an alternative, for including the CSS in the file itself:
+First you’ll have to make sure that your pandoc.css file1 starts and ends with HTML <style> tags, so it should look something like this:
+
+Then run the pandoc command like this:
+
+pandoc -s -S --toc -H pandoc.css -A footer.html README -o example3.html
