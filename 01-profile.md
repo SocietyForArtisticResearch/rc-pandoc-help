@@ -61,6 +61,7 @@ The visibilty is ON by default. To switch it off click on the little circle on t
 The button __open exposition__ connects you to the entry page of your exposition. 
 This is the same as the __preview__ version in the workspace.
 
+### Exposition detail menu
 
 To access the menu, click on the ("hamburger") menu symbol, located in the bottom right corner of an object (expositions or works). Some options are only available to the author of the object.
 

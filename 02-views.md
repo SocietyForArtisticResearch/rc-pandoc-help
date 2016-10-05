@@ -1,9 +1,9 @@
 
 # Views
  
-## EXPOSITION VIEW or PREVIEW
+## Exposition View or PREVIEW
 
-The final result that the reader will see when he opens your expositions, for example by opening an exposition URL [https://www.researchcatalogue.net/view/13747/145889/78/0](https://www.researchcatalogue.net/view/13747/145889/78/0) or when clicking "OPEN EXPOSITION" anywhere on the RC.
+The exposition view is the final result that the reader will see when he/she opens your exposition, for example by opening the exposition URL [https://www.researchcatalogue.net/view/13747/145889/78/0](https://www.researchcatalogue.net/view/13747/145889/78/0) or when a user clicks "OPEN EXPOSITION" anywhere on the RC.
 
 While you are editing your exposition, the PREVIEW button (right top corner) shows what the page will look like to the reader. If you already have a preview tab open, the second time you click PREVIEW, it will simply refresh, instead of opening a new tab. 
 
@@ -15,7 +15,7 @@ Although the EXPOSITION VIEW will always open the default page, PREVIEW shows th
 
 ### Content
 This contains the table of contents.  At the bottom of the list a link to your personal profile and that of your co-authors can be found.
-To change the elements of the content list, please see the help section on [table of contents](#table-of-contents).
+To change the elements of the content list, please see the help section on [table of contents](#table-of-content).
 
 ### Navigation
 Navigation is a (simplified) graphical map of all the exposition's content on the current weave. You can click on this map to jump to a certain location of the exposition page.
@@ -44,7 +44,7 @@ Shows the latest and previous comments to your exposition from the RC community.
 ### Terms of use
 Terms of use leeds you and your readers to the terms of use of this and any expositions on RC passed by the Society for Artistic Research (SAR)
  
-## WORKSPACE VIEW
+## Workspace View
 
 The workspace view is the editor of the RC. This is where you and your collaborators create and organise the expositions' content. It is only available to the author, co-authors and contributers of the exposition.
 
