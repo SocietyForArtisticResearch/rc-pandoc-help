@@ -3,7 +3,7 @@
  
 ## Exposition View or PREVIEW
 
-The exposition view is the final result that the reader will see when he/she opens your exposition, for example by opening the exposition URL [https://www.researchcatalogue.net/view/13747/145889/78/0](https://www.researchcatalogue.net/view/13747/145889/78/0) or when a user clicks "OPEN EXPOSITION" anywhere on the RC.
+The exposition view is the final result that the reader will see when he/she opens your exposition, for example by opening the exposition URL or when a user clicks "OPEN EXPOSITION" anywhere on the RC.
 
 While you are editing your exposition, the PREVIEW button (right top corner) shows what the page will look like to the reader. If you already have a preview tab open, the second time you click PREVIEW, it will simply refresh, instead of opening a new tab. 
 
