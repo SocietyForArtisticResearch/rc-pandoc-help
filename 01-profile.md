@@ -63,6 +63,8 @@ This is the same as the __preview__ version in the workspace.
 
 ### Exposition detail menu
 
+![object menu location](images/hamburger_location.png "image showing location of menu button")
+
 To access the menu, click on the ("hamburger") menu symbol, located in the bottom right corner of an object (expositions or works). Some options are only available to the author of the object.
 
 * __Change layout__ Change the size of an object on the profile.
@@ -79,17 +81,15 @@ To access the menu, click on the ("hamburger") menu symbol, located in the botto
 
 Please note that publishing is a one-way action, once published one can not  unpublish. If you want to keep the option of removing an exposition, do not use this option.
 
-* __Submit__ for publication Submit an exposition to a portal for publication.
+* __Submit for publication__ Submit an exposition to a portal for publication.
 
-* __Add__ to shortcut Make a shortcut add the top of your profile.
+* __Add to shortcut__ Make a shortcut add the top of your profile.
 
-* __Connect__ to portal Send a connection request to a portal.
+* __Connect to portal__ Send a connection request to a portal.
 
-* __Export__ Export an exposition for further distribution.
+* __Export__ Export an exposition as a tar.gz file (you can also use this to make a copy of an exposition, by importing the generated file)
 
 * __Delete__ Delete an exposition or work from the catalogue.
-
-![object menu location](images/hamburger_location.png "image showing location of menu button")
 
 [back to top](#profile)
 
