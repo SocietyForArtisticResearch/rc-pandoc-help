@@ -2,17 +2,17 @@
 
 # My Profile
 
-The RC allows you to create a detailed public profile and gives you the opportunity to structure your objects in groups. Your profile where you create different types of objects and present yourself and your research content.
+The RC allows you to create a detailed public profile. 
 
 ## CV
 
-### CV details
-Here you can add a short text biography/CV, that other RC users will see when they visit your profile.
-
+### Description 
+Here you can add a short text (for example a biography), that other RC users will see when they visit your profile. To edit this text, click "edit profile", on your profile page and scroll down.
 
 ### Uploading a CV
 
-Next to the presentations of your artistic works and objects in the RC, it is possible to upload your own CV as PDF. In it, you can e.g. present your academic background or your list of publications without adding everything to your profile page.
+In addition to the profile description, it is possible to upload a more extended CV as PDF.
+To do so, click upload cv below your profile avatar.
 
 ![upload your cv](images/upload_cv.png "upload a cv")
 

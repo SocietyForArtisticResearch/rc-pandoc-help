@@ -39,14 +39,15 @@ For a visual tutorial see this [link](https://www.researchcatalogue.net/view/273
 
 ### Style
 
-[> see style options](#style-options)
+see [style options](#style-options)
 
 ### Options
 
 If a text is longer than its frame on the weave, a scrollbar is generated automatically. You can control the visibility of the scrollbar in __options__. The default setting is *automatic*.
 
 ### History
-[> see history](#history)
+
+see [history](#history)
 
 ---
 
@@ -60,12 +61,11 @@ The html tool is designed for advanced text editing. It is a *what-you-is-what-y
 
 Text is edited in the __media__ tab. To preformat the text, choose your settings before typing. The style can also be edited after typing by selecting either the whole page or sections of the page and changing the formatting options as required.
 
-*! important: If you copy-paste your text from Word, Pages, LibreOffice, Google Docs or any other text editor,
-please note that not all fonts are available on every computer. Only the fonts that are listed in the RC editor will be rendered correctly for all readers (even if they do not have the font installed on their computer). A better practice is to import the text without any formatting.*
+*! important: If you copy-paste your text from Word, Pages, LibreOffice, Google Docs or any other text editor, note that not all fonts are available on every computer. Only the fonts that are listed in the RC editor will be rendered correctly for all readers (even if they do not have the font installed on their computer). A better practice is to import the text without any formatting.*
 
 You can choose standard type formats such as bold, italic, or underline, as well as adjusting text alignment, font, and size.
 
-To enlarge the palette, click on the first button, __show/hide toolbars__. Here you will find different options for further formats, such as lists, enumerations, citations. It is also possible to create hyperlinks (chain symbol), or to set anchors for navigation. If you hover over an icon you can get a short text description of the function. The top right button opens the editor in fullscreen.
+To enlarge the palette of text styling options, click on the first button, __show/hide toolbars__. Here you will find different options for further formats, such as lists, enumerations, citations. It is also possible to create hyperlinks (chain symbol), or to set anchors for navigation. If you hover over an icon you can get a short text description of the function. The top right button opens the editor in fullscreen.
 
 ![html extended tool options](images/html-tool-bar-extended.png) 
 
