@@ -1,71 +1,124 @@
 <div style="font-size:12px;position:fixed;top:0px;padding-top:5px;left:5px;background-color:#fff;width:100%;"><a href="#TOC">Back to Table of Contents</a></div>
 
-# My Profile
+# My Profile Page
 
-The RC allows you to create a detailed public profile. 
+The RC profile page is both the central hub for your activities on the
+RC and a public presentation of your research activities. The RC
+allows you to create a detailed public profile containing biographical
+data, information on projects and events as well as a list of your RC
+objects such as works and expositions. The profile is divided into two
+sections, the upper sections contains an artist biography as well as
+information of research interests and the lower part, which is titled
+"Research" contains a list of RC works and exposition.
 
-## CV
-
-### Description 
-Here you can add a short text (for example a biography), that other RC users will see when they visit your profile. To edit this text, click "edit profile", on your profile page and scroll down.
-
-### Uploading a CV
-
-In addition to the profile description, it is possible to upload a more extended CV as PDF.
-To do so, click upload cv below your profile avatar.
-
-![upload your cv](images/upload_cv.png "upload a cv")
+## Profile Section
 
 ### View Public Profile
-You can switch between your profile's editing mode (private) and your profile as the general public sees it. Click on '__my profile__' for the editing mode and - below your image - click '__view public profile__' to hide all controls, grouping options and private research.
+
+You can switch between your profile's editing mode (private) and your
+public profile, which is the profile as other users see it. Click on
+"my profile" for the editing mode and - below your image - click "view
+public profile" to hide all controls, grouping options and private
+research. You can thus control the public visibility of your RC
+objects.
 
 ![view public profile](images/view_public_profile.png "view public profile")
 
-### Degrees
-You can also add your __degrees__ to your profile. Enter the name, the level, the dates and the institution of your degree and link it via the __relations-tab__ to projects, expositions or works that you created in support for your degree.
+### Description 
 
-## Research
+You can add a short text (for example a biography), that other RC
+users will see when they visit your profile. To edit this text, click
+"edit profile", on your profile page and scroll down. Here you can
+also add a tagline, set your country of residence, and list your
+research interests.
+
+### Uploading a CV
+
+In addition to the profile description, it is possible to upload a
+more extended CV as a PDF.  To do so, click "upload cv" below your
+profile picture.
+
+![upload your cv](images/upload_cv.png "upload a cv")
+
+
+<!-- ### Degrees -->
+
+<!-- You can also add your __degrees__ to your profile. Enter the name, the level, the dates and the institution of your degree and link it via the __relations-tab__ to projects, expositions or works that you created in support for your degree. -->
+
+## Research Section
 
 ### Grouping
 
-__add grouping__ gives you the opportunity to create custom groups. You can combine objects of one theme you‘re working on or group objects of the same type - it's up to you. To add a new group press __add grouping__ and type the name of the group you want to add. You can sort your objects via drag and drop and place them into a different order or into different groups, even. Click and drag a grouping to change the order of the groups. On the right of a group, press __edit__ to edit the name of the group. Only custom groups can be deleted. If you have only one filled group, the group title will not be shown on your public profile. Empty groups will also not be shown, but be kept for future use.
-
+When you create a new work or exposition the newly created objects
+appear in default groupings ("Works" and "Expositions").  By using the
+"add grouping" button you can create custom groupings. You can arrange
+objects according to freely created categories. To add a new group
+click "add grouping" and enter the name of the grouping. You can sort
+your objects within a group, arrange the groups themselves and move
+object between groups via drag and drop. Click and drag a grouping to
+change the order of the groups. On the right-hand side of a grouping's
+title, there are a series of icons displayed. Here you can edit and
+delete the grouping and control its public visibility (using the
+circle icon). Only custom grouping can be deleted. If you have only
+one grouping containing content, its title will not be shown on your
+public profile. Empty groups will also not be displayed on your public
+profile page.
  
 
 ### Create Exposition
 
-create exposition is equivalent to the previous 'add research' command. On click, you will be able to create your own online page for your research.
-It is also possible to import expositions from your archive. Note that only expositions exported from the RC can be imported.
+By clicking "Create exposition" you can create a new exposition object
+which will be opened in the RC exposition workspace editor. It is also
+possible to import expositions. Note that only expositions exported
+from the RC can be imported.
 
 ### Add Work
 
-A __work__ is completed, autarchic creation. You can add your work's metadata, also in the __enhanced meta__. Here you can indicate the place of your work, the country or the material, technique or the format. It can be either a single file, or a collection of files.
+A __work__ in the RC can be used to represent self-sufficient artistic
+creations existing outside the RC, such as objects, compositions,
+recordings, videos, installations, paintings, photographs, books etc,
+but can also be used to represent events, presentations or
+expositions. You can add metadata such as the place of your work, the
+country or the material, technique or format. Moreover, the work can
+contain a collection of media files, which can later be accessed in
+used in expositions.
 
-For collaborations, you can choose between co-authors, contributors and supervisors. For full supervision functionality (leaving notes etc...), it is prefered to embed the work in an exposition.
-A new feature is the RELATIONS-TAB. Here you can choose to relate a work to other objects.
+You can collaborate on works by inviting co-authors, contributors and
+supervisors. Moreover, you can relate works to other works and
+expositions by using the "relations"-tab in the "edit
+details"-dialogue window. 
 
 ### Add Project 
 
-A __project__ is a container within which works or expositions may be produced. It may or may not be funded. Using the RELATIONS-TAB, those works or expositions can be linked to the project.
+A __project__ is a container within which works or expositions may be
+produced. It is intended to represent academic research projects and
+degrees. Using the relations-tab, works or expositions can be linked
+to the project.
 
 In case your project belongs to a degree, you can add ECTS-points.
 
-### Visibility Of Groups
+### Visibility Of Groupings
 
-You can decide if you want to have a group in your public profile visible or not.
+You can decide if you want a grouping to be visible in your public profile.
 
-The visibilty is ON by default. To switch it off click on the little circle on the right side of the long underline of the groups name. If the circle is thin, the group will not be shown on your public profile.
+By default, new groupings are visible in your profile as soon as they
+contain an RC object. To hide groupings from your public profile click
+the small circle icon on the right hand side of the grouping's
+name. If the circle is thin, the grouping will not be shown on your
+public profile.
 
 ### Open Exposition
 
-The button __open exposition__ connects you to the entry page of your exposition. 
-This is the same as the __preview__ version in the workspace.
+The button "open exposition" opens the first page (or "weave") of your exposition. 
+This is equivalent to the __preview__ version in the exposition workspace.
 
-### Exposition detail menu
+### Exposition Details Menu
 
 ![object menu location](images/hamburger_location.png "image showing location of menu button")
 
-To access the menu, click on the ("hamburger") menu symbol, located in the bottom right corner of an object (expositions or works). Some options are only available to the author of the object.
+To access the menu, click on the ("hamburger") menu icon, located in
+the bottom right corner of an object (expositions or works). Some
+options are only available to the author of the object.
 
 * __Change layout__ Change the size of an object on the profile.
 
@@ -89,15 +142,19 @@ Please note that publishing is a one-way action, once published one can not  unp
 
 * __Export__ Export an exposition as a tar.gz file (you can also use this to make a copy of an exposition, by importing the generated file)
 
-* __Delete__ Delete an exposition or work from the catalogue.
+* __Delete__ Delete an exposition or work from the RC.
 
 [back to top](#profile)
 
 ### Change Layout
 
-This dialogue gives you the option of choosing the size of an object in your profile.
+This dialogue gives you the option of choosing the size of an object
+in your profile.
 
-Depending on the size, the abstract and additional informations may be reduced or even hidden. Sizing objects differently allows to focus a reader's attention to important objects as well as improving the overall readability of your profile.
+Depending on the length of the content, the abstract and additional
+information may be reduced or even hidden. Sizing objects differently
+allows to focus a reader's attention to important objects as well as
+to improve the overall readability of your profile page.
 
 Four layout-templates are possible: 
 
