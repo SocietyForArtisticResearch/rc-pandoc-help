@@ -3,8 +3,9 @@
 # Publishing and Sharing
 
 There are number of different ways to share and publish your work on
-the RC. This functionality can be accessed using the object menu (i.e. clicking
-the menu icon) for the given work or exposition on the My Profile page.
+the RC. This functionality can be accessed using the object menu
+(i.e. clicking the menu icon) for the given work or exposition on the
+"My Profile"-page.
 
 ### Share
 
@@ -14,7 +15,8 @@ long as the object has not been published it remains editable.
 
 ### Self-Publish
 
-Self-publishing makes an exposition no longer editable and publicly visible.
+Self-publishing makes an exposition no longer editable and publicly
+visible.
 
 ### Submit for Publication
 
@@ -30,5 +32,6 @@ A work or exposition can be connected to a portal without being
 published by the portal. The portal admin will receive a notification
 and has to confirm the connection. Once the connection has been
 approved it will be shown in the object's metadata and the object may
-appear on the portal page and portal feeds. Connected works may for example
-accompany a published exposition or represent a connected event.
+appear on the portal page and portal feeds. Connected works may for
+example accompany a published exposition or represent a connected
+event.
