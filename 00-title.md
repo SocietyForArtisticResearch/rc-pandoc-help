@@ -1,4 +1,4 @@
 ---
 title: Research Catalogue Extended Guide
-date: September 2016
+date: October 2016
 ---

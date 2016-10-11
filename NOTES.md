@@ -1,3 +1,8 @@
+Notes 11/10/2016
+* More linking within documentation
+* "Back to toc" should not appear in pdf
+
+
 * Language needs checking. View is badly written and hard to
   understand.
 * The TOC should only contain sections "#" and "##"
