@@ -29,11 +29,16 @@ Maybe you want to link to a special position on the weave and you have to genera
 
 Every tool or item on the weave is deletable via using the rightclick or doubleclicking the item and use the button delete tool.
 
-Sometimes it's necessary to restore a tool. Because RC is a browser-based engine, you can't use the undo-option of your browser or the shortcut on your keyboard. Every item has its own history which is listed on the tab history in the edit-tool-dialogue. Here you have the option restore the stadium of the item. If the item or tool is deleted of couse it's not possible to use this because the item won't be any longer on the weave. With restore deleted tools you have the option to get back deleted tools. After clicking it, there will be a list with all items. Choose the right one and click on restore and the item will be reintegrate in the exposition.
+Sometimes it's necessary to restore a tool. Because RC is a browser-based engine, you can't use the undo-option of your browser or the shortcut on your keyboard. Every item has its own history which is listed on the tab history in the edit-tool-dialogue. Here you have the option restore the stadium of the item. If the item or tool is deleted of couse it's not possible to use this because the item won't be any longer on the weave. With restore deleted tools you have the option to get back deleted tools. After clicking it, there will be a list with all items. Choose the right one and click on restore and the item will be reintegrated into the exposition.
 
 ### Send Collaboration Message
 
-When you are working together on a research, you can use the command 'send collaboration message' to commuicate with the co-authors or contributors inside the RC. Open the command by clicking on the button and you will find a message-window. In the upper part you can choose the partners you want to write. Select them by clicking on the + behind theire names.
+When you are collaborating on an exposition, you can use the command
+"send collaboration message" to commuicate with the co-authors or
+contributors. Open the command by clicking on the button and you will
+find a message-window. In the upper part you can choose the partners
+you want to contact. Select them by clicking on the "+"-icon behind their
+names.
 
 Below you find a html-based message window, where you can write your message. You can also attach files but please note, that this is only possible, when you have a URL (e.g. public link of your cloudspace) of this file. It's not possible to attach files from the simple-media.
 
