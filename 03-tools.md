@@ -4,6 +4,8 @@
 
 ## Text Tool
 
+A video tutorial about the text tool is found [here](https://www.researchcatalogue.net/view/273532/273533/0/937 "link to video tutorials")
+
 The text tool is designed for quickly adding text. 
 
 It has two states: when it is in *active state* you can change the
@@ -21,8 +23,6 @@ text directly on the page. While the HTML-tool opens a new dialog
 window. If you need more styling options, use the HTML-tool. A text
 tool can be converted to an HTML-tool via the menu option __convert to
 HTML tool__.
-
-For a visual tutorial see this [link](https://www.researchcatalogue.net/view/273532/273533/0/937 "link to video tutorials").
 
 <!-- insert link to video tutorials -->
 

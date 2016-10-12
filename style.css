@@ -63,6 +63,7 @@ img {
 }
 
 .icon {
+    min-width:unset;
     width:15px;
     height:15px;
     border:none;
