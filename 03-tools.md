@@ -199,7 +199,7 @@ the RC. This takes some time. During the transcoding process, the file
 name is greyed out in simple media. After the transcoding process has
 been finished you will receive an email notification that your media
 is transcoded and ready for use. For further information and technical
-questions see [FAQ 2.6](http://www.researchcatalogue.net/portal/faq "FAQ")or
+questions see [FAQ 2.6](http://www.researchcatalogue.net/portal/faq "FAQ") or
 contact the RC User Support.
 
  

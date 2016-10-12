@@ -9,6 +9,7 @@ To reach the administration functionalities of the RC website, click on __admini
 ![admin main page](images/admin_main.png "image showing the administration main page")
 
 There are 5 pages to manage content for portal admins:
+
 * [__User__](#user-page "jump to user page documentation")   
   Adding, removing and editing user information to this portal
 
@@ -52,10 +53,12 @@ This controls to which portals a user is added. A user can be added to multiple 
 
 ### Roles
 ![user role settings dialog](images/user-roles.png "image showing user role settings")
+
 When the option is turned on, the user cannot create any content. The can still become supervisors or read expositions.
 
 ### Settings
 ![user email settings dialog](images/user-settings.png "image showing user email settings")
+
 Here you can set which emails the user should receive.
 
 ### Log in as a user
