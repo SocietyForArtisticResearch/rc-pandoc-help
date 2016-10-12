@@ -428,7 +428,7 @@ only the selected media files will be played back.
 
 ## Shape Tool
 
-The play shape tool is designed for placing simple graphic elements
+The Shape tool is designed for placing simple graphic elements
 such as arrows and lines in your exposition. You can generate forms to
 structure your layout or to help navigation. You can create
 rectangles, circles and lines. You can choose if they're filled or
@@ -436,7 +436,7 @@ not. You also have the possibility to specify the thickness of the
 frame and control the opacity of the elements. There are also four
 types of arrows (left, right, up, down). You can resize the elements
 on the weave by resizing the green frame displayed around the
-shape. By using the yellow point you can rotate the element.
+shape. By clicking and dragging the yellow point you can rotate an element.
  
 
  
@@ -488,6 +488,11 @@ Click on the small ">" to open one of these sections:
 
 The style tab only sets the basic (mostly external) style of the
 object, text markup is done within the text or html tools.
+
+### Change tool defaults
+
+It is possible to change the default styling settings for any tool, by double clicking the tool in the toolbar.
+After the default is changed, every newly created tool will initially use these new settings.
 
 ## History
 

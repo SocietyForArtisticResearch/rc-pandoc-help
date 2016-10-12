@@ -144,8 +144,6 @@ Please note that publishing is a one-way action, once published one can not  unp
 
 * __Delete__ Delete an exposition or work from the RC.
 
-[back to top](#profile)
-
 ### Change Layout
 
 This dialogue gives you the option of choosing the size of an object
