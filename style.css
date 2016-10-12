@@ -55,7 +55,7 @@ h5 {
 }
 
 img {
-    min-width:300px;
+    min-width:280px;
     width:70%;
     /* width:60%, */
     padding:10px;
@@ -71,7 +71,8 @@ img {
 
 .caption {
 	text-align: left;
-	color: #bfbfbf;
+
+	color: #666666;
 	font-size:12px;
 }
 
@@ -100,3 +101,9 @@ table {
       margin-top: 0; }
     table tr th :last-child, table tr td :last-child {
 margin-bottom: 0; }
+
+.small_image img {
+  min-width:unset;
+  width:150px;
+  height:150px;
+}

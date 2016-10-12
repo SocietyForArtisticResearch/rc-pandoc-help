@@ -2,6 +2,47 @@
 
 # Research Catalogue Workspace Tools
 
+## General
+
+The workspace tools are listed at the left side of the editor, under the Tools tab. To use a tool, drag it from the toolbar onto the canvas.
+
+![dragging a toolbar to the canvas](images/toolbar-demo.png "drag a toolbar to the canvas")
+
+### Context menu
+
+
+<div class="small_image">
+![context menu location](images/position-context-menu.png "context menu location")
+</div>
+
+The context menu of a tool is reached by clicking on ☰, or right clicking (Apple: CTRL+click) inside a tool.
+
+![context menu](images/context-menu.png "context menu")
+
+* __Edit__ (open edit dialog)  
+Open edit dialog
+
+* __Copy__/__Paste__  
+Copy/paste objects
+
+* __Bring to front__/__Bring to back__  
+Organise which object is in front of another.
+
+* __Lock__/__Unlock__  
+Lock means that one cannot make any changes until unlocked again.
+
+* __Delete__  
+Delete a tool
+
+
+Tools can be resized by clicking and dragging the green borders with the mouse.
+
+Tools can be rotated by clicking and dragging the yellow dot.
+
+### Defaults
+
+Defaults for styling and options can be set for a tool, by double clicking it in the toolbar.
+
 ## Text Tool
 
 A video tutorial about the text tool is found [here](https://www.researchcatalogue.net/view/273532/273533/0/937 "link to video tutorials")

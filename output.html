@@ -24,6 +24,7 @@
 <li><a href="#workspace-view">Workspace View</a></li>
 </ul></li>
 <li><a href="#research-catalogue-workspace-tools">Research Catalogue Workspace Tools</a><ul>
+<li><a href="#general">General</a></li>
 <li><a href="#text-tool">Text Tool</a></li>
 <li><a href="#html-tool">HTML-Tool</a></li>
 <li><a href="#picture-tool">Picture Tool</a></li>
@@ -158,6 +159,40 @@ Note, that the video player, the audio player, the slideshow and object tool are
 <p>You can close both views by clicking on &quot;close note view&quot; or &quot;close text view&quot; in the top-right.</p>
 <!--pandoc -s tools.md -o tools.html -c style.css-->
 <h1 id="research-catalogue-workspace-tools">Research Catalogue Workspace Tools</h1>
+<h2 id="general">General</h2>
+<p>The workspace tools are listed at the left side of the editor, under the Tools tab. To use a tool, drag it from the toolbar onto the canvas.</p>
+<div class="figure">
+<img src="images/toolbar-demo.png" title="drag a toolbar to the canvas" alt="dragging a toolbar to the canvas" />
+<p class="caption">dragging a toolbar to the canvas</p>
+</div>
+<h3 id="context-menu">Context menu</h3>
+<div class="small_image">
+<div class="figure">
+<img src="images/position-context-menu.png" title="context menu location" alt="context menu location" />
+<p class="caption">context menu location</p>
+</div>
+</div>
+<p>The context menu of a tool is reached by clicking on ☰, or right clicking (Apple: CTRL+click) inside a tool.</p>
+<div class="figure">
+<img src="images/context-menu.png" title="context menu" alt="context menu" />
+<p class="caption">context menu</p>
+</div>
+<ul>
+<li><p><strong>Edit</strong> (open edit dialog)<br />
+Open edit dialog</p></li>
+<li><p><strong>Copy</strong>/<strong>Paste</strong><br />
+Copy/paste objects</p></li>
+<li><p><strong>Bring to front</strong>/<strong>Bring to back</strong><br />
+Organise which object is in front of another.</p></li>
+<li><p><strong>Lock</strong>/<strong>Unlock</strong><br />
+Lock means that one cannot make any changes until unlocked again.</p></li>
+<li><p><strong>Delete</strong><br />
+Delete a tool</p></li>
+</ul>
+<p>Tools can be resized by clicking and dragging the green borders with the mouse.</p>
+<p>Tools can be rotated by clicking and dragging the yellow dot.</p>
+<h3 id="defaults">Defaults</h3>
+<p>Defaults for styling and options can be set for a tool, by double clicking it in the toolbar.</p>
 <h2 id="text-tool">Text Tool</h2>
 <p>A video tutorial about the text tool is found <a href="https://www.researchcatalogue.net/view/273532/273533/0/937" title="link to video tutorials">here</a></p>
 <p>The text tool is designed for quickly adding text.</p>
@@ -440,11 +475,14 @@ Note, that the video player, the audio player, the slideshow and object tool are
 <ul>
 <li><p><a href="#user-page" title="jump to user page documentation"><strong>User</strong></a><br />
 Adding, removing and editing user information to this portal</p></li>
-<li><p><a href="#portal-page" title="jump to portal page"><strong>Portal</strong></a> Portal settings, reviewers, sending portal mails</p></li>
+<li><p><a href="#portal-page" title="jump to portal page"><strong>Portal</strong></a><br />
+Portal settings, reviewers, sending portal mails</p></li>
 <li><p><a href="#research-page" title="jump to research"><strong>Research</strong></a><br />
 Management of connected expositions</p></li>
-<li><p><a href="#connection-requests" title="connection requests"><strong>Connection Requests</strong></a> Management of connection requests</p></li>
-<li><p><a href="#reviewing" title="reviewing"><strong>Reviewing</strong></a> Review process of expositions and objects that are waiting to be published</p></li>
+<li><p><a href="#connection-requests" title="connection requests"><strong>Connection Requests</strong></a><br />
+Management of connection requests</p></li>
+<li><p><a href="#reviewing" title="reviewing"><strong>Reviewing</strong></a><br />
+Review process of expositions and objects that are waiting to be published</p></li>
 </ul>
 <h4 id="multiple-portals">Multiple Portals:</h4>
 <p>If you are an admin in multiple portals, you can switch between them in the top right corner of the site, through the drop down menu.</p>
@@ -481,7 +519,11 @@ Management of connected expositions</p></li>
 </table>
 <h3 id="add-edit-a-user-dialog">Add / Edit A User Dialog</h3>
 <h3 id="profile">Profile</h3>
-<p><img src="images/user-profile.png" title="image showing user profile dialog" alt="user profile dialog" /> Change the name, alias, email and password (optional). An administrator can also change these fields without having to change the password (by leaving the field empty).</p>
+<div class="figure">
+<img src="images/user-profile.png" title="image showing user profile dialog" alt="user profile dialog" />
+<p class="caption">user profile dialog</p>
+</div>
+<p>Change the name, alias, email and password (optional). An administrator can also change these fields without having to change the password (by leaving the field empty).</p>
 <h3 id="portal">Portal</h3>
 <div class="figure">
 <img src="images/user-portal.png" title="image showing user portal settings" alt="user portal settings dialog" />
@@ -541,9 +583,17 @@ Management of connected expositions</p></li>
 <p>For advanced layout, you can use the HTML button. Please note that it is not recommended to use URI encoded images in email, since some email clients do not like this. Better practice is to have the images hosted somewhere externally and link form there using a <xmp> <img src=...> </xmp> tag.</p>
 <h2 id="portal-edit-screen">Portal Edit Screen</h2>
 <h3 id="common">Common</h3>
-<p><img src="images/portal-edit-common.png" title="image showing portal edit common dialog" alt="portal edit common screen" /> Here you can edit the basic information of the portal. View text allows you to change the template that is used to display expositions on the portal page: available placeholders: $author, $title, $portal, $edition, $published, $url, $now.</p>
+<div class="figure">
+<img src="images/portal-edit-common.png" title="image showing portal edit common dialog" alt="portal edit common screen" />
+<p class="caption">portal edit common screen</p>
+</div>
+<p>Here you can edit the basic information of the portal. View text allows you to change the template that is used to display expositions on the portal page: available placeholders: $author, $title, $portal, $edition, $published, $url, $now.</p>
 <h3 id="roles-1">Roles</h3>
-<p><img src="images/portal-edit-roles.png" title="image showing the portal roles" alt="portal edit roles" /> Here you can edit the various roles of the portal:</p>
+<div class="figure">
+<img src="images/portal-edit-roles.png" title="image showing the portal roles" alt="portal edit roles" />
+<p class="caption">portal edit roles</p>
+</div>
+<p>Here you can edit the various roles of the portal:</p>
 <ul>
 <li>Admins</li>
 <li>Reviewers (see <a href="#reviewing" title="jump to reviewing">reviewing</a>)</li>
@@ -551,9 +601,17 @@ Management of connected expositions</p></li>
 <li>Contact persons (use this for people without an rc account)</li>
 </ul>
 <h3 id="issues">Issues</h3>
-<p><img src="images/portal-edit-issues.png" title="image showing portal issues" alt="portal edit issues" /> Here you can set the title of the issues (as in journal issues), one can use these in Reviewing.</p>
+<div class="figure">
+<img src="images/portal-edit-issues.png" title="image showing portal issues" alt="portal edit issues" />
+<p class="caption">portal edit issues</p>
+</div>
+<p>Here you can set the title of the issues (as in journal issues), one can use these in Reviewing.</p>
 <h3 id="submissions">Submissions</h3>
-<p><img src="images/portal-edit-submissions.png" title="image showing portal submissions" alt="portal edit sumbmissions" /> Here you can set which objects can be submitted to the portal.</p>
+<div class="figure">
+<img src="images/portal-edit-submissions.png" title="image showing portal submissions" alt="portal edit sumbmissions" />
+<p class="caption">portal edit sumbmissions</p>
+</div>
+<p>Here you can set which objects can be submitted to the portal.</p>
 <h2 id="research-page">Research page</h2>
 <p>Here you can manage all research connected to the portal. Expositions are sorted per issue. Those without a publishing date, have not been published yet. There are a number of actions available:</p>
 <table>

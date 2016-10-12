@@ -13,16 +13,16 @@ There are 5 pages to manage content for portal admins:
 * [__User__](#user-page "jump to user page documentation")   
   Adding, removing and editing user information to this portal
 
-* [__Portal__](#portal-page "jump to portal page")
+* [__Portal__](#portal-page "jump to portal page")  
   Portal settings, reviewers, sending portal mails
 
 * [__Research__](#research-page "jump to research")  
   Management of connected expositions
 
-* [__Connection Requests__](#connection-requests "connection requests")
+* [__Connection Requests__](#connection-requests "connection requests")  
   Management of connection requests
 
-* [__Reviewing__](#reviewing "reviewing")
+* [__Reviewing__](#reviewing "reviewing")  
   Review process of expositions and objects that are waiting to be published
 
 #### Multiple Portals:
@@ -43,6 +43,7 @@ If you are an admin in multiple portals, you can switch between them in the top 
 
 ### Profile
 ![user profile dialog](images/user-profile.png "image showing user profile dialog")
+
 Change the name, alias, email and password (optional).
 An administrator can also change these fields without having to change the password (by leaving the field empty).
 
@@ -92,12 +93,14 @@ For advanced layout, you can use the HTML button. Please note that it is not rec
 
 ### Common
 ![portal edit common screen](images/portal-edit-common.png "image showing portal edit common dialog")
+
 Here you can edit the basic information of the portal.
 View text allows you to change the template that is used to display expositions on the portal page:
 available placeholders: $author, $title, $portal, $edition, $published, $url, $now.
 
 ### Roles
 ![portal edit roles](images/portal-edit-roles.png "image showing the portal roles")
+
 Here you can edit the various roles of the portal:
 
 * Admins
@@ -107,10 +110,12 @@ Here you can edit the various roles of the portal:
 
 ### Issues
 ![portal edit issues](images/portal-edit-issues.png "image showing portal issues")
+
 Here you can set the title of the issues (as in journal issues), one can use these in Reviewing.
 
 ### Submissions
 ![portal edit sumbmissions](images/portal-edit-submissions.png "image showing portal submissions")
+
 Here you can set which objects can be submitted to the portal.
 
 ## Research page
