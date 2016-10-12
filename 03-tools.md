@@ -472,6 +472,28 @@ tool. If you have unintentionally deleted a tool, you can restore it
 using "restore deleted tools" in the commands.
 
 
+## Object Viewer
+
+The object viewer tool is a designed for displaying three-dimensional
+images. Is is based on the
+[3DNP library](http://thoro.de/page/3dnp-introduction-en "3dnp").  By
+dragging the object with the mouse cursor it can rotated around two
+axis, i.e. the object can be turned around its centre and tilted back
+and forth.  It is necessary to upload a series of images as a zip
+file. These images need to be numbered (i.e. image001.jpg,
+image002.jpg etc). Each image must the object from a different
+angle. You can imagine the creation of the images as the following
+process: the object rotates around a vertical axis in a number of
+steps, then moving slightly around a horizontal axis and rotating
+around the vertical axis in a number of steps again. This is repeated
+until an image of every combination of vertical and horizontal
+positions has been created. The number of different angles (steps of
+rotation around the horizontal axis) is defined by the setting
+"levels" in the dialog window. The number of steps of the rotation
+around the vertical axis is implicitly defined by "levels" and the
+total number of images.
+
+
 ## Style Options
 
 ![image showing the style tab of an html tool](images/style-tab.png "the style tab of an html tool")
@@ -503,23 +525,3 @@ three animated dots show inside). With the html tool, a version is
 created each time you click submit.
 
 
-## Object Viewer
-
-The object viewer tool is a designed for displaying three-dimensional
-images. Is is based on the
-[3DNP library](http://thoro.de/page/3dnp-introduction-en "3dnp").  By
-dragging the object with the mouse cursor it can rotated around two
-axis, i.e. the object can be turned around its centre and tilted back
-and forth.  It is necessary to upload a series of images as a zip
-file. These images need to be numbered (i.e. image001.jpg,
-image002.jpg etc). Each image must the object from a different
-angle. You can imagine the creation of the images as the following
-process: the object rotates around a vertical axis in a number of
-steps, then moving slightly around a horizontal axis and rotating
-around the vertical axis in a number of steps again. This is repeated
-until an image of every combination of vertical and horizontal
-positions has been created. The number of different angles (steps of
-rotation around the horizontal axis) is defined by the setting
-"levels" in the dialog window. The number of steps of the rotation
-around the vertical axis is implicitly defined by "levels" and the
-total number of images.
