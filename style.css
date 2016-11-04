@@ -10,22 +10,39 @@
 }
 
 #TOC {
-  padding-right:25px;
-  background-color: #dedede;
-  font-size:8px;
-  line-height: 2px;
   position:fixed;
-  top : 0px;
-  left : 0px;
-  overflow-y:scroll;
+  left:0px;
+  top:0px;
+  width:0;
+  overflow-x:hidden;
   height:100%;
+  overflow-y:scroll;
+  z-index:1;
+  background-color: #ededed;
+  transition: 0.05s;
+}
+
+#TOC li {
+  font-size:12px;
+  line-height: 1.45em;
+}
+
+
+
+#menuButton {
+  z-index:3;
+  position:fixed;
+  font-size:30px;
+  cursor:pointer;
+  top:5px;
+  left:5px;
 }
 
 
 body {
 
 	font-family: helvetica, arial, sans-serif;
-	margin:auto;
+	margin-left:50px;
 	width:60%;
 	min-width:280px;
   max-width:600px;
