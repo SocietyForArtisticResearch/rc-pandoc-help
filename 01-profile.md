@@ -1,5 +1,3 @@
-<div style="font-size:12px;position:fixed;top:0px;padding-top:5px;left:5px;background-color:#fff;width:100%;"><a href="#TOC">Back to Table of Contents</a></div>
-
 # My Profile Page
 
 The RC profile page is both the central hub for your activities on the

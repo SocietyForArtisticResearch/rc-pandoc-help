@@ -15,7 +15,7 @@ The workspace tools are listed at the left side of the editor, under the Tools t
 ![context menu location](images/position-context-menu.png "context menu location")
 </div>
 
-The context menu of a tool is reached by clicking on ☰, or right clicking (Apple: CTRL+click) inside a tool.
+The context menu of a tool is reached by clicking on the menu icon (see below), or right clicking (Apple: CTRL+click) inside a tool.
 
 ![context menu](images/context-menu.png "context menu")
 

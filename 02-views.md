@@ -22,6 +22,10 @@ of your exposition, PREVIEW shows the page (or "weave") that you
 currently are working on in your workspace. Thus, you can also PREVIEW
 pages that are not yet listed in the table of contents.
 
+## Navigation bar
+
+![the RC navigation bar](images/navigation-bar.png "image showing the navigation bar")  
+
 ### Content 
 
 This contains the table of contents.  At the bottom of the list a link
