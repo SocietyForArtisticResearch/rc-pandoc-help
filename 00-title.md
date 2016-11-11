@@ -10,17 +10,40 @@ date: October 2016
 
 
 <script>
+// this is a little script for the navigation
 
-var isMenuOpen = false;
+var isMenuOpen = false; // this is the global that checks if the menu is open.
 
-window.onload = function ( ) { 
-	init(); 
-};
+window.onload = function () {
+	init();
+}
 
 function init() {
     document.getElementById("menuButton").onclick = function ( ) { 
 		isMenuOpen ? closeNav() : openNav();
 	};
+
+
+/*
+	var callback = function (e) {
+    	var e = window.e || e;
+
+    	console.log('etarget:');
+    	console.log(e.target.id);
+
+    	if (e.target.id !== 'TOC') {
+        	console.log(e.target);
+        	return;
+    	}
+    }
+
+	if (document.addEventListener) {
+    	document.addEventListener('click', callback, false);
+    }
+	else {
+    	document.attachEvent('onclick', callback);
+    }
+*/
 	
 	makeLinksCloseNav();
 }
@@ -35,8 +58,8 @@ function makeLinksCloseNav() { // links should close the navigation
 function openNav() { // open navigation
 
 	var TOC = document.getElementById("TOC");
-    TOC.style.width = "320px";
-    document.getElementsByTagName("BODY")[0].style.marginLeft = "345px";
+    TOC.style.width = "100%";
+    //document.getElementsByTagName("BODY")[0].style.display = 'none';
 
 	menuButton.innerHTML = "&times;";
     isMenuOpen = true;
@@ -48,7 +71,7 @@ function closeNav() {
 
 	var TOC = document.getElementById("TOC");
     TOC.style.width = "0px";
-    document.getElementsByTagName("BODY")[0].style.marginLeft = "50px";
+    //document.getElementsByTagName("BODY")[0].style.display = "default";
 }
 
 
