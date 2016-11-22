@@ -1,4 +1,8 @@
-<span id="menuButton" onclick="openNav()">&#9776;</span>
+<div id="menuButton" onclick="openNav()"><span>&#9776; menu</span></div>
+<!--
+    this has to be added manually to the finished HTML
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-->
 
 ---
 title: Research Catalogue Extended Guide
@@ -10,6 +14,7 @@ date: October 2016
 
 
 <script>
+
 // this is a little script for the navigation
 
 var isMenuOpen = false; // this is the global that checks if the menu is open.
@@ -61,12 +66,12 @@ function openNav() { // open navigation
     TOC.style.width = "100%";
     //document.getElementsByTagName("BODY")[0].style.display = 'none';
 
-	menuButton.innerHTML = "&times;";
+	menuButton.innerHTML = "<span>&times;</span>";
     isMenuOpen = true;
 }
 
 function closeNav() {
-	menuButton.innerHTML = "&#9776;";
+	menuButton.innerHTML = "<span>&#9776; menu</span>";
 	isMenuOpen = false;
 
 	var TOC = document.getElementById("TOC");

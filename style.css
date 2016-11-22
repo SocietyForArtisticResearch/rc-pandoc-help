@@ -68,12 +68,18 @@
 
 
 #menuButton {
+  background-color:rgba(255,255,255,0.7);
+  width:100%;
   z-index:3;
   position:fixed;
   font-size:30px;
   cursor:pointer;
-  top:-10px;
-  left:5px;
+  top:0px;
+  left:0px;
+}
+
+#menuButton span {
+  margin-left:5px;
 }
 
 
@@ -102,7 +108,7 @@ body p,li {
 }
 
 h1,h2,h3,h4,h5 {
-  padding-top:20px;
+  padding-top:30px;
 	font-family: helvetica, arial, sans-serif;
   font-family:'PT Sans', sans-serif;
   letter-spacing:1px;

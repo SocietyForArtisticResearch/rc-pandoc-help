@@ -195,19 +195,20 @@ added to the simple media tab.
 
 ### Options
 
-There are different options concerning the properties of a picture and
-its position in relation to other objects. In the "position" menu in
-"options," you can specify how the picture relates to other objects:
-choose between contain, cover, fit, and auto. *contain* is the default
-for this field. You also have the option to define the position of the
-picture in the picture frame (which is not visible in the browser
-unless you give it a specific style). The position is preset to
-*centre-centre*.
+There are options available to change how images are resized in relation to the green border containing the image.
+This is controlled by changing the size parameter, which can be set to:  
 
-In __settings__ you are able to lock the aspect ratio (the ratio of
-width to height), and you can allow readers to enlarge the image by
-activating the checkbox "on click open image in popup." If you want to
-use a picture as a hyperlink, paste a URL into the field *on click
+* __contain__ : make the image small enough to fit without changing the aspect ratio (__default__)
+* __cover__ : crop part of the image that is not fitting (aspect ratio stays the same)
+* __fit__ : stretch the image  (aspect ratio changes)
+* __auto__ : let the browser decide which part should be cut off
+
+You can also change the *position* within the border ie: top-left, right-bottom etc...
+
+In __settings__ you are able to lock the aspect ratio. And you can allow readers to enlarge the image by
+activating the checkbox "on click open image in popup.".
+
+If you want to use a picture as a hyperlink, paste a URL into the field *on click
 open link*. It is also possible to show specific text when the cursor
 is moved over a picture. Please note, you can't change the copyright
 information in the "edit picture" window. To change the name or the

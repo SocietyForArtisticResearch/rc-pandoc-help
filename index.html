@@ -3,7 +3,6 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="Content-Style-Type" content="text/css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="generator" content="pandoc" />
   <title>Research Catalogue Extended Guide</title>
   <style type="text/css">code{white-space: pre;}</style>
@@ -59,9 +58,16 @@
 </ul></li>
 </ul>
 </div>
-<p><span id="menuButton" onclick="openNav()">☰</span></p>
+<div id="menuButton" onclick="openNav()">
+<span>☰ menu</span>
+</div>
+<!--
+    this has to be added manually to the finished HTML
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-->
 <p><a href="RC-extended-guide.pdf" title="pdf extended guide pdf version">pdf version</a></p>
 <script>
+
 // this is a little script for the navigation
 
 var isMenuOpen = false; // this is the global that checks if the menu is open.
@@ -113,12 +119,12 @@ function openNav() { // open navigation
     TOC.style.width = "100%";
     //document.getElementsByTagName("BODY")[0].style.display = 'none';
 
-    menuButton.innerHTML = "&times;";
+    menuButton.innerHTML = "<span>&times;</span>";
     isMenuOpen = true;
 }
 
 function closeNav() {
-    menuButton.innerHTML = "&#9776;";
+    menuButton.innerHTML = "<span>&#9776; menu</span>";
     isMenuOpen = false;
 
     var TOC = document.getElementById("TOC");
@@ -344,8 +350,16 @@ Delete a tool</p></li>
 <h3 id="style-2">Style</h3>
 <p><a href="#style-options">&gt; see style options</a></p>
 <h3 id="options-2">Options</h3>
-<p>There are different options concerning the properties of a picture and its position in relation to other objects. In the &quot;position&quot; menu in &quot;options,&quot; you can specify how the picture relates to other objects: choose between contain, cover, fit, and auto. <em>contain</em> is the default for this field. You also have the option to define the position of the picture in the picture frame (which is not visible in the browser unless you give it a specific style). The position is preset to <em>centre-centre</em>.</p>
-<p>In <strong>settings</strong> you are able to lock the aspect ratio (the ratio of width to height), and you can allow readers to enlarge the image by activating the checkbox &quot;on click open image in popup.&quot; If you want to use a picture as a hyperlink, paste a URL into the field <em>on click open link</em>. It is also possible to show specific text when the cursor is moved over a picture. Please note, you can't change the copyright information in the &quot;edit picture&quot; window. To change the name or the copyright text, go to the item in <strong>simple media</strong> and click <strong>edit</strong> (also double click) to open the <strong>edit media</strong> dialog.</p>
+<p>There are options available to change how images are resized in relation to the green border containing the image. This is controlled by changing the size parameter, which can be set to:</p>
+<ul>
+<li><strong>contain</strong> : make the image small enough to fit without changing the aspect ratio (<strong>default</strong>)</li>
+<li><strong>cover</strong> : crop part of the image that is not fitting (aspect ratio stays the same)</li>
+<li><strong>fit</strong> : stretch the image (aspect ratio changes)</li>
+<li><strong>auto</strong> : let the browser decide which part should be cut off</li>
+</ul>
+<p>You can also change the <em>position</em> within the border ie: top-left, right-bottom etc...</p>
+<p>In <strong>settings</strong> you are able to lock the aspect ratio. And you can allow readers to enlarge the image by activating the checkbox &quot;on click open image in popup.&quot;.</p>
+<p>If you want to use a picture as a hyperlink, paste a URL into the field <em>on click open link</em>. It is also possible to show specific text when the cursor is moved over a picture. Please note, you can't change the copyright information in the &quot;edit picture&quot; window. To change the name or the copyright text, go to the item in <strong>simple media</strong> and click <strong>edit</strong> (also double click) to open the <strong>edit media</strong> dialog.</p>
 <h2 id="audio-tool">Audio Tool</h2>
 <p>As with the other tools, use the audio tool by dragging and dropping the icon from the tool palette onto the weave. A pop-up dialog window appears automatically and gives you the choice between &quot;selecting&quot; or &quot;adding&quot; an item.</p>
 <p>You can upload audio files in the following formats: <em>ogg, wav, mov, au, mp4 audio container formats; mp2, mp3, aac, pcm a-law, flac audio codec</em> formats. All audio file formats will be transcoded to mp3s with 256kpbs.</p>
