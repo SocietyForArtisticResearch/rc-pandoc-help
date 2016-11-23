@@ -1,4 +1,4 @@
-<div id="menuButton" onclick="openNav()"><span>&#9776; menu</span></div>
+<div id="menuButton" onclick="openNav()"><span>&#9776; </span><span style="font-size: 50%"><b>MENU</b></span></div>
 <!--
     this has to be added manually to the finished HTML
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,7 +6,7 @@
 
 ---
 title: Research Catalogue Extended Guide
-date: October 2016
+date: November 2016
 ---
 
 <!--[pdf version](RC-extended-guide.pdf "pdf extended guide pdf version")  -->
@@ -71,7 +71,7 @@ function openNav() { // open navigation
 }
 
 function closeNav() {
-	menuButton.innerHTML = "<span>&#9776; menu</span>";
+	menuButton.innerHTML = "<span>&#9776; </span><span style=\"font-size: 50%\"><b>MENU</b></span>";
 	isMenuOpen = false;
 
 	var TOC = document.getElementById("TOC");

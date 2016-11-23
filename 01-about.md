@@ -1,28 +1,62 @@
 ## About the Research Catalogue
 
-The Research Catalogue (RC) is a searchable database for archiving artistic research. RC content is not peer reviewed, nor is it highly controlled for quality, being checked only for appropriateness. As a result, the RC is highly inclusive.
+The Research Catalogue (RC) is a searchable database for archiving,
+publishing, and collaborating on artistic research. RC content is not
+peer reviewed, nor is it highly controlled for quality, being checked
+only for appropriateness. As a result, the RC is highly inclusive.
 
-The open source status of the RC is essential to its nature and serves its function as a connective and transitional layer between academic discourse and artistic practice, thereby constituting a discursive field for artistic research.
+The open source status of the RC is essential to its nature and serves
+its function as a connective and transitional layer between academic
+discourse and artistic practice, thereby constituting a discursive
+field for artistic research.
 
 The RC creates a link between:
 
-1. elaborated documentation of the work; and  
-2. expositions and comments that engage with the contribution of the work as research.  
+1. elaborated documentation of artistic work,
+2. expositions and comments that engage with the contribution of the work as research
+3. creation of individual profiles that present the researchers work.
 
-Given that the RC is a site for artistic research, to add a work is to make a claim that the work can be seen as research; through expositions, comments and articles the initial claim is transformed into an argument. It is believed that the reflective space provided by the RC can become an essential part of the research process by providing a suitable structure in which to develop the relationship between documentation and exposition, whilst also retaining congruence with art itself.
+It is believed that the reflective space provided by the RC
+constitutes an essential part of the research process by providing a
+suitable structure in which to develop the relationship between
+documentation and presentation, whilst also retaining congruence with
+art itself.
 
 ### What is an RC Exposition ?
 
-The RC allows the user to create custom designed webpages called __Expositions__. These __Expositions__ can contain many types of media including: text, video, images and audio recordings.  The way in which these materials are presented is highly customizable by the user. The exposition can be edited in an online drag-and-drop editor. Collaboration with multiple authors in a single exposition is also possible. 
+The RC allows the user to create custom designed webpages called
+__expositions__. These __expositions__ can contain many types of media
+including: text, video, images, and audio recordings.  The way in
+which these materials are presented is highly customizable by the
+user. The exposition can be edited in an online drag-and-drop
+editor. Collaboration of multiple authors on the development of a
+single exposition is also possible.
 
 ### What are Works ?
 
-Additionally to expositions, it is also possible to upload single or multiple files and organize them under a __Work__, which can also contain metadata about the work.
+In addition to expositions, it is also possible to upload single or
+multiple files and organize them as a __work__, which can also contain
+metadata about the work. A __work__ in the RC can be used to represent
+self-sufficient artistic creations existing outside the RC, such as
+objects, compositions, recordings, videos, installations, paintings,
+photographs, books etc, but can also be used to represent events,
+presentations or expositions. You can add metadata such as the place
+of your work, the country or the material, technique or
+format. Moreover, the work can contain a collection of media files,
+which can later be accessed in used in expositions.
 
 ### Connection between RC and JAR
 
-Clearly, the RC is the backbone of JAR: potential JAR expositions emerge from the range of the artistic research activities taking place in it for peer-review and development within the RC space itself. Authors may nominate or JAR editors may select expositions for development as JAR contributions.
+The RC forms the technical backbone of the Journal for Artistic
+Research (JAR): potential JAR expositions emerge from the range of the
+artistic research activities taking place in the RC. Moreover,
+submissions and peer-reviewing for JAR takes place in the RC. Authors
+may nominate or JAR editors may select expositions for development as
+JAR contributions.
 
-If you believe that RC software might also support your research database needs then explore the possibility of using the RC as your repository, by contacting us.
+If you think that the RC software might also support your research
+database needs then explore the possibility of using the RC as your
+repository by contacting us.
 
-The Research Catalogue is provided by the Society for Artistic Research (SAR).
+The Research Catalogue is provided by the Society for Artistic
+Research (SAR).

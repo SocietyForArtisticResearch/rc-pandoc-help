@@ -76,10 +76,6 @@
   cursor:pointer;
   top:0px;
   left:0px;
-    font-family: helvetica, arial, sans-serif;
-  font-family:'PT Sans', sans-serif;
-  letter-spacing:1px;
-  text-transform:uppercase
 }
 
 #menuButton span {
