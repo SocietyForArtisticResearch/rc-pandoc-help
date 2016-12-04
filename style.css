@@ -68,8 +68,9 @@
 
 
 #menuButton {
-  background-color: white;
-  min-width:90px;
+  background-color: #eee;
+  min-width:120px;
+  border-bottom-right-radius: 35px;
   z-index:3;
   position:fixed;
   font-size:30px;

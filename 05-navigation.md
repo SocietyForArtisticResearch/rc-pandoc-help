@@ -18,7 +18,7 @@ appears. The menu bar displays (from left to right):
 
 See the [video tutorial](https://www.researchcatalogue.net/view/273532/273533/54/759) on this topic.
 
-![Table of content dialog](images/table-of-content-dialog)
+![an example of a contents list, made through the table of content](images/table-of-content-example.png)
 
 The table of content is designed to facilitate the navigation through
 an exposition. In order to edit the table of content and enter entries
@@ -26,7 +26,11 @@ click on the title of your exposition in the editor (one can also open
 this window by going to the exposition on the profile page and
 clicking "edit details"). This opens a dialogue window titled "Edit
 Research." The second tab ("table of content") of this window contains
-a series of entries. To make a new entry select the page (or "weave")
+a series of entries. 
+
+![Table of content dialog](images/table-of-content-dialog.png)
+
+To make a new entry select the page (or "weave")
 that this item in the table of content is supposed to link to from the
 pull down menu and enter a title for this entry to be displayed in the
 table of content. Moreover one can choose a specific position within
