@@ -4,21 +4,21 @@
 
 ### Menu Bar Navigation
 
+![menu bar](images/menu-bar-navigation.png)
+
 When one moves the mouse cursor to the top of an exposition a menu bar
-appears. The menu bar displays the title of the exposition and the
-name of its author as well as a series of drop down menus, which allow
-one to navigate the current page (or "weave") and the exposition as a
-whole. The first item ("home") opens the table of content, which can
-be freely designed by the author (see the next section on how to enter
-entries into the table of content). The second item ("navigation")
-displays a schematic overview of the current page. It outlines all
-tools on the page, their size and position. By moving the red
-rectangle, which displays the currently visible part of the weave, one
-can navigate the page and alter the current selection.
+appears. The menu bar displays (from left to right):
+
+* __Contents__, which can be freely designed by the author (see [table of content](#table-of-content)). In most expositions this contains a list of the pages.
+* __Navigation__ displays a schematic map/overview of the current page. It outlines all used tools on the page, their size and position. By clicking inside the map, you can jump to another position on the page. Your current position within the exposition is shown as a red rectangle.
+* __Abstract__ the abstract of this exposition
+* __The title__ of the exposition and the name of its author(s). One can also hoover over this title to receive an exact link to this location on the page. 
 
 ### Table of Content
 
 See the [video tutorial](https://www.researchcatalogue.net/view/273532/273533/54/759) on this topic.
+
+![Table of content dialog](images/table-of-content-dialog)
 
 The table of content is designed to facilitate the navigation through
 an exposition. In order to edit the table of content and enter entries
@@ -54,7 +54,9 @@ Link," paste the copied URL into the text field labeled "Link URL" and
 close the HTML-Tool by clicking "Submit." One can also create a link
 to a different position within the same page by moving to this
 position (see also the next section on the overview function) and
-following the same procedure.  ### Overview
+following the same procedure.  
+
+### Overview
 
 Within the "Commands" tab on the right-hand side of the editor there
 is a checkbox labeled "Overview." Clicking the checkbox will open

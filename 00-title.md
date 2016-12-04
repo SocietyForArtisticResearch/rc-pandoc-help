@@ -66,12 +66,12 @@ function openNav() { // open navigation
     TOC.style.width = "100%";
     //document.getElementsByTagName("BODY")[0].style.display = 'none';
 
-	menuButton.innerHTML = "<span>&times;</span>";
+	menuButton.innerHTML = "<span class=\"closeSymbol\">&times; </span><span style=\"font-size: 50%\"><b>MENU</b></span>";
     isMenuOpen = true;
 }
 
 function closeNav() {
-	menuButton.innerHTML = "<span>&#9776; </span><span style=\"font-size: 50%\"><b>MENU</b></span>";
+	menuButton.innerHTML = "<span class=\"menuSumbol\">&#9776; </span><span style=\"font-size: 50%\"><b>MENU</b></span>";
 	isMenuOpen = false;
 
 	var TOC = document.getElementById("TOC");

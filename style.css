@@ -68,8 +68,8 @@
 
 
 #menuButton {
-  background-color:rgba(255,255,255,0.7);
-  min-width:100px;
+  background-color: white;
+  min-width:90px;
   z-index:3;
   position:fixed;
   font-size:30px;
@@ -84,6 +84,11 @@
 
 #menuButton span {
   margin-left:5px;
+}
+
+span.closeSymbol {
+  position: relative;
+  top:4px;
 }
 
 

@@ -3,7 +3,6 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="Content-Style-Type" content="text/css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="generator" content="pandoc" />
   <title>Research Catalogue Extended Guide</title>
   <style type="text/css">code{white-space: pre;}</style>
@@ -55,8 +54,9 @@
 <li><a href="#portal-edit-screen">Portal Edit Screen</a></li>
 <li><a href="#research-page">Research page</a></li>
 <li><a href="#connection-requests">Connection Requests</a></li>
-<li><a href="#reviewing-1">Reviewing</a></li>
+<li><a href="#reviewing-admin">Reviewing (admin)</a></li>
 </ul></li>
+<li><a href="#more-help">More help</a></li>
 </ul>
 </div>
 <div id="menuButton" onclick="openNav()">
@@ -64,7 +64,7 @@
 </div>
 <!--
     this has to be added manually to the finished HTML
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 -->
 <!--[pdf version](RC-extended-guide.pdf "pdf extended guide pdf version")  -->
 <script>
@@ -477,9 +477,23 @@ Delete a tool</p></li>
 <!-- TODO: Insert links to other parts of the documentation -->
 <h1 id="navigation-1">Navigation</h1>
 <h3 id="menu-bar-navigation">Menu Bar Navigation</h3>
-<p>When one moves the mouse cursor to the top of an exposition a menu bar appears. The menu bar displays the title of the exposition and the name of its author as well as a series of drop down menus, which allow one to navigate the current page (or &quot;weave&quot;) and the exposition as a whole. The first item (&quot;home&quot;) opens the table of content, which can be freely designed by the author (see the next section on how to enter entries into the table of content). The second item (&quot;navigation&quot;) displays a schematic overview of the current page. It outlines all tools on the page, their size and position. By moving the red rectangle, which displays the currently visible part of the weave, one can navigate the page and alter the current selection.</p>
+<div class="figure">
+<img src="images/menu-bar-navigation.png" alt="menu bar" />
+<p class="caption">menu bar</p>
+</div>
+<p>When one moves the mouse cursor to the top of an exposition a menu bar appears. The menu bar displays (from left to right):</p>
+<ul>
+<li><strong>Contents</strong>, which can be freely designed by the author (see <a href="#table-of-content">table of content</a>). In most expositions this contains a list of the pages.</li>
+<li><strong>Navigation</strong> displays a schematic map/overview of the current page. It outlines all used tools on the page, their size and position. By clicking inside the map, you can jump to another position on the page. Your current position within the exposition is shown as a red rectangle.</li>
+<li><strong>Abstract</strong> the abstract of this exposition</li>
+<li><strong>The title</strong> of the exposition and the name of its author(s). One can also hoover over this title to receive an exact link to this location on the page.</li>
+</ul>
 <h3 id="table-of-content">Table of Content</h3>
 <p>See the <a href="https://www.researchcatalogue.net/view/273532/273533/54/759">video tutorial</a> on this topic.</p>
+<div class="figure">
+<img src="images/table-of-content-dialog" alt="Table of content dialog" />
+<p class="caption">Table of content dialog</p>
+</div>
 <p>The table of content is designed to facilitate the navigation through an exposition. In order to edit the table of content and enter entries click on the title of your exposition in the editor (one can also open this window by going to the exposition on the profile page and clicking &quot;edit details&quot;). This opens a dialogue window titled &quot;Edit Research.&quot; The second tab (&quot;table of content&quot;) of this window contains a series of entries. To make a new entry select the page (or &quot;weave&quot;) that this item in the table of content is supposed to link to from the pull down menu and enter a title for this entry to be displayed in the table of content. Moreover one can choose a specific position within the selected page. The &quot;X-Coord&quot; is the distance in pixels from the left margin of the exposition and the &quot;Y-Coord&quot; is the distance in pixels from the top margin (See the section on &quot;Commands&quot; for more information on obtaining position information.) The table of content thus not only allows structuring expositions by creating a series of weaves, but also by using various locations within one weave.</p>
 <h3 id="hyperlinking">Hyperlinking</h3>
 <p>See the <a href="https://www.researchcatalogue.net/view/273532/273533">video tutorial</a> on this topic.</p>
@@ -590,7 +604,7 @@ Portal settings, reviewers, sending portal mails</p></li>
 Management of connected expositions</p></li>
 <li><p><a href="#connection-requests" title="connection requests"><strong>Connection Requests</strong></a><br />
 Management of connection requests</p></li>
-<li><p><a href="#reviewing" title="reviewing"><strong>Reviewing</strong></a><br />
+<li><p><a href="#reviewing-admin" title="reviewing"><strong>Reviewing</strong></a><br />
 Review process of expositions and objects that are waiting to be published</p></li>
 </ul>
 <h4 id="multiple-portals">Multiple Portals:</h4>
@@ -752,8 +766,8 @@ Review process of expositions and objects that are waiting to be published</p></
 <h3 id="unpublishing-an-exposition">Unpublishing an exposition</h3>
 <p>The unpublishing of expositions is not encuraged. Published expositions are supposed to be a permament reference, never to be deleted or changed. If an exposition is to be continuously changed or temporary, it is better to not publish, but simply set its sharing settings to <strong>public</strong>. When unpublishing an exposition make sure with the author of the exposition that there are no connected works that have been deleted since, otherwise it may be impossible to reconstruct the publication.</p>
 <h2 id="connection-requests">Connection Requests</h2>
-<p>It is possible for users to connect a work or exposition to a portal. The works that have been accepted by an admin of the portal will be listed here. Requests can simply be accepted <strong>V</strong> or rejected <strong>X</strong>.</p>
-<h2 id="reviewing-1">Reviewing</h2>
+<p>It is possible for users to connect a work or exposition to a portal. The works that have been accepted by an admin of the portal will be listed here. Requests can be accepted with: <strong>V</strong> or rejected with: <strong>X</strong>.</p>
+<h2 id="reviewing-admin">Reviewing (admin)</h2>
 <p>The reviewing page allows managment of expositions that have been applied for publication by the author. Reviewers can be assigned to these works. There are two styles of reviewing: single blind or double blind. Single blind means that the author cannot see the reviewers. Double blind means that the reviewers cannot see each other.</p>
 <p>Please note that within the KonCon portal, supervisor notes can be seen by reviewers.</p>
 <div class="figure">
@@ -787,5 +801,11 @@ Review process of expositions and objects that are waiting to be published</p></
 </tbody>
 </table>
 <p>If you reject a request for publication, it is possible to edit the standard message that is sent to the author of the exposition.</p>
+<h1 id="more-help">More help</h1>
+<ul>
+<li><p><a href="https://www.researchcatalogue.net/view/273532/273533">Video Tutorials</a></p></li>
+<li><p><a href="http://www.sarconference2016.net/forum">Forum</a></p></li>
+<li><p><a href="mailto:rc@researchcatalogue.net">Mail support</a></p></li>
+</ul>
 </body>
 </html>

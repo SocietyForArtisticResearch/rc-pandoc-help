@@ -22,7 +22,7 @@ There are 5 pages to manage content for portal admins:
 * [__Connection Requests__](#connection-requests "connection requests")  
   Management of connection requests
 
-* [__Reviewing__](#reviewing "reviewing")  
+* [__Reviewing__](#reviewing-admin "reviewing")  
   Review process of expositions and objects that are waiting to be published
 
 #### Multiple Portals:
@@ -133,10 +133,10 @@ The unpublishing of expositions is not encuraged. Published expositions are supp
 
 ## Connection Requests
 It is possible for users to connect a work or exposition to a portal. The works that have been accepted by an admin of the portal will be listed here.
-Requests can simply be accepted __V__ or rejected __X__.
+Requests can be accepted with: __V__ or rejected with: __X__.
 
 
-## Reviewing
+## Reviewing (admin) 
 The reviewing page allows managment of expositions that have been applied for publication by the author. Reviewers can be assigned to these works. There are two styles of reviewing: single blind or double blind. Single blind means that the author cannot see the reviewers. Double blind means that the reviewers cannot see each other. 
 
 Please note that within the KonCon portal, supervisor notes can be seen by reviewers.

@@ -4,7 +4,7 @@
 
 ## General
 
-The workspace tools are listed at the left side of the editor, under the Tools tab. To use a tool, drag it from the toolbar onto the canvas.
+The workspace tools are listed at the left side of the editor, under the Tools tab. To use a tool, drag it (click and hold the mouse button down) from the toolbar onto the canvas.
 
 ![dragging a toolbar to the canvas](images/toolbar-demo.png "drag a toolbar to the canvas")
 
@@ -15,7 +15,7 @@ The workspace tools are listed at the left side of the editor, under the Tools t
 ![context menu location](images/position-context-menu.png "context menu location")
 </div>
 
-The context menu of a tool is reached by clicking on the menu icon (see below), or right clicking (Apple: CTRL+click) inside a tool.
+The context menu of a tool is reached by clicking on the menu icon (see below), or right clicking (Apple: CTRL+click) inside a tool. The only exeption is the text tool, see text tool.
 
 ![context menu](images/context-menu.png "context menu")
 
