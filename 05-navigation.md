@@ -21,8 +21,8 @@ See the [video tutorial](https://www.researchcatalogue.net/view/273532/273533/54
 ![an example of a contents list, made through the table of content](images/table-of-content-example.png)
 
 The table of content is designed to facilitate the navigation through
-an exposition. In order to edit the table of content and enter entries
-click on the title of your exposition in the editor (one can also open
+an exposition. In order to edit the table of content and add entries,
+click on the __title of your exposition__ in the editor (one can also open
 this window by going to the exposition on the profile page and
 clicking "edit details"). This opens a dialogue window titled "Edit
 Research." The second tab ("table of content") of this window contains
@@ -39,7 +39,7 @@ left margin of the exposition and the "Y-Coord" is the distance in
 pixels from the top margin (See the section on "Commands" for more
 information on obtaining position information.) The table of content
 thus not only allows structuring expositions by creating a series of
-weaves, but also by using various locations within one weave.
+weaves, but also by using various locations within one weave. Also note that pages that unless a page is entered in the table of content, the reader cannot reach them. Pages are not automatically added to the table of content.
 
 ### Hyperlinking
 

@@ -19,64 +19,40 @@ date: November 2016
 
 var isMenuOpen = false; // this is the global that checks if the menu is open.
 
-window.onload = function () {
+window.onload = function ( ) {
 	init();
 }
 
-function init() {
+function init( ) {
     document.getElementById("menuButton").onclick = function ( ) { 
 		isMenuOpen ? closeNav() : openNav();
 	};
-
-
-/*
-	var callback = function (e) {
-    	var e = window.e || e;
-
-    	console.log('etarget:');
-    	console.log(e.target.id);
-
-    	if (e.target.id !== 'TOC') {
-        	console.log(e.target);
-        	return;
-    	}
-    }
-
-	if (document.addEventListener) {
-    	document.addEventListener('click', callback, false);
-    }
-	else {
-    	document.attachEvent('onclick', callback);
-    }
-*/
 	
 	makeLinksCloseNav();
 }
 
-function makeLinksCloseNav() { // links should close the navigation
+function makeLinksCloseNav( ) { // links should close the navigation
 	var links = document.getElementById("TOC").getElementsByTagName("A");
 	for (var i = 0;i<links.length;i++) {
 		links[i].onclick = function ( ) { closeNav() };
 	}
 }
 
-function openNav() { // open navigation
+function openNav( ) { // open navigation
 
 	var TOC = document.getElementById("TOC");
     TOC.style.width = "100%";
-    //document.getElementsByTagName("BODY")[0].style.display = 'none';
 
 	menuButton.innerHTML = "<span class=\"closeSymbol\">&times; </span><span style=\"font-size: 50%\"><b>MENU</b></span>";
     isMenuOpen = true;
 }
 
-function closeNav() {
+function closeNav( ) {
 	menuButton.innerHTML = "<span class=\"menuSumbol\">&#9776; </span><span style=\"font-size: 50%\"><b>MENU</b></span>";
 	isMenuOpen = false;
 
 	var TOC = document.getElementById("TOC");
     TOC.style.width = "0px";
-    //document.getElementsByTagName("BODY")[0].style.display = "default";
 }
 
 
