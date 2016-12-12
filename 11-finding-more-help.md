@@ -1,14 +1,19 @@
 # More help
 
-Video tutorials showing various processes in the RC.
 * [Video Tutorials](https://www.researchcatalogue.net/view/273532/273533)  
+Video tutorials showing various processes in the RC.
+  
 
-Here you can discuss both technical problems with using the RC, but also a broader range of topics.
-Using the forum has the advantage that somebody may have posted the problem and received the answer before.
 * [Forum](http://www.sarconference2016.net/forum)  
+It is recommended that you post your questions here, so the answer to your question is shared with other RC users. Within the forum you can also post:   
 
-Directly mail support. For instance when the problem concerns personal details of your profile or research.
-* [Mail support](mailto:rc@researchcatalogue.net)  
+	- bug reports
+	- feature requests 
+	- discuss general issues around the RC
+ 
+* [Mail support](mailto:rc@researchcatalogue.net)   
+Directly mail support. For instance when the problem concerns personal details of your profile or research:  
+
 
 
 

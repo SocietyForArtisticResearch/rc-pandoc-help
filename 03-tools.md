@@ -428,13 +428,21 @@ different picture.
 The RC gives you and your reader the possibility to read the pdf
 directly in the browser if the browser supports this. To use this
 option check "display in browser" in option > settings of the "edit
-pdf" tool dialog box. As in the picture tool, you can provide further
+pdf" tool dialog box. 
+
+You can also double click the PDF tool and then switch to the options tab.
+Then click settings.
+
+![Extra settings dialog of pdf tool](images/pdf-display-in-browser.png)
+
+As in the picture tool, you can provide further
 information using the hover option. To do this, select one of the
 options in the "show on hover" pull-down menu. In addition, you can
 create a plain text to be displayed when the reader's mouse hovers
 over the PDF preview. To use this, choose "plain text" or "copyright &
 plain text" from the pull-down menu and write your text in the text
 field below.
+
 
 
 ## Play Tool

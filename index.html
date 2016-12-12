@@ -74,64 +74,40 @@
 
 var isMenuOpen = false; // this is the global that checks if the menu is open.
 
-window.onload = function () {
+window.onload = function ( ) {
     init();
 }
 
-function init() {
+function init( ) {
     document.getElementById("menuButton").onclick = function ( ) { 
         isMenuOpen ? closeNav() : openNav();
     };
-
-
-/*
-    var callback = function (e) {
-        var e = window.e || e;
-
-        console.log('etarget:');
-        console.log(e.target.id);
-
-        if (e.target.id !== 'TOC') {
-            console.log(e.target);
-            return;
-        }
-    }
-
-    if (document.addEventListener) {
-        document.addEventListener('click', callback, false);
-    }
-    else {
-        document.attachEvent('onclick', callback);
-    }
-*/
     
     makeLinksCloseNav();
 }
 
-function makeLinksCloseNav() { // links should close the navigation
+function makeLinksCloseNav( ) { // links should close the navigation
     var links = document.getElementById("TOC").getElementsByTagName("A");
     for (var i = 0;i<links.length;i++) {
         links[i].onclick = function ( ) { closeNav() };
     }
 }
 
-function openNav() { // open navigation
+function openNav( ) { // open navigation
 
     var TOC = document.getElementById("TOC");
     TOC.style.width = "100%";
-    //document.getElementsByTagName("BODY")[0].style.display = 'none';
 
     menuButton.innerHTML = "<span class=\"closeSymbol\">&times; </span><span style=\"font-size: 50%\"><b>MENU</b></span>";
     isMenuOpen = true;
 }
 
-function closeNav() {
+function closeNav( ) {
     menuButton.innerHTML = "<span class=\"menuSumbol\">&#9776; </span><span style=\"font-size: 50%\"><b>MENU</b></span>";
     isMenuOpen = false;
 
     var TOC = document.getElementById("TOC");
     TOC.style.width = "0px";
-    //document.getElementsByTagName("BODY")[0].style.display = "default";
 }
 
 
@@ -418,7 +394,13 @@ Delete a tool</p></li>
 <p>In the uploading dialog box, you can choose to represent the pdf in your exposition either with a preview image of the file or with a different picture.</p>
 <p><a href="#style-options">&gt; see style options</a></p>
 <h3 id="options-6">Options</h3>
-<p>The RC gives you and your reader the possibility to read the pdf directly in the browser if the browser supports this. To use this option check &quot;display in browser&quot; in option &gt; settings of the &quot;edit pdf&quot; tool dialog box. As in the picture tool, you can provide further information using the hover option. To do this, select one of the options in the &quot;show on hover&quot; pull-down menu. In addition, you can create a plain text to be displayed when the reader's mouse hovers over the PDF preview. To use this, choose &quot;plain text&quot; or &quot;copyright &amp; plain text&quot; from the pull-down menu and write your text in the text field below.</p>
+<p>The RC gives you and your reader the possibility to read the pdf directly in the browser if the browser supports this. To use this option check &quot;display in browser&quot; in option &gt; settings of the &quot;edit pdf&quot; tool dialog box.</p>
+<p>You can also double click the PDF tool and then switch to the options tab. Then click settings.</p>
+<div class="figure">
+<img src="images/pdf-display-in-browser.png" alt="Extra settings dialog of pdf tool" />
+<p class="caption">Extra settings dialog of pdf tool</p>
+</div>
+<p>As in the picture tool, you can provide further information using the hover option. To do this, select one of the options in the &quot;show on hover&quot; pull-down menu. In addition, you can create a plain text to be displayed when the reader's mouse hovers over the PDF preview. To use this, choose &quot;plain text&quot; or &quot;copyright &amp; plain text&quot; from the pull-down menu and write your text in the text field below.</p>
 <h2 id="play-tool">Play Tool</h2>
 <p>The play tool is designed to synchronize the playback of selected video and audio tools on the same weave. With this tool one can create a single control for playing back various media files at the same time. This can, for example, be used to document video installations with multiple screens and allows playing back synchronized combinations of musical voices and audio tracks. The play tool displays an image which can be clicked and functions as play and pause button. Clicking the image will start the playback of the selected audio and video files. While playing the tool another image will be displayed instead. Clicking this image will pause the players.</p>
 <h3 id="media-1">Media</h3>
@@ -809,9 +791,17 @@ Review process of expositions and objects that are waiting to be published</p></
 <p>If you reject a request for publication, it is possible to edit the standard message that is sent to the author of the exposition.</p>
 <h1 id="more-help">More help</h1>
 <ul>
-<li><p><a href="https://www.researchcatalogue.net/view/273532/273533">Video Tutorials</a></p></li>
-<li><p><a href="http://www.sarconference2016.net/forum">Forum</a></p></li>
-<li><p><a href="mailto:rc@researchcatalogue.net">Mail support</a></p></li>
+<li><p><a href="https://www.researchcatalogue.net/view/273532/273533">Video Tutorials</a><br />
+Video tutorials showing various processes in the RC.</p></li>
+<li><p><a href="http://www.sarconference2016.net/forum">Forum</a><br />
+It is recommended that you post your questions here, so the answer to your question is shared with other RC users. Within the forum you can also post:</p>
+<ul>
+<li>bug reports</li>
+<li>feature requests</li>
+<li>discuss general issues around the RC</li>
+</ul></li>
+<li><p><a href="mailto:rc@researchcatalogue.net">Mail support</a><br />
+Directly mail support. For instance when the problem concerns personal details of your profile or research:</p></li>
 </ul>
 </body>
 </html>
