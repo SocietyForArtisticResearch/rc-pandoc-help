@@ -4,7 +4,7 @@
 Video tutorials showing various processes in the RC.
   
 
-* [Forum](http://www.sarconference2016.net/forum)  
+* [Forum](https://www.rcforum.net)  
 It is recommended that you post your questions here, so the answer to your question is shared with other RC users. Within the forum you can also post:   
 
 	- bug reports
