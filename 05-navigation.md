@@ -2,7 +2,7 @@
 
 # Navigation
 
-### Menu Bar Navigation
+## Menu Bar Navigation
 
 ![menu bar](images/menu-bar-navigation.png)
 
@@ -14,7 +14,7 @@ appears. The menu bar displays (from left to right):
 * __Abstract__ the abstract of this exposition
 * __The title__ of the exposition and the name of its author(s). One can also hoover over this title to receive an exact link to this location on the page. 
 
-### Table of Content
+## Table of Content
 
 See the [video tutorial](https://www.researchcatalogue.net/view/273532/273533/54/759) on this topic.
 
@@ -41,26 +41,43 @@ information on obtaining position information.) The table of content
 thus not only allows structuring expositions by creating a series of
 weaves, but also by using various locations within one weave. Also note that pages that unless a page is entered in the table of content, the reader cannot reach them. Pages are not automatically added to the table of content.
 
-### Hyperlinking
+## Hyperlinking
 
 See the [video tutorial](https://www.researchcatalogue.net/view/273532/273533) on this topic.
 
 It is possible to create hyperlinks between pages (or "weaves") of an
-exposition and within a single page. In order to create a link to a
-different page, select the target weave in the editor. Select the tab
-"Commands" on the right hand side and click on "show current
-position." This will display the URL of the target page. Copy the URL
-into the clipboard (Ctrl-C/Cmd-C). Move the page where you want to
-create the link. Create an HTML-Tool (see the section on the HTML-Tool
-for more information) and enter the text to be displayed and selected
-it. By right-clicking open the context menu and select "Insert/Edit
-Link," paste the copied URL into the text field labeled "Link URL" and
-close the HTML-Tool by clicking "Submit." One can also create a link
-to a different position within the same page by moving to this
-position (see also the next section on the overview function) and
-following the same procedure.  
+exposition and within a single page. This process exists of two steps: 
+fetch the link and creating the hyperlink.
 
-### Overview
+In order to fetch a link to a different page within your exposition:
+  
+1. select the target weave in the editor. 
+2. select the tab where you want to link to.
+3. *(optional)* scroll the page to the position where you want the link to point to.
+4. click "Commands" on the left hand side and click on "show current
+position."  
+
+This will display a URL of the target page with the current scroll location. Copy the URL
+into the clipboard (Ctrl-C/Cmd-C). Note that you can also use this URL outside of the RC, as long as the exposition is public.
+ 
+Now to turn a piece of text into a hyperlink:  
+
+1. Create or open a [Text](#text-tool) or [HTML tool](#HTML-tool) and select a word or sentence that should become the link.
+2. Now click the hyperlink button (it looks like a chain link) and a dialog will be displayed.
+3. Paste the link in the __link URL__ field and click __add link__.
+
+![Hyperlink dialog window](images/hyperlink-dialog.png)
+
+### Dialog options:
+
+Within the hyperlink dialog there are a couple of options:
+
+* __Link URL__ : here you can type or paste a link 
+* __Target__ : control wether the link will open in a new screen or not.
+* __Title__ : change the title of the link
+* __Class__ : set the class of the link (this is rarely used)
+
+## Overview
 
 Within the "Commands" tab on the right-hand side of the editor there
 is a checkbox labeled "Overview." Clicking the checkbox will open

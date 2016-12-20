@@ -43,7 +43,11 @@
 <li><a href="#history-2">History</a></li>
 </ul></li>
 <li><a href="#commands">Commands</a></li>
-<li><a href="#navigation-1">Navigation</a></li>
+<li><a href="#navigation-1">Navigation</a><ul>
+<li><a href="#menu-bar-navigation">Menu Bar Navigation</a></li>
+<li><a href="#table-of-content">Table of Content</a></li>
+<li><a href="#hyperlinking">Hyperlinking</a></li>
+</ul></li>
 <li><a href="#publishing-and-sharing">Publishing and Sharing</a></li>
 <li><a href="#follow-and-search">Follow and Search</a></li>
 <li><a href="#collaborating-on-research">Collaborating on Research</a></li>
@@ -459,7 +463,7 @@ Delete a tool</p></li>
 <p>When you are collaborating on an exposition, you can use the command &quot;send collaboration message&quot; to commuicate with the co-authors or contributors. Open the command by clicking on the button and you will find a message-window. In the upper part you can choose the partners you want to contact. Select them by clicking on the &quot;+&quot;-icon behind their names. Below you find a html-based message window. Here you can enter the message.</p>
 <!-- TODO: Insert links to other parts of the documentation -->
 <h1 id="navigation-1">Navigation</h1>
-<h3 id="menu-bar-navigation">Menu Bar Navigation</h3>
+<h2 id="menu-bar-navigation">Menu Bar Navigation</h2>
 <div class="figure">
 <img src="images/menu-bar-navigation.png" alt="menu bar" />
 <p class="caption">menu bar</p>
@@ -471,7 +475,7 @@ Delete a tool</p></li>
 <li><strong>Abstract</strong> the abstract of this exposition</li>
 <li><strong>The title</strong> of the exposition and the name of its author(s). One can also hoover over this title to receive an exact link to this location on the page.</li>
 </ul>
-<h3 id="table-of-content">Table of Content</h3>
+<h2 id="table-of-content">Table of Content</h2>
 <p>See the <a href="https://www.researchcatalogue.net/view/273532/273533/54/759">video tutorial</a> on this topic.</p>
 <div class="figure">
 <img src="images/table-of-content-example.png" alt="an example of a contents list, made through the table of content" />
@@ -483,9 +487,35 @@ Delete a tool</p></li>
 <p class="caption">Table of content dialog</p>
 </div>
 <p>To make a new entry select the page (or &quot;weave&quot;) that this item in the table of content is supposed to link to from the pull down menu and enter a title for this entry to be displayed in the table of content. Moreover one can choose a specific position within the selected page. The &quot;X-Coord&quot; is the distance in pixels from the left margin of the exposition and the &quot;Y-Coord&quot; is the distance in pixels from the top margin (See the section on &quot;Commands&quot; for more information on obtaining position information.) The table of content thus not only allows structuring expositions by creating a series of weaves, but also by using various locations within one weave. Also note that pages that unless a page is entered in the table of content, the reader cannot reach them. Pages are not automatically added to the table of content.</p>
-<h3 id="hyperlinking">Hyperlinking</h3>
+<h2 id="hyperlinking">Hyperlinking</h2>
 <p>See the <a href="https://www.researchcatalogue.net/view/273532/273533">video tutorial</a> on this topic.</p>
-<p>It is possible to create hyperlinks between pages (or &quot;weaves&quot;) of an exposition and within a single page. In order to create a link to a different page, select the target weave in the editor. Select the tab &quot;Commands&quot; on the right hand side and click on &quot;show current position.&quot; This will display the URL of the target page. Copy the URL into the clipboard (Ctrl-C/Cmd-C). Move the page where you want to create the link. Create an HTML-Tool (see the section on the HTML-Tool for more information) and enter the text to be displayed and selected it. By right-clicking open the context menu and select &quot;Insert/Edit Link,&quot; paste the copied URL into the text field labeled &quot;Link URL&quot; and close the HTML-Tool by clicking &quot;Submit.&quot; One can also create a link to a different position within the same page by moving to this position (see also the next section on the overview function) and following the same procedure.</p>
+<p>It is possible to create hyperlinks between pages (or &quot;weaves&quot;) of an exposition and within a single page. This process exists of two steps: fetch the link and creating the hyperlink.</p>
+<p>In order to fetch a link to a different page within your exposition:</p>
+<ol style="list-style-type: decimal">
+<li>select the target weave in the editor.</li>
+<li>select the tab where you want to link to.</li>
+<li><em>(optional)</em> scroll the page to the position where you want the link to point to.</li>
+<li>click &quot;Commands&quot; on the left hand side and click on &quot;show current position.&quot;</li>
+</ol>
+<p>This will display a URL of the target page with the current scroll location. Copy the URL into the clipboard (Ctrl-C/Cmd-C). Note that you can also use this URL outside of the RC, as long as the exposition is public.</p>
+<p>Now to turn a piece of text into a hyperlink:</p>
+<ol style="list-style-type: decimal">
+<li>Create or open a <a href="#text-tool">Text</a> or <a href="#HTML-tool">HTML tool</a> and select a word or sentence that should become the link.</li>
+<li>Now click the hyperlink button (it looks like a chain link) and a dialog will be displayed.</li>
+<li>Paste the link in the <strong>link URL</strong> field and click <strong>add link</strong>.</li>
+</ol>
+<div class="figure">
+<img src="images/hyperlink-dialog.png" alt="Hyperlink dialog window" />
+<p class="caption">Hyperlink dialog window</p>
+</div>
+<h3 id="dialog-options">Dialog options:</h3>
+<p>Within the hyperlink dialog there are a couple of options:</p>
+<ul>
+<li><strong>Link URL</strong> : here you can type or paste a link</li>
+<li><strong>Target</strong> : control wether the link will open in a new screen or not.</li>
+<li><strong>Title</strong> : change the title of the link</li>
+<li><strong>Class</strong> : set the class of the link (this is rarely used)</li>
+</ul>
 <h3 id="overview-1">Overview</h3>
 <p>Within the &quot;Commands&quot; tab on the right-hand side of the editor there is a checkbox labeled &quot;Overview.&quot; Clicking the checkbox will open andclose an a schematic overview on the right-hand side of theeditor. The overview outlines all tools on the page, their size andposition. By moving the red rectangle, which displays the currentlyvisible part of the weave, one can navigate the page and alter thecurrent selection.</p>
 <!-- TODO: Insert links to other parts of the documentation -->
