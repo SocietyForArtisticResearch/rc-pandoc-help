@@ -1,5 +1,0 @@
-#!/bin/bash
-
-files=$(ls -v *.md)
-
-echo ${files}
