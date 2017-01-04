@@ -51,7 +51,7 @@ menubar.
 By moving the mouse pointer over your account-name and the title of
 your research, a little window with metadata will appear. The link
 (URL) of the current page is shown, including the current scrolling
-location. This URL can thus be used to generate the hyperlink for
+location. This URL can thus be used to generate the [hyperlink](#hyperlinks) for
 internal linking. You can also use this link to cite a specific
 location of an exposition in publications outside of the RC.
 
