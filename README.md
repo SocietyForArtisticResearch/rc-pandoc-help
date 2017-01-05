@@ -17,10 +17,3 @@ If you want to make changes you have three options:
 - git push (pushes to remote)
 
 Sometimes it will ask you to do "git pull" first, if I added new stuff from my repo.
-
-Here's an alternative, for including the CSS in the file itself:
-First you’ll have to make sure that your pandoc.css file1 starts and ends with HTML <style> tags, so it should look something like this:
-
-Then run the pandoc command like this:
-
-pandoc -s -S --toc -H pandoc.css -A footer.html README -o example3.html
