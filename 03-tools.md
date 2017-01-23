@@ -229,6 +229,7 @@ au, mp4 audio container formats; mp2, mp3, aac, pcm a-law, flac audio
 codec* formats. All audio file formats will be transcoded to mp3s with
 256kpbs.
 
+![Audio tool upload dialog](images/audio-tool-dialog.png "image showing Audio Tool Dialog")
 
 To select media they must first have been uploaded into "simple
 media." To add an item, choose "add" and upload the object from your
@@ -236,6 +237,8 @@ desktop to the RC servers. Name the file and make a declaration
 of the copyright holder. After adding the file, you can edit the style
 of the audio player with the html style standards and choose between
 different play and display options.
+
+
 
 
 Please note, to be used on our server, all media will be transcoded by
