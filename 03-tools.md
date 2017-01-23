@@ -217,6 +217,8 @@ copyright text, go to the item in __simple media__ and click __edit__
 
 ## Audio Tool
 
+[> Audio tool tutorial](https://www.researchcatalogue.net/view/249652/249653)
+
 As with the other tools, use the audio tool by dragging and dropping
 the icon from the tool palette onto the weave. A pop-up dialog window
 appears automatically and gives you the choice between "selecting" or
