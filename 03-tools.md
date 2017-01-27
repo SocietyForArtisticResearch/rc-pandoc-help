@@ -209,10 +209,13 @@ In __settings__ you are able to lock the aspect ratio. And you can allow readers
 activating the checkbox "on click open image in popup.".
 
 If you want to use a picture as a hyperlink, paste a URL into the field *on click
-open link*. It is also possible to show specific text when the cursor
-is moved over a picture. Please note, you can't change the copyright
-information in the "edit picture" window. To change the name or the
-copyright text, go to the item in __simple media__ and click __edit__
+open link*. 
+
+You can also set a *tooltip text* (a text that shows when the user 'hoovers' his mouse over the picture) for the image. Set the __show on hoover__ option to __plain text__ and enter your text in the box below.
+
+You can also make the tooltip display the copyright info, by setting the __show on hoover__ option to __copyright__.
+
+Please note, you can't change the copyright information in the "edit picture" window. To change the name or the copyright text, close the current dialog and go to the item in __simple media__ and click __edit__
 (also double click) to open the __edit media__ dialog.
 
 ## Audio Tool
