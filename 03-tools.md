@@ -471,8 +471,8 @@ displayed instead. Clicking this image will pause the players.
 ### Media
 
 In the media tab one can upload two image files. One image will be the
-play­placeholder, i.e.clicking the image will initiate the playback of
-the selected files. The other image will be the pause­placeholder,
+play­-placeholder, i.e.clicking the image will initiate the playback of
+the selected files. The other image will be the pause­-placeholder,
 i.e. clicking this image will pause the selected audio and video files
 on the weave.
 
