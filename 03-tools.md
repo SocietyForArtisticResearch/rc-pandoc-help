@@ -305,8 +305,10 @@ To add an item, choose "add" and upload the file from your desktop to
 the RC servers. All videos uploaded in this way will also be added to
 the simple media tab. Name the file and make a declaration of
 the copyright holder. After adding media, you can edit the style of
-the audio player with the html style standards and choose between
+the video player with the html style standards and choose between
 different play and display options.
+
+After adding a video, the player will not appear in the workspace editor, to view it, please click PREVIEW at the top right corner of the editor.
 
 Please note, all media will be compressed to a smaller size, this is
 called 'transcoding'. This process takes time. During the
