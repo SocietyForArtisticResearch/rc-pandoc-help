@@ -52,6 +52,16 @@ There are three icons displayed to the right of the title of each footnote. The 
 
 ![Back to main weave link](images/footnote_back.png)
 
+### Changing the position or display settings of a footnote
+
+If you need to change the screen position or display settings of an existing footnote, the best way is:  
+
+1. Open the original text or HTML object that has the link to the footnote.  
+2. Create a new footnote (with the required settings) next to the old one. Select __duplicate existing footnote__ from __type__ menu. Be sure to give it a unique name.  
+3. Remove the old footnote link form the Text or HTML object.  
+
+
+
 ### Auto-Numbered Footnotes
 
 Instead of using text as footnote links it is also possible to use numbered links. The numbers will be filled in and adjusted automatically. In order to create auto-numbered footnotes create a footnote in the text or HTML tool as described above but without selecting any text. An "x" will be inserted where the cursor is placed. This "x" will be replaced by the correct number when the text is displayed. 
