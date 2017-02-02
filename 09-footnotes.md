@@ -56,11 +56,9 @@ There are three icons displayed to the right of the title of each footnote. The 
 
 If you need to change the screen position or display settings of an existing footnote, the best way is:  
 
-1. Open the original text or HTML object that has the link to the footnote.  
-2. Create a new footnote (with the required settings) next to the old one. Select __duplicate existing footnote__ from __type__ menu. Be sure to give it a unique name.  
-3. Remove the old footnote link from the Text or HTML object.  
-
-
+1. Go to the Footnote tab.
+2. Click the little blanc page icon next to the footnote you want to change.
+3. Go to the settings tab
 
 ### Auto-Numbered Footnotes
 
