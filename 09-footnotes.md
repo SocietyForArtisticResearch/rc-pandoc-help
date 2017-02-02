@@ -58,7 +58,7 @@ If you need to change the screen position or display settings of an existing foo
 
 1. Open the original text or HTML object that has the link to the footnote.  
 2. Create a new footnote (with the required settings) next to the old one. Select __duplicate existing footnote__ from __type__ menu. Be sure to give it a unique name.  
-3. Remove the old footnote link form the Text or HTML object.  
+3. Remove the old footnote link from the Text or HTML object.  
 
 
 
