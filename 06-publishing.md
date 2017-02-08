@@ -9,9 +9,14 @@ the RC. This functionality can be accessed using the object menu
 
 ### Share
 
-Works and expositions can be shared. They can be made public (visible
-to anyone on the internet), private, or visible to RC users only. As
-long as the object has not been published it remains editable.
+Works and expositions can be shared (made visible to other people).  
+The share option can be found under the object menu (<img class="tiny_icon" src="images/menu.png" alt="hamburger menu icon">) of each object on your profile. There are three modes available:
+
+* __private__ (default) : only visible to you or the [collaborators](#collaborating-on-research "collaboration") on that specific object.
+* __only RC users__ : visible to RC users only. 
+* __public__ : visible to anyone on the internet. 
+
+As long as the object has not been published it remains editable. 
 
 ### Self-Publish
 

@@ -210,3 +210,13 @@ margin-bottom: 0; }
   width:150px;
   height:150px;
 }
+
+.tiny_icon  {
+  top:15px;
+  position:relative;
+  min-width:0px;
+  border:none;
+  width:16px;
+  height:16px;
+  display:inline;
+}
