@@ -300,7 +300,7 @@ In the dialog box that appears you have the possibility to add
 (i.e. upload) items from your computer or select items from the
 "simple media" folder.  At the moment, the RC supports the following
 formats: *avi, mov, mp4, mpg* video container formats; *dv1394, h.264,
-mpeg2, mpeg1, mjepeg* video codec formats.
+mpeg2, mpeg1, mjepeg* video codec formats. Both VBR and CBR are supported.
 
 Please note also our general format information in [FAQ 2.5](http://www.researchcatalogue.net/portal/faq "FAQ").
 
