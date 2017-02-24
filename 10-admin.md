@@ -82,12 +82,17 @@ It has 3 actions:
 ![portal mail dialog](images/portal-mail.png "image showing portal mail dialog")
 
 * __testmode__ only sends a test mail to your account
-* __type__ (default/digest/anouncement) currently not used
+* __type__ (default/digest/announcement) announcement can be scheduled
 * __target__ who is going to receive the mail
 * __content__ enter the text here
 
 For advanced layout, you can use the HTML button. Please note that it is not recommended to use URI encoded images in email, since some email clients do not like this. Better practice is to have the images hosted somewhere externally and link form there using a <xmp> <img src=...> </xmp> tag.
 
+Note that for RC wide mailings, one should <u>__always__</u> use the __JAR Template__ and type = __Announcement__ setting. This makes the mailing include an unsubscribe link, that is required by EU law. All other combinations of settings will currently not include this link !
+
+The JAR Template includes several standard fields (title, contact and a banner image), be sure to check that you are not adding duplicates in the email body text itself. One should always test before requesting it to be sent out.
+
+The announcement option has to be scheduled at least 1 day in advance. The sending of the email will have to be approved by SAR. 
 
 ## Portal Edit Screen
 

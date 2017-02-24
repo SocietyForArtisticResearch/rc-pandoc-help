@@ -741,11 +741,14 @@ Review process of expositions and objects that are waiting to be published</p></
 </div>
 <ul>
 <li><strong>testmode</strong> only sends a test mail to your account</li>
-<li><strong>type</strong> (default/digest/anouncement) currently not used</li>
+<li><strong>type</strong> (default/digest/announcement) announcement can be scheduled</li>
 <li><strong>target</strong> who is going to receive the mail</li>
 <li><strong>content</strong> enter the text here</li>
 </ul>
 <p>For advanced layout, you can use the HTML button. Please note that it is not recommended to use URI encoded images in email, since some email clients do not like this. Better practice is to have the images hosted somewhere externally and link form there using a <xmp> <img src=...> </xmp> tag.</p>
+<p>Note that for RC wide mailings, one should <u><strong>always</strong></u> use the <strong>JAR Template</strong> and type = <strong>Announcement</strong> setting. This makes the mailing include an unsubscribe link, that is required by EU law. All other combinations of settings will currently not include this link !</p>
+<p>The JAR Template includes several standard fields (title, contact and a banner image), be sure to check that you are not adding duplicates in the email body text itself. One should always test before requesting it to be sent out.</p>
+<p>The announcement option has to be scheduled at least 1 day in advance. The sending of the email will have to be approved by SAR.</p>
 <h2 id="portal-edit-screen">Portal Edit Screen</h2>
 <h3 id="common">Common</h3>
 <div class="figure">
