@@ -584,4 +584,23 @@ object are created each time you have clicked outside it (and the
 three animated dots show inside). With the html tool, a version is
 created each time you click submit.
 
+## Simple Media 
+
+The simple media tab can be found on the left side of the editor under __tools__. All your pictures, videos, audio and other media that have been added in tools onto your canvas will also automatically show up in simple media tab. You can click and drag files from the simple media tab onto your canvas.
+
+There are three buttons below the list of files, from left to right:
+
+![simple media tools](images/buttons-simple-media.png "image showing the buttons in simple media")
+
+- add a file
+- edit meta-data of the file
+- preview a file
+- delete a file from the rc (permanent !)
+
+## Works
+
+Similar to simple media, works that have been added through your "My Profile Page" can also be dragged and dropped onto the canvas. 
+
+
+
 
