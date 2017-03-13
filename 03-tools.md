@@ -39,6 +39,16 @@ Tools can be resized by clicking and dragging the green borders with the mouse.
 
 Tools can be rotated by clicking and dragging the yellow dot.
 
+### Key commands
+
+There are a few useful key commands in the editor:
+
+* CTRL + c __copy selected tools__
+* CTRL + v __paste___
+* COMMAND(Mac) or CTRL(PC,Linux) + a __select all tools on this weave__
+* COMMAND(Mac) or CTRL(PC,Linux) + click on object to __select multiple objects one by one__.
+* backspace, delete __remove selected tools__
+
 ### Defaults
 
 Defaults for styling and options can be set for a tool, by double clicking it in the toolbar.
