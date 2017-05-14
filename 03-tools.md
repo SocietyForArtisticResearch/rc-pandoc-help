@@ -1,6 +1,6 @@
 <!--pandoc -s tools.md -o tools.html -c style.css-->
 
-# Research Catalogue Workspace Tools
+# Research Catalogue Workspace & Tools
 
 ## General
 
@@ -39,19 +39,50 @@ Tools can be resized by clicking and dragging the green borders with the mouse.
 
 Tools can be rotated by clicking and dragging the yellow dot.
 
-### Key commands
+## Key commands
 
-There are a few useful key commands in the editor:
+There are a few useful key commands in the editor. Selected tools have a green border.
 
-* CTRL + c __copy selected tools__
-* CTRL + v __paste___
-* COMMAND(Mac) or CTRL(PC,Linux) + a __select all tools on this weave__
-* COMMAND(Mac) or CTRL(PC,Linux) + click on object to __select multiple objects one by one__.
-* backspace, delete __remove selected tools__
+| __Key command:__                                         			| __Action:__						      |
+| ------------------------------------------------------------- 	| --------------------------------------- |
+| __ctrl + c__ 				 							   			| copy selected tools  					  |
+| __ctrl + v__             								   			| paste 								  |
+| __&#8984;(Mac) + a__ or __ctrl + a__ 				   				| select all tools on current weave   	  |
+| __&#8984;(Mac) + click__ or __ctrl + click__ on object 			| select multiple objects one by one      |
+| __backspace, delete__    		                           			| remove selected tools                   |
 
 ### Defaults
 
 Defaults for styling and options can be set for a tool, by double clicking it in the toolbar.
+
+## Pages
+
+### Creating a page
+
+An RC exposition can consist of one or more pages, pages can be created by clicking the __"+ add page"__ button on the top side of the editor. Note that new pages are by default private, they have to be explicitely added to the [table of content](#table-of-content "table of content") to be visible. The order of pages cannot be changed in the editor, but it can in the table of contents.
+
+### Entry page 
+
+One can change the first page the reader sees by changing the entry page. This is done by clicking the title of the exposition, which will open the "edit details" dialog. Here you can set the __"entry page"__.
+
+### Page settings
+
+![the page settings dialog](images/rc-page-settings.png "image showing the page settings")]
+
+In the page settings dialog, you can change some of the styling for the whole page. It is opened by clicking the small white page icon next to current tab/weave title.
+
+Here one can change:
+
+* __margin__: If set, it will make the exposition as if is seen through a smaller window.
+* __padding__: Padd extra space on the content itself (for example if you set top and left to 100, it will create extra space on the top and left). In other words, this makes the exposition canvas itself larger.
+* __background__: change the color or set an image as background.
+* __links__: change the default color for all hyperlinks within the page. One can set seperate colors for links the user visited.
+* __footnote__: The color of footnote/popover links same as links, but then for links of footnotes/popovers.
+* __raw css__: You can set user defined [CSS](https://www.w3schools.com/css/ "css tutorial") rules that are applied to the whole page.
+
+### Deleting a page
+
+The page can be deleted by clicking the trashcan icon next to the page title. Deleted pages cannot be recovered. Of course, if you want to make a page invisible to the reader it may be prefered to just remove it from the [table of content](#table-of-content "table of content").
 
 ## Text Tool
 

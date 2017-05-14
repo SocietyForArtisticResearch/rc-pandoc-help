@@ -26,8 +26,10 @@
 <li><a href="#navigation-bar">Navigation bar</a></li>
 <li><a href="#workspace-view">Workspace View</a></li>
 </ul></li>
-<li><a href="#research-catalogue-workspace-tools">Research Catalogue Workspace Tools</a><ul>
+<li><a href="#research-catalogue-workspace-tools">Research Catalogue Workspace &amp; Tools</a><ul>
 <li><a href="#general">General</a></li>
+<li><a href="#key-commands">Key commands</a></li>
+<li><a href="#pages">Pages</a></li>
 <li><a href="#text-tool">Text Tool</a></li>
 <li><a href="#html-tool">HTML-Tool</a></li>
 <li><a href="#picture-tool">Picture Tool</a></li>
@@ -244,7 +246,7 @@ Note, that the video player, the audio player, the slideshow and object tool are
 <p>The text-view displays the text content of your exposition. You can activate the text-view by clicking on the button on the view-options. You have the opportunity to show or hide changes. You can also sort the items and open the html-editor to directly edit the content in the text-view.</p>
 <p>You can close both views by clicking on &quot;close note view&quot; or &quot;close text view&quot; in the top-right.</p>
 <!--pandoc -s tools.md -o tools.html -c style.css-->
-<h1 id="research-catalogue-workspace-tools">Research Catalogue Workspace Tools</h1>
+<h1 id="research-catalogue-workspace-tools">Research Catalogue Workspace &amp; Tools</h1>
 <h2 id="general">General</h2>
 <p>The workspace tools are listed at the left side of the editor, under the Tools tab. To use a tool, drag it (click and hold the mouse button down) from the toolbar onto the canvas.</p>
 <div class="figure">
@@ -277,17 +279,63 @@ Delete a tool</p></li>
 </ul>
 <p>Tools can be resized by clicking and dragging the green borders with the mouse.</p>
 <p>Tools can be rotated by clicking and dragging the yellow dot.</p>
-<h3 id="key-commands">Key commands</h3>
-<p>There are a few useful key commands in the editor:</p>
-<ul>
-<li>CTRL + c <strong>copy selected tools</strong></li>
-<li>CTRL + v <strong>paste</strong>_</li>
-<li>COMMAND(Mac) or CTRL(PC,Linux) + a <strong>select all tools on this weave</strong></li>
-<li>COMMAND(Mac) or CTRL(PC,Linux) + click on object to <strong>select multiple objects one by one</strong>.</li>
-<li>backspace, delete <strong>remove selected tools</strong></li>
-</ul>
+<h2 id="key-commands">Key commands</h2>
+<p>There are a few useful key commands in the editor. Selected tools have a green border.</p>
+<table>
+<colgroup>
+<col width="60%" />
+<col width="39%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Key command:</strong></th>
+<th><strong>Action:</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>ctrl + c</strong></td>
+<td>copy selected tools</td>
+</tr>
+<tr class="even">
+<td><strong>ctrl + v</strong></td>
+<td>paste</td>
+</tr>
+<tr class="odd">
+<td><strong>⌘(Mac) + a</strong> or <strong>ctrl + a</strong></td>
+<td>select all tools on current weave</td>
+</tr>
+<tr class="even">
+<td><strong>⌘(Mac) + click</strong> or <strong>ctrl + click</strong> on object</td>
+<td>select multiple objects one by one</td>
+</tr>
+<tr class="odd">
+<td><strong>backspace, delete</strong></td>
+<td>remove selected tools</td>
+</tr>
+</tbody>
+</table>
 <h3 id="defaults">Defaults</h3>
 <p>Defaults for styling and options can be set for a tool, by double clicking it in the toolbar.</p>
+<h2 id="pages">Pages</h2>
+<h3 id="creating-a-page">Creating a page</h3>
+<p>An RC exposition can consist of one or more pages, pages can be created by clicking the <strong>&quot;+ add page&quot;</strong> button on the top side of the editor. Note that new pages are by default private, they have to be explicitely added to the <a href="#table-of-content" title="table of content">table of content</a> to be visible. The order of pages cannot be changed in the editor, but it can in the table of contents.</p>
+<h3 id="entry-page">Entry page</h3>
+<p>One can change the first page the reader sees by changing the entry page. This is done by clicking the title of the exposition, which will open the &quot;edit details&quot; dialog. Here you can set the <strong>&quot;entry page&quot;</strong>.</p>
+<h3 id="page-settings">Page settings</h3>
+<p><img src="images/rc-page-settings.png" title="image showing the page settings" alt="the page settings dialog" />]</p>
+<p>In the page settings dialog, you can change some of the styling for the whole page. It is opened by clicking the small white page icon next to current tab/weave title.</p>
+<p>Here one can change:</p>
+<ul>
+<li><strong>margin</strong>: If set, it will make the exposition as if is seen through a smaller window.</li>
+<li><strong>padding</strong>: Padd extra space on the content itself (for example if you set top and left to 100, it will create extra space on the top and left). In other words, this makes the exposition canvas itself larger.</li>
+<li><strong>background</strong>: change the color or set an image as background.</li>
+<li><strong>links</strong>: change the default color for all hyperlinks within the page. One can set seperate colors for links the user visited.</li>
+<li><strong>footnote</strong>: The color of footnote/popover links same as links, but then for links of footnotes/popovers.</li>
+<li><strong>raw css</strong>: You can set user defined <a href="https://www.w3schools.com/css/" title="css tutorial">CSS</a> rules that are applied to the whole page.</li>
+</ul>
+<h3 id="deleting-a-page">Deleting a page</h3>
+<p>The page can be deleted by clicking the trashcan icon next to the page title. Deleted pages cannot be recovered. Of course, if you want to make a page invisible to the reader it may be prefered to just remove it from the <a href="#table-of-content" title="table of content">table of content</a>.</p>
 <h2 id="text-tool">Text Tool</h2>
 <p>A video tutorial about the text tool is found <a href="https://www.researchcatalogue.net/view/273532/273533/0/937" title="link to video tutorials">here</a></p>
 <p>The text tool is designed for quickly adding text.</p>
