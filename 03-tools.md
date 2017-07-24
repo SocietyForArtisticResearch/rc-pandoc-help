@@ -63,7 +63,7 @@ An RC exposition can consist of one or more pages, pages can be created by click
 
 ### Entry page 
 
-One can change the first page the reader sees by changing the entry page. This is done by clicking the title of the exposition, which will open the "edit details" dialog. Here you can set the __"entry page"__.
+One can change the first page the reader sees by changing the entry page. This is done by clicking the title of the exposition, which will open the "edit details" dialog. Here you can set the __"entry page"__ (at the bottom of the dialog).
 
 ### Page settings
 

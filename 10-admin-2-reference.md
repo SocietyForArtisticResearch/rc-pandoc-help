@@ -1,6 +1,6 @@
 <!-- pandoc -s -f markdown_github -i admin.md -o admin.html -c style.css -->
 
-# Administration Guide
+# Administration reference guide
 
 ## Administration Main Page
 
