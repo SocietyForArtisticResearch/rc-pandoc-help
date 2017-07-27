@@ -16,13 +16,13 @@ The author can create an account for him/her self, by clicking REGISTER on the r
 
 ![edit user roles dialog](images/user-roles.png "Image showing edit user roles dialog")
 
-To give a user full account privileges, it is necessary that the author signs the SAR license agreement.The upgrading of accounts can either be done by RC user support or the portal admin. When a portal admin upgrades an account from limited to full, the responsiblity to make sure that the agreement is signed by this user lies with the protal administrator. Please forward the signed agreement to RC user support.
+To give a user full account privileges, it is necessary that the author signs the SAR license agreement. The upgrading of accounts can either be done by RC user support or the portal admin. When a portal admin upgrades an account from limited to full, the responsiblity to make sure that the agreement is signed by this user lies with the protal administrator. Please forward the signed agreement to RC user support.
 
 ## Writing the exposition, collaboration
 
-The first stage is the writing of the *exposition* itself. It is important to note that it has to be an exposition, a "work" object on its own cannot enter a review workflow on the RC. Works can however be part of the exposition to be published. The author does not need to be a member of the portal user list in order to make a publication request to it.
+The first stage is the writing of the *exposition* itself. It is important to note that it has to be an exposition, a "work" object on its own cannot enter a review workflow on the RC. Works can however be embedded as part of an exposition to be reviewed & published. The author does not need to be a member of the portal user list in order to make a publication request to it.
 
-During the writing stage, it is common that the work in progress is shared with one or more other readers or collaborators. These collaborators can use the notes system to leave feedback. There are three types of collaboration roles:
+During the writing stage, it is common that the exposition in progress is shared with one or more other readers or collaborators. These collaborators can use the notes system to leave feedback. There are three types of collaboration roles:
 
 - supervisor (no edit permissions, but can leave notes)
 - co author (full edit permissions)
@@ -34,7 +34,7 @@ The author can invite RC users to these roles by going to edit details or clicki
 
 ## Requisting publication
 
-Once the writing is sufficiently progressed, the next step is that the author uses the ☰ menu from their profile page to __publish__ his/her work. This will open a dialog where he/she can choose to which portal the work should be published. Within this dialog the author can also indicate weither the exposition should be published "limited to portal" or "unlimited to portal". Limited to portal means that when the exposition is published, it is only visible to members of the portal.
+Once the writing is sufficiently progressed, the next step is that the author uses the ☰ menu from their profile page to __publish__ his/her exposition. This will open a dialog where he/she can choose to which portal the exposition should be published. Within this dialog the author can also indicate weither the exposition should be published "limited to portal" or "unlimited to portal". Limited to portal means that when the exposition is published, it is only visible to members of the portal.
 
 Important: the choice by the author is only a suggestion, in the end, it will be the portal admin that  decides in which way (limited or unlimited) an exposition is published.
 
