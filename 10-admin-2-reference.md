@@ -41,6 +41,8 @@ If you are an admin in multiple portals, you can switch between them in the top 
 
 ### Add / Edit A User Dialog
 
+Important: when you type a new user name, the RC tries to find if the user exists already. If it does, the RC will show a dialog requesting if you want to add the existing user to the portal instead of creating a new account. It is highly discouraged for a single person to have two accounts on the RC, so normally admins are expected to simply add this existing account.
+
 ### Profile
 ![user profile dialog](images/user-profile.png "image showing user profile dialog")
 

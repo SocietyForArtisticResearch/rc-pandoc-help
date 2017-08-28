@@ -45,6 +45,14 @@ profile picture.
 
 <!-- You can also add your __degrees__ to your profile. Enter the name, the level, the dates and the institution of your degree and link it via the __relations-tab__ to projects, expositions or works that you created in support for your degree. -->
 
+### Member of
+
+As a user you can request membership of (some of the) RC portals. Certain actions can only be done if one is a member of the portal. For example: for some application programs, it may be required that you are member of the portal before you are able to submit an application for a program.
+
+In most cases however, it is the task of the portal admin to make you a member of their portal, most portals do theirfore not allow users to request membership themselves.
+
+Click edit to ask for a request to become a portal member, or remove yourself from a portal.
+
 ## Research Section
 
 ### Grouping
