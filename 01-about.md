@@ -32,7 +32,7 @@ user. The exposition can be edited in an online drag-and-drop
 editor. Collaboration of multiple authors on the development of a
 single exposition is also possible.
 
-### What are Works ?
+### What is a "Work" ?
 
 In addition to expositions, it is also possible to upload single or
 multiple files and organize them as a __work__, which can also contain
