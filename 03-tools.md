@@ -88,6 +88,8 @@ There are a few requirements to the URL for this to work:
 
 	Please note that if a correct iFrame url is provided, the entire weave within the exposition is replaced by that website, so any tools and page styling present in the workspace will no longer be visible to the reader.
 
+	If you want to combine external content with tools you should use the [embed tool](#embed-tool).
+
 #### Page settings - Style
 
 Here one can change:
