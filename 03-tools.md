@@ -71,6 +71,25 @@ One can change the first page the reader sees by changing the entry page. This i
 
 In the page settings dialog, you can change some of the styling for the whole page. It is opened by clicking the small white page icon next to current tab/weave title.
 
+#### Page settings - Meta : title, description and iframe field
+
+* __Page title__  
+Set a title for the page. This title can be overriden in the [table of content](#table-of-content), so the reader sees a different one. This can be useful if you need to keep track of different versions of pages.
+
+* __Description__  
+The description is for personal reference and only visible to the author and collaborators on the exposition.
+
+* __Iframe field__  
+Replace the entire page by an external website by means of a URL.
+There are a few requirements to the URL for this to work:
+
+	* For reasons of security, the website needs to be configured to use a [TLS connection](https://en.wikipedia.org/wiki/HTTPS "https on wikipedia"). Links with TLS enabled can in most cases be identified by the __https://__ instead of __http://__ at the start.
+	* You need to provide the full URL (inlude the https:// at the start).
+
+	Please note that if a correct iFrame url is provided, the entire weave within the exposition is replaced by that website, so any tools and page styling present in the workspace will no longer be visible to the reader.
+
+#### Page settings - Style
+
 Here one can change:
 
 * __margin__: If set, it will make the exposition as if is seen through a smaller window.
@@ -540,8 +559,6 @@ on the weave by resizing the green frame displayed around the
 shape. By clicking and dragging the yellow point you can rotate an element.
  
 
- 
-
 ## Note Tool
  
 
@@ -573,7 +590,18 @@ tool. If you have unintentionally deleted a tool, you can restore it
 using "restore deleted tools" in the commands.
 
 
-## Object Viewer
+## Embed tool
+
+The RC supports the following external content providers: Madek, Youtube, Vimeo, Soundcloud, Sketchfab. Please copy the URL of the media item you want to embed.
+
+The embed tool can be used by pasting the link from the page you want to embed in the field and clicking submit twice.
+The first submit is to process the link. How to retrieve the correct embedding link depends on the service. Often they provide a piece of code containing "iframe src="somelink" etc". Please contact [support](mailto:support@researchcatalogue.net) if you have trouble finding this link.
+
+Important: some RC based journals/portals do not allow use of externally hosted materials. If you are making an exposition to be published in such a portal, please check their policy first.
+
+
+
+<!-- ## Object Viewer
 
 The object viewer tool is a designed for displaying three-dimensional
 images. Is is based on the
@@ -592,7 +620,7 @@ positions has been created. The number of different angles (steps of
 rotation around the horizontal axis) is defined by the setting
 "levels" in the dialog window. The number of steps of the rotation
 around the vertical axis is implicitly defined by "levels" and the
-total number of images.
+total number of images. -->
 
 
 ## Style Options
