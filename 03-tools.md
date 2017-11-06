@@ -540,8 +540,6 @@ on the weave by resizing the green frame displayed around the
 shape. By clicking and dragging the yellow point you can rotate an element.
  
 
- 
-
 ## Note Tool
  
 
@@ -573,7 +571,18 @@ tool. If you have unintentionally deleted a tool, you can restore it
 using "restore deleted tools" in the commands.
 
 
-## Object Viewer
+## Embed tool
+
+The RC supports the following external content providers: Madek, Youtube, Vimeo, Soundcloud, Sketchfab. Please copy the URL of the media item you want to embed.
+
+The embed tool can be used by pasting the link from the page you want to embed in the field and clicking submit twice.
+The first submit is to process the link. How to retrieve the correct embedding link depends on the service. Often they provide a piece of code containing "iframe src="somelink" etc". Please contact [support](mailto:support@researchcatalogue.net) if you have trouble finding this link.
+
+Important: some RC based journals/portals do not allow use of externally hosted materials. If you are making an exposition to be published in such a portal, please check their policy first.
+
+
+
+<!-- ## Object Viewer
 
 The object viewer tool is a designed for displaying three-dimensional
 images. Is is based on the
@@ -592,7 +601,7 @@ positions has been created. The number of different angles (steps of
 rotation around the horizontal axis) is defined by the setting
 "levels" in the dialog window. The number of steps of the rotation
 around the vertical axis is implicitly defined by "levels" and the
-total number of images.
+total number of images. -->
 
 
 ## Style Options
@@ -600,6 +609,18 @@ total number of images.
 ![image showing the style tab of an html tool](images/style-tab.png "the style tab of an html tool")
 
 The style tab allows you to set the way an object looks on the outside.
+There are two ways of reaching the style tab:
+
+* by double clicking on a tool in the editor
+* click __style__ in the tabbar
+
+or 
+
+* hoovering with your mouse over the tool
+* click ☰ -> __edit__.
+* open __style__ tab in the dialog.
+
+
 Click on the small ">" to open one of these sections:
 
 * position & rotation

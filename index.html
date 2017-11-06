@@ -40,7 +40,7 @@
 <li><a href="#play-tool">Play Tool</a></li>
 <li><a href="#shape-tool">Shape Tool</a></li>
 <li><a href="#note-tool">Note Tool</a></li>
-<li><a href="#object-viewer">Object Viewer</a></li>
+<li><a href="#embed-tool">Embed tool</a></li>
 <li><a href="#style-options">Style Options</a></li>
 <li><a href="#history-2">History</a></li>
 </ul></li>
@@ -504,14 +504,47 @@ Delete a tool</p></li>
 <p>You can use the buttons to directly add the basic stylings, eg. highlight it with bold or italic font or structure it with numerations or lists. You can change the font-family and increase or decrease the indentation. You can also insert links.</p>
 <h3 id="history-1">History</h3>
 <p>&quot;History&quot; provides a log of all changes that have been made to the tool. If you have unintentionally deleted a tool, you can restore it using &quot;restore deleted tools&quot; in the commands.</p>
-<h2 id="object-viewer">Object Viewer</h2>
-<p>The object viewer tool is a designed for displaying three-dimensional images. Is is based on the <a href="http://thoro.de/page/3dnp-introduction-en" title="3dnp">3DNP library</a>. By dragging the object with the mouse cursor it can rotated around two axis, i.e. the object can be turned around its centre and tilted back and forth. It is necessary to upload a series of images as a zip file. These images need to be numbered (i.e. image001.jpg, image002.jpg etc). Each image must the object from a different angle. You can imagine the creation of the images as the following process: the object rotates around a vertical axis in a number of steps, then moving slightly around a horizontal axis and rotating around the vertical axis in a number of steps again. This is repeated until an image of every combination of vertical and horizontal positions has been created. The number of different angles (steps of rotation around the horizontal axis) is defined by the setting &quot;levels&quot; in the dialog window. The number of steps of the rotation around the vertical axis is implicitly defined by &quot;levels&quot; and the total number of images.</p>
+<h2 id="embed-tool">Embed tool</h2>
+<p>The RC supports the following external content providers: Madek, Youtube, Vimeo, Soundcloud, Sketchfab. Please copy the URL of the media item you want to embed.</p>
+<p>The embed tool can be used by pasting the link from the page you want to embed in the field and clicking submit twice. The first submit is to process the link. How to retrieve the correct embedding link depends on the service. Often they provide a piece of code containing &quot;iframe src=&quot;somelink&quot; etc&quot;. Please contact <a href="mailto:support@researchcatalogue.net">support</a> if you have trouble finding this link.</p>
+<p>Important: some RC based journals/portals do not allow use of externally hosted materials. If you are making an exposition to be published in such a portal, please check their policy first.</p>
+<!-- ## Object Viewer
+
+The object viewer tool is a designed for displaying three-dimensional
+images. Is is based on the
+[3DNP library](http://thoro.de/page/3dnp-introduction-en "3dnp").  By
+dragging the object with the mouse cursor it can rotated around two
+axis, i.e. the object can be turned around its centre and tilted back
+and forth.  It is necessary to upload a series of images as a zip
+file. These images need to be numbered (i.e. image001.jpg,
+image002.jpg etc). Each image must the object from a different
+angle. You can imagine the creation of the images as the following
+process: the object rotates around a vertical axis in a number of
+steps, then moving slightly around a horizontal axis and rotating
+around the vertical axis in a number of steps again. This is repeated
+until an image of every combination of vertical and horizontal
+positions has been created. The number of different angles (steps of
+rotation around the horizontal axis) is defined by the setting
+"levels" in the dialog window. The number of steps of the rotation
+around the vertical axis is implicitly defined by "levels" and the
+total number of images. -->
 <h2 id="style-options">Style Options</h2>
 <div class="figure">
 <img src="images/style-tab.png" title="the style tab of an html tool" alt="image showing the style tab of an html tool" />
 <p class="caption">image showing the style tab of an html tool</p>
 </div>
-<p>The style tab allows you to set the way an object looks on the outside. Click on the small &quot;&gt;&quot; to open one of these sections:</p>
+<p>The style tab allows you to set the way an object looks on the outside. There are two ways of reaching the style tab:</p>
+<ul>
+<li>by double clicking on a tool in the editor</li>
+<li>click <strong>style</strong> in the tabbar</li>
+</ul>
+<p>or</p>
+<ul>
+<li>hoovering with your mouse over the tool</li>
+<li>click ☰ -&gt; <strong>edit</strong>.</li>
+<li>open <strong>style</strong> tab in the dialog.</li>
+</ul>
+<p>Click on the small &quot;&gt;&quot; to open one of these sections:</p>
 <ul>
 <li>position &amp; rotation</li>
 <li>padding</li>
