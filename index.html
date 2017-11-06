@@ -12,7 +12,7 @@
 <body>
 <div id="header">
 <h1 class="title">Research Catalogue Extended Guide</h1>
-<h3 class="date">Juli 2017</h3>
+<h3 class="date">October, 2017</h3>
 </div>
 <div id="TOC">
 <ul>
@@ -337,6 +337,22 @@ Delete a tool</p></li>
 <h3 id="page-settings">Page settings</h3>
 <p><img src="images/rc-page-settings.png" title="image showing the page settings" alt="the page settings dialog" />]</p>
 <p>In the page settings dialog, you can change some of the styling for the whole page. It is opened by clicking the small white page icon next to current tab/weave title.</p>
+<h4 id="page-settings---meta-title-description-and-iframe-field">Page settings - Meta : title, description and iframe field</h4>
+<ul>
+<li><p><strong>Page title</strong><br />
+Set a title for the page. This title can be overriden in the <a href="#table-of-content">table of content</a>, so the reader sees a different one. This can be useful if you need to keep track of different versions of pages.</p></li>
+<li><p><strong>Description</strong><br />
+The description is for personal reference and only visible to the author and collaborators on the exposition.</p></li>
+<li><p><strong>Iframe field</strong><br />
+Replace the entire page by an external website by means of a URL. There are a few requirements to the URL for this to work:</p>
+<ul>
+<li>For reasons of security, the website needs to be configured to use a <a href="https://en.wikipedia.org/wiki/HTTPS" title="https on wikipedia">TLS connection</a>. Links with TLS enabled can in most cases be identified by the <strong>https://</strong> instead of <strong>http://</strong> at the start.</li>
+<li>You need to provide the full URL (inlude the https:// at the start).</li>
+</ul>
+<p>Please note that if a correct iFrame url is provided, the entire weave within the exposition is replaced by that website, so any tools and page styling present in the workspace will no longer be visible to the reader.</p>
+<p>If you want to combine external content with tools you should use the <a href="#embed-tool">embed tool</a>.</p></li>
+</ul>
+<h4 id="page-settings---style">Page settings - Style</h4>
 <p>Here one can change:</p>
 <ul>
 <li><strong>margin</strong>: If set, it will make the exposition as if is seen through a smaller window.</li>
