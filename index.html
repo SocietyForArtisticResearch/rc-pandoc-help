@@ -132,6 +132,59 @@ function closeNav( ) {
 
 
 </script>
+<div id="menuButton" onclick="openNav()">
+<span>☰ </span><span style="font-size: 50%"><b>MENU</b></span>
+</div>
+<!--
+    this has to be added manually to the finished HTML
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-->
+<!--[pdf version](RC-extended-guide.pdf "pdf extended guide pdf version")  -->
+<script>
+
+// this is a little script for the navigation
+
+var isMenuOpen = false; // this is the global that checks if the menu is open.
+
+window.onload = function ( ) {
+    init();
+}
+
+function init( ) {
+    document.getElementById("menuButton").onclick = function ( ) { 
+        isMenuOpen ? closeNav() : openNav();
+    };
+    
+    makeLinksCloseNav();
+}
+
+function makeLinksCloseNav( ) { // links should close the navigation
+    var links = document.getElementById("TOC").getElementsByTagName("A");
+    for (var i = 0;i<links.length;i++) {
+        links[i].onclick = function ( ) { closeNav() };
+    }
+}
+
+function openNav( ) { // open navigation
+
+    var TOC = document.getElementById("TOC");
+    TOC.style.width = "100%";
+
+    menuButton.innerHTML = "<span class=\"closeSymbol\">&times; </span><span style=\"font-size: 50%\"><b>MENU</b></span>";
+    isMenuOpen = true;
+}
+
+function closeNav( ) {
+    menuButton.innerHTML = "<span class=\"menuSumbol\">&#9776; </span><span style=\"font-size: 50%\"><b>MENU</b></span>";
+    isMenuOpen = false;
+
+    var TOC = document.getElementById("TOC");
+    TOC.style.width = "0px";
+}
+
+
+
+</script>
 <h2 id="about-the-research-catalogue">About the Research Catalogue</h2>
 <p>The Research Catalogue (RC) is a searchable database for archiving, publishing, and collaborating on artistic research. RC content is not peer reviewed, nor is it highly controlled for quality, being checked only for appropriateness. As a result, the RC is highly inclusive.</p>
 <p>The open source status of the RC is essential to its nature and serves its function as a connective and transitional layer between academic discourse and artistic practice, thereby constituting a discursive field for artistic research.</p>
@@ -492,9 +545,23 @@ Replace the entire page by an external website by means of a URL. There are a fe
 <p>When choosing <em>autoplay</em> you need to define the speed with which the slide will change. You can customise the duration of each slide (<em>speed per slide</em>) or let each slide change at the default speed.</p>
 <p>As mentioned before, you can append audio files to each slide. Please note, you first have to upload the file into your <strong>simple media</strong> folder. In <strong>options</strong>, <strong>audio</strong> you can control the time of a crossfade (when one audio file fades out while a second fades in at a specified time). You can also choose the fade duration and the timeout of an audio file.</p>
 <h2 id="pdf-tool">PDF Tool</h2>
-<p>The PDF tools give you the possibility to include longer text documents in an RC exposition. It is generally preferable to use the text or HTML-tool for text.</p>
-<p>After dragging the icon to the weave, you can upload the pdf in the &quot;edit pdf&quot; dialog window. You can also choose a pdf from &quot;simple media&quot; if it has been uploaded previously. An alternative way to upload is to click the &quot;+&quot; below &quot;simple media.&quot;</p>
-<p>In the uploading dialog box, you can choose to represent the pdf in your exposition either with a preview image of the file or with a different picture.</p>
+<p>The PDF tool gives you the possibility to upload PDF documents containing texts, graphics or scores.</p>
+<p>The advantage of PDF is that the display of its content is platform independent and looks the same everywhere.</p>
+<p>The limitation is that PDF files, by nature, only support static (printable) graphics, not video or audio. In case text from a word processor needs to be combined with video and audio, use the <a href="#HTML-tool" title="link to html tool">HTML tool</a> for the text and add the media separately using the other tools.</p>
+<h3 id="uploading-a-pdf">Uploading a pdf</h3>
+<p>After dragging the icon to the weave, a dialog will show.<br />
+Click the button <strong>ADD MEDIA</strong> to open the dialog for uploading a PDF.<br />
+Be sure to upload the PDF itself in the <strong>PDF</strong> field, not <strong>PREVIEW</strong>. One is also requested to add copyright information. When done, click submit and the file will begin uploading.</p>
+<div class="figure">
+<img src="images/pdf-tool-dialog.png" title="Image showing the pdf tool dialog" alt="The pdf tool dialog" />
+<p class="caption">The pdf tool dialog</p>
+</div>
+<p>The <strong>PREVIEW</strong> field is for changing the image that represents the pdf in the exposition for the reader. If no preview image is provided, a miniturised copy of the first page will be used.</p>
+<div style="font-style:italic">
+<p>Warning:<br />
+Do not use the hyperlink of the pdf file to provide a direct link to the pdf ! https://media.researchcatalogue.net/rc/master/73723.pdf?t=2629205589&amp;e=1510816850</p>
+<p>This link is temporarly generated and will become invalid. The reason for this is that the RC needs to control access (based on the exposition share status), and this is only possible with a temporary link.</p>
+</div>
 <p><a href="#style-options">&gt; see style options</a></p>
 <h3 id="options-6">Options</h3>
 <p>The RC gives you and your reader the possibility to read the pdf directly in the browser if the browser supports this. To use this option check &quot;display in browser&quot; in option &gt; settings of the &quot;edit pdf&quot; tool dialog box.</p>
@@ -549,7 +616,18 @@ total number of images. -->
 <img src="images/style-tab.png" title="the style tab of an html tool" alt="image showing the style tab of an html tool" />
 <p class="caption">image showing the style tab of an html tool</p>
 </div>
-<p>The style tab allows you to set the way an object looks on the outside. Click on the small &quot;&gt;&quot; to open one of these sections:</p>
+<p>The style tab allows you to set the way an object looks on the outside. There are two ways of reaching the style tab:</p>
+<ul>
+<li>by double clicking on a tool in the editor</li>
+<li>click <strong>style</strong> in the tabbar</li>
+</ul>
+<p>or</p>
+<ul>
+<li>hoovering with your mouse over the tool</li>
+<li>click ☰ -&gt; <strong>edit</strong>.</li>
+<li>open <strong>style</strong> tab in the dialog.</li>
+</ul>
+<p>Click on the small &quot;&gt;&quot; to open one of these sections:</p>
 <ul>
 <li>position &amp; rotation</li>
 <li>padding</li>

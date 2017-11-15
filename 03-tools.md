@@ -478,19 +478,31 @@ of an audio file.
 ## PDF Tool
 
 
-The PDF tools give you the possibility to include longer text
-documents in an RC exposition. It is generally preferable to use the
-text or HTML-tool for text. 
+The PDF tool gives you the possibility to upload PDF documents containing texts, graphics or scores. 
 
-After dragging the icon to the weave, you can upload the pdf in the
-"edit pdf" dialog window. You can also choose a pdf from "simple
-media" if it has been uploaded previously. An alternative way to
-upload is to click the "+" below "simple media."
+The advantage of PDF is that the display of its content is platform independent and looks the same everywhere. 
 
-In the uploading dialog box, you can choose to represent the pdf in
-your exposition either with a preview image of the file or with a
-different picture.
+The limitation is that PDF files, by nature, only support static (printable) graphics, not video or audio. In case text from a word processor needs to be combined with video and audio, use the [HTML tool](#HTML-tool "link to html tool") for the text and add the media separately using the other tools.
 
+### Uploading a pdf
+
+After dragging the icon to the weave, a dialog will show.  
+Click the button __ADD MEDIA__ to open the dialog for uploading a PDF.  
+Be sure to upload the PDF itself in the __PDF__ field, not __PREVIEW__.
+One is also requested to add copyright information.
+When done, click submit and the file will begin uploading. 
+
+![The pdf tool dialog](images/pdf-tool-dialog.png "Image showing the pdf tool dialog")
+
+The __PREVIEW__ field is for changing the image that represents the pdf in the exposition for the reader.
+If no preview image is provided, a miniturised copy of the first page will be used.
+
+<div style="font-style:italic">Warning:  
+Do not use the hyperlink of the pdf file to provide a direct link to the pdf !
+https://media.researchcatalogue.net/rc/master/73723.pdf?t=2629205589&e=1510816850  
+
+This link is temporarly generated and will become invalid. The reason for this is that the RC needs to control access (based on the exposition share status), and this is only possible with a temporary link.
+</div>
  
 [> see style options](#style-options)
 
@@ -630,6 +642,18 @@ total number of images. -->
 ![image showing the style tab of an html tool](images/style-tab.png "the style tab of an html tool")
 
 The style tab allows you to set the way an object looks on the outside.
+There are two ways of reaching the style tab:
+
+* by double clicking on a tool in the editor
+* click __style__ in the tabbar
+
+or 
+
+* hoovering with your mouse over the tool
+* click ☰ -> __edit__.
+* open __style__ tab in the dialog.
+
+
 Click on the small ">" to open one of these sections:
 
 * position & rotation
