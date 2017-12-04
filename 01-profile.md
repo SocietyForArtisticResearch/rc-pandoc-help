@@ -75,8 +75,7 @@ profile page.
 
 ### Create Exposition
 
-By clicking "Create exposition" you can create a new exposition object
-which will be opened in the RC exposition workspace editor. The title and abstract fields are obligatory.
+By clicking "Create exposition" you can create a new exposition object which will be opened in the RC exposition workspace editor. The title and abstract fields are obligatory.
 You can change these details later by choosing ☰ > __edit details__, or in the __workspace editor__ by clicking the title of your research (at the top of you screen).
 
 ### Add Work
