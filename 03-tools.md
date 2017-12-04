@@ -167,7 +167,9 @@ See [history](#history).
 
 The HTML-tool is designed for advanced text editing. It is a
 *what-you-see-is-what-you-get* rich text editor. Unlike the text tool,
-you can only edit its content in a dialog box.
+you can only edit its content in a dialog box. 
+
+You add the HTML Tool like any other tool: drag it with your mouse from the toolbar onto your canvas to the location where you need it. 
 
 ### Media
 
