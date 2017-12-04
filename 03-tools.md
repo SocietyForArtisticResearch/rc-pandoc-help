@@ -357,6 +357,8 @@ mouse cursor hovers over the item.
 
 ## Video Tool
 
+[Video tutorial](https://www.researchcatalogue.net/view/273532/273533/623/1369)
+
 As with the other tools, you can use the video tool by dragging it
 from the tool palette and dropping it onto the weave.
 
