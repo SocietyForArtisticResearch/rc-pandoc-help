@@ -130,7 +130,7 @@ options are only available to the author of the object.
 
 * __Edit workspace__ Go to the workspace editor of this exposition.
 
-* __Edit details__ Change the meta data of your exposition, and control collaboration with other users.
+* __Edit details__ Change the meta data of your exposition, and control collaboration with other users. See [edit research](#edit-research)
 
 * __Share__ Change who can see and access this item.
 
@@ -145,6 +145,8 @@ Please note that publishing is a one-way action, once published one can not  unp
 * __Add to shortcut__ Make a shortcut add the top of your profile.
 
 * __Connect to portal__ Send a connection request to a portal.
+
+* __Manage versions__ Create or restore snapshots, see [versions](#manage-versions).
 
 * __Export__ Export an exposition as a tar.gz file (you can also use this to make a copy of an exposition, by importing the generated file)
 
@@ -169,6 +171,40 @@ Four layout-templates are possible:
 3. short and only one column wide, the smalles possible size
 
 4. short and across both columns
+
+## Manage versions
+
+It is possible to create a snapshot of your exposition, which you can restore later.
+
+A snapshot is created by going to ☰ > __versions__ and clicking __add snapshot__.
+
+When you restore a snapshot, the original is not overwritten, instead a new exposition will be created from the snapshot.
+
+There are three options for how to deal with the [collaboration](#collaborating-on-research) settings of a restored snapshot:
+
+* __private__ remove all collaborators (only you can see the restored exposition snapshot).
+* __restore__ the collaboration will be as it was when the snapshot was taken.
+* __keep__ the collaboration as it is in the current version of the exposition.
+
+## Edit Research
+
+This dialog can be opened by __☰ > edit details__ or clicking the title of the exposition in the workspace editor.
+
+![Edit research dialog, showing meta page](images/edit-research.png "image showing edit research dialog")
+
+* __Meta data__ Change the __title__, __date__, __abstract__, __keywords__, __affiliation__ and __external link__ fields for your exposition.  
+A __title__ and __abstract__ are obligatory.
+
+* __Table of content__ Change the content menu, which controls which pages are visible for the reader.
+See [table-of-content](#table-of-content).
+
+* __Collaboration__ Add co-authors, editors and supervisors.
+See [collaboration](#collaborating-on-research)
+
+* __Relations__ Create relationships with other objects on your profile, which will result in them being listed on the Research page. This page is shown when somebody clicks the title of the research on your profile.
+
+
+
 
  
 

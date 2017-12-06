@@ -12,7 +12,7 @@
 <body>
 <div id="header">
 <h1 class="title">Research Catalogue Extended Guide</h1>
-<h3 class="date">October, 2017</h3>
+<h3 class="date">November, 2017</h3>
 </div>
 <div id="TOC">
 <ul>
@@ -20,11 +20,13 @@
 <li><a href="#my-profile-page">My Profile Page</a><ul>
 <li><a href="#profile-section">Profile Section</a></li>
 <li><a href="#research-section">Research Section</a></li>
+<li><a href="#manage-versions">Manage versions</a></li>
+<li><a href="#edit-research">Edit Research</a></li>
 </ul></li>
 <li><a href="#views">Views</a><ul>
 <li><a href="#exposition-view-or-preview">Exposition View or PREVIEW</a></li>
-<li><a href="#navigation-bar">Navigation bar</a></li>
 <li><a href="#workspace-view">Workspace View</a></li>
+<li><a href="#edit-exposition-settings">Edit exposition settings</a></li>
 </ul></li>
 <li><a href="#research-catalogue-workspace-tools">Research Catalogue Workspace &amp; Tools</a><ul>
 <li><a href="#general">General</a></li>
@@ -49,8 +51,8 @@
 <li><a href="#works">Works</a></li>
 </ul></li>
 <li><a href="#commands">Commands</a></li>
-<li><a href="#navigation-1">Navigation</a><ul>
-<li><a href="#menu-bar-navigation">Menu Bar Navigation</a></li>
+<li><a href="#navigation">Navigation</a><ul>
+<li><a href="#navigation-bar">Navigation bar</a></li>
 <li><a href="#table-of-content">Table of Content</a></li>
 <li><a href="#hyperlinking">Hyperlinking</a></li>
 <li><a href="#overview-1">Overview</a></li>
@@ -186,7 +188,7 @@ function closeNav( ) {
 
 </script>
 <h2 id="about-the-research-catalogue">About the Research Catalogue</h2>
-<p>The Research Catalogue (RC) is a searchable database for archiving, publishing, and collaborating on artistic research. RC content is not peer reviewed, nor is it highly controlled for quality, being checked only for appropriateness. As a result, the RC is highly inclusive.</p>
+<p>RC content presented through some of our portals is peer reviewed, while the remaining expositions and other information are quality controlled by the individual author(s) themselves. As a result, the RC is highly inclusive.</p>
 <p>The open source status of the RC is essential to its nature and serves its function as a connective and transitional layer between academic discourse and artistic practice, thereby constituting a discursive field for artistic research.</p>
 <p>The RC creates a link between:</p>
 <ol style="list-style-type: decimal">
@@ -251,7 +253,7 @@ function closeNav( ) {
 <ul>
 <li><p><strong>Change layout</strong> Change the size of an object on the profile.</p></li>
 <li><p><strong>Edit workspace</strong> Go to the workspace editor of this exposition.</p></li>
-<li><p><strong>Edit details</strong> Change the meta data of your exposition, and control collaboration with other users.</p></li>
+<li><p><strong>Edit details</strong> Change the meta data of your exposition, and control collaboration with other users. See <a href="#edit-research">edit research</a></p></li>
 <li><p><strong>Share</strong> Change who can see and access this item.</p></li>
 <li><p><strong>Self-publish</strong> Turn an exposition into a fixed state.</p></li>
 <li><p><strong>Add to shortcut</strong> Add a compact link to this object on the top of your list.</p></li>
@@ -261,6 +263,7 @@ function closeNav( ) {
 <li><p><strong>Submit for publication</strong> Submit an exposition to a portal for publication.</p></li>
 <li><p><strong>Add to shortcut</strong> Make a shortcut add the top of your profile.</p></li>
 <li><p><strong>Connect to portal</strong> Send a connection request to a portal.</p></li>
+<li><p><strong>Manage versions</strong> Create or restore snapshots, see <a href="#manage-versions">versions</a>.</p></li>
 <li><p><strong>Export</strong> Export an exposition as a tar.gz file (you can also use this to make a copy of an exposition, by importing the generated file)</p></li>
 <li><p><strong>Delete</strong> Delete an exposition or work from the RC.</p></li>
 </ul>
@@ -274,36 +277,41 @@ function closeNav( ) {
 <li><p>short and only one column wide, the smalles possible size</p></li>
 <li><p>short and across both columns</p></li>
 </ol>
+<h2 id="manage-versions">Manage versions</h2>
+<p>It is possible to create a snapshot of your exposition, which you can restore later.</p>
+<p>A snapshot is created by going to ☰ &gt; <strong>versions</strong> and clicking <strong>add snapshot</strong>.</p>
+<p>When you restore a snapshot, the original is not overwritten, instead a new exposition will be created from the snapshot.</p>
+<p>There are three options for how to deal with the <a href="#collaborating-on-research">collaboration</a> settings of a restored snapshot:</p>
+<ul>
+<li><strong>private</strong> remove all collaborators (only you can see the restored exposition snapshot).</li>
+<li><strong>restore</strong> the collaboration will be as it was when the snapshot was taken.</li>
+<li><strong>keep</strong> the collaboration as it is in the current version of the exposition.</li>
+</ul>
+<h2 id="edit-research">Edit Research</h2>
+<p>This dialog can be opened by <strong>☰ &gt; edit details</strong> or clicking the title of the exposition in the workspace editor.</p>
+<div class="figure">
+<img src="images/edit-research.png" title="image showing edit research dialog" alt="Edit research dialog, showing meta page" />
+<p class="caption">Edit research dialog, showing meta page</p>
+</div>
+<ul>
+<li><p><strong>Meta data</strong> Change the <strong>title</strong>, <strong>date</strong>, <strong>abstract</strong>, <strong>keywords</strong>, <strong>affiliation</strong> and <strong>external link</strong> fields for your exposition.<br />
+A <strong>title</strong> and <strong>abstract</strong> are obligatory.</p></li>
+<li><p><strong>Table of content</strong> Change the content menu, which controls which pages are visible for the reader. See <a href="#table-of-content">table-of-content</a>.</p></li>
+<li><p><strong>Collaboration</strong> Add co-authors, editors and supervisors. See <a href="#collaborating-on-research">collaboration</a></p></li>
+<li><p><strong>Relations</strong> Create relationships with other objects on your profile, which will result in them being listed on the Research page. This page is shown when somebody clicks the title of the research on your profile.</p></li>
+</ul>
 <h1 id="views">Views</h1>
 <h2 id="exposition-view-or-preview">Exposition View or PREVIEW</h2>
-<p>The exposition view is the final result that the reader will see when he/she opens your exposition, for example by opening the exposition URL or when a user clicks &quot;OPEN EXPOSITION&quot; anywhere on the RC.</p>
+<p>The exposition view is the final result that the reader will see when he/she opens your exposition, for example by opening the exposition URL or when a user clicks &quot;OPEN EXPOSITION&quot; anywhere on the RC. All expositions have <a href="#navigation">a navigation bar</a> that shows if the user moves his/her mouse to the top. It contains a table of contents, abstract and other information.</p>
 <p>While you are editing your exposition in the workspace editor, the PREVIEW button (right top corner) shows what the page will look like to the reader. If you already have a preview tab open, the second time you click PREVIEW, it will simply refresh, instead of opening a new tab.</p>
 <!-- THIS SHOULD BE IN VIDEO AND AUDIO TOOLS ?
 Note, that the video player, the audio player, the slideshow and object tool are only displayed fully in this PREVIEW view. 
 -->
 <p>While the EXPOSITION VIEW will always open the default entry page of your exposition, PREVIEW shows the page (or &quot;weave&quot;) that you currently are working on in your workspace. Thus, you can also PREVIEW pages that are not yet listed in the table of contents.</p>
-<h2 id="navigation-bar">Navigation bar</h2>
-<div class="figure">
-<img src="images/navigation-bar.png" title="image showing the navigation bar" alt="the RC navigation bar" />
-<p class="caption">the RC navigation bar</p>
-</div>
-<h3 id="content">Content</h3>
-<p>This contains the table of contents. At the bottom of the list a link to your personal profile and that of your co-authors can be found. To change the elements of the content list, please see the help section on <a href="#table-of-content">table of contents</a>.</p>
-<h3 id="navigation">Navigation</h3>
-<p>Navigation is a (simplified) graphical map of all the exposition's content on the current weave. You can click on this map to jump to a certain location of the exposition page.</p>
-<h3 id="abstract">Abstract</h3>
-<p>When you add a new research exposition, object or work, you can give them a short abstract, this is displayed under &quot;abstract&quot; in the menubar. <!-- C: are abstracts also available under work, does this make sense ? --></p>
-<h3 id="title-meta">Title / Meta</h3>
-<p>By moving the mouse pointer over your account-name and the title of your research, a little window with metadata will appear. The link (URL) of the current page is shown, including the current scrolling location. This URL can thus be used to generate the <a href="#hyperlinks">hyperlink</a> for internal linking. You can also use this link to cite a specific location of an exposition in publications outside of the RC.</p>
-<h3 id="reviewing">Reviewing</h3>
-<p>Reviewing is connected to the note tool (the yellow &quot;post-it&quot; notes) and is intended for the communication between the author(s) and the reviewer during the reviewing-process. This option is no longer available once an exposition has been published.</p>
-<p>There are a couple of functions available under this menu: hide notes (hide all notes) show open notes (show only notes that are open) show resolved notes (show the resolved notes) add new note (open a note tool) previous note (jump to previous note) next note (jump to next note)</p>
-<h3 id="comments">Comments</h3>
-<p>Shows the latest and previous comments on your exposition from the RC community. Note that only registered users can read and write comments.</p>
-<h3 id="terms-of-use">Terms of use</h3>
-<p>This displays the terms of use of this and any exposition on the RC as set by the Society for Artistic Research (SAR)</p>
 <h2 id="workspace-view">Workspace View</h2>
 <p>The workspace view is the exposition editor of the RC. This is where you and your collaborators create and organise the expositions' content. It is only available to the author, co-authors and contributers of the exposition.</p>
+<h2 id="edit-exposition-settings">Edit exposition settings</h2>
+<p>When you are in the exposition editor, you can click the title to open a dialog to change the settings of the exposition. It is the exact same menu as you get using ☰ -&gt; edit details on your profile. See <a href="#edit-research">edit research</a></p>
 <p>Within the workspace view, one can enable one of these two subviews:</p>
 <h3 id="note-view">Note view</h3>
 <p>The note-view is to be used in conjunction with the note-tool of the RC. Notes are meant to be used to communicate between author and reviewers or supervisors and authors. The note-view displays a list of all the notes that are within an exposition. One can filter this list based on the author, assignee and depending on its status (resolved, unresolved). You can also change these parameters in this view.</p>
@@ -679,19 +687,33 @@ total number of images. -->
 <h3 id="send-collaboration-message">Send Collaboration Message</h3>
 <p>When you are collaborating on an exposition, you can use the command &quot;send collaboration message&quot; to commuicate with the co-authors or contributors. Open the command by clicking on the button and you will find a message-window. In the upper part you can choose the partners you want to contact. Select them by clicking on the &quot;+&quot;-icon behind their names. Below you find a html-based message window. Here you can enter the message.</p>
 <!-- TODO: Insert links to other parts of the documentation -->
-<h1 id="navigation-1">Navigation</h1>
-<h2 id="menu-bar-navigation">Menu Bar Navigation</h2>
+<h1 id="navigation">Navigation</h1>
+<h2 id="navigation-bar">Navigation bar</h2>
+<p>When one moves the mouse cursor to the top of an exposition, a menu bar appears.</p>
 <div class="figure">
-<img src="images/menu-bar-navigation.png" alt="menu bar" />
-<p class="caption">menu bar</p>
+<img src="images/navigation-bar.png" title="image showing the navigation bar" alt="the RC navigation bar" />
+<p class="caption">the RC navigation bar</p>
 </div>
-<p>When one moves the mouse cursor to the top of an exposition a menu bar appears. The menu bar displays (from left to right):</p>
+<p>The navigation bar contains, from left to right:</p>
 <ul>
-<li><strong>Contents</strong>, which can be freely designed by the author (see <a href="#table-of-content">table of content</a>). In most expositions this contains a list of the pages.</li>
-<li><strong>Navigation</strong> displays a schematic map/overview of the current page. It outlines all used tools on the page, their size and position. By clicking inside the map, you can jump to another position on the page. Your current position within the exposition is shown as a red rectangle.</li>
-<li><strong>Abstract</strong> the abstract of this exposition</li>
-<li><strong>The title</strong> of the exposition and the name of its author(s). One can also hoover over this title to receive an exact link to this location on the page.</li>
+<li><p><strong>Content</strong> This contains the table of contents and links to the authors. Please see the help section on <a href="#table-of-content">table of contents</a>.</p></li>
+<li><p><strong>Navigation</strong> Navigation is a graphical map of all the exposition's content on the current weave. You can click it to jump to a location.</p></li>
+<li><p><strong>Abstract</strong> Abstract, this can be changed by clicking title in the editor or ☰ &gt; <strong>edit details</strong> on your profile.</p></li>
+<li><p><strong>Title / Meta</strong> By moving the mouse pointer the title of your research, a little window with metadata will appear. The link (URL) of the current page is shown, including the current scrolling location. This URL can thus be used to generate the <a href="#hyperlinks">hyperlink</a> for internal linking. You can also use this link to cite a specific location.</p></li>
+<li><strong>Reviewing</strong> Reviewing is connected to the note tool (the yellow &quot;post-it&quot; notes) and is intended for the communication between the author(s) and the reviewer during the reviewing-process. This option is only available for expositions that have not been published yet. Notes can also be used for approving expositions in educational contexts. <br /> There are a couple of functions available: <br />
+<ul>
+<li>hide notes (hide all notes)</li>
+<li>show open notes (show only notes that are open)</li>
+<li>show resolved notes (show the resolved notes)</li>
+<li>add new note (open a note tool)</li>
+<li>previous note (jump to previous note)</li>
+<li>next note (jump to next note)</li>
+</ul></li>
 </ul>
+<h3 id="comments">Comments</h3>
+<p>Shows the latest and previous comments on your exposition from the RC community.</p>
+<h3 id="terms-of-use">Terms of use</h3>
+<p>This displays the terms of as set by the Society for Artistic Research (SAR).</p>
 <h2 id="table-of-content">Table of Content</h2>
 <p>See the <a href="https://www.researchcatalogue.net/view/273532/273533/54/759">video tutorial</a> on this topic.</p>
 <div class="figure">
@@ -734,7 +756,9 @@ total number of images. -->
 <li><strong>Class</strong> : set the class of the link (this is rarely used)</li>
 </ul>
 <h2 id="overview-1">Overview</h2>
-<p>Within the &quot;Commands&quot; tab on the right-hand side of the editor there is a checkbox labeled &quot;Overview.&quot; Clicking the checkbox will open andclose an a schematic overview on the right-hand side of theeditor. The overview outlines all tools on the page, their size andposition. By moving the red rectangle, which displays the currentlyvisible part of the weave, one can navigate the page and alter thecurrent selection.</p>
+<p>Within the &quot;Commands&quot; tab on the right-hand side of the editor there is a checkbox labeled &quot;Overview.&quot; Clicking the checkbox will open and close a tab on the right-hand side of the editor. It contains both a map and a list of all objects in the exposition.</p>
+<p>The overview map outlines all tools on the page, their size and position. By moving the red rectangle, one can jump to a specific position on the page.</p>
+<p>Below the overview map, there is a list of all objects. If you click one of these tools, you go directly to that tools location. This can also be very useful when trying to find tools that have somehow become hidden, for example if another tool has been placed on top.</p>
 <!-- TODO: Insert links to other parts of the documentation -->
 <h1 id="publishing-and-sharing">Publishing and Sharing</h1>
 <p>There are number of different ways to share and publish your work on the RC. This functionality can be accessed using the object menu (i.e. clicking the menu icon) for the given work or exposition on the &quot;My Profile&quot;-page.</p>

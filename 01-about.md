@@ -1,9 +1,6 @@
 ## About the Research Catalogue
 
-The Research Catalogue (RC) is a searchable database for archiving,
-publishing, and collaborating on artistic research. RC content is not
-peer reviewed, nor is it highly controlled for quality, being checked
-only for appropriateness. As a result, the RC is highly inclusive.
+RC content presented through some of our portals is peer reviewed, while the remaining expositions and other information are quality controlled by the individual author(s) themselves. As a result, the RC is highly inclusive. 
 
 The open source status of the RC is essential to its nature and serves
 its function as a connective and transitional layer between academic

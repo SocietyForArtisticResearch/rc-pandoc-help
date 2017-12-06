@@ -2,17 +2,51 @@
 
 # Navigation
 
-## Menu Bar Navigation
+## Navigation bar
 
-![menu bar](images/menu-bar-navigation.png)
+When one moves the mouse cursor to the top of an exposition, a menu bar
+appears. 
 
-When one moves the mouse cursor to the top of an exposition a menu bar
-appears. The menu bar displays (from left to right):
+![the RC navigation bar](images/navigation-bar.png "image showing the navigation bar")  
 
-* __Contents__, which can be freely designed by the author (see [table of content](#table-of-content)). In most expositions this contains a list of the pages.
-* __Navigation__ displays a schematic map/overview of the current page. It outlines all used tools on the page, their size and position. By clicking inside the map, you can jump to another position on the page. Your current position within the exposition is shown as a red rectangle.
-* __Abstract__ the abstract of this exposition
-* __The title__ of the exposition and the name of its author(s). One can also hoover over this title to receive an exact link to this location on the page. 
+The navigation bar contains, from left to right:
+
+* __Content__ This contains the table of contents and links to the authors. Please see the help section on [table of contents](#table-of-content).
+
+* __Navigation__ Navigation is a graphical map of all the exposition's
+content on the current weave. You can click it to jump to a location.
+
+* __Abstract__ Abstract, this can be changed by clicking title in the editor or ☰ > __edit details__ on your profile.
+
+* __Title / Meta__ By moving the mouse pointer the title of
+your research, a little window with metadata will appear. The link
+(URL) of the current page is shown, including the current scrolling
+location. This URL can thus be used to generate the [hyperlink](#hyperlinks) for
+internal linking. You can also use this link to cite a specific
+location.
+
+* __Reviewing__
+Reviewing is connected to the note tool (the yellow "post-it" notes)
+and is intended for the communication between the author(s) and the
+reviewer during the reviewing-process. This option is only available for expositions that have not been published yet. Notes can also be used for approving expositions in educational contexts.
+<br />
+There are a couple of functions available:
+<br />
+	- hide notes 			(hide all notes)
+	- show open notes 		(show only notes that are open)
+	- show resolved notes 	(show the resolved notes)
+	- add new note 			(open a note tool)
+	- previous note         (jump to previous note)
+	- next note             (jump to next note)
+
+### Comments
+
+Shows the latest and previous comments on your exposition from the RC
+community.
+
+### Terms of use
+
+This displays the terms of as set by the Society for Artistic Research (SAR).
 
 ## Table of Content
 
@@ -83,8 +117,9 @@ Within the hyperlink dialog there are a couple of options:
 
 Within the "Commands" tab on the right-hand side of the editor there
 is a checkbox labeled "Overview." Clicking the checkbox will open
-andclose an a schematic overview on the right-hand side of
-theeditor. The overview outlines all tools on the page, their size
-andposition. By moving the red rectangle, which displays the
-currentlyvisible part of the weave, one can navigate the page and
-alter thecurrent selection.
+and close a tab on the right-hand side of
+the editor. It contains both a map and a list of all objects in the exposition.
+
+The overview map outlines all tools on the page, their size and position. By moving the red rectangle, one can jump to a specific position on the page.
+
+Below the overview map, there is a list of all objects. If you click one of these tools, you go directly to that tools location. This can also be very useful when trying to find tools that have somehow become hidden, for example if another tool has been placed on top.
