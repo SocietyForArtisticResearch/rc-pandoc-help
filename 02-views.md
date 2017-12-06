@@ -28,12 +28,11 @@ pages that are not yet listed in the table of contents.
  
 ## Workspace View
 
-The workspace view is the exposition editor of the RC. This is where
-you and your collaborators create and organise the expositions'
-content. It is only available to the author, co-authors and
-contributers of the exposition.
+![workspace view](images/workspace-view.png "image showing workspace view")
 
-## Edit exposition settings
+The __workspace editor__ is the editor of content on the RC. It can be opened by clicking __☰ > edit workspace__ on an exposition listed on your profile. Of course you can only edit expositions of which you are a (co)author, editor or contributor. 
+
+### Edit exposition settings
 
 When you are in the exposition editor, you can click the title to open a dialog to change the settings of the exposition. It is the exact same menu as you get using ☰ -> edit details on your profile.
 See [edit research](#edit-research)
@@ -59,3 +58,5 @@ content in the text-view.
  
 You can close both views by clicking on "close note view" or "close
 text view" in the top-right.
+
+For more info on specific tools, see [workspace](#research-catalogue-workspace-tools).

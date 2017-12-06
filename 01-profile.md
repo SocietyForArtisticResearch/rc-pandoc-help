@@ -1,5 +1,3 @@
-
-  
 # My Profile Page
 
 The RC profile page is both the central hub for your activities on the
@@ -194,6 +192,8 @@ This dialog can be opened by __☰ > edit details__ or clicking the title of the
 
 * __Meta data__ Change the __title__, __date__, __abstract__, __keywords__, __affiliation__ and __external link__ fields for your exposition.  
 A __title__ and __abstract__ are obligatory.
+<br />
+__entry page__ This is the page readers see when they first open the exposition.
 
 * __Table of content__ Change the content menu, which controls which pages are visible for the reader.
 See [table-of-content](#table-of-content).
