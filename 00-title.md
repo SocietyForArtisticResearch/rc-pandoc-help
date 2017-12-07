@@ -39,18 +39,17 @@ function makeLinksCloseNav( ) { // links should close the navigation
 }
 
 function openNav( ) { // open navigation
-
-	var TOC = document.getElementById("TOC");
+	let TOC = document.getElementById("TOC");
     TOC.style.width = "100%";
-
-	menuButton.innerHTML = "<span class=\"closeSymbol\">&times; </span><span style=\"font-size: 50%\"><b>MENU</b></span>";
+    let menuButton = document.getElementById("menuButton");
+	menuButton.innerHTML = '<span class="closeSymbol">&times;</span><span style="font-size: 50%"><b id="menuLabel">MENU</b></span>';
     isMenuOpen = true;
 }
 
 function closeNav( ) {
-	menuButton.innerHTML = "<span class=\"menuSumbol\">&#9776; </span><span style=\"font-size: 50%\"><b>MENU</b></span>";
+    let menuButton = document.getElementById("menuButton");
+	menuButton.innerHTML = '<span class="menuSumbol">&#9776; </span><span style="font-size: 50%"><b id="menuLabel">MENU</b></span>';
 	isMenuOpen = false;
-
 	var TOC = document.getElementById("TOC");
     TOC.style.width = "0px";
 }
