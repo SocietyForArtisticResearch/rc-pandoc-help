@@ -146,7 +146,7 @@ Please note that publishing is a one-way action, once published one can not  unp
 
 * __Manage versions__ Create or restore snapshots, see [versions](#manage-versions).
 
-* __Export__ Export an exposition as a tar.gz file (you can also use this to make a copy of an exposition, by importing the generated file)
+* __Export__ Export an exposition as a zip file containging all its pages as HTML files. These HTML files can be opened on any computer with a browser, also offline. The start page is named __index.html__ .
 
 * __Delete__ Delete an exposition or work from the RC.
 
