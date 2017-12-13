@@ -184,6 +184,19 @@ There are three options for how to deal with the [collaboration](#collaborating-
 * __restore__ the collaboration will be as it was when the snapshot was taken.
 * __keep__ the collaboration as it is in the current version of the exposition.
 
+One can also restore as private and change the settings afterwards of course, through the collaboration and share menus.
+
+### Versions of published expositions
+
+Published expositions cannot be changed in the RC (this is per definition, to allow referencing content within these expositions by other researchers), but duplicates can !
+
+To get an editable duplicate of a published exposition one has to:
+
+1. make a snapshot of the published exposition.
+2. restore the snapshot. 
+
+This duplicate can now be edited, without the changes having effect on the original published exposition.
+
 ## Edit Research
 
 This dialog can be opened by __☰ > edit details__ or clicking the title of the exposition in the workspace editor.
