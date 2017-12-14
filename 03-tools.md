@@ -360,7 +360,7 @@ mouse cursor hovers over the item.
 [Video tutorial](https://www.researchcatalogue.net/view/273532/273533/623/1369)
 
 As with the other tools, you can use the video tool by dragging it
-from the tool palette and dropping it onto the weave.
+from the tool bar and dropping it onto the weave.
 
 In the dialog box that appears you have the possibility to add
 (i.e. upload) items from your computer or select items from the
@@ -368,31 +368,23 @@ In the dialog box that appears you have the possibility to add
 formats: *avi, mov, mp4, mpg* video container formats; *dv1394, h.264,
 mpeg2, mpeg1, mjepeg* video codec formats. Both VBR and CBR are supported.
 
-Please note also our general format information in [FAQ 2.5](http://www.researchcatalogue.net/portal/faq "FAQ").
-
 To add an item, choose "add" and upload the file from your desktop to
 the RC servers. All videos uploaded in this way will also be added to
 the simple media tab. Name the file and make a declaration of
-the copyright holder. After adding media, you can edit the style of
-the video player with the html style standards and choose between
-different play and display options.
+the copyright holder. 
 
 After adding a video, the player will not appear in the workspace editor, to view it, please click PREVIEW at the top right corner of the editor.
 
-Please note, all media will be compressed to a smaller size, this is
+All media will be compressed to a smaller size, this is
 called 'transcoding'. This process takes time. During the
-'transcoding' the file name is greyed out in your simple media. After
-the transcoding process is finished you will receive an email
-notification to tell you that your media is transcoded and ready for
-use. For further information and technical questions see
-[FAQ 2.6](http://www.researchcatalogue.net/portal/faq "FAQ") or
+'transcoding' the file name is greyed out in your simple media. If you want, the RC can also sent you an email when transcoding has finished.
+You can find that option under [__profile, settings__](https://www.researchcatalogue.net/settings).
+
+For further information and technical questions see
+[FAQ](http://www.researchcatalogue.net/portal/faq "FAQ") or
 contact the RC User Support.
 
-We highly recommend using smaller video files. People without a fast
-internet connection will not watch videos when they are too big to
-stream fluently. If your file is extremely large, you may want to
-convert it using Handbrake, FFMpeg or another video compression tool
-to reduce its size.
+We highly recommend using smaller video files, for easier upload. If your file is extremely large, you may want to compress it before uploading using a program like Handbrake, FFMpeg or QuickTime (Mac).
 
 ### Style
 
