@@ -124,30 +124,30 @@ To access the menu, click on the ("hamburger") menu icon, located in
 the bottom right corner of an object (expositions or works). Some
 options are only available to the author of the object.
 
-* __Change layout__ Change the size of an object on the profile.
+* __Change layout__ change the size of an object on the profile.
 
-* __Edit workspace__ Go to the workspace editor of this exposition.
+* __Edit workspace__ go to the workspace editor of this exposition.
 
-* __Edit details__ Change the meta data of your exposition, and control collaboration with other users. See [edit research](#edit-research)
+* __Edit details__ change the meta data of your exposition, and control collaboration with other users. See [edit research](#edit-research)
 
-* __Share__ Change who can see and access this item.
+* __Share__ change who can see and access this item.
 
-* __Self-publish__ Turn an exposition into a fixed state.
+* __Self-publish__ turn an exposition into a fixed state.
 <br/>Please note that publishing is a one-way action, *once published one can not unpublish*. If you want to keep the option of removing an exposition, do not use this option.
 
-* __Add to shortcut__ Add a compact link to this object on the top of your list. 
+* __Add to shortcut__ add a compact link to this object on the top of your list. 
 
-* __Submit for publication__ Submit an exposition to a portal for publication.
+* __Submit for publication__ submit an exposition to a portal for publication.
 
-* __Add to shortcut__ Make a shortcut add the top of your profile.
+* __Add to shortcut__ make a shortcut add the top of your profile.
 
-* __Connect to portal__ Send a connection request to a portal.
+* __Connect to portal__ send a connection request to a portal.
 
-* __Manage versions__ Create or restore snapshots, see [versions](#manage-versions).
+* __Manage versions__ create or restore snapshots, see [versions](#manage-versions).
 
-* __Export__ This function downloads a zip file, containing a HTML Export of the exposition. These HTML files can be opened on any computer with a browser, also offline. The start page is named __index.html__ .
+* __Export__ this function downloads a zip file, containing a HTML Export of the exposition. These HTML files can be opened on any computer with a browser, also offline. The start page is named __index.html__ .
 
-* __Delete__ Delete an exposition or work from the RC.
+* __Delete__ delete an exposition or work from the RC.
 
 ### Change Layout
 
@@ -204,18 +204,19 @@ This dialog can be opened by __☰ > edit details__ or clicking the title of the
 
 ![Edit research dialog, showing meta page](images/edit-research.png "image showing edit research dialog")
 
-* __Meta data__ Change the __title__, __date__, __abstract__, __keywords__, __affiliation__ and __external link__ fields for your exposition.  
-A __title__ and __abstract__ are obligatory.
-<br />
-__entry page__ This is the page readers see when they first open the exposition.
+* __Meta data__ change the __title__, __date__, __abstract__, __keywords__, __affiliation__ and __external link__ fields for your exposition.  
+A __title__ and __abstract__ are obligatory. 
 
-* __Table of content__ Change the content menu, which controls which pages are visible for the reader.
+At the bottom of the __meta__ tab, one can also set the __entry page__: the weave that is the first page that the reader sees.
+<br />
+
+* __Table of content__ change the content menu, which controls which pages are visible for the reader. If you want to change the first page, switch to the __Meta__ tab and scroll down.
 See [table-of-content](#table-of-content).
 
-* __Collaboration__ Add co-authors, editors and supervisors.
+* __Collaboration__ add co-authors, editors and supervisors.
 See [collaboration](#collaborating-on-research)
 
-* __Relations__ Create relationships with other objects on your profile, which will result in them being listed on the Research page. This page is shown when somebody clicks the title of the research on your profile.
+* __Relations__ create relationships with other objects on your profile, which will result in them being listed on the Research page. This page is shown when somebody clicks the title of the research on your profile.
 
 
 
