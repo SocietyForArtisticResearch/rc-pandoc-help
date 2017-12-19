@@ -133,10 +133,9 @@ options are only available to the author of the object.
 * __Share__ Change who can see and access this item.
 
 * __Self-publish__ Turn an exposition into a fixed state.
+<br/>Please note that publishing is a one-way action, *once published one can not unpublish*. If you want to keep the option of removing an exposition, do not use this option.
 
 * __Add to shortcut__ Add a compact link to this object on the top of your list. 
-
-Please note that publishing is a one-way action, once published one can not  unpublish. If you want to keep the option of removing an exposition, do not use this option.
 
 * __Submit for publication__ Submit an exposition to a portal for publication.
 
