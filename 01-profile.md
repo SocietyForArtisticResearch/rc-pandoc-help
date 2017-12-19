@@ -210,7 +210,7 @@ A __title__ and __abstract__ are obligatory.
 At the bottom of the __meta__ tab, one can also set the __entry page__: the weave that is the first page that the reader sees.
 <br />
 
-* __Table of content__ change the content menu, which controls which pages are visible for the reader. If you want to change the first page, switch to the __Meta__ tab and scroll down.
+* __Table of content__ change the content menu, which the user can use to navigate between pages.
 See [table-of-content](#table-of-content).
 
 * __Collaboration__ add co-authors, editors and supervisors.
