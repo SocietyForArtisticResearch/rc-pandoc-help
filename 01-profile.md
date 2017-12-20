@@ -135,11 +135,9 @@ options are only available to the author of the object.
 * __Self-publish__ turn an exposition into a fixed state.
 <br/>Please note that publishing is a one-way action, *once published one can not unpublish*. If you want to keep the option of removing an exposition, do not use this option.
 
-* __Add to shortcut__ add a compact link to this object on the top of your list. 
+* __Add to shortcut__ add a compact link to this object on the top of your profile. 
 
 * __Submit for publication__ submit an exposition to a portal for publication.
-
-* __Add to shortcut__ make a shortcut add the top of your profile.
 
 * __Connect to portal__ send a connection request to a portal.
 
