@@ -1,85 +1,47 @@
 <!--pandoc -s tools.md -o tools.html -c style.css-->
 
-# Research Catalogue Workspace & Tools
+# Research Catalogue Workspace editor
 
 ## General
 
-The workspace tools are listed at the left side of the editor, under the Tools tab. To use a tool, drag it (click and hold the mouse button down) from the toolbar onto the canvas.
+The workspace [tools](#tools]) are listed at the top side of the editor. To use a tool, drag it (click and hold the mouse button down) from the toolbar onto the canvas. If you hoover over any of the tool icons, a description will appear. At the right hand side, you will find four tabs of content:
 
-![dragging a toolbar to the canvas](images/toolbar-demo.png "drag a toolbar to the canvas")
+* exposition - all objects in the current weave
+* simple media - media files used in this exposition 
+* works - media files listed on your profile as works
+* pages - a list of all the different pages (pages)
+* footnotes - a list of rc footnotes/popovers
 
-### Context menu
+## Media tab
 
+The tab is located at the right side of the screen.
 
-<div class="small_image">
-![context menu location](images/position-context-menu.png "context menu location")
-</div>
-
-The context menu of a tool is reached by clicking on the menu icon (see below), or right clicking (Apple: CTRL+click) inside a tool. The only exeption is the text tool, see text tool.
-
-![context menu](images/context-menu.png "context menu")
-
-* __Edit__ (open edit dialog)  
-Open edit dialog
-
-* __Copy__/__Paste__  
-Copy/paste objects
-
-* __Bring to front__/__Bring to back__  
-Organise which object is in front of another.
-
-* __Lock__/__Unlock__  
-Lock means that one cannot make any changes until unlocked again.
-
-* __Delete__  
-Delete a tool
-
-
-Tools can be resized by clicking and dragging the green borders with the mouse.
-
-Tools can be rotated by clicking and dragging the yellow dot.
-
-## Key commands
-
-There are a few useful key commands in the editor. Selected tools have a green border.
-
-| __Key command:__                                         			| __Action:__						      |
-| ------------------------------------------------------------- 	| --------------------------------------- |
-| __ctrl + c__ 				 							   			| copy selected tools  					  |
-| __ctrl + v__             								   			| paste 								  |
-| __&#8984;(Mac) + a__ or __ctrl + a__ 				   				| select all tools on current weave   	  |
-| __&#8984;(Mac) + click__ or __ctrl + click__ on object 			| select multiple objects one by one      |
-| __backspace, delete__    		                           			| remove selected tools                   |
-
-### Defaults
-
-Defaults for styling and options can be set for a tool, by double clicking it in the toolbar.
-
-## Pages
+Pages are managed in the "pages" tab of the media manager.
 
 ### Creating a page
 
-An RC exposition can consist of one or more pages, pages can be created by clicking the __"+ add page"__ button on the top side of the editor. Note that new pages are by default private, they have to be explicitely added to the [table of content](#table-of-content "table of content") to be visible. The order of pages cannot be changed in the editor, but it can in the table of contents.
+An RC exposition can consist of one or more pages, pages can be created by clicking the __"+ add page"__ in the pages tab. Note that new pages are by default *private*, they have to be explicitely added to the [table of content](#table-of-content "table of content") to be visible (or by making a [hyperlink](#hyperlinking) to the page in your own content). The order of pages cannot be changed in the pages list, but it can in the table of contents. The page will automatically change size based on the content.
 
 ### Entry page 
 
-One can change the first page the reader sees by changing the entry page. This is done by clicking the title of the exposition, which will open the "edit details" dialog. Here you can set the __"entry page"__ (at the bottom of the dialog).
+One can change the first page the reader sees by changing the entry page. Go to __options -> edit details__. Here you can set the __"entry page"__ (at the bottom of the dialog).
 
 ### Page settings
 
 ![the page settings dialog](images/rc-page-settings.png "image showing the page settings")]
 
-In the page settings dialog, you can change some of the styling for the whole page. It is opened by clicking the small white page icon next to current tab/weave title.
+In the page settings dialog, you can change the meta data of the page and control the appearance.
+It is opened by clicking the pencil button in the bar.
 
 #### Page settings - Meta : title, description and iframe field
 
-* __Page title__  
+* __Page title__\
 Set a title for the page. This title can be overriden in the [table of content](#table-of-content), so the reader sees a different one. This can be useful if you need to keep track of different versions of pages.
 
-* __Description__  
+* __Description__\
 The description is for personal reference and only visible to the author and collaborators on the exposition.
 
-* __Iframe field__  
+* __Iframe field__\
 Replace the entire page by an external website by means of a URL.
 There are a few requirements to the URL for this to work:
 
@@ -105,6 +67,65 @@ Here one can change:
 
 The page can be deleted by clicking the trashcan icon next to the page title. Deleted pages cannot be recovered. Of course, if you want to make a page invisible to the reader it may be prefered to just remove it from the [table of content](#table-of-content "table of content").
 
+![dragging a toolbar to the canvas](images/toolbar-demo-2.png "drag a toolbar to the canvas")
+
+# Workspace Tools
+
+## General
+
+The workspace tools are used to add verious types of content to your pages. They are located as icons at the top of the workspace area. For each type of media (pdf, sound, video, text etc..) there is a different tool.
+
+A tool is added to the exposition by dragging it from the toolbar onto the workspace (the gridded area).
+
+Tools can be resized by clicking and dragging the green borders with the mouse.
+
+Tools can be rotated by clicking and dragging the yellow dot.
+
+### Context menu
+
+
+<div class="small_image">
+![context menu location](images/position-context-menu.png "context menu location")
+</div>
+
+The context menu of a tool is reached by clicking on the menu icon (see below), or right clicking (Apple: CTRL+click) inside a tool. The only exception is the text tool, see text tool.
+
+![context menu](images/context-menu.png "context menu")
+
+* __Edit__ (open edit dialog)  
+Open edit dialog
+
+* __Copy__/__Paste__  
+Copy/paste objects
+
+* __Bring to front__/__Bring to back__  
+Organise which object is in front of another.
+
+* __Lock__/__Unlock__  
+Lock means that one cannot make any changes until unlocked again.
+
+* __Delete__  
+Delete a tool
+
+
+
+
+## Key commands
+
+There are a few useful key commands in the editor. Selected tools have a green border.
+
+| __Key command:__                                         			| __Action:__						      |
+| ------------------------------------------------------------- 	| --------------------------------------- |
+| __ctrl + c__ 				 							   			| copy selected tools  					  |
+| __ctrl + v__             								   			| paste 								  |
+| __&#8984;(Mac) + a__ or __ctrl + a__ 				   				| select all tools on current weave   	  |
+| __&#8984;(Mac) + click__ or __ctrl + click__ on object 			| select multiple objects one by one      |
+| __backspace, delete__    		                           			| remove selected tools                   |
+
+### Defaults
+
+Defaults for styling and options can be set for a tool, by clicking it in the toolbar.
+
 ## Text Tool
 
 A video tutorial about the text tool is found [here](https://www.researchcatalogue.net/view/273532/273533/0/937 "link to video tutorials")
@@ -126,26 +147,6 @@ text directly on the page. While the HTML-tool opens a new dialog
 window. If you need more styling options, use the HTML-tool. A text
 tool can be converted to an HTML-tool via the menu option __convert to
 HTML tool__.
-
-<!-- insert link to video tutorials -->
-
-<!--
-<div class="easyhtml5video" style="position:relative;max-width:1190px;"><video controls="controls"  autoplay="autoplay" poster="video/eh5v.files/html5video/Supershort_text_demo_2.jpg" style="width:100%" title="Supershort text demo 2">
-<source src="video/eh5v.files/html5video/Supershort_text_demo_2.m4v" type="video/mp4" />
-<source src="video/eh5v.files/html5video/Supershort_text_demo_2.webm" type="video/webm" />
-<object type="application/x-shockwave-flash" data="video/eh5v.files/html5video/flashfox.swf" width="1190" height="720" style="position:relative;">
-<param name="movie" value="video/eh5v.files/html5video/flashfox.swf" />
-<param name="allowFullScreen" value="true" />
-<param name="flashVars" value="autoplay=true&controls=true&fullScreenEnabled=true&posterOnEnd=true&loop=false&poster=video/eh5v.files/html5video/Supershort_text_demo_2.jpg&src=Supershort_text_demo_2.m4v" />
- <embed src="video/eh5v.files/html5video/flashfox.swf" width="1190" height="720" style="position:relative;"  flashVars="autoplay=true&controls=true&fullScreenEnabled=true&posterOnEnd=true&loop=false&poster=video/eh5v.files/html5video/Supershort_text_demo_2.jpg&src=Supershort_text_demo_2.m4v"	allowFullScreen="true" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_en" />
-<img alt="Supershort text demo 2" src="video/eh5v.files/html5video/Supershort_text_demo_2.jpg" style="position:absolute;left:0;" width="100%" title="Video playback is not supported by your browser" />
-</object>
-</video><div class="eh5v_script"><p class="caption">basic text tool usage</p></div></div>
-<script src="video/eh5v.files/html5video/html5ext.js" type="text/javascript"></script>
--->
-		
-
-	
 
 ### Style
 
