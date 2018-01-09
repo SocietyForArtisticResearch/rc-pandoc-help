@@ -54,26 +54,25 @@ See the [video tutorial](https://www.researchcatalogue.net/view/273532/273533/54
 
 ![an example of a contents list, made through the table of content](images/table-of-content-example.png)
 
-The table of content is designed to facilitate the navigation through
-an exposition. In order to edit the table of content and add entries,
-click on the __title of your exposition__ in the editor (one can also open
-this window by going to the exposition on the profile page and
-clicking "edit details"). This opens a dialogue window titled "Edit
-Research." The second tab ("table of content") of this window contains
-a series of entries. 
+The table of content is designed to facilitate navigation through
+an exposition for the reader by means of the __contents__ menu (top left corner).
+
+In order to edit the table of content, click on the __title of your exposition__ at the top of the workspace editor. This opens an __Edit Research__ dialog, then click the __"table of content"__ tab to open the list of entries.
 
 ![Table of content dialog](images/table-of-content-dialog.png)
 
-To make a new entry select the page (or "weave")
-that this item in the table of content is supposed to link to from the
-pull down menu and enter a title for this entry to be displayed in the
-table of content. Moreover one can choose a specific position within
-the selected page. The "X-Coord" is the distance in pixels from the
-left margin of the exposition and the "Y-Coord" is the distance in
-pixels from the top margin (See the section on "Commands" for more
-information on obtaining position information.) The table of content
-thus not only allows structuring expositions by creating a series of
-weaves, but also by using various locations within one weave. Also note that pages that unless a page is entered in the table of content, the reader cannot reach them. Pages are not automatically added to the table of content.
+To make a new entry, click on the index number and select the page (or "weave") from the drop down menu and click submit.
+
+There are two optional fields:
+
+* __Title__\
+Specify a custom name for this entry to be used within the contents menu.
+If left empty, it uses the title from the editor.
+
+* __X-COORD & Y-COORD__\
+you can use this to create an entry that has an offset, which immediately opens the page on a specific location within the exposition. The X,Y values correspond to an offset in pixels. The Y offset is measured from the top. Instead of looking these values up by hand, you may also use [__commands -> show current position__](#set-default-position-show-current-position).
+
+*Tip: you can easily reorder the table of contents entries by clicking and dragging the boxes.*
 
 ## Hyperlinking
 
