@@ -4,13 +4,15 @@
 
 ## General
 
-The workspace [tools](#tools]) are listed at the top side of the editor. To use a tool, drag it (click and hold the mouse button down) from the toolbar onto the canvas. If you hoover over any of the tool icons, a description will appear. At the right hand side, you will find four tabs of content:
+The workspace [tools](#workspace-tools]) are listed at the top side of the editor. To use a tool, drag it (click and hold the mouse button down) from the toolbar onto the canvas. If you hoover over any of the tool icons, a description will appear. At the right hand side, you will find tabs of content:
+
+<!-- TODO, correct this add screenshots -->
 
 * exposition - all objects in the current weave
 * simple media - media files used in this exposition 
 * works - media files listed on your profile as works
 * pages - a list of all the different pages (pages)
-* footnotes - a list of rc footnotes/popovers
+* footnotes - a list of rc [footnotes and popovers](#footnotes-and-popovers)
 
 ## Media tab
 
@@ -67,8 +69,6 @@ Here one can change:
 
 The page can be deleted by clicking the trashcan icon next to the page title. Deleted pages cannot be recovered. Of course, if you want to make a page invisible to the reader it may be prefered to just remove it from the [table of content](#table-of-content "table of content").
 
-![dragging a toolbar to the canvas](images/toolbar-demo-2.png "drag a toolbar to the canvas")
-
 # Workspace Tools
 
 ## General
@@ -76,6 +76,8 @@ The page can be deleted by clicking the trashcan icon next to the page title. De
 The workspace tools are used to add verious types of content to your pages. They are located as icons at the top of the workspace area. For each type of media (pdf, sound, video, text etc..) there is a different tool.
 
 A tool is added to the exposition by dragging it from the toolbar onto the workspace (the gridded area).
+
+![](images/toolbar-demo-2.png "image showing drag a tool to the canvas")
 
 Tools can be resized by clicking and dragging the green borders with the mouse.
 
