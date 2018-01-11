@@ -602,12 +602,31 @@ using "restore deleted tools" in the commands.
 
 ## Embed tool
 
-The RC supports the following external content providers: Madek, Youtube, Vimeo, Soundcloud, Sketchfab. Please copy the URL of the media item you want to embed.
+The embed tool allows the integration of external content, such as
+videos or sounds, into RC expositions. Currently, the RC supports the
+following external content providers:
+[Madek](https://www.zhdk.ch/madek), Youtube, Vimeo, Soundcloud and
+Sketchfab. 
 
-The embed tool can be used by pasting the link from the page you want to embed in the field and clicking submit twice.
-The first submit is to process the link. How to retrieve the correct embedding link depends on the service. Often they provide a piece of code containing "iframe src="somelink" etc". Please contact [support](mailto:support@researchcatalogue.net) if you have trouble finding this link.
+The embed tool can be used by pasting the link from the page you want
+to embed in the URL field and clicking submit twice.  The first submit
+initiates the processing of the link. How to retrieve the correct
+embedding link depends on the service. The main URL visible when
+opening the media content that is to be embedded can be used by the RC
+for the above mentioned services. Please contact
+[support](mailto:support@researchcatalogue.net) if you have trouble or
+questions regarding the necessary URL.
 
-Important: some RC based journals/portals do not allow use of externally hosted materials. If you are making an exposition to be published in such a portal, please check their policy first.
+Content from Youtube and Soundcloud can be used in the play tool and
+the playback can be synchronized with native RC tools.
+
+Content from Madek needs to have been made publicly visible before
+embedding is possible. Please copy the sharing link from Madek into
+the URL field of the embed tool.
+
+Important: Some RC-based journals/portals do not allow the use of
+externally hosted materials. If you are making an exposition to be
+published in such a portal, please check their policy first.
 
 
 
