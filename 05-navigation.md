@@ -74,6 +74,14 @@ you can use this to create an entry that has an offset, which immediately opens 
 
 *Tip: you can easily reorder the table of contents entries by clicking and dragging the boxes.*
 
+### Static navigation bar
+
+At the bottom of the __table of content__ dialog, there is an option __static menu bar__ to display the navigation bar continuously (instead of it automatically hiding).
+
+### TOC alignment
+
+Choose wether the links in the content menu should be displayed *horizontally* or *vertically*.
+
 ## Hyperlinking
 
 See the [video tutorial](https://www.researchcatalogue.net/view/273532/273533) on this topic.
