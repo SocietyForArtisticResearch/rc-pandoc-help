@@ -21,7 +21,7 @@ In order to create a footnote in the text or HTML tool one selects some text, wh
 
 ![Selecting text as a footnote link](images/footnotes_sel.png)
 
-A new footnote can be create by using the left tab in the appearing
+A new footnote can be created by using the left tab in the appearing
 dialog window. In this window one can set:
 
 * The title of the footnote.
