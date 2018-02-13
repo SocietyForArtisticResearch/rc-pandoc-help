@@ -52,6 +52,8 @@ There are three icons displayed to the right of the title of each footnote. The 
 
 __"simple text"__ footnotes are in fact automatically generated normal footnotes with your text inserted in a text tool. This has consequences if you want to adjust the size of a __"simple text"__ footnote as a whole, since you would also need to change the size of the tool within that footnote after resizing. To edit a "simple text" footnote internal tools, simply double click it in the footnote list.
 
+When you are done editing: you can return to your main weave through the link in the top of the editor.
+
 ![Back to main weave link](images/footnote_back.png)
 
 ### Changing the position or display settings of a footnote
