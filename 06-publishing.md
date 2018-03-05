@@ -14,6 +14,7 @@ The share option can be found under the object menu (<img class="tiny_icon" src=
 
 * __private__ (default) : only visible to you or the [collaborators](#collaborating-on-research "collaboration") on that specific object.
 * __only RC users__ : visible to RC users only. 
+* __limited to portal__: You can make your exposition visible only to members of a certain portal. Clicking a portal in the list below, toggles visibity of your exposition for members of that portal. If required, you can also select multiple.
 * __public__ : visible to anyone on the internet. 
 
 As long as the object has not been published it remains editable. 
