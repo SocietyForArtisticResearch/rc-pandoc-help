@@ -28,14 +28,9 @@ pages that are not yet listed in the table of contents.
  
 ## Workspace View
 
-![workspace view](images/workspace-view.png "image showing workspace view")
+![workspace view](images/workspace-view-2018.png "image showing workspace view")
 
 The __workspace editor__ is the editor of content on the RC. It can be opened by clicking __☰ > edit workspace__ on an exposition listed on your profile. Of course you can only edit expositions of which you are a (co)author, editor or contributor. 
-
-### Edit exposition settings
-
-When you are in the exposition editor, you can click the title to open a dialog to change the settings of the exposition. It is the exact same menu as you get using ☰ -> edit details on your profile.
-See [edit research](#edit-research)
 
 Within the workspace view, one can enable one of these two subviews:
 
