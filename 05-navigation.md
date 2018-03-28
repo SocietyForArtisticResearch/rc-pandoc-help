@@ -56,11 +56,11 @@ See the [video tutorial](https://www.researchcatalogue.net/view/273532/273533/54
 
 The table of content is designed to facilitate the navigation through
 an exposition. In order to edit the table of content and add entries,
-click on the __title of your exposition__ in the editor (one can also open
-this window by going to the exposition on the profile page and
-clicking "edit details"). This opens a dialogue window titled "Edit
-Research." The second tab ("table of content") of this window contains
-a series of entries. 
+open the "Options" menu item and click on "edit table of content" (one
+can also open this window by going to the exposition on the profile
+page and clicking "edit details"). This opens a dialogue window titled
+"Edit Research." The second tab ("table of content") of this window
+contains a series of entries.
 
 ![Table of content dialog](images/table-of-content-dialog.png)
 
