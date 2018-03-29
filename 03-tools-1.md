@@ -6,7 +6,9 @@
 
 The workspace [tools](#workspace-tools]) are listed at the top side of the editor. To use a tool, drag it (click and hold the mouse button down) from the toolbar onto the canvas. If you hoover over any of the tool icons, a description will appear. At the right hand side, you will find tabs of content:
 
-<!-- TODO, correct this add screenshots -->
+## Content manager
+
+![media, pages and footnotes tabs](images/media_manage.png "media management")
 
 * exposition - all objects in the current weave
 * simple media - media files used in this exposition 
@@ -14,23 +16,24 @@ The workspace [tools](#workspace-tools]) are listed at the top side of the edito
 * pages - a list of all the different pages (pages)
 * footnotes - a list of rc [footnotes and popovers](#footnotes-and-popovers)
 
-## Media tab
+## Pages
 
-The tab is located at the right side of the screen.
+Pages are managed in the __pages__ tab of the content manager. An RC exposition can consist of one or more pages. A new exposition starts with a single page, called "default page".
 
-Pages are managed in the "pages" tab of the media manager.
+![page tab](images/pages-tab-2018.png "image showing the page tab")
 
 ### Creating a page
 
-An RC exposition can consist of one or more pages, pages can be created by clicking the __"+ add page"__ in the pages tab. Note that new pages are by default *private*, they have to be explicitely added to the [table of content](#table-of-content "table of content") to be visible (or by making a [hyperlink](#hyperlinking) to the page in your own content). The order of pages cannot be changed in the pages list, but it can in the table of contents. The page will automatically change size based on the content.
+New pages are by default *private*, they have to be explicitely added to the [table of content](#table-of-content "table of content") to be visible (or by making a [hyperlink](#hyperlinking) to the page in your own content). The order of pages cannot be changed in the pages list, but it can in the table of contents. The page will automatically change size based on the content.
 
 ### Entry page 
 
-One can change the first page the reader sees by changing the entry page. Go to __options -> edit details__. Here you can set the __"entry page"__ (at the bottom of the dialog).
+One can change the first page visible to the reader by changing the __entry page__. Go to the menu __options__ and choose __edit meta data__. Scroll down to __"entry page"__ (at the bottom of the dialog) and select the page you want as your start page for the reader. 
+<!-- This should be in table of contents, it is completely out of place in meta-data -->
 
 ### Page settings
 
-![the page settings dialog](images/rc-page-settings.png "image showing the page settings")]
+![the page settings dialog](images/pages-tab-2018.png "image showing the page settings")]
 
 In the page settings dialog, you can change the meta data of the page and control the appearance.
 It is opened by clicking the pencil button in the bar.
