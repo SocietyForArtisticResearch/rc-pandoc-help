@@ -16,6 +16,8 @@ tab onto your canvas in order to create tools.
 The list of media files can be sorted by type, name, creation date and
 size and you can search for a file name by using the search field.
 
+Files that are listed in gray are in the process of being transcoded.
+
 There four buttons on top of the list of files, from left to right:
 
 ![Simple media tab](images/media_manage.png "image showing the simple media tab")
