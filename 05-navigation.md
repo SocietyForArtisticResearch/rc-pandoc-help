@@ -54,10 +54,13 @@ See the [video tutorial](https://www.researchcatalogue.net/view/273532/273533/54
 
 ![an example of a contents list, made through the table of content](images/table-of-content-example.png)
 
-The table of content is designed to facilitate navigation through
-an exposition for the reader by means of the __contents__ menu (top left corner).
-
-In order to edit the table of content, click on the __title of your exposition__ at the top of the workspace editor. This opens an __Edit Research__ dialog, then click the __"table of content"__ tab to open the list of entries.
+The table of content is designed to facilitate the navigation through
+an exposition. In order to edit the table of content and add entries,
+open the "Options" menu item and click on "edit table of content" (one
+can also open this window by going to the exposition on the profile
+page and clicking "edit details"). This opens a dialogue window titled
+"Edit Research." The second tab ("table of content") of this window
+contains a series of entries.
 
 ![Table of content dialog](images/table-of-content-dialog.png)
 

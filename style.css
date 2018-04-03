@@ -211,6 +211,11 @@ margin-bottom: 0; }
   height:150px;
 }
 
+.half-image {
+  width:150px;
+  min-width:unset;
+}
+
 .tiny_icon  {
   top:15px;
   position:relative;

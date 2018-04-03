@@ -1,12 +1,30 @@
 <!--pandoc -s tools.md -o tools.html -c style.css-->
 
-# Research Catalogue Workspace & Tools
+# Workspace editor
 
-## General
+## The workspace grid
 
-The workspace tools are listed at the left side of the editor, under the Tools tab. To use a tool, drag it (click and hold the mouse button down) from the toolbar onto the canvas.
+The gridded area, called canvas, is where you create and edit your content. There are a number of *tools* for adding different types of content (text, video, images etc..). A tool is created by *dragging* the icon (keeping the mouse button pressed) from the toolbar to the desired location on your canvas.
 
-![dragging a toolbar to the canvas](images/toolbar-demo.png "drag a toolbar to the canvas")
+The alignment grid itself can be switched off or resized in the options menu.
+
+![a text tool is created by dragging it from the toolbar](images/toolbar-demo-2.png "image showing drag a tool to the canvas")
+
+The canvas area size is automatically adjusted: adding content will make it grow just enough for everything to fit.
+
+Some tools look slightly different when editing, than in the final result. For example: an audio tools' control buttons only show up in the __Preview__. Use the __preview button__ (the eye symbol on the top right) to see what the final result will look like to the reader.
+
+# Workspace Tools
+
+## Adding a tool
+
+Like mentioned before, a tool is created by dragging the icon onto the canvas.
+
+![](images/toolbar-demo-2.png "image showing drag a tool to the canvas")
+
+Tools can be resized by clicking and dragging the green borders with the mouse.
+
+Tools can be rotated by clicking and dragging the yellow dot.
 
 ### Context menu
 
@@ -15,7 +33,7 @@ The workspace tools are listed at the left side of the editor, under the Tools t
 ![context menu location](images/position-context-menu.png "context menu location")
 </div>
 
-The context menu of a tool is reached by clicking on the menu icon (see below), or right clicking (Apple: CTRL+click) inside a tool. The only exeption is the text tool, see text tool.
+The context menu of a tool is reached by clicking on the menu icon (see below), or right clicking (Apple: CTRL+click) inside a tool. The only exception is the text tool, see text tool.
 
 ![context menu](images/context-menu.png "context menu")
 
@@ -35,9 +53,7 @@ Lock means that one cannot make any changes until unlocked again.
 Delete a tool
 
 
-Tools can be resized by clicking and dragging the green borders with the mouse.
 
-Tools can be rotated by clicking and dragging the yellow dot.
 
 ## Key commands
 
@@ -53,57 +69,7 @@ There are a few useful key commands in the editor. Selected tools have a green b
 
 ### Defaults
 
-Defaults for styling and options can be set for a tool, by double clicking it in the toolbar.
-
-## Pages
-
-### Creating a page
-
-An RC exposition can consist of one or more pages, pages can be created by clicking the __"+ add page"__ button on the top side of the editor. Note that new pages are by default private, they have to be explicitely added to the [table of content](#table-of-content "table of content") to be visible. The order of pages cannot be changed in the editor, but it can in the table of contents.
-
-### Entry page 
-
-One can change the first page the reader sees by changing the entry page. This is done by clicking the title of the exposition, which will open the "edit details" dialog. Here you can set the __"entry page"__ (at the bottom of the dialog).
-
-### Page settings
-
-![the page settings dialog](images/rc-page-settings.png "image showing the page settings")]
-
-In the page settings dialog, you can change some of the styling for the whole page. It is opened by clicking the small white page icon next to current tab/weave title.
-
-#### Page settings - Meta : title, description and iframe field
-
-* __Page title__  
-Set a title for the page. This title can be overriden in the [table of content](#table-of-content), so the reader sees a different one. This can be useful if you need to keep track of different versions of pages.
-
-* __Description__  
-The description is for personal reference and only visible to the author and collaborators on the exposition.
-
-* __Iframe field__  
-Replace the entire page by an external website by means of a URL.
-There are a few requirements to the URL for this to work:
-
-	* For reasons of security, the website needs to be configured to use a [TLS connection](https://en.wikipedia.org/wiki/HTTPS "https on wikipedia"). Links with TLS enabled can in most cases be identified by the __https://__ instead of __http://__ at the start.
-	* You need to provide the full URL (inlude the https:// at the start).
-
-	Please note that if a correct iFrame url is provided, the entire weave within the exposition is replaced by that website, so any tools and page styling present in the workspace will no longer be visible to the reader.
-
-	If you want to combine external content with tools you should use the [embed tool](#embed-tool).
-
-#### Page settings - Style
-
-Here one can change:
-
-* __margin__: If set, it will make the exposition as if is seen through a smaller window.
-* __padding__: Padd extra space on the content itself (for example if you set top and left to 100, it will create extra space on the top and left). In other words, this makes the exposition canvas itself larger.
-* __background__: change the color or set an image as background.
-* __links__: change the default color for all hyperlinks within the page. One can set seperate colors for links the user visited.
-* __footnote__: The color of footnote/popover links same as links, but then for links of footnotes/popovers.
-* __raw css__: You can set user defined [CSS](https://www.w3schools.com/css/ "css tutorial") rules that are applied to the whole page.
-
-### Deleting a page
-
-The page can be deleted by clicking the trashcan icon next to the page title. Deleted pages cannot be recovered. Of course, if you want to make a page invisible to the reader it may be prefered to just remove it from the [table of content](#table-of-content "table of content").
+Defaults for styling and options can be set for a tool, by clicking it in the toolbar.
 
 ## Text Tool
 
@@ -127,25 +93,7 @@ window. If you need more styling options, use the HTML-tool. A text
 tool can be converted to an HTML-tool via the menu option __convert to
 HTML tool__.
 
-<!-- insert link to video tutorials -->
-
-<!--
-<div class="easyhtml5video" style="position:relative;max-width:1190px;"><video controls="controls"  autoplay="autoplay" poster="video/eh5v.files/html5video/Supershort_text_demo_2.jpg" style="width:100%" title="Supershort text demo 2">
-<source src="video/eh5v.files/html5video/Supershort_text_demo_2.m4v" type="video/mp4" />
-<source src="video/eh5v.files/html5video/Supershort_text_demo_2.webm" type="video/webm" />
-<object type="application/x-shockwave-flash" data="video/eh5v.files/html5video/flashfox.swf" width="1190" height="720" style="position:relative;">
-<param name="movie" value="video/eh5v.files/html5video/flashfox.swf" />
-<param name="allowFullScreen" value="true" />
-<param name="flashVars" value="autoplay=true&controls=true&fullScreenEnabled=true&posterOnEnd=true&loop=false&poster=video/eh5v.files/html5video/Supershort_text_demo_2.jpg&src=Supershort_text_demo_2.m4v" />
- <embed src="video/eh5v.files/html5video/flashfox.swf" width="1190" height="720" style="position:relative;"  flashVars="autoplay=true&controls=true&fullScreenEnabled=true&posterOnEnd=true&loop=false&poster=video/eh5v.files/html5video/Supershort_text_demo_2.jpg&src=Supershort_text_demo_2.m4v"	allowFullScreen="true" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_en" />
-<img alt="Supershort text demo 2" src="video/eh5v.files/html5video/Supershort_text_demo_2.jpg" style="position:absolute;left:0;" width="100%" title="Video playback is not supported by your browser" />
-</object>
-</video><div class="eh5v_script"><p class="caption">basic text tool usage</p></div></div>
-<script src="video/eh5v.files/html5video/html5ext.js" type="text/javascript"></script>
--->
-		
-
-	
+__important__ : If the text within a text tool is longer than the tool height, a scrollbar will appear and part of the text is cutoff. Therefore (especially when copying from external editors) it is important to check that the tool has a large enough size (unless you specifically want a scrollbar).
 
 ### Style
 
@@ -494,10 +442,10 @@ The __PREVIEW__ field is for changing the image that represents the pdf in the e
 If no preview image is provided, a miniturised copy of the first page will be used.
 
 <div style="font-style:italic">Warning:  
-Do not use the hyperlink of the pdf file to provide a direct link to the pdf !
+__Do not use the hyperlink__ of the pdf file to provide a direct link to the pdf !
 https://media.researchcatalogue.net/rc/master/73723.pdf?t=2629205589&e=1510816850  
 
-This link is temporarly generated and will become invalid. The reason for this is that the RC needs to control access (based on the exposition share status), and this is only possible with a temporary link.
+This link will become invalid. The reason for this is that the RC needs to control access (based on the exposition share status), and this is only possible with a temporary link.
 </div>
  
 [> see style options](#style-options)
@@ -696,22 +644,34 @@ created each time you click submit.
 
 # Media management 
 
+Media files can be found, uploaded, previewed and deleted in the
+"Media"-tab on the right hand side. There are subtabs: Simeple Media,
+Works and "+", which allows the integration of external repositories,
+such as the Media Archive of the Arts of the ZHdK (Madek).
+
 ## Simple Media 
 
-The simple media tab can be found on the left side of the editor under __tools__. All your pictures, videos, audio and other media that have been added in tools onto your canvas will also automatically show up in simple media tab. You can click and drag files from the simple media tab onto your canvas.
+The simple media, which can be found within the "Media"-tab on right
+hand side of the editor. Images, videos, audio and other media that
+have been added in tools onto the canvas will automatically show up in
+simple media tab. You can click and drag files from the simple media
+tab onto your canvas in order to create tools.
 
-There are three buttons below the list of files, from left to right:
+The list of media files can be sorted by type, name, creation date and
+size and you can search for a file name by using the search field.
 
-![simple media tools](images/buttons-simple-media.png "image showing the buttons in simple media")
+There four buttons on top of the list of files, from left to right:
 
-- add a file
-- edit meta-data of the file
-- preview a file
-- delete a file from the rc (permanent !)
+![Simple media tab](images/media_manage.png "image showing the simple media tab")
+
+- Upload a file
+- Preview a file
+- Edit meta-data of the file
+- Permanently delete a file from the RC (use with care)
 
 ## Works
 
-Similar to simple media, works that have been added through your "My Profile Page" can also be dragged and dropped onto the canvas. Read more about adding works to your RC profile [here](#add-work).
+Like simple media, works that have been added through your "My Profile Page" can also be dragged and dropped onto the canvas. Read more about adding works to your RC profile [here](#add-work).
 
 
 

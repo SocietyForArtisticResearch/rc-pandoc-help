@@ -44,11 +44,16 @@ Finally, click "Add Footnote" to confirm and create the footnote, which will sub
 
 ### Editing a Footnote
 
-All footnotes are listed in the "Footnotes" tab on the left hand side.
+All footnotes are listed in the "Footnotes" tab on the right hand side.
 
-![List of footnotes](images/footnotes_list.png)
+![List of footnotes](images/footnotes_list_new.png)
 
-There are three icons displayed to the right of the title of each footnote. The first icon opens a window which allows editing the title, size, and styling of the footnote. The second icon (the wrench) opens up the footnote in the weave editor. Here one can edit the footnote just like any other weave. One can leave the footnote weave editor by clicking the link "back to main weave" displayed to the left of the main tab. (see image).
+There are three icons displayed on the top of the list. The first icon
+opens the footnote workspace editor where you can edit the content of
+the footnote, the second icon opens a window which allows editing the
+title, size, and styling of the footnote.  One can leave the footnote
+weave editor by clicking the link "back to main weave" displayed to the left
+of the main tab. (see image).
 
 __"simple text"__ footnotes are in fact automatically generated normal footnotes with your text inserted in a text tool. This has consequences if you want to adjust the size of a __"simple text"__ footnote as a whole, since you would also need to change the size of the tool within that footnote after resizing. To edit a "simple text" footnote internal tools, simply double click it in the footnote list.
 

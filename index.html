@@ -12,7 +12,7 @@
 <body>
 <div id="header">
 <h1 class="title">Research Catalogue Extended Guide</h1>
-<h3 class="date">November, 2017</h3>
+<h3 class="date">March, 2018</h3>
 </div>
 <div id="TOC">
 <ul>
@@ -24,13 +24,15 @@
 <li><a href="#edit-research">Edit Research</a></li>
 </ul></li>
 <li><a href="#views">Views</a><ul>
-<li><a href="#exposition-view-or-preview">Exposition View or PREVIEW</a></li>
+<li><a href="#preview">Preview</a></li>
 <li><a href="#workspace-view">Workspace View</a></li>
 </ul></li>
-<li><a href="#research-catalogue-workspace-tools">Research Catalogue Workspace &amp; Tools</a><ul>
-<li><a href="#general">General</a></li>
+<li><a href="#workspace-editor">Workspace editor</a><ul>
+<li><a href="#the-workspace-grid">The workspace grid</a></li>
+</ul></li>
+<li><a href="#workspace-tools">Workspace Tools</a><ul>
+<li><a href="#adding-a-tool">Adding a tool</a></li>
 <li><a href="#key-commands">Key commands</a></li>
-<li><a href="#pages">Pages</a></li>
 <li><a href="#text-tool">Text Tool</a></li>
 <li><a href="#html-tool">HTML-Tool</a></li>
 <li><a href="#picture-tool">Picture Tool</a></li>
@@ -49,12 +51,23 @@
 <li><a href="#simple-media">Simple Media</a></li>
 <li><a href="#works">Works</a></li>
 </ul></li>
-<li><a href="#commands">Commands</a></li>
+<li><a href="#content-manager">Content manager</a></li>
+<li><a href="#media-management-1">Media management</a><ul>
+<li><a href="#simple-media-1">Simple Media</a></li>
+<li><a href="#works-1">Works</a></li>
+<li><a href="#pages">Pages</a></li>
+</ul></li>
+<li><a href="#menus">Menus</a><ul>
+<li><a href="#edit-menu">Edit menu</a></li>
+<li><a href="#options-menu">Options menu</a></li>
+<li><a href="#help-menu">Help menu</a></li>
+<li><a href="#send-collaboration-message">Send Collaboration Message</a></li>
+</ul></li>
 <li><a href="#navigation">Navigation</a><ul>
 <li><a href="#navigation-bar">Navigation bar</a></li>
 <li><a href="#table-of-content">Table of Content</a></li>
 <li><a href="#hyperlinking">Hyperlinking</a></li>
-<li><a href="#overview-1">Overview</a></li>
+<li><a href="#overview">Overview</a></li>
 </ul></li>
 <li><a href="#publishing-and-sharing">Publishing and Sharing</a></li>
 <li><a href="#follow-and-search">Follow and Search</a></li>
@@ -258,21 +271,20 @@ A <strong>title</strong> and <strong>abstract</strong> are obligatory.</li>
 <li><p><strong>Relations</strong> create relationships with other objects on your profile, which will result in them being listed on the Research page. This page is shown when somebody clicks the title of the research on your profile.</p></li>
 </ul>
 <h1 id="views">Views</h1>
-<h2 id="exposition-view-or-preview">Exposition View or PREVIEW</h2>
-<p>The exposition view is the final result that the reader will see when he/she opens your exposition, for example by opening the exposition URL or when a user clicks &quot;OPEN EXPOSITION&quot; anywhere on the RC. All expositions have <a href="#navigation">a navigation bar</a> that shows if the user moves his/her mouse to the top. It contains a table of contents, abstract and other information.</p>
-<p>While you are editing your exposition in the workspace editor, the PREVIEW button (right top corner) shows what the page will look like to the reader. If you already have a preview tab open, the second time you click PREVIEW, it will simply refresh, instead of opening a new tab.</p>
+<h2 id="preview">Preview</h2>
+<p>The preview is the final result that the reader will see when he/she opens your exposition, for example by opening the exposition URL or when a user clicks &quot;OPEN EXPOSITION&quot; anywhere on the RC. All expositions have <a href="#navigation">a navigation bar</a> that shows if the user moves his/her mouse to the top. It contains a table of contents, abstract and other information.</p>
+<p>While you are editing your exposition in the workspace editor, the Preview button (👁, right top corner) shows what the page will look like to the reader. If you already have a preview tab open, the second time you click Preview, it will simply refresh, instead of opening a new tab.</p>
 <!-- THIS SHOULD BE IN VIDEO AND AUDIO TOOLS ?
 Note, that the video player, the audio player, the slideshow and object tool are only displayed fully in this PREVIEW view. 
 -->
-<p>While the EXPOSITION VIEW will always open the default entry page of your exposition, PREVIEW shows the page (or &quot;weave&quot;) that you currently are working on in your workspace. Thus, you can also PREVIEW pages that are not yet listed in the table of contents.</p>
+<p>Note: while for the reader the exposition will always open the <strong>entry page</strong> of your exposition, clicking the PREVIEW button in the editor shows the page that you currently are working on in your workspace. Thus, you can also PREVIEW pages that are not yet listed in the table of contents.</p>
 <h2 id="workspace-view">Workspace View</h2>
 <div class="figure">
-<img src="images/workspace-view.png" title="image showing workspace view" alt="workspace view" />
+<img src="images/workspace-view-2018.png" title="image showing workspace view" alt="workspace view" />
 <p class="caption">workspace view</p>
 </div>
-<p>The <strong>workspace editor</strong> is the editor of content on the RC. It can be opened by clicking <strong>☰ &gt; edit workspace</strong> on an exposition listed on your profile. Of course you can only edit expositions of which you are a (co)author, editor or contributor.</p>
-<h3 id="edit-exposition-settings">Edit exposition settings</h3>
-<p>When you are in the exposition editor, you can click the title to open a dialog to change the settings of the exposition. It is the exact same menu as you get using ☰ -&gt; edit details on your profile. See <a href="#edit-research">edit research</a></p>
+<p>The <strong>workspace editor</strong> is the editor of content on the RC. It can be opened by clicking <strong>☰ &gt; edit workspace</strong> on an exposition listed on your profile. If you are reading one of your own expositions, you can also open the editor by clicking <strong>EDIT</strong> in the navigation bar on top.</p>
+<p>Published epositions cannot be edited (by definition) and of course you need to be the author, co-author or editor of an exposition to be able to edit it.</p>
 <p>Within the workspace view, one can enable one of these two subviews:</p>
 <h3 id="note-view">Note view</h3>
 <p>The note-view is to be used in conjunction with the note-tool of the RC. Notes are meant to be used to communicate between author and reviewers or supervisors and authors. The note-view displays a list of all the notes that are within an exposition. One can filter this list based on the author, assignee and depending on its status (resolved, unresolved). You can also change these parameters in this view.</p>
@@ -281,13 +293,25 @@ Note, that the video player, the audio player, the slideshow and object tool are
 <p>You can close both views by clicking on &quot;close note view&quot; or &quot;close text view&quot; in the top-right.</p>
 <p>For more info on specific tools, see <a href="#research-catalogue-workspace-tools">workspace</a>.</p>
 <!--pandoc -s tools.md -o tools.html -c style.css-->
-<h1 id="research-catalogue-workspace-tools">Research Catalogue Workspace &amp; Tools</h1>
-<h2 id="general">General</h2>
-<p>The workspace tools are listed at the left side of the editor, under the Tools tab. To use a tool, drag it (click and hold the mouse button down) from the toolbar onto the canvas.</p>
+<h1 id="workspace-editor">Workspace editor</h1>
+<h2 id="the-workspace-grid">The workspace grid</h2>
+<p>The gridded area, called canvas, is where you create and edit your content. There are a number of <em>tools</em> for adding different types of content (text, video, images etc..). A tool is created by <em>dragging</em> the icon (keeping the mouse button pressed) from the toolbar to the desired location on your canvas.</p>
+<p>The alignment grid itself can be switched off or resized in the options menu.</p>
 <div class="figure">
-<img src="images/toolbar-demo.png" title="drag a toolbar to the canvas" alt="dragging a toolbar to the canvas" />
-<p class="caption">dragging a toolbar to the canvas</p>
+<img src="images/toolbar-demo-2.png" title="image showing drag a tool to the canvas" alt="a text tool is created by dragging it from the toolbar" />
+<p class="caption">a text tool is created by dragging it from the toolbar</p>
 </div>
+<p>The canvas area size is automatically adjusted: adding content will make it grow just enough for everything to fit.</p>
+<p>Some tools look slightly different when editing, than in the final result. For example: an audio tools' control buttons only show up in the <strong>Preview</strong>. Use the <strong>preview button</strong> (the eye symbol on the top right) to see what the final result will look like to the reader.</p>
+<h1 id="workspace-tools">Workspace Tools</h1>
+<h2 id="adding-a-tool">Adding a tool</h2>
+<p>Like mentioned before, a tool is created by dragging the icon onto the canvas.</p>
+<div class="figure">
+<img src="images/toolbar-demo-2.png" title="image showing drag a tool to the canvas" />
+
+</div>
+<p>Tools can be resized by clicking and dragging the green borders with the mouse.</p>
+<p>Tools can be rotated by clicking and dragging the yellow dot.</p>
 <h3 id="context-menu">Context menu</h3>
 <div class="small_image">
 <div class="figure">
@@ -295,7 +319,7 @@ Note, that the video player, the audio player, the slideshow and object tool are
 <p class="caption">context menu location</p>
 </div>
 </div>
-<p>The context menu of a tool is reached by clicking on the menu icon (see below), or right clicking (Apple: CTRL+click) inside a tool. The only exeption is the text tool, see text tool.</p>
+<p>The context menu of a tool is reached by clicking on the menu icon (see below), or right clicking (Apple: CTRL+click) inside a tool. The only exception is the text tool, see text tool.</p>
 <div class="figure">
 <img src="images/context-menu.png" title="context menu" alt="context menu" />
 <p class="caption">context menu</p>
@@ -312,8 +336,6 @@ Lock means that one cannot make any changes until unlocked again.</p></li>
 <li><p><strong>Delete</strong><br />
 Delete a tool</p></li>
 </ul>
-<p>Tools can be resized by clicking and dragging the green borders with the mouse.</p>
-<p>Tools can be rotated by clicking and dragging the yellow dot.</p>
 <h2 id="key-commands">Key commands</h2>
 <p>There are a few useful key commands in the editor. Selected tools have a green border.</p>
 <table>
@@ -351,63 +373,14 @@ Delete a tool</p></li>
 </tbody>
 </table>
 <h3 id="defaults">Defaults</h3>
-<p>Defaults for styling and options can be set for a tool, by double clicking it in the toolbar.</p>
-<h2 id="pages">Pages</h2>
-<h3 id="creating-a-page">Creating a page</h3>
-<p>An RC exposition can consist of one or more pages, pages can be created by clicking the <strong>&quot;+ add page&quot;</strong> button on the top side of the editor. Note that new pages are by default private, they have to be explicitely added to the <a href="#table-of-content" title="table of content">table of content</a> to be visible. The order of pages cannot be changed in the editor, but it can in the table of contents.</p>
-<h3 id="entry-page">Entry page</h3>
-<p>One can change the first page the reader sees by changing the entry page. This is done by clicking the title of the exposition, which will open the &quot;edit details&quot; dialog. Here you can set the <strong>&quot;entry page&quot;</strong> (at the bottom of the dialog).</p>
-<h3 id="page-settings">Page settings</h3>
-<p><img src="images/rc-page-settings.png" title="image showing the page settings" alt="the page settings dialog" />]</p>
-<p>In the page settings dialog, you can change some of the styling for the whole page. It is opened by clicking the small white page icon next to current tab/weave title.</p>
-<h4 id="page-settings---meta-title-description-and-iframe-field">Page settings - Meta : title, description and iframe field</h4>
-<ul>
-<li><p><strong>Page title</strong><br />
-Set a title for the page. This title can be overriden in the <a href="#table-of-content">table of content</a>, so the reader sees a different one. This can be useful if you need to keep track of different versions of pages.</p></li>
-<li><p><strong>Description</strong><br />
-The description is for personal reference and only visible to the author and collaborators on the exposition.</p></li>
-<li><p><strong>Iframe field</strong><br />
-Replace the entire page by an external website by means of a URL. There are a few requirements to the URL for this to work:</p>
-<ul>
-<li>For reasons of security, the website needs to be configured to use a <a href="https://en.wikipedia.org/wiki/HTTPS" title="https on wikipedia">TLS connection</a>. Links with TLS enabled can in most cases be identified by the <strong>https://</strong> instead of <strong>http://</strong> at the start.</li>
-<li>You need to provide the full URL (inlude the https:// at the start).</li>
-</ul>
-<p>Please note that if a correct iFrame url is provided, the entire weave within the exposition is replaced by that website, so any tools and page styling present in the workspace will no longer be visible to the reader.</p>
-<p>If you want to combine external content with tools you should use the <a href="#embed-tool">embed tool</a>.</p></li>
-</ul>
-<h4 id="page-settings---style">Page settings - Style</h4>
-<p>Here one can change:</p>
-<ul>
-<li><strong>margin</strong>: If set, it will make the exposition as if is seen through a smaller window.</li>
-<li><strong>padding</strong>: Padd extra space on the content itself (for example if you set top and left to 100, it will create extra space on the top and left). In other words, this makes the exposition canvas itself larger.</li>
-<li><strong>background</strong>: change the color or set an image as background.</li>
-<li><strong>links</strong>: change the default color for all hyperlinks within the page. One can set seperate colors for links the user visited.</li>
-<li><strong>footnote</strong>: The color of footnote/popover links same as links, but then for links of footnotes/popovers.</li>
-<li><strong>raw css</strong>: You can set user defined <a href="https://www.w3schools.com/css/" title="css tutorial">CSS</a> rules that are applied to the whole page.</li>
-</ul>
-<h3 id="deleting-a-page">Deleting a page</h3>
-<p>The page can be deleted by clicking the trashcan icon next to the page title. Deleted pages cannot be recovered. Of course, if you want to make a page invisible to the reader it may be prefered to just remove it from the <a href="#table-of-content" title="table of content">table of content</a>.</p>
+<p>Defaults for styling and options can be set for a tool, by clicking it in the toolbar.</p>
 <h2 id="text-tool">Text Tool</h2>
 <p>A video tutorial about the text tool is found <a href="https://www.researchcatalogue.net/view/273532/273533/0/937" title="link to video tutorials">here</a></p>
 <p>The text tool is designed for quickly adding text.</p>
 <p>It has two states: when it is in <em>active state</em> you can change the text, if you click outside of the tool, you can move the object and change the size of the outer box. Double click inside of the tool to start editing the text again. Content is saved as soon as you exit the text editing state.</p>
 <p>If you right click the text tool, you can find some extra edit options under <strong>edit</strong>. You can also (while hovering over a text tool with your mouse) click the (&quot;hamburger&quot;) menu icon and choose <strong>edit</strong>.</p>
 <p>In comparison to the HTML-tool, the text tool allows you to edit your text directly on the page. While the HTML-tool opens a new dialog window. If you need more styling options, use the HTML-tool. A text tool can be converted to an HTML-tool via the menu option <strong>convert to HTML tool</strong>.</p>
-<!-- insert link to video tutorials -->
-<!--
-<div class="easyhtml5video" style="position:relative;max-width:1190px;"><video controls="controls"  autoplay="autoplay" poster="video/eh5v.files/html5video/Supershort_text_demo_2.jpg" style="width:100%" title="Supershort text demo 2">
-<source src="video/eh5v.files/html5video/Supershort_text_demo_2.m4v" type="video/mp4" />
-<source src="video/eh5v.files/html5video/Supershort_text_demo_2.webm" type="video/webm" />
-<object type="application/x-shockwave-flash" data="video/eh5v.files/html5video/flashfox.swf" width="1190" height="720" style="position:relative;">
-<param name="movie" value="video/eh5v.files/html5video/flashfox.swf" />
-<param name="allowFullScreen" value="true" />
-<param name="flashVars" value="autoplay=true&controls=true&fullScreenEnabled=true&posterOnEnd=true&loop=false&poster=video/eh5v.files/html5video/Supershort_text_demo_2.jpg&src=Supershort_text_demo_2.m4v" />
- <embed src="video/eh5v.files/html5video/flashfox.swf" width="1190" height="720" style="position:relative;"  flashVars="autoplay=true&controls=true&fullScreenEnabled=true&posterOnEnd=true&loop=false&poster=video/eh5v.files/html5video/Supershort_text_demo_2.jpg&src=Supershort_text_demo_2.m4v"    allowFullScreen="true" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_en" />
-<img alt="Supershort text demo 2" src="video/eh5v.files/html5video/Supershort_text_demo_2.jpg" style="position:absolute;left:0;" width="100%" title="Video playback is not supported by your browser" />
-</object>
-</video><div class="eh5v_script"><p class="caption">basic text tool usage</p></div></div>
-<script src="video/eh5v.files/html5video/html5ext.js" type="text/javascript"></script>
--->
+<p><strong>important</strong> : If the text within a text tool is longer than the tool height, a scrollbar will appear and part of the text is cutoff. Therefore (especially when copying from external editors) it is important to check that the tool has a large enough size (unless you specifically want a scrollbar).</p>
 <h3 id="style">Style</h3>
 <p>See <a href="#style-options">style options</a>.</p>
 <h3 id="options">Options</h3>
@@ -531,8 +504,8 @@ Be sure to upload the PDF itself in the <strong>PDF</strong> field, not <strong>
 <p>The <strong>PREVIEW</strong> field is for changing the image that represents the pdf in the exposition for the reader. If no preview image is provided, a miniturised copy of the first page will be used.</p>
 <div style="font-style:italic">
 <p>Warning:<br />
-Do not use the hyperlink of the pdf file to provide a direct link to the pdf ! https://media.researchcatalogue.net/rc/master/73723.pdf?t=2629205589&amp;e=1510816850</p>
-<p>This link is temporarly generated and will become invalid. The reason for this is that the RC needs to control access (based on the exposition share status), and this is only possible with a temporary link.</p>
+<strong>Do not use the hyperlink</strong> of the pdf file to provide a direct link to the pdf ! https://media.researchcatalogue.net/rc/master/73723.pdf?t=2629205589&amp;e=1510816850</p>
+<p>This link will become invalid. The reason for this is that the RC needs to control access (based on the exposition share status), and this is only possible with a temporary link.</p>
 </div>
 <p><a href="#style-options">&gt; see style options</a></p>
 <h3 id="options-6">Options</h3>
@@ -616,40 +589,155 @@ total number of images. -->
 <h2 id="history-2">History</h2>
 <p>The <em>history tab</em> gives you the posibility to change the content <strong>within the tool</strong> to an older version. The versions of a text object are created each time you have clicked outside it (and the three animated dots show inside). With the html tool, a version is created each time you click submit.</p>
 <h1 id="media-management">Media management</h1>
+<p>Media files can be found, uploaded, previewed and deleted in the &quot;Media&quot;-tab on the right hand side. There are subtabs: Simeple Media, Works and &quot;+&quot;, which allows the integration of external repositories, such as the Media Archive of the Arts of the ZHdK (Madek).</p>
 <h2 id="simple-media">Simple Media</h2>
-<p>The simple media tab can be found on the left side of the editor under <strong>tools</strong>. All your pictures, videos, audio and other media that have been added in tools onto your canvas will also automatically show up in simple media tab. You can click and drag files from the simple media tab onto your canvas.</p>
-<p>There are three buttons below the list of files, from left to right:</p>
+<p>The simple media, which can be found within the &quot;Media&quot;-tab on right hand side of the editor. Images, videos, audio and other media that have been added in tools onto the canvas will automatically show up in simple media tab. You can click and drag files from the simple media tab onto your canvas in order to create tools.</p>
+<p>The list of media files can be sorted by type, name, creation date and size and you can search for a file name by using the search field.</p>
+<p>There four buttons on top of the list of files, from left to right:</p>
 <div class="figure">
-<img src="images/buttons-simple-media.png" title="image showing the buttons in simple media" alt="simple media tools" />
-<p class="caption">simple media tools</p>
+<img src="images/media_manage.png" title="image showing the simple media tab" alt="Simple media tab" />
+<p class="caption">Simple media tab</p>
 </div>
 <ul>
-<li>add a file</li>
-<li>edit meta-data of the file</li>
-<li>preview a file</li>
-<li>delete a file from the rc (permanent !)</li>
+<li>Upload a file</li>
+<li>Preview a file</li>
+<li>Edit meta-data of the file</li>
+<li>Permanently delete a file from the RC (use with care)</li>
 </ul>
 <h2 id="works">Works</h2>
-<p>Similar to simple media, works that have been added through your &quot;My Profile Page&quot; can also be dragged and dropped onto the canvas. Read more about adding works to your RC profile <a href="#add-work">here</a>.</p>
-<h1 id="commands">Commands</h1>
-<p>The commands tab displayed in the workspace editor contains extra functions and settings for use in the workspace editor.</p>
-<h3 id="overview">Overview</h3>
-<p>The overview displays a small window on the right hand side of the editor. It is useful for navigation on the weave while editing. It also shows objects that might otherwise be invisible. It will not be part of your exposition in the preview. In the final presentation of your exposition there is another navigation window in the menubar, which is similar to the overview.</p>
-<p>Under the overview map there is a list of all the tools (called layers) that are currently present in the presentation. When you click on one, the editor automatically scrolls to that tool. You can edit, lock or delete a tool with the buttons below the list.</p>
+<p>Like simple media, works that have been added through your &quot;My Profile Page&quot; can also be dragged and dropped onto the canvas. Read more about adding works to your RC profile <a href="#add-work">here</a>.</p>
+<h1 id="content-manager">Content manager</h1>
+<p>The content manager is located on the right size of the canvas.</p>
+<div class="figure">
+<img src="images/media_manage.png" title="media management" alt="media, pages and footnotes tabs" />
+<p class="caption">media, pages and footnotes tabs</p>
+</div>
 <ul>
-<li><em>tip</em>: A tool will not scroll into view if it has a negative position (outside of your canvas). You can still change the position by clicking the edit button at the bottom of the view. *</li>
+<li>exposition - all objects in the current weave</li>
+<li>simple media - media files used in this exposition</li>
+<li>works - media files listed on your profile as works</li>
+<li>pages - a list of all the different pages (pages)</li>
+<li>footnotes - a list of rc <a href="#footnotes-and-popovers">footnotes and popovers</a></li>
 </ul>
-<h3 id="snap-to-grid-grid-size-invisible-grid">Snap to Grid / Grid Size / Invisible Grid</h3>
-<p>Objects can be aligned to a grid. By default, the grid size is set to 5x5 pixels. You can change the size of the grid by clicking the pull-down-menu and choosing one of the options from the list. You can also remove the grid by selecting 'invisible' from the same list. With &quot;snap to grid&quot; you activate objects will be placed according to the grid.</p>
-<h3 id="set-default-position-show-current-position">Set Default Position/ Show Current Position</h3>
-<p>A rather unique feature of the RC is the absolute positioning of items on the weave. This makes it possible to position by pixels allowing for and open very free process of designing and navigating and linking to specific positions on the weave.</p>
-<p>By using <em>set default position</em> you can set the entry position of your page (which is 0;0 top/left by default) to any other position of the weave. Scroll to the position you want readers to first when opening your exposition and click &quot;set default position&quot;.</p>
-<p>You may want to link to a special position on the weave and you have to generate the URL for this. After browsing to the coordinates or to the item you can generate the URL by clicking &quot;show current position&quot;. You can copy the URL and use it for hyperlinking, anchoring or for publishing.</p>
-<h3 id="restore-deleted-tools">Restore Deleted Tools</h3>
-<p>Every tool or item on the weave can be deleted by using the right-click (or by using the menu-icon) and selecting the delete function.</p>
-<p>It is possible to restore a tool. Because the RC runs within a browser, you can't use the undo function of your browser or the shortcut on your keyboard. Every item has its own history which is listed in the &quot;history&quot;-tab in the edit-tool-dialog. Here you have the option restore previous states of the object. If the object has been deleted and is no longer directly accessible and can be restored deleted using the &quot;restore deleted tools&quot; command. After clicking it, a list of deleted tool appears.</p>
-<h3 id="send-collaboration-message">Send Collaboration Message</h3>
-<p>When you are collaborating on an exposition, you can use the command &quot;send collaboration message&quot; to commuicate with the co-authors or contributors. Open the command by clicking on the button and you will find a message-window. In the upper part you can choose the partners you want to contact. Select them by clicking on the &quot;+&quot;-icon behind their names. Below you find a html-based message window. Here you can enter the message.</p>
+<h1 id="media-management-1">Media management</h1>
+<p>Media files can be found, uploaded, previewed and deleted in the &quot;Media&quot;-tab on the right hand side. There are subtabs: <strong>Simple Media</strong>, <strong>Works</strong> and <strong>&quot;+&quot;</strong>, which allows the integration of external repositories, such as the Media Archive of the Arts of the ZHdK (Madek).</p>
+<h2 id="simple-media-1">Simple Media</h2>
+<p>The simple media, which can be found within the &quot;Media&quot;-tab on right hand side of the editor. Images, videos, audio and other media that have been added in tools onto the canvas will automatically show up in simple media tab. You can click and drag files from the simple media tab onto your canvas in order to create tools.</p>
+<p>The list of media files can be sorted by type, name, creation date and size and you can search for a file name by using the search field.</p>
+<p>Files that are listed in gray are in the process of being transcoded.</p>
+<p>There four buttons on top of the list of files, from left to right:</p>
+<div class="figure">
+<img src="images/media_manage.png" title="image showing the simple media tab" alt="Simple media tab" />
+<p class="caption">Simple media tab</p>
+</div>
+<ul>
+<li>Upload a file</li>
+<li>Preview a file</li>
+<li>Edit meta-data of the file</li>
+<li>Permanently delete a file from the RC (use with care)</li>
+</ul>
+<h2 id="works-1">Works</h2>
+<p>Like simple media, works that have been added through your &quot;My Profile Page&quot; can also be dragged and dropped onto the canvas. Read more about adding works to your RC profile <a href="#add-work">here</a>.</p>
+<h2 id="pages">Pages</h2>
+<p>Pages are managed in the <strong>pages</strong> tab of the content manager. An RC exposition can consist of one or more pages. A new exposition starts with a single page, called &quot;default page&quot;.</p>
+<div class="figure">
+<img src="images/pages-tab-2018.png" title="image showing the page tab" alt="page tab" />
+<p class="caption">page tab</p>
+</div>
+<h3 id="creating-a-page">Creating a page</h3>
+<p>New pages are by default <em>private</em>, they have to be explicitely added to the <a href="#table-of-content" title="table of content">table of content</a> to be visible (or by making a <a href="#hyperlinking">hyperlink</a> to the page in your own content). The order of pages cannot be changed in the pages list, but it can in the table of contents. The page will automatically change size based on the content.</p>
+<h3 id="entry-page">Entry page</h3>
+<p>One can change the first page visible to the reader by changing the <strong>entry page</strong>. Go to the menu <strong>options</strong> and choose <strong>edit meta data</strong>. Scroll down to <strong>&quot;entry page&quot;</strong> (at the bottom of the dialog) and select the page you want as your start page for the reader. <!-- This should be in table of contents, it is completely out of place in meta-data --></p>
+<h3 id="page-settings">Page settings</h3>
+<p><img src="images/pages-tab-2018.png" title="image showing the page settings" alt="the page settings dialog" />]</p>
+<p>In the page settings dialog, you can change the meta data of the page and control the appearance. It is opened by clicking the pencil button in the bar.</p>
+<h4 id="page-settings---meta-title-description-and-iframe-field">Page settings - Meta : title, description and iframe field</h4>
+<ul>
+<li><p><strong>Page title</strong><br />
+Set a title for the page. This title can be overriden in the <a href="#table-of-content">table of content</a>, so the reader sees a different one. This can be useful if you need to keep track of different versions of pages.</p></li>
+<li><p><strong>Description</strong><br />
+The description is for personal reference and only visible to the author and collaborators on the exposition.</p></li>
+<li><p><strong>Iframe field</strong><br />
+Replace the entire page by an external website by means of a URL. There are a few requirements to the URL for this to work:</p>
+<ul>
+<li>For reasons of security, the website needs to be configured to use a <a href="https://en.wikipedia.org/wiki/HTTPS" title="https on wikipedia">TLS connection</a>. Links with TLS enabled can in most cases be identified by the <strong>https://</strong> instead of <strong>http://</strong> at the start.</li>
+<li>You need to provide the full URL (inlude the https:// at the start).</li>
+</ul>
+<p>Please note that if a correct iFrame url is provided, the entire weave within the exposition is replaced by that website, so any tools and page styling present in the workspace will no longer be visible to the reader.</p>
+<p>If you want to combine external content with tools you should use the <a href="#embed-tool">embed tool</a>.</p></li>
+</ul>
+<h4 id="page-settings---style">Page settings - Style</h4>
+<p>Here one can change:</p>
+<ul>
+<li><strong>margin</strong>: If set, it will make the exposition as if is seen through a smaller window.</li>
+<li><strong>padding</strong>: Padd extra space on the content itself (for example if you set top and left to 100, it will create extra space on the top and left). In other words, this makes the exposition canvas itself larger.</li>
+<li><strong>background</strong>: change the color or set an image as background.</li>
+<li><strong>links</strong>: change the default color for all hyperlinks within the page. One can set seperate colors for links the user visited.</li>
+<li><strong>footnote</strong>: The color of footnote/popover links same as links, but then for links of footnotes/popovers.</li>
+<li><strong>raw css</strong>: You can set user defined <a href="https://www.w3schools.com/css/" title="css tutorial">CSS</a> rules that are applied to the whole page.</li>
+</ul>
+<h3 id="deleting-a-page">Deleting a page</h3>
+<p>The page can be deleted by clicking the trashcan icon next to the page title. Deleted pages cannot be recovered. Of course, if you want to make a page invisible to the reader it may be prefered to just remove it from the <a href="#table-of-content" title="table of content">table of content</a>.</p>
+<h1 id="menus">Menus</h1>
+<h2 id="edit-menu">Edit menu</h2>
+<p><img src="images/edit-menu-2018.png" class="half-image" alt="image showing the edit menu"></p>
+<p><strong>Trivial copy paste functions:</strong></p>
+<ul>
+<li>cut - ctrl + K</li>
+<li>copy - ctrl + C</li>
+<li>paste - ctrl + V</li>
+<li>duplicate - ctrl + D</li>
+<li>delete - delete (Apple: fn + backspace) (ctrl = cmd on Mac computers)</li>
+</ul>
+<p><strong>Order functions:</strong></p>
+<ul>
+<li>bring to front</li>
+<li>bring to back</li>
+</ul>
+<p>These options change the order of objects if they overlap. Order can be important if you have tools with controls: for example, an audio player that is behind a text tool would need to be in front to allow the user to click the play button on it.</p>
+<p><strong>Locking:</strong></p>
+<ul>
+<li>lock</li>
+<li>unlock</li>
+</ul>
+<p>Locking an object means it cannot be changed or moved in any way (until it is unlocked). This feature can also be used if only part of the exposition is to be moved (by locking the objects you do not want to move).</p>
+<h2 id="options-menu">Options menu</h2>
+<p><img src="images/options-menu-2018.png" class="half-image" alt="image showing options menu"></p>
+<h3 id="edit-metadata">Edit metadata</h3>
+<p>Here you can edit the Title, Abstract and Entry Page of the exposition.</p>
+<h3 id="edit-table-of-content">Edit table of content</h3>
+<p>Here you can set the contents of the &quot;contents menu&quot; that the reader uses to navigate between pages and position in your exposition.</p>
+<p>See <a href="#table-of-content">table of content</a>.</p>
+<h3 id="grid-options">Grid options</h3>
+<ul>
+<li>Snap to grid</li>
+</ul>
+<p>Objects will only move in grid-size steps</p>
+<ul>
+<li>Show Grid</li>
+</ul>
+<p>Show/hide the grid</p>
+<ul>
+<li>Grid size</li>
+</ul>
+<p>Change the size of the grid</p>
+<h3 id="set-default-position">Set default position</h3>
+<p>Change the initial position that the reader starts at in the weave, to the current location of the editor view.</p>
+<h3 id="show-current-position">Show current position</h3>
+<p>This provides the X,Y offset of the editor and a position link. X,Y can be used in the Table of content. The position link in Hyperlinking, or simply to share a specific position through a position link.</p>
+<h3 id="restore-deleted-tools">Restore deleted tools</h3>
+<p>Restore recently deleted tools.</p>
+<h3 id="restore-deleted-footnotes">Restore deleted footnotes</h3>
+<p>Restore recently deleted tool.</p>
+<h2 id="help-menu">Help menu</h2>
+<p>Get help!</p>
+<ul>
+<li>this guide</li>
+<li>the forum</li>
+<li>the video tutorials</li>
+</ul>
+<h2 id="send-collaboration-message">Send Collaboration Message</h2>
+<p>When you are collaborating on an exposition, you can use the command &quot;send collaboration message&quot; to communicate with your collaborators.</p>
 <!-- TODO: Insert links to other parts of the documentation -->
 <h1 id="navigation">Navigation</h1>
 <h2 id="navigation-bar">Navigation bar</h2>
@@ -684,8 +772,12 @@ total number of images. -->
 <img src="images/table-of-content-example.png" alt="an example of a contents list, made through the table of content" />
 <p class="caption">an example of a contents list, made through the table of content</p>
 </div>
+<<<<<<< HEAD
 <p>The table of content is designed to facilitate navigation through an exposition for the reader by means of the <strong>contents</strong> menu (top left corner).</p>
 <p>In order to edit the table of content, click on the <strong>title of your exposition</strong> at the top of the workspace editor. This opens an <strong>Edit Research</strong> dialog, then click the <strong>&quot;table of content&quot;</strong> tab to open the list of entries.</p>
+=======
+<p>The table of content is designed to facilitate the navigation through an exposition. In order to edit the table of content and add entries, open the &quot;Options&quot; menu item and click on &quot;edit table of content&quot; (one can also open this window by going to the exposition on the profile page and clicking &quot;edit details&quot;). This opens a dialogue window titled &quot;Edit Research.&quot; The second tab (&quot;table of content&quot;) of this window contains a series of entries.</p>
+>>>>>>> redesign
 <div class="figure">
 <img src="images/table-of-content-dialog.png" alt="Table of content dialog" />
 <p class="caption">Table of content dialog</p>
@@ -732,7 +824,7 @@ you can use this to create an entry that has an offset, which immediately opens 
 <li><strong>Title</strong> : change the title of the link</li>
 <li><strong>Class</strong> : set the class of the link (this is rarely used)</li>
 </ul>
-<h2 id="overview-1">Overview</h2>
+<h2 id="overview">Overview</h2>
 <p>Within the &quot;Commands&quot; tab on the right-hand side of the editor there is a checkbox labeled &quot;Overview.&quot; Clicking the checkbox will open and close a tab on the right-hand side of the editor. It contains both a map and a list of all objects in the exposition.</p>
 <p>The overview map outlines all tools on the page, their size and position. By moving the red rectangle, one can jump to a specific position on the page.</p>
 <p>Below the overview map, there is a list of all objects. If you click one of these tools, you go directly to that tools location. This can also be very useful when trying to find tools that have somehow become hidden, for example if another tool has been placed on top.</p>
@@ -819,16 +911,20 @@ The share option can be found under the object menu (<img class="tiny_icon" src=
 <p class="caption">Preview of a footnote</p>
 </div>
 <h3 id="editing-a-footnote">Editing a Footnote</h3>
-<p>All footnotes are listed in the &quot;Footnotes&quot; tab on the left hand side.</p>
+<p>All footnotes are listed in the &quot;Footnotes&quot; tab on the right hand side.</p>
 <div class="figure">
-<img src="images/footnotes_list.png" alt="List of footnotes" />
+<img src="images/footnotes_list_new.png" alt="List of footnotes" />
 <p class="caption">List of footnotes</p>
 </div>
+<<<<<<< HEAD
 <p>There are three icons displayed to the right of the title of each footnote. The first icon opens a window which allows editing the title, size, and styling of the footnote. The second icon (the wrench) opens up the footnote in the weave editor. Here one can edit the footnote just like any other weave. One can leave the footnote weave editor by clicking the link &quot;back to main weave&quot; displayed to the left of the main tab. (see image).</p>
 <p><strong>&quot;simple text&quot;</strong> footnotes are in fact automatically generated normal footnotes with your text inserted in a text tool. This has consequences if you want to adjust the size of a <strong>&quot;simple text&quot;</strong> footnote as a whole, since you would also need to change the size of the tool within that footnote after resizing. To edit a &quot;simple text&quot; footnote internal tools, simply double click it in the footnote list.</p>
 <p>When you are done editing: you can return to your main weave through the link in the top of the editor.</p>
+=======
+<p>There are three icons displayed on the top of the list. The first icon opens the footnote workspace editor where you can edit the content of the footnote, the second icon opens a window which allows editing the title, size, and styling of the footnote. One can leave the footnote weave editor by clicking the link &quot;back to main weave&quot; displayed to the left of the main tab. (see image).</p>
+>>>>>>> redesign
 <div class="figure">
-<img src="images/footnote_back.png" alt="Back to main weave link" />
+<img src="images/footnotes_back.png" alt="Back to main weave link" />
 <p class="caption">Back to main weave link</p>
 </div>
 <h3 id="changing-the-position-or-display-settings-of-a-footnote">Changing the position or display settings of a footnote</h3>
