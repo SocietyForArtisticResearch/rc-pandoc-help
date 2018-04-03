@@ -1,84 +1,24 @@
 <!--pandoc -s tools.md -o tools.html -c style.css-->
 
-# Research Catalogue Workspace editor
+# Workspace editor
 
-## General
+## The workspace grid
 
-The workspace [tools](#workspace-tools]) are listed at the top side of the editor. To use a tool, drag it (click and hold the mouse button down) from the toolbar onto the canvas. If you hoover over any of the tool icons, a description will appear. At the right hand side, you will find tabs of content:
+The gridded area, called canvas, is where you create and edit your content. There are a number of *tools* for adding different types of content (text, video, images etc..). A tool is created by *dragging* the icon (keeping the mouse button pressed) from the toolbar to the desired location on your canvas.
 
-## Content manager
+The alignment grid itself can be switched off or resized in the options menu.
 
-![media, pages and footnotes tabs](images/media_manage.png "media management")
+![a text tool is created by dragging it from the toolbar](images/toolbar-demo-2.png "image showing drag a tool to the canvas")
 
-* exposition - all objects in the current weave
-* simple media - media files used in this exposition 
-* works - media files listed on your profile as works
-* pages - a list of all the different pages (pages)
-* footnotes - a list of rc [footnotes and popovers](#footnotes-and-popovers)
+The canvas area size is automatically adjusted: adding content will make it grow just enough for everything to fit.
 
-## Pages
-
-Pages are managed in the __pages__ tab of the content manager. An RC exposition can consist of one or more pages. A new exposition starts with a single page, called "default page".
-
-![page tab](images/pages-tab-2018.png "image showing the page tab")
-
-### Creating a page
-
-New pages are by default *private*, they have to be explicitely added to the [table of content](#table-of-content "table of content") to be visible (or by making a [hyperlink](#hyperlinking) to the page in your own content). The order of pages cannot be changed in the pages list, but it can in the table of contents. The page will automatically change size based on the content.
-
-### Entry page 
-
-One can change the first page visible to the reader by changing the __entry page__. Go to the menu __options__ and choose __edit meta data__. Scroll down to __"entry page"__ (at the bottom of the dialog) and select the page you want as your start page for the reader. 
-<!-- This should be in table of contents, it is completely out of place in meta-data -->
-
-### Page settings
-
-![the page settings dialog](images/pages-tab-2018.png "image showing the page settings")]
-
-In the page settings dialog, you can change the meta data of the page and control the appearance.
-It is opened by clicking the pencil button in the bar.
-
-#### Page settings - Meta : title, description and iframe field
-
-* __Page title__\
-Set a title for the page. This title can be overriden in the [table of content](#table-of-content), so the reader sees a different one. This can be useful if you need to keep track of different versions of pages.
-
-* __Description__\
-The description is for personal reference and only visible to the author and collaborators on the exposition.
-
-* __Iframe field__\
-Replace the entire page by an external website by means of a URL.
-There are a few requirements to the URL for this to work:
-
-	* For reasons of security, the website needs to be configured to use a [TLS connection](https://en.wikipedia.org/wiki/HTTPS "https on wikipedia"). Links with TLS enabled can in most cases be identified by the __https://__ instead of __http://__ at the start.
-	* You need to provide the full URL (inlude the https:// at the start).
-
-	Please note that if a correct iFrame url is provided, the entire weave within the exposition is replaced by that website, so any tools and page styling present in the workspace will no longer be visible to the reader.
-
-	If you want to combine external content with tools you should use the [embed tool](#embed-tool).
-
-#### Page settings - Style
-
-Here one can change:
-
-* __margin__: If set, it will make the exposition as if is seen through a smaller window.
-* __padding__: Padd extra space on the content itself (for example if you set top and left to 100, it will create extra space on the top and left). In other words, this makes the exposition canvas itself larger.
-* __background__: change the color or set an image as background.
-* __links__: change the default color for all hyperlinks within the page. One can set seperate colors for links the user visited.
-* __footnote__: The color of footnote/popover links same as links, but then for links of footnotes/popovers.
-* __raw css__: You can set user defined [CSS](https://www.w3schools.com/css/ "css tutorial") rules that are applied to the whole page.
-
-### Deleting a page
-
-The page can be deleted by clicking the trashcan icon next to the page title. Deleted pages cannot be recovered. Of course, if you want to make a page invisible to the reader it may be prefered to just remove it from the [table of content](#table-of-content "table of content").
+Some tools look slightly different when editing, than in the final result. For example: an audio tools' control buttons only show up in the __Preview__. Use the __preview button__ (the eye symbol on the top right) to see what the final result will look like to the reader.
 
 # Workspace Tools
 
-## General
+## Adding a tool
 
-The workspace tools are used to add verious types of content to your pages. They are located as icons at the top of the workspace area. For each type of media (pdf, sound, video, text etc..) there is a different tool.
-
-A tool is added to the exposition by dragging it from the toolbar onto the workspace (the gridded area).
+Like mentioned before, a tool is created by dragging the icon onto the canvas.
 
 ![](images/toolbar-demo-2.png "image showing drag a tool to the canvas")
 
@@ -152,6 +92,8 @@ text directly on the page. While the HTML-tool opens a new dialog
 window. If you need more styling options, use the HTML-tool. A text
 tool can be converted to an HTML-tool via the menu option __convert to
 HTML tool__.
+
+__important__ : If the text within a text tool is longer than the tool height, a scrollbar will appear and part of the text is cutoff. Therefore (especially when copying from external editors) it is important to check that the tool has a large enough size (unless you specifically want a scrollbar).
 
 ### Style
 
@@ -500,10 +442,10 @@ The __PREVIEW__ field is for changing the image that represents the pdf in the e
 If no preview image is provided, a miniturised copy of the first page will be used.
 
 <div style="font-style:italic">Warning:  
-Do not use the hyperlink of the pdf file to provide a direct link to the pdf !
+__Do not use the hyperlink__ of the pdf file to provide a direct link to the pdf !
 https://media.researchcatalogue.net/rc/master/73723.pdf?t=2629205589&e=1510816850  
 
-This link is temporarly generated and will become invalid. The reason for this is that the RC needs to control access (based on the exposition share status), and this is only possible with a temporary link.
+This link will become invalid. The reason for this is that the RC needs to control access (based on the exposition share status), and this is only possible with a temporary link.
 </div>
  
 [> see style options](#style-options)

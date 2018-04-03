@@ -24,16 +24,14 @@
 <li><a href="#edit-research">Edit Research</a></li>
 </ul></li>
 <li><a href="#views">Views</a><ul>
-<li><a href="#exposition-view-or-preview">Exposition View or PREVIEW</a></li>
+<li><a href="#preview">Preview</a></li>
 <li><a href="#workspace-view">Workspace View</a></li>
 </ul></li>
-<li><a href="#research-catalogue-workspace-editor">Research Catalogue Workspace editor</a><ul>
-<li><a href="#general">General</a></li>
-<li><a href="#content-manager">Content manager</a></li>
-<li><a href="#pages">Pages</a></li>
+<li><a href="#workspace-editor">Workspace editor</a><ul>
+<li><a href="#the-workspace-grid">The workspace grid</a></li>
 </ul></li>
 <li><a href="#workspace-tools">Workspace Tools</a><ul>
-<li><a href="#general-1">General</a></li>
+<li><a href="#adding-a-tool">Adding a tool</a></li>
 <li><a href="#key-commands">Key commands</a></li>
 <li><a href="#text-tool">Text Tool</a></li>
 <li><a href="#html-tool">HTML-Tool</a></li>
@@ -53,9 +51,11 @@
 <li><a href="#simple-media">Simple Media</a></li>
 <li><a href="#works">Works</a></li>
 </ul></li>
+<li><a href="#content-manager">Content manager</a></li>
 <li><a href="#media-management-1">Media management</a><ul>
 <li><a href="#simple-media-1">Simple Media</a></li>
 <li><a href="#works-1">Works</a></li>
+<li><a href="#pages">Pages</a></li>
 </ul></li>
 <li><a href="#menus">Menus</a><ul>
 <li><a href="#edit-menu">Edit menu</a></li>
@@ -271,19 +271,20 @@ A <strong>title</strong> and <strong>abstract</strong> are obligatory.</li>
 <li><p><strong>Relations</strong> create relationships with other objects on your profile, which will result in them being listed on the Research page. This page is shown when somebody clicks the title of the research on your profile.</p></li>
 </ul>
 <h1 id="views">Views</h1>
-<h2 id="exposition-view-or-preview">Exposition View or PREVIEW</h2>
-<p>The exposition view is the final result that the reader will see when he/she opens your exposition, for example by opening the exposition URL or when a user clicks &quot;OPEN EXPOSITION&quot; anywhere on the RC. All expositions have <a href="#navigation">a navigation bar</a> that shows if the user moves his/her mouse to the top. It contains a table of contents, abstract and other information.</p>
-<p>While you are editing your exposition in the workspace editor, the PREVIEW button (right top corner) shows what the page will look like to the reader. If you already have a preview tab open, the second time you click PREVIEW, it will simply refresh, instead of opening a new tab.</p>
+<h2 id="preview">Preview</h2>
+<p>The preview is the final result that the reader will see when he/she opens your exposition, for example by opening the exposition URL or when a user clicks &quot;OPEN EXPOSITION&quot; anywhere on the RC. All expositions have <a href="#navigation">a navigation bar</a> that shows if the user moves his/her mouse to the top. It contains a table of contents, abstract and other information.</p>
+<p>While you are editing your exposition in the workspace editor, the Preview button (👁, right top corner) shows what the page will look like to the reader. If you already have a preview tab open, the second time you click Preview, it will simply refresh, instead of opening a new tab.</p>
 <!-- THIS SHOULD BE IN VIDEO AND AUDIO TOOLS ?
 Note, that the video player, the audio player, the slideshow and object tool are only displayed fully in this PREVIEW view. 
 -->
-<p>While the EXPOSITION VIEW will always open the default entry page of your exposition, PREVIEW shows the page (or &quot;weave&quot;) that you currently are working on in your workspace. Thus, you can also PREVIEW pages that are not yet listed in the table of contents.</p>
+<p>Note: while for the reader the exposition will always open the <strong>entry page</strong> of your exposition, clicking the PREVIEW button in the editor shows the page that you currently are working on in your workspace. Thus, you can also PREVIEW pages that are not yet listed in the table of contents.</p>
 <h2 id="workspace-view">Workspace View</h2>
 <div class="figure">
 <img src="images/workspace-view-2018.png" title="image showing workspace view" alt="workspace view" />
 <p class="caption">workspace view</p>
 </div>
-<p>The <strong>workspace editor</strong> is the editor of content on the RC. It can be opened by clicking <strong>☰ &gt; edit workspace</strong> on an exposition listed on your profile. Of course you can only edit expositions of which you are a (co)author, editor or contributor.</p>
+<p>The <strong>workspace editor</strong> is the editor of content on the RC. It can be opened by clicking <strong>☰ &gt; edit workspace</strong> on an exposition listed on your profile. If you are reading one of your own expositions, you can also open the editor by clicking <strong>EDIT</strong> in the navigation bar on top.</p>
+<p>Published epositions cannot be edited (by definition) and of course you need to be the author, co-author or editor of an exposition to be able to edit it.</p>
 <p>Within the workspace view, one can enable one of these two subviews:</p>
 <h3 id="note-view">Note view</h3>
 <p>The note-view is to be used in conjunction with the note-tool of the RC. Notes are meant to be used to communicate between author and reviewers or supervisors and authors. The note-view displays a list of all the notes that are within an exposition. One can filter this list based on the author, assignee and depending on its status (resolved, unresolved). You can also change these parameters in this view.</p>
@@ -292,65 +293,19 @@ Note, that the video player, the audio player, the slideshow and object tool are
 <p>You can close both views by clicking on &quot;close note view&quot; or &quot;close text view&quot; in the top-right.</p>
 <p>For more info on specific tools, see <a href="#research-catalogue-workspace-tools">workspace</a>.</p>
 <!--pandoc -s tools.md -o tools.html -c style.css-->
-<h1 id="research-catalogue-workspace-editor">Research Catalogue Workspace editor</h1>
-<h2 id="general">General</h2>
-<p>The workspace <a href="#workspace-tools%5D">tools</a> are listed at the top side of the editor. To use a tool, drag it (click and hold the mouse button down) from the toolbar onto the canvas. If you hoover over any of the tool icons, a description will appear. At the right hand side, you will find tabs of content:</p>
-<h2 id="content-manager">Content manager</h2>
+<h1 id="workspace-editor">Workspace editor</h1>
+<h2 id="the-workspace-grid">The workspace grid</h2>
+<p>The gridded area, called canvas, is where you create and edit your content. There are a number of <em>tools</em> for adding different types of content (text, video, images etc..). A tool is created by <em>dragging</em> the icon (keeping the mouse button pressed) from the toolbar to the desired location on your canvas.</p>
+<p>The alignment grid itself can be switched off or resized in the options menu.</p>
 <div class="figure">
-<img src="images/media_manage.png" title="media management" alt="media, pages and footnotes tabs" />
-<p class="caption">media, pages and footnotes tabs</p>
+<img src="images/toolbar-demo-2.png" title="image showing drag a tool to the canvas" alt="a text tool is created by dragging it from the toolbar" />
+<p class="caption">a text tool is created by dragging it from the toolbar</p>
 </div>
-<ul>
-<li>exposition - all objects in the current weave</li>
-<li>simple media - media files used in this exposition</li>
-<li>works - media files listed on your profile as works</li>
-<li>pages - a list of all the different pages (pages)</li>
-<li>footnotes - a list of rc <a href="#footnotes-and-popovers">footnotes and popovers</a></li>
-</ul>
-<h2 id="pages">Pages</h2>
-<p>Pages are managed in the <strong>pages</strong> tab of the content manager. An RC exposition can consist of one or more pages. A new exposition starts with a single page, called &quot;default page&quot;.</p>
-<div class="figure">
-<img src="images/pages-tab-2018.png" title="image showing the page tab" alt="page tab" />
-<p class="caption">page tab</p>
-</div>
-<h3 id="creating-a-page">Creating a page</h3>
-<p>New pages are by default <em>private</em>, they have to be explicitely added to the <a href="#table-of-content" title="table of content">table of content</a> to be visible (or by making a <a href="#hyperlinking">hyperlink</a> to the page in your own content). The order of pages cannot be changed in the pages list, but it can in the table of contents. The page will automatically change size based on the content.</p>
-<h3 id="entry-page">Entry page</h3>
-<p>One can change the first page visible to the reader by changing the <strong>entry page</strong>. Go to the menu <strong>options</strong> and choose <strong>edit meta data</strong>. Scroll down to <strong>&quot;entry page&quot;</strong> (at the bottom of the dialog) and select the page you want as your start page for the reader. <!-- This should be in table of contents, it is completely out of place in meta-data --></p>
-<h3 id="page-settings">Page settings</h3>
-<p><img src="images/pages-tab-2018.png" title="image showing the page settings" alt="the page settings dialog" />]</p>
-<p>In the page settings dialog, you can change the meta data of the page and control the appearance. It is opened by clicking the pencil button in the bar.</p>
-<h4 id="page-settings---meta-title-description-and-iframe-field">Page settings - Meta : title, description and iframe field</h4>
-<ul>
-<li><p><strong>Page title</strong><br />
-Set a title for the page. This title can be overriden in the <a href="#table-of-content">table of content</a>, so the reader sees a different one. This can be useful if you need to keep track of different versions of pages.</p></li>
-<li><p><strong>Description</strong><br />
-The description is for personal reference and only visible to the author and collaborators on the exposition.</p></li>
-<li><p><strong>Iframe field</strong><br />
-Replace the entire page by an external website by means of a URL. There are a few requirements to the URL for this to work:</p>
-<ul>
-<li>For reasons of security, the website needs to be configured to use a <a href="https://en.wikipedia.org/wiki/HTTPS" title="https on wikipedia">TLS connection</a>. Links with TLS enabled can in most cases be identified by the <strong>https://</strong> instead of <strong>http://</strong> at the start.</li>
-<li>You need to provide the full URL (inlude the https:// at the start).</li>
-</ul>
-<p>Please note that if a correct iFrame url is provided, the entire weave within the exposition is replaced by that website, so any tools and page styling present in the workspace will no longer be visible to the reader.</p>
-<p>If you want to combine external content with tools you should use the <a href="#embed-tool">embed tool</a>.</p></li>
-</ul>
-<h4 id="page-settings---style">Page settings - Style</h4>
-<p>Here one can change:</p>
-<ul>
-<li><strong>margin</strong>: If set, it will make the exposition as if is seen through a smaller window.</li>
-<li><strong>padding</strong>: Padd extra space on the content itself (for example if you set top and left to 100, it will create extra space on the top and left). In other words, this makes the exposition canvas itself larger.</li>
-<li><strong>background</strong>: change the color or set an image as background.</li>
-<li><strong>links</strong>: change the default color for all hyperlinks within the page. One can set seperate colors for links the user visited.</li>
-<li><strong>footnote</strong>: The color of footnote/popover links same as links, but then for links of footnotes/popovers.</li>
-<li><strong>raw css</strong>: You can set user defined <a href="https://www.w3schools.com/css/" title="css tutorial">CSS</a> rules that are applied to the whole page.</li>
-</ul>
-<h3 id="deleting-a-page">Deleting a page</h3>
-<p>The page can be deleted by clicking the trashcan icon next to the page title. Deleted pages cannot be recovered. Of course, if you want to make a page invisible to the reader it may be prefered to just remove it from the <a href="#table-of-content" title="table of content">table of content</a>.</p>
+<p>The canvas area size is automatically adjusted: adding content will make it grow just enough for everything to fit.</p>
+<p>Some tools look slightly different when editing, than in the final result. For example: an audio tools' control buttons only show up in the <strong>Preview</strong>. Use the <strong>preview button</strong> (the eye symbol on the top right) to see what the final result will look like to the reader.</p>
 <h1 id="workspace-tools">Workspace Tools</h1>
-<h2 id="general-1">General</h2>
-<p>The workspace tools are used to add verious types of content to your pages. They are located as icons at the top of the workspace area. For each type of media (pdf, sound, video, text etc..) there is a different tool.</p>
-<p>A tool is added to the exposition by dragging it from the toolbar onto the workspace (the gridded area).</p>
+<h2 id="adding-a-tool">Adding a tool</h2>
+<p>Like mentioned before, a tool is created by dragging the icon onto the canvas.</p>
 <div class="figure">
 <img src="images/toolbar-demo-2.png" title="image showing drag a tool to the canvas" />
 
@@ -425,6 +380,7 @@ Delete a tool</p></li>
 <p>It has two states: when it is in <em>active state</em> you can change the text, if you click outside of the tool, you can move the object and change the size of the outer box. Double click inside of the tool to start editing the text again. Content is saved as soon as you exit the text editing state.</p>
 <p>If you right click the text tool, you can find some extra edit options under <strong>edit</strong>. You can also (while hovering over a text tool with your mouse) click the (&quot;hamburger&quot;) menu icon and choose <strong>edit</strong>.</p>
 <p>In comparison to the HTML-tool, the text tool allows you to edit your text directly on the page. While the HTML-tool opens a new dialog window. If you need more styling options, use the HTML-tool. A text tool can be converted to an HTML-tool via the menu option <strong>convert to HTML tool</strong>.</p>
+<p><strong>important</strong> : If the text within a text tool is longer than the tool height, a scrollbar will appear and part of the text is cutoff. Therefore (especially when copying from external editors) it is important to check that the tool has a large enough size (unless you specifically want a scrollbar).</p>
 <h3 id="style">Style</h3>
 <p>See <a href="#style-options">style options</a>.</p>
 <h3 id="options">Options</h3>
@@ -548,8 +504,8 @@ Be sure to upload the PDF itself in the <strong>PDF</strong> field, not <strong>
 <p>The <strong>PREVIEW</strong> field is for changing the image that represents the pdf in the exposition for the reader. If no preview image is provided, a miniturised copy of the first page will be used.</p>
 <div style="font-style:italic">
 <p>Warning:<br />
-Do not use the hyperlink of the pdf file to provide a direct link to the pdf ! https://media.researchcatalogue.net/rc/master/73723.pdf?t=2629205589&amp;e=1510816850</p>
-<p>This link is temporarly generated and will become invalid. The reason for this is that the RC needs to control access (based on the exposition share status), and this is only possible with a temporary link.</p>
+<strong>Do not use the hyperlink</strong> of the pdf file to provide a direct link to the pdf ! https://media.researchcatalogue.net/rc/master/73723.pdf?t=2629205589&amp;e=1510816850</p>
+<p>This link will become invalid. The reason for this is that the RC needs to control access (based on the exposition share status), and this is only possible with a temporary link.</p>
 </div>
 <p><a href="#style-options">&gt; see style options</a></p>
 <h3 id="options-6">Options</h3>
@@ -648,6 +604,19 @@ total number of images. -->
 </ul>
 <h2 id="works">Works</h2>
 <p>Like simple media, works that have been added through your &quot;My Profile Page&quot; can also be dragged and dropped onto the canvas. Read more about adding works to your RC profile <a href="#add-work">here</a>.</p>
+<h1 id="content-manager">Content manager</h1>
+<p>The content manager is located on the right size of the canvas.</p>
+<div class="figure">
+<img src="images/media_manage.png" title="media management" alt="media, pages and footnotes tabs" />
+<p class="caption">media, pages and footnotes tabs</p>
+</div>
+<ul>
+<li>exposition - all objects in the current weave</li>
+<li>simple media - media files used in this exposition</li>
+<li>works - media files listed on your profile as works</li>
+<li>pages - a list of all the different pages (pages)</li>
+<li>footnotes - a list of rc <a href="#footnotes-and-popovers">footnotes and popovers</a></li>
+</ul>
 <h1 id="media-management-1">Media management</h1>
 <p>Media files can be found, uploaded, previewed and deleted in the &quot;Media&quot;-tab on the right hand side. There are subtabs: <strong>Simple Media</strong>, <strong>Works</strong> and <strong>&quot;+&quot;</strong>, which allows the integration of external repositories, such as the Media Archive of the Arts of the ZHdK (Madek).</p>
 <h2 id="simple-media-1">Simple Media</h2>
@@ -667,6 +636,46 @@ total number of images. -->
 </ul>
 <h2 id="works-1">Works</h2>
 <p>Like simple media, works that have been added through your &quot;My Profile Page&quot; can also be dragged and dropped onto the canvas. Read more about adding works to your RC profile <a href="#add-work">here</a>.</p>
+<h2 id="pages">Pages</h2>
+<p>Pages are managed in the <strong>pages</strong> tab of the content manager. An RC exposition can consist of one or more pages. A new exposition starts with a single page, called &quot;default page&quot;.</p>
+<div class="figure">
+<img src="images/pages-tab-2018.png" title="image showing the page tab" alt="page tab" />
+<p class="caption">page tab</p>
+</div>
+<h3 id="creating-a-page">Creating a page</h3>
+<p>New pages are by default <em>private</em>, they have to be explicitely added to the <a href="#table-of-content" title="table of content">table of content</a> to be visible (or by making a <a href="#hyperlinking">hyperlink</a> to the page in your own content). The order of pages cannot be changed in the pages list, but it can in the table of contents. The page will automatically change size based on the content.</p>
+<h3 id="entry-page">Entry page</h3>
+<p>One can change the first page visible to the reader by changing the <strong>entry page</strong>. Go to the menu <strong>options</strong> and choose <strong>edit meta data</strong>. Scroll down to <strong>&quot;entry page&quot;</strong> (at the bottom of the dialog) and select the page you want as your start page for the reader. <!-- This should be in table of contents, it is completely out of place in meta-data --></p>
+<h3 id="page-settings">Page settings</h3>
+<p><img src="images/pages-tab-2018.png" title="image showing the page settings" alt="the page settings dialog" />]</p>
+<p>In the page settings dialog, you can change the meta data of the page and control the appearance. It is opened by clicking the pencil button in the bar.</p>
+<h4 id="page-settings---meta-title-description-and-iframe-field">Page settings - Meta : title, description and iframe field</h4>
+<ul>
+<li><p><strong>Page title</strong><br />
+Set a title for the page. This title can be overriden in the <a href="#table-of-content">table of content</a>, so the reader sees a different one. This can be useful if you need to keep track of different versions of pages.</p></li>
+<li><p><strong>Description</strong><br />
+The description is for personal reference and only visible to the author and collaborators on the exposition.</p></li>
+<li><p><strong>Iframe field</strong><br />
+Replace the entire page by an external website by means of a URL. There are a few requirements to the URL for this to work:</p>
+<ul>
+<li>For reasons of security, the website needs to be configured to use a <a href="https://en.wikipedia.org/wiki/HTTPS" title="https on wikipedia">TLS connection</a>. Links with TLS enabled can in most cases be identified by the <strong>https://</strong> instead of <strong>http://</strong> at the start.</li>
+<li>You need to provide the full URL (inlude the https:// at the start).</li>
+</ul>
+<p>Please note that if a correct iFrame url is provided, the entire weave within the exposition is replaced by that website, so any tools and page styling present in the workspace will no longer be visible to the reader.</p>
+<p>If you want to combine external content with tools you should use the <a href="#embed-tool">embed tool</a>.</p></li>
+</ul>
+<h4 id="page-settings---style">Page settings - Style</h4>
+<p>Here one can change:</p>
+<ul>
+<li><strong>margin</strong>: If set, it will make the exposition as if is seen through a smaller window.</li>
+<li><strong>padding</strong>: Padd extra space on the content itself (for example if you set top and left to 100, it will create extra space on the top and left). In other words, this makes the exposition canvas itself larger.</li>
+<li><strong>background</strong>: change the color or set an image as background.</li>
+<li><strong>links</strong>: change the default color for all hyperlinks within the page. One can set seperate colors for links the user visited.</li>
+<li><strong>footnote</strong>: The color of footnote/popover links same as links, but then for links of footnotes/popovers.</li>
+<li><strong>raw css</strong>: You can set user defined <a href="https://www.w3schools.com/css/" title="css tutorial">CSS</a> rules that are applied to the whole page.</li>
+</ul>
+<h3 id="deleting-a-page">Deleting a page</h3>
+<p>The page can be deleted by clicking the trashcan icon next to the page title. Deleted pages cannot be recovered. Of course, if you want to make a page invisible to the reader it may be prefered to just remove it from the <a href="#table-of-content" title="table of content">table of content</a>.</p>
 <h1 id="menus">Menus</h1>
 <h2 id="edit-menu">Edit menu</h2>
 <p><img src="images/edit-menu-2018.png" class="half-image" alt="image showing the edit menu"></p>

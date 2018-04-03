@@ -1,26 +1,26 @@
 
 # Views
  
-## Exposition View or PREVIEW
+## Preview
 
-The exposition view is the final result that the reader will see when
+The preview is the final result that the reader will see when
 he/she opens your exposition, for example by opening the exposition
 URL or when a user clicks "OPEN EXPOSITION" anywhere on the RC.
 All expositions have [a navigation bar](#navigation) that shows if the user moves his/her mouse to the top.
 It contains a table of contents, abstract and other information.
 
 While you are editing your exposition in the workspace editor, the
-PREVIEW button (right top corner) shows what the page will look like
+Preview button (👁, right top corner) shows what the page will look like
 to the reader. If you already have a preview tab open, the second time
-you click PREVIEW, it will simply refresh, instead of opening a new
+you click Preview, it will simply refresh, instead of opening a new
 tab.
 
 <!-- THIS SHOULD BE IN VIDEO AND AUDIO TOOLS ?
 Note, that the video player, the audio player, the slideshow and object tool are only displayed fully in this PREVIEW view. 
 -->
 
-While the EXPOSITION VIEW will always open the default entry page
-of your exposition, PREVIEW shows the page (or "weave") that you
+Note: while for the reader the exposition will always open the __entry page__
+of your exposition, clicking the PREVIEW button in the editor shows the page that you
 currently are working on in your workspace. Thus, you can also PREVIEW
 pages that are not yet listed in the table of contents. 
 
@@ -30,7 +30,9 @@ pages that are not yet listed in the table of contents.
 
 ![workspace view](images/workspace-view-2018.png "image showing workspace view")
 
-The __workspace editor__ is the editor of content on the RC. It can be opened by clicking __☰ > edit workspace__ on an exposition listed on your profile. Of course you can only edit expositions of which you are a (co)author, editor or contributor. 
+The __workspace editor__ is the editor of content on the RC. It can be opened by clicking __☰ > edit workspace__ on an exposition listed on your profile. If you are reading one of your own expositions, you can also open the editor by clicking __EDIT__ in the navigation bar on top. 
+
+Published epositions cannot be edited (by definition) and of course you need to be the author, co-author or editor of an exposition to be able to edit it.
 
 Within the workspace view, one can enable one of these two subviews:
 
