@@ -225,3 +225,8 @@ margin-bottom: 0; }
   height:16px;
   display:inline;
 }
+
+.navIsOpen {
+  height:100px;
+  overflow-y:hidden;
+}

@@ -34,7 +34,10 @@ function init( ) {
 function makeLinksCloseNav( ) { // links should close the navigation
 	var links = document.getElementById("TOC").getElementsByTagName("A");
 	for (var i = 0;i<links.length;i++) {
-		links[i].onclick = function ( ) { closeNav() };
+		links[i].onclick = function ( ) { 
+		    document.getElementById('body-text').style.display = 'default';
+			closeNav();
+ 		};
 	}
 }
 
@@ -44,6 +47,7 @@ function openNav( ) { // open navigation
     let menuButton = document.getElementById("menuButton");
 	menuButton.innerHTML = '<span class="closeSymbol">&times;</span><span style="font-size: 50%"><b id="menuLabel">MENU</b></span>';
     isMenuOpen = true;
+    document.getElementById('body-text').classList.add('navIsOpen');
 }
 
 function closeNav( ) {
@@ -52,8 +56,10 @@ function closeNav( ) {
 	isMenuOpen = false;
 	var TOC = document.getElementById("TOC");
     TOC.style.width = "0px";
+    document.getElementById('body-text').classList.remove('navIsOpen');
 }
 
 
 
 </script>
+<div id="body-text">

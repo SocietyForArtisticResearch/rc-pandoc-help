@@ -264,3 +264,5 @@ Developments in progress</h3>
 </td><td>Research Catalogue update history
 </td><td><p>The update refers to this new page&nbsp;<a href="http://www.researchcatalogue.net/portal/updates/" target="_blank">http://www.researchcatalogue.net/portal/updates/</a> allowing to see a history of all Research Catalogue updates from March 2014 forward. Only RC Admins can add/edit RC update information.</p>
 </td><td></td></tr></tbody></table></div>
+
+</div>

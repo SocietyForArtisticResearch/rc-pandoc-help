@@ -17,3 +17,6 @@ If you want to make changes you have three options:
 - git push (pushes to remote)
 
 Sometimes it will ask you to do "git pull" first, if I added new stuff from my repo.
+
+TODO:
+fix scroll menu when mouse is on MENU
