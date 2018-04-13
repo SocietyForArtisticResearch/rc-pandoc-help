@@ -19,7 +19,7 @@
   overflow-y:scroll;
   z-index:1;
   /*background-color: #ededed;*/
-  background-color:rgba(100,100,100,0.5);
+  background-color:rgba(200,200,200,0.98);
   transition: 0.05s;
 }
 
@@ -228,6 +228,8 @@ margin-bottom: 0; }
 }
 
 .navIsOpen {
+  margin:0;
+  padding:0;
   height:100vh;
   overflow-y:hidden;
 }
