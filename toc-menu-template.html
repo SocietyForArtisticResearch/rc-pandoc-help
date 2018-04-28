@@ -1,0 +1,115 @@
+<div id="menuButton" onclick="openNav()"><div id="menuSymbol">&#9776; </div><span id="menuName">MENU</span></div>
+
+<div id="TOC" class="showMenu">
+<ul>
+	<li><a href="#anchor-1">Anchor 1</a></li>
+	<li><a href="#anchor-2">Anchor 2</a><ul>
+	<li><a href="#anchor-3">Anchor 3</a></li>
+		<ul>
+			<li><a href="#anchor-4">Anchor 4</a></li>
+			<li><a href="#anchor-5">Anchor 5</a></li>
+		</ul>
+	<li><a href="#anchor-6">Anchor 6</a></li>
+</ul>
+</div>
+
+<p> Here would be the exposition HTML. </p>
+
+<style>
+/* 
+ * TOC styling, menu button etc...
+ **/
+
+#TOC {
+  background-color:rgba(237,237,237,0.98);
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:0;
+  overflow-x:hidden;
+  height:100%;
+  overflow-y:scroll;
+  z-index:1;
+  transition: 0.05s;
+}
+
+#TOC li {
+  padding-left:10px;
+  font-size:14px;
+  line-height: 1.45em;
+}
+
+#TOC ul {
+    padding: 10px;
+    padding-left: 25px;
+    list-style-type: none;
+}
+
+#TOC a {
+  color:black;
+  text-decoration: none;
+}
+
+#TOC a:hover {
+  text-decoration: underline;
+}
+
+#TOC a:visited {
+  color:black;
+}
+
+#TOC a:hover {
+  color:gray;
+}
+
+#TOC > ul > li > a {
+  font-weight: bold;
+}
+
+#TOC > ul > li > li > a {
+  font-weight: normal;
+}
+
+#TOC > ul:nth-child(1) {
+  padding-top:25px;
+}
+
+#menuButton {
+  background-color: #eee;
+  min-width:120px;
+  border-bottom-right-radius: 10px;
+  z-index:3;
+  position:fixed;
+  font-size:32px;
+  cursor:pointer;
+  top:0px;
+  left:0px;
+  font-family: helvetica, arial, sans-serif;
+  letter-spacing:1px;
+  text-transform:uppercase
+}
+
+#TOC.showMenu {
+  width:100%;
+}
+
+#menuSymbol {
+  text-align:center;
+  display:inline-block;
+  width:22px;
+  margin-left:5px;
+}
+
+#menuName {
+  font-weight:bold;
+  font-size:50%;
+}
+
+.navIsOpen {
+  margin:0;
+  padding:0;
+  height:100vh;
+  display:none;
+  overflow-y:hidden;
+}
+</style>

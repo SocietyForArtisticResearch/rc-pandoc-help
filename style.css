@@ -1,15 +1,14 @@
-/*
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-*/
-
 @viewport {
   width: device-width;
   zoom: 1.0;
 }
 
+/* 
+ * TOC styling, menu button etc...
+ **/
+
 #TOC {
+  background-color:rgba(237,237,237,0.98);
   position:fixed;
   top:0px;
   left:0px;
@@ -18,7 +17,6 @@
   height:100%;
   overflow-y:scroll;
   z-index:1;
-  background-color:rgba(237,237,237,0.98);
   transition: 0.05s;
 }
 
@@ -78,7 +76,12 @@
   text-transform:uppercase
 }
 
+#TOC.showMenu {
+  width:100%;
+}
+
 #menuSymbol {
+  text-align:center;
   display:inline-block;
   width:22px;
   margin-left:5px;
@@ -88,6 +91,16 @@
   font-weight:bold;
   font-size:50%;
 }
+
+.navIsOpen {
+  margin:0;
+  padding:0;
+  height:100vh;
+  display:none;
+  overflow-y:hidden;
+}
+
+/* end menu stuff, guide styling: */
 
 
 body {
@@ -134,7 +147,6 @@ h2 {
 }
 
 h3 {
-	/*margin-top:50px;*/
 	font-size:12px;
 	background-color:#fdfdfd;
 }
@@ -150,7 +162,6 @@ h5 {
 img {
     min-width:280px;
     width:70%;
-    /* width:60%, */
     padding:10px;
     border:2px solid #888;
 }
@@ -214,12 +225,4 @@ margin-bottom: 0; }
   width:16px;
   height:16px;
   display:inline;
-}
-
-.navIsOpen {
-  margin:0;
-  padding:0;
-  height:100vh;
-  display:none;
-  overflow-y:hidden;
 }

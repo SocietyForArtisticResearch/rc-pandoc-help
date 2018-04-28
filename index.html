@@ -104,50 +104,42 @@
 
 // this is a little script for the navigation
 
-var isMenuOpen = false; // this is the global that checks if the menu is open.
-
 window.onload = function ( ) {
-    init();
-}
+    var dynamicMenu = function( ) {
+        let isMenuOpen = false;
 
-function init( ) {
-    document.getElementById("menuButton").onclick = function ( ) { 
-        isMenuOpen ? closeNav() : openNav();
-    };
-    
-    makeLinksCloseNav();
-}
+        let toggleNav = function ( ) { 
+            isMenuOpen = !isMenuOpen;
 
-function makeLinksCloseNav( ) { // links should close the navigation
-    var links = document.getElementById("TOC").getElementsByTagName("A");
-    for (var i = 0;i<links.length;i++) {
-        links[i].onclick = function ( ) { 
-            document.getElementById('body-text').style.display = 'default';
-            closeNav();
+            let TOC = document.getElementById('TOC');
+            TOC.classList.toggle('showMenu');
+            
+            let menuSymbol = document.getElementById('menuSymbol');
+            menuSymbol.innerHTML = isMenuOpen ? '&times;' : '&#9776;';
+
+            // because of scrolling issue on mobile devices, body is best hidden if menu is open:
+            document.getElementById('body-text').classList.toggle('navIsOpen');
+        }
+
+        let makeLinksCloseNav = function ( ) { // links should close the navigation
+            var links = document.getElementById('TOC').getElementsByTagName('A');
+            for (var i = 0;i<links.length;i++) {
+                links[i].onclick = function ( ) { 
+                    document.getElementById('body-text').style.display = 'default';
+                    toggleNav( );
+                };
+            }
+        }
+
+        document.getElementById('menuButton').onclick = function ( ) { 
+            toggleNav( );
         };
+
+        makeLinksCloseNav( );
     }
+
+    dynamicMenu( );
 }
-
-function openNav( ) { // open navigation
-    let TOC = document.getElementById("TOC");
-    TOC.style.width = "100%";
-    let menuSymbol = document.getElementById("menuSymbol");
-    menuSymbol.innerHTML = '&times;';
-    isMenuOpen = true;
-    document.getElementById('body-text').classList.add('navIsOpen');
-}
-
-function closeNav( ) {
-    let menuSymbol = document.getElementById("menuSymbol");
-    menuSymbol.innerHTML = '&#9776;';
-
-    isMenuOpen = false;
-    var TOC = document.getElementById("TOC");
-    TOC.style.width = "0px";
-    document.getElementById('body-text').classList.remove('navIsOpen');
-}
-
-
 
 </script>
 <div id="body-text">
