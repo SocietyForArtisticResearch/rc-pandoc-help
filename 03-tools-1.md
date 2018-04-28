@@ -18,7 +18,7 @@ Some tools look slightly different when editing, than in the final result. For e
 
 ## Adding a tool
 
-Like mentioned before, a tool is created by dragging the icon onto the canvas.
+A tool is created by [dragging](https://en.wikipedia.org/wiki/Drag_and_drop) the icon onto the canvas.
 
 ![](images/toolbar-demo-2.png "image showing drag a tool to the canvas")
 

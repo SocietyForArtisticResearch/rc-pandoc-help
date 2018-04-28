@@ -1,4 +1,4 @@
-<div id="menuButton" onclick="openNav()"><span>&#9776; </span><span style="font-size: 50%"><b>MENU</b></span></div>
+<div id="menuButton" onclick="openNav()"><div id="menuSymbol">&#9776; </div><span id="menuName">MENU</span></div>
 <!--
     this has to be added manually to the finished HTML
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,15 +44,16 @@ function makeLinksCloseNav( ) { // links should close the navigation
 function openNav( ) { // open navigation
 	let TOC = document.getElementById("TOC");
     TOC.style.width = "100%";
-    let menuButton = document.getElementById("menuButton");
-	menuButton.innerHTML = '<span class="closeSymbol">&times;</span><span style="font-size: 50%"><b id="menuLabel">MENU</b></span>';
+    let menuSymbol = document.getElementById("menuSymbol");
+	menuSymbol.innerHTML = '&times;';
     isMenuOpen = true;
     document.getElementById('body-text').classList.add('navIsOpen');
 }
 
 function closeNav( ) {
-    let menuButton = document.getElementById("menuButton");
-	menuButton.innerHTML = '<span class="menuSumbol">&#9776; </span><span style="font-size: 50%"><b id="menuLabel">MENU</b></span>';
+	let menuSymbol = document.getElementById("menuSymbol");
+	menuSymbol.innerHTML = '&#9776;';
+
 	isMenuOpen = false;
 	var TOC = document.getElementById("TOC");
     TOC.style.width = "0px";

@@ -90,7 +90,10 @@
 </ul>
 </div>
 <div id="menuButton" onclick="openNav()">
-<span>☰ </span><span style="font-size: 50%"><b>MENU</b></span>
+<div id="menuSymbol">
+☰
+</div>
+<span id="menuName">MENU</span>
 </div>
 <!--
     this has to be added manually to the finished HTML
@@ -128,15 +131,16 @@ function makeLinksCloseNav( ) { // links should close the navigation
 function openNav( ) { // open navigation
     let TOC = document.getElementById("TOC");
     TOC.style.width = "100%";
-    let menuButton = document.getElementById("menuButton");
-    menuButton.innerHTML = '<span class="closeSymbol">&times;</span><span style="font-size: 50%"><b id="menuLabel">MENU</b></span>';
+    let menuSymbol = document.getElementById("menuSymbol");
+    menuSymbol.innerHTML = '&times;';
     isMenuOpen = true;
     document.getElementById('body-text').classList.add('navIsOpen');
 }
 
 function closeNav( ) {
-    let menuButton = document.getElementById("menuButton");
-    menuButton.innerHTML = '<span class="menuSumbol">&#9776; </span><span style="font-size: 50%"><b id="menuLabel">MENU</b></span>';
+    let menuSymbol = document.getElementById("menuSymbol");
+    menuSymbol.innerHTML = '&#9776;';
+
     isMenuOpen = false;
     var TOC = document.getElementById("TOC");
     TOC.style.width = "0px";
@@ -308,7 +312,7 @@ Note, that the video player, the audio player, the slideshow and object tool are
 <p>Some tools look slightly different when editing, than in the final result. For example: an audio tools' control buttons only show up in the <strong>Preview</strong>. Use the <strong>preview button</strong> (the eye symbol on the top right) to see what the final result will look like to the reader.</p>
 <h1 id="workspace-tools">Workspace Tools</h1>
 <h2 id="adding-a-tool">Adding a tool</h2>
-<p>Like mentioned before, a tool is created by dragging the icon onto the canvas.</p>
+<p>A tool is created by <a href="https://en.wikipedia.org/wiki/Drag_and_drop">dragging</a> the icon onto the canvas.</p>
 <div class="figure">
 <img src="images/toolbar-demo-2.png" title="image showing drag a tool to the canvas" />
 
