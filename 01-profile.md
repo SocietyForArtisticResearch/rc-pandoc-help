@@ -85,7 +85,13 @@ but can also be used to represent events, presentations or
 expositions. You can add metadata such as the place of your work, the
 country or the material, technique or format. Moreover, the work can
 contain a collection of media files, which can later be accessed in
-used in expositions.
+used in expositions. Works therefore also provide a way to reuse a file in
+multiple expositions at once, without the need to upload them again.
+
+Note that when you first create a work, the media tab will be disabled.
+To be able to media to a work, first fill in the required meta-data, click 
+__submit__, then open the work again through __☰ -> edit details__. Now the
+media tab will becoma available.
 
 You can collaborate on works by inviting co-authors, contributors and
 supervisors. Moreover, you can relate works to other works and
