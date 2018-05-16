@@ -93,7 +93,9 @@ window. If you need more styling options, or want change the HTML source code of
 
 ### Placing images on top of text tools
 
-**Do not make extremely long text tools and put images or other tools on top**. Because of small differences in how fonts are displayed within major browsers, and the absolute positioning of tools in the RC this will result in text overflowing into or under your tools, if the reader uses a different browser to view your exposition. Best practice is to always start a new text tool below an inline image or tool.
+**Never place other tools (like images) directly on top of long text tools**. Because of small differences in how fonts are displayed within major browsers, and the fixed position of RC tools, this can result in text overflowing into those tools if the reader uses a different browser than the author that made the exposition. 
+
+The issue is easily avoided by keeping to this rule: always start a new text tool below an inline image or tool:
 
 ![proper way of combining text with other tools](images/proper-use-text.png "Image showing the proper use of text tools")
 
