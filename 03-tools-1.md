@@ -78,22 +78,28 @@ A video tutorial about the text tool is found [here](https://www.researchcatalog
 The text tool is designed for quickly adding text. 
 
 It has two states: when it is in *active state* you can change the
-text, if you click outside of the tool, you can move the object and
-change the size of the outer box. Double click inside of the tool to
+text, if you click outside of the tool, you can move the tool and
+change its size. Double click inside of the tool to
 start editing the text again. Content is saved as soon as you exit the
 text editing state.
 
-If you right click the text tool, you can find some extra edit options
+If you right-click the text tool, you can find some extra edit options
 under __edit__.  You can also (while hovering over a text tool with
-your mouse) click the ("hamburger") menu icon and choose __edit__.
+your mouse) click the (☰) menu icon and choose __edit__.
 
 In comparison to the HTML-tool, the text tool allows you to edit your
 text directly on the page. While the HTML-tool opens a new dialog
-window. If you need more styling options, use the HTML-tool. A text
-tool can be converted to an HTML-tool via the menu option __convert to
-HTML tool__.
+window. If you need more styling options, or want change the HTML source code of text, use the HTML-tool. A text tool can be converted to an HTML-tool via the menu option **convert to HTML tool**.
 
-__important__ : If the text within a text tool is longer than the tool height, a scrollbar will appear and part of the text is cutoff. Therefore (especially when copying from external editors) it is important to check that the tool has a large enough size (unless you specifically want a scrollbar).
+### Placing images on top of text tools
+
+**Do not make extremely long text tools and put images or other tools on top**. Because of small differences in how fonts are displayed within major browsers, and the absolute positioning of tools in the RC this will result in text overflowing into or under your tools, if the reader uses a different browser to view your exposition. Best practice is to always start a new text tool below an inline image or tool.
+
+![proper way of combining text with other tools](images/proper-use-text.png "Image showing the proper use of text tools")
+
+### Scrollbars
+
+ If the text within a text tool is longer than the tool height, a scrollbar will appear and part of the text is cutoff. Therefore (especially when copying from external editors) it is important to check that the tool has a large enough size (unless you specifically want a scrollbar).
 
 ### Style
 
