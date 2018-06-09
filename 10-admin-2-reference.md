@@ -88,7 +88,7 @@ It has 3 actions:
 * __target__ who is going to receive the mail
 * __content__ enter the text here
 
-For advanced layout, you can use the HTML button. Please note that it is not recommended to use URI encoded images in email, since some email clients do not like this. Better practice is to have the images hosted somewhere externally and link form there using a <xmp> <img src=...> </xmp> tag.
+For advanced layout, you can use the HTML button. Images need to be small and embedded as URI 
 
 Note that for RC wide mailings, one should <u>__always__</u> use the __JAR Template__ and type = __Announcement__ setting. This makes the mailing include an unsubscribe link, that is required by EU law. All other combinations of settings will currently not include this link !
 
@@ -118,7 +118,7 @@ Here you can edit the various roles of the portal:
 ### Issues
 ![portal edit issues](images/portal-edit-issues.png "image showing portal issues")
 
-Here you can set the title of the issues (as in journal issues), one can use these in Reviewing.
+Here you can set the title of the issues (as in journal issues), one can use these in Reviewing. Also see "[issue page](#issue-page "issue page")".
 
 ### Submissions
 ![portal edit sumbmissions](images/portal-edit-submissions.png "image showing portal submissions")
@@ -154,7 +154,7 @@ Review tag and comment can be used by the admin to organize the current in revie
 
 It is also possible to change supervisors in the collaboration tab. Please note that only the admin can change collaborators, the author cannot change anything during review.
 
-![reviewing edit collaboration dialog](images/edit-publish-collaboration.png "image showing edit collaborators dialog");
+![reviewing edit collaboration dialog](images/edit-publish-collaboration.png "image showing edit collaborators dialog")
 
 Once the reviewing process is complete, there are three scopes in which the research can be published:
 
@@ -165,6 +165,19 @@ Once the reviewing process is complete, there are three scopes in which the rese
 | Unlimited             | Visible to everyone                    |
 
 If you reject a request for publication, it is possible to edit the standard message that is sent to the author of the exposition.
+
+### Publication dialog
+
+## Issue page
+
+Issues are named in the portal settings [here](#issues). 
+
+In the __issue section__ (between "portal" and "research") of the administration interface, the number, title and description of issues can be edited.
+
+![edit issue dialog](images/edit-issue.png "image showing the edit issue collaboration")
+
+Issues are listed on the portal page. 
+
 
 
 
