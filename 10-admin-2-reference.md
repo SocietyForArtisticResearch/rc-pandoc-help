@@ -168,7 +168,7 @@ If you reject a request for publication, it is possible to edit the standard mes
 
 ### Publication dialog
 
-## Issue page
+## Issue page (new feature, not available yet)
 
 Issues are named in the portal settings [here](#issues). 
 
