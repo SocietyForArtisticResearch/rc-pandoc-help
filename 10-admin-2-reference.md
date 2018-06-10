@@ -168,7 +168,11 @@ If you reject a request for publication, it is possible to edit the standard mes
 
 ### Publication dialog
 
-## Issue page (new feature, not available yet)
+## Issue page (new feature, will be released next week)
+
+An Issue page is an overview page within the RC that shows all published expositions that are part of an issue.
+
+An Issue page consists of the title and description of the issue itself and a gridded preview of all the expositions (title, author, abstract and a thumbnail). This page is responsive so is easy to read on a phone as well.
 
 Issues are named in the portal settings [here](#issues). 
 
@@ -176,7 +180,7 @@ In the __issue section__ (between "portal" and "research") of the administration
 
 ![edit issue dialog](images/edit-issue.png "image showing the edit issue collaboration")
 
-Issues are listed on the portal page. 
+For the reader, issues can be found through the portals front page.
 
 
 
