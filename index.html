@@ -12,7 +12,7 @@
 <body>
 <div id="header">
 <h1 class="title">Research Catalogue Extended Guide</h1>
-<h3 class="date">March, 2018</h3>
+<h3 class="date">June, 2018</h3>
 </div>
 <div id="TOC">
 <ul>
@@ -53,6 +53,21 @@
 <li><a href="#works">Works</a></li>
 <li><a href="#pages">Pages</a></li>
 </ul></li>
+<li><a href="#text-based-editor-to-be-released-soon">Text based editor (to be released soon)</a><ul>
+<li><a href="#overview">overview</a></li>
+<li><a href="#introduction">introduction</a></li>
+<li><a href="#editor">editor</a></li>
+<li><a href="#preview-1">preview</a></li>
+<li><a href="#media-list">media list</a></li>
+<li><a href="#import-export">import &amp; export</a></li>
+<li><a href="#edit-style">edit style</a></li>
+<li><a href="#markdown">markdown</a></li>
+<li><a href="#paragraphs">paragraphs</a></li>
+<li><a href="#headers">headers</a></li>
+<li><a href="#lists">lists</a></li>
+<li><a href="#links">links</a></li>
+<li><a href="#footnotes">footnotes</a></li>
+</ul></li>
 <li><a href="#menus">Menus</a><ul>
 <li><a href="#edit-menu">Edit menu</a></li>
 <li><a href="#options-menu">Options menu</a></li>
@@ -63,14 +78,14 @@
 <li><a href="#navigation-bar">Navigation bar</a></li>
 <li><a href="#table-of-content">Table of Content</a></li>
 <li><a href="#hyperlinking">Hyperlinking</a></li>
-<li><a href="#overview">Overview</a></li>
+<li><a href="#overview-1">Overview</a></li>
 </ul></li>
 <li><a href="#publishing-and-sharing">Publishing and Sharing</a></li>
 <li><a href="#follow-and-search">Follow and Search</a></li>
 <li><a href="#collaborating-on-research">Collaborating on Research</a></li>
 <li><a href="#footnotes-and-popovers">Footnotes and Popovers</a></li>
 <li><a href="#administration-reviewing-process">Administration: Reviewing process</a><ul>
-<li><a href="#introduction">Introduction</a></li>
+<li><a href="#introduction-1">Introduction</a></li>
 <li><a href="#setting-up-accounts">Setting up accounts</a></li>
 <li><a href="#writing-the-exposition-collaboration">Writing the exposition, collaboration</a></li>
 <li><a href="#requisting-publication">Requisting publication</a></li>
@@ -84,7 +99,7 @@
 <li><a href="#research-page">Research page</a></li>
 <li><a href="#connection-requests">Connection Requests</a></li>
 <li><a href="#reviewing-admin">Reviewing (admin)</a></li>
-<li><a href="#issue-page-new-feature-not-available-yet">Issue page (new feature, not available yet)</a></li>
+<li><a href="#issue-page-new-feature-will-be-released-next-week">Issue page (new feature, will be released next week)</a></li>
 </ul></li>
 <li><a href="#more-help">More help</a></li>
 <li><a href="#changelog">Changelog</a></li>
@@ -669,6 +684,129 @@ Replace the entire page by an external website by means of a URL. There are a fe
 </ul>
 <h3 id="deleting-a-page">Deleting a page</h3>
 <p>The page can be deleted by clicking the trashcan icon next to the page title. Deleted pages cannot be recovered. Of course, if you want to make a page invisible to the reader it may be prefered to just remove it from the <a href="#table-of-content" title="table of content">table of content</a>.</p>
+<h1 id="text-based-editor-to-be-released-soon">Text based editor (to be released soon)</h1>
+<p>First time user of the text editor? <a href="#introduction">click here</a>.</p>
+<h2 id="overview">overview</h2>
+<div id="overview-block">
+<p>
+Click any element in the image to jump to the relevant section.
+</p>
+<div class="rcimage big center">
+<object class="overview-map" width="1000" height="542" data="images/editor-overview.png" usemap="#image-map">
+</object>
+</div>
+<map name="image-map">
+<area target="" alt="media list" title="media list" href="#media-list" coords="11,47,85,77" shape="rect">
+<area target="" alt="import export" title="import export" href="#import-export" coords="87,49,180,80" shape="rect">
+<area target="" alt="edit style" title="edit style" href="#edit-style" coords="185,50,255,73" shape="rect">
+<area target="" alt="drag-and-drop" title="drag-and-drop" href="#drag-and-drop" coords="259,55,416,81" shape="rect">
+<area target="" alt="editor" title="editor" href="#editor" coords="19,120,995,510" shape="rect">
+<area target="" alt="preview" title="preview" href="#preview" coords="505,119,999,536" shape="rect">
+<area target="" alt="title" title="title" href="title" coords="15,12,231,44" shape="rect">
+</map>
+</div>
+<ol style="list-style-type: decimal">
+<li><a href="#markdown">markdown</a> <a href="#editor">editor</a><br />
+<em>write and edit your text</em></li>
+<li><a href="#preview">preview</a><br />
+<em>preview the result.</em></li>
+<li><a href="#media-list">media-list</a><br />
+<em>add/remove/edit media.</em><br />
+</li>
+<li><a href="#import-export">import/export</a> <em>import&amp;export to various text formats</em></li>
+<li><a href="#style">style editor</a><br />
+<em>change the styling (font-size etc..) using CSS</em><br />
+</li>
+<li><a href="#drag-and-drop">drag and drop zone</a><br />
+<em>quickly insert any media file</em><br />
+</li>
+<li><a href="#title">title field</a><br />
+<em>change the title of the exposition</em></li>
+</ol>
+<h2 id="introduction">introduction</h2>
+<p>The text editor is aimed at creating <a href="http://https://nl.wikipedia.org/wiki/Responsive_webdesign">responsive</a> RC expositions that mainly consist of text.</p>
+<p>You can write your text on the left side <a href="#editor">editor</a> while the result is shown as a <a href="#preview">preview</a> on the right hand side. It is also possible to <a href="#import-export">import</a> text from external formats like Word and Open Office. Formatting (<strong>bold</strong>,<em>italic</em> etc...) is added using <a href="#markdown">markdown</a> notation.</p>
+<p>If you want to use images or other media in your article, you can add these through the <a href="#drag-and-drop"><strong>&quot;click or drop to add media&quot;</strong> button/drop zone </a>, when the upload has finished the media will be automatically inserted into the current cursor location.</p>
+<p>Finally, the look of your text and media can be controlled through the media list and the style editor.</p>
+<h2 id="editor">editor</h2>
+<p>The left hand side is where you can edit your text. The format used is <a href="#markdown">markdown</a>, which is a plain text format (like with a typewriter). The editor automatically detects paragraphs.</p>
+<p>For styling not supported by markdown, you can use HTML, since HTML is also allowed within markdown (with the exception of scripts, for security reasons).</p>
+<h2 id="preview-1">preview</h2>
+<p>Here you can see a preview of your exposition.</p>
+<p>Note, that because text based expositions are responsive (react to the size of the window), the result may change based on the width of the screen. For a full view preview, use the eye button in the toolbar.</p>
+<h2 id="media-list">media list</h2>
+<p>Video, audio, images and pdf can be placed in your expositions. They are represented on the editor side with the notation &quot;! {name}&quot; which is then replaced with the actual media item in the rendered exposition.</p>
+<p>Note: you do not have to type the ! { name } yourself, when you upload something or insert media through the media list, the correct placeholder is inserted for you.</p>
+<h3 id="inserting-media">inserting media</h3>
+<p>To insert new media, drop or select your file in the <strong>drag and drop</strong> zone. After the upload finishes the media placeholder ( ! {media} ) will be inserted at the current cursor position.</p>
+<p>If you want to insert previously used media, you have to open the media list and click insert button next to the desired item.</p>
+<div class="figure">
+<img src="images/inserting-media.png" title="text showing inserting media" alt="inserting media" />
+<p class="caption">inserting media</p>
+</div>
+<p><a name="drag-and-drop"></a><br />
+### drag and drop</p>
+<p>Click this zone to open a file picker, alternatively media files (images, audio, video or pdf) can also be directly dropped here from your media browser. When the upload is finished the media item is directly inserted to the current cursor location of your text.</p>
+<h3 id="editing-media">editing media</h3>
+<p>In the <strong>media list</strong> you can edit media and the way it is displayed.</p>
+<div class="figure">
+<img src="images/medialist.png" title="image showing media list" alt="The media list" />
+<p class="caption">The media list</p>
+</div>
+<ul>
+<li>name (also used for the tag)</li>
+<li>replace the media file with another</li>
+<li>change the way the files is displayed (float left/right, size)</li>
+<li>add copyright info</li>
+<li>add description <br><br><br />
+Using the buttons in the list itself:</li>
+<li>remove the object from your exposition</li>
+<li>insert the object in the current position in the text.</li>
+</ul>
+<h2 id="import-export">import &amp; export</h2>
+<p>You can import documents from text editors like Word (.docx), Libre/Open Office (.odt), HTML and several other formats. Not all styling is supported but images, footnotes, tables and most other core features of the text are.</p>
+<h2 id="edit-style">edit style</h2>
+<p>For users that know CSS, edit style opens a CSS editor. Most templates will provide some basic formatting already, that you can adjust to your needs.</p>
+<h2 id="markdown">markdown</h2>
+<p>Markdown is a human-friendly way of writing HTML webpages without using code. Markdown is written as plain text (like you would write on a typewriter), that is translated into HTML for you.</p>
+<p>By surrounding your words with a few special characters you can inform markdown which styling you want it to use.</p>
+<p>For example:<br />
+<em>italic</em> = <code>*italic*</code><br />
+<strong>bold</strong> = <code>__bold__</code></p>
+<p>Instead of typing these characters, you can also select a piece of text and push the desired <strong>style button</strong> on top of the editor. This will insert the correct Markdown notation for you.</p>
+<h2 id="paragraphs">paragraphs</h2>
+<p>Paragraphs are recognized by markdown by whitelines.</p>
+<p>Now that I've skipped a line, this is a second paragraph.<br />
+TIP: You can force a linebreak by leaving 2 spaces at the end of a line.</p>
+<h2 id="headers">headers</h2>
+<p>Headers are defined by using one or more &quot;#&quot; in front of the header name:</p>
+<p><code># header 1</code><br> <code>## header 2</code><br> <code>### header 3</code><br></p>
+<p>There are six levels. Header level # and ## are automatically included in the contents menu, for easy navigation for the reader.</p>
+<h2 id="lists">lists</h2>
+<p>To get a bullet point list, write * before each item. Each item is seperated by a newline. A whiteline should preclude the first item. Thus, when you write:</p>
+<pre><code>* my first point
+* another throught
+* yet another thought</code></pre>
+<p>it will result in</p>
+<ul>
+<li>a list</li>
+<li>which has</li>
+<li>three items</li>
+</ul>
+<p>To get ordered lists, write a number and a point, 1. , 2. , 3.</p>
+<pre><code>1. one
+2. two 
+3. three</code></pre>
+<h2 id="links">links</h2>
+<p>Hyperlinks are written in the following manner: <code>[linktext](http://example.com)</code><br />
+which results in:<br />
+<a href="http://example.com">linktext</a></p>
+<h2 id="footnotes">footnotes</h2>
+<p>The easiest way of inserting a footnote is using the footnote button: <b>x<sup>2</sup></b>.</p>
+<p>If you want, you can also write them directly with the following notation:<br />
+<code>[^1]</code></p>
+<p><code>[^1]: this is footnote text.</code></p>
+<p>The footnote content is automatically moved to the bottom.</p>
 <h1 id="menus">Menus</h1>
 <h2 id="edit-menu">Edit menu</h2>
 <p><img src="images/edit-menu-2018.png" class="half-image" alt="image showing the edit menu"></p>
@@ -810,7 +948,7 @@ you can use this to create an entry that has an offset, which immediately opens 
 <li><strong>Title</strong> : change the title of the link</li>
 <li><strong>Class</strong> : set the class of the link (this is rarely used)</li>
 </ul>
-<h2 id="overview">Overview</h2>
+<h2 id="overview-1">Overview</h2>
 <p>Within the &quot;Commands&quot; tab on the right-hand side of the editor there is a checkbox labeled &quot;Overview.&quot; Clicking the checkbox will open and close a tab on the right-hand side of the editor. It contains both a map and a list of all objects in the exposition.</p>
 <p>The overview map outlines all tools on the page, their size and position. By moving the red rectangle, one can jump to a specific position on the page.</p>
 <p>Below the overview map, there is a list of all objects. If you click one of these tools, you go directly to that tools location. This can also be very useful when trying to find tools that have somehow become hidden, for example if another tool has been placed on top.</p>
@@ -926,7 +1064,7 @@ The share option can be found under the object menu (<img class="tiny_icon" src=
 <h3 id="pictures">Pictures</h3>
 <p>It is also possible to use images as links to footnotes. When clicking on the image or moving over it with the mouse cursor the popover will be show. In order to use an image as a footnote click the menu icon on the bottom right of the image (or right click the image) in order to open the context menu. Click the item &quot;add footnote&quot; from the context menu and fill in the appearing dialog window.</p>
 <h1 id="administration-reviewing-process">Administration: Reviewing process</h1>
-<h2 id="introduction">Introduction</h2>
+<h2 id="introduction-1">Introduction</h2>
 <p>This is a tutorial to describe how an RC Portal can be used for publication workflows. It is aimed at portal administrators. The process typically consists of 4 stages:</p>
 <ul>
 <li>setting up accounts</li>
@@ -1214,14 +1352,16 @@ Review process of expositions and objects that are waiting to be published</p></
 </table>
 <p>If you reject a request for publication, it is possible to edit the standard message that is sent to the author of the exposition.</p>
 <h3 id="publication-dialog">Publication dialog</h3>
-<h2 id="issue-page-new-feature-not-available-yet">Issue page (new feature, not available yet)</h2>
+<h2 id="issue-page-new-feature-will-be-released-next-week">Issue page (new feature, will be released next week)</h2>
+<p>An Issue page is an overview page within the RC that shows all published expositions that are part of an issue.</p>
+<p>An Issue page consists of the title and description of the issue itself and a gridded preview of all the expositions (title, author, abstract and a thumbnail). This page is responsive so is easy to read on a phone as well.</p>
 <p>Issues are named in the portal settings <a href="#issues">here</a>.</p>
 <p>In the <strong>issue section</strong> (between &quot;portal&quot; and &quot;research&quot;) of the administration interface, the number, title and description of issues can be edited.</p>
 <div class="figure">
 <img src="images/edit-issue.png" title="image showing the edit issue collaboration" alt="edit issue dialog" />
 <p class="caption">edit issue dialog</p>
 </div>
-<p>Issues are listed on the portal page.</p>
+<p>For the reader, issues can be found through the portals front page.</p>
 <h1 id="more-help">More help</h1>
 <ul>
 <li><p><a href="https://www.researchcatalogue.net/view/273532/273533">Video Tutorials</a><br />

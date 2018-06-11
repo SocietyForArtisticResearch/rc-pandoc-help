@@ -1,23 +1,25 @@
-First time user? <a href="#introduction">click here</a>.
+# Text based editor (to be released soon) 
+
+First time user of the text editor? <a href="#introduction">click here</a>.
   
 ## overview
 
-Click any element in the image to jump to the relevant section.   
-
+<div id="overview-block">
+<p>Click any element in the image to jump to the relevant section.</p>
 <div class="rcimage big center">
 <object class="overview-map" width="1000" height="542" data="images/editor-overview.png" usemap="#image-map">
 </object>
-</div>    
-	  
+</div>
 <map name="image-map">
-    <area target="" alt="media list" title="media list" href="#media-list" coords="11,47,85,77" shape="rect">
-    <area target="" alt="import export" title="import export" href="#import-export" coords="87,49,180,80" shape="rect">
-    <area target="" alt="edit style" title="edit style" href="#edit-style" coords="185,50,255,73" shape="rect">
-     <area target="" alt="drag-and-drop" title="drag-and-drop" href="#drag-and-drop" coords="259,55,416,81" shape="rect">
-    <area target="" alt="editor" title="editor" href="#editor" coords="19,120,995,510" shape="rect">
-    <area target="" alt="preview" title="preview" href="#preview" coords="505,119,999,536" shape="rect">
-    <area target="" alt="title" title="title" href="title" coords="15,12,231,44" shape="rect">
+<area target="" alt="media list" title="media list" href="#media-list" coords="11,47,85,77" shape="rect">
+<area target="" alt="import export" title="import export" href="#import-export" coords="87,49,180,80" shape="rect">
+<area target="" alt="edit style" title="edit style" href="#edit-style" coords="185,50,255,73" shape="rect">
+<area target="" alt="drag-and-drop" title="drag-and-drop" href="#drag-and-drop" coords="259,55,416,81" shape="rect">
+<area target="" alt="editor" title="editor" href="#editor" coords="19,120,995,510" shape="rect">
+<area target="" alt="preview" title="preview" href="#preview" coords="505,119,999,536" shape="rect">
+<area target="" alt="title" title="title" href="title" coords="15,12,231,44" shape="rect">
 </map>  
+</div>
     
 1. <a href="#markdown">markdown</a> <a href="#editor">editor</a>  
     *write and edit your text* 
@@ -25,7 +27,7 @@ Click any element in the image to jump to the relevant section.
     *preview the result.* 
 3. <a href="#media-list">media-list</a>  
     *add/remove/edit media.*  
-4. <a href="#import-export">import/export</a>     
+4. <a href="#import-export">import/export</a>
     *import&export to various text formats*
 5. <a href="#style">style editor</a>   
     *change the styling (font-size etc..) using CSS*  
@@ -38,7 +40,7 @@ Click any element in the image to jump to the relevant section.
 
 The text editor is aimed at creating [responsive](http://https://nl.wikipedia.org/wiki/Responsive_webdesign) RC expositions that mainly consist of text. 
  
-You can write your text on the left side <a href="#editor">editor</a> while the result is shown as a <a href="#preview">preview</a> on the right hand side. It is also possible to <a href="#import-export">import</a> text from external formats like Word and Open Office. Formatting (__bold__,*italic* etc...) is added using <a href="#markdown">markdown</a> notation.     
+You can write your text on the left side <a href="#editor">editor</a> while the result is shown as a <a href="#preview">preview</a> on the right hand side. It is also possible to <a href="#import-export">import</a> text from external formats like Word and Open Office. Formatting (__bold__,*italic* etc...) is added using <a href="#markdown">markdown</a> notation.
  
 If you want to use images or other media in your article, you can add these through the <a href="#drag-and-drop">__"click or drop to add media"__ button/drop zone </a>, when the upload has finished the media will be automatically inserted into the current cursor location.  
 
@@ -94,11 +96,11 @@ Using the buttons in the list itself:
 
 ## import & export
 
-You can import documents from text editors like Word, Open Office, HTML and several other formats. Not all styling is supported but images, footnotes, tables and most other core features of the text are.
+You can import documents from text editors like Word (.docx), Libre/Open Office (.odt), HTML and several other formats. Not all styling is supported but images, footnotes, tables and most other core features of the text are.
 
 ## edit style
 
-For users that know CSS, edit style opens a CSS editor. 
+For users that know CSS, edit style opens a CSS editor. Most templates will provide some basic formatting already, that you can adjust to your needs.
 
 ## markdown
 
