@@ -1,4 +1,4 @@
-# Text based editor (to be released soon) 
+# Text based editor
 
 First time user of the text editor? <a href="#introduction">click here</a>.
   
@@ -70,7 +70,7 @@ To insert new media, drop or select your file in the __drag and drop__ zone. Aft
 
 If you want to insert previously used media, you have to open the media list and click insert button next to the desired item.
 
-![inserting media](images/inserting-media.png "text showing inserting media")
+![inserting media](images/insert-media.png "text showing inserting media")
 
 <a name="drag-and-drop"></a>  
 ### drag and drop 
@@ -81,7 +81,7 @@ Click this zone to open a file picker, alternatively media files (images, audio,
 
 In the **media list** you can edit media and the way it is displayed.
 
-![The media list](images/medialist.png "image showing media list")
+![The media list](images/media-list.png "image showing media list")
 
 
 * name (also used for the tag)

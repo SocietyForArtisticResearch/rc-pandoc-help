@@ -58,14 +58,17 @@ Click edit to ask for a request to become a portal member, or remove yourself fr
 When you create a new work or exposition the newly created objects
 appear in default groupings ("Works" and "Expositions").  By using the
 "add grouping" button you can create custom groupings. You can arrange
-objects according to freely created categories. To add a new group
-click "add grouping" and enter the name of the grouping. You can sort
+objects according to freely created categories. 
+
+To add a new group click "add grouping" and enter the name of the grouping. You can sort
 your objects within a group, arrange the groups themselves and move
 object between groups via drag and drop. Click and drag a grouping to
 change the order of the groups. On the right-hand side of a grouping's
 title, there are a series of icons displayed. Here you can edit and
 delete the grouping and control its public visibility (using the
-circle icon). Only custom grouping can be deleted. If you have only
+circle icon). 
+
+Only custom grouping can be deleted. If you have only
 one grouping containing content, its title will not be shown on your
 public profile. Empty groups will also not be displayed on your public
 profile page.
@@ -75,6 +78,18 @@ profile page.
 
 By clicking "Create exposition" you can create a new exposition object which will be opened in the RC exposition workspace editor. The title and abstract fields are obligatory.
 You can change these details later by choosing ☰ > __edit details__, or in the __workspace editor__ by clicking the title of your research (at the top of you screen).
+
+There are two types of exposition on the RC:
+
+* Graphical 
+* Text-based
+
+The graphical editor gives the user more control over position of objects and is best used for 
+expositions wich require non-linear layouts.
+
+For more info on the text editor, see [text based editor](#text-based-editor).
+
+![create exposition](images/add-research-dialog.png "image showing the add research dialog")
 
 ### Add Work
 
