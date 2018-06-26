@@ -168,7 +168,7 @@ If you reject a request for publication, it is possible to edit the standard mes
 
 ### Publication dialog
 
-## Issue page (new feature, will be released next week)
+## Issue page
 
 An Issue page is an overview page within the RC that shows all published expositions that are part of an issue.
 
