@@ -324,6 +324,8 @@ In the dialog box that appears you have the possibility to add
 formats: *avi, mov, mp4, mpg* video container formats; *dv1394, h.264,
 mpeg2, mpeg1, mjepeg* video codec formats. Both VBR and CBR are supported.
 
+The video tool currently supports resolutions up to 2048x1080. If the resolution is higher, transcoding will fail. Please keep this in mind while uploading videos shot on phones, which commonly provide up to 4k resolution.
+
 To add an item, choose "add" and upload the file from your desktop to
 the RC servers. All videos uploaded in this way will also be added to
 the simple media tab. Name the file and make a declaration of

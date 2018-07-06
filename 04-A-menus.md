@@ -35,6 +35,11 @@ Locking an object means it cannot be changed or moved in any way (until it is un
 
 Here you can edit the Title, Abstract and Entry Page of the exposition.
 
+### Show tool borders
+
+When this option is turned on, you will be able to see all borders of all tools (green dashed line) in the editor.
+This can be helpful searching for empty tools.
+
 ### Edit table of content
 
 Here you can set the contents of the "contents menu" that the reader uses to navigate between pages and position in your exposition.
