@@ -95,14 +95,13 @@ fetch the link and creating the hyperlink.
 
 In order to fetch a link to a different page within your exposition:
   
-1. select the target weave in the editor. 
-2. select the tab where you want to link to.
-3. *(optional)* scroll the page to the position where you want the link to point to.
-4. click "Commands" on the left hand side and click on "show current
-position."  
+1. open the page you want to link __to__ in the editor
+   (through the page tab on the right hand side).
+2. *(optional)* scroll the page to the position where you want the link to point to.
+3. go to __options->show current position__
 
 This will display a URL of the target page with the current scroll location. Copy the URL
-into the clipboard (Ctrl-C/Cmd-C). Note that you can also use this URL outside of the RC, as long as the exposition is public.
+into the clipboard (Ctrl-C/Cmd-C). 
  
 Now to turn a piece of text into a hyperlink:  
 
