@@ -115,15 +115,53 @@ Here you can edit the various roles of the portal:
 * Contact persons (use this field to add persons that have an rc account)
 * Contact persons (use this for people without an rc account)
 
-### Issues
-![portal edit issues](images/portal-edit-issues.png "image showing portal issues")
+### Templates
 
-Here you can set the title of the issues (as in journal issues), one can use these in Reviewing. Also see "[issue page](#issue-page "issue page")".
+Portal admins can select any of their Text based expositions to be available as templates for users within their portal. This allows users to start with a predifined CSS sheet or even content. 
 
 ### Submissions
-![portal edit sumbmissions](images/portal-edit-submissions.png "image showing portal submissions")
+![portal edit sumbmissions](images/portal-allow.png "image showing portal submissions")
 
 Here you can set which objects can be submitted to the portal.
+
+
+#### allow
+
+* __listing in 'portals' section.__  
+	This will make the portal shown on the front page.
+* __linking to external portal page instead of rc profile page.__   
+	If selected, the portal link on the frontpage, will directly link to the website of the portal, instead of the internal RC page.
+* __listing in 'member of' dialog.__    
+    Weither users can request membership of a portal themselves. If a user request membership, the portal admin will still receive a confirmation request.
+* __creation of application programs.__  
+    This enables the application module, it should only be selected after an agreement with SAR has been made about using the Application Module.
+
+### allow connection of
+
+* __Researches can be connected to this portal.__      
+	This allows Expositions to be connected to a portal.
+* __Projects can be connected to this portal.__     
+	Projects no longer exist, most portals can ignore the setting.
+* __Degrees can be connected to this portal.__     
+	Degrees no longer exist, portals can ignore the setting.
+* __Works can be connected to this portal.__   
+	If set, users can request works for be connected to a portal.
+
+### allow publishing
+
+* __Researches can be submitted to this portal.__    
+	Allows users to request publication of their exposition within your portal.
+* __Accept submission of expositions with embedded external content.__    
+	Allows users to submit expositions with embedded external content.
+* __Allow limited research publication to this portal.__    
+	Allows users to request limited publication to a portal.
+* __Degrees can be submitted to this portal.__  
+	Degrees no longer exist, only for legacy reasons.
+* __Applications can be submitted to this portal.__    
+	This setting is only used in combination with the application module, 
+	should be discussed with SAR.
+
+
 
 ## Research page
 Here you can manage all research connected to the portal. Expositions are sorted per issue. Those without a publishing date, have not been published yet. There are a number of actions available:
@@ -141,6 +179,11 @@ The unpublishing of expositions is not encuraged. Published expositions are supp
 ## Connection Requests
 It is possible for users to connect a work or exposition to a portal. The works that have been accepted by an admin of the portal will be listed here.
 Requests can be accepted with: __V__ or rejected with: __X__.
+
+Once research is connected, the portal admin can add an __Editor__ role to the expositions.
+The editor is than able to change the content within the exposition.
+
+They can also add __Supervisor__ role, which can only read the exposition.
 
 
 ## Reviewing (admin) 

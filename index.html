@@ -12,7 +12,7 @@
 <body>
 <div id="header">
 <h1 class="title">Research Catalogue Extended Guide</h1>
-<h3 class="date">July, 2018</h3>
+<h3 class="date">Oktober, 2018</h3>
 </div>
 <div id="TOC">
 <ul>
@@ -1285,18 +1285,49 @@ Review process of expositions and objects that are waiting to be published</p></
 <li>Contact persons (use this field to add persons that have an rc account)</li>
 <li>Contact persons (use this for people without an rc account)</li>
 </ul>
-<h3 id="issues">Issues</h3>
-<div class="figure">
-<img src="images/portal-edit-issues.png" title="image showing portal issues" alt="portal edit issues" />
-<p class="caption">portal edit issues</p>
-</div>
-<p>Here you can set the title of the issues (as in journal issues), one can use these in Reviewing. Also see &quot;<a href="#issue-page" title="issue page">issue page</a>&quot;.</p>
+<h3 id="templates-1">Templates</h3>
+<p>Portal admins can select any of their Text based expositions to be available as templates for users within their portal. This allows users to start with a predifined CSS sheet or even content.</p>
 <h3 id="submissions">Submissions</h3>
 <div class="figure">
-<img src="images/portal-edit-submissions.png" title="image showing portal submissions" alt="portal edit sumbmissions" />
+<img src="images/portal-allow.png" title="image showing portal submissions" alt="portal edit sumbmissions" />
 <p class="caption">portal edit sumbmissions</p>
 </div>
 <p>Here you can set which objects can be submitted to the portal.</p>
+<h4 id="allow">allow</h4>
+<ul>
+<li><strong>listing in 'portals' section.</strong><br />
+This will make the portal shown on the front page.</li>
+<li><strong>linking to external portal page instead of rc profile page.</strong><br />
+If selected, the portal link on the frontpage, will directly link to the website of the portal, instead of the internal RC page.</li>
+<li><strong>listing in 'member of' dialog.</strong><br />
+Weither users can request membership of a portal themselves. If a user request membership, the portal admin will still receive a confirmation request.</li>
+<li><strong>creation of application programs.</strong><br />
+This enables the application module, it should only be selected after an agreement with SAR has been made about using the Application Module.</li>
+</ul>
+<h3 id="allow-connection-of">allow connection of</h3>
+<ul>
+<li><strong>Researches can be connected to this portal.</strong><br />
+This allows Expositions to be connected to a portal.</li>
+<li><strong>Projects can be connected to this portal.</strong><br />
+Projects no longer exist, most portals can ignore the setting.</li>
+<li><strong>Degrees can be connected to this portal.</strong><br />
+Degrees no longer exist, portals can ignore the setting.</li>
+<li><strong>Works can be connected to this portal.</strong><br />
+If set, users can request works for be connected to a portal.</li>
+</ul>
+<h3 id="allow-publishing">allow publishing</h3>
+<ul>
+<li><strong>Researches can be submitted to this portal.</strong><br />
+Allows users to request publication of their exposition within your portal.</li>
+<li><strong>Accept submission of expositions with embedded external content.</strong><br />
+Allows users to submit expositions with embedded external content.</li>
+<li><strong>Allow limited research publication to this portal.</strong><br />
+Allows users to request limited publication to a portal.</li>
+<li><strong>Degrees can be submitted to this portal.</strong><br />
+Degrees no longer exist, only for legacy reasons.</li>
+<li><strong>Applications can be submitted to this portal.</strong><br />
+This setting is only used in combination with the application module, should be discussed with SAR.</li>
+</ul>
 <h2 id="research-page">Research page</h2>
 <p>Here you can manage all research connected to the portal. Expositions are sorted per issue. Those without a publishing date, have not been published yet. There are a number of actions available:</p>
 <table>
@@ -1329,6 +1360,8 @@ Review process of expositions and objects that are waiting to be published</p></
 <p>The unpublishing of expositions is not encuraged. Published expositions are supposed to be a permament reference, never to be deleted or changed. If an exposition is to be continuously changed or temporary, it is better to not publish, but simply set its sharing settings to <strong>public</strong>. When unpublishing an exposition make sure with the author of the exposition that there are no connected works that have been deleted since, otherwise it may be impossible to reconstruct the publication.</p>
 <h2 id="connection-requests">Connection Requests</h2>
 <p>It is possible for users to connect a work or exposition to a portal. The works that have been accepted by an admin of the portal will be listed here. Requests can be accepted with: <strong>V</strong> or rejected with: <strong>X</strong>.</p>
+<p>Once research is connected, the portal admin can add an <strong>Editor</strong> role to the expositions. The editor is than able to change the content within the exposition.</p>
+<p>They can also add <strong>Supervisor</strong> role, which can only read the exposition.</p>
 <h2 id="reviewing-admin">Reviewing (admin)</h2>
 <p>The reviewing page allows managment of expositions that have been applied for publication by the author. Reviewers can be assigned to these works. There are two styles of reviewing: single blind or double blind. Single blind means that the author cannot see the reviewers. Double blind means that the reviewers cannot see each other.</p>
 <p>Please note that within the KonCon portal, supervisor notes can be seen by reviewers.</p>

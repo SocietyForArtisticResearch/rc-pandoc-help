@@ -6,7 +6,7 @@
 
 ---
 title: Research Catalogue Extended Guide
-date: July, 2018
+date: Oktober, 2018
 ---
 
 <!--[pdf version](RC-extended-guide.pdf "pdf extended guide pdf version")  -->
