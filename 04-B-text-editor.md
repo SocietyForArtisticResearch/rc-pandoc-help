@@ -73,6 +73,7 @@ If you want to insert previously used media, you have to open the media list and
 ![inserting media](images/insert-media.png "text showing inserting media")
 
 <a name="drag-and-drop"></a>  
+
 ### drag and drop 
 
 Click this zone to open a file picker, alternatively media files (images, audio, video or pdf) can also be directly dropped here from your media browser.  When the upload is finished the media item is directly inserted to the current cursor location of your text.
