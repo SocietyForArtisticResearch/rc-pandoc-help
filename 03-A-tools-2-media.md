@@ -4,8 +4,8 @@ The content manager is located on the right size of the canvas.
 
 ![media, pages and footnotes tabs](images/media_manage.png "media management")
 
-* exposition - all objects in the current weave
-* simple media - media files used in this exposition 
+* overview - all objects in the current weave
+* media - media files used in this exposition 
 * works - media files listed on your profile as works
 * pages - a list of all the different pages (pages)
 * footnotes - a list of rc [footnotes and popovers](#footnotes-and-popovers)
