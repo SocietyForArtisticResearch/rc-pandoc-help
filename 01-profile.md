@@ -115,12 +115,7 @@ details"-dialogue window.
 
 ### Add Project 
 
-A __project__ is a container within which works or expositions may be
-produced. It is intended to represent academic research projects and
-degrees. Using the relations-tab, works or expositions can be linked
-to the project.
-
-In case your project belongs to a degree, you can add ECTS-points.
+Projects were part of an external import of data, they are no longer available for users now.
 
 ### Visibility Of Groupings
 
