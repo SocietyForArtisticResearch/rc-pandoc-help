@@ -77,6 +77,24 @@ Instead of using text as footnote links it is also possible to use numbered link
 
 The numbering starts at 1 and encompasses all text and HTML objects on the weave. Numbering is performed by object and proceeds from the top and left to the bottom and right of the page. 
 
+Be aware that automatic numbering does not depend on creation order, it only depends on x and y position of the tools. This means that if the notes (1,2, 3 etc..) are in a vertical column, for example:
+
+<pre>
+1      4
+2      5
+3      6
+</pre>
+
+They get correctly numbered. However, if one of the text tools containing an automatic footnote in a column is just a bit (even 1 pixel) to the left, like so:
+
+<pre>
+   1
+  2
+   3
+ </pre>
+
+Then rc will automatically number the notes in 2 first than 1 than 3. So in this case, it is very important to have the text tools exactly at the same x position (through right click -> style tab you can check this most easily).
+
 ### Pictures 
 
 It is also possible to use images as links to footnotes. When clicking on the image or moving over it with the mouse cursor the popover will be show. In order to use an image as a footnote click the menu icon on the bottom right of the image (or right click the image) in order to open the context menu. Click the item "add footnote" from the context menu and fill in the appearing dialog window. 
