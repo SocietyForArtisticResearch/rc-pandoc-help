@@ -221,6 +221,8 @@ This dialog can be opened by __☰ > edit details__ or clicking the title of the
 * __Meta data__ change the __title__, __date__, __abstract__, __keywords__, __affiliation__ and __external link__ fields for your exposition.  
 A __title__ and __abstract__ are obligatory. 
 
+__Author Pseudonym__ field allows you to display the exposition under a different name. If one is provided, the author pseudonym will replace the authors names wherever the work is shown on RC (and in the DOI deposit, if the exposition is published). This can also be used if a group of author(s) wants to appear under a group name. The full list of authors will be shown on the metadata page.
+
 At the bottom of the __meta__ tab, one can also set the __entry page__: the weave that is the first page that the reader sees.
 <br />
 
