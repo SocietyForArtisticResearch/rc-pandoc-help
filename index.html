@@ -660,8 +660,15 @@ total number of images. -->
 <p>The document is split at illustrations, or after a significant amount of text. This to avoid extremely long text tools, which result in problems between browsers and are harder to handle in the graphical editor. The splitting should also make it easier to restructure the document a bit to a more fitting layout to the RC. Because of the graphic and non-linear nature of RC expositions, a 1 on 1 import does not make so much sense. If your documentation requires a more traditional text-based layout (think article/blog post), it may be better to use the text-based editor, which also supports importing from external text editors.</p>
 <h3 id="important-note-regarding-styling">Important note regarding styling:</h3>
 <p>By default, RC has zero margin on all paragraphs, this will mean that there is no whitespace between paragraphs. To avoid this issue, I recommend adding the following style to your <a href="#page-settings---style" title="link to page settings docs">raw CSS</a> settings of your page where you import word content.</p>
-<p><code>#container-weave .html-text-editor-content p {     margin: 1em 0; /* set top and bottom margin to 1 */ }</code></p>
-<p><code>#container-editor .html-text-editor-content p {     margin: 1em 0; /* do the same for the editor */ }</code></p>
+<pre>
+#container-weave .html-text-editor-content p {
+    margin: 1em 0; /* set top and bottom margin to 1 */ 
+}
+
+#container-editor .html-text-editor-content p {
+    margin: 1em 0; /* do the same for the editor */
+}
+</pre>
 <p>This makes sure paragraph margins are displayed correctly.</p>
 <h2 id="works">Works</h2>
 <p>Like simple media, works that have been added through your “My Profile Page” can also be dragged and dropped onto the canvas. Read more about adding works to your RC profile <a href="#add-work">here</a>.</p>

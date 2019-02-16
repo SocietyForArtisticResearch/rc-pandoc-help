@@ -69,13 +69,15 @@ which also supports importing from external text editors.
 By default, RC has zero margin on all paragraphs, this will mean that there is no whitespace between paragraphs. To avoid this issue,
 I recommend adding the following style to your [raw CSS](#page-settings---style "link to page settings docs") settings of your page where you import word content. 
 
-`#container-weave .html-text-editor-content p {
-    margin: 1em 0; /* set top and bottom margin to 1 */
-}`
+<pre>
+#container-weave .html-text-editor-content p {
+    margin: 1em 0; /* set top and bottom margin to 1 */ 
+}
 
-`#container-editor .html-text-editor-content p {
+#container-editor .html-text-editor-content p {
     margin: 1em 0; /* do the same for the editor */
-}`
+}
+</pre>
 
 This makes sure paragraph margins are displayed correctly.
 
