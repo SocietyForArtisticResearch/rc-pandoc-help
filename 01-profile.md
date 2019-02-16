@@ -165,8 +165,10 @@ options are only available to the author of the object.
 
 ### Change Layout
 
-This dialogue gives you the option of choosing the size of an object
-in your profile.
+This dialogue gives you the option of choosing the size of the research description boxes 
+on your profile page. 
+
+![The 4 options for how to display research on your profile](images/change-layout.png "image displaying layout options for research on My Profile")
 
 Depending on the length of the content, the abstract and additional
 information may be reduced or even hidden. Sizing objects differently

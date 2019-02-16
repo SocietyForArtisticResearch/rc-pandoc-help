@@ -20,3 +20,6 @@ Sometimes it will ask you to do "git pull" first, if I added new stuff from my r
 
 TODO:
 fix scroll menu when mouse is on MENU
+
+TODO:
+Fix change layout.

@@ -6,7 +6,7 @@
 
 ---
 title: Research Catalogue Extended Guide
-date: January, 2019
+date: February, 2019
 ---
 
 <!--[pdf version](RC-extended-guide.pdf "pdf extended guide pdf version")  -->
@@ -35,8 +35,8 @@ window.onload = function ( ) {
 		}
 
 		let makeLinksCloseNav = function ( ) { // links should close the navigation
-			var links = document.getElementById('TOC').getElementsByTagName('A');
-			for (var i = 0;i<links.length;i++) {
+			let links = document.getElementById('TOC').getElementsByTagName('A');
+			for (let i = 0;i<links.length;i++) {
 				links[i].onclick = function ( ) { 
 				    document.getElementById('body-text').style.display = 'default';
 					toggleNav( );

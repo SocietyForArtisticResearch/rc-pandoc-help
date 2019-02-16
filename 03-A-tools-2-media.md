@@ -39,6 +39,46 @@ There four buttons on top of the list of files, from left to right:
 - Edit meta-data of the file
 - Permanently delete a file from the RC (use with care)
 
+## Import Word documents using Simple Media upload.
+
+It is possible to upload docx/odt/LaTeX documents and have the content automatically 
+be turned into HTML tools and image tools. 
+
+To convert a document, open the Simple Media Tab and upload it in the "document" section of the upload dialog. It may take a few moments to convert after the upload has reached 100%.
+
+![media upload tab](images/media-upload-tab.png "image showing the media upload button")
+
+![upload doc dialog](images/upload-doc-dialog.png "image showing the doc upload section")
+
+Once converted, the document will show up as a folder within your simple media. 
+You can drag the elements from this folder to their final desired location in the exposition and resize them to the size you desire.
+
+To ensure maximum compatibility with RC fonts and styling, 
+text-editor specific styling is automatically filtered, but the inner structure of the text is maintained.
+This includes: paragraphs, headers, bold, italics, footnotes, illustrations & tables.
+Footnotes are also converted into RC Footnotes/Popovers. Afterwards, one can use raw CSS (also see below for more details) to add styling again, without the need to style each structural element individually. It may thus still be necessary to import certain elements by hand after the import.
+
+The document is split at illustrations, or after a significant amount of text. 
+This to avoid extremely long text tools, which result in problems between browsers 
+and are harder to handle in the graphical editor. The splitting should also make it easier to restructure the document a bit to a more fitting layout to the RC. Because of the graphic and non-linear nature of RC expositions, a 1 on 1 import does not make so much sense.
+If your documentation requires a more traditional text-based layout (think article/blog post), it may be better to use the text-based editor,
+which also supports importing from external text editors.
+
+### Important note regarding styling:
+
+By default, RC has zero margin on all paragraphs, this will mean that there is no whitespace between paragraphs. To avoid this issue,
+I recommend adding the following style to your [raw CSS](#page-settings---style "link to page settings docs") settings of your page where you import word content. 
+
+`#container-weave .html-text-editor-content p {
+    margin: 1em 0; /* set top and bottom margin to 1 */
+}`
+
+`#container-editor .html-text-editor-content p {
+    margin: 1em 0; /* do the same for the editor */
+}`
+
+This makes sure paragraph margins are displayed correctly.
+
 ## Works
 
 Like simple media, works that have been added through your "My Profile Page" can also be dragged and dropped onto the canvas. Read more about adding works to your RC profile [here](#add-work).
