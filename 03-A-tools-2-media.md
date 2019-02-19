@@ -39,7 +39,7 @@ There four buttons on top of the list of files, from left to right:
 - Edit meta-data of the file
 - Permanently delete a file from the RC (use with care)
 
-## Import Word documents using Simple Media upload.
+## Import Word documents using Simple Media upload
 
 It is possible to upload docx/odt/LaTeX documents and have the content automatically 
 be turned into HTML tools and image tools. 
