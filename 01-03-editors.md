@@ -39,6 +39,8 @@ of the exposition is maintained, while the sizes of the text will
 adjust for readability on different screen sizes. Text-based
 expositions are *responsive*.
 
+## Comparison of RC Exposition Formats
+
 | Graphical format  														| Text-based |
 |-----------------------------------|----------------|
 | non-linear                                        | linear |
