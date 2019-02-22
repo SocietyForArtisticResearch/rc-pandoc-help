@@ -1,4 +1,4 @@
-## Choosing an Editor
+# Choosing an Editor
   
 There are two types of editors in RC, the **graphical** editor and the
 **text-based** editor. Both editors can be used to create expositions
