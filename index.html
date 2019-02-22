@@ -13,12 +13,9 @@
       div.column{display: inline-block; vertical-align: top; width: 50%;}
   </style>
   <link rel="stylesheet" href="style.css" />
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
-<header id="title-block-header">
+<header>
 <h1 class="title">Research Catalogue Extended Guide</h1>
 <p class="date">February, 2019</p>
 </header>
@@ -30,6 +27,10 @@
 <li><a href="#research-section">Research Section</a></li>
 <li><a href="#manage-versions">Manage versions</a></li>
 <li><a href="#edit-research">Edit Research</a></li>
+<li><a href="#choosing-an-editor">Choosing an Editor</a></li>
+</ul></li>
+<li><a href="#choosing-an-editor-1">Choosing an Editor</a><ul>
+<li><a href="#comparison-of-exposition-formats">Comparison of Exposition Formats</a></li>
 </ul></li>
 <li><a href="#views">Views</a><ul>
 <li><a href="#preview">Preview</a></li>
@@ -69,19 +70,19 @@
 <li><a href="#send-collaboration-message">Send Collaboration Message</a></li>
 </ul></li>
 <li><a href="#text-based-editor">Text based editor</a><ul>
-<li><a href="#overview">overview</a></li>
-<li><a href="#introduction">introduction</a></li>
-<li><a href="#editor">editor</a></li>
-<li><a href="#preview-1">preview</a></li>
-<li><a href="#media-list">media list</a></li>
-<li><a href="#import-export">import &amp; export</a></li>
-<li><a href="#edit-style">edit style</a></li>
-<li><a href="#markdown">markdown</a></li>
-<li><a href="#paragraphs">paragraphs</a></li>
-<li><a href="#headers">headers</a></li>
-<li><a href="#lists">lists</a></li>
-<li><a href="#links">links</a></li>
-<li><a href="#footnotes">footnotes</a></li>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#editor">Editor</a></li>
+<li><a href="#preview-1">Preview</a></li>
+<li><a href="#media-list">Media list</a></li>
+<li><a href="#import-export">Import &amp; export</a></li>
+<li><a href="#edit-style">Edit style</a></li>
+<li><a href="#markdown">Markdown</a></li>
+<li><a href="#paragraphs">Paragraphs</a></li>
+<li><a href="#headers">Headers</a></li>
+<li><a href="#lists">Lists</a></li>
+<li><a href="#links">Links</a></li>
+<li><a href="#footnotes">Footnotes</a></li>
 </ul></li>
 <li><a href="#navigation">Navigation</a><ul>
 <li><a href="#navigation-bar">Navigation bar</a></li>
@@ -305,6 +306,129 @@ A <strong>title</strong> and <strong>abstract</strong> are obligatory.</li>
 <li><p><strong>Collaboration</strong> add co-authors, editors and supervisors. See <a href="#collaborating-on-research">collaboration</a></p></li>
 <li><p><strong>Relations</strong> create relationships with other objects on your profile, which will result in them being listed on the Research page. This page is shown when somebody clicks the title of the research on your profile.</p></li>
 </ul>
+<h2 id="choosing-an-editor">Choosing an Editor</h2>
+<p>There are two types of editors in RC, the <strong>graphical</strong> editor and the <strong>text-based</strong> editor. Both editors can be used to create expositions that can be published, reviewed and submitted for publication. However, the design, the writing process as well as the way in which exposition can be read are significantly different.</p>
+<p>When creating a new exposition you are asked to choose a format to use. After the exposition has been created, one cannot change the format anymore. It is therefore important to make the right choice for a particular project at the outset.</p>
+<p>[choosing a format in the Create Exposition dialog]{format-picker.png}</p>
+<p>The <strong>graphical editor</strong>, which is documented <a href="#workspace-editor">here</a>, allows the author to set the position of each element in the page. This makes it easy to have non-linear formats or presentations in which the media, such as images, video and audio files, are as important, if not more important, as the text. The editor works by dragging and dropping. There is no predefined style or template and its possible to have the reader go through the content in a non-linear fashion. However, a consequence of absolutely positioning all elements is that the exposition cannot adjust to the size of a particular device, that is, these expositions are not “responsive”. If you want readers to be able to read your exposition on mobile device the text-based editor may be more suitable for your project.</p>
+<p>The <strong>text-based</strong>, which is documented <a href="#text-based-editor">here</a>, editor is designed for writing (and importing) texts, while supporting the embedding of media. The input is plain text, which is translated into HTML. The author can express the structure of the text using <a href="http://https://en.wikipedia.org/wiki/Markdown">Markdown</a> notation. Because the input is plain text, it can also be automatically imported and exported from and to various external formats, for example MS Word documents, Open office documents and LateX. Styling is applied using standard CSS. By default the structure of the exposition is maintained, while the sizes of the text will adjust for readability on different screen sizes. Text-based expositions are <em>responsive</em>.</p>
+<table>
+<colgroup>
+<col style="width: 68%" />
+<col style="width: 31%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Graphical format</th>
+<th>Text-based</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>non-linear</td>
+<td>linear</td>
+</tr>
+<tr class="even">
+<td>page can have any dimension</td>
+<td>vertical collumn</td>
+</tr>
+<tr class="odd">
+<td>static</td>
+<td>responsive</td>
+</tr>
+<tr class="even">
+<td>slideshow, 3d-object, synchronized playback of different media</td>
+<td>limited to images, video, audio &amp; pdf</td>
+</tr>
+<tr class="odd">
+<td>similar like a Powerpoint presentations</td>
+<td>similar to a blog post</td>
+</tr>
+<tr class="even">
+<td>only editable in RC</td>
+<td>input is plain text, can be imported and exported to different formats</td>
+</tr>
+<tr class="odd">
+<td>can exist of multiple pages</td>
+<td>single page</td>
+</tr>
+<tr class="even">
+<td>position-based links</td>
+<td>table of content generated from headers</td>
+</tr>
+<tr class="odd">
+<td>drag and drop, mouse based</td>
+<td>Expositions are written by typing</td>
+</tr>
+<tr class="even">
+<td>reviewers can leave comments and notes</td>
+<td>no commenting functionality</td>
+</tr>
+</tbody>
+</table>
+<h1 id="choosing-an-editor-1">Choosing an Editor</h1>
+<p>There are two types of editors in RC, the <strong>graphical</strong> editor and the <strong>text-based</strong> editor. Both editors can be used to create expositions that can be published, reviewed and submitted for publication. However, the design, the writing process as well as the way in which exposition can be read are significantly different.</p>
+<p>When creating a new exposition you are asked to choose a format to use. After the exposition has been created, one cannot change the format anymore. It is therefore important to make the right choice for a particular project at the outset.</p>
+<figure>
+<img src="images/format-picker.png" alt="choosing a format in the Create Exposition dialog" /><figcaption>choosing a format in the Create Exposition dialog</figcaption>
+</figure>
+<p>The <strong>graphical editor</strong>, which is documented <a href="#workspace-editor">here</a>, allows the author to set the position of each element in the page. This makes it easy to have non-linear formats or presentations in which the media, such as images, video and audio files, are as important, if not more important, as the text. The editor works by dragging and dropping. There is no predefined style or template and its possible to have the reader go through the content in a non-linear fashion. However, a consequence of absolutely positioning all elements is that the exposition cannot adjust to the size of a particular device, that is, these expositions are not “responsive”. If you want readers to be able to read your exposition on mobile device the text-based editor may be more suitable for your project.</p>
+<p>The <strong>text-based</strong>, which is documented <a href="#text-based-editor">here</a>, editor is designed for writing (and importing) texts, while supporting the embedding of media. The input is plain text, which is translated into HTML. The author can express the structure of the text using <a href="http://https://en.wikipedia.org/wiki/Markdown">Markdown</a> notation. Because the input is plain text, it can also be automatically imported and exported from and to various external formats, for example MS Word documents, Open office documents and LateX. Styling is applied using standard CSS. By default the structure of the exposition is maintained, while the sizes of the text will adjust for readability on different screen sizes. Text-based expositions are <em>responsive</em>.</p>
+<h2 id="comparison-of-exposition-formats">Comparison of Exposition Formats</h2>
+<table>
+<colgroup>
+<col style="width: 68%" />
+<col style="width: 31%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Graphical format</th>
+<th>Text-based</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>non-linear</td>
+<td>linear</td>
+</tr>
+<tr class="even">
+<td>page can have any dimension</td>
+<td>vertical collumn</td>
+</tr>
+<tr class="odd">
+<td>static</td>
+<td>responsive</td>
+</tr>
+<tr class="even">
+<td>slideshow, 3d-object, synchronized playback of different media</td>
+<td>limited to images, video, audio &amp; pdf</td>
+</tr>
+<tr class="odd">
+<td>similar like a Powerpoint presentations</td>
+<td>similar to a blog post</td>
+</tr>
+<tr class="even">
+<td>only editable in RC</td>
+<td>input is plain text, can be imported and exported to different formats</td>
+</tr>
+<tr class="odd">
+<td>can exist of multiple pages</td>
+<td>single page</td>
+</tr>
+<tr class="even">
+<td>position-based links</td>
+<td>table of content generated from headers</td>
+</tr>
+<tr class="odd">
+<td>drag and drop, mouse based</td>
+<td>Expositions are written by typing</td>
+</tr>
+<tr class="even">
+<td>reviewers can leave comments and notes</td>
+<td>no commenting functionality</td>
+</tr>
+</tbody>
+</table>
 <h1 id="views">Views</h1>
 <h2 id="preview">Preview</h2>
 <p>The preview is the final result that the reader will see when he/she opens your exposition, for example by opening the exposition URL or when a user clicks “OPEN EXPOSITION” anywhere on the RC. All expositions have <a href="#navigation">a navigation bar</a> that shows if the user moves his/her mouse to the top. It contains a table of contents, abstract and other information.</p>
@@ -775,7 +899,7 @@ Replace the entire page by an external website by means of a URL. There are a fe
 <p>When you are collaborating on an exposition, you can use the command “send collaboration message” to communicate with your collaborators.</p>
 <h1 id="text-based-editor">Text based editor</h1>
 <p>First time user of the text editor? <a href="#introduction">click here</a>.</p>
-<h2 id="overview">overview</h2>
+<h2 id="overview">Overview</h2>
 <div id="overview-block">
 <p>
 Click any element in the image to jump to the relevant section.
@@ -812,30 +936,30 @@ Click any element in the image to jump to the relevant section.
 <li><a href="#title">title field</a><br />
 <em>change the title of the exposition</em></li>
 </ol>
-<h2 id="introduction">introduction</h2>
+<h2 id="introduction">Introduction</h2>
 <p>The text editor is aimed at creating <a href="http://https://nl.wikipedia.org/wiki/Responsive_webdesign">responsive</a> RC expositions that mainly consist of text.</p>
 <p>You can write your text on the left side <a href="#editor">editor</a> while the result is shown as a <a href="#preview">preview</a> on the right hand side. It is also possible to <a href="#import-export">import</a> text from external formats like Word and Open Office. Formatting (<strong>bold</strong>,<em>italic</em> etc…) is added using <a href="#markdown">markdown</a> notation.</p>
 <p>If you want to use images or other media in your article, you can add these through the <a href="#drag-and-drop"><strong>“click or drop to add media”</strong> button/drop zone </a>, when the upload has finished the media will be automatically inserted into the current cursor location.</p>
 <p>Finally, the look of your text and media can be controlled through the media list and the style editor.</p>
-<h2 id="editor">editor</h2>
+<h2 id="editor">Editor</h2>
 <p>The left hand side is where you can edit your text. The format used is <a href="#markdown">markdown</a>, which is a plain text format (like with a typewriter). The editor automatically detects paragraphs.</p>
 <p>For styling not supported by markdown, you can use HTML, since HTML is also allowed within markdown (with the exception of scripts, for security reasons).</p>
-<h2 id="preview-1">preview</h2>
+<h2 id="preview-1">Preview</h2>
 <p>Here you can see a preview of your exposition.</p>
 <p>Note, that because text based expositions are responsive (react to the size of the window), the result may change based on the width of the screen. For a full view preview, use the eye button in the toolbar.</p>
-<h2 id="media-list">media list</h2>
+<h2 id="media-list">Media list</h2>
 <p>Video, audio, images and pdf can be placed in your expositions. They are represented on the editor side with the notation “! {name}” which is then replaced with the actual media item in the rendered exposition.</p>
 <p>Note: you do not have to type the ! { name } yourself, when you upload something or insert media through the media list, the correct placeholder is inserted for you.</p>
-<h3 id="inserting-media">inserting media</h3>
+<h3 id="inserting-media">Inserting media</h3>
 <p>To insert new media, drop or select your file in the <strong>drag and drop</strong> zone. After the upload finishes the media placeholder ( ! {media} ) will be inserted at the current cursor position.</p>
 <p>If you want to insert previously used media, you have to open the media list and click insert button next to the desired item.</p>
 <figure>
 <img src="images/insert-media.png" title="text showing inserting media" alt="inserting media" /><figcaption>inserting media</figcaption>
 </figure>
 <p><a name="drag-and-drop"></a></p>
-<h3 id="drag-and-drop">drag and drop</h3>
+<h3 id="drag-and-drop">Drag and drop</h3>
 <p>Click this zone to open a file picker, alternatively media files (images, audio, video or pdf) can also be directly dropped here from your media browser. When the upload is finished the media item is directly inserted to the current cursor location of your text.</p>
-<h3 id="editing-media">editing media</h3>
+<h3 id="editing-media">Editing media</h3>
 <p>In the <strong>media list</strong> you can edit media and the way it is displayed.</p>
 <figure>
 <img src="images/media-list.png" title="image showing media list" alt="The media list" /><figcaption>The media list</figcaption>
@@ -850,26 +974,26 @@ Using the buttons in the list itself:</li>
 <li>remove the object from your exposition</li>
 <li>insert the object in the current position in the text.</li>
 </ul>
-<h2 id="import-export">import &amp; export</h2>
+<h2 id="import-export">Import &amp; export</h2>
 <p>You can import documents from text editors like Word (.docx), Libre/Open Office (.odt), HTML and several other formats. Not all styling is supported but images, footnotes, tables and most other core features of the text are.</p>
-<h2 id="edit-style">edit style</h2>
+<h2 id="edit-style">Edit style</h2>
 <p>For users that know CSS, edit style opens a CSS editor. Most templates will provide some basic formatting already, that you can adjust to your needs.</p>
-<h2 id="markdown">markdown</h2>
+<h2 id="markdown">Markdown</h2>
 <p>Markdown is a human-friendly way of writing HTML webpages without using code. Markdown is written as plain text (like you would write on a typewriter), that is translated into HTML for you.</p>
 <p>By surrounding your words with a few special characters you can inform markdown which styling you want it to use.</p>
 <p>For example:<br />
 <em>italic</em> = <code>*italic*</code><br />
 <strong>bold</strong> = <code>__bold__</code></p>
 <p>Instead of typing these characters, you can also select a piece of text and push the desired <strong>style button</strong> on top of the editor. This will insert the correct Markdown notation for you.</p>
-<h2 id="paragraphs">paragraphs</h2>
+<h2 id="paragraphs">Paragraphs</h2>
 <p>Paragraphs are recognized by markdown by whitelines.</p>
 <p>Now that I’ve skipped a line, this is a second paragraph.<br />
 TIP: You can force a linebreak by leaving 2 spaces at the end of a line.</p>
-<h2 id="headers">headers</h2>
-<p>Headers are defined by using one or more "#" in front of the header name:</p>
+<h2 id="headers">Headers</h2>
+<p>Headers are defined by using one or more &quot;#&quot; in front of the header name:</p>
 <p><code># header 1</code><br> <code>## header 2</code><br> <code>### header 3</code><br></p>
 <p>There are six levels. Header level # and ## are automatically included in the contents menu, for easy navigation for the reader.</p>
-<h2 id="lists">lists</h2>
+<h2 id="lists">Lists</h2>
 <p>To get a bullet point list, write * before each item. Each item is seperated by a newline. A whiteline should preclude the first item. Thus, when you write:</p>
 <pre><code>* my first point
 * another throught
@@ -884,11 +1008,11 @@ TIP: You can force a linebreak by leaving 2 spaces at the end of a line.</p>
 <pre><code>1. one
 2. two 
 3. three</code></pre>
-<h2 id="links">links</h2>
+<h2 id="links">Links</h2>
 <p>Hyperlinks are written in the following manner: <code>[linktext](http://example.com)</code><br />
 which results in:<br />
 <a href="http://example.com">linktext</a></p>
-<h2 id="footnotes">footnotes</h2>
+<h2 id="footnotes">Footnotes</h2>
 <p>The easiest way of inserting a footnote is using the footnote button: <b>x<sup>2</sup></b>.</p>
 <p>If you want, you can also write them directly with the following notation:<br />
 <code>[^1]</code></p>
@@ -1896,7 +2020,7 @@ Publish in Portal
 </td>
 <td>
 <p>
-Members of a portal can now select publications to be limited to a portal when submitting research. The admins of the respective portal have to create an issue for publication and may then publish the research. It will only be visible to members of the portal. Under the author a flag will be displayed, such as " Limited publication. Only visible to members of the portal : &lt;name of portal&gt;".
+Members of a portal can now select publications to be limited to a portal when submitting research. The admins of the respective portal have to create an issue for publication and may then publish the research. It will only be visible to members of the portal. Under the author a flag will be displayed, such as &quot; Limited publication. Only visible to members of the portal : &lt;name of portal&gt;&quot;.
 </p>
 </td>
 <td>

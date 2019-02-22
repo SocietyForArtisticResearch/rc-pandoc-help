@@ -2,7 +2,7 @@
 
 First time user of the text editor? <a href="#introduction">click here</a>.
   
-## overview
+## Overview
 
 <div id="overview-block">
 <p>Click any element in the image to jump to the relevant section.</p>
@@ -36,7 +36,7 @@ First time user of the text editor? <a href="#introduction">click here</a>.
 7. <a href="#title">title field</a>   
     *change the title of the exposition*
    
-## introduction  
+## Introduction  
 
 The text editor is aimed at creating [responsive](http://https://nl.wikipedia.org/wiki/Responsive_webdesign) RC expositions that mainly consist of text. 
  
@@ -46,25 +46,25 @@ If you want to use images or other media in your article, you can add these thro
 
 Finally, the look of your text and media can be controlled through the media list and the style editor.
 
-## editor
+## Editor
 
 The left hand side is where you can edit your text. The format used is <a href="#markdown">markdown</a>, which is a plain text format (like with a typewriter). The editor automatically detects paragraphs.  
  
 For styling not supported by markdown, you can use HTML, since HTML is also allowed within markdown (with the exception of scripts, for security reasons).
 
-## preview
+## Preview
 
 Here you can see a preview of your exposition.
 
 Note, that because text based expositions are responsive (react to the size of the window), the result may change based on the width of the screen. For a full view preview, use the eye button in the toolbar.
 
-## media list
+## Media list
 
 Video, audio, images and pdf can be placed in your expositions. They are represented on the editor side with the notation "! {name}" which is then replaced with the actual media item in the rendered exposition.
 
 Note: you do not have to type the ! { name }  yourself, when you upload something or insert media through the media list, the correct placeholder is inserted for you.
 
-### inserting media
+### Inserting media
 
 To insert new media, drop or select your file in the __drag and drop__ zone. After the upload finishes the media placeholder ( ! {media} ) will be inserted at the current cursor position.
 
@@ -74,11 +74,11 @@ If you want to insert previously used media, you have to open the media list and
 
 <a name="drag-and-drop"></a>  
 
-### drag and drop 
+### Drag and drop 
 
 Click this zone to open a file picker, alternatively media files (images, audio, video or pdf) can also be directly dropped here from your media browser.  When the upload is finished the media item is directly inserted to the current cursor location of your text.
 
-### editing media 
+### Editing media 
 
 In the **media list** you can edit media and the way it is displayed.
 
@@ -95,15 +95,15 @@ Using the buttons in the list itself:
 * remove the object from your exposition
 * insert the object in the current position in the text.
 
-## import & export
+## Import & export
 
 You can import documents from text editors like Word (.docx), Libre/Open Office (.odt), HTML and several other formats. Not all styling is supported but images, footnotes, tables and most other core features of the text are.
 
-## edit style
+## Edit style
 
 For users that know CSS, edit style opens a CSS editor. Most templates will provide some basic formatting already, that you can adjust to your needs.
 
-## markdown
+## Markdown
 
 Markdown is a human-friendly way of writing HTML webpages without using code. 
 Markdown is written as plain text (like you would write on a typewriter), 
@@ -117,14 +117,14 @@ __bold__ = `__bold__`
 
 Instead of typing these characters, you can also select a piece of text and push the desired __style button__ on top of the editor. This will insert the correct Markdown notation for you.
 
-## paragraphs 
+## Paragraphs 
 
 Paragraphs are recognized by markdown by whitelines.
 
 Now that I've skipped a line, this is a second paragraph.  
 TIP: You can force a linebreak by leaving 2 spaces at the end of a line.
   
-## headers 
+## Headers 
 Headers are defined by using one or more \"#\" in front of the header name:
 
 `# header 1`<br> 
@@ -134,7 +134,7 @@ Headers are defined by using one or more \"#\" in front of the header name:
 There are six levels. Header level # and ## are automatically included in the contents menu, for easy navigation for the reader.  
 
 
-## lists
+## Lists
  
 To get a bullet point list, write * before each item. Each item is seperated by a newline. A whiteline should preclude the first item.
 Thus, when you write:  
@@ -155,14 +155,14 @@ To get ordered lists, write a number and a point, 1. , 2. , 3.
     2. two 
     3. three
 
-## links  
+## Links  
 Hyperlinks are written in the following manner:
 `[linktext](http://example.com)`    
 which results in:   
 [linktext](http://example.com)  
  
 
-## footnotes 
+## Footnotes 
 
 The easiest way of inserting a footnote is using the footnote button: <b>x<sup>2</sup></b>. 
 
