@@ -41,7 +41,7 @@ The author can invite RC users to these roles by going to edit details or clicki
 
 ![collaboration tab](images/collaboration.png "Image showing the collabration tab")
 
-## Requisting publication
+## Requesting publication
 
 Once the writing is sufficiently progressed, the next step is that the author sents a request to publish the exposition. This is done through the ☰ menu, which is located on the "my profile" in the right bottom corner of the exposition summary. This will open a dialog where he/she can choose to which portal the exposition should be published. Within this dialog the author can also indicate weither the exposition should be published "limited to portal" or "unlimited to portal". Limited to portal means that when the exposition is published, it is only visible to members of the portal.
 
