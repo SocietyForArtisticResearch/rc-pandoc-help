@@ -47,7 +47,7 @@ expositions are *responsive*.
 | page can have any dimension                        | vertical collumn |
 | static                              |  responsive    |
 | slideshow, 3d-object, synchronized playback of different media | limited to images, video, audio & pdf |
-| similar like a Powerpoint presentations												| similar to a blog post |
+| similar to Powerpoint or Dreamweaver												| similar to a blog post |
 | only editable in RC											| input is plain text, can be imported and exported to different formats  |
 | can exist of multiple pages | single page |
 | position-based links | table of content generated from headers |
