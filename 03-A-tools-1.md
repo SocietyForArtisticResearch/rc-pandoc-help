@@ -121,46 +121,43 @@ See [history](#history).
 
 ## HTML-Tool
 
-The HTML-tool is designed for advanced text editing. It is a
+The HTML-tool is used for advanced text editing. It is a
 *what-you-see-is-what-you-get* rich text editor. Unlike the text tool,
 you can only edit its content in a dialog box. 
 
-You add the HTML Tool like any other tool: drag it with your mouse from the toolbar onto your canvas to the location where you need it. 
+You add the HTML Tool like any other tool: drag it with your mouse from the toolbar onto your canvas.
 
 ### Media
 
 ![html tool media tab](images/html-tool.png "an image showing the html media tab")
 
-Text is edited in the __media__ tab. To preformat the text, choose
-your settings before typing. The style can also be edited after typing
-by selecting either the whole page or sections of the page and
-changing the formatting options as required.
+Text is edited in the __media__ tab. You can style your text using the buttons.
 
 *! important: If you copy-paste your text from Word, Pages,
    LibreOffice, Google Docs or any other text editor, note that not
-   all fonts are available on every computer. Only the fonts that are
-   listed in the RC editor will be rendered correctly for all readers
-   (even if they do not have the font installed on their computer). A
-   better practice is to import the text without any formatting.*
-
-You can choose standard type formats such as bold, italic, or
-underline and adjust the text alignment, font, and size.
+   all fonts and styles will show the same on every computer.
+   A safer practice is to import the text without any formatting, and format it within RC.
+   This can be done either by exporting your text as plain text and copy pasting from that version, or importing your document using the [document import](#import-word-documents-using-simple-media-upload)*
 
 To enlarge the palette of text styling options, click on the first
-button, __show/hide toolbars__. Here you will find different options
-for further formating options, such as listings, enumerations,
-citations. It is also possible to create hyperlinks (using the chain
-symbol), or to set anchors for navigation. If you hover over an icon
-you can get a short text description of the function. The top right
-button opens the editor in fullscreen.
+button, __show/hide toolbars__. Opening it will allow you to insert lists, enumerations, tables,
+citations. 
+
+Another commenly used feature is the hyperlink button (it looks like a chain link). This can be used to insert [hyperlinks](https://guide.researchcatalogue.net/#hyperlinking) or [footnotes](https://guide.researchcatalogue.net/#footnotes) into your text.
+
+The top right button opens the editor in fullscreen. Note: you will have to exit full screen mode to submit your changes, using the same button.
 
 ![html extended tool options](images/html-tool-bar-extended.png) 
 
-You can add pictures or further HTML materials such as i-frames (the
-embedding of HTML pictures or video is not possible with uploaded
-audio-visual content, which means that you have to publish a URL from
-an external server to paste it into the dialog). You can also choose
-the colour or the background of the text using the colour tools,
+A few tips:
+
+* Make sure the toolsize matches the length of the text within. If the text is too long, it will result in __scrollbars__.
+
+* It is possible to add pictures or even iframes, but it is not recommended in most situations. Preferably media is added to the catalogue using the appropriate tools, to avoid the of risk external content going missing when it is removed by the original source.
+
+* Be careful making very large texts within a single HTML tool, this may result in unexpected overlap when your exposition is viewed with another browser. 3 or 4 paragraphs per tool is a good average. If you do make a large HTML tool, keep a large margin at the bottom bordor.
+
+* You can also choose the colour or the background of the text using the colour tools,
 insert symbols and tables, and control the edits with the __show
 changes__ option.
 
