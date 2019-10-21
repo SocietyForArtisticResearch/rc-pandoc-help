@@ -542,6 +542,16 @@ Notes are visible on the preview as well. Please check, that all notes
 have been removed from the exposition when you intend to share or
 publish it.
 
+### Notes and User Roles
+
+If an exposition is submitted to a portal the notes created by the
+different users involved (authors, portal admins, editor, reviewers)
+have different visibilities. Notes left by the author are visible to
+the admin and to the editor. Notes left by the reviewer are visible to
+the admin (though not the author or editor) and notes left to the
+editor are visible to the author and admin (though not to the review).
+
+
 ### Text Style Options
 
 You can use the buttons to directly add the basic stylings,
