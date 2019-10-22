@@ -1232,9 +1232,9 @@ you can use this to create an entry that has an offset, which immediately opens 
 </figure>
 <p>The reviewers will see a list of expositions that they are reviewers of on top of their “my profile” page. Within the exposition they can use the “REVIEW” menu to leave notes to themselves, which are only visible to them and the portal administrator. Typically further communication between the portal admin and the reviewer takes place through the messaging system or by e-mail.</p>
 <h2 id="final-publication-or-rejection">Final publication or rejection</h2>
-<p>Once the review process has been completed, the portal can choose to either publish or dismiss the exposition. If the exposition is dismissed, this means that the editing rights are returned to the author. The author can resubmit the same exposition later, at which point the review process starts again.</p>
-<p>If the exposition is accepted, the exposition will be frozen permanently from further changes. Depending on the portal settings at this point also a DOI will be deposited through cross-ref. Please note that publishing is meant as a one way step, unpublishing is to be used only as a very last resort measure. If one does not expect to have a research be their till the end of time, it should not be published.</p>
-<p>Immediately after publication the exposition will show up on the RC frontpage and visible to any visitor to the RC website (so also non-RC users). If this is not desired, one can also choose to publish an exposition “limited to the portal”, this means only members of the portal can see the exposition.</p>
+<p>Once the review process has been completed, the portal can choose to either publish or dismiss the exposition. If the exposition is dismissed, this means that the editing rights are returned to the author. The author can resubmit the same exposition later, at which point the review process starts again. Instead of rejecting, one can also put the exposition <a href="#in-revision" title="in revision documentation">“in revision”</a>, which means the author can make changes, while the exposition is still listed on the “reviewing” tab of administration.</p>
+<p>If the exposition is accepted, the exposition will be frozen permanently from further changes. Depending on the portal settings at this point also a DOI will be deposited through cross-ref. Please note that publishing is meant as a one way step, unpublishing is to be used only as a very last resort measure. If one does not expect to have a research be published perminately, it should not be published.</p>
+<p>Immediately after publication the exposition will show up on the RC frontpage and visible to any visitor to the RC website (so also non-RC users). It is recommended that keywords are added to publications, so they can more easily be retrieved. Keywords can also be added after publication, on the research list. If this is not desired, one can also choose to publish an exposition “limited to the portal”, this means only members of the portal can see the exposition.</p>
 <!-- pandoc -s -f markdown_github -i admin.md -o admin.html -c style.css -->
 <h1 id="administration-reference-guide">Administration reference guide</h1>
 <h2 id="administration-main-page">Administration Main Page</h2>
@@ -1444,45 +1444,58 @@ This setting is only used in combination with the application module, should be 
 <p>Once research is connected, the portal admin can add an <strong>Editor</strong> role to the expositions. The editor is than able to change the content within the exposition.</p>
 <p>They can also add <strong>Supervisor</strong> role, which can only read the exposition.</p>
 <h2 id="reviewing-admin">Reviewing (admin)</h2>
-<p>The reviewing page allows managment of expositions that have been applied for publication by the author. Reviewers can be assigned to these works. There are two styles of reviewing: single blind or double blind. Single blind means that the author cannot see the reviewers. Double blind means that the reviewers cannot see each other.</p>
-<p>Please note that within the KonCon portal, supervisor notes can be seen by reviewers.</p>
-<figure>
-<img src="images/reviewing-edit-request.png" title="image showing edit reviewing dialog" alt="reviewing edit reviewers dialog" /><figcaption>reviewing edit reviewers dialog</figcaption>
-</figure>
-<p>Review tag and comment can be used by the admin to organize the current in review documents.</p>
-<p>It is also possible to change supervisors in the collaboration tab. Please note that only the admin can change collaborators, the author cannot change anything during review.</p>
-<figure>
-<img src="images/edit-publish-collaboration.png" title="image showing edit collaborators dialog" alt="reviewing edit collaboration dialog" /><figcaption>reviewing edit collaboration dialog</figcaption>
-</figure>
-<p>Once the reviewing process is complete, there are three scopes in which the research can be published:</p>
+<p>The reviewing page allows managment of expositions that have been applied for publication by the author. Reviewers or editors can be assigned to these works. When a reviewer is added they will automatically recieve a notification from RC that they have been added. Reviewers can leave notes only visible to themselves (so not to other reviewers) and the portal admin(s).</p>
+<p>Actions that are available:</p>
 <table>
 <thead>
 <tr class="header">
-<th>Publish</th>
-<th>Visibility</th>
+<th>Action</th>
+<th>Icon</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Restricted to portal</td>
-<td>Only visible to members of the portal</td>
+<td>edit</td>
+<td><img src="images/edit-action.png" class="icon"></td>
+<td>Add reviewers and/or editors</td>
 </tr>
 <tr class="even">
-<td>Limited</td>
-<td>Only visible to members of the RC</td>
+<td>accept</td>
+<td><img src="images/accept-action.png" class="icon"></td>
+<td><a href="#publication-dialog" title="publication dialog"><strong>Accept</strong></a> publication request</td>
 </tr>
 <tr class="odd">
-<td>Unlimited</td>
-<td>Visible to everyone</td>
+<td>reject</td>
+<td><img src="images/reject-action.png" class="icon"></td>
+<td>Reject publication request</td>
+</tr>
+<tr class="even">
+<td>change status</td>
+<td><img src="images/revision-action.png" class="icon"></td>
+<td>Put exposition <a href="#in-revision" title="in revision"><strong>in revision</strong></a></td>
+</tr>
+<tr class="odd">
+<td>export</td>
+<td><img src="images/export-action.png" class="icon"></td>
+<td>Export the exposition as zip</td>
 </tr>
 </tbody>
 </table>
-<p>If you reject a request for publication, it is possible to edit the standard message that is sent to the author of the exposition.</p>
+<h3 id="in-revision">In revision</h3>
+<p>It is possible to put an exposition “in revision”, this means the author can change the content again, but the exposition remains in the list on the reviewing page (so the admin can keep track of the progress).</p>
+<p>You will be able to include a message to author, so they are informed that they can edit the exposition again.</p>
+<p>During revision, reviewers will not be able to access the exposition. They will regain access when the status is changed back to “in review”. This to ensure that no reviewer is reading an exposition that is currently being edited. Reviewers’ comments (“yellow sticky notes”) will be invisible to the author; notes from the portal admin and editors will be visible to the author.</p>
+<p>Either the author can resubmit the exposition using the hamburger menu, or the portal admin can change the status using the change status action button: <img src="images/revision-action.png" class="icon inline"></p>
 <h3 id="publication-dialog">Publication dialog</h3>
+<p>When a publication request is accepted, the portal admin can choose to which issue it belongs and if the publication should be local to the portal (limited publication) or public (the whole world). Issues can be created using the <a href="#issue-page" title="the issue page documentation">issue page</a>. You can also write a custom message to the author.</p>
+<figure>
+<img src="images/publication-dialog.png" title="image showing the publication dialog" alt="publication dialog" /><figcaption>publication dialog</figcaption>
+</figure>
 <h2 id="issue-page">Issue page</h2>
-<p>An Issue page is an overview page within the RC that shows all published expositions that are part of an issue.</p>
+<p>The <a href="https://www.researchcatalogue.net/admin/issue/list" title="issue page on the RC">Issue page</a> is an overview page within the RC that shows all published expositions that are part of an issue.</p>
 <p>An Issue page consists of the title and description of the issue itself and a gridded preview of all the expositions (title, author, abstract and a thumbnail). This page is responsive so is easy to read on a phone as well.</p>
-<p>Issues are named in the portal settings <a href="#issues">here</a>.</p>
+<p>Issues names are managed on this <a href="https://www.researchcatalogue.net/admin/issue/list" title="issue list page">here</a>.</p>
 <p>In the <strong>issue section</strong> (between “portal” and “research”) of the administration interface, the number, title and description of issues can be edited.</p>
 <figure>
 <img src="images/edit-issue.png" title="image showing the edit issue collaboration" alt="edit issue dialog" /><figcaption>edit issue dialog</figcaption>

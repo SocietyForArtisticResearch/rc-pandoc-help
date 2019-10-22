@@ -187,37 +187,48 @@ They can also add __Supervisor__ role, which can only read the exposition.
 
 
 ## Reviewing (admin) 
-The reviewing page allows managment of expositions that have been applied for publication by the author. Reviewers can be assigned to these works. There are two styles of reviewing: single blind or double blind. Single blind means that the author cannot see the reviewers. Double blind means that the reviewers cannot see each other. 
+The reviewing page allows managment of expositions that have been applied for publication by the author. Reviewers or editors can be assigned to these works. When a reviewer is added they will automatically recieve a notification from RC that they have been added. Reviewers can leave notes only visible to themselves (so not to other reviewers) and the portal admin(s). 
 
-Please note that within the KonCon portal, supervisor notes can be seen by reviewers.
+Actions that are available:
 
-![reviewing edit reviewers dialog](images/reviewing-edit-request.png "image showing edit reviewing dialog")
 
-Review tag and comment can be used by the admin to organize the current in review documents.
+| Action        | Icon                                                         | Description                                                            |
+| ---------     | ------------------------------------------------------------ | -------------------------                                              |
+| edit          | <img src="images/edit-action.png" class="icon">              | Add reviewers and/or editors                                           |
+| accept        | <img src="images/accept-action.png" class="icon">            | [__Accept__](#publication-dialog "publication dialog") publication request |
+| reject        | <img src="images/reject-action.png" class="icon">            | Reject publication request                                             |
+| change status | <img src="images/revision-action.png" class="icon">          | Put exposition [__in revision__](#in-revision "in revision")           |
+| export        | <img src="images/export-action.png" class="icon">            | Export the exposition as zip                                           |
+	
 
-It is also possible to change supervisors in the collaboration tab. Please note that only the admin can change collaborators, the author cannot change anything during review.
+### In revision
 
-![reviewing edit collaboration dialog](images/edit-publish-collaboration.png "image showing edit collaborators dialog")
+It is possible to put an exposition "in revision", this means the author can change the content again, but the exposition remains in the list on the reviewing page (so the admin can keep track of the progress).
 
-Once the reviewing process is complete, there are three scopes in which the research can be published:
+You will be able to include a message to author, so they are informed that they can edit the exposition again.
 
-| Publish               | Visibility                             |
-| --------------------- | -------------------------------------- | 
-| Restricted to portal  | Only visible to members of the portal  |
-| Limited               | Only visible to members of the RC      |
-| Unlimited             | Visible to everyone                    |
+During revision, reviewers will not be able to access the exposition. They will regain access when the status is changed back to "in review". This to ensure that no reviewer is reading an exposition that is currently being edited. Reviewers' comments ("yellow sticky notes") will be invisible to the author; notes from the portal admin and editors will be visible to the author.
 
-If you reject a request for publication, it is possible to edit the standard message that is sent to the author of the exposition.
+Either the author can resubmit the exposition using the hamburger menu, or the portal admin can change the status using the change status action button: <img src="images/revision-action.png" class="icon inline"> 
+
+
 
 ### Publication dialog
 
+When a publication request is accepted, the portal admin can choose to which issue it belongs and if the publication should be local to the portal (limited publication) or public (the whole world). Issues can be created using the [issue page](#issue-page "the issue page documentation").
+You can also write a custom message to the author.
+
+![publication dialog](images/publication-dialog.png "image showing the publication dialog")
+
+
+
 ## Issue page
 
-An Issue page is an overview page within the RC that shows all published expositions that are part of an issue.
+The [Issue page](https://www.researchcatalogue.net/admin/issue/list "issue page on the RC") is an overview page within the RC that shows all published expositions that are part of an issue.
 
 An Issue page consists of the title and description of the issue itself and a gridded preview of all the expositions (title, author, abstract and a thumbnail). This page is responsive so is easy to read on a phone as well.
 
-Issues are named in the portal settings [here](#issues). 
+Issues names are managed on this [here](https://www.researchcatalogue.net/admin/issue/list "issue list page"). 
 
 In the __issue section__ (between "portal" and "research") of the administration interface, the number, title and description of issues can be edited.
 

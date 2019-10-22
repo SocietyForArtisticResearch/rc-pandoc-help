@@ -74,10 +74,10 @@ The reviewers will see a list of expositions that they are reviewers of on top o
 
 ## Final publication or rejection
 
-Once the review process has been completed, the portal can choose to either publish or dismiss the exposition. If the exposition is dismissed, this means that the editing rights are returned to the author. The author can resubmit the same exposition later, at which point the review process starts again.
+Once the review process has been completed, the portal can choose to either publish or dismiss the exposition. If the exposition is dismissed, this means that the editing rights are returned to the author. The author can resubmit the same exposition later, at which point the review process starts again. Instead of rejecting, one can also put the exposition ["in revision"](#in-revision "in revision documentation"), which means the author can make changes, while the exposition is still listed on the "reviewing" tab of administration.
 
-If the exposition is accepted, the exposition will be frozen permanently from further changes. Depending on the portal settings at this point also a DOI will be deposited through cross-ref. Please note that publishing is meant as a one way step, unpublishing is to be used only as a very last resort measure. If one does not expect to have a research be their till the end of time, it should not be published.
+If the exposition is accepted, the exposition will be frozen permanently from further changes. Depending on the portal settings at this point also a DOI will be deposited through cross-ref. Please note that publishing is meant as a one way step, unpublishing is to be used only as a very last resort measure. If one does not expect to have a research be published perminately, it should not be published.
 
-Immediately after publication the exposition will show up on the RC frontpage and visible to any visitor to the RC website (so also non-RC users). If this is not desired, one can also choose to publish an exposition "limited to the portal", this means only members of the portal can see the exposition.
+Immediately after publication the exposition will show up on the RC frontpage and visible to any visitor to the RC website (so also non-RC users). It is recommended that keywords are added to publications, so they can more easily be retrieved. Keywords can also be added after publication, on the research list.  If this is not desired, one can also choose to publish an exposition "limited to the portal", this means only members of the portal can see the exposition.
 
 
