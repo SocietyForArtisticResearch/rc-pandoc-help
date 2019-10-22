@@ -76,7 +76,7 @@ profile page.
 
 ### Create Exposition
 
-By clicking "Create exposition" you can create a new exposition object which will be opened in the RC exposition workspace editor. The title and abstract fields are obligatory.
+By clicking "Create exposition" you can create a new exposition object which will be opened in the RC exposition workspace editor. The __title__, __copyright__ and __abstract__ fields are obligatory. In most cases, the copyright field should be the same as the main author name (so you can write your own name).
 You can change these details later by choosing ☰ > __edit details__, or in the __workspace editor__ by clicking the title of your research (at the top of you screen).
 
 There are two types of exposition on the RC:
@@ -85,7 +85,7 @@ There are two types of exposition on the RC:
 * Text-based
 
 The graphical editor gives the user more control over position of objects and is best used for 
-expositions wich require non-linear layouts.
+expositions wich require non-linear layouts. See [comparison](#comparison-of-rc-exposition-formats "compare the two exposition formats").
 
 For more info on the text editor, see [text based editor](#text-based-editor).
 

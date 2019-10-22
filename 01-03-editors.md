@@ -11,7 +11,7 @@ use. After the exposition has been created, one cannot change the
 format anymore. It is therefore important to make the right choice for
 a particular project at the outset.
  
-![choosing a format in the Create Exposition dialog]{format-picker.png}
+![choosing a format in the Create Exposition dialog](images/format-picker.png "image showing format picker")
 
 The **graphical editor**, which is documented
 [here](#workspace-editor), allows the author to set the position of
