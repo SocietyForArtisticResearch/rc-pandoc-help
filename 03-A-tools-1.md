@@ -1,20 +1,33 @@
 <!--pandoc -s tools.md -o tools.html -c style.css-->
 
-# Workspace editor
+# Workspace editor for graphical expositions
 
-## The workspace grid
+![workspace view of the graphical exposition format](images/workspace-view-2018.png "image showing graphical editor")
 
-The gridded area, called canvas, is where you create and edit your content. There are a number of *tools* for adding different types of content (text, video, images etc..). A tool is created by *dragging* the icon (keeping the mouse button pressed) from the toolbar to the desired location on your canvas.
+## Editor basics
 
-The alignment grid itself can be switched off or resized in the options menu.
+When you open the editor you will see a gridded area in the center, this is where you add content to your exposition. 
+Content is added by dragging-and-dropping "tools" from the toolbar onto the grid. You can see how the exposition looks by clicking the "preview" button:
+<img src="images/eye_metro.svg" class="icon">
 
-![a text tool is created by dragging it from the toolbar](images/toolbar-demo-2.png "image showing drag a tool to the canvas")
+The position of tools in graphical expositions is determined by the author and absolute. This implies:
 
-The canvas area size is automatically adjusted: adding content will make it grow just enough for everything to fit.
+* Tools are not positioned relative to each other, (re)moving one will not affect the others.
+* The canvas size is unlimited: it will grow automatically when you add tools.
+* Tools can be placed on top of each other.
+* Layout will not adjust to screensize of the viewer (content is not ["responsive"](https://en.wikipedia.org/wiki/Responsive_web_design) ).
 
-Some tools look slightly different when editing, than in the final result. For example: an audio tools' control buttons only show up in the __Preview__. Use the __preview button__ (the eye symbol on the top right) to see what the final result will look like to the reader.
+On the right you will find the content manager, to help with managing the content of your exposition.
+The content manager consists of four tabs:
 
-# Workspace Tools
+| Tab                                                 | Function:                                |
+| --------------------------------------------------- | ---------------------------------------  |
+| [overview](#overview-1)                             | map and list overview                    |
+| [media](#simple-media)                              | view the previously uploaded media files |
+| [footnotes](#footnotes-and-popovers)                | footnotes                                |
+| [pages](https://guide.researchcatalogue.net/#pages) | manage pages                             |
+
+
 
 ## Adding a tool
 
@@ -25,6 +38,8 @@ A tool is created by [dragging](https://en.wikipedia.org/wiki/Drag_and_drop) the
 Tools can be resized by clicking and dragging the green borders with the mouse.
 
 Tools can be rotated by clicking and dragging the yellow dot.
+
+The size of the current weave will automatically grow when tools are added.
 
 ### Context menu
 
@@ -111,7 +126,9 @@ See [style options](#style-options).
 
 If a text is longer than its frame on the weave, a scrollbar is
 generated automatically. You can control the visibility of the
-scrollbar in __options__. The default setting is *automatic*.
+scrollbar in __options__. The default setting is *automatic*. Be
+careful setting this to __never__: if a text  tool is too small to display all
+the text, it will be impossible for the reader to see all the text.
 
 ### History
 
@@ -169,7 +186,11 @@ changes__ option.
 
 If a text is longer than its frame on the weave, a scrollbar is
 generated automatically. You can control the visibility of the
-scrollbar in __options__. The default setting is *automatic*.
+scrollbar in __options__. The default setting is *automatic*. Be
+careful setting this to __never__: if a text tool is too small to
+display all the text, it will be impossible for the reader to see all
+the text.
+
 
 ### Templates
 
@@ -642,10 +663,11 @@ Click on the small ">" to open one of these sections:
 * border type, color and width
 * background (color or image)
 * shadow
+  (unschaerfe controls how sharp the shadow is, higher values makes the transition between shadow and light softer)
 * opacity
 
-The style tab only sets the basic (mostly external) style of the
-object, text markup is done within the text or html tools.
+The style tab only sets the external style of the
+tool, text markup is done within the text or html tools.
 
 ### Change tool defaults
 
@@ -659,7 +681,5 @@ __within the tool__ to an older version.  The versions of a text
 object are created each time you have clicked outside it (and the
 three animated dots show inside). With the html tool, a version is
 created each time you click submit.
-
-
 
 

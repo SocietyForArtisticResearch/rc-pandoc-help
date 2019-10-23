@@ -38,10 +38,8 @@
 <li><a href="#preview">Preview</a></li>
 <li><a href="#workspace-view">Workspace View</a></li>
 </ul></li>
-<li><a href="#workspace-editor">Workspace editor</a><ul>
-<li><a href="#the-workspace-grid">The workspace grid</a></li>
-</ul></li>
-<li><a href="#workspace-tools">Workspace Tools</a><ul>
+<li><a href="#workspace-editor-for-graphical-expositions">Workspace editor for graphical expositions</a><ul>
+<li><a href="#editor-basics">Editor basics</a></li>
 <li><a href="#adding-a-tool">Adding a tool</a></li>
 <li><a href="#key-commands">Key commands</a></li>
 <li><a href="#text-tool">Text Tool</a></li>
@@ -393,21 +391,52 @@ Note, that the video player, the audio player, the slideshow and object tool are
 <p>You can close both views by clicking on “close note view” or “close text view” in the top-right.</p>
 <p>For more info on specific tools, see <a href="#research-catalogue-workspace-tools">workspace</a>.</p>
 <!--pandoc -s tools.md -o tools.html -c style.css-->
-<h1 id="workspace-editor">Workspace editor</h1>
-<h2 id="the-workspace-grid">The workspace grid</h2>
-<p>The gridded area, called canvas, is where you create and edit your content. There are a number of <em>tools</em> for adding different types of content (text, video, images etc..). A tool is created by <em>dragging</em> the icon (keeping the mouse button pressed) from the toolbar to the desired location on your canvas.</p>
-<p>The alignment grid itself can be switched off or resized in the options menu.</p>
+<h1 id="workspace-editor-for-graphical-expositions">Workspace editor for graphical expositions</h1>
 <figure>
-<img src="images/toolbar-demo-2.png" title="image showing drag a tool to the canvas" alt="a text tool is created by dragging it from the toolbar" /><figcaption>a text tool is created by dragging it from the toolbar</figcaption>
+<img src="images/workspace-view-2018.png" title="image showing graphical editor" alt="workspace view of the graphical exposition format" /><figcaption>workspace view of the graphical exposition format</figcaption>
 </figure>
-<p>The canvas area size is automatically adjusted: adding content will make it grow just enough for everything to fit.</p>
-<p>Some tools look slightly different when editing, than in the final result. For example: an audio tools’ control buttons only show up in the <strong>Preview</strong>. Use the <strong>preview button</strong> (the eye symbol on the top right) to see what the final result will look like to the reader.</p>
-<h1 id="workspace-tools">Workspace Tools</h1>
+<h2 id="editor-basics">Editor basics</h2>
+<p>When you open the editor you will see a gridded area in the center, this is where you add content to your exposition. Content is added by dragging-and-dropping “tools” from the toolbar onto the grid. You can see how the exposition looks by clicking the “preview” button: <img src="images/eye_metro.svg" class="icon"></p>
+<p>The position of tools in graphical expositions is determined by the author and absolute. This implies:</p>
+<ul>
+<li>Tools are not positioned relative to each other, (re)moving one will not affect the others.</li>
+<li>The canvas size is unlimited: it will grow automatically when you add tools.</li>
+<li>Tools can be placed on top of each other.</li>
+<li>Layout will not adjust to screensize of the viewer (content is not <a href="https://en.wikipedia.org/wiki/Responsive_web_design">“responsive”</a> ).</li>
+</ul>
+<p>On the right you will find the content manager, to help with managing the content of your exposition. The content manager consists of four tabs:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Tab</th>
+<th>Function:</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="#overview-1">overview</a></td>
+<td>map and list overview</td>
+</tr>
+<tr class="even">
+<td><a href="#simple-media">media</a></td>
+<td>view the previously uploaded media files</td>
+</tr>
+<tr class="odd">
+<td><a href="#footnotes-and-popovers">footnotes</a></td>
+<td>footnotes</td>
+</tr>
+<tr class="even">
+<td><a href="https://guide.researchcatalogue.net/#pages">pages</a></td>
+<td>manage pages</td>
+</tr>
+</tbody>
+</table>
 <h2 id="adding-a-tool">Adding a tool</h2>
 <p>A tool is created by <a href="https://en.wikipedia.org/wiki/Drag_and_drop">dragging</a> the icon onto the canvas.</p>
 <p><img src="images/toolbar-demo-2.png" title="image showing drag a tool to the canvas" /></p>
 <p>Tools can be resized by clicking and dragging the green borders with the mouse.</p>
 <p>Tools can be rotated by clicking and dragging the yellow dot.</p>
+<p>The size of the current weave will automatically grow when tools are added.</p>
 <h3 id="context-menu">Context menu</h3>
 <div class="small_image">
 <figure>
@@ -485,7 +514,7 @@ Delete a tool</p></li>
 <h3 id="style">Style</h3>
 <p>See <a href="#style-options">style options</a>.</p>
 <h3 id="options">Options</h3>
-<p>If a text is longer than its frame on the weave, a scrollbar is generated automatically. You can control the visibility of the scrollbar in <strong>options</strong>. The default setting is <em>automatic</em>.</p>
+<p>If a text is longer than its frame on the weave, a scrollbar is generated automatically. You can control the visibility of the scrollbar in <strong>options</strong>. The default setting is <em>automatic</em>. Be careful setting this to <strong>never</strong>: if a text tool is too small to display all the text, it will be impossible for the reader to see all the text.</p>
 <h3 id="history">History</h3>
 <p>See <a href="#history">history</a>.</p>
 <h2 id="html-tool">HTML-Tool</h2>
@@ -513,7 +542,7 @@ Delete a tool</p></li>
 <h3 id="style-1">Style</h3>
 <p><a href="#style-options">&gt; See style options</a></p>
 <h3 id="options-1">Options</h3>
-<p>If a text is longer than its frame on the weave, a scrollbar is generated automatically. You can control the visibility of the scrollbar in <strong>options</strong>. The default setting is <em>automatic</em>.</p>
+<p>If a text is longer than its frame on the weave, a scrollbar is generated automatically. You can control the visibility of the scrollbar in <strong>options</strong>. The default setting is <em>automatic</em>. Be careful setting this to <strong>never</strong>: if a text tool is too small to display all the text, it will be impossible for the reader to see all the text.</p>
 <h3 id="templates">Templates</h3>
 <p>If you want to reuse the content of an HTML-tool, you can create your own templates. This function can be found in the <strong>media</strong> tab. After finishing the edit of your template, click <strong>save</strong> <strong>as</strong> <strong>new</strong> <strong>template</strong> and give the template a name in the dialog box that appears. To load a template, click <strong>load template</strong> and choose one from the list in the dialog box.</p>
 <h3 id="submit-delete-or-cancel">Submit, Delete, Or Cancel</h3>
@@ -685,10 +714,10 @@ total number of images. -->
 <li>padding</li>
 <li>border type, color and width</li>
 <li>background (color or image)</li>
-<li>shadow</li>
+<li>shadow (unschaerfe controls how sharp the shadow is, higher values makes the transition between shadow and light softer)</li>
 <li>opacity</li>
 </ul>
-<p>The style tab only sets the basic (mostly external) style of the object, text markup is done within the text or html tools.</p>
+<p>The style tab only sets the external style of the tool, text markup is done within the text or html tools.</p>
 <h3 id="change-tool-defaults">Change tool defaults</h3>
 <p>It is possible to change the default styling settings for any tool, by double clicking the tool in the toolbar. After the default is changed, every newly created tool will initially use these new settings.</p>
 <h2 id="history-2">History</h2>
