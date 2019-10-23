@@ -6,19 +6,22 @@
 
 ## Editor basics
 
-When you open the editor you will see a gridded area in the center, this is where you add content to your exposition. 
-Content is added by dragging-and-dropping "tools" from the toolbar onto the grid. You can see how the exposition looks by clicking the "preview" button:
-<img src="images/eye_metro.svg" class="icon">
+When you open the editor you will see math-paper like area in the center, this is called the grid. 
+Content is added by dragging-and-dropping "tools" from the toolbar onto the grid. You can preview what the exposition looks like to the reader by clicking the "preview" button:
+<img src="images/eye_metro.svg" class="icon">. This preview button is located at the top right.
 
-The position of tools in graphical expositions is determined by the author and absolute. This implies:
+The position of content in graphical expositions is determined by the author and absolute. This implies:
 
 * Tools are not positioned relative to each other, (re)moving one will not affect the others.
 * The canvas size is unlimited: it will grow automatically when you add tools.
 * Tools can be placed on top of each other.
-* Layout will not adjust to screensize of the viewer (content is not ["responsive"](https://en.wikipedia.org/wiki/Responsive_web_design) ).
+* Layout will not change depending on the screensize of the viewer (content is not ["responsive"](https://en.wikipedia.org/wiki/Responsive_web_design) ).
 
-On the right you will find the content manager, to help with managing the content of your exposition.
-The content manager consists of four tabs:
+All of the above results in the graphical editor being most suitable
+for non-linear layouts. For simpler expositions, it can be worthwhile to consider using the text based editor ( see [choosing an
+editor](https://guide.researchcatalogue.net/#choosing-an-editor) ).
+
+On the right you will find the content manager, consisting of four tabs:
 
 | Tab                                                 | Function:                                |
 | --------------------------------------------------- | ---------------------------------------  |
@@ -32,6 +35,8 @@ The content manager consists of four tabs:
 ## Adding a tool
 
 A tool is created by [dragging](https://en.wikipedia.org/wiki/Drag_and_drop) the icon onto the canvas.
+
+If you click a tool once, it will open the default setting dialog.
 
 ![](images/toolbar-demo-2.png "image showing drag a tool to the canvas")
 
