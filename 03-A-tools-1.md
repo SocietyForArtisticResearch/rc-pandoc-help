@@ -61,7 +61,7 @@ The context menu of a tool is reached by clicking on the menu icon (see below), 
 Open edit dialog
 
 * __Copy__/__Paste__  
-Copy/paste objects
+Copy/paste objects <a href="#copy-paste-footnote">(<sup>*</sup>)</a>
 
 * __Bring to front__/__Bring to back__  
 Organise which object is in front of another.
@@ -71,6 +71,8 @@ Lock means that one cannot make any changes until unlocked again.
 
 * __Delete__  
 Delete a tool
+
+<a id="copy-paste-footnote">__* = Important: the object you copy, is duplicated at the moment you paste__. This means that if you change an object after copying, the pasted object will also have these changes (!)</a>
 
 
 
