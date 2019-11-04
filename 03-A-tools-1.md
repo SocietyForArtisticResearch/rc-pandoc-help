@@ -72,24 +72,21 @@ Lock means that one cannot make any changes until unlocked again.
 * __Delete__  
 Delete a tool
 
-<a id="copy-paste-footnote">__* = Important: the object you copy, is duplicated at the moment you paste__. This means that if you change an object after copying, the pasted object will also have these changes (!)</a>
-
-
-
-
 ## Key commands
 
 There are a few useful key commands in the editor. Selected tools have a green border.
 
-| __Key command:__                                         			| __Action:__						      |
-| ------------------------------------------------------------- 	| --------------------------------------- |
-| __ctrl + c__ 				 							   			| copy selected tools  					  |
-| __ctrl + v__             								   			| paste 								  |
-| __&#8984;(Mac) + a__ or __ctrl + a__ 				   				| select all tools on current weave   	  |
-| __&#8984;(Mac) + click__ or __ctrl + click__ on object 			| select multiple objects one by one      |
-| __backspace, delete__    		                           			| remove selected tools                   |
+| __Key command:__                                              | __Action:__                                                                |
+| ------------------------------------------------------------- | ---------------------------------------                                    |
+| __ctrl + c__                                                  | copy selected tools  	<a href="#copy-paste-footnote">(<sup>*</sup>)</a>    |
+| __ctrl + v__                                                  | paste                                                                      |
+| __&#8984;(Mac) + a__ or __ctrl + a__                          | select all tools on current weave                                          |
+| __&#8984;(Mac) + click__ or __ctrl + click__ on object        | select multiple objects one by one                                         |
+| __backspace, delete__                                         | remove selected tools                                                      |
 
-### Defaults
+<a id="copy-paste-footnote">__* = Important: the object you copy, is duplicated at the moment you paste__. This means that if you change an object after copying, the pasted object will also have these changes (!)</a>
+
+## Defaults
 
 Defaults for styling and options can be set for a tool, by clicking it in the toolbar.
 
