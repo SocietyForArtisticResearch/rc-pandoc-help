@@ -78,12 +78,14 @@
 <li><a href="#media-list">Media list</a></li>
 <li><a href="#import-export">Import &amp; export</a></li>
 <li><a href="#edit-style">Edit style</a></li>
+<li><a href="#toolbar">Toolbar</a></li>
 <li><a href="#markdown">Markdown</a></li>
 <li><a href="#paragraphs">Paragraphs</a></li>
 <li><a href="#headers">Headers</a></li>
 <li><a href="#lists">Lists</a></li>
 <li><a href="#links">Links</a></li>
-<li><a href="#footnotes">Footnotes</a></li>
+<li><a href="#footnotes-text-based">Footnotes (text based)</a></li>
+<li><a href="#quotation">Quotation</a></li>
 </ul></li>
 <li><a href="#navigation">Navigation</a><ul>
 <li><a href="#navigation-bar">Navigation bar</a></li>
@@ -884,10 +886,8 @@ Replace the entire page by an external website by means of a URL. There are a fe
 <h1 id="text-based-editor">Text based editor</h1>
 <p>First time user of the text editor? <a href="#introduction">click here</a>.</p>
 <h2 id="overview">Overview</h2>
-<div id="overview-block">
-<p>
-Click any element in the image to jump to the relevant section.
-</p>
+<!-- <div id="overview-block">
+<p>Click any element in the image to jump to the relevant section.</p>
 <div class="rcimage big center">
 <object class="overview-map" width="1000" height="542" data="images/editor-overview.png" usemap="#image-map">
 </object>
@@ -900,9 +900,31 @@ Click any element in the image to jump to the relevant section.
 <area target="" alt="editor" title="editor" href="#editor" coords="19,120,995,510" shape="rect">
 <area target="" alt="preview" title="preview" href="#preview" coords="505,119,999,536" shape="rect">
 <area target="" alt="title" title="title" href="title" coords="15,12,231,44" shape="rect">
+</map>  
+</div> -->
+<div id="overview-block">
+<p>
+Click any element in the image to jump to the relevant section.
+</p>
+<div class="rcimage big center">
+<object data="images/editor-overview-elm.png" width="1000" height="549" class="overview-map" usemap="#image-map">
+</object>
+</div>
+<map name="image-map">
+<area target="" alt="Upload media files" title="Upload media files" href="#upload-media" coords="101,68,2,46" shape="rect">
+<area target="" alt="Import external format (Word docx, Open office odt, Plain txt)" title="Import external format (Word docx, Open office odt, Plain txt)" href="#import-export" coords="107,51,189,70" shape="rect">
+<area target="" alt="Editor (using Markdown)" title="Editor (using Markdown)" href="#editor" coords="496,530,7,97" shape="rect">
+<area target="" alt="(Live) preview of the exposition" title="(Live) preview of the exposition" href="#preview" coords="497,1,1000,545" shape="rect">
+<area target="" alt="Export to other formats (Pdf, odt, docx etc.)" title="Export to other formats (Pdf, odt, docx etc.)" href="#import-export" coords="289,71,193,44" shape="rect">
+<area target="" alt="Media list (edit metadata/display)" title="Media list (edit metadata/display)" href="#media-list" coords="75,5,123,40" shape="rect">
+<area target="" alt="Style tab" title="Style tab" href="#style-tab" coords="126,8,168,41" shape="rect">
+<area target="" alt="Markdown" title="Markdown" href="#markdown" coords="0,5,72,41" shape="rect">
+<area target="" alt="Toolbar" title="Toolbar" href="#toolbar" coords="7,73,481,94" shape="rect">
+<area target="" alt="Help / Preview / Profile / Logout " title="Help / Preview / Profile / Logout " href="#menu" coords="365,5,488,34" shape="rect">
+<area target="" alt="Saving" title="Saving" href="#saving" coords="434,534,492,548" shape="rect">
 </map>
 </div>
-<ol type="1">
+<ul>
 <li><a href="#markdown">markdown</a> <a href="#editor">editor</a><br />
 <em>write and edit your text</em></li>
 <li><a href="#preview">preview</a><br />
@@ -914,57 +936,73 @@ Click any element in the image to jump to the relevant section.
 <li><a href="#style">style editor</a><br />
 <em>change the styling (font-size etc..) using CSS</em><br />
 </li>
-<li><a href="#drag-and-drop">drag and drop zone</a><br />
-<em>quickly insert any media file</em><br />
-</li>
-<li><a href="#title">title field</a><br />
-<em>change the title of the exposition</em></li>
-</ol>
+<li><a href="#upload-media">Upload media</a><br />
+<em>Upload media files (image, video, pdf) and insert in your exposition</em></li>
+</ul>
 <h2 id="introduction">Introduction</h2>
-<p>The text editor is aimed at creating <a href="http://https://nl.wikipedia.org/wiki/Responsive_webdesign">responsive</a> RC expositions that mainly consist of text.</p>
-<p>You can write your text on the left side <a href="#editor">editor</a> while the result is shown as a <a href="#preview">preview</a> on the right hand side. It is also possible to <a href="#import-export">import</a> text from external formats like Word and Open Office. Formatting (<strong>bold</strong>,<em>italic</em> etc…) is added using <a href="#markdown">markdown</a> notation.</p>
-<p>If you want to use images or other media in your article, you can add these through the <a href="#drag-and-drop"><strong>“click or drop to add media”</strong> button/drop zone </a>, when the upload has finished the media will be automatically inserted into the current cursor location.</p>
+<p>The text-based exposition editor is aimed at creating <a href="http://https://nl.wikipedia.org/wiki/Responsive_webdesign">responsive</a> RC expositions. Despite the name, the result can still contain images, video, audio and pdf. The name refers to the method of editing them: through the writing of plain text. Because of the plain text input, text-based expositions can easily be imported or edited in external editors. The trade-off is that editing the visual layout is less direct as in the graphical based editor.</p>
+<p>The editor splits the screen in two: you can write your text on the left side <a href="#editor">editor</a> while the result is shown as a <a href="#preview">preview</a> on the right hand side. It is also possible to <a href="#import-export">import</a> the text from external formats like Word and Open Office. Formatting (<strong>bold</strong>,<em>italic</em> etc…) is added using <a href="#markdown">markdown</a> notation.</p>
+<p>If you want to insert <a href="#" title="video, audio, image or PDF">media</a>, you can add these through the <a href="#upload-media"><strong>“upload media”</strong> button </a>, when the upload has finished the media edit dialog will automatically open, which allows you to set the properties and insert the media in the current cursor position.</p>
 <p>Finally, the look of your text and media can be controlled through the media list and the style editor.</p>
 <h2 id="editor">Editor</h2>
 <p>The left hand side is where you can edit your text. The format used is <a href="#markdown">markdown</a>, which is a plain text format (like with a typewriter). The editor automatically detects paragraphs.</p>
-<p>For styling not supported by markdown, you can use HTML, since HTML is also allowed within markdown (with the exception of scripts, for security reasons).</p>
+<p>For styling not supported by markdown, you can use HTML, since HTML is also allowed within Markdown (with the exception of scripts, for security reasons).</p>
 <h2 id="preview-1">Preview</h2>
 <p>Here you can see a preview of your exposition.</p>
 <p>Note, that because text based expositions are responsive (react to the size of the window), the result may change based on the width of the screen. For a full view preview, use the eye button in the toolbar.</p>
 <h2 id="media-list">Media list</h2>
-<p>Video, audio, images and pdf can be placed in your expositions. They are represented on the editor side with the notation “! {name}” which is then replaced with the actual media item in the rendered exposition.</p>
+<p>Video, audio, images and pdf can be placed in your expositions. They are represented on the editor side with the notation<br />
+<strong>“! {name}”</strong><br />
+which is replaced with the actual media item in the rendered exposition.</p>
 <p>Note: you do not have to type the ! { name } yourself, when you upload something or insert media through the media list, the correct placeholder is inserted for you.</p>
-<h3 id="inserting-media">Inserting media</h3>
-<p>To insert new media, drop or select your file in the <strong>drag and drop</strong> zone. After the upload finishes the media placeholder ( ! {media} ) will be inserted at the current cursor position.</p>
-<p>If you want to insert previously used media, you have to open the media list and click insert button next to the desired item.</p>
+<h3 id="upload-media">Upload media</h3>
+<p>To add new media, click upload media. After the upload finishes, the media edit dialog opens. This allow you to edit its metadata, size and to insert the media at the current cursor position.</p>
+<p>If you want to insert previously used media, you can use the “picture button” in the toolbar.</p>
 <figure>
-<img src="images/insert-media.png" title="text showing inserting media" alt="inserting media" /><figcaption>inserting media</figcaption>
+<img src="images/insert-media-elm.png" title="text showing inserting media" alt="inserting media" /><figcaption>inserting media</figcaption>
 </figure>
-<p><a name="drag-and-drop"></a></p>
-<h3 id="drag-and-drop">Drag and drop</h3>
-<p>Click this zone to open a file picker, alternatively media files (images, audio, video or pdf) can also be directly dropped here from your media browser. When the upload is finished the media item is directly inserted to the current cursor location of your text.</p>
 <h3 id="editing-media">Editing media</h3>
-<p>In the <strong>media list</strong> you can edit media and the way it is displayed.</p>
+<p>In the <strong>media list</strong> you can edit media, its metadata and the way it is displayed.</p>
 <figure>
-<img src="images/media-list.png" title="image showing media list" alt="The media list" /><figcaption>The media list</figcaption>
+<img src="images/media-list-elm.png" title="image showing media list" alt="The media list" /><figcaption>The media list</figcaption>
 </figure>
 <ul>
 <li>name (also used for the tag)</li>
-<li>replace the media file with another</li>
-<li>change the way the files is displayed (float left/right, size)</li>
+<li>change the way the files is displayed (size, float left/right)</li>
 <li>add copyright info</li>
+<li>choose a license</li>
 <li>add description <br><br><br />
 Using the buttons in the list itself:</li>
 <li>remove the object from your exposition</li>
 <li>insert the object in the current position in the text.</li>
 </ul>
+<figure>
+<img src="images/edit-media-elm.png" title="image showing the edit media dialog" alt="The media edit dialog" /><figcaption>The media edit dialog</figcaption>
+</figure>
 <h2 id="import-export">Import &amp; export</h2>
-<p>You can import documents from text editors like Word (.docx), Libre/Open Office (.odt), HTML and several other formats. Not all styling is supported but images, footnotes, tables and most other core features of the text are.</p>
+<p>You can import documents from text editors like Word (.docx), Libre/Open Office (.odt), HTML and several other formats. Not all styling is supported but images, footnotes, tables and most other structural features of the text are.</p>
 <h2 id="edit-style">Edit style</h2>
 <p>For users that know CSS, edit style opens a CSS editor. Most templates will provide some basic formatting already, that you can adjust to your needs.</p>
+<h2 id="toolbar">Toolbar</h2>
+<p>From left to right:</p>
+<ul>
+<li>H1, H2 &amp; H3 - insert <a href="#headers">header</a> formatting</li>
+<li>B / I - insert <a href="#strong-emphasis"><strong>bold</strong> (strong) and italic (<em>emphasis</em>)</a></li>
+<li><img class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/list-unordered.svg" title="icon" alt="list formatting button"> - <a href="#lists">Unordered list / bullet point</a> formatting</li>
+<li><img class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/list-ordered.svg" title="icon" alt="list formatting button"> - <a href="#lists">Ordered list / Numbered list</a> formatting</li>
+<li><img class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/link-intact.svg" title="icon" alt="hyperlink formatting"> - Insert <a href="#links">hyperlink</a> formatting</li>
+<li><img class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/double-quote-sans-left.svg" title="icon" alt="quotation"> - Quotation</li>
+<li><strong>*</strong> - Insert <a href="#footnotes">footnote</a> notation</li>
+<li><img class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/file-media.svg"> - Insert Media from media list</li>
+<li><img class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/undo.svg"> - Undo/Redo</li>
+<li>txt - Switch to plain text mode (browser can provide spellchecker in this mode)</li>
+<li><img class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/screen-full.svg
+"> - Fullscreen mode (hides preview)</li>
+</ul>
 <h2 id="markdown">Markdown</h2>
 <p>Markdown is a human-friendly way of writing HTML webpages without using code. Markdown is written as plain text (like you would write on a typewriter), that is translated into HTML for you.</p>
 <p>By surrounding your words with a few special characters you can inform markdown which styling you want it to use.</p>
+<p><a id="strong-emphasis"></p>
 <p>For example:<br />
 <em>italic</em> = <code>*italic*</code><br />
 <strong>bold</strong> = <code>__bold__</code></p>
@@ -976,7 +1014,10 @@ TIP: You can force a linebreak by leaving 2 spaces at the end of a line.</p>
 <h2 id="headers">Headers</h2>
 <p>Headers are defined by using one or more "#" in front of the header name:</p>
 <p><code># header 1</code><br> <code>## header 2</code><br> <code>### header 3</code><br></p>
-<p>There are six levels. Header level # and ## are automatically included in the contents menu, for easy navigation for the reader.</p>
+<p>There are six levels of headers. Header level # and ## are automatically included in the <strong>contents</strong> menu, for easy navigation for the reader.</p>
+<p>An alternative way of writing headers is by putting ===== or — below you header text.</p>
+<p><code>Header 1</code> <code>========</code></p>
+<p><code>Header 2</code> <code>----------</code></p>
 <h2 id="lists">Lists</h2>
 <p>To get a bullet point list, write * before each item. Each item is seperated by a newline. A whiteline should preclude the first item. Thus, when you write:</p>
 <pre><code>* my first point
@@ -996,12 +1037,16 @@ TIP: You can force a linebreak by leaving 2 spaces at the end of a line.</p>
 <p>Hyperlinks are written in the following manner: <code>[linktext](http://example.com)</code><br />
 which results in:<br />
 <a href="http://example.com">linktext</a></p>
-<h2 id="footnotes">Footnotes</h2>
-<p>The easiest way of inserting a footnote is using the footnote button: <b>x<sup>2</sup></b>.</p>
-<p>If you want, you can also write them directly with the following notation:<br />
-<code>[^1]</code></p>
-<p><code>[^1]: this is footnote text.</code></p>
-<p>The footnote content is automatically moved to the bottom.</p>
+<h2 id="footnotes-text-based">Footnotes (text based)</h2>
+<p>The easiest way of inserting a footnote is using the footnote button: [ <strong>*</strong> ]. Footnotes consist of two parts, the reference, written like so:</p>
+<p><code>[^1]</code></p>
+<p>Then you define the footnote content at the bottom of your text with:</p>
+<p><code>[^1]: This is my footnote.</code></p>
+<p>It’s content is automatically moved to the bottom of the text. The footnote content is automatically moved to the bottom of the resulting text.</p>
+<h2 id="quotation">Quotation</h2>
+<p>A quotation is inserted by indenting your text with 4 spaces or 1 tab, like so:</p>
+<p><code>quotation</code> <code>more quotation</code></p>
+<p>Quotations are not automatically formatted (they keep their newlines).</p>
 <!-- TODO: Insert links to other parts of the documentation -->
 <h1 id="navigation">Navigation</h1>
 <h2 id="navigation-bar">Navigation bar</h2>
