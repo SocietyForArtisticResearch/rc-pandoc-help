@@ -36,7 +36,7 @@ First time user of the text editor? <a href="#introduction">click here</a>.
    
 ## Introduction  
 
-The text-based editor is aimed at creating [responsive](http://https://nl.wikipedia.org/wiki/Responsive_webdesign) RC expositions. Despite the "text" in the name, the result can also contain images, video, audio and pdf. "Text based" refers to the method of editing them: through the writing of plain text. Because of this plain text input, text-based expositions can be imported or edited in external editors. The trade-off is that editing the visual layout is less direct as in the graphical based editor.
+The text-based editor is aimed at creating [responsive](http://https://nl.wikipedia.org/wiki/Responsive_webdesign) RC expositions. Despite the "text" in the name, the result can also contain images, video, audio or PDF. "Text based" refers to the method of editing: through the writing of text. Because of this plain text input, text-based expositions can be easily imported or edited in external editors. The trade-off is that editing the visual layout is less direct as in the graphical based editor.
  
 On desktop, the editor splits the screen in two: you can write your text on the left side <a href="#editor">editor</a> while the result is shown as a <a href="#preview">preview</a> on the right hand side. It is also possible to <a href="#import-export">import</a> the text from external formats like Word and Open Office. Formatting (__bold__,*italic* etc...) is added using <a href="#markdown">markdown</a> notation.
  
@@ -46,9 +46,11 @@ Finally, the look of your text and media can be controlled through the media lis
 
 ## Editor
 
-The left hand side is where you can edit your text. The format used is <a href="#markdown">markdown</a>, which is a plain text format (like a typewriter, no formatting). The editor automatically detects paragraphs.  
- 
-For text structures not supported by markdown, one can use HTML, since HTML tags are also allowed within Markdown (with the exception of scripts, for security reasons).
+The left hand side is where you can edit your text. The format used is [Markdown](#markdown "link to markdown docs"), which is a plain text format (like SMS or a simple email). You cannot edit the styling of the text (font-size, color etc.. are edited in [style](#edit-style) ), but you can express the structure, see [Markdown](#markdown "more about markdown").
+
+You can switch the editor display between "markdown", where it shows the markdown structure using colors, or "plain txt" which shows the spellchecker [^1].
+
+[^1]: You may have to turn this feature on in your browser.
 
 ## Preview
 
