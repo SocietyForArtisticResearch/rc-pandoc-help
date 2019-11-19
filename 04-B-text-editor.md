@@ -5,23 +5,19 @@ First time user of the text editor? <a href="#introduction">click here</a>.
 ## Overview
 
 <div id="overview-block">
-<p>Click any element in the image to jump to the relevant section.</p>
-<div class="rcimage big center">
-<object data="images/editor-overview-elm.png" width="1000" height="549" class="overview-map" usemap="#image-map">
-</object>
-</div>
-<map name="image-map">
-    <area target="" alt="Upload media files" title="Upload media files" href="#upload-media" coords="101,68,2,46" shape="rect">
-    <area target="" alt="Import external format (Word docx, Open office odt, Plain txt)" title="Import external format (Word docx, Open office odt, Plain txt)" href="#import-export" coords="107,51,189,70" shape="rect">
-    <area target="" alt="Editor (using Markdown)" title="Editor (using Markdown)" href="#editor" coords="496,530,7,97" shape="rect">
-    <area target="" alt="(Live) preview of the exposition" title="(Live) preview of the exposition" href="#preview" coords="497,1,1000,545" shape="rect">
-    <area target="" alt="Export to other formats (Pdf, odt, docx etc.)" title="Export to other formats (Pdf, odt, docx etc.)" href="#import-export" coords="289,71,193,44" shape="rect">
-    <area target="" alt="Media list (edit metadata/display)" title="Media list (edit metadata/display)" href="#media-list" coords="75,5,123,40" shape="rect">
-    <area target="" alt="Style tab" title="Style tab" href="#style-tab" coords="126,8,168,41" shape="rect">
-    <area target="" alt="Markdown" title="Markdown" href="#markdown" coords="0,5,72,41" shape="rect">
-    <area target="" alt="Toolbar" title="Toolbar" href="#toolbar" coords="7,73,481,94" shape="rect">
-    <area target="" alt="Help / Preview / Profile / Logout " title="Help / Preview / Profile / Logout " href="#menu" coords="365,5,488,34" shape="rect">
-    <area target="" alt="Saving" title="Saving" href="#saving" coords="434,534,492,548" shape="rect">
+<p>Click any element in the image to jump to the relevant section:</p>
+<img class="center overview-map" src="images/editor-overview-elm.png" width="1000" height="549" class="overview-map" usemap="#image-map">
+<map name="image-map"> <area alt="Upload media files" title="Upload media files" href="#upload-media" coords="101,68,2,46" shape="rect">
+    <area alt="Import external format (Word docx, Open office odt, Plain txt)" title="Import external format (Word docx, Open office odt, Plain txt)" href="#import-export" coords="107,51,189,70" shape="rect">
+    <area alt="Editor (using Markdown)" title="Editor (using Markdown)" href="#editor" coords="496,530,7,97" shape="rect">
+    <area alt="(Live) preview of the exposition" title="(Live) preview of the exposition" href="#preview" coords="497,1,1000,545" shape="rect">
+    <area alt="Export to other formats (Pdf, odt, docx etc.)" title="Export to other formats (Pdf, odt, docx etc.)" href="#import-export" coords="289,71,193,44" shape="rect">
+    <area alt="Media list (edit metadata/display)" title="Media list (edit metadata/display)" href="#media-list" coords="75,5,123,40" shape="rect">
+    <area alt="Style tab" title="Style tab" href="#style-tab" coords="126,8,168,41" shape="rect">
+    <area alt="Markdown" title="Markdown" href="#markdown" coords="0,5,72,41" shape="rect">
+    <area alt="Toolbar" title="Toolbar" href="#toolbar" coords="7,73,481,94" shape="rect">
+    <area alt="Help / Preview / Profile / Logout " title="Help / Preview / Profile / Logout " href="#menu" coords="365,5,488,34" shape="rect">
+    <area alt="Saving" title="Saving" href="#saving" coords="434,534,492,548" shape="rect">
 </map>
 </div>
     
@@ -40,9 +36,9 @@ First time user of the text editor? <a href="#introduction">click here</a>.
    
 ## Introduction  
 
-The text-based exposition editor is aimed at creating [responsive](http://https://nl.wikipedia.org/wiki/Responsive_webdesign) RC expositions. Despite the name, the result can still contain images, video, audio and pdf. The name refers to the method of editing them: through the writing of plain text. Because of the plain text input, text-based expositions can easily be imported or edited in external editors. The trade-off is that editing the visual layout is less direct as in the graphical based editor.
+The text-based editor is aimed at creating [responsive](http://https://nl.wikipedia.org/wiki/Responsive_webdesign) RC expositions. Despite the "text" in the name, the result can also contain images, video, audio and pdf. "Text based" refers to the method of editing them: through the writing of plain text. Because of this plain text input, text-based expositions can be imported or edited in external editors. The trade-off is that editing the visual layout is less direct as in the graphical based editor.
  
-The editor splits the screen in two: you can write your text on the left side <a href="#editor">editor</a> while the result is shown as a <a href="#preview">preview</a> on the right hand side. It is also possible to <a href="#import-export">import</a> the text from external formats like Word and Open Office. Formatting (__bold__,*italic* etc...) is added using <a href="#markdown">markdown</a> notation.
+On desktop, the editor splits the screen in two: you can write your text on the left side <a href="#editor">editor</a> while the result is shown as a <a href="#preview">preview</a> on the right hand side. It is also possible to <a href="#import-export">import</a> the text from external formats like Word and Open Office. Formatting (__bold__,*italic* etc...) is added using <a href="#markdown">markdown</a> notation.
  
 If you want to insert [media](#introduction "video, audio, image or PDF"), you can add these through the <a href="#upload-media">__"upload media"__ button  </a>, when the upload has finished the media edit dialog will automatically open, which allows you to set the properties and insert the media in the current cursor position.  
 
@@ -50,38 +46,31 @@ Finally, the look of your text and media can be controlled through the media lis
 
 ## Editor
 
-The left hand side is where you can edit your text. The format used is <a href="#markdown">markdown</a>, which is a plain text format (like with a typewriter). The editor automatically detects paragraphs.  
+The left hand side is where you can edit your text. The format used is <a href="#markdown">markdown</a>, which is a plain text format (like a typewriter, no formatting). The editor automatically detects paragraphs.  
  
-For styling not supported by markdown, you can use HTML, since HTML tags are also allowed within Markdown (with the exception of scripts, for security reasons).
+For text structures not supported by markdown, one can use HTML, since HTML tags are also allowed within Markdown (with the exception of scripts, for security reasons).
 
 ## Preview
 
 Here you can see a preview of your exposition.
 
-Note, that because text based expositions are responsive (react to the size of the window), the result may change based on the width of the screen. For a full view preview, use the eye button in the toolbar.
-
-## Media list
-
-Video, audio, images and pdf can be placed in your expositions. They are represented on the editor side with the notation \
-__"! {name}"__\
- which is replaced with the actual media item in the rendered exposition.
-
-Note: you do not have to type the ! { name }  yourself, when you upload something or insert media through the media list, the correct placeholder is inserted for you.
+Because text based expositions are responsive (react to the size of the window), the result may change based on the width of the screen. For a full view preview, use the eye button in the toolbar. 
 
 ### Upload media
 
 To add new media, click upload media. After the upload finishes, the media edit dialog opens. This allow you to edit its metadata, size and to insert the media at the current cursor position.
 
-If you want to insert previously used media, you can use the "picture button" in the toolbar.
+If you want to insert previously used media, you can use the "media button" in the [toolbar](#toolbar).
 
-![inserting media](images/insert-media-elm.png "text showing inserting media")
+## Media list
 
-### Editing media 
-
-In the **media list** you can edit media, its metadata and the way it is displayed.
+All media that you uploaded will appear in the "media list", where they can be edited or deleted.
 
 ![The media list](images/media-list-elm.png "image showing media list")
 
+### Editing media 
+
+From within the media-list, if you click [__edit__], you will be able to change the __name__, __metadata__ and display of a media file.
 
 * name (also used for the tag)
 * change the way the files is displayed (size, float left/right)
@@ -94,6 +83,19 @@ Using the buttons in the list itself:
 * insert the object in the current position in the text.
 
 ![The media edit dialog](images/edit-media-elm.png "image showing the edit media dialog")
+
+## Insert media
+
+Media is represented on the editor side using a !{*media-name*} tag. 
+The easiest way of inserting such a media tag is throught the [insert media toolbar button](#insert-toolbar-button), which shows a list of available media that can be inserted. Double click any item to insert.
+
+![inserting media using the insert button](images/insert-media-elm.png "inserting media using the insert button")
+
+You can also write the media tags directly, for example: to insert a media named "myFile", you can directly write !{myFile}. 
+This !{myFile} tag will be the location in your text where myFile will be inserted.
+
+A __caption text__ can also be included, to get a caption you write ![my caption text]{myFile}.
+The caption text is displayed underneath the media.
 
 ## Import & export
 
@@ -114,7 +116,7 @@ From left to right:
 * <img class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/link-intact.svg" title="icon" alt="hyperlink formatting"> - Insert [hyperlink](#links) formatting
 * <img class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/double-quote-sans-left.svg" title="icon" alt="quotation"> - Quotation
 * __\*__ -  Insert [footnote](#footnotes) notation
-* <img class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/file-media.svg"> - Insert Media from media list
+* <img id="insert-toolbar-button" class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/file-media.svg"> - Insert Media from media list
 * <img class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/undo.svg"> - Undo/Redo
 * txt - Switch to plain text mode (browser can provide spellchecker in this mode)
 * <img class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/screen-full.svg

@@ -166,6 +166,10 @@ img {
     border:2px solid #888;
 }
 
+.overview-map {
+  width:1000px;
+}
+
 .icon {
     min-width:unset;
     width:15px;

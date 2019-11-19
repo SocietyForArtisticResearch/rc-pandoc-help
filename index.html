@@ -76,6 +76,7 @@
 <li><a href="#editor">Editor</a></li>
 <li><a href="#preview-1">Preview</a></li>
 <li><a href="#media-list">Media list</a></li>
+<li><a href="#insert-media">Insert media</a></li>
 <li><a href="#import-export">Import &amp; export</a></li>
 <li><a href="#edit-style">Edit style</a></li>
 <li><a href="#toolbar">Toolbar</a></li>
@@ -86,6 +87,7 @@
 <li><a href="#links">Links</a></li>
 <li><a href="#footnotes-text-based">Footnotes (text based)</a></li>
 <li><a href="#quotation">Quotation</a></li>
+<li><a href="#tables-markdown">Tables (markdown)</a></li>
 </ul></li>
 <li><a href="#navigation">Navigation</a><ul>
 <li><a href="#navigation-bar">Navigation bar</a></li>
@@ -886,43 +888,11 @@ Replace the entire page by an external website by means of a URL. There are a fe
 <h1 id="text-based-editor">Text based editor</h1>
 <p>First time user of the text editor? <a href="#introduction">click here</a>.</p>
 <h2 id="overview">Overview</h2>
-<!-- <div id="overview-block">
-<p>Click any element in the image to jump to the relevant section.</p>
-<div class="rcimage big center">
-<object class="overview-map" width="1000" height="542" data="images/editor-overview.png" usemap="#image-map">
-</object>
-</div>
-<map name="image-map">
-<area target="" alt="media list" title="media list" href="#media-list" coords="11,47,85,77" shape="rect">
-<area target="" alt="import export" title="import export" href="#import-export" coords="87,49,180,80" shape="rect">
-<area target="" alt="edit style" title="edit style" href="#edit-style" coords="185,50,255,73" shape="rect">
-<area target="" alt="drag-and-drop" title="drag-and-drop" href="#drag-and-drop" coords="259,55,416,81" shape="rect">
-<area target="" alt="editor" title="editor" href="#editor" coords="19,120,995,510" shape="rect">
-<area target="" alt="preview" title="preview" href="#preview" coords="505,119,999,536" shape="rect">
-<area target="" alt="title" title="title" href="title" coords="15,12,231,44" shape="rect">
-</map>  
-</div> -->
 <div id="overview-block">
 <p>
-Click any element in the image to jump to the relevant section.
+Click any element in the image to jump to the relevant section:
 </p>
-<div class="rcimage big center">
-<object data="images/editor-overview-elm.png" width="1000" height="549" class="overview-map" usemap="#image-map">
-</object>
-</div>
-<map name="image-map">
-<area target="" alt="Upload media files" title="Upload media files" href="#upload-media" coords="101,68,2,46" shape="rect">
-<area target="" alt="Import external format (Word docx, Open office odt, Plain txt)" title="Import external format (Word docx, Open office odt, Plain txt)" href="#import-export" coords="107,51,189,70" shape="rect">
-<area target="" alt="Editor (using Markdown)" title="Editor (using Markdown)" href="#editor" coords="496,530,7,97" shape="rect">
-<area target="" alt="(Live) preview of the exposition" title="(Live) preview of the exposition" href="#preview" coords="497,1,1000,545" shape="rect">
-<area target="" alt="Export to other formats (Pdf, odt, docx etc.)" title="Export to other formats (Pdf, odt, docx etc.)" href="#import-export" coords="289,71,193,44" shape="rect">
-<area target="" alt="Media list (edit metadata/display)" title="Media list (edit metadata/display)" href="#media-list" coords="75,5,123,40" shape="rect">
-<area target="" alt="Style tab" title="Style tab" href="#style-tab" coords="126,8,168,41" shape="rect">
-<area target="" alt="Markdown" title="Markdown" href="#markdown" coords="0,5,72,41" shape="rect">
-<area target="" alt="Toolbar" title="Toolbar" href="#toolbar" coords="7,73,481,94" shape="rect">
-<area target="" alt="Help / Preview / Profile / Logout " title="Help / Preview / Profile / Logout " href="#menu" coords="365,5,488,34" shape="rect">
-<area target="" alt="Saving" title="Saving" href="#saving" coords="434,534,492,548" shape="rect">
-</map>
+<p><img class="center overview-map" src="images/editor-overview-elm.png" width="1000" height="549" class="overview-map" usemap="#image-map"> <map name="image-map"> <area alt="Upload media files" title="Upload media files" href="#upload-media" coords="101,68,2,46" shape="rect"> <area alt="Import external format (Word docx, Open office odt, Plain txt)" title="Import external format (Word docx, Open office odt, Plain txt)" href="#import-export" coords="107,51,189,70" shape="rect"> <area alt="Editor (using Markdown)" title="Editor (using Markdown)" href="#editor" coords="496,530,7,97" shape="rect"> <area alt="(Live) preview of the exposition" title="(Live) preview of the exposition" href="#preview" coords="497,1,1000,545" shape="rect"> <area alt="Export to other formats (Pdf, odt, docx etc.)" title="Export to other formats (Pdf, odt, docx etc.)" href="#import-export" coords="289,71,193,44" shape="rect"> <area alt="Media list (edit metadata/display)" title="Media list (edit metadata/display)" href="#media-list" coords="75,5,123,40" shape="rect"> <area alt="Style tab" title="Style tab" href="#style-tab" coords="126,8,168,41" shape="rect"> <area alt="Markdown" title="Markdown" href="#markdown" coords="0,5,72,41" shape="rect"> <area alt="Toolbar" title="Toolbar" href="#toolbar" coords="7,73,481,94" shape="rect"> <area alt="Help / Preview / Profile / Logout " title="Help / Preview / Profile / Logout " href="#menu" coords="365,5,488,34" shape="rect"> <area alt="Saving" title="Saving" href="#saving" coords="434,534,492,548" shape="rect"> </map></p>
 </div>
 <ul>
 <li><a href="#markdown">markdown</a> <a href="#editor">editor</a><br />
@@ -940,32 +910,26 @@ Click any element in the image to jump to the relevant section.
 <em>Upload media files (image, video, pdf) and insert in your exposition</em></li>
 </ul>
 <h2 id="introduction">Introduction</h2>
-<p>The text-based exposition editor is aimed at creating <a href="http://https://nl.wikipedia.org/wiki/Responsive_webdesign">responsive</a> RC expositions. Despite the name, the result can still contain images, video, audio and pdf. The name refers to the method of editing them: through the writing of plain text. Because of the plain text input, text-based expositions can easily be imported or edited in external editors. The trade-off is that editing the visual layout is less direct as in the graphical based editor.</p>
-<p>The editor splits the screen in two: you can write your text on the left side <a href="#editor">editor</a> while the result is shown as a <a href="#preview">preview</a> on the right hand side. It is also possible to <a href="#import-export">import</a> the text from external formats like Word and Open Office. Formatting (<strong>bold</strong>,<em>italic</em> etc…) is added using <a href="#markdown">markdown</a> notation.</p>
-<p>If you want to insert <a href="#" title="video, audio, image or PDF">media</a>, you can add these through the <a href="#upload-media"><strong>“upload media”</strong> button </a>, when the upload has finished the media edit dialog will automatically open, which allows you to set the properties and insert the media in the current cursor position.</p>
+<p>The text-based editor is aimed at creating <a href="http://https://nl.wikipedia.org/wiki/Responsive_webdesign">responsive</a> RC expositions. Despite the “text” in the name, the result can also contain images, video, audio and pdf. “Text based” refers to the method of editing them: through the writing of plain text. Because of this plain text input, text-based expositions can be imported or edited in external editors. The trade-off is that editing the visual layout is less direct as in the graphical based editor.</p>
+<p>On desktop, the editor splits the screen in two: you can write your text on the left side <a href="#editor">editor</a> while the result is shown as a <a href="#preview">preview</a> on the right hand side. It is also possible to <a href="#import-export">import</a> the text from external formats like Word and Open Office. Formatting (<strong>bold</strong>,<em>italic</em> etc…) is added using <a href="#markdown">markdown</a> notation.</p>
+<p>If you want to insert <a href="#introduction" title="video, audio, image or PDF">media</a>, you can add these through the <a href="#upload-media"><strong>“upload media”</strong> button </a>, when the upload has finished the media edit dialog will automatically open, which allows you to set the properties and insert the media in the current cursor position.</p>
 <p>Finally, the look of your text and media can be controlled through the media list and the style editor.</p>
 <h2 id="editor">Editor</h2>
-<p>The left hand side is where you can edit your text. The format used is <a href="#markdown">markdown</a>, which is a plain text format (like with a typewriter). The editor automatically detects paragraphs.</p>
-<p>For styling not supported by markdown, you can use HTML, since HTML is also allowed within Markdown (with the exception of scripts, for security reasons).</p>
+<p>The left hand side is where you can edit your text. The format used is <a href="#markdown">markdown</a>, which is a plain text format (like a typewriter, no formatting). The editor automatically detects paragraphs.</p>
+<p>For text structures not supported by markdown, one can use HTML, since HTML tags are also allowed within Markdown (with the exception of scripts, for security reasons).</p>
 <h2 id="preview-1">Preview</h2>
 <p>Here you can see a preview of your exposition.</p>
-<p>Note, that because text based expositions are responsive (react to the size of the window), the result may change based on the width of the screen. For a full view preview, use the eye button in the toolbar.</p>
-<h2 id="media-list">Media list</h2>
-<p>Video, audio, images and pdf can be placed in your expositions. They are represented on the editor side with the notation<br />
-<strong>“! {name}”</strong><br />
-which is replaced with the actual media item in the rendered exposition.</p>
-<p>Note: you do not have to type the ! { name } yourself, when you upload something or insert media through the media list, the correct placeholder is inserted for you.</p>
+<p>Because text based expositions are responsive (react to the size of the window), the result may change based on the width of the screen. For a full view preview, use the eye button in the toolbar.</p>
 <h3 id="upload-media">Upload media</h3>
 <p>To add new media, click upload media. After the upload finishes, the media edit dialog opens. This allow you to edit its metadata, size and to insert the media at the current cursor position.</p>
-<p>If you want to insert previously used media, you can use the “picture button” in the toolbar.</p>
-<figure>
-<img src="images/insert-media-elm.png" title="text showing inserting media" alt="inserting media" /><figcaption>inserting media</figcaption>
-</figure>
-<h3 id="editing-media">Editing media</h3>
-<p>In the <strong>media list</strong> you can edit media, its metadata and the way it is displayed.</p>
+<p>If you want to insert previously used media, you can use the “media button” in the <a href="#toolbar">toolbar</a>.</p>
+<h2 id="media-list">Media list</h2>
+<p>All media that you uploaded will appear in the “media list”, where they can be edited or deleted.</p>
 <figure>
 <img src="images/media-list-elm.png" title="image showing media list" alt="The media list" /><figcaption>The media list</figcaption>
 </figure>
+<h3 id="editing-media">Editing media</h3>
+<p>From within the media-list, if you click [<strong>edit</strong>], you will be able to change the <strong>name</strong>, <strong>metadata</strong> and display of a media file.</p>
 <ul>
 <li>name (also used for the tag)</li>
 <li>change the way the files is displayed (size, float left/right)</li>
@@ -979,6 +943,13 @@ Using the buttons in the list itself:</li>
 <figure>
 <img src="images/edit-media-elm.png" title="image showing the edit media dialog" alt="The media edit dialog" /><figcaption>The media edit dialog</figcaption>
 </figure>
+<h2 id="insert-media">Insert media</h2>
+<p>Media is represented on the editor side using a !{<em>media-name</em>} tag. The easiest way of inserting such a media tag is throught the <a href="#insert-toolbar-button">insert media toolbar button</a>, which shows a list of available media that can be inserted. Double click any item to insert.</p>
+<figure>
+<img src="images/insert-media-elm.png" title="inserting media using the insert button" alt="inserting media using the insert button" /><figcaption>inserting media using the insert button</figcaption>
+</figure>
+<p>You can also write the media tags directly, for example: to insert a media named “myFile”, you can directly write !{myFile}. This !{myFile} tag will be the location in your text where myFile will be inserted.</p>
+<p>A <strong>caption text</strong> can also be included, to get a caption you write [my caption text]{myFile}. The caption text is displayed underneath the media.</p>
 <h2 id="import-export">Import &amp; export</h2>
 <p>You can import documents from text editors like Word (.docx), Libre/Open Office (.odt), HTML and several other formats. Not all styling is supported but images, footnotes, tables and most other structural features of the text are.</p>
 <h2 id="edit-style">Edit style</h2>
@@ -993,7 +964,7 @@ Using the buttons in the list itself:</li>
 <li><img class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/link-intact.svg" title="icon" alt="hyperlink formatting"> - Insert <a href="#links">hyperlink</a> formatting</li>
 <li><img class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/double-quote-sans-left.svg" title="icon" alt="quotation"> - Quotation</li>
 <li><strong>*</strong> - Insert <a href="#footnotes">footnote</a> notation</li>
-<li><img class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/file-media.svg"> - Insert Media from media list</li>
+<li><img id="insert-toolbar-button" class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/file-media.svg"> - Insert Media from media list</li>
 <li><img class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/undo.svg"> - Undo/Redo</li>
 <li>txt - Switch to plain text mode (browser can provide spellchecker in this mode)</li>
 <li><img class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/screen-full.svg
@@ -1047,6 +1018,42 @@ which results in:<br />
 <p>A quotation is inserted by indenting your text with 4 spaces or 1 tab, like so:</p>
 <p><code>quotation</code> <code>more quotation</code></p>
 <p>Quotations are not automatically formatted (they keep their newlines).</p>
+<h2 id="tables-markdown">Tables (markdown)</h2>
+<p>Tables are written like this:</p>
+<pre>
+| Name    | Age | Species |
+|---------|-----|---------|
+| Harry   | 23  | Human   |
+| Gerhard | 77  | Parrot  |
+| Judith  | 6   | Cat     |
+</pre>
+<table>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Age</th>
+<th>Species</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Harry</td>
+<td>23</td>
+<td>Human</td>
+</tr>
+<tr class="even">
+<td>Gerhard</td>
+<td>77</td>
+<td>Parrot</td>
+</tr>
+<tr class="odd">
+<td>Judith</td>
+<td>6</td>
+<td>Cat</td>
+</tr>
+</tbody>
+</table>
+<p>You may also use <a href="https://www.w3schools.com/html/html_tables.asp">HTML tables</a>. There are also online tools that help you generate <a href="https://www.tablesgenerator.com/markdown_tables">either</a> of <a href="https://www.google.com/search?sxsrf=ACYBGNRHvQviaPEVsRaoYNH4RBmxEvCZaQ%3A1574157215715&amp;source=hp&amp;ei=n7vTXe-VKdHCkwWAn5rYBA&amp;q=convert+excel+to+html+table&amp;oq=convert+excel+to+html+table&amp;gs_l=psy-ab.3..0l5j0i203j0i22i30l4.1154.7184..7368...3.0..0.72.1472.30......0....1..gws-wiz.......35i39.6l0ze9Qpl6I&amp;ved=0ahUKEwiv4aTNgPblAhVR4aQKHYCPBksQ4dUDCAU&amp;uact=5">these</a>.</p>
 <!-- TODO: Insert links to other parts of the documentation -->
 <h1 id="navigation">Navigation</h1>
 <h2 id="navigation-bar">Navigation bar</h2>
