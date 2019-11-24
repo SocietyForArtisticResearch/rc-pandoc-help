@@ -142,10 +142,65 @@ Instead of typing these characters, you can also select a piece of text and push
 
 ## Paragraphs 
 
-Paragraphs are recognized by markdown by whitelines.
+When text is separated by an empty line, it creates a paragraph.
+Newlines are normally removed, unless you specifically force them by:
 
-Now that I've skipped a line, this is a second paragraph.  
-TIP: You can force a linebreak by leaving 2 spaces at the end of a line.
+* putting two spaces at the end of a line
+* putting an `\` character at the end of a line
+
+Here are some examples to demonstrate:
+
+__a)__
+
+<pre>
+a paragraph
+
+another paragraph
+</pre>
+
+_results in:_
+
+a paragraph
+
+another paragraph
+
+__b)__
+
+<pre>
+This text 
+will be joined together
+</pre>
+
+_results in:_
+
+This text
+will be joined together
+
+__c)__
+
+<pre>
+This line has two spaces at the end__
+and it thus keeps the newline.
+</pre>
+
+_results in:_
+
+This line has two spaces at the end  
+and it thus keeps the newline.
+
+__d)__
+
+<pre> 
+The same for the backslash\
+also does the trick!
+</pre>
+
+_results in:_
+ 
+The same for the backslash\
+also does the trick!
+
+
   
 ## Headers 
 Headers are defined by using one or more \"#\" in front of the header name:
@@ -211,9 +266,10 @@ The footnote content is automatically moved to the bottom of the resulting text.
 ## Quotation
 
 A quotation is inserted by indenting your text with 4 spaces or 1 tab, like so:
-
+<pre>
 `    quotation`
 `    more quotation`
+</pre>
 
 Quotations are not automatically formatted (they keep their newlines).
 

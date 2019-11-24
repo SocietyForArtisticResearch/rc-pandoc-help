@@ -979,9 +979,44 @@ Using the buttons in the list itself:</li>
 <strong>bold</strong> = <code>__bold__</code></p>
 <p>Instead of typing these characters, you can also select a piece of text and push the desired <strong>style button</strong> on top of the editor. This will insert the correct Markdown notation for you.</p>
 <h2 id="paragraphs">Paragraphs</h2>
-<p>Paragraphs are recognized by markdown by whitelines.</p>
-<p>Now that I’ve skipped a line, this is a second paragraph.<br />
-TIP: You can force a linebreak by leaving 2 spaces at the end of a line.</p>
+<p>When text is separated by an empty line, it creates a paragraph. Newlines are normally removed, unless you specifically force them by:</p>
+<ul>
+<li>putting two spaces at the end of a line</li>
+<li>putting an <code>\</code> character at the end of a line</li>
+</ul>
+<p>Here are some examples to demonstrate:</p>
+<p><strong>a)</strong></p>
+<pre>
+a paragraph
+
+another paragraph
+</pre>
+<p><em>results in:</em></p>
+<p>a paragraph</p>
+<p>another paragraph</p>
+<p><strong>b)</strong></p>
+<pre>
+This text 
+will be joined together
+</pre>
+<p><em>results in:</em></p>
+<p>This text will be joined together</p>
+<p><strong>c)</strong></p>
+<pre>
+This line has two spaces at the end__
+and it thus keeps the newline.
+</pre>
+<p><em>results in:</em></p>
+<p>This line has two spaces at the end<br />
+and it thus keeps the newline.</p>
+<p><strong>d)</strong></p>
+<pre> 
+The same for the backslash\
+also does the trick!
+</pre>
+<p><em>results in:</em></p>
+<p>The same for the backslash<br />
+also does the trick!</p>
 <h2 id="headers">Headers</h2>
 <p>Headers are defined by using one or more "#" in front of the header name:</p>
 <p><code># header 1</code><br> <code>## header 2</code><br> <code>### header 3</code><br></p>
@@ -1017,8 +1052,11 @@ which results in:<br />
 <p><code>[^1]: This is my footnote.</code></p>
 <p>It’s content is automatically moved to the bottom of the text. The footnote content is automatically moved to the bottom of the resulting text.</p>
 <h2 id="quotation">Quotation</h2>
-<p>A quotation is inserted by indenting your text with 4 spaces or 1 tab, like so:</p>
-<p><code>quotation</code> <code>more quotation</code></p>
+A quotation is inserted by indenting your text with 4 spaces or 1 tab, like so:
+<pre>
+`    quotation`
+`    more quotation`
+</pre>
 <p>Quotations are not automatically formatted (they keep their newlines).</p>
 <h2 id="tables-markdown">Tables (markdown)</h2>
 <p>Tables are written like this:</p>
