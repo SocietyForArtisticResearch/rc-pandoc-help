@@ -113,13 +113,13 @@ From left to right:
 
 * H1, H2 & H3 - insert [header](#headers) formatting
 * B / I - insert [__bold__ (strong) and italic (_emphasis_)](#strong-emphasis)
-* <img class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/list-unordered.svg" title="icon" alt="list formatting button"> - [Unordered list / bullet point](#lists) formatting
-* <img class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/list-ordered.svg" title="icon" alt="list formatting button"> - [Ordered list / Numbered list](#lists) formatting
-* <img class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/link-intact.svg" title="icon" alt="hyperlink formatting"> - Insert [hyperlink](#links) formatting
-* <img class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/double-quote-sans-left.svg" title="icon" alt="quotation"> - Quotation
+* <img class="icon" src="images/icons/list-unordered.svg" title="icon" alt="list formatting button"> - [Unordered list / bullet point](#lists) formatting
+* <img class="icon" src="images/icons/list-ordered.svg" title="icon" alt="list formatting button"> - [Ordered list / Numbered list](#lists) formatting
+* <img class="icon" src="images/icons/link-intact.svg" title="icon" alt="hyperlink formatting"> - Insert [hyperlink](#links) formatting
+* <img class="icon" src="images/icons/double-quote-sans-left.svg" title="icon" alt="quotation"> - Quotation
 * __\*__ -  Insert [footnote](#footnotes) notation
-* <img id="insert-toolbar-button" class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/file-media.svg"> - Insert Media from media list
-* <img class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/undo.svg"> - Undo/Redo
+* <img id="insert-toolbar-button" class="icon" src="images/icons/file-media.svg"> - Insert Media from media list
+* <img class="icon" src="images/icons/undo.svg"> - Undo/Redo
 * txt - Switch to plain text mode (browser can provide spellchecker in this mode)
 * <img class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/screen-full.svg
 "> - Fullscreen mode (hides preview)
