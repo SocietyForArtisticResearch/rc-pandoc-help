@@ -577,13 +577,13 @@ Delete a tool</p></li>
 <p>Please note, you can’t change the copyright information in the “edit picture” window. To change the name or the copyright text, close the current dialog and go to the item in <strong>simple media</strong> and click <strong>edit</strong> (also double click) to open the <strong>edit media</strong> dialog.</p>
 <h2 id="audio-tool">Audio Tool</h2>
 <p><a href="https://www.researchcatalogue.net/view/249652/249653">&gt; Audio tool tutorial</a></p>
-<p>As with the other tools, use the audio tool by dragging and dropping the icon from the tool palette onto the weave. A pop-up dialog window appears automatically and gives you the choice between “selecting” or “adding” an item.</p>
-<p>You can upload audio files in the following formats: <em>ogg, wav, mov, au, mp4 audio container formats; mp2, mp3, aac, pcm a-law, flac audio codec</em> formats. All audio file formats will be transcoded to mp3s with 256kpbs.</p>
+<p>As with the other tools, use the audio tool by dragging and dropping the icon from the tool palette onto the weave. A pop-up dialog window appears automatically and gives you the choice between “selecting” or “adding” an item. Selecting is for previously uploaded media (either through other audio tools or the media manager). Adding allows you to upload a new file.</p>
+<p>The following formats are supported: <em>ogg, wav, mov, au, mp4 audio container formats; mp2, mp3, aac, pcm a-law, flac audio codec</em> formats. All audio file formats will be transcoded to mp3s with 256kpbs.</p>
 <figure>
 <img src="images/audio-tool-dialog.png" title="image showing Audio Tool Dialog" alt="Audio tool upload dialog" /><figcaption>Audio tool upload dialog</figcaption>
 </figure>
-<p>To select media they must first have been uploaded into “simple media.” To add an item, choose “add” and upload the object from your desktop to the RC servers. Name the file and make a declaration of the copyright holder. After adding the file, you can edit the style of the audio player with the html style standards and choose between different play and display options.</p>
-<p>Please note, to be used on our server, all media will be transcoded by the RC. This takes some time. During the transcoding process, the file name is greyed out in simple media. After the transcoding process has been finished you will receive an email notification that your media is transcoded and ready for use. For further information and technical questions see <a href="http://www.researchcatalogue.net/portal/faq" title="FAQ">FAQ 2.6</a> or contact the RC User Support.</p>
+<p>To minimize loading times, audio files are automatically compressed. During the transcoding process, the name will be grayed out in the media list and a text will be shown in the preview.</p>
+<p>RC encodes with a bitrate of 256 bits per second. For further information and technical questions see <a href="http://www.researchcatalogue.net/portal/faq" title="FAQ">FAQ 2.6</a> or contact the RC User Support.</p>
 <h3 id="style-3">Style</h3>
 <p><a href="#style-options">&gt; see style options</a></p>
 <h3 id="options-3">Options</h3>
@@ -633,9 +633,8 @@ Delete a tool</p></li>
 <p>When choosing <em>autoplay</em> you need to define the speed with which the slide will change. You can customise the duration of each slide (<em>speed per slide</em>) or let each slide change at the default speed.</p>
 <p>As mentioned before, you can append audio files to each slide. Please note, you first have to upload the file into your <strong>simple media</strong> folder. In <strong>options</strong>, <strong>audio</strong> you can control the time of a crossfade (when one audio file fades out while a second fades in at a specified time). You can also choose the fade duration and the timeout of an audio file.</p>
 <h2 id="pdf-tool">PDF Tool</h2>
-<p>The PDF tool gives you the possibility to upload PDF documents containing texts, graphics or scores.</p>
-<p>The advantage of PDF is that the display of its content is platform independent and looks the same everywhere.</p>
-<p>The limitation is that PDF files, by nature, only support static (printable) graphics, not video or audio. In case text from a word processor needs to be combined with video and audio, use the <a href="#HTML-tool" title="link to html tool">HTML tool</a> for the text and add the media separately using the other tools.</p>
+<p>The PDF tool gives you the possibility to add PDF documents containing texts, graphics or scores. By default the PDF is displayed as a small thumbnail showing a miniture of the first page. The reader of your exposition can load this PDF in a new tab by clicking the thumbnail. Alternatively, you can set the tool to display the PDF content directly embedded in the page (see <a href="#pdf-options%20%22link%20to%20pdf%20options%22">options</a>).</p>
+<p>PDF is a suitable format for uploading (paper) based documents into your exposition. The limitation is that PDF files, by nature, only support static (printable) graphics and text, not video or audio. Although Abobe has started to support rich media embedding in their own PDF viewers, there is almost no support for this in other PDF viewers (like the one in browsers). In case text from a word processor needs to be combined with video and audio, use the <a href="#HTML-tool" title="link to html tool">HTML tool</a> for the text and add the media separately using the other tools.</p>
 <h3 id="uploading-a-pdf">Uploading a pdf</h3>
 <p>After dragging the icon to the weave, a dialog will show.<br />
 Click the button <strong>ADD MEDIA</strong> to open the dialog for uploading a PDF.<br />
@@ -643,20 +642,34 @@ Be sure to upload the PDF itself in the <strong>PDF</strong> field, not <strong>
 <figure>
 <img src="images/pdf-tool-dialog.png" title="Image showing the pdf tool dialog" alt="The pdf tool dialog" /><figcaption>The pdf tool dialog</figcaption>
 </figure>
-<p>The <strong>PREVIEW</strong> field is for changing the image that represents the pdf in the exposition for the reader. If no preview image is provided, a miniturised copy of the first page will be used.</p>
+<p>The <strong>PREVIEW</strong> field is for changing the image that represents the pdf in the exposition for the reader. If no preview image is provided, a miniturised copy of the first page will be used. You can later change the preview image, by selecting one from your media list.</p>
 <h4 id="a-few-notes">A few notes</h4>
 <ul>
-<li><p><strong>Do not re-use the url</strong> of the pdf file that opens when you click the pdf tool. For example: “https://media.researchcatalogue.net/rc/master/73723.pdf?t=2629205589&amp;e=1510816850” These (timed) links are automatically generated by the PDF tool specifically for the user that views the tool and are automatically invalidated after use.</p></li>
+<li><p><strong>Never re-use the url</strong> of the pdf file that opens when you click the pdf tool in the preview. For example: “https://media.researchcatalogue.net/rc/master/73723.pdf?t=2629205589&amp;e=1510816850” These (timed) links are automatically generated by the PDF tool specifically for the user that views the tool and are automatically invalidated after use.</p></li>
 <li><p>On iOS devices, rotated PDF tools will not open when touched.</p></li>
 </ul>
 <p><a href="#style-options">&gt; see style options</a></p>
+<p><a id="pdf-options"></a></p>
 <h3 id="options-6">Options</h3>
-<p>The RC gives you and your reader the possibility to read the pdf directly in the browser if the browser supports this. To use this option check “display in browser” in option &gt; settings of the “edit pdf” tool dialog box.</p>
-<p>You can also double click the PDF tool and then switch to the options tab. Then click settings.</p>
+<ul>
+<li><p><strong>Position</strong></p>
+<p>The <em>position</em> options (<em>size</em>, <em>position</em>) are only there for legacy reasons. Likely to be removed in future versions of the editor.</p></li>
+<li><p><strong>Settings</strong></p>
+<ul>
+<li><p><strong>Display in Browser</strong></p>
+<p>Option to “embed” the pdf: display its content directly in the page using the browsers built in PDF viewer. If the PDF is bigger than the box, scrollbars will appear.</p>
+<em>Display in Browser</em> works best if:
+<ul>
+<li>your exposition page only contains a single PDF file and not much else.</li>
+<li>your pdf is only 1 or 2 pages long and the tool is made large enough to fit the whole document. Always check with the <strong>preview</strong> how the PDF looks embedded.</li>
+</ul>
+<p>We recommend against putting other tools on top of a <strong>“display in browser”</strong> PDF tool, since browsers have slightly different margins on their PDF viewers : this may result in disalignment of content.</p>
 <figure>
 <img src="images/pdf-display-in-browser.png" alt="Extra settings dialog of pdf tool" /><figcaption>Extra settings dialog of pdf tool</figcaption>
 </figure>
-<p>As in the picture tool, you can provide further information using the hover option. To do this, select one of the options in the “show on hover” pull-down menu. In addition, you can create a plain text to be displayed when the reader’s mouse hovers over the PDF preview. To use this, choose “plain text” or “copyright &amp; plain text” from the pull-down menu and write your text in the text field below.</p>
+<p>As in the picture tool, you can set a text that the reader sees when they hoover the object. To do this, select one of the options in the “show on hover” pull-down menu. You can create a plain text to be displayed when the reader’s mouse hovers over the PDF preview. To use this, choose “plain text” or “copyright &amp; plain text” from the pull-down menu and write your text in the text field below.</p></li>
+</ul></li>
+</ul>
 <h2 id="play-tool">Play Tool</h2>
 <p>The play tool is designed to synchronize the playback of selected video and audio tools on the same weave. With this tool one can create a single control for playing back various media files at the same time. This can, for example, be used to document video installations with multiple screens and allows playing back synchronized combinations of musical voices and audio tracks. The play tool displays an image which can be clicked and functions as play and pause button. Clicking the image will start the playback of the selected audio and video files. While playing the tool another image will be displayed instead. Clicking this image will pause the players.</p>
 <h3 id="media-1">Media</h3>
@@ -967,8 +980,7 @@ Using the buttons in the list itself:</li>
 <li><img id="insert-toolbar-button" class="icon" src="images/icons/file-media.svg"> - Insert Media from media list</li>
 <li><img class="icon" src="images/icons/undo.svg"> - Undo/Redo</li>
 <li>txt - Switch to plain text mode (browser can provide spellchecker in this mode)</li>
-<li><img class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/screen-full.svg
-"> - Fullscreen mode (hides preview)</li>
+<li><img class="icon" src="images/icons/screen-full.svg"> - Fullscreen mode (hides preview)</li>
 </ul>
 <h2 id="markdown">Markdown</h2>
 <p>Markdown is a human-friendly way of writing HTML webpages without using code. Markdown is written as plain text (like you would write on a typewriter), that is translated into HTML for you.</p>

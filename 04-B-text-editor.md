@@ -121,8 +121,7 @@ From left to right:
 * <img id="insert-toolbar-button" class="icon" src="images/icons/file-media.svg"> - Insert Media from media list
 * <img class="icon" src="images/icons/undo.svg"> - Undo/Redo
 * txt - Switch to plain text mode (browser can provide spellchecker in this mode)
-* <img class="icon" src="https://dev.researchcatalogue.net/elm-editor/lib/icons/screen-full.svg
-"> - Fullscreen mode (hides preview)
+* <img class="icon" src="images/icons/screen-full.svg"> - Fullscreen mode (hides preview)
 
 ## Markdown
 
