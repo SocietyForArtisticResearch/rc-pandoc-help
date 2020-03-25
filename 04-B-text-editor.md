@@ -13,7 +13,7 @@ First time user of the text editor? <a href="#introduction">click here</a>.
     <area alt="(Live) preview of the exposition" title="(Live) preview of the exposition" href="#preview" coords="497,1,1000,545" shape="rect">
     <area alt="Export to other formats (Pdf, odt, docx etc.)" title="Export to other formats (Pdf, odt, docx etc.)" href="#import-export" coords="289,71,193,44" shape="rect">
     <area alt="Media list (edit metadata/display)" title="Media list (edit metadata/display)" href="#media-list" coords="75,5,123,40" shape="rect">
-    <area alt="Style tab" title="Style tab" href="#style-tab" coords="126,8,168,41" shape="rect">
+    <area alt="Style tab" title="Style tab" href="#edit-style" coords="126,8,168,41" shape="rect">
     <area alt="Markdown" title="Markdown" href="#markdown" coords="0,5,72,41" shape="rect">
     <area alt="Toolbar" title="Toolbar" href="#toolbar" coords="7,73,481,94" shape="rect">
     <area alt="Help / Preview / Profile / Logout " title="Help / Preview / Profile / Logout " href="#menu" coords="365,5,488,34" shape="rect">
@@ -29,7 +29,7 @@ First time user of the text editor? <a href="#introduction">click here</a>.
     *add/remove/edit media.*  
 * <a href="#import-export">import/export</a>
     *import&export to various text formats*
-* <a href="#style">style editor</a>   
+* <a href="#edit-style">style editor</a>   
     *change the styling (font-size etc..) using CSS*  
 * <a href="#upload-media">Upload media</a>    
     *Upload media files (image, video, pdf) and insert in your exposition*  
@@ -105,7 +105,24 @@ You can import documents from text editors like Word (.docx), Libre/Open Office 
 
 ## Edit style
 
-For users that know CSS, edit style opens a CSS editor. Most templates will provide some basic formatting already, that you can adjust to your needs.
+Text based expositions are styled using CSS (Cascading Style Sheets), which is a standard way of styling web documents.
+The CSS of an exposition can be edited by going to the __style__ tab.
+If you are not familiar with CSS, there is a good introduction here: <https://www.w3schools.com/css/>.
+
+The structure of inserted media is as follows. You can use the outside class (rc-media-123455) to style an individual media element.
+
+<code>
+<div class="rcobject small [rcimage/rcpdf/rcvideo/rcaudio] rc-media-[media id]">
+	<figure id="media-1">
+	<img src="...">
+		<figcaption>
+			Caption text, which is taken from the tag -> ![caption text]{media1}
+		</figcaption>
+	</figure>
+</div>
+</code>
+
+Most templates will provide some basic formatting already, that you can adjust to your needs.
 
 ## Toolbar
 

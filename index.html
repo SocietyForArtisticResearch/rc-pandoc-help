@@ -20,7 +20,7 @@
 <body>
 <header id="title-block-header">
 <h1 class="title">Research Catalogue Extended Guide</h1>
-<p class="date">November 2019</p>
+<p class="date">March 2020</p>
 </header>
 <nav id="TOC">
 <ul>
@@ -905,7 +905,7 @@ Replace the entire page by an external website by means of a URL. There are a fe
 <p>
 Click any element in the image to jump to the relevant section:
 </p>
-<p><img class="center overview-map" src="images/editor-overview-elm.png" width="1000" height="549" class="overview-map" usemap="#image-map"> <map name="image-map"> <area alt="Upload media files" title="Upload media files" href="#upload-media" coords="101,68,2,46" shape="rect"> <area alt="Import external format (Word docx, Open office odt, Plain txt)" title="Import external format (Word docx, Open office odt, Plain txt)" href="#import-export" coords="107,51,189,70" shape="rect"> <area alt="Editor (using Markdown)" title="Editor (using Markdown)" href="#editor" coords="496,530,7,97" shape="rect"> <area alt="(Live) preview of the exposition" title="(Live) preview of the exposition" href="#preview" coords="497,1,1000,545" shape="rect"> <area alt="Export to other formats (Pdf, odt, docx etc.)" title="Export to other formats (Pdf, odt, docx etc.)" href="#import-export" coords="289,71,193,44" shape="rect"> <area alt="Media list (edit metadata/display)" title="Media list (edit metadata/display)" href="#media-list" coords="75,5,123,40" shape="rect"> <area alt="Style tab" title="Style tab" href="#style-tab" coords="126,8,168,41" shape="rect"> <area alt="Markdown" title="Markdown" href="#markdown" coords="0,5,72,41" shape="rect"> <area alt="Toolbar" title="Toolbar" href="#toolbar" coords="7,73,481,94" shape="rect"> <area alt="Help / Preview / Profile / Logout " title="Help / Preview / Profile / Logout " href="#menu" coords="365,5,488,34" shape="rect"> <area alt="Saving" title="Saving" href="#saving" coords="434,534,492,548" shape="rect"> </map></p>
+<p><img class="center overview-map" src="images/editor-overview-elm.png" width="1000" height="549" class="overview-map" usemap="#image-map"> <map name="image-map"> <area alt="Upload media files" title="Upload media files" href="#upload-media" coords="101,68,2,46" shape="rect"> <area alt="Import external format (Word docx, Open office odt, Plain txt)" title="Import external format (Word docx, Open office odt, Plain txt)" href="#import-export" coords="107,51,189,70" shape="rect"> <area alt="Editor (using Markdown)" title="Editor (using Markdown)" href="#editor" coords="496,530,7,97" shape="rect"> <area alt="(Live) preview of the exposition" title="(Live) preview of the exposition" href="#preview" coords="497,1,1000,545" shape="rect"> <area alt="Export to other formats (Pdf, odt, docx etc.)" title="Export to other formats (Pdf, odt, docx etc.)" href="#import-export" coords="289,71,193,44" shape="rect"> <area alt="Media list (edit metadata/display)" title="Media list (edit metadata/display)" href="#media-list" coords="75,5,123,40" shape="rect"> <area alt="Style tab" title="Style tab" href="#edit-style" coords="126,8,168,41" shape="rect"> <area alt="Markdown" title="Markdown" href="#markdown" coords="0,5,72,41" shape="rect"> <area alt="Toolbar" title="Toolbar" href="#toolbar" coords="7,73,481,94" shape="rect"> <area alt="Help / Preview / Profile / Logout " title="Help / Preview / Profile / Logout " href="#menu" coords="365,5,488,34" shape="rect"> <area alt="Saving" title="Saving" href="#saving" coords="434,534,492,548" shape="rect"> </map></p>
 </div>
 <ul>
 <li><a href="#markdown">markdown</a> <a href="#editor">editor</a><br />
@@ -916,7 +916,7 @@ Click any element in the image to jump to the relevant section:
 <em>add/remove/edit media.</em><br />
 </li>
 <li><a href="#import-export">import/export</a> <em>import&amp;export to various text formats</em></li>
-<li><a href="#style">style editor</a><br />
+<li><a href="#edit-style">style editor</a><br />
 <em>change the styling (font-size etc..) using CSS</em><br />
 </li>
 <li><a href="#upload-media">Upload media</a><br />
@@ -966,7 +966,19 @@ Using the buttons in the list itself:</li>
 <h2 id="import-export">Import &amp; export</h2>
 <p>You can import documents from text editors like Word (.docx), Libre/Open Office (.odt), HTML and several other formats. Not all styling is supported but images, footnotes, tables and most other structural features of the text are.</p>
 <h2 id="edit-style">Edit style</h2>
-<p>For users that know CSS, edit style opens a CSS editor. Most templates will provide some basic formatting already, that you can adjust to your needs.</p>
+<p>Text based expositions are styled using CSS (Cascading Style Sheets), which is a standard way of styling web documents. The CSS of an exposition can be edited by going to the <strong>style</strong> tab. If you are not familiar with CSS, there is a good introduction here: <a href="https://www.w3schools.com/css/" class="uri">https://www.w3schools.com/css/</a>.</p>
+<p>The structure of inserted media is as follows. You can use the outside class (rc-media-123455) to style an individual media element.</p>
+<code>
+<div class="rcobject small [rcimage/rcpdf/rcvideo/rcaudio] rc-media-[media id]">
+<pre><code>&lt;figure id=&quot;media-1&quot;&gt;
+&lt;img src=&quot;...&quot;&gt;
+    &lt;figcaption&gt;
+        Caption text, which is taken from the tag -&gt; ![caption text]{media1}
+    &lt;/figcaption&gt;
+&lt;/figure&gt;</code></pre>
+</div>
+<p></code></p>
+<p>Most templates will provide some basic formatting already, that you can adjust to your needs.</p>
 <h2 id="toolbar">Toolbar</h2>
 <p>From left to right:</p>
 <ul>
