@@ -25,8 +25,6 @@ of your exposition, clicking the PREVIEW button in the editor shows the page tha
 currently are working on in your workspace. Thus, you can also PREVIEW
 pages that are not yet listed in the table of contents. 
 
-
- 
 ## Workspace View
 
 ![workspace view of the graphical exposition format](images/workspace-view-2018.png "image showing workspace view")
@@ -37,14 +35,14 @@ Published epositions cannot be edited (by definition) and you need to be the aut
 
 Within the workspace view, one can enable one of these two subviews:
 
-### Note view
+<!-- ### Note view
  
 The note-view is to be used in conjunction with the note-tool of the
 RC. Notes are meant to be used to communicate between author and
 reviewers or supervisors and authors. The note-view displays a list of
 all the notes that are within an exposition. One can filter this list
 based on the author, assignee and depending on its status (resolved,
-unresolved). You can also change these parameters in this view.
+unresolved). You can also change these parameters in this view. 
 
 ### Text view
 
@@ -57,4 +55,4 @@ content in the text-view.
 You can close both views by clicking on "close note view" or "close
 text view" in the top-right.
 
-For more info on specific tools, see [workspace](#research-catalogue-workspace-tools).
+For more info on specific tools, see [workspace](#research-catalogue-workspace-tools). -->
