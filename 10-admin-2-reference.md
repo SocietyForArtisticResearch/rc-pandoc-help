@@ -104,8 +104,17 @@ The announcement option has to be scheduled at least 1 day in advance. The sendi
 ![portal edit common screen](images/portal-edit-common.png "image showing portal edit common dialog")
 
 Here you can edit the basic information of the portal.
-View text allows you to change the template that is used to display expositions on the portal page:
-available placeholders: $author, $title, $portal, $edition, $published, $url, $now.
+__View text__ allows you to change the template that is used in the navigation bar of expositions: this is the quotation information the reader sees when they move their mouse to the top of the screen.
+available placeholders: 
+
+- __$author__ *the main authors*
+- __$title__ *title*
+- __$portal__ *the portal*
+- __$edition__ *issue*
+- __$published__ *publish year*
+- __$url__ *the current position url: if the url is opened it will restore the current scroll position*
+- __$now__ *date that the reader is accessing this*
+
 
 ### Roles
 ![portal edit roles](images/portal-edit-roles.png "image showing the portal roles")
