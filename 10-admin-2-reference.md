@@ -103,7 +103,9 @@ The announcement option has to be scheduled at least 1 day in advance. The sendi
 ### Common
 ![portal edit common screen](images/portal-edit-common2.png "image showing portal edit common dialog")
 
-Here you can edit the basic information of the portal.
+Here you can edit the basic information of the portal, which is displayed on the RC's internal page.
+You can also replace this internal page with an external page if desired. See [external link option](#external-portal-page "further info")  
+
 __View text__ allows you to change the template that is used in the navigation bar of expositions: this is the quotation information the reader sees when they move their mouse to the top of the screen.
 available placeholders: 
 
@@ -140,8 +142,8 @@ Here you can set which objects can be submitted to the portal.
 
 * __listing in 'portals' section.__  
 	This will make the portal shown on the front page.
-* __linking to external portal page instead of rc profile page.__   
-	If selected, the portal link on the frontpage, will directly link to the website of the portal, instead of the internal RC page.
+* __linking to external portal page instead of rc profile page.__ <a id="external-portal-page">
+	If selected, the portal link on the RC frontpage, will directly link to the website of the portal (the one provided in the URL* field), instead of the internal RC page.
 * __listing in 'member of' dialog.__    
     Weither users can request membership of a portal themselves. If a user request membership, the portal admin will still receive a confirmation request.
 * __creation of application programs.__  
