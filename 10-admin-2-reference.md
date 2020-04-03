@@ -101,7 +101,7 @@ The announcement option has to be scheduled at least 1 day in advance. The sendi
 ## Portal Edit Screen
 
 ### Common
-![portal edit common screen](images/portal-edit-common.png "image showing portal edit common dialog")
+![portal edit common screen](images/portal-edit-common2.png "image showing portal edit common dialog")
 
 Here you can edit the basic information of the portal.
 __View text__ allows you to change the template that is used in the navigation bar of expositions: this is the quotation information the reader sees when they move their mouse to the top of the screen.
@@ -117,7 +117,7 @@ available placeholders:
 
 
 ### Roles
-![portal edit roles](images/portal-edit-roles.png "image showing the portal roles")
+![portal edit roles](images/portal-edit-roles2.png "image showing the portal roles")
 
 Here you can edit the various roles of the portal:
 
@@ -243,7 +243,7 @@ Issues names are managed on this [here](https://www.researchcatalogue.net/admin/
 
 In the __issue section__ (between "portal" and "research") of the administration interface, the number, title and description of issues can be edited.
 
-![edit issue dialog](images/edit-issue.png "image showing the edit issue collaboration")
+![edit issue dialog](images/portal-issues.png "image showing the edit issue collaboration")
 
 For the reader, issues can be found through the portals front page.
 
