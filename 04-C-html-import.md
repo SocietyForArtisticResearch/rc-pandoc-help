@@ -16,12 +16,20 @@ graphical or the text based editor.
 
 The workflow is:
 
-1. Click the button to select your .zip file
-2. Wait for upload to finish
+1. Click [ Create Exposition ] on your profile page.
+2. Select "html based" as the editor, fill in necessary metadata and click submit.
 
-When the upload finished and there is no error, you can view the
-exposition by hitting the preview button (eye in the top right
-corner).
+![selecting html import editor](images/selecting-html-import.png "image showing html import editor")
+
+3. You will now enter an upload screen, where you can select your zip.
+
+![the upload screen](images/upload-html-expo.png "image showing the upload screen")
+
+4. Wait for upload to finish
+
+	When the upload finished and there is no error, you can view the
+	exposition by hitting the preview button (eye in the top right
+	corner). Otherwise you will have to fix the errors and try again.
 
 
 ### Requirements for HTML expositions
@@ -34,7 +42,7 @@ There are a few requirements to the zip that is uploaded:
   of contents.
 * Do not nest folders into folders.
 * You can use .html .css and various media formats, mp4, mp3 etc..
-  You do not have to transcode.
+  The RC will automatically transcode the video and audio to a web compatible format.
 * JavaScript is currently not supported for security reasons, if
   present, import will fail.
 * The character encoding of the .html files should be UTF-8

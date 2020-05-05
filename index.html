@@ -22,7 +22,7 @@
 <body>
 <header id="title-block-header">
 <h1 class="title">Research Catalogue Extended Guide</h1>
-<p class="date">April 2020</p>
+<p class="date">May 2020</p>
 </header>
 <nav id="TOC" role="doc-toc">
 <ul>
@@ -332,7 +332,7 @@ A <strong>title</strong> and <strong>abstract</strong> are obligatory.</li>
 </figure>
 <p>The <strong>graphical editor</strong>, which is documented <a href="#workspace-editor">here</a>, allows the author to set the position of each element in the page. This makes it easy to have non-linear formats or presentations in which the media, such as images, video and audio files, are as important, if not more important, as the text. The editor works by dragging and dropping. There is no predefined style or template and its possible to have the reader go through the content in a non-linear fashion. However, a consequence of absolutely positioning all elements is that the exposition cannot adjust to the size of a particular device, that is, these expositions are not “responsive”. If you want readers to be able to read your exposition on mobile device the text-based editor may be more suitable for your project.</p>
 <p>The <strong>text-based</strong>, which is documented <a href="#text-based-editor">here</a>, editor is designed for writing (and importing) texts, while supporting the embedding of media. The input is plain text, which is translated into HTML. The author can express the structure of the text using <a href="http://https://en.wikipedia.org/wiki/Markdown">Markdown</a> notation. Because the input is plain text, it can also be automatically imported and exported from and to various external formats, for example MS Word documents, Open office documents and LateX. Styling is applied using standard CSS. By default the structure of the exposition is maintained, while the sizes of the text will adjust for readability on different screen sizes. Text-based expositions are <em>responsive</em>.</p>
-<p>Finally, there is an option to import static HTML website as a whole. The RC does not provide editors for HTML, so for that option an external editor is to be used. JavaScript is not supported.</p>
+<p>Finally, there is an option to <a href="#html-import">import static HTML</a> website as a whole. The RC does not provide editors for HTML, so for that option an external editor is to be used. JavaScript is not supported.</p>
 <h2 id="comparison-of-rc-exposition-formats">Comparison of RC Exposition Formats</h2>
 <table>
 <colgroup>
@@ -1153,17 +1153,29 @@ A quotation is inserted by indenting your text with 4 spaces or 1 tab, like so:
 <p>Important: at this moment, the existing RC Journals do not accept submissions imported as HTML, because they do not fit in existing reviewing/editing workflows. If you are planning to submit your exposition to one of the journals in the RC, one should use the graphical or the text based editor.</p>
 <p>The workflow is:</p>
 <ol type="1">
-<li>Click the button to select your .zip file</li>
-<li>Wait for upload to finish</li>
+<li>Click <a href="#create-exposition">Create Exposition</a> on your profile page.</li>
+<li>Select “html based” as the editor, fill in necessary metadata and click submit.</li>
 </ol>
-<p>When the upload finished and there is no error, you can view the exposition by hitting the preview button (eye in the top right corner).</p>
+<figure>
+<img src="images/selecting-html-import.png" title="image showing html import editor" alt="" /><figcaption>selecting html import editor</figcaption>
+</figure>
+<ol start="3" type="1">
+<li>You will now enter an upload screen, where you can select your zip.</li>
+</ol>
+<figure>
+<img src="images/upload-html-expo.png" title="image showing the upload screen" alt="" /><figcaption>the upload screen</figcaption>
+</figure>
+<ol start="4" type="1">
+<li><p>Wait for upload to finish</p>
+<p>When the upload finished and there is no error, you can view the exposition by hitting the preview button (eye in the top right corner). Otherwise you will have to fix the errors and try again.</p></li>
+</ol>
 <h3 id="requirements-for-html-expositions">Requirements for HTML expositions</h3>
 <p>There are a few requirements to the zip that is uploaded:</p>
 <ul>
 <li>The root folder needs to contain a file named index.html, this will be the page where the exposition opens.</li>
 <li>All other HTML files in the root folder will be added to the table of contents.</li>
 <li>Do not nest folders into folders.</li>
-<li>You can use .html .css and various media formats, mp4, mp3 etc.. You do not have to transcode.</li>
+<li>You can use .html .css and various media formats, mp4, mp3 etc.. The RC will automatically transcode the video and audio to a web compatible format.</li>
 <li>JavaScript is currently not supported for security reasons, if present, import will fail.</li>
 <li>The character encoding of the .html files should be UTF-8</li>
 </ul>
