@@ -168,6 +168,10 @@ Here you can set which objects can be submitted to the portal.
 	Allows users to submit expositions with embedded external content.
 * __Allow limited research publication to this portal.__    
 	Allows users to request limited publication to a portal.
+* __Accept submission of html based expositions__.  Allows users to
+	submit using the HTML based editor. Since the HTML-based expositions cannot be
+	directly edited in the RC, editing content will have to
+	happen outside of the RC. The default is to have this option turned off.
 * __Degrees can be submitted to this portal.__  
 	Degrees no longer exist, only for legacy reasons.
 * __Applications can be submitted to this portal.__    

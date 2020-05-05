@@ -14,10 +14,10 @@ reviewing/editing workflows. If you are planning to submit your
 exposition to one of the journals in the RC, one should use the
 graphical or the text based editor.
 
-The workflow is:
+To create a HTML based exposition:
 
-1. Click [ Create Exposition ] on your profile page.
-2. Select "html based" as the editor, fill in necessary metadata and click submit.
+1. Click \[ Create Exposition \] on your profile page.
+2. Select "html based" as the editor, fill in required metadata fields and click submit.
 
 ![selecting html import editor](images/selecting-html-import.png "image showing html import editor")
 
@@ -28,8 +28,9 @@ The workflow is:
 4. Wait for upload to finish
 
 	When the upload finished and there is no error, you can view the
-	exposition by hitting the preview button (eye in the top right
-	corner). Otherwise you will have to fix the errors and try again.
+	exposition by clicking the preview button (eye in the top right
+	corner). If it is not succesful you can use the error message to 
+	see what changes you may need to make and try again.
 
 
 ### Requirements for HTML expositions
@@ -49,5 +50,6 @@ There are a few requirements to the zip that is uploaded:
 
 ### Updating
 
-It is not possible to update single files within the expostion, to
-update you have to replace your old version with a new zip.
+Currently, there is no way to update single files within your HTML folder.
+When something is changes, you will have to upload the whole exposition again.
+
