@@ -1,12 +1,12 @@
-## HTML Import
+# HTML Import
 
 It is possible to import a website of static HTML into the RC. This
 feature is aimed at users that are familiar with HTML and want to use
 their own editor.
 
 For security reasons, JavaScript is not supported, but CSS files,
-<img> <video> <audio> tags can be used. The folder containing your
-HTML files need to be uploaded as a zip file (.zip).
+`<img> <video> <audio>` tags can be used. The folder containing your
+HTML files are to be uploaded as a zip file (.zip).
 
 Important: at this moment, the existing RC Journals do not accept
 submissions imported as HTML, because they do not fit in existing
@@ -26,7 +26,7 @@ corner).
 
 ### Requirements for HTML expositions
 
-There are a few requirements to the zip that is uploaded
+There are a few requirements to the zip that is uploaded:
 
 * The root folder needs to contain a file named index.html, this will
   be the page where the exposition opens.
