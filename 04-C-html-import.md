@@ -6,13 +6,13 @@ their own editor.
 
 For security reasons, JavaScript is not supported, but CSS files,
 `<img> <video> <audio>` tags can be used. The folder containing your
-HTML files are to be uploaded as a zip file (.zip).
+HTML and media files are to be uploaded as a zip file (.zip).
 
-Important: at this moment, the existing RC Journals do not accept
+*Important: at this moment, the existing RC Journals do not accept
 submissions imported as HTML, because they do not fit in existing
 reviewing/editing workflows. If you are planning to submit your
 exposition to one of the journals in the RC, one should use the
-graphical or the text based editor.
+graphical or the text-based editor.*
 
 To create a HTML based exposition:
 
@@ -48,8 +48,13 @@ There are a few requirements to the zip that is uploaded:
   present, import will fail.
 * The character encoding of the .html files should be UTF-8
 
+### Example exposition
+
+An example HTML-based exposition can be downloaded here:\
+<https://github.com/SocietyForArtisticResearch/rc-html-import-example/blob/master/DemoExposition.zip>
+
 ### Updating
 
-Currently, there is no way to update single files within your HTML folder.
-When something is changes, you will have to upload the whole exposition again.
+Currently, it is not possible to update single files within your uploaded exposition.
+When something changes, you will have to upload the whole exposition again.
 

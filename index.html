@@ -952,7 +952,7 @@ Click any element in the image to jump to the relevant section:
 <em>Upload media files (image, video, pdf) and insert in your exposition</em></li>
 </ul>
 <h2 id="introduction">Introduction</h2>
-<p>The text-based editor is aimed at creating <a href="http://https://nl.wikipedia.org/wiki/Responsive_webdesign">responsive</a> RC expositions. Despite the “text” in the name, expositions made with this editor can also contain images, video, audio or PDF. “Text based” refers to the method of editing: through plain text. Because of this plain text input, text-based expositions can be easily imported or edited in external editors. The consequence is that editing the visual layout is less direct as in the graphical based editor.</p>
+<p>The text-based editor is aimed at creating <a href="http://https://nl.wikipedia.org/wiki/Responsive_webdesign">responsive</a> RC expositions. Despite the “text” in the name, expositions made with this editor can also contain images, video, audio or PDF. “Text based” refers to the method of editing: through plain text. Because of this plain text input, text-based expositions can be easily imported or edited in external editors. The consequence is that editing the visual layout is less direct as in the graphical based editor. The structure of the exposition is expressed by using Markdown, the display of which can be customized through style sheets (css).</p>
 <p>On desktop, the editor splits the screen in two: you can write your text on the left side <a href="#editor">editor</a> while the result is shown as a <a href="#preview">preview</a> on the right hand side. It is also possible to <a href="#import-export">import</a> the text from external formats like Word and Open Office. Formatting (<strong>bold</strong>,<em>italic</em> etc…) is added using <a href="#markdown">markdown</a> notation.</p>
 <p>If you want to insert <a href="#introduction" title="video, audio, image or PDF">media</a>, you can add these through the <a href="#upload-media"><strong>“upload media”</strong> button </a>. When the upload has finished, the media edit dialog will automatically open, allowing you to edit and insert it.</p>
 <p>Finally, the look of your text and media can be controlled through the media list and the style editor.</p>
@@ -1149,8 +1149,8 @@ A quotation is inserted by indenting your text with 4 spaces or 1 tab, like so:
 <p>You may also use <a href="https://www.w3schools.com/html/html_tables.asp">HTML tables</a>. There are also online tools that help you generate <a href="https://www.tablesgenerator.com/markdown_tables">either</a> of <a href="https://www.google.com/search?sxsrf=ACYBGNRHvQviaPEVsRaoYNH4RBmxEvCZaQ%3A1574157215715&amp;source=hp&amp;ei=n7vTXe-VKdHCkwWAn5rYBA&amp;q=convert+excel+to+html+table&amp;oq=convert+excel+to+html+table&amp;gs_l=psy-ab.3..0l5j0i203j0i22i30l4.1154.7184..7368...3.0..0.72.1472.30......0....1..gws-wiz.......35i39.6l0ze9Qpl6I&amp;ved=0ahUKEwiv4aTNgPblAhVR4aQKHYCPBksQ4dUDCAU&amp;uact=5">these</a>.</p>
 <h1 id="html-import">HTML Import</h1>
 <p>It is possible to import a website of static HTML into the RC. This feature is aimed at users that are familiar with HTML and want to use their own editor.</p>
-<p>For security reasons, JavaScript is not supported, but CSS files, <code>&lt;img&gt; &lt;video&gt; &lt;audio&gt;</code> tags can be used. The folder containing your HTML files are to be uploaded as a zip file (.zip).</p>
-<p>Important: at this moment, the existing RC Journals do not accept submissions imported as HTML, because they do not fit in existing reviewing/editing workflows. If you are planning to submit your exposition to one of the journals in the RC, one should use the graphical or the text based editor.</p>
+<p>For security reasons, JavaScript is not supported, but CSS files, <code>&lt;img&gt; &lt;video&gt; &lt;audio&gt;</code> tags can be used. The folder containing your HTML and media files are to be uploaded as a zip file (.zip).</p>
+<p><em>Important: at this moment, the existing RC Journals do not accept submissions imported as HTML, because they do not fit in existing reviewing/editing workflows. If you are planning to submit your exposition to one of the journals in the RC, one should use the graphical or the text-based editor.</em></p>
 <p>To create a HTML based exposition:</p>
 <ol type="1">
 <li>Click [ Create Exposition ] on your profile page.</li>
@@ -1179,8 +1179,11 @@ A quotation is inserted by indenting your text with 4 spaces or 1 tab, like so:
 <li>JavaScript is currently not supported for security reasons, if present, import will fail.</li>
 <li>The character encoding of the .html files should be UTF-8</li>
 </ul>
+<h3 id="example-exposition">Example exposition</h3>
+<p>An example HTML-based exposition can be downloaded here:<br />
+<a href="https://github.com/SocietyForArtisticResearch/rc-html-import-example/blob/master/DemoExposition.zip" class="uri">https://github.com/SocietyForArtisticResearch/rc-html-import-example/blob/master/DemoExposition.zip</a></p>
 <h3 id="updating">Updating</h3>
-<p>Currently, there is no way to update single files within your HTML folder. When something is changes, you will have to upload the whole exposition again.</p>
+<p>Currently, it is not possible to update single files within your uploaded exposition. When something changes, you will have to upload the whole exposition again.</p>
 <!-- TODO: Insert links to other parts of the documentation -->
 <h1 id="navigation">Navigation</h1>
 <h2 id="navigation-bar">Navigation bar</h2>

@@ -36,7 +36,17 @@ First time user of the text editor? <a href="#introduction">click here</a>.
    
 ## Introduction  
 
-The text-based editor is aimed at creating [responsive](http://https://nl.wikipedia.org/wiki/Responsive_webdesign) RC expositions. Despite the "text" in the name, expositions made with this editor can also contain images, video, audio or PDF. "Text based" refers to the method of editing: through plain text. Because of this plain text input, text-based expositions can be easily imported or edited in external editors. The consequence is that editing the visual layout is less direct as in the graphical based editor.
+The text-based editor is aimed at creating
+[responsive](http://https://nl.wikipedia.org/wiki/Responsive_webdesign)
+RC expositions. Despite the "text" in the name, expositions made with
+this editor can also contain images, video, audio or PDF. "Text based"
+refers to the method of editing: through plain text. Because of this
+plain text input, text-based expositions can be easily imported or
+edited in external editors. The consequence is that editing the visual
+layout is less direct as in the graphical based editor. The structure of 
+the exposition is expressed by using Markdown, the display of which can be 
+customized through style sheets (css). 
+
  
 On desktop, the editor splits the screen in two: you can write your text on the left side <a href="#editor">editor</a> while the result is shown as a <a href="#preview">preview</a> on the right hand side. It is also possible to <a href="#import-export">import</a> the text from external formats like Word and Open Office. Formatting (__bold__,*italic* etc...) is added using <a href="#markdown">markdown</a> notation.
  
