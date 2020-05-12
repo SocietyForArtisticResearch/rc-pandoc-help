@@ -132,8 +132,10 @@ Here you can edit the various roles of the portal:
 
 Portal admins can select any of their Text based expositions to be available as templates for users within their portal. This allows users to start with a predifined CSS sheet or even content. 
 
-### Submissions
-![portal edit sumbmissions](images/portal-allow.png "image showing portal submissions")
+<a id="submissions">
+
+### Portal Settings
+![portal edit submissions](images/portal-allow.png "image showing portal submissions")
 
 Here you can set which objects can be submitted to the portal.
 
