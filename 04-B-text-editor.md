@@ -273,9 +273,11 @@ which results in:
 [linktext](http://example.com)  
 
 You can also use create internal links using a *hashtag* (#):
+
 `[link](#your-anchor-id)`
 
 The anchor itself is written like this:
+
 `<a id="your-anchor-id"></a>`
 
 
