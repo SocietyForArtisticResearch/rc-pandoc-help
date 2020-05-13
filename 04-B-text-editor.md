@@ -272,11 +272,12 @@ Hyperlinks are written in the following manner:
 which results in:   
 [linktext](http://example.com)  
 
-You can also use create internal links using a *hashtag* (#):
+You can also use create internal links, called *anchors*.
+The link is made by writing a hashtag (#) before the name of your anchor:
 
 `[link](#your-anchor-id)`
 
-The anchor itself is written like this:
+The anchor itself is created like this:
 
 `<a id="your-anchor-id"></a>`
 
