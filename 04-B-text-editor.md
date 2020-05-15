@@ -1,3 +1,4 @@
+
 # Text based editor
 
 First time user of the text editor? <a href="#introduction">click here</a>.
@@ -168,29 +169,25 @@ Instead of typing these characters, you can also select a piece of text and push
 
 ## Paragraphs 
 
-When text is separated by an empty line, it creates a paragraph.
-Newlines are normally removed, unless you specifically force them by:
+When two blocks of text are separated by an empty line, it starts a new paragraph. 
 
-* putting two spaces at the end of a line
-* putting an `\` character at the end of a line
-
-Here are some examples to demonstrate:
-
-__a)__
+__example a)__ __an empty line starts a new paragraph:__
 
 <pre>
 a paragraph
+some text
+and some other text
 
 another paragraph
 </pre>
 
 _results in:_
 
-a paragraph
+<p class="bg-red extra-space">a paragraph some text and some other text</p>
+<p class="bg-blue">another paragraph</p>
 
-another paragraph
 
-__b)__
+__example b)__ __if lines are not separated by an empty line, they are combined:__
 
 <pre>
 This text 
@@ -199,10 +196,14 @@ will be joined together
 
 _results in:_
 
-This text
-will be joined together
+<span class="bg-red">This text </span><span class="bg-blue">will be joined together</span>
 
-__c)__
+__You can force a newline by:__
+
+* putting two spaces at the end of a line
+* putting an `\` character at the end of a line
+
+__example c)__ __two spaces at the end tells markdown to keep the newline__
 
 <pre>
 This line has two spaces at the end__
@@ -211,10 +212,10 @@ and it thus keeps the newline.
 
 _results in:_
 
-This line has two spaces at the end  
-and it thus keeps the newline.
+<span class="bg-red">This line has two spaces at the end  </span><br>
+<span class="bg-blue">and it thus keeps the newline.</span>
 
-__d)__
+__example d)__ __a newline can also be kept by appending a backslash__
 
 <pre> 
 The same for the backslash\
@@ -223,9 +224,8 @@ also does the trick!
 
 _results in:_
  
-The same for the backslash\
-also does the trick!
-
+<span class="bg-red">The same for the backslash\ </span> <br>
+<span class="bg-blue">also does the trick!</span>
 
   
 ## Headers 
@@ -247,7 +247,7 @@ An alternative way of writing headers is by putting ===== or --- below you heade
 
 ## Lists
  
-To get a bullet point list, write * before each item. Each item is seperated by a newline. A whiteline should preclude the first item.
+To get a bullet point list, write * before each item. Before the first item, keep an empty line.
 Thus, when you write:  
 
     * my first point
