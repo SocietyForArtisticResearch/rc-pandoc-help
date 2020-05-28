@@ -25,9 +25,10 @@ The RC allows the user to create custom designed webpages called
 __expositions__. These __expositions__ can contain many types of media
 including: text, video, images, and audio recordings.  The way in
 which these materials are presented is highly customizable by the
-user. The exposition can be edited in an online drag-and-drop
-editor. Collaboration of multiple authors on the development of a
-single exposition is also possible.
+user. Expositions can be edited either using a graphical
+drag-and-drop editor or written using a text-based editor. Various
+types of import formats are also supported. Collaboration of multiple
+authors on the development of a single exposition is also possible.
 
 ### What is a "Work" ?
 
