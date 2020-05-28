@@ -102,7 +102,7 @@
 
 /* end menu stuff, guide styling: */
 
-.body-text {
+#body-text {
     max-width:100%;
 }
 
@@ -286,7 +286,7 @@ table tr td :last-child {
         display: none;
     }
 
-    .body-text {
+    #body-text {
 	max-width: 100%;
 	overflow-x: hidden;
     }
