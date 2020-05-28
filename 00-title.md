@@ -55,4 +55,4 @@ window.onload = function ( ) {
 }
 
 </script>
-<div id="body-text">
+<div class="body-text">

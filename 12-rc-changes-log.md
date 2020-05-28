@@ -1,21 +1,34 @@
 # Changelog
 
-<div id="container-content" style="width:930px"><div class="content-headline">
-<h3>
-Developments in progress</h3>
-</div>
-<table>
-<tbody><tr><th>date</th><th>subject</th><th>content
-</th></tr><tr>
-<td>12/01/2016
-</td><td>Groups
-</td><td><p><span>The new group feature will allow users to:&nbsp;</span></p>
-<ul>
-<li>collectively author research (includes all other objects, such as works etc.; group acts just like a normal user)</li>
-<li>discuss particular issues, idea, problems</li>
-<li>serve as a container for work by members pertinent to the group (containers for research projects/teams)</li>
-</ul>
-</td><td></td></tr></tbody></table>
+# In development
+
+* __Media repository restructuring__
+	The current work feature will be overhauled and extended in order
+    to create a media repository functionality, which will allow users
+    to navigate and manage their media files, and to share files with
+    other users. Moreover, the repository will facilitate the editing
+    of metadata, the uploading and transcoding of files and import of
+    files from other repositories and data storage services. This will
+    replace the current work feature, so that users can assign
+    specific metadata to a group of media files, but it will also work
+    as a central data storage space. A repository navigator will be
+    usable in the exposition editor and on personal profile pages.
+
+* __API__
+	In order to connect the RC to external repositories an API needs
+	to be developed. This will make it possible to retrieve metadata
+	for works and expositions and use these in other
+	databases. Moreover, it will improve the searchability of content
+	on the RC. In the course of these developments, we aim to create
+	keyword pages and seek to display relations among keywords in
+	order to link related content on the RC.
+
+* __Front page redesign__
+	Make journals and portals easier to find, better use of space.
+
+
+<div id="container-content" style=""><div class="content-headline">
+
 <div class="content-headline">
 <h3>Latest Developments</h3>
 </div>

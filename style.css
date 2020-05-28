@@ -102,6 +102,9 @@
 
 /* end menu stuff, guide styling: */
 
+.body-text {
+    max-width:100%;
+}
 
 body {
     font-family: helvetica, arial, sans-serif;
@@ -281,6 +284,11 @@ table tr td :last-child {
     #overview-block {
         visibility: hidden;
         display: none;
+    }
+
+    .body-text {
+	max-width: 100%;
+	overflow-x: hidden;
     }
 }
 
