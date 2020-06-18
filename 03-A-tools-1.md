@@ -477,6 +477,16 @@ When done, click submit and the file will begin uploading.
 The __PREVIEW__ field is for changing the image that represents the pdf in the exposition for the reader.
 If no preview image is provided, a miniturised copy of the first page will be used. You can later change the preview image, by selecting one from your media list.
 
+### Changing the PDF preview image
+
+If you have an existing PDF tool, you can update the preview image with any image from your [media list](#media-list).
+If you want to use a completely new image, you will have to add it to your [media list](#media-list) first.
+
+- Double click the tool 
+- Click the "change preview image" button
+- Select the image from the dropdown list
+- Submit
+
 #### A few notes
 
 * __Never re-use the url__ of the pdf file that opens when you click the pdf tool in the preview.

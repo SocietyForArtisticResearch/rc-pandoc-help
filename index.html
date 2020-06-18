@@ -6,11 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Research Catalogue Extended Guide</title>
-  <style type="text/css">
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
   </style>
   <link rel="stylesheet" href="style.css" />
   <!--[if lt IE 9]>
@@ -22,23 +24,27 @@
 <h1 class="title">Research Catalogue Extended Guide</h1>
 <p class="date">May 2020</p>
 </header>
-<nav id="TOC">
+<nav id="TOC" role="doc-toc">
 <ul>
 <li><a href="#about-the-research-catalogue">About the Research Catalogue</a></li>
-<li><a href="#my-profile-page">My Profile Page</a><ul>
+<li><a href="#my-profile-page">My Profile Page</a>
+<ul>
 <li><a href="#profile-section">Profile Section</a></li>
 <li><a href="#research-section">Research Section</a></li>
 <li><a href="#manage-versions">Manage versions</a></li>
 <li><a href="#edit-research">Edit Research</a></li>
 </ul></li>
-<li><a href="#choosing-an-editor">Choosing an Editor</a><ul>
+<li><a href="#choosing-an-editor">Choosing an Editor</a>
+<ul>
 <li><a href="#comparison-of-rc-exposition-formats">Comparison of RC Exposition Formats</a></li>
 </ul></li>
-<li><a href="#graphical-editor-views">Graphical Editor Views</a><ul>
+<li><a href="#graphical-editor-views">Graphical Editor Views</a>
+<ul>
 <li><a href="#preview">Preview</a></li>
 <li><a href="#workspace-view">Workspace View</a></li>
 </ul></li>
-<li><a href="#workspace-editor-for-graphical-expositions">Workspace editor for graphical expositions</a><ul>
+<li><a href="#workspace-editor-for-graphical-expositions">Workspace editor for graphical expositions</a>
+<ul>
 <li><a href="#editor-basics">Editor basics</a></li>
 <li><a href="#adding-a-tool">Adding a tool</a></li>
 <li><a href="#key-commands">Key commands</a></li>
@@ -58,19 +64,22 @@
 <li><a href="#history-2">History</a></li>
 </ul></li>
 <li><a href="#content-manager">Content manager</a></li>
-<li><a href="#media-management">Media management</a><ul>
+<li><a href="#media-management">Media management</a>
+<ul>
 <li><a href="#simple-media">Simple Media</a></li>
 <li><a href="#import-word-documents-using-simple-media-upload">Import Word documents using Simple Media upload</a></li>
 <li><a href="#works">Works</a></li>
 <li><a href="#pages">Pages</a></li>
 </ul></li>
-<li><a href="#menus">Menus</a><ul>
+<li><a href="#menus">Menus</a>
+<ul>
 <li><a href="#edit-menu">Edit menu</a></li>
 <li><a href="#options-menu">Options menu</a></li>
 <li><a href="#help-menu">Help menu</a></li>
 <li><a href="#send-collaboration-message">Send Collaboration Message</a></li>
 </ul></li>
-<li><a href="#text-based-editor">Text based editor</a><ul>
+<li><a href="#text-based-editor">Text based editor</a>
+<ul>
 <li><a href="#overview">Overview</a></li>
 <li><a href="#introduction">Introduction</a></li>
 <li><a href="#editor">Editor</a></li>
@@ -90,7 +99,8 @@
 <li><a href="#tables-markdown">Tables (markdown)</a></li>
 </ul></li>
 <li><a href="#html-import">HTML Import</a></li>
-<li><a href="#navigation">Navigation</a><ul>
+<li><a href="#navigation">Navigation</a>
+<ul>
 <li><a href="#navigation-bar">Navigation bar</a></li>
 <li><a href="#table-of-content">Table of Content</a></li>
 <li><a href="#hyperlinking">Hyperlinking</a></li>
@@ -100,14 +110,16 @@
 <li><a href="#follow-and-search">Follow and Search</a></li>
 <li><a href="#collaborating-on-research">Collaborating on Research</a></li>
 <li><a href="#footnotes-and-popovers">Footnotes and Popovers</a></li>
-<li><a href="#administration-reviewing-process">Administration: Reviewing process</a><ul>
+<li><a href="#administration-reviewing-process">Administration: Reviewing process</a>
+<ul>
 <li><a href="#introduction-1">Introduction</a></li>
 <li><a href="#setting-up-accounts">Setting up accounts</a></li>
 <li><a href="#writing-the-exposition-collaboration">Writing the exposition, collaboration</a></li>
 <li><a href="#requesting-publication">Requesting publication</a></li>
 <li><a href="#final-publication-or-rejection">Final publication or rejection</a></li>
 </ul></li>
-<li><a href="#administration-reference-guide">Administration reference guide</a><ul>
+<li><a href="#administration-reference-guide">Administration reference guide</a>
+<ul>
 <li><a href="#administration-main-page">Administration Main Page</a></li>
 <li><a href="#user-page">User Page</a></li>
 <li><a href="#portal-page">Portal page</a></li>
@@ -201,14 +213,14 @@ window.onload = function ( ) {
 <h3 id="view-public-profile">View Public Profile</h3>
 <p>You can switch between your profile’s editing mode (private) and your public profile, which is the profile as other users see it. Click on “my profile” for the editing mode and - below your image - click “view public profile” to hide all controls, grouping options and private research. You can thus control the public visibility of your RC objects.</p>
 <figure>
-<img src="images/view_public_profile.png" title="view public profile" alt="view public profile" /><figcaption>view public profile</figcaption>
+<img src="images/view_public_profile.png" title="view public profile" alt="" /><figcaption>view public profile</figcaption>
 </figure>
 <h3 id="description">Description</h3>
 <p>You can add a short text (for example a biography), that other RC users will see when they visit your profile. To edit this text, click “edit profile”, on your profile page and scroll down. Here you can also add a tagline, set your country of residence, and list your research interests.</p>
 <h3 id="uploading-a-cv">Uploading a CV</h3>
 <p>In addition to the profile description, it is possible to upload a more extended CV as a PDF. To do so, click “upload cv” below your profile picture.</p>
 <figure>
-<img src="images/upload_cv.png" title="upload a cv" alt="upload your cv" /><figcaption>upload your cv</figcaption>
+<img src="images/upload_cv.png" title="upload a cv" alt="" /><figcaption>upload your cv</figcaption>
 </figure>
 <!-- ### Degrees -->
 <!-- You can also add your __degrees__ to your profile. Enter the name, the level, the dates and the institution of your degree and link it via the __relations-tab__ to projects, expositions or works that you created in support for your degree. -->
@@ -231,7 +243,7 @@ window.onload = function ( ) {
 <p>The graphical editor gives the user more control over position of objects and is best used for expositions wich require non-linear layouts. See <a href="#comparison-of-rc-exposition-formats" title="compare the two exposition formats">comparison</a>.</p>
 <p>For more info on the text editor, see <a href="#text-based-editor">text based editor</a>.</p>
 <figure>
-<img src="images/add-research-dialog.png" title="image showing the add research dialog" alt="create exposition" /><figcaption>create exposition</figcaption>
+<img src="images/add-research-dialog.png" title="image showing the add research dialog" alt="" /><figcaption>create exposition</figcaption>
 </figure>
 <h3 id="add-work">Add Work</h3>
 <p>A <strong>work</strong> in the RC can be used to represent self-sufficient artistic creations existing outside the RC, such as objects, compositions, recordings, videos, installations, paintings, photographs, books etc, but can also be used to represent events, presentations or expositions. You can add metadata such as the place of your work, the country or the material, technique or format. Moreover, the work can contain a collection of media files, which can later be accessed in used in expositions. Works therefore also provide a way to reuse a file in multiple expositions at once, without the need to upload them again.</p>
@@ -246,7 +258,7 @@ window.onload = function ( ) {
 <p>The button “open exposition” opens the first page (or “weave”) of your exposition. This is equivalent to the <strong>preview</strong> version in the exposition workspace.</p>
 <h3 id="exposition-details-menu">Exposition Details Menu</h3>
 <figure>
-<img src="images/hamburger_location.png" title="image showing location of menu button" alt="object menu location" /><figcaption>object menu location</figcaption>
+<img src="images/hamburger_location.png" title="image showing location of menu button" alt="" /><figcaption>object menu location</figcaption>
 </figure>
 <p>To access the menu, click on the (“hamburger”) menu icon, located in the bottom right corner of an object (expositions or works). Some options are only available to the author of the object.</p>
 <ul>
@@ -265,7 +277,7 @@ window.onload = function ( ) {
 <h3 id="change-layout">Change Layout</h3>
 <p>This dialogue gives you the option of choosing the size of the research description boxes on your profile page.</p>
 <figure>
-<img src="images/change-layout.png" title="image displaying layout options for research on My Profile" alt="The 4 options for how to display research on your profile" /><figcaption>The 4 options for how to display research on your profile</figcaption>
+<img src="images/change-layout.png" title="image displaying layout options for research on My Profile" alt="" /><figcaption>The 4 options for how to display research on your profile</figcaption>
 </figure>
 <p>Depending on the length of the content, the abstract and additional information may be reduced or even hidden. Sizing objects differently allows to focus a reader’s attention to important objects as well as to improve the overall readability of your profile page.</p>
 <p>Four layout-templates are possible:</p>
@@ -279,7 +291,7 @@ window.onload = function ( ) {
 <p>It is possible to create a snapshot of your exposition, which you can restore later.</p>
 <p>A snapshot is created by going to ☰ &gt; <strong>versions</strong> and clicking <strong>add snapshot</strong>.</p>
 <figure>
-<img src="images/manage-versions.png" title="image showing manage versions dialog" alt="version dialog" /><figcaption>version dialog</figcaption>
+<img src="images/manage-versions.png" title="image showing manage versions dialog" alt="" /><figcaption>version dialog</figcaption>
 </figure>
 <p>When you restore a snapshot, the original is not overwritten, instead a new exposition will be created from the snapshot.</p>
 <p>There are three options for how to deal with the <a href="#collaborating-on-research">collaboration</a> settings of a restored snapshot:</p>
@@ -300,7 +312,7 @@ window.onload = function ( ) {
 <h2 id="edit-research">Edit Research</h2>
 <p>This dialog can be opened by <strong>☰ &gt; edit details</strong> or clicking the title of the exposition in the workspace editor.</p>
 <figure>
-<img src="images/edit-research.png" title="image showing edit research dialog" alt="Edit research dialog, showing meta page" /><figcaption>Edit research dialog, showing meta page</figcaption>
+<img src="images/edit-research.png" title="image showing edit research dialog" alt="" /><figcaption>Edit research dialog, showing meta page</figcaption>
 </figure>
 <ul>
 <li><strong>Meta data</strong> change the <strong>title</strong>, <strong>date</strong>, <strong>abstract</strong>, <strong>keywords</strong>, <strong>affiliation</strong> and <strong>external link</strong> fields for your exposition.<br />
@@ -317,7 +329,7 @@ A <strong>title</strong> and <strong>abstract</strong> are obligatory.</li>
 <p>There are two types of editors in RC, the <strong>graphical</strong> editor and the <strong>text-based</strong> editor. Both editors can be used to create expositions that can be published, reviewed and submitted for publication. However, the design, the writing process as well as the way in which exposition can be read are significantly different.</p>
 <p>When creating a new exposition you are asked to choose a format to use. After the exposition has been created, one cannot change the format anymore. It is therefore important to make the right choice for a particular project at the outset.</p>
 <figure>
-<img src="images/format-picker.png" title="image showing format picker" alt="choosing a format in the Create Exposition dialog" /><figcaption>choosing a format in the Create Exposition dialog</figcaption>
+<img src="images/format-picker.png" title="image showing format picker" alt="" /><figcaption>choosing a format in the Create Exposition dialog</figcaption>
 </figure>
 <p>The <strong>graphical editor</strong>, which is documented <a href="#workspace-editor">here</a>, allows the author to set the position of each element in the page. This makes it easy to have non-linear formats or presentations in which the media, such as images, video and audio files, are as important, if not more important, as the text. The editor works by dragging and dropping. There is no predefined style or template and its possible to have the reader go through the content in a non-linear fashion. However, a consequence of absolutely positioning all elements is that the exposition cannot adjust to the size of a particular device, that is, these expositions are not “responsive”. If you want readers to be able to read your exposition on mobile device the text-based editor may be more suitable for your project.</p>
 <p>The <strong>text-based</strong>, which is documented <a href="#text-based-editor">here</a>, editor is designed for writing (and importing) texts, while supporting the embedding of media. The input is plain text, which is translated into HTML. The author can express the structure of the text using <a href="http://https://en.wikipedia.org/wiki/Markdown">Markdown</a> notation. Because the input is plain text, it can also be automatically imported and exported from and to various external formats, for example MS Word documents, Open office documents and LateX. Styling is applied using standard CSS. By default the structure of the exposition is maintained, while the sizes of the text will adjust for readability on different screen sizes. Text-based expositions are <em>responsive</em>.</p>
@@ -387,7 +399,7 @@ Note, that the video player, the audio player, the slideshow and object tool are
 <p>Note: while for the reader the exposition will always open the <strong>entry page</strong> of your exposition, clicking the PREVIEW button in the editor shows the page that you currently are working on in your workspace. Thus, you can also PREVIEW pages that are not yet listed in the table of contents.</p>
 <h2 id="workspace-view">Workspace View</h2>
 <figure>
-<img src="images/workspace-view-2018.png" title="image showing workspace view" alt="workspace view of the graphical exposition format" /><figcaption>workspace view of the graphical exposition format</figcaption>
+<img src="images/workspace-view-2018.png" title="image showing workspace view" alt="" /><figcaption>workspace view of the graphical exposition format</figcaption>
 </figure>
 <p>The <strong>workspace editor</strong> is the editor of content on the RC. It can be opened by clicking <strong>☰ &gt; edit workspace</strong> on an exposition listed on your profile. If you are reading one of your own expositions, you can also open the editor by clicking <strong>EDIT</strong> in the navigation bar on top. Which editor will show will depend on the format.</p>
 <p>Published epositions cannot be edited (by definition) and you need to be the author, co-author or editor of an exposition to be able to edit an exposition.</p>
@@ -416,7 +428,7 @@ For more info on specific tools, see [workspace](#research-catalogue-workspace-t
 <!--pandoc -s tools.md -o tools.html -c style.css-->
 <h1 id="workspace-editor-for-graphical-expositions">Workspace editor for graphical expositions</h1>
 <figure>
-<img src="images/workspace-view-2018.png" title="image showing graphical editor" alt="workspace view of the graphical exposition format" /><figcaption>workspace view of the graphical exposition format</figcaption>
+<img src="images/workspace-view-2018.png" title="image showing graphical editor" alt="" /><figcaption>workspace view of the graphical exposition format</figcaption>
 </figure>
 <h2 id="editor-basics">Editor basics</h2>
 <p>When you open the editor you will see math-paper like area in the center, this is called the grid. Content is added by dragging-and-dropping “tools” from the toolbar onto the grid. You can preview what the exposition looks like to the reader by clicking the “preview” button: <img src="images/eye_metro.svg" class="icon">. This preview button is located at the top right.</p>
@@ -465,12 +477,12 @@ For more info on specific tools, see [workspace](#research-catalogue-workspace-t
 <h3 id="context-menu">Context menu</h3>
 <div class="small_image">
 <figure>
-<img src="images/position-context-menu.png" title="context menu location" alt="context menu location" /><figcaption>context menu location</figcaption>
+<img src="images/position-context-menu.png" title="context menu location" alt="" /><figcaption>context menu location</figcaption>
 </figure>
 </div>
 <p>The context menu of a tool is reached by clicking on the menu icon (see below), or right clicking (Apple: CTRL+click) inside a tool. The only exception is the text tool, see text tool.</p>
 <figure>
-<img src="images/context-menu.png" title="context menu" alt="context menu" /><figcaption>context menu</figcaption>
+<img src="images/context-menu.png" title="context menu" alt="" /><figcaption>context menu</figcaption>
 </figure>
 <ul>
 <li><p><strong>Edit</strong> (open edit dialog)<br />
@@ -533,7 +545,7 @@ Delete a tool</p></li>
 <p><strong>Never place other tools (like images) directly on top of long text tools</strong>. Because of small differences in how fonts are displayed within major browsers, and the fixed position of RC tools, this can result in text overflowing into those tools if the reader uses a different browser than the author that made the exposition.</p>
 <p>The issue is easily avoided by keeping to this rule: always start a new text tool below an inline image or tool:</p>
 <figure>
-<img src="images/proper-use-text.png" title="Image showing the proper use of text tools" alt="proper way of combining text with other tools" /><figcaption>proper way of combining text with other tools</figcaption>
+<img src="images/proper-use-text.png" title="Image showing the proper use of text tools" alt="" /><figcaption>proper way of combining text with other tools</figcaption>
 </figure>
 <h3 id="scrollbars">Scrollbars</h3>
 <p>If the text within a text tool is longer than the tool height, a scrollbar will appear and part of the text is cutoff. Therefore (especially when copying from external editors) it is important to check that the tool has a large enough size (unless you specifically want a scrollbar).</p>
@@ -548,7 +560,7 @@ Delete a tool</p></li>
 <p>You add the HTML Tool like any other tool: drag it with your mouse from the toolbar onto your canvas.</p>
 <h3 id="media">Media</h3>
 <figure>
-<img src="images/html-tool.png" title="an image showing the html media tab" alt="html tool media tab" /><figcaption>html tool media tab</figcaption>
+<img src="images/html-tool.png" title="an image showing the html media tab" alt="" /><figcaption>html tool media tab</figcaption>
 </figure>
 <p>Text is edited in the <strong>media</strong> tab. You can style your text using the buttons.</p>
 <p><em>! important: If you copy-paste your text from Word, Pages, LibreOffice, Google Docs or any other text editor, note that not all fonts and styles will show the same on every computer. A safer practice is to import the text without any formatting, and format it within RC. This can be done either by exporting your text as plain text and copy pasting from that version, or importing your document using the <a href="#import-word-documents-using-simple-media-upload">document import</a></em></p>
@@ -556,7 +568,7 @@ Delete a tool</p></li>
 <p>Another commenly used feature is the hyperlink button (it looks like a chain link). This can be used to insert <a href="https://guide.researchcatalogue.net/#hyperlinking">hyperlinks</a> or <a href="https://guide.researchcatalogue.net/#footnotes">footnotes</a> into your text.</p>
 <p>The top right button opens the editor in fullscreen. Note: you will have to exit full screen mode to submit your changes, using the same button.</p>
 <figure>
-<img src="images/html-tool-bar-extended.png" alt="html extended tool options" /><figcaption>html extended tool options</figcaption>
+<img src="images/html-tool-bar-extended.png" alt="" /><figcaption>html extended tool options</figcaption>
 </figure>
 <p>A few tips:</p>
 <ul>
@@ -598,7 +610,7 @@ Delete a tool</p></li>
 <p>As with the other tools, use the audio tool by dragging and dropping the icon from the tool palette onto the weave. A pop-up dialog window appears automatically and gives you the choice between “selecting” or “adding” an item. Selecting is for previously uploaded media (either through other audio tools or the media manager). Adding allows you to upload a new file.</p>
 <p>The following formats are supported: <em>ogg, wav, mov, au, mp4 audio container formats; mp2, mp3, aac, pcm a-law, flac audio codec</em> formats. All audio file formats will be transcoded to mp3s with 256kpbs.</p>
 <figure>
-<img src="images/audio-tool-dialog.png" title="image showing Audio Tool Dialog" alt="Audio tool upload dialog" /><figcaption>Audio tool upload dialog</figcaption>
+<img src="images/audio-tool-dialog.png" title="image showing Audio Tool Dialog" alt="" /><figcaption>Audio tool upload dialog</figcaption>
 </figure>
 <p>To minimize loading times, audio files are automatically compressed. During the transcoding process, the name will be grayed out in the media list and a text will be shown in the preview.</p>
 <p>RC encodes with a bitrate of 256 bits per second. For further information and technical questions see <a href="http://www.researchcatalogue.net/portal/faq" title="FAQ">FAQ 2.6</a> or contact the RC User Support.</p>
@@ -658,9 +670,17 @@ Delete a tool</p></li>
 Click the button <strong>ADD MEDIA</strong> to open the dialog for uploading a PDF.<br />
 Be sure to upload the PDF itself in the <strong>PDF</strong> field, not <strong>PREVIEW</strong>. One is also requested to add copyright information. When done, click submit and the file will begin uploading.</p>
 <figure>
-<img src="images/pdf-tool-dialog.png" title="Image showing the pdf tool dialog" alt="The pdf tool dialog" /><figcaption>The pdf tool dialog</figcaption>
+<img src="images/pdf-tool-dialog.png" title="Image showing the pdf tool dialog" alt="" /><figcaption>The pdf tool dialog</figcaption>
 </figure>
 <p>The <strong>PREVIEW</strong> field is for changing the image that represents the pdf in the exposition for the reader. If no preview image is provided, a miniturised copy of the first page will be used. You can later change the preview image, by selecting one from your media list.</p>
+<h3 id="changing-the-pdf-preview-image">Changing the PDF preview image</h3>
+<p>If you have an existing PDF tool, you can update the preview image with any image from your <a href="#media-list">media list</a>. If you want to use a completely new image, you will have to add it to your <a href="#media-list">media list</a> first.</p>
+<ul>
+<li>Double click the tool</li>
+<li>Click the “change preview image” button</li>
+<li>Select the image from the dropdown list</li>
+<li>Submit</li>
+</ul>
 <h4 id="a-few-notes">A few notes</h4>
 <ul>
 <li><p><strong>Never re-use the url</strong> of the pdf file that opens when you click the pdf tool in the preview. For example: “https://media.researchcatalogue.net/rc/master/73723.pdf?t=2629205589&amp;e=1510816850” These (timed) links are automatically generated by the PDF tool specifically for the user that views the tool and are automatically invalidated after use.</p></li>
@@ -676,14 +696,14 @@ Be sure to upload the PDF itself in the <strong>PDF</strong> field, not <strong>
 <ul>
 <li><p><strong>Display in Browser</strong></p>
 <p>Option to “embed” the pdf: display its content directly in the page using the browsers built in PDF viewer. If the PDF is bigger than the box, scrollbars will appear.</p>
-<em>Display in Browser</em> works best if:
+<p><em>Display in Browser</em> works best if:</p>
 <ul>
 <li>your exposition page only contains a single PDF file and not much else.</li>
 <li>your pdf is only 1 or 2 pages long and the tool is made large enough to fit the whole document. Always check with the <strong>preview</strong> how the PDF looks embedded.</li>
 </ul>
 <p>We recommend against putting other tools on top of a <strong>“display in browser”</strong> PDF tool, since browsers have slightly different margins on their PDF viewers : this may result in disalignment of content.</p>
 <figure>
-<img src="images/pdf-display-in-browser.png" alt="Extra settings dialog of pdf tool" /><figcaption>Extra settings dialog of pdf tool</figcaption>
+<img src="images/pdf-display-in-browser.png" alt="" /><figcaption>Extra settings dialog of pdf tool</figcaption>
 </figure>
 <p>As in the picture tool, you can set a text that the reader sees when they hoover the object. To do this, select one of the options in the “show on hover” pull-down menu. You can create a plain text to be displayed when the reader’s mouse hovers over the PDF preview. To use this, choose “plain text” or “copyright &amp; plain text” from the pull-down menu and write your text in the text field below.</p></li>
 </ul></li>
@@ -734,7 +754,7 @@ around the vertical axis is implicitly defined by "levels" and the
 total number of images. -->
 <h2 id="style-options">Style Options</h2>
 <figure>
-<img src="images/style-tab.png" title="the style tab of an html tool" alt="image showing the style tab of an html tool" /><figcaption>image showing the style tab of an html tool</figcaption>
+<img src="images/style-tab.png" title="the style tab of an html tool" alt="" /><figcaption>image showing the style tab of an html tool</figcaption>
 </figure>
 <p>The style tab allows you to set the way an object looks on the outside. There are two ways of reaching the style tab:</p>
 <ul>
@@ -764,7 +784,7 @@ total number of images. -->
 <h1 id="content-manager">Content manager</h1>
 <p>The content manager is located on the right size of the canvas.</p>
 <figure>
-<img src="images/media_manage.png" title="media management" alt="media, pages and footnotes tabs" /><figcaption>media, pages and footnotes tabs</figcaption>
+<img src="images/media_manage.png" title="media management" alt="" /><figcaption>media, pages and footnotes tabs</figcaption>
 </figure>
 <ul>
 <li>overview - all objects in the current weave</li>
@@ -781,7 +801,7 @@ total number of images. -->
 <p>Files that are listed in gray are in the process of being transcoded.</p>
 <p>There four buttons on top of the list of files, from left to right:</p>
 <figure>
-<img src="images/media_manage.png" title="image showing the simple media tab" alt="Simple media tab" /><figcaption>Simple media tab</figcaption>
+<img src="images/media_manage.png" title="image showing the simple media tab" alt="" /><figcaption>Simple media tab</figcaption>
 </figure>
 <ul>
 <li>Upload a file</li>
@@ -793,10 +813,10 @@ total number of images. -->
 <p>It is possible to upload docx/odt/LaTeX documents and have the content automatically be turned into HTML tools and image tools.</p>
 <p>To convert a document, open the Simple Media Tab and upload it in the “document” section of the upload dialog. It may take a few moments to convert after the upload has reached 100%.</p>
 <figure>
-<img src="images/media-upload-tab.png" title="image showing the media upload button" alt="media upload tab" /><figcaption>media upload tab</figcaption>
+<img src="images/media-upload-tab.png" title="image showing the media upload button" alt="" /><figcaption>media upload tab</figcaption>
 </figure>
 <figure>
-<img src="images/upload-doc-dialog.png" title="image showing the doc upload section" alt="upload doc dialog" /><figcaption>upload doc dialog</figcaption>
+<img src="images/upload-doc-dialog.png" title="image showing the doc upload section" alt="" /><figcaption>upload doc dialog</figcaption>
 </figure>
 <p>Once converted, the document will show up as a folder within your simple media. You can drag the elements from this folder to their final desired location in the exposition and resize them to the size you desire.</p>
 <p>To ensure maximum compatibility with RC fonts and styling, text-editor specific styling is automatically filtered, but the inner structure of the text is maintained. This includes: paragraphs, headers, bold, italics, footnotes, illustrations &amp; tables. Footnotes are also converted into RC Footnotes/Popovers. Afterwards, one can use raw CSS (also see below for more details) to add styling again, without the need to style each structural element individually. It may thus still be necessary to import certain elements by hand after the import.</p>
@@ -818,7 +838,7 @@ total number of images. -->
 <h2 id="pages">Pages</h2>
 <p>Pages are managed in the <strong>pages</strong> tab of the content manager. An RC exposition can consist of one or more pages. A new exposition starts with a single page, called “default page”.</p>
 <figure>
-<img src="images/pages-tab-2018.png" title="image showing the page tab" alt="page tab" /><figcaption>page tab</figcaption>
+<img src="images/pages-tab-2018.png" title="image showing the page tab" alt="" /><figcaption>page tab</figcaption>
 </figure>
 <h3 id="creating-a-page">Creating a page</h3>
 <p>New pages are by default <em>private</em>, they have to be explicitely added to the <a href="#table-of-content" title="table of content">table of content</a> to be visible (or by making a <a href="#hyperlinking">hyperlink</a> to the page in your own content). The order of pages cannot be changed in the pages list, but it can in the table of contents. The page will automatically change size based on the content.</p>
@@ -947,7 +967,7 @@ Click any element in the image to jump to the relevant section:
 <p>Finally, the look of your text and media can be controlled through the media list and the style editor.</p>
 <h2 id="editor">Editor</h2>
 <p>The left hand side is where you can edit your text. The editor uses <a href="#markdown" title="link to markdown docs">Markdown</a>, which is a lightweight, human-friendly <a href="https://en.wikipedia.org/wiki/Lightweight_markup_language">markup language</a>. Because Markdown is expressed as plain text, you cannot directly change the styling of the text (font-size, color etc.. are edited in <a href="#edit-style">style</a> ), but you can express the structure/markup of your text. See <a href="#markdown" title="more about markdown">Markdown</a> for a brief overview.</p>
-<p>By default the editor uses colors to show the Markdown elements in your text, but you can also choose “plain txt” which allows your browsers spellchecker to work. <a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>.</p>
+<p>By default the editor uses colors to show the Markdown elements in your text, but you can also choose “plain txt” which allows your browsers spellchecker to work. <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
 <h2 id="previews">Previews</h2>
 <p>Here you can see a preview of your exposition.</p>
 <p>Because text based expositions are responsive (react to the size of the window), the result may change based on the width of the screen. For a full view preview, use the eye button in the toolbar.</p>
@@ -957,7 +977,7 @@ Click any element in the image to jump to the relevant section:
 <h2 id="media-list">Media list</h2>
 <p>All media that you uploaded will appear in the “media list”, where they can be edited or deleted.</p>
 <figure>
-<img src="images/media-list-elm.png" title="image showing media list" alt="The media list" /><figcaption>The media list</figcaption>
+<img src="images/media-list-elm.png" title="image showing media list" alt="" /><figcaption>The media list</figcaption>
 </figure>
 <h3 id="editing-media">Editing media</h3>
 <p>From within the media-list, if you click [<strong>edit</strong>], you will be able to change the <strong>name</strong>, <strong>metadata</strong> and display of a media file.</p>
@@ -972,12 +992,12 @@ Using the buttons in the list itself:</li>
 <li>insert the object in the current position in the text.</li>
 </ul>
 <figure>
-<img src="images/edit-media-elm.png" title="image showing the edit media dialog" alt="The media edit dialog" /><figcaption>The media edit dialog</figcaption>
+<img src="images/edit-media-elm.png" title="image showing the edit media dialog" alt="" /><figcaption>The media edit dialog</figcaption>
 </figure>
 <h2 id="insert-media">Insert media</h2>
 <p>Media is represented on the editor side using a !{<em>media-name</em>} tag. The easiest way of inserting such a media tag is throught the <a href="#insert-toolbar-button">insert media toolbar button</a>, which shows a list of available media that can be inserted. Double click any item to insert.</p>
 <figure>
-<img src="images/insert-media-elm.png" title="inserting media using the insert button" alt="inserting media using the insert button" /><figcaption>inserting media using the insert button</figcaption>
+<img src="images/insert-media-elm.png" title="inserting media using the insert button" alt="" /><figcaption>inserting media using the insert button</figcaption>
 </figure>
 <p>You can also write the media tags directly, for example: to insert a media named “myFile”, you can directly write !{myFile}. This !{myFile} tag will be the location in your text where myFile will be inserted.</p>
 <p>A <strong>caption text</strong> can also be included, to get a caption you write [my caption text]{myFile}. The caption text is displayed underneath the media.</p>
@@ -1154,13 +1174,13 @@ A quotation is inserted by indenting your text with 4 spaces or 1 tab, like so:
 <li>Select “html based” as the editor, fill in required metadata fields and click submit.</li>
 </ol>
 <figure>
-<img src="images/selecting-html-import.png" title="image showing html import editor" alt="selecting html import editor" /><figcaption>selecting html import editor</figcaption>
+<img src="images/selecting-html-import.png" title="image showing html import editor" alt="" /><figcaption>selecting html import editor</figcaption>
 </figure>
 <ol start="3" type="1">
 <li>You will now enter an upload screen, where you can select your zip.</li>
 </ol>
 <figure>
-<img src="images/upload-html-expo.png" title="image showing the upload screen" alt="the upload screen" /><figcaption>the upload screen</figcaption>
+<img src="images/upload-html-expo.png" title="image showing the upload screen" alt="" /><figcaption>the upload screen</figcaption>
 </figure>
 <ol start="4" type="1">
 <li><p>Wait for upload to finish</p>
@@ -1186,7 +1206,7 @@ A quotation is inserted by indenting your text with 4 spaces or 1 tab, like so:
 <h2 id="navigation-bar">Navigation bar</h2>
 <p>When one moves the mouse cursor to the top of an exposition, a menu bar appears.</p>
 <figure>
-<img src="images/navigation-bar.png" title="image showing the navigation bar" alt="the RC navigation bar" /><figcaption>the RC navigation bar</figcaption>
+<img src="images/navigation-bar.png" title="image showing the navigation bar" alt="" /><figcaption>the RC navigation bar</figcaption>
 </figure>
 <p>The navigation bar contains, from left to right:</p>
 <ul>
@@ -1194,7 +1214,7 @@ A quotation is inserted by indenting your text with 4 spaces or 1 tab, like so:
 <li><p><strong>Navigation</strong> Navigation is a graphical map of all the exposition’s content on the current weave. You can click it to jump to a location.</p></li>
 <li><p><strong>Abstract</strong> Abstract, this can be changed by clicking title in the editor or ☰ &gt; <strong>edit details</strong> on your profile.</p></li>
 <li><p><strong>Title / Meta</strong> By moving the mouse pointer the title of your research, a little window with metadata will appear. The link (URL) of the current page is shown, including the current scrolling location. This URL can thus be used to generate the <a href="#hyperlinks">hyperlink</a> for internal linking. You can also use this link to cite a specific location.</p></li>
-<li><strong>Reviewing</strong> Reviewing is connected to the note tool (the yellow “post-it” notes) and is intended for the communication between the author(s) and the reviewer during the reviewing-process. This option is only available for expositions that have not been published yet. Notes can also be used for approving expositions in educational contexts. <br /> There are a couple of functions available: <br />
+<li><p><strong>Reviewing</strong> Reviewing is connected to the note tool (the yellow “post-it” notes) and is intended for the communication between the author(s) and the reviewer during the reviewing-process. This option is only available for expositions that have not been published yet. Notes can also be used for approving expositions in educational contexts. <br /> There are a couple of functions available: <br /></p>
 <ul>
 <li>hide notes (hide all notes)</li>
 <li>show open notes (show only notes that are open)</li>
@@ -1211,11 +1231,11 @@ A quotation is inserted by indenting your text with 4 spaces or 1 tab, like so:
 <h2 id="table-of-content">Table of Content</h2>
 <p>See the <a href="https://www.researchcatalogue.net/view/273532/273533/54/759">video tutorial</a> on this topic.</p>
 <figure>
-<img src="images/table-of-content-example.png" alt="an example of a contents list, made through the table of content" /><figcaption>an example of a contents list, made through the table of content</figcaption>
+<img src="images/table-of-content-example.png" alt="" /><figcaption>an example of a contents list, made through the table of content</figcaption>
 </figure>
 <p>The table of content is designed to facilitate the navigation through an exposition. In order to edit the table of content and add entries, open the “Options” menu item and click on “edit table of content” (one can also open this window by going to the exposition on the profile page and clicking “edit details”). This opens a dialogue window titled “Edit Research.” The second tab (“table of content”) of this window contains a series of entries.</p>
 <figure>
-<img src="images/table-of-content-dialog.png" alt="Table of content dialog" /><figcaption>Table of content dialog</figcaption>
+<img src="images/table-of-content-dialog.png" alt="" /><figcaption>Table of content dialog</figcaption>
 </figure>
 <p>To make a new entry, click on the index number and select the page (or “weave”) from the drop down menu and click submit.</p>
 <p>There are two optional fields:</p>
@@ -1247,7 +1267,7 @@ you can use this to create an entry that has an offset, which immediately opens 
 <li>Paste the link in the <strong>link URL</strong> field and click <strong>add link</strong>.</li>
 </ol>
 <figure>
-<img src="images/hyperlink-dialog.png" alt="Hyperlink dialog window" /><figcaption>Hyperlink dialog window</figcaption>
+<img src="images/hyperlink-dialog.png" alt="" /><figcaption>Hyperlink dialog window</figcaption>
 </figure>
 <h3 id="dialog-options">Dialog options:</h3>
 <p>Within the hyperlink dialog there are a couple of options:</p>
@@ -1282,7 +1302,7 @@ you can use this to create an entry that has an offset, which immediately opens 
 </ul>
 <p>Link share can be combined with any of the other sharing modes. An exposition can for example be shared within a portal but simultaniously be accessible through the “secret” link.</p>
 <figure>
-<img src="images/sharing-options.png" title="image showing sharing options" alt="sharing menu dialog" /><figcaption>sharing menu dialog</figcaption>
+<img src="images/sharing-options.png" title="image showing sharing options" alt="" /><figcaption>sharing menu dialog</figcaption>
 </figure>
 <h3 id="self-publish">Self-Publish</h3>
 <p>Self-publishing makes an exposition <strong>no longer editable</strong> and publicly visible. On publication you will get a (free) <a href="https://en.wikipedia.org/wiki/Digital_object_identifier">DOI</a>. By design, publishing an exposition is not reversible (so others can use the exposition link as a reference).</p>
@@ -1306,17 +1326,17 @@ you can use this to create an entry that has an offset, which immediately opens 
 <h3 id="adding-a-collaborator">Adding a Collaborator</h3>
 <p>An author of an exposition can invite collaborators through the collaboration tab of the exposition: click the <strong>menu icon</strong> (1) and <strong>‘edit details’</strong> (2) next to the research on your profile. If you are already in the workspace editor, you can also click on the title of your research at the top of the editor.</p>
 <figure>
-<img src="images/collaborate_1.png" title="image showing the menu icon" alt="Location of the collaboration dialog" /><figcaption>Location of the collaboration dialog</figcaption>
+<img src="images/collaborate_1.png" title="image showing the menu icon" alt="" /><figcaption>Location of the collaboration dialog</figcaption>
 </figure>
 <p>Choose <strong>‘collaboration’</strong>, search for the user you want to cooperate with and add her or him by clicking on their name.</p>
 <figure>
-<img src="images/inviting-supervisor.png" title="Image showing a user adding another user as supervisor" alt="Inviting a supervisor by typing it into the supervisor box" /><figcaption>Inviting a supervisor by typing it into the supervisor box</figcaption>
+<img src="images/inviting-supervisor.png" title="Image showing a user adding another user as supervisor" alt="" /><figcaption>Inviting a supervisor by typing it into the supervisor box</figcaption>
 </figure>
 <p>The users that were added will show up as a list below the field. After clicking submit, collaborators will receive an invitation from you in their message-box which they can accept or decline. When accepting the invitation, the collaborator will have access to your exposition workspace and he will be able to edit it.</p>
 <h3 id="removing-a-collaborator">Removing a Collaborator</h3>
 <p>If you want to remove a collaborator, click the “x” behind their name in the field they were added. If you remove a supervisor, the supervisor will receive a request to remove them (they have to approve the removal).</p>
 <figure>
-<img src="images/collaborate_2.png" title="Collaboration tab" alt="Collaboration tab" /><figcaption>Collaboration tab</figcaption>
+<img src="images/collaborate_2.png" title="Collaboration tab" alt="" /><figcaption>Collaboration tab</figcaption>
 </figure>
 <p>Note: If a users name in the list is enclosed in brackets ( [ name ] ), it means that the invitation is sent successfully, but has not been accepted yet by the receiver.</p>
 <h3 id="communication-with-collaborators">Communication with Collaborators</h3>
@@ -1331,7 +1351,7 @@ you can use this to create an entry that has an offset, which immediately opens 
 <h3 id="creating-a-simple-text-footnote">Creating a Simple Text Footnote</h3>
 <p>In order to create a footnote in the text or HTML tool one selects some text, which will be the footnote link and clicks the “Insert/Edit Link or Footnote” menu item (see image).</p>
 <figure>
-<img src="images/footnotes_sel.png" alt="Selecting text as a footnote link" /><figcaption>Selecting text as a footnote link</figcaption>
+<img src="images/footnotes_sel.png" alt="" /><figcaption>Selecting text as a footnote link</figcaption>
 </figure>
 <p>A new footnote can be created by using the left tab in the appearing dialog window. In this window one can set:</p>
 <ul>
@@ -1348,18 +1368,18 @@ you can use this to create an entry that has an offset, which immediately opens 
 </ul>
 <p>Finally, click “Add Footnote” to confirm and create the footnote, which will subsequently appear in the list of footnotes on the left side of the screen.</p>
 <figure>
-<img src="images/footnote_preview.png" alt="Preview of a footnote" /><figcaption>Preview of a footnote</figcaption>
+<img src="images/footnote_preview.png" alt="" /><figcaption>Preview of a footnote</figcaption>
 </figure>
 <h3 id="editing-a-footnote">Editing a Footnote</h3>
 <p>All footnotes are listed in the “Footnotes” tab on the right hand side.</p>
 <figure>
-<img src="images/footnotes_list_new.png" alt="List of footnotes" /><figcaption>List of footnotes</figcaption>
+<img src="images/footnotes_list_new.png" alt="" /><figcaption>List of footnotes</figcaption>
 </figure>
 <p>There are three icons displayed on the top of the list. The first icon opens the footnote workspace editor where you can edit the content of the footnote, the second icon opens a window which allows editing the title, size, and styling of the footnote. One can leave the footnote weave editor by clicking the link “back to main weave” displayed to the left of the main tab. (see image).</p>
 <p><strong>“simple text”</strong> footnotes are in fact automatically generated normal footnotes with your text inserted in a text tool. This has consequences if you want to adjust the size of a <strong>“simple text”</strong> footnote as a whole, since you would also need to change the size of the tool within that footnote after resizing. To edit a “simple text” footnote internal tools, simply double click it in the footnote list.</p>
 <p>When you are done editing: you can return to your main weave through the link in the top of the editor.</p>
 <figure>
-<img src="images/footnote_back.png" alt="Back to main weave link" /><figcaption>Back to main weave link</figcaption>
+<img src="images/footnote_back.png" alt="" /><figcaption>Back to main weave link</figcaption>
 </figure>
 <h3 id="changing-the-position-or-display-settings-of-a-footnote">Changing the position or display settings of a footnote</h3>
 <p>If you need to change the screen position or display settings of an existing footnote, the best way is:</p>
@@ -1371,7 +1391,7 @@ you can use this to create an entry that has an offset, which immediately opens 
 <h3 id="auto-numbered-footnotes">Auto-Numbered Footnotes</h3>
 <p>Instead of using text as footnote links it is also possible to use numbered links. The numbers will be filled in and adjusted automatically. In order to create auto-numbered footnotes create a footnote in the text or HTML tool as described above but without selecting any text. An “x” will be inserted where the cursor is placed. This “x” will be replaced by the correct number when the text is displayed.</p>
 <figure>
-<img src="images/footnote_auto.png" alt="Auto-numbered footnote in the editor" /><figcaption>Auto-numbered footnote in the editor</figcaption>
+<img src="images/footnote_auto.png" alt="" /><figcaption>Auto-numbered footnote in the editor</figcaption>
 </figure>
 <p>The numbering starts at 1 and encompasses all text and HTML objects on the weave. Numbering is performed by object and proceeds from the top and left to the bottom and right of the page.</p>
 <p>Be aware that automatic numbering does not depend on creation order, it only depends on x and y position of the tools. This means that if the notes (1,2, 3 etc..) are in a vertical column, for example:</p>
@@ -1406,7 +1426,7 @@ you can use this to create an entry that has an offset, which immediately opens 
 </ol>
 <p>The administrator can create accounts by going to the <strong><a href="https://www.researchcatalogue.net/admin">admin section</a></strong> and opening the <strong>user</strong> page. Click <strong>+</strong> at the right top corner of the screen. After creating the account, the username (which is an email address) and password can be sent through email. Be sure that in the roles tab, the “basic account” option is turned <strong>off</strong>. This means the user will have a full account and is able to create content.</p>
 <figure>
-<img src="images/user-roles.png" title="Image showing edit user roles dialog" alt="edit user roles dialog" /><figcaption>edit user roles dialog</figcaption>
+<img src="images/user-roles.png" title="Image showing edit user roles dialog" alt="" /><figcaption>edit user roles dialog</figcaption>
 </figure>
 <p>For safety, admins creating user accounts should:</p>
 <ul>
@@ -1424,13 +1444,13 @@ you can use this to create an entry that has an offset, which immediately opens 
 </ul>
 <p>The author can invite RC users to these roles by going to edit details or clicking on the title of their exposition in the workspace editor and choosing “collaboration”. The collaborators will receive an invitation (in RC messages) that has to be accepted before they can start to collaborate.</p>
 <figure>
-<img src="images/collaboration.png" title="Image showing the collabration tab" alt="collaboration tab" /><figcaption>collaboration tab</figcaption>
+<img src="images/collaboration.png" title="Image showing the collabration tab" alt="" /><figcaption>collaboration tab</figcaption>
 </figure>
 <h2 id="requesting-publication">Requesting publication</h2>
 <p>Once the writing is sufficiently progressed, the next step is that the author sents a request to publish the exposition. This is done through the ☰ menu, which is located on the “my profile” in the right bottom corner of the exposition summary. This will open a dialog where he/she can choose to which portal the exposition should be published. Within this dialog the author can also indicate weither the exposition should be published “limited to portal” or “unlimited to portal”. Limited to portal means that when the exposition is published, it is only visible to members of the portal.</p>
 <p>Important: the choice by the author is only a suggestion, in the end, it will be the portal admin that decides in which way (limited or unlimited) an exposition is published.</p>
 <figure>
-<img src="images/submit-publication2.png" title="Image showing the publication tab" alt="publication dialog" /><figcaption>publication dialog</figcaption>
+<img src="images/submit-publication2.png" title="Image showing the publication tab" alt="" /><figcaption>publication dialog</figcaption>
 </figure>
 <p>Once the author has done this step, no further changes can be made to the exposition by the author. It will be listed on their profile under the status “in review”.</p>
 <p>The portal admin will receive a message from the RC that a new work is ready for review. It will also be available under the “reviewing” section in the <strong><a href="https://www.researchcatalogue.net/admin">admin section</a></strong>.</p>
@@ -1447,7 +1467,7 @@ class="icon" src="images/revision-action.png" />. This will open a dialog where 
 <p>For the second requirement, the user has to be added to the reviewer pool of the portal. This can be done by going to the <strong>Portal</strong> page of the <strong><a href="https://www.researchcatalogue.net/admin">admin section</a></strong> and then choosing edit. Under the ROLES tab, RC users can be added as reviewers for that particular portal.</p>
 <p>Once a reviewer is part of the review pool, they can be added to the research exposition. To do this, go to <strong>review</strong> tab of the <strong>administration</strong> part of the RC, and click the edit page. Here you can add (or remove) reviewers to the research. Reviewers can be either added single blind (they cannot see each other), or double blind (they cannot see the author’s name).</p>
 <figure>
-<img src="images/edit-request.png" title="image showing edit request, within the review tab" alt="the edit request page, found when clicking edit icon on an exposition in review" /><figcaption>the edit request page, found when clicking edit icon on an exposition in review</figcaption>
+<img src="images/edit-request.png" title="image showing edit request, within the review tab" alt="" /><figcaption>the edit request page, found when clicking edit icon on an exposition in review</figcaption>
 </figure>
 <p>The reviewers will see a list of expositions that they are reviewers of on top of their “my profile” page. Within the exposition they can use the “REVIEW” menu to leave notes to themselves, which are only visible to them and the portal administrator. Typically further communication between the portal admin and the reviewer takes place through the messaging system or by e-mail.</p>
 <h2 id="final-publication-or-rejection">Final publication or rejection</h2>
@@ -1459,7 +1479,7 @@ class="icon" src="images/revision-action.png" />. This will open a dialog where 
 <h2 id="administration-main-page">Administration Main Page</h2>
 <p>To reach the administration functionalities of the RC website, click on <strong>administration</strong>, located in the top right corner. To return to your own profile, you can click on the Research Catalogue logo. Only portal admins have access to these pages.</p>
 <figure>
-<img src="images/admin_main.png" title="image showing the administration main page" alt="admin main page" /><figcaption>admin main page</figcaption>
+<img src="images/admin_main.png" title="image showing the administration main page" alt="" /><figcaption>admin main page</figcaption>
 </figure>
 <p>There are 5 pages to manage content for portal admins:</p>
 <ul>
@@ -1478,7 +1498,7 @@ Review process of expositions and objects that are waiting to be published</p></
 <p>If you are an admin in multiple portals, you can switch between them in the top right corner of the site, through the drop down menu.</p>
 <h2 id="user-page">User Page</h2>
 <figure>
-<img src="images/admin-user.png" title="image showing the admin user page" alt="admin user page" /><figcaption>admin user page</figcaption>
+<img src="images/admin-user.png" title="image showing the admin user page" alt="" /><figcaption>admin user page</figcaption>
 </figure>
 <table>
 <thead>
@@ -1510,23 +1530,23 @@ Review process of expositions and objects that are waiting to be published</p></
 <p>Important: when you type a new user name, the RC tries to find if the user exists already. If it does, the RC will show a dialog requesting if you want to add the existing user to the portal instead of creating a new account. It is highly discouraged for a single person to have two accounts on the RC, so normally admins are expected to simply add this existing account.</p>
 <h3 id="profile">Profile</h3>
 <figure>
-<img src="images/user-profile.png" title="image showing user profile dialog" alt="user profile dialog" /><figcaption>user profile dialog</figcaption>
+<img src="images/user-profile.png" title="image showing user profile dialog" alt="" /><figcaption>user profile dialog</figcaption>
 </figure>
 <p>Change the name, alias, email and password (optional). An administrator can also change these fields without having to change the password (by leaving the field empty).</p>
 <h3 id="portal">Portal</h3>
 <figure>
-<img src="images/user-portal.png" title="image showing user portal settings" alt="user portal settings dialog" /><figcaption>user portal settings dialog</figcaption>
+<img src="images/user-portal.png" title="image showing user portal settings" alt="" /><figcaption>user portal settings dialog</figcaption>
 </figure>
 <p>This controls to which portals a user is added. A user can be added to multiple portals at once. Portals which are selected are marked by a gray background.</p>
 <h3 id="roles">Roles</h3>
 <figure>
-<img src="images/user-roles.png" title="image showing user role settings" alt="user role settings dialog" /><figcaption>user role settings dialog</figcaption>
+<img src="images/user-roles.png" title="image showing user role settings" alt="" /><figcaption>user role settings dialog</figcaption>
 </figure>
 <p>When the option is turned on, the user cannot create any content. This is the default when a user has registered an account by themselves. Limited users can still become supervisors, read expositions or added as reviewers. To allow users to create expositions, works and applications, you have to turn this option OFF.</p>
 <p>Before a portal admin upgrades a user to a full account, the user will have to have read and signed the “terms of use” agreement letter. This is available for download from the portal partner basecamp or directly from SAR.</p>
 <h3 id="settings">Settings</h3>
 <figure>
-<img src="images/user-settings.png" title="image showing user email settings" alt="user email settings dialog" /><figcaption>user email settings dialog</figcaption>
+<img src="images/user-settings.png" title="image showing user email settings" alt="" /><figcaption>user email settings dialog</figcaption>
 </figure>
 <p>Here you can set which emails the user should receive.</p>
 <h3 id="log-in-as-a-user">Log in as a user</h3>
@@ -1558,7 +1578,7 @@ Review process of expositions and objects that are waiting to be published</p></
 </table>
 <h3 id="portal-mail">Portal mail</h3>
 <figure>
-<img src="images/portal-mail.png" title="image showing portal mail dialog" alt="portal mail dialog" /><figcaption>portal mail dialog</figcaption>
+<img src="images/portal-mail.png" title="image showing portal mail dialog" alt="" /><figcaption>portal mail dialog</figcaption>
 </figure>
 <ul>
 <li><strong>testmode</strong> only sends a test mail to your account</li>
@@ -1573,7 +1593,7 @@ Review process of expositions and objects that are waiting to be published</p></
 <h2 id="portal-edit-screen">Portal Edit Screen</h2>
 <h3 id="common">Common</h3>
 <figure>
-<img src="images/portal-edit-common2.png" title="image showing portal edit common dialog" alt="portal edit common screen" /><figcaption>portal edit common screen</figcaption>
+<img src="images/portal-edit-common2.png" title="image showing portal edit common dialog" alt="" /><figcaption>portal edit common screen</figcaption>
 </figure>
 <p>Here you can edit the basic information of the portal, which is displayed on the RC’s internal page. You can also replace this internal page with an external page if desired. See <a href="#external-portal-page" title="further info">external link option</a></p>
 <p><strong>View text</strong> allows you to change the template that is used in the navigation bar of expositions: this is the quotation information the reader sees when they move their mouse to the top of the screen. available placeholders:</p>
@@ -1588,7 +1608,7 @@ Review process of expositions and objects that are waiting to be published</p></
 </ul>
 <h3 id="roles-1">Roles</h3>
 <figure>
-<img src="images/portal-edit-roles2.png" title="image showing the portal roles" alt="portal edit roles" /><figcaption>portal edit roles</figcaption>
+<img src="images/portal-edit-roles2.png" title="image showing the portal roles" alt="" /><figcaption>portal edit roles</figcaption>
 </figure>
 <p>Here you can edit the various roles of the portal:</p>
 <ul>
@@ -1602,7 +1622,7 @@ Review process of expositions and objects that are waiting to be published</p></
 <p><a id="submissions"></p>
 <h3 id="portal-settings">Portal Settings</h3>
 <figure>
-<img src="images/portal-allow.png" title="image showing portal submissions" alt="portal edit submissions" /><figcaption>portal edit submissions</figcaption>
+<img src="images/portal-allow.png" title="image showing portal submissions" alt="" /><figcaption>portal edit submissions</figcaption>
 </figure>
 <p>Here you can set which objects can be submitted to the portal.</p>
 <h4 id="allow">allow</h4>
@@ -1721,7 +1741,7 @@ This setting is only used in combination with the application module, should be 
 <h3 id="publication-dialog">Publication dialog</h3>
 <p>When a publication request is accepted, the portal admin can choose to which issue it belongs and if the publication should be local to the portal (limited publication) or public (the whole world). Issues can be created using the <a href="#issue-page" title="the issue page documentation">issue page</a>. You can also write a custom message to the author.</p>
 <figure>
-<img src="images/publication-dialog.png" title="image showing the publication dialog" alt="publication dialog" /><figcaption>publication dialog</figcaption>
+<img src="images/publication-dialog.png" title="image showing the publication dialog" alt="" /><figcaption>publication dialog</figcaption>
 </figure>
 <h2 id="issue-page">Issue page</h2>
 <p>The <a href="https://www.researchcatalogue.net/admin/issue/list" title="issue page on the RC">Issue page</a> is an overview page within the RC that shows all published expositions that are part of an issue.</p>
@@ -1729,7 +1749,7 @@ This setting is only used in combination with the application module, should be 
 <p>Issues names are managed on this <a href="https://www.researchcatalogue.net/admin/issue/list" title="issue list page">here</a>.</p>
 <p>In the <strong>issue section</strong> (between “portal” and “research”) of the administration interface, the number, title and description of issues can be edited.</p>
 <figure>
-<img src="images/portal-issues.png" title="image showing the edit issue collaboration" alt="edit issue dialog" /><figcaption>edit issue dialog</figcaption>
+<img src="images/portal-issues.png" title="image showing the edit issue collaboration" alt="" /><figcaption>edit issue dialog</figcaption>
 </figure>
 <p>For the reader, issues can be found through the portals front page.</p>
 <h1 id="more-help">More help</h1>
@@ -2630,10 +2650,10 @@ The update refers to this new page <a href="http://www.researchcatalogue.net/po
 </ul></li>
 </ul>
 </div>
-<section class="footnotes">
+<section class="footnotes" role="doc-endnotes">
 <hr />
 <ol>
-<li id="fn1"><p>It is not possible to have both at the same time.<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn1" role="doc-endnote"><p>It is not possible to have both at the same time.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 </body>
