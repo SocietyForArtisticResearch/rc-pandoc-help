@@ -71,6 +71,7 @@
 <li><a href="#works">Works</a></li>
 <li><a href="#pages">Pages</a></li>
 </ul></li>
+<li><a href="#footnotes-and-popovers">Footnotes and Popovers</a></li>
 <li><a href="#menus">Menus</a>
 <ul>
 <li><a href="#edit-menu">Edit menu</a></li>
@@ -109,7 +110,6 @@
 <li><a href="#publishing-and-sharing">Publishing and Sharing</a></li>
 <li><a href="#follow-and-search">Follow and Search</a></li>
 <li><a href="#collaborating-on-research">Collaborating on Research</a></li>
-<li><a href="#footnotes-and-popovers">Footnotes and Popovers</a></li>
 <li><a href="#administration-reviewing-process">Administration: Reviewing process</a>
 <ul>
 <li><a href="#introduction-1">Introduction</a></li>
@@ -874,6 +874,71 @@ Replace the entire page by an external website by means of a URL. There are a fe
 </ul>
 <h3 id="deleting-a-page">Deleting a page</h3>
 <p>The page can be deleted by clicking the trashcan icon next to the page title. Deleted pages cannot be recovered. Of course, if you want to make a page invisible to the reader it may be prefered to just remove it from the <a href="#table-of-content" title="table of content">table of content</a>.</p>
+<h1 id="footnotes-and-popovers">Footnotes and Popovers</h1>
+<p>It is possible to create footnotes and popover weaves in the text, HTML and picture tools. The terms “footnote” and “popover” are used almost interchangeably here. Footnote, however, refers rather to the textual concept of a footnote, i.e. a particular use of the functionality explained in this section, whereas popover is used when referring specifically to the appearing popover window. (There is a tutorial video explaining the footnote workflow on the <a href="https://www.researchcatalogue.net/view/273532/273533">RC Video Tutorials page</a>) These are displayed when the RC user reading the exposition clicks the footnote link or, depending on the settings, when he or she mouse the mouse pointer over the link. This functionality makes it possible to create footnotes in texts, but also create popovers of any size containing RC objects of any type. There are a number of different ways of creating footnotes.</p>
+<h3 id="creating-a-simple-text-footnote">Creating a Simple Text Footnote</h3>
+<p>In order to create a footnote in the text or HTML tool one selects some text, which will be the footnote link and clicks the “Insert/Edit Link or Footnote” menu item (see image).</p>
+<figure>
+<img src="images/footnotes_sel.png" alt="" /><figcaption>Selecting text as a footnote link</figcaption>
+</figure>
+<p>A new footnote can be created by using the left tab in the appearing dialog window. In this window one can set:</p>
+<ul>
+<li>The title of the footnote.</li>
+<li>Whether the popover will be shown when the link is clicked or on mouseover (“View on”).</li>
+<li>Where the popover will be displayed with reference to the link or the screen in case of the last option (“screen center”).</li>
+<li>Whether the background (i.e. the rest of the exposition) will be darkened when the popover is being shown.</li>
+<li>The type of the popover. This can be:
+<ul>
+<li>A new popover.</li>
+<li>The copy of an existing popover.</li>
+<li>A simple text popover. A small text box appears which facilitates the creation of footnotes and other popovers containing only a short amount of text. The text can be entered here directly upon creation without the need to further edit the popover and adjust its size. <img src="images/footnote_dia.png" alt="Footnote dialog window" /></li>
+</ul></li>
+</ul>
+<p>Finally, click “Add Footnote” to confirm and create the footnote, which will subsequently appear in the list of footnotes on the left side of the screen.</p>
+<figure>
+<img src="images/footnote_preview.png" alt="" /><figcaption>Preview of a footnote</figcaption>
+</figure>
+<h3 id="editing-a-footnote">Editing a Footnote</h3>
+<p>All footnotes are listed in the “Footnotes” tab on the right hand side.</p>
+<figure>
+<img src="images/footnotes_list_new.png" alt="" /><figcaption>List of footnotes</figcaption>
+</figure>
+<p>There are three icons displayed on the top of the list. The first icon opens the footnote workspace editor where you can edit the content of the footnote, the second icon opens a window which allows editing the title, size, and styling of the footnote. One can leave the footnote weave editor by clicking the link “back to main weave” displayed to the left of the main tab. (see image).</p>
+<p><strong>“simple text”</strong> footnotes are in fact automatically generated normal footnotes with your text inserted in a text tool. This has consequences if you want to adjust the size of a <strong>“simple text”</strong> footnote as a whole, since you would also need to change the size of the tool within that footnote after resizing. To edit a “simple text” footnote internal tools, simply double click it in the footnote list.</p>
+<p>When you are done editing: you can return to your main weave through the link in the top of the editor.</p>
+<figure>
+<img src="images/footnote_back.png" alt="" /><figcaption>Back to main weave link</figcaption>
+</figure>
+<h3 id="changing-the-position-or-display-settings-of-a-footnote">Changing the position or display settings of a footnote</h3>
+<p>If you need to change the screen position or display settings of an existing footnote, the best way is:</p>
+<ol type="1">
+<li>Go to the Footnote tab.</li>
+<li>Click the little blanc page icon next to the footnote you want to change.</li>
+<li>Go to the settings tab</li>
+</ol>
+<h3 id="auto-numbered-footnotes">Auto-Numbered Footnotes</h3>
+<p>Instead of using text as footnote links it is also possible to use numbered links. The numbers will be filled in and adjusted automatically. In order to create auto-numbered footnotes create a footnote in the text or HTML tool as described above but without selecting any text. An “x” will be inserted where the cursor is placed. This “x” will be replaced by the correct number when the text is displayed.</p>
+<figure>
+<img src="images/footnote_auto.png" alt="" /><figcaption>Auto-numbered footnote in the editor</figcaption>
+</figure>
+<p>The numbering starts at 1 and encompasses all text and HTML objects on the weave. Numbering is performed by object and proceeds from the top and left to the bottom and right of the page.</p>
+<p>Be aware that automatic numbering does not depend on creation order, it only depends on x and y position of the tools. This means that if the notes (1,2, 3 etc..) are in a vertical column, for example:</p>
+<figure>
+<img class="portrait-image" src="images/footnotes_align_correct.png" title="image demonstrating incorrect allignment will result in incorrect numbering" alt="">
+<figcaption>
+Footnote numbering in correctly vertically-aligned tools
+</figcaption>
+</figure>
+<p>When the tools are lined up like this, footnotes are correctly numbered. However, if one of the text tools containing an automatic footnote in a column is just a bit (even 1 pixel) to the left, like so (exaggeration):</p>
+<figure>
+<img class="portrait-image" src="images/footnotes_alignment.png" title="image demonstrating incorrect allignment will result in incorrect numbering" alt="">
+<figcaption>
+Incorrect auto-numbering in non-aligned tools
+</figcaption>
+</figure>
+<p>Then rc will automatically number the notes in 2 first than 1 than 3. So in this case, it is very important to have the text tools exactly at the same x position (through right click -&gt; style tab you can check this most easily).</p>
+<h3 id="pictures">Pictures</h3>
+<p>It is also possible to use images as links to footnotes. When clicking on the image or moving over it with the mouse cursor the popover will be show. In order to use an image as a footnote click the menu icon on the bottom right of the image (or right click the image) in order to open the context menu. Click the item “add footnote” from the context menu and fill in the appearing dialog window.</p>
 <h1 id="menus">Menus</h1>
 <h2 id="edit-menu">Edit menu</h2>
 <p><img src="images/edit-menu-2018.png" class="half-image" alt="image showing the edit menu"></p>
@@ -1296,11 +1361,11 @@ you can use this to create an entry that has an offset, which immediately opens 
 <li><strong>limited to portal</strong>: visible only to members of a certain portal within RC. Clicking a portal in the list below, toggles visibity of your exposition for members of that portal. If required, you can also select multiple.</li>
 <li><strong>public</strong> : visible to anyone on the internet.</li>
 </ul>
-<p>Finally, there is the option to make the object available through a link:</p>
+<p>Independent of the above choice there is a check box:</p>
 <ul>
 <li><strong>link share</strong> : The object is accessible through a “secret” link. Only people that have the link can view the object. This is useful for sharing with readers without an RC account, by turning the option on and mailing them the link.</li>
 </ul>
-<p>Link share can be combined with any of the other sharing modes. An exposition can for example be shared within a portal but simultaniously be accessible through the “secret” link.</p>
+<p>Link share can be combined with any of the other sharing modes (private, RC users, limited to portal, public). An exposition can for example be shared within a portal but simultaniously be accessible through the “secret” link.</p>
 <figure>
 <img src="images/sharing-options.png" title="image showing sharing options" alt="" /><figcaption>sharing menu dialog</figcaption>
 </figure>
@@ -1346,69 +1411,6 @@ you can use this to create an entry that has an offset, which immediately opens 
 <li><p><strong>Send collaboration message</strong> You can send a direct text message to your collaborator using the <em>Send collaboration message</em> found under the <strong>commands</strong>_ tab.</p></li>
 <li><p><strong>Posting a comment</strong> In expositions where you are not a collaborator, you can still leave comments by going to the top bar of the exposition and clicking the <strong>Comments</strong>.</p></li>
 </ul>
-<h1 id="footnotes-and-popovers">Footnotes and Popovers</h1>
-<p>It is possible to create footnotes and popover weaves in the text, HTML and picture tools. The terms “footnote” and “popover” are used almost interchangeably here. Footnote, however, refers rather to the textual concept of a footnote, i.e. a particular use of the functionality explained in this section, whereas popover is used when referring specifically to the appearing popover window. (There is a tutorial video explaining the footnote workflow on the <a href="https://www.researchcatalogue.net/view/273532/273533">RC Video Tutorials page</a>) These are displayed when the RC user reading the exposition clicks the footnote link or, depending on the settings, when he or she mouse the mouse pointer over the link. This functionality makes it possible to create footnotes in texts, but also create popovers of any size containing RC objects of any type. There are a number of different ways of creating footnotes.</p>
-<h3 id="creating-a-simple-text-footnote">Creating a Simple Text Footnote</h3>
-<p>In order to create a footnote in the text or HTML tool one selects some text, which will be the footnote link and clicks the “Insert/Edit Link or Footnote” menu item (see image).</p>
-<figure>
-<img src="images/footnotes_sel.png" alt="" /><figcaption>Selecting text as a footnote link</figcaption>
-</figure>
-<p>A new footnote can be created by using the left tab in the appearing dialog window. In this window one can set:</p>
-<ul>
-<li>The title of the footnote.</li>
-<li>Whether the popover will be shown when the link is clicked or on mouseover (“View on”).</li>
-<li>Where the popover will be displayed with reference to the link or the screen in case of the last option (“screen center”).</li>
-<li>Whether the background (i.e. the rest of the exposition) will be darkened when the popover is being shown.</li>
-<li>The type of the popover. This can be:
-<ul>
-<li>A new popover.</li>
-<li>The copy of an existing popover.</li>
-<li>A simple text popover. A small text box appears which facilitates the creation of footnotes and other popovers containing only a short amount of text. The text can be entered here directly upon creation without the need to further edit the popover and adjust its size. <img src="images/footnote_dia.png" alt="Footnote dialog window" /></li>
-</ul></li>
-</ul>
-<p>Finally, click “Add Footnote” to confirm and create the footnote, which will subsequently appear in the list of footnotes on the left side of the screen.</p>
-<figure>
-<img src="images/footnote_preview.png" alt="" /><figcaption>Preview of a footnote</figcaption>
-</figure>
-<h3 id="editing-a-footnote">Editing a Footnote</h3>
-<p>All footnotes are listed in the “Footnotes” tab on the right hand side.</p>
-<figure>
-<img src="images/footnotes_list_new.png" alt="" /><figcaption>List of footnotes</figcaption>
-</figure>
-<p>There are three icons displayed on the top of the list. The first icon opens the footnote workspace editor where you can edit the content of the footnote, the second icon opens a window which allows editing the title, size, and styling of the footnote. One can leave the footnote weave editor by clicking the link “back to main weave” displayed to the left of the main tab. (see image).</p>
-<p><strong>“simple text”</strong> footnotes are in fact automatically generated normal footnotes with your text inserted in a text tool. This has consequences if you want to adjust the size of a <strong>“simple text”</strong> footnote as a whole, since you would also need to change the size of the tool within that footnote after resizing. To edit a “simple text” footnote internal tools, simply double click it in the footnote list.</p>
-<p>When you are done editing: you can return to your main weave through the link in the top of the editor.</p>
-<figure>
-<img src="images/footnote_back.png" alt="" /><figcaption>Back to main weave link</figcaption>
-</figure>
-<h3 id="changing-the-position-or-display-settings-of-a-footnote">Changing the position or display settings of a footnote</h3>
-<p>If you need to change the screen position or display settings of an existing footnote, the best way is:</p>
-<ol type="1">
-<li>Go to the Footnote tab.</li>
-<li>Click the little blanc page icon next to the footnote you want to change.</li>
-<li>Go to the settings tab</li>
-</ol>
-<h3 id="auto-numbered-footnotes">Auto-Numbered Footnotes</h3>
-<p>Instead of using text as footnote links it is also possible to use numbered links. The numbers will be filled in and adjusted automatically. In order to create auto-numbered footnotes create a footnote in the text or HTML tool as described above but without selecting any text. An “x” will be inserted where the cursor is placed. This “x” will be replaced by the correct number when the text is displayed.</p>
-<figure>
-<img src="images/footnote_auto.png" alt="" /><figcaption>Auto-numbered footnote in the editor</figcaption>
-</figure>
-<p>The numbering starts at 1 and encompasses all text and HTML objects on the weave. Numbering is performed by object and proceeds from the top and left to the bottom and right of the page.</p>
-<p>Be aware that automatic numbering does not depend on creation order, it only depends on x and y position of the tools. This means that if the notes (1,2, 3 etc..) are in a vertical column, for example:</p>
-<pre>
-1      4
-2      5
-3      6
-</pre>
-<p>They get correctly numbered. However, if one of the text tools containing an automatic footnote in a column is just a bit (even 1 pixel) to the left, like so:</p>
-<pre>
-   1
-  2
-   3
- </pre>
-<p>Then rc will automatically number the notes in 2 first than 1 than 3. So in this case, it is very important to have the text tools exactly at the same x position (through right click -&gt; style tab you can check this most easily).</p>
-<h3 id="pictures">Pictures</h3>
-<p>It is also possible to use images as links to footnotes. When clicking on the image or moving over it with the mouse cursor the popover will be show. In order to use an image as a footnote click the menu icon on the bottom right of the image (or right click the image) in order to open the context menu. Click the item “add footnote” from the context menu and fill in the appearing dialog window.</p>
 <h1 id="administration-reviewing-process">Administration: Reviewing process</h1>
 <h2 id="introduction-1">Introduction</h2>
 <p>This is a tutorial to describe how an RC Portal can be used for publication workflows. It is aimed at portal administrators. The process typically consists of 4 stages:</p>

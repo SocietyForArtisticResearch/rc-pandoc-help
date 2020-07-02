@@ -23,11 +23,11 @@ There are four modes available:
 * __limited to portal__: visible only to members of a certain portal within RC. Clicking a portal in the list below, toggles visibity of your exposition for members of that portal. If required, you can also select multiple.
 * __public__ : visible to anyone on the internet. 
 
-Finally, there is the option to make the object available through a link:
+Independent of the above choice there is a check box:
 
 * __link share__ : The object is accessible through a "secret" link. Only people that have the link can view the object. This is useful for sharing with readers without an RC account, by turning the option on and mailing them the link.
 
-Link share can be combined with any of the other sharing modes. An exposition can for example be shared within a portal but simultaniously be accessible through the "secret" link.
+Link share can be combined with any of the other sharing modes (private, RC users, limited to portal, public). An exposition can for example be shared within a portal but simultaniously be accessible through the "secret" link.
 
 ![sharing menu dialog](images/sharing-options.png "image showing sharing options")  
 

@@ -103,7 +103,7 @@
 /* end menu stuff, guide styling: */
 
 #body-text {
-    max-width:100%;
+    max-width: 100%;
 }
 
 body {
@@ -178,6 +178,13 @@ img {
     padding: 10px;
     border: 2px solid #888;
 }
+
+img.portrait-image {
+    max-height: 500px;
+    width: auto;
+    object-fit: contain;
+}
+
 
 .overview-map {
     border: 1px solid #555;
@@ -287,8 +294,8 @@ table tr td :last-child {
     }
 
     #body-text {
-	max-width: 100%;
-	overflow-x: hidden;
+        max-width: 100%;
+        overflow-x: hidden;
     }
 }
 
