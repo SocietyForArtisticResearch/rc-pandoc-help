@@ -136,6 +136,11 @@ h5 {
     text-transform: uppercase
 }
 
+figcaption {
+    color: #888;
+    font-style: italic;
+}
+
 @media print {
 
     h1,
