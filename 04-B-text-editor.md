@@ -1,4 +1,3 @@
-
 # Text based editor
 
 First time user of the text editor? <a href="#introduction">click here</a>.
@@ -49,11 +48,34 @@ the exposition is expressed by using Markdown, the display of which can be
 customized through style sheets (css). 
 
  
-On desktop, the editor splits the screen in two: you can write your text on the left side <a href="#editor">editor</a> while the result is shown as a <a href="#preview">preview</a> on the right hand side. It is also possible to <a href="#import-export">import</a> the text from external formats like Word and Open Office. Formatting (__bold__,*italic* etc...) is added using <a href="#markdown">markdown</a> notation.
+On desktop, the editor splits the screen in two: you can write your
+text on the left side <a href="#editor">editor</a> while the result is
+shown as a <a href="#preview">preview</a> on the right hand side. It
+is also possible to <a href="#import-export">import</a> the text from
+external formats like Word and Open Office. Formatting
+(__bold__,*italic* etc...) is added using <a
+href="#markdown">markdown</a> notation.
  
-If you want to insert [media](#introduction "video, audio, image or PDF"), you can add these through the <a href="#upload-media">__"upload media"__ button  </a>. When the upload has finished, the media edit dialog will automatically open, allowing you to edit and insert it.
+If you want to insert [media](#introduction "video, audio, image or
+PDF"), you can add these through the <a href="#upload-media">__"upload
+media"__ button </a>. When the upload has finished, the media edit
+dialog will automatically open, allowing you to edit and insert it.
 
 Finally, the look of your text and media can be controlled through the media list and the style editor.
+
+## Creation and using a template
+
+To create a text-based exposition, go to "my profile" and click [
+create exposition ], then select "text-based" for the editor
+type. Additionally, you can select a template, which will mean your
+new exposition will be pre-filled with the stylesheet and, depending
+on the template, some placeholder text.
+
+Because the text-based and graphical formats are completely different,
+you can only change the editor type the moment you create a new
+exposition.
+
+Portal admins can select any of their own expositions to become a template for their portal users, by going to the "template" tab in their [portal settings](#portal-settings-screen).
 
 ## Editor
 
@@ -67,7 +89,9 @@ By default the editor uses colors to show the Markdown elements in your text, bu
 
 Here you can see a preview of your exposition.
 
-Because text based expositions are responsive (react to the size of the window), the result may change based on the width of the screen. For a full view preview, use the eye button in the toolbar. 
+Because text based expositions are responsive (react to the size of
+the window), the result may change based on the width of the
+screen. For a full view preview, use the eye button in the toolbar.
 
 ### Upload media
 
@@ -167,7 +191,7 @@ __bold__ = `__bold__`
 
 Instead of typing these characters, you can also select a piece of text and push the desired __style button__ on top of the editor. This will insert the correct Markdown notation for you.
 
-## Paragraphs 
+### Paragraphs 
 
 When two blocks of text are separated by an empty line, it starts a new paragraph. 
 
@@ -228,14 +252,14 @@ _results in:_
 <span class="bg-blue">also does the trick!</span>
 
   
-## Headers 
+### Headers 
 Headers are defined by using one or more \"#\" in front of the header name:
 
 `# header 1`<br> 
 `## header 2`<br>
 `### header 3`<br> 
 
-There are six levels of headers. Header level # and ## are automatically included in the __contents__ menu, for easy navigation for the reader. 
+There are six levels of headers. Header level 1, 2 and 3 (`#`,`##`,`###`) are automatically included in the __contents__ menu, for easy navigation for the reader. 
 
 An alternative way of writing headers is by putting ===== or --- below you header text.
 
@@ -245,7 +269,7 @@ An alternative way of writing headers is by putting ===== or --- below you heade
 `Header 2`  
 `----------`
 
-## Lists
+### Lists
  
 To get a bullet point list, write * before each item. Before the first item, keep an empty line.
 Thus, when you write:  
@@ -266,7 +290,7 @@ To get ordered lists, write a number and a point, 1. , 2. , 3.
     2. two 
     3. three
 
-## Links  
+### Links  
 Hyperlinks are written in the following manner:
 `[linktext](http://example.com)`    
 which results in:   
@@ -283,7 +307,7 @@ The anchor itself is created like this:
 
 
 
-## Footnotes (text based)
+### Footnotes (text based)
 
 The easiest way of inserting a footnote is using the footnote button: [ __\*__ ]. 
 Footnotes consist of two parts, the reference, written like so:
@@ -298,7 +322,7 @@ It's content is automatically moved to the bottom of the text.
 The footnote content is automatically moved to the bottom of the resulting text.
 
  
-## Quotation
+### Quotation
 
 A quotation is inserted by indenting your text with 4 spaces or 1 tab, like so:
 <pre>
@@ -308,7 +332,7 @@ A quotation is inserted by indenting your text with 4 spaces or 1 tab, like so:
 
 Quotations are not automatically formatted (they keep their newlines).
 
-## Tables (markdown)
+### Tables (markdown)
 
 Tables are written like this:
 
@@ -327,8 +351,7 @@ Tables are written like this:
 | Judith  | 6   | Cat     |
 
 You may also use [HTML tables](https://www.w3schools.com/html/html_tables.asp).
-There are also online tools that help you generate [either](https://www.tablesgenerator.com/markdown_tables) of [these](https://www.google.com/search?sxsrf=ACYBGNRHvQviaPEVsRaoYNH4RBmxEvCZaQ%3A1574157215715&source=hp&ei=n7vTXe-VKdHCkwWAn5rYBA&q=convert+excel+to+html+table&oq=convert+excel+to+html+table&gs_l=psy-ab.3..0l5j0i203j0i22i30l4.1154.7184..7368...3.0..0.72.1472.30......0....1..gws-wiz.......35i39.6l0ze9Qpl6I&ved=0ahUKEwiv4aTNgPblAhVR4aQKHYCPBksQ4dUDCAU&uact=5).
-
+There are also online tools that help you generate [either](https://www.tablesgenerator.com/markdown_tables) of [these](https://www.google.com/search?q=convert+excel+to+html+table)
 
 
 
