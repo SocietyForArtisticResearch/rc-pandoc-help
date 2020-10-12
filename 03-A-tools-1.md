@@ -673,28 +673,36 @@ total number of images. -->
 
 ![image showing the style tab of an html tool](images/style-tab.png "the style tab of an html tool")
 
-The style tab allows you to set the way an object looks on the outside.
+The style tab allows you to set the way a tool looks on the outside.
 There are two ways of reaching the style tab:
-
-* by double clicking on a tool in the editor
-* click __style__ in the tabbar
-
-or 
 
 * hoovering with your mouse over the tool
 * click ☰ -> __edit__.
 * open __style__ tab in the dialog.
 
+For all tools except the simple text tool, one can also open style:
+
+* by double clicking on a tool in the editor
+* click __style__ in the tabbar
 
 Click on the small ">" to open one of these sections:
 
-* position & rotation
-* padding
-* border type, color and width
-* background (color or image)
-* shadow
-  (unschaerfe controls how sharp the shadow is, higher values makes the transition between shadow and light softer)
-* opacity
+- __position__
+   * __left & top__ : set the position of the tool in pixels.
+   * __width & height__ : set the dimensions of the tool in pixels. Image, pdf, video, audio tools will keep their aspect ratio fixed.
+   * __rotation__ : set the overal rotation of the tool. You can also change the rotation in the editor directly by dragging it by its yellow dot.
+- __padding__ : this adds spacing inside of the border box defined by width and height. This means adding padding will not increase the size of the tool.
+- __border__ : make the border defined by width and height visible. 
+  * _style_ : choose a certain visual style of the border (solid, dashed, dotted etc..)
+  * _strength_ : set the width of the border in pixels
+  * _color_ : set the color
+  * _radius_ : this creates rounded corners, with a radius defined in pixels <a id="style-shadow">
+- __shadow__ : this creates a shadow behind the box defined by __width__ & __height__. This can be used to create the illusion of depth.
+  * __margin-left & margin-right__ : this will set the size off the solid part of the shadow.
+  * __unschaerfe__ : this will set how wide the fuzzy part of the shadow is. You can also use this when margins are 0, resulting in a completely fuzzy shadow around the object.
+  * __color__ : set the color of the shadow.
+- __opacity__ : smaller values will make the tool more transparent.
+  
 
 The style tab only sets the external style of the
 tool, text markup is done within the text or html tools.
