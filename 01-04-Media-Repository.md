@@ -1,4 +1,4 @@
-# Media Reposotory
+# Media Repository
 
 The media repository is where you can opload and organise your
 media. It includes all media used in your expositions. You can upload
