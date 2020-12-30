@@ -1,25 +1,36 @@
 # Media Repository
 
-The media repository is where you can opload and organise your
-media. It includes all media used in your expositions. You can upload
-media, organise it and share it with other users of the RC. It extends
-and replaces the old Works feature.
+The media repository allows RC users to navigate, organize and manage
+their media files, and to share sets of files with other users. Beyond
+being a data storage space, the media repository makes possible
+research workflows that start not by visually arranging media, but by
+collaboratively linking and organizing texts and media.  The media
+repository includes all media used in your expositions. You can upload
+media, organize and share them with other users of the RC. It extends
+and replaces the older "Works" feature.
 
 # Creating new media
 
-There are various ways to create new media.
+There are a number of ways to create new media in the media repository:
 
 ## Upload
 
-Click "upload media" to add a new file. You will be asked at a minimum
-to provide a copyright holder, if you are the creator, you can fill in
-your own name here.
+Click "Upload media" to add a new file. Once you have select one or
+more files, you will be asked to provide at least copyright
+information. If you are the creator, you can fill in your own name
+here.
 
 ### Multi-upload
 
-When you select multiple files to upload, you can
+You can select multiple files to upload at once or a folder containing
+several files. You will be presented with a form block for each
+file. In order to ease such a workflow you can apply the copyright
+information and the set you want to add the media to from one form to
+all other forms.
 
 ## Text
+
+Text is a media type in the media repository.
 
 # Sets
 
