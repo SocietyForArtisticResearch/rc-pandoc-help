@@ -38,6 +38,8 @@ Media can be organised in Sets. Media can belong to multiple sets at
 once. You can create a new set and by clicking " select" you can
 choose what media belongs to that set.
 
+# Sharing 
+
 # Open Keywords, Closed Keywords, Tags
 
 Tags are meant for personal organistion, for example todo, old,
@@ -54,3 +56,4 @@ can add any new term to the global namespace.
 Closed keywords are controlled vocabulary. They are chosen so that we
 can more easily interact with other repositories.
 
+# Filtering and Searching
