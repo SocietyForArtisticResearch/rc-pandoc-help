@@ -1,10 +1,28 @@
+New RC Feature: Media Repository
+
+We are happy to announce the upcoming release of a new RC feature. The
+new media repository allows RC users to navigate, organize and manage
+all of their media. Each user can browse and search the media that is
+used in their expositions or collect media files and texts with which
+to create an exposition later. The media repository facilitates
+metadata editing, sharing, categorizing data, note taking, personal
+and collective storage. It is the first use of the new media API,
+which will enable the RC to be linked to external repositories as
+well.
+
+You can find more information and documentation here: 
+https://guide.researchcatalogue.net/#media-repository
+
+
 # Media Repository
 
 The media repository allows RC users to navigate, organize and manage
-media. It includes all media used in your expositions (the [simple
-media](https://guide.researchcatalogue.net/#simple-media)). Beyond
-organizing media, you can organise it and share it with other users of
-the RC. You can upload media, organize it into [__sets__](#sets) and
+their media. Each user can browse the media that is used in their
+expositions (the [simple
+media](https://guide.researchcatalogue.net/#simple-media)) or collect
+media files and texts with which to create an exposition later. Beyond
+organizing media, you can share it with other users of the RC. You can
+upload media, organize it into [__sets__](#sets) and
 [__share__](#share_media) it with other users of the RC. It extends
 and replaces the older "Works" feature.
 
