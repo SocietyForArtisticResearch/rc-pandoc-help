@@ -1,16 +1,21 @@
 # Media Repository
 
+<<<<<<< HEAD
 The media repository is where you can opload and organise your
 media. It includes all the media used in your expositions, so
 everything listed under "simple media" tab in the graphical
 editor. You can upload media, organise it into [__sets__](#sets) and [__share__](#share_media) it with other
 users of the RC. It extends and replaces the old "Works" feature.
 
+
 ### Browsing
+
 
 There are three sections:
 
+
 * __My sets__
+
 
 	Your media sets.
 	
@@ -47,8 +52,23 @@ multiple forms. You can copy over the album and copyright fields.
 
 ### Text
 
+Click "Upload media" to add a new file. Once you have select one or
+more files, you will be asked to provide at least copyright
+information. If you are the creator, you can fill in your own name
+here.
+
+### Multi-upload
+
+You can select multiple files to upload at once or a folder containing
+several files. You will be presented with a form block for each
+file. In order to ease such a workflow you can apply the copyright
+information and the set you want to add the media to from one form to
+all other forms.
+
+
 You can also create snippets of text by using the "__create text__" button.
 You can select between three different type:
+
 
 * plain text
 * HTML
@@ -56,11 +76,22 @@ You can select between three different type:
 
 ### Sets
 
+Text is a media type in the media repository.
+
+# Sets
+
+
 Media can be organised in Sets. Media can belong to multiple sets at
 once. You can create a new set and by clicking " select" you can
 choose what media belongs to that set.
 
+
 ### Open Keywords, Closed Keywords, Tags
+
+# Sharing 
+
+# Open Keywords, Closed Keywords, Tags
+
 
 Tags are meant for personal organistion, for example todo, old,
 archive, new, music, in progress, history etc.. They are private to
@@ -87,4 +118,4 @@ individual users.
 
 <a id="share_media">
 
-### Sharing media from the repository
+### Sharing
