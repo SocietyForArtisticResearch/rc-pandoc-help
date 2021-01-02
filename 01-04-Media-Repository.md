@@ -8,7 +8,8 @@ to create an exposition later. The media repository facilitates
 metadata editing, sharing, categorizing data, note taking, personal
 and collective storage. It is the first use of the new media API,
 which will enable the RC to be linked to external repositories as
-well.
+well. The repository is fully responsive and will work on mobile
+devices.
 
 You can find more information and documentation here: 
 https://guide.researchcatalogue.net/#media-repository
