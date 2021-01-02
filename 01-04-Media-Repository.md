@@ -1,61 +1,69 @@
 # Media Repository
 
-<<<<<<< HEAD
-The media repository is where you can opload and organise your
-media. It includes all the media used in your expositions, so
-everything listed under "simple media" tab in the graphical
-editor. You can upload media, organise it into [__sets__](#sets) and [__share__](#share_media) it with other
-users of the RC. It extends and replaces the old "Works" feature.
+The media repository allows RC users to navigate, organize and manage
+media. It includes all media used in your expositions (the [simple
+media](https://guide.researchcatalogue.net/#simple-media)). Beyond
+organizing media, you can organise it and share it with other users of
+the RC. You can upload media, organize it into [__sets__](#sets) and
+[__share__](#share_media) it with other users of the RC. It extends
+and replaces the older "Works" feature.
 
 
 ### Browsing
 
 
-There are three sections:
+The media browser contains three tabs:
 
-
-* __My sets__
-
-
-	Your media sets.
-	
-* __Shared with you__
-
-	Media sets that have been shared with you by others.
-	
 * __Media__
 
 	The complete list of all media.
-	
-All overviews are sortable, click on a column to sort by this.
 
-### Filter 
+* __My sets__
+
+	Your media sets.
+	
+* __Sets shared with you__
+
+	Media sets that have been shared with you by others.
+	
+	
+There are two ways of displaying the media or sets:
+
+* The __gallery view__ displays a preview image of the entities and
+  helps finding media visually.
+* The __list view__ is better suited for sorting media or sets.  Click
+  on a column to sort a list by a certain property.
+
+### Filter and Search
 
 The filter can be used to only show certain types of media. You can filter by 
-Tags, Keywords or Date.
+[__tags__](#tags), [__keywords__](#keywords), date and media type.
 
 
 ### Creating new media
 
 There are various ways to create new media:
 
-* Upload
+### Upload
 
-Click "__upload media__" to add a new file. You will be asked at a minimum
-to provide a copyright holder, if you are the creator, you can fill in
-your own name here. 
-
-### Multi-upload
-
-When you select multiple files to upload, they will be displayed as
-multiple forms. You can copy over the album and copyright fields.
-
-### Text
-
-Click "Upload media" to add a new file. Once you have select one or
+Click "__Upload media__" to add a new file. Once you have select one or
 more files, you will be asked to provide at least copyright
 information. If you are the creator, you can fill in your own name
 here.
+
+Accepted types:
+
+* Video (most common formats)
+* Audio
+* PDF
+* Text files: plain / html / markdown
+* Images : .png .gif .jpg .svg .tiff
+
+__Transcoding audio and video:__
+
+The Media Repository accepts all common audio and video formats and
+will automatically convert them to web compatible format.  Audio is
+transcoded to 256 kbps mp3, video to mp4 with the original resolution.
 
 ### Multi-upload
 
@@ -66,56 +74,64 @@ information and the set you want to add the media to from one form to
 all other forms.
 
 
+### Text
+
+Text is a media type in the media repository.
+
 You can also create snippets of text by using the "__create text__" button.
 You can select between three different type:
 
 
-* plain text
+* Plain text
 * HTML
 * Markdown 
 
-### Sets
+## Metadata
 
-Text is a media type in the media repository.
+Every album and media entry is linked to set of metadata that include
+copyright and licensing information as well as a title and the
+following fields:
 
-# Sets
+### Description
 
+The description is not typically displayed for a reader of an
+exposition but allows the author to provide additional information.
 
-Media can be organised in Sets. Media can belong to multiple sets at
-once. You can create a new set and by clicking " select" you can
-choose what media belongs to that set.
+<a id="tags">
+### Tags
 
+Tags are meant for personal organization. Typical examples would be
+"todo", "old", "archive", "new", or "in progress". They are private to
+your RC account, so no other users will see them.
 
-### Open Keywords, Closed Keywords, Tags
+<a id="keywords">
+### Open Keywords
 
-# Sharing 
+Open keywords are shared with the entire RC, any user can add any new
+term to the global namespace.
 
-# Open Keywords, Closed Keywords, Tags
-
-
-Tags are meant for personal organistion, for example todo, old,
-archive, new, music, in progress, history etc.. They are private to
-your rc account, so no other users will see them.
-
-### Open keywords
-
-Open keywords are shared with the whole RC, any user add any new term
-to the global namespace. 
-
-You can either search for existing Open Keywords or create your own,
+You can either search for existing open keywords or create your own,
 if the term has not been used before.
 
-To prevent duplicates, the RC does not
-differerentiate between various capitalizations, for example: "Art" &
-"art" are understood to be the same thing.
+To prevent duplicates, the RC does not differentiate between upper and
+lower case, for example: "Art" and "art" are understood to be the same
+thing.
 
 ### Closed Keywords
 
-Closed keywords are from a controlled vocabulary. They are chosen so that we
-can more easily interact with other repositories. They cannot be extended by 
-individual users.
+Closed keywords are part of a closed and controlled vocabulary
+administered and continuously extended by the RC. They are chosen so
+that we can more easily interact with other repositories. They cannot
+be extended by individual users.
 
+
+<a id="sets">
+## Sets
+
+Media can be organized in sets. Media can belong to multiple sets at
+once. You can create a new set and by clicking "select" you can
+choose the media belongs to a set.
 
 <a id="share_media">
+## Sharing
 
-### Sharing
