@@ -1,20 +1,3 @@
-New RC Feature: Media Repository
-
-We are happy to announce the upcoming release of a new RC feature. The
-new media repository allows RC users to navigate, organize and manage
-all of their media. Each user can browse and search the media that is
-used in their expositions or collect media files and texts with which
-to create an exposition later. The media repository facilitates
-metadata editing, sharing, categorizing data, note taking, personal
-and collective storage. It is the first use of the new media API,
-which will enable the RC to be linked to external repositories as
-well. The repository is fully responsive and will work on mobile
-devices.
-
-You can find more information and documentation here: 
-https://guide.researchcatalogue.net/#media-repository
-
-
 # Media Repository
 
 The media repository allows RC users to navigate, organize and manage
@@ -23,9 +6,12 @@ expositions (the [simple
 media](https://guide.researchcatalogue.net/#simple-media)) or collect
 media files and texts with which to create an exposition later. Beyond
 organizing media, you can share it with other users of the RC. You can
-upload media, organize it into [__sets__](#sets) and
-[__share__](#share_media) it with other users of the RC. It extends
-and replaces the older "Works" feature.
+upload media, organize it into [__sets__](#sets) and share it with
+other users of the RC. It extends and replaces the older "Works"
+feature.
+
+
+![Media repository](images/media-repository.png "image showing the media repository")
 
 
 ### Browsing
@@ -98,8 +84,7 @@ all other forms.
 Text is a media type in the media repository.
 
 You can also create snippets of text by using the "__create text__" button.
-You can select between three different type:
-
+You can select between three different types:
 
 * Plain text
 * HTML
@@ -117,6 +102,7 @@ The description is not typically displayed for a reader of an
 exposition but allows the author to provide additional information.
 
 <a id="tags">
+
 ### Tags
 
 Tags are meant for personal organization. Typical examples would be
@@ -124,6 +110,7 @@ Tags are meant for personal organization. Typical examples would be
 your RC account, so no other users will see them.
 
 <a id="keywords">
+
 ### Open Keywords
 
 Open keywords are shared with the entire RC, any user can add any new
@@ -145,12 +132,23 @@ be extended by individual users.
 
 
 <a id="sets">
-## Sets
+
+## Sets and Sharing
 
 Media can be organized in sets. Media can belong to multiple sets at
 once. You can create a new set and by clicking "select" you can
 choose the media belongs to a set.
 
-<a id="share_media">
-## Sharing
+Media sets can be shared with other users and in portals. Click
+__share__ to open the share form. There are three sections in this
+form:
 
+* The top section of this form allows you to control the visibility of
+  the set on your profile.
+* The middle section allows you to invite collaborates. These users
+  will only have read access (default) or they have write access,
+  which allows them to remove or change metadata and media belonging
+  to the set.
+* The bottom section allows you to share a set in portals. Other
+  members of the portal in which you share a set will see the set on
+  your profile even if you don't publicly share it.
