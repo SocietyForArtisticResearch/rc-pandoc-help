@@ -6,7 +6,7 @@
 
 ---
 title: Research Catalogue Extended Guide
-date: October 2020
+date: January 2021
 ---
 
 <!--[pdf version](RC-extended-guide.pdf "pdf extended guide pdf version")  -->
