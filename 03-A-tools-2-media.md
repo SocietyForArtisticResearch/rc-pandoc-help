@@ -68,6 +68,7 @@ which also supports importing from external text editors.
 
 By default, RC has zero margin on all paragraphs, this will mean that there is no whitespace between paragraphs. To avoid this issue,
 I recommend adding the following style to your [raw CSS](#page-settings---style "link to page settings docs") settings of your page where you import word content. 
+You can edit the "raw css" of a page by opening __pages tab__ > ✎ __edit settings__ > __style__ > __raw css__.
 
 <pre>
 #container-weave .html-text-editor-content p {
