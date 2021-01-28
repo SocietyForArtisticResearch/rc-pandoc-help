@@ -31,7 +31,7 @@ Safer is to have the student make their own limited account (through normal [reg
 the portal afterwards.  Alternatively, you could also generate a long
 random password and throw it away immediately, then ask the user to
 reset the password themselves using
-<https://www.researchcatalogue.net/forgotten-password>.
+<https://www.researchcatalogue.net/portal/forgotten-password>.
 
 ## Writing the exposition, collaboration
 
