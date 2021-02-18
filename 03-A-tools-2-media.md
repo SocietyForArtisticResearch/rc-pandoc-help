@@ -1,4 +1,4 @@
-# Graphical editor - Content Manager / Tabs
+# Graphical Editor - Content Manager / Tabs
 
 The content manager is a collection of tabs located on the right size
 of the graphical editor.
@@ -27,7 +27,7 @@ objects, or change the ordering (front to back). If you click on a
 tool in the list, the editor will automatically jump to its location,
 you can also double click a tool to edit the content of that tool.
 
-## Media tab (graphical editor)
+## Media tab
 
 Media files can be found, uploaded, previewed and deleted in the
 "Media"-tab on the right hand side. There are subtabs: __Simple

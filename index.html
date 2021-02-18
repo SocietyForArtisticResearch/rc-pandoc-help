@@ -43,16 +43,16 @@
 <li><a href="#metadata">Metadata</a></li>
 <li><a href="#sets-and-sharing">Sets and Sharing</a></li>
 </ul></li>
-<li><a href="#graphical-editor-views">Graphical Editor Views</a>
+<li><a href="#graphical-editor---views">Graphical Editor - Views</a>
 <ul>
 <li><a href="#preview">Preview</a></li>
 <li><a href="#workspace-view">Workspace View</a></li>
 </ul></li>
-<li><a href="#workspace-editor-for-graphical-expositions">Workspace editor for graphical expositions</a>
+<li><a href="#graphical-editor---workspace">Graphical Editor - Workspace</a>
 <ul>
-<li><a href="#editor-basics">Editor basics</a></li>
-<li><a href="#adding-a-tool">Adding a tool</a></li>
-<li><a href="#key-commands">Key commands</a></li>
+<li><a href="#editor-basics">Editor Basics</a></li>
+<li><a href="#adding-a-tool">Adding a Tool</a></li>
+<li><a href="#key-commands">Key Commands</a></li>
 <li><a href="#defaults">Defaults</a></li>
 <li><a href="#text-tool">Text Tool</a></li>
 <li><a href="#html-tool">HTML-Tool</a></li>
@@ -68,26 +68,35 @@
 <li><a href="#style-options">Style Options</a></li>
 <li><a href="#history-2">History</a></li>
 </ul></li>
-<li><a href="#content-manager-tabs">Content manager / Tabs</a>
+<li><a href="#graphical-editor---content-manager-tabs">Graphical Editor - Content Manager / Tabs</a>
 <ul>
 <li><a href="#overview">Overview</a></li>
-<li><a href="#media-tab-graphical-editor">Media tab (graphical editor)</a></li>
+<li><a href="#media-tab">Media tab</a></li>
 <li><a href="#import-word-documents-using-simple-media-upload">Import Word documents using Simple Media upload</a></li>
 <li><a href="#pages">Pages</a></li>
 <li><a href="#page-settings">Page settings</a></li>
 <li><a href="#raw-css">raw CSS</a></li>
 </ul></li>
-<li><a href="#footnotes-and-popovers">Footnotes and Popovers</a></li>
-<li><a href="#menus">Menus</a>
+<li><a href="#graphical-editor---footnotes-and-popovers">Graphical Editor - Footnotes and Popovers</a>
+<ul>
+<li><a href="#creating-a-simple-text-footnote">Creating a Simple Text Footnote</a></li>
+<li><a href="#editing-a-footnote">Editing a Footnote</a></li>
+</ul></li>
+<li><a href="#graphical-expositions---table-of-content">Graphical Expositions - Table of Content</a>
+<ul>
+<li><a href="#hyperlinking">Hyperlinking</a></li>
+<li><a href="#overview-1">Overview</a></li>
+</ul></li>
+<li><a href="#graphical-editor---menus">Graphical Editor - Menus</a>
 <ul>
 <li><a href="#edit-menu">Edit menu</a></li>
 <li><a href="#options-menu">Options menu</a></li>
 <li><a href="#help-menu">Help menu</a></li>
 <li><a href="#send-collaboration-message">Send Collaboration Message</a></li>
 </ul></li>
-<li><a href="#text-based-editor">Text based editor</a>
+<li><a href="#text-based-editor">Text Based Editor</a>
 <ul>
-<li><a href="#overview-1">Overview</a></li>
+<li><a href="#overview-2">Overview</a></li>
 <li><a href="#introduction">Introduction</a></li>
 <li><a href="#creation-and-using-a-template">Creation and using a template</a></li>
 <li><a href="#editor">Editor</a></li>
@@ -103,9 +112,6 @@
 <li><a href="#navigation">Navigation</a>
 <ul>
 <li><a href="#navigation-bar">Navigation bar</a></li>
-<li><a href="#table-of-content">Table of Content</a></li>
-<li><a href="#hyperlinking">Hyperlinking</a></li>
-<li><a href="#overview-2">Overview</a></li>
 </ul></li>
 <li><a href="#making-expositions-visible-and-working-with-others">Making expositions visible and working with others</a>
 <ul>
@@ -462,7 +468,7 @@ A <strong>title</strong> and <strong>abstract</strong> are obligatory.</li>
 <li>The middle section allows you to invite collaborates. These users will only have read access (default) or they have write access, which allows them to remove or change metadata and media belonging to the set.</li>
 <li>The bottom section allows you to share a set in portals. Other members of the portal in which you share a set will see the set on your profile even if you don’t publicly share it.</li>
 </ul>
-<h1 id="graphical-editor-views">Graphical Editor Views</h1>
+<h1 id="graphical-editor---views">Graphical Editor - Views</h1>
 <h2 id="preview">Preview</h2>
 <p>The preview is the final result that the reader will see when he/she opens your exposition, for example by opening the exposition URL or when a user clicks “OPEN EXPOSITION” anywhere on the RC. All expositions have <a href="#navigation">a navigation bar</a> that shows if the user moves his/her mouse to the top. It contains a table of contents, abstract and other information.</p>
 <p>While you are editing your exposition in the workspace editor, the Preview button (👁, right top corner) shows what the page will look like to the reader. If you already have a preview tab open, the second time you click Preview, it will simply refresh, instead of opening a new tab.</p>
@@ -499,11 +505,12 @@ text view" in the top-right.
 
 For more info on specific tools, see [workspace](#research-catalogue-workspace-tools). -->
 <!--pandoc -s tools.md -o tools.html -c style.css-->
-<h1 id="workspace-editor-for-graphical-expositions">Workspace editor for graphical expositions</h1>
+<p><a id="workspace-editor-for-graphical-expositions"></a></p>
+<h1 id="graphical-editor---workspace">Graphical Editor - Workspace</h1>
 <figure>
 <img src="images/workspace-view-2018.png" title="image showing graphical editor" alt="" /><figcaption>workspace view of the graphical exposition format</figcaption>
 </figure>
-<h2 id="editor-basics">Editor basics</h2>
+<h2 id="editor-basics">Editor Basics</h2>
 <p>When you open the editor you will see math-paper like area in the center, this is called the grid. Content is added by dragging-and-dropping “tools” from the toolbar onto the grid. You can preview what the exposition looks like to the reader by clicking the “preview” button: <img src="images/eye_metro.svg" class="icon">. This preview button is located at the top right.</p>
 <p>The position of content in graphical expositions is determined by the author and absolute. This implies:</p>
 <ul>
@@ -540,14 +547,14 @@ For more info on specific tools, see [workspace](#research-catalogue-workspace-t
 </tr>
 </tbody>
 </table>
-<h2 id="adding-a-tool">Adding a tool</h2>
+<h2 id="adding-a-tool">Adding a Tool</h2>
 <p>A tool is created by <a href="https://en.wikipedia.org/wiki/Drag_and_drop">dragging</a> the icon onto the canvas.</p>
 <p>If you click a tool once, it will open the default setting dialog.</p>
 <p><img src="images/toolbar-demo-2.png" title="image showing drag a tool to the canvas" /></p>
 <p>Tools can be resized by clicking and dragging the green borders with the mouse.</p>
 <p>Tools can be rotated by clicking and dragging the yellow dot.</p>
 <p>The size of the current weave will automatically grow when tools are added.</p>
-<h3 id="context-menu">Context menu</h3>
+<h3 id="context-menu">Context Menu</h3>
 <div class="small_image">
 <figure>
 <img src="images/position-context-menu.png" title="context menu location" alt="" /><figcaption>context menu location</figcaption>
@@ -569,7 +576,7 @@ Lock means that one cannot make any changes until unlocked again.</p></li>
 <li><p><strong>Delete</strong><br />
 Delete a tool</p></li>
 </ul>
-<h2 id="key-commands">Key commands</h2>
+<h2 id="key-commands">Key Commands</h2>
 <p>There are a few useful key commands in the editor. Selected tools have a green border.</p>
 <table>
 <colgroup>
@@ -869,8 +876,8 @@ total number of images. -->
 <p>It is possible to change the default styling settings for any tool, by double clicking the tool in the toolbar. After the default is changed, every newly created tool will initially use these new settings.</p>
 <h2 id="history-2">History</h2>
 <p>The <em>history tab</em> gives you the posibility to change the content <strong>within the tool</strong> to an older version. The versions of a text object are created each time you have clicked outside it (and the three animated dots show inside). With the html tool, a version is created each time you click submit.</p>
-<h1 id="content-manager-tabs">Content manager / Tabs</h1>
-<p>The content manager is a collection of located on the right size of the graphical editor.</p>
+<h1 id="graphical-editor---content-manager-tabs">Graphical Editor - Content Manager / Tabs</h1>
+<p>The content manager is a collection of tabs located on the right size of the graphical editor.</p>
 <figure>
 <img src="images/media_manage.png" title="media management" alt="" /><figcaption>media, pages and footnotes tabs</figcaption>
 </figure>
@@ -887,7 +894,7 @@ total number of images. -->
 <p><a id="media-management"></a></p>
 <h2 id="overview">Overview</h2>
 <p>You can use the overview to see all objects in the exposition as both a miniature map and a list. This can also be useful to retrieve lost objects, or change the ordering (front to back). If you click on a tool in the list, the editor will automatically jump to its location, you can also double click a tool to edit the content of that tool.</p>
-<h2 id="media-tab-graphical-editor">Media tab (graphical editor)</h2>
+<h2 id="media-tab">Media tab</h2>
 <p>Media files can be found, uploaded, previewed and deleted in the “Media”-tab on the right hand side. There are subtabs: <strong>Simple Media</strong>, <strong>Sets</strong> and <strong>“+”</strong>, which allows the integration of external repositories, such as the Media Archive of the Arts of the ZHdK (Madek).</p>
 <h3 id="simple-media">Simple Media</h3>
 <p>The simple media, which can be found within the “Media”-tab on right hand side of the editor. Images, videos, audio and other media that have been added in tools onto the canvas will automatically show up in simple media tab. You can click and drag files from the simple media tab onto your canvas in order to create tools.</p>
@@ -966,9 +973,15 @@ meta-data --></p>
 <li><strong>raw css</strong>: apple your own CSS rules to the page, see below</li>
 </ul>
 <h2 id="raw-css">raw CSS</h2>
-<p>You can set user defined <a href="https://www.w3schools.com/css/" title="css tutorial">CSS</a> rules that are applied to the whole page. The CSS class for HTML tools is .html-text-editor-content.</p>
-<p>To style text within a simple text tool you have to use: .tool-simpletext .tool-content * {</p>
-<p>}</p>
+<p>You can set user defined <a href="https://www.w3schools.com/css/" title="css tutorial">CSS</a> rules that are applied to the whole page. Cascading Style Sheets are the standard way of styling HTML documents. Although most styling can be directly edited through the style tab, it can sometimes be useful to specify your own CSS.</p>
+<p>The CSS class for HTML tools is:</p>
+<pre><code>.html-text-editor-content {
+/* put your styles here */
+}</code></pre>
+<p>To style text within a simple text tool you have to use:</p>
+<pre><code>.tool-simpletext .tool-content * {
+/* put your style here */   
+}</code></pre>
 <h3 id="supplying-your-own-fonts">Supplying your own fonts</h3>
 <p>You can include your own external fonts through CSS <span class="citation" data-cites="import">@import</span> statements. Be aware that many (also fonts like “Arial”), cannot be self-hosted unless you have a license that allows that. Google Fonts has an overview of fonts that you can freely use. Here is an example of using the “Roboto” font:</p>
 <pre><code>@import url(&#39;https://fonts.googleapis.com/css2?family=Roboto:ital@1&amp;display=swap&#39;);
@@ -993,9 +1006,10 @@ meta-data --></p>
 <p>Be aware that changing the CSS</p>
 <h3 id="deleting-a-page">Deleting a page</h3>
 <p>The page can be deleted by clicking the trashcan icon next to the page title. Deleted pages cannot be recovered. Of course, if you want to make a page invisible to the reader it may be prefered to just remove it from the <a href="#table-of-content" title="table of content">table of content</a>.</p>
-<h1 id="footnotes-and-popovers">Footnotes and Popovers</h1>
+<p><a id="footnotes-and-popovers"></a></p>
+<h1 id="graphical-editor---footnotes-and-popovers">Graphical Editor - Footnotes and Popovers</h1>
 <p>It is possible to create footnotes and popover weaves in the text, HTML and picture tools. The terms “footnote” and “popover” are used almost interchangeably here. Footnote, however, refers rather to the textual concept of a footnote, i.e. a particular use of the functionality explained in this section, whereas popover is used when referring specifically to the appearing popover window. (There is a tutorial video explaining the footnote workflow on the <a href="https://www.researchcatalogue.net/view/273532/273533">RC Video Tutorials page</a>) These are displayed when the RC user reading the exposition clicks the footnote link or, depending on the settings, when he or she mouse the mouse pointer over the link. This functionality makes it possible to create footnotes in texts, but also create popovers of any size containing RC objects of any type. There are a number of different ways of creating footnotes.</p>
-<h3 id="creating-a-simple-text-footnote">Creating a Simple Text Footnote</h3>
+<h2 id="creating-a-simple-text-footnote">Creating a Simple Text Footnote</h2>
 <p>In order to create a footnote in the text or HTML tool one selects some text, which will be the footnote link and clicks the “Insert/Edit Link or Footnote” menu item (see image).</p>
 <figure>
 <img src="images/footnotes_sel.png" alt="" /><figcaption>Selecting text as a footnote link</figcaption>
@@ -1017,7 +1031,7 @@ meta-data --></p>
 <figure>
 <img src="images/footnote_preview.png" alt="" /><figcaption>Preview of a footnote</figcaption>
 </figure>
-<h3 id="editing-a-footnote">Editing a Footnote</h3>
+<h2 id="editing-a-footnote">Editing a Footnote</h2>
 <p>All footnotes are listed in the “Footnotes” tab on the right hand side.</p>
 <figure>
 <img src="images/footnotes_list_new.png" alt="" /><figcaption>List of footnotes</figcaption>
@@ -1058,7 +1072,61 @@ Incorrect auto-numbering in non-aligned tools
 <p>Then rc will automatically number the notes in 2 first than 1 than 3. So in this case, it is very important to have the text tools exactly at the same x position (through right click -&gt; style tab you can check this most easily).</p>
 <h3 id="pictures">Pictures</h3>
 <p>It is also possible to use images as links to footnotes. When clicking on the image or moving over it with the mouse cursor the popover will be show. In order to use an image as a footnote click the menu icon on the bottom right of the image (or right click the image) in order to open the context menu. Click the item “add footnote” from the context menu and fill in the appearing dialog window.</p>
-<h1 id="menus">Menus</h1>
+<p><a id="table-of-content"></a></p>
+<h1 id="graphical-expositions---table-of-content">Graphical Expositions - Table of Content</h1>
+<p>See the <a href="https://www.researchcatalogue.net/view/273532/273533/54/759">video tutorial</a> on this topic.</p>
+<figure>
+<img src="images/table-of-content-example.png" alt="" /><figcaption>an example of a contents list, made through the table of content</figcaption>
+</figure>
+<p>The table of content is designed to facilitate the navigation through an exposition. Both pages and locations within a page can be added in the table of content. In order to edit the table of content, go to the <strong>“Options”</strong> menu &gt; <strong>“Edit Table of Content”</strong>.</p>
+<figure>
+<img src="images/table-of-content-dialog.png" alt="" /><figcaption>Table of content dialog</figcaption>
+</figure>
+<p>To make a new entry, click on the index number and select the page (or “weave”) from the drop down menu and click submit.</p>
+<p>There are two optional fields:</p>
+<ul>
+<li><p><strong>Title</strong><br />
+Specify a custom name for this entry to be used within the contents menu. If left empty, it uses the title from the editor.</p></li>
+<li><p><strong>X-COORD &amp; Y-COORD</strong><br />
+you can use this to create an entry that has an offset, which immediately opens the page on a specific location within the exposition. The X,Y values correspond to an offset in pixels. The Y offset is measured from the top. Instead of looking these values up by hand, you may also use <a href="#set-default-position-show-current-position"><strong>commands -&gt; show current position</strong></a>.</p></li>
+</ul>
+<p><em>Tip: you can easily reorder the table of contents entries by clicking and dragging the boxes.</em></p>
+<h3 id="static-navigation-bar">Static navigation bar</h3>
+<p>At the bottom of the <strong>table of content</strong> dialog, there is an option <strong>static menu bar</strong> to display the navigation bar continuously (instead of it automatically hiding).</p>
+<h3 id="toc-alignment">TOC alignment</h3>
+<p>Choose wether the links in the content menu should be displayed <em>horizontally</em> or <em>vertically</em>.</p>
+<h2 id="hyperlinking">Hyperlinking</h2>
+<p>See the <a href="https://www.researchcatalogue.net/view/273532/273533">video tutorial</a> on this topic.</p>
+<p>It is possible to create hyperlinks between pages (or “weaves”) of an exposition and within a single page. This process exists of two steps: fetch the link and creating the hyperlink.</p>
+<p>In order to fetch a link to a different page within your exposition:</p>
+<ol type="1">
+<li>open the page you want to link <strong>to</strong> in the editor (through the page tab on the right hand side).</li>
+<li><em>(optional)</em> scroll the page to the position where you want the link to point to.</li>
+<li>go to <strong>options-&gt;show current position</strong></li>
+</ol>
+<p>This will display a URL of the target page with the current scroll location. Copy the URL into the clipboard (Ctrl-C/Cmd-C).</p>
+<p>Now to turn a piece of text into a hyperlink:</p>
+<ol type="1">
+<li>Create or open a <a href="#text-tool">Text</a> or <a href="#HTML-tool">HTML tool</a> and select a word or sentence that should become the link.</li>
+<li>Now click the hyperlink button (it looks like a chain link) and a dialog will be displayed. <img src="images/html-hyperlink.png" alt="location of the hyperlink button in text tool" /> <img src="images/text-hyperlink.png" alt="location of the hyperlink button in the html tool" /></li>
+<li>Paste the link in the <strong>link URL</strong> field and click <strong>add link</strong>.</li>
+</ol>
+<figure>
+<img src="images/hyperlink-dialog.png" alt="" /><figcaption>Hyperlink dialog window</figcaption>
+</figure>
+<h3 id="dialog-options">Dialog options:</h3>
+<p>Within the hyperlink dialog there are a couple of options:</p>
+<ul>
+<li><strong>Link URL</strong> : here you can type or paste a link</li>
+<li><strong>Target</strong> : control wether the link will open in a new screen or not.</li>
+<li><strong>Title</strong> : change the title of the link</li>
+<li><strong>Class</strong> : set the class of the link (this is rarely used)</li>
+</ul>
+<h2 id="overview-1">Overview</h2>
+<p>Within the “Commands” tab on the right-hand side of the editor there is a checkbox labeled “Overview.” Clicking the checkbox will open and close a tab on the right-hand side of the editor. It contains both a map and a list of all objects in the exposition.</p>
+<p>The overview map outlines all tools on the page, their size and position. By moving the red rectangle, one can jump to a specific position on the page.</p>
+<p>Below the overview map, there is a list of all objects. If you click one of these tools, you go directly to that tools location. This can also be very useful when trying to find tools that have somehow become hidden, for example if another tool has been placed on top.</p>
+<h1 id="graphical-editor---menus">Graphical Editor - Menus</h1>
 <h2 id="edit-menu">Edit menu</h2>
 <p><img src="images/edit-menu-2018.png" class="half-image" alt="image showing the edit menu"></p>
 <p><strong>Trivial copy paste functions:</strong></p>
@@ -1120,9 +1188,9 @@ Incorrect auto-numbering in non-aligned tools
 </ul>
 <h2 id="send-collaboration-message">Send Collaboration Message</h2>
 <p>When you are collaborating on an exposition, you can use the command “send collaboration message” to communicate with your collaborators.</p>
-<h1 id="text-based-editor">Text based editor</h1>
+<h1 id="text-based-editor">Text Based Editor</h1>
 <p>First time user of the text editor? <a href="#introduction">click here</a>.</p>
-<h2 id="overview-1">Overview</h2>
+<h2 id="overview-2">Overview</h2>
 <div id="overview-block">
 <p>
 Click any element in the image to jump to the relevant section:
@@ -1399,77 +1467,22 @@ A quotation is inserted by indenting your text with 4 spaces or 1 tab, like so:
 </figure>
 <p>The navigation bar contains, from left to right:</p>
 <ul>
-<li><p><strong>Content</strong> This contains the table of contents and links to the authors. Please see the help section on <a href="#table-of-content">table of contents</a>.</p></li>
-<li><p><strong>Navigation</strong> Navigation is a graphical map of all the exposition’s content on the current weave. You can click it to jump to a location.</p></li>
-<li><p><strong>Abstract</strong> Abstract, this can be changed by clicking title in the editor or ☰ &gt; <strong>edit details</strong> on your profile.</p></li>
-<li><p><strong>Title / Meta</strong> By moving the mouse pointer the title of your research, a little window with metadata will appear. The link (URL) of the current page is shown, including the current scrolling location. This URL can thus be used to generate the <a href="#hyperlinks">hyperlink</a> for internal linking. You can also use this link to cite a specific location.</p></li>
-<li><p><strong>Reviewing</strong> Reviewing is connected to the note tool (the yellow “post-it” notes) and is intended for the communication between the author(s) and the reviewer during the reviewing-process. This option is only available for expositions that have not been published yet. Notes can also be used for approving expositions in educational contexts. <br /> There are a couple of functions available: <br /></p>
-<ul>
-<li>hide notes (hide all notes)</li>
-<li>show open notes (show only notes that are open)</li>
-<li>show resolved notes (show the resolved notes)</li>
-<li>add new note (open a note tool)</li>
-<li>previous note (jump to previous note)</li>
-<li>next note (jump to next note)</li>
-</ul></li>
+<li><p><strong>Content</strong><br />
+This contains the table of contents and links to the authors. Please see the help section on <a href="#table-of-content">table of contents</a>.</p></li>
+<li><p><strong>Navigation</strong> (graphical expositions only)<br />
+Navigation is a graphical map of all the exposition’s content on the current weave. You can click it to jump to a location.</p></li>
+<li><p><strong>Abstract</strong><br />
+Abstract, this can be changed by clicking title in the editor or ☰ &gt; <strong>edit details</strong> on your profile.</p></li>
+<li><p><strong>Title / Meta</strong><br />
+By moving the mouse pointer the title of your research, a little window with metadata will appear. The link (URL) of the current page is shown, including the current scrolling location. This URL can thus be used to generate the <a href="#hyperlinks">hyperlink</a> for internal linking. You can also use this link to cite a specific location.</p></li>
+<li><p><strong>Reviewing</strong> (graphical expositions only)<br />
+Reviewing is connected to the note tool (the yellow “post-it” notes) and is intended for the communication between the author(s) and the reviewer during the reviewing-process. This option is only available for expositions that have not been published yet. Notes can also be used for approving expositions in educational contexts.</p></li>
 </ul>
+<p><br /> There are a couple of functions available: <br /> - hide notes (hide all notes) - show open notes (show only notes that are open) - show resolved notes (show the resolved notes) - add new note (open a note tool) - previous note (jump to previous note) - next note (jump to next note)</p>
 <h3 id="comments">Comments</h3>
 <p>Shows the latest and previous comments on your exposition from the RC community.</p>
 <h3 id="terms-of-use">Terms of use</h3>
 <p>This displays the terms of as set by the Society for Artistic Research (SAR).</p>
-<h2 id="table-of-content">Table of Content</h2>
-<p>See the <a href="https://www.researchcatalogue.net/view/273532/273533/54/759">video tutorial</a> on this topic.</p>
-<figure>
-<img src="images/table-of-content-example.png" alt="" /><figcaption>an example of a contents list, made through the table of content</figcaption>
-</figure>
-<p>The table of content is designed to facilitate the navigation through an exposition. In order to edit the table of content and add entries, open the “Options” menu item and click on “edit table of content” (one can also open this window by going to the exposition on the profile page and clicking “edit details”). This opens a dialogue window titled “Edit Research.” The second tab (“table of content”) of this window contains a series of entries.</p>
-<figure>
-<img src="images/table-of-content-dialog.png" alt="" /><figcaption>Table of content dialog</figcaption>
-</figure>
-<p>To make a new entry, click on the index number and select the page (or “weave”) from the drop down menu and click submit.</p>
-<p>There are two optional fields:</p>
-<ul>
-<li><p><strong>Title</strong><br />
-Specify a custom name for this entry to be used within the contents menu. If left empty, it uses the title from the editor.</p></li>
-<li><p><strong>X-COORD &amp; Y-COORD</strong><br />
-you can use this to create an entry that has an offset, which immediately opens the page on a specific location within the exposition. The X,Y values correspond to an offset in pixels. The Y offset is measured from the top. Instead of looking these values up by hand, you may also use <a href="#set-default-position-show-current-position"><strong>commands -&gt; show current position</strong></a>.</p></li>
-</ul>
-<p><em>Tip: you can easily reorder the table of contents entries by clicking and dragging the boxes.</em></p>
-<h3 id="static-navigation-bar">Static navigation bar</h3>
-<p>At the bottom of the <strong>table of content</strong> dialog, there is an option <strong>static menu bar</strong> to display the navigation bar continuously (instead of it automatically hiding).</p>
-<h3 id="toc-alignment">TOC alignment</h3>
-<p>Choose wether the links in the content menu should be displayed <em>horizontally</em> or <em>vertically</em>.</p>
-<h2 id="hyperlinking">Hyperlinking</h2>
-<p>See the <a href="https://www.researchcatalogue.net/view/273532/273533">video tutorial</a> on this topic.</p>
-<p>It is possible to create hyperlinks between pages (or “weaves”) of an exposition and within a single page. This process exists of two steps: fetch the link and creating the hyperlink.</p>
-<p>In order to fetch a link to a different page within your exposition:</p>
-<ol type="1">
-<li>open the page you want to link <strong>to</strong> in the editor (through the page tab on the right hand side).</li>
-<li><em>(optional)</em> scroll the page to the position where you want the link to point to.</li>
-<li>go to <strong>options-&gt;show current position</strong></li>
-</ol>
-<p>This will display a URL of the target page with the current scroll location. Copy the URL into the clipboard (Ctrl-C/Cmd-C).</p>
-<p>Now to turn a piece of text into a hyperlink:</p>
-<ol type="1">
-<li>Create or open a <a href="#text-tool">Text</a> or <a href="#HTML-tool">HTML tool</a> and select a word or sentence that should become the link.</li>
-<li>Now click the hyperlink button (it looks like a chain link) and a dialog will be displayed. <img src="images/html-hyperlink.png" alt="location of the hyperlink button in text tool" /> <img src="images/text-hyperlink.png" alt="location of the hyperlink button in the html tool" /></li>
-<li>Paste the link in the <strong>link URL</strong> field and click <strong>add link</strong>.</li>
-</ol>
-<figure>
-<img src="images/hyperlink-dialog.png" alt="" /><figcaption>Hyperlink dialog window</figcaption>
-</figure>
-<h3 id="dialog-options">Dialog options:</h3>
-<p>Within the hyperlink dialog there are a couple of options:</p>
-<ul>
-<li><strong>Link URL</strong> : here you can type or paste a link</li>
-<li><strong>Target</strong> : control wether the link will open in a new screen or not.</li>
-<li><strong>Title</strong> : change the title of the link</li>
-<li><strong>Class</strong> : set the class of the link (this is rarely used)</li>
-</ul>
-<h2 id="overview-2">Overview</h2>
-<p>Within the “Commands” tab on the right-hand side of the editor there is a checkbox labeled “Overview.” Clicking the checkbox will open and close a tab on the right-hand side of the editor. It contains both a map and a list of all objects in the exposition.</p>
-<p>The overview map outlines all tools on the page, their size and position. By moving the red rectangle, one can jump to a specific position on the page.</p>
-<p>Below the overview map, there is a list of all objects. If you click one of these tools, you go directly to that tools location. This can also be very useful when trying to find tools that have somehow become hidden, for example if another tool has been placed on top.</p>
 <h1 id="making-expositions-visible-and-working-with-others">Making expositions visible and working with others</h1>
 <p>By default, expositions are <strong>private</strong>: only visible to your account. These are the three options to make something visible to others:</p>
 <ul>
