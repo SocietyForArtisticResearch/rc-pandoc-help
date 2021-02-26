@@ -30,19 +30,6 @@ drag-and-drop editor or written using a text-based editor. Various
 types of import formats are also supported. Collaboration of multiple
 authors on the development of a single exposition is also possible.
 
-### What is a "Work" ?
-
-In addition to expositions, it is also possible to upload single or
-multiple files and organize them as a __work__, which can also contain
-metadata about the work. A __work__ in the RC can be used to represent
-self-sufficient artistic creations existing outside the RC, such as
-objects, compositions, recordings, videos, installations, paintings,
-photographs, books etc, but can also be used to represent events,
-presentations or expositions. You can add metadata such as the place
-of your work, the country or the material, technique or
-format. Moreover, the work can contain a collection of media files,
-which can later be accessed in used in expositions.
-
 ### Connection between RC and JAR
 
 The RC forms the technical backbone of the Journal for Artistic
