@@ -1,6 +1,6 @@
 
 
-# Graphical Editor Views
+# Graphical Editor - Views
  
 ## Preview
 

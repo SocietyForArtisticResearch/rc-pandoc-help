@@ -4,7 +4,7 @@ The RC profile page is both the central hub for your activities on the
 RC and a public presentation of your research activities. The RC
 allows you to create a detailed public profile containing biographical
 data, information on projects and events as well as a list of your RC
-objects such as works and expositions. The profile is divided into two
+objects such as media sets and expositions. The profile is divided into two
 sections, the upper sections contains an artist biography as well as
 information of research interests and the lower part, which is titled
 "Research" contains a list of RC works and exposition.
@@ -20,7 +20,8 @@ public profile" to hide all controls, grouping options and private
 research. You can thus control the public visibility of your RC
 objects.
 
-![view public profile](images/view_public_profile.png "view public profile")
+![view public profile](images/view_public_profile.png "view public
+profile")
 
 ### Description 
 
@@ -41,85 +42,89 @@ profile picture.
 
 <!-- ### Degrees -->
 
-<!-- You can also add your __degrees__ to your profile. Enter the name, the level, the dates and the institution of your degree and link it via the __relations-tab__ to projects, expositions or works that you created in support for your degree. -->
+<!-- You can also add your __degrees__ to your profile. Enter the
+name, the level, the dates and the institution of your degree and link
+it via the __relations-tab__ to projects, expositions or works that
+you created in support for your degree. -->
 
 ### Member of
 
-As a user you can request membership of (some of the) RC portals. Certain actions can only be done if one is a member of the portal. For example: for some application programs, it may be required that you are member of the portal before you are able to submit an application for a program.
+As a user you can request membership of (some of the) RC
+portals. Certain actions can only be done if one is a member of the
+portal. For example: for some application programs, it may be required
+that you are member of the portal before you are able to submit an
+application for a program.
 
-In most cases however, it is the task of the portal admin to make you a member of their portal, most portals do theirfore not allow users to request membership themselves.
+In most cases however, it is the task of the portal admin to make you
+a member of their portal, most portals do theirfore not allow users to
+request membership themselves.
 
-Click edit to ask for a request to become a portal member, or remove yourself from a portal.
+Click edit to ask for a request to become a portal member, or remove
+yourself from a portal.
 
 ## Research Section
 
 ### Grouping
 
 When you create a new work or exposition the newly created objects
-appear in default groupings ("Works" and "Expositions").  By using the
+appear in default groupings ("Sets" and "Expositions").  By using the
 "add grouping" button you can create custom groupings. You can arrange
-objects according to freely created categories. 
+objects according to freely created categories.
 
-To add a new group click "add grouping" and enter the name of the grouping. You can sort
-your objects within a group, arrange the groups themselves and move
-object between groups via drag and drop. Click and drag a grouping to
-change the order of the groups. On the right-hand side of a grouping's
-title, there are a series of icons displayed. Here you can edit and
-delete the grouping and control its public visibility (using the
-circle icon). 
+To add a new group click "add grouping" and enter the name of the
+grouping. You can sort your objects within a group, arrange the groups
+themselves and move object between groups via drag and drop. Click and
+drag a grouping to change the order of the groups. On the right-hand
+side of a grouping's title, there are a series of icons
+displayed. Here you can edit and delete the grouping and control its
+public visibility (using the circle icon).
 
-Only custom grouping can be deleted. If you have only
-one grouping containing content, its title will not be shown on your
-public profile. Empty groups will also not be displayed on your public
+Only custom grouping can be deleted. If you have only one grouping
+containing content, its title will not be shown on your public
+profile. Empty groups will also not be displayed on your public
 profile page.
  
 
 ### Create Exposition
 
-By clicking "Create exposition" you can create a new exposition object which will be opened in the RC exposition workspace editor. The __title__, __copyright__ and __abstract__ fields are obligatory. In most cases, the copyright field should be the same as the main author name (so you can write your own name).
-You can change these details later by choosing ☰ > __edit details__, or in the __workspace editor__ by clicking the title of your research (at the top of you screen).
+By clicking "Create exposition" you can create a new exposition object
+which will be opened in the RC exposition workspace editor. The
+__title__, __copyright__ and __abstract__ fields are obligatory. In
+most cases, the copyright field should be the same as the main author
+name (so you can write your own name).  You can change these details
+later by choosing ☰ > __edit details__, or in the __workspace editor__
+by clicking the title of your research (at the top of you screen).
 
 There are two types of exposition on the RC:
 
-* Graphical 
+* Graphical
 * Text-based
 
-The graphical editor gives the user more control over position of objects and is best used for 
-expositions wich require non-linear layouts. See [comparison](#comparison-of-rc-exposition-formats "compare the two exposition formats").
+The graphical editor gives the user more control over position of
+objects and is best used for expositions wich require non-linear
+layouts. See [comparison](#comparison-of-rc-exposition-formats
+"compare the two exposition formats").
 
-For more info on the text editor, see [text based editor](#text-based-editor).
+For more info on the text editor, see [text based
+editor](#text-based-editor).
 
-![create exposition](images/add-research-dialog.png "image showing the add research dialog")
+![create exposition](images/add-research-dialog.png "image showing the
+add research dialog")
 
 ### Add Work
 
-A __work__ in the RC can be used to represent self-sufficient artistic
-creations existing outside the RC, such as objects, compositions,
-recordings, videos, installations, paintings, photographs, books etc,
-but can also be used to represent events, presentations or
-expositions. You can add metadata such as the place of your work, the
-country or the material, technique or format. Moreover, the work can
-contain a collection of media files, which can later be accessed in
-used in expositions. Works therefore also provide a way to reuse a file in
-multiple expositions at once, without the need to upload them again.
-
-Note that when you first create a work, the media tab will be disabled.
-To be able to add media to a work, first fill in the required meta-data, click 
-__submit__, then open the work again through __☰ -> edit details__. Now the
-media tab will become available and you can upload your files there.
-
-You can collaborate on works by inviting co-authors, contributors and
-supervisors. Moreover, you can relate works to other works and
-expositions by using the "relations"-tab in the "edit
-details"-dialogue window. 
+Works are an older feature, which has now been replaced by media sets through the [media repository](#media-repository).
+If you had created works previously, you can still edit or remove them.
 
 ### Add Project 
 
-Projects were part of an external import of data, they are no longer available for users now.
+Projects were part of an external import of data, they are no longer
+available for users now.
 
 ### Visibility Of Groupings
 
-You can decide if you want a grouping to be visible in your public profile.
+You can decide if you want a grouping to be visible in your public
+profile.
 
 By default, new groupings are visible in your profile as soon as they
 contain an RC object. To hide groupings from your public profile click
@@ -129,12 +134,14 @@ public profile.
 
 ### Open Exposition
 
-The button "open exposition" opens the first page (or "weave") of your exposition. 
-This is equivalent to the __preview__ version in the exposition workspace.
+The button "open exposition" opens the first page (or "weave") of your
+exposition.  This is equivalent to the __preview__ version in the
+exposition workspace.
 
 ### Exposition Details Menu
 
-![object menu location](images/hamburger_location.png "image showing location of menu button")
+![object menu location](images/hamburger_location.png "image showing
+location of menu button")
 
 To access the menu, click on the ("hamburger") menu icon, located in
 the bottom right corner of an object (expositions or works). Some
@@ -144,38 +151,50 @@ options are only available to the author of the object.
 
 * __Edit workspace__ go to the workspace editor of this exposition.
 
-* __Edit details__ change the meta data of your exposition, and control collaboration with other users. See [edit research](#edit-research)
+* __Edit details__ change the meta data of your exposition, and
+  control collaboration with other users. See [edit
+  research](#edit-research)
 
 * __Share__ change who can see and access this item.
 
-* __Self-publish__ turn an exposition into a fixed state.
-<br/>Please note that publishing is a one-way action, *once published one can not unpublish*. If you want to keep the option of removing an exposition, do not use this option.
+* __Self-publish__ turn an exposition into a fixed state.  <br/>Please
+note that publishing is a one-way action, *once published one can not
+unpublish*. If you want to keep the option of removing an exposition,
+do not use this option.
 
-* __Add to shortcut__ add a compact link to this object on the top of your profile. 
+* __Add to shortcut__ add a compact link to this object on the top of
+  your profile.
 
-* __Submit for publication__ submit an exposition to a portal for publication.
+* __Submit for publication__ submit an exposition to a portal for
+  publication.
 
 * __Connect to portal__ send a connection request to a portal.
 
-* __Manage versions__ create or restore snapshots, see [versions](#manage-versions).
+* __Manage versions__ create or restore snapshots, see
+  [versions](#manage-versions).
 
-* __Export__ this function downloads a zip file, containing a HTML Export of the exposition. These HTML files can be opened on any computer with a browser, also offline. The start page is named __index.html__ .
+* __Export__ this function downloads a zip file, containing a HTML
+  Export of the exposition. These HTML files can be opened on any
+  computer with a browser, also offline. The start page is named
+  __index.html__ .
 
 * __Delete__ delete an exposition or work from the RC.
 
 ### Change Layout
 
-This dialogue gives you the option of choosing the size of the research description boxes 
-on your profile page. 
+This dialogue gives you the option of choosing the size of the
+research description boxes on your profile page.
 
-![The 4 options for how to display research on your profile](images/change-layout.png "image displaying layout options for research on My Profile")
+![The 4 options for how to display research on your
+profile](images/change-layout.png "image displaying layout options for
+research on My Profile")
 
 Depending on the length of the content, the abstract and additional
 information may be reduced or even hidden. Sizing objects differently
 allows to focus a reader's attention to important objects as well as
 to improve the overall readability of your profile page.
 
-Four layout-templates are possible: 
+Four layout-templates are possible:
 
 1. tall and across both columns
 
@@ -187,54 +206,78 @@ Four layout-templates are possible:
 
 ## Manage versions
 
-It is possible to create a snapshot of your exposition, which you can restore later.
+It is possible to create a snapshot of your exposition, which you can
+restore later.
 
-A snapshot is created by going to ☰ > __versions__ and clicking __add snapshot__.
+A snapshot is created by going to ☰ > __versions__ and clicking __add
+snapshot__.
 
-![version dialog](images/manage-versions.png "image showing manage versions dialog")
+![version dialog](images/manage-versions.png "image showing manage
+versions dialog")
 
-When you restore a snapshot, the original is not overwritten, instead a new exposition will be created from the snapshot.
+When you restore a snapshot, the original is not overwritten, instead
+a new exposition will be created from the snapshot.
 
-There are three options for how to deal with the [collaboration](#collaborating-on-research) settings of a restored snapshot:
+There are three options for how to deal with the
+[collaboration](#collaborating-on-research) settings of a restored
+snapshot:
 
-* __private__ remove all collaborators (only you can see the restored exposition snapshot).
-* __restore__ the collaboration will be as it was when the snapshot was taken.
-* __keep__ the collaboration as it is in the current version of the exposition.
+* __private__ remove all collaborators (only you can see the restored
+  exposition snapshot).
+* __restore__ the collaboration will be as it was when the snapshot
+  was taken.
+* __keep__ the collaboration as it is in the current version of the
+  exposition.
 
-One can also restore as private and change the settings afterwards of course, through the collaboration and share menus.
+One can also restore as private and change the settings afterwards of
+course, through the collaboration and share menus.
 
 ### Versions of published expositions
 
-Published expositions cannot be changed in the RC (this is per definition, to allow referencing content within these expositions by other researchers), but duplicates can !
+Published expositions cannot be changed in the RC (this is per
+definition, to allow referencing content within these expositions by
+other researchers), but duplicates can !
 
 To get an editable duplicate of a published exposition one has to:
 
 1. make a snapshot of the published exposition.
-2. restore the snapshot. 
+2. restore the snapshot.
 
-This duplicate can now be edited, without the changes having effect on the original published exposition.
+This duplicate can now be edited, without the changes having effect on
+the original published exposition.
 
 ## Edit Research
 
-This dialog can be opened by __☰ > edit details__ or clicking the title of the exposition in the workspace editor.
+This dialog can be opened by __☰ > edit details__ or clicking the
+title of the exposition in the workspace editor.
 
-![Edit research dialog, showing meta page](images/edit-research.png "image showing edit research dialog")
+![Edit research dialog, showing meta page](images/edit-research.png
+"image showing edit research dialog")
 
 * __Meta data__ change the __title__, __date__, __abstract__, __keywords__, __affiliation__ and __external link__ fields for your exposition.  
-A __title__ and __abstract__ are obligatory. 
+A __title__ and __abstract__ are obligatory.
 
-__Author Pseudonym__ field allows you to display the exposition under a different name. If one is provided, the author pseudonym will replace the authors names wherever the work is shown on RC (and in the [DOI](https://www.doi.org) deposit, if the exposition is published). This can also be used if a group of author(s) wants to appear under a group name. The full list of authors will be shown on the metadata page.
+__Author Pseudonym__ field allows you to display the exposition under
+a different name. If one is provided, the author pseudonym will
+replace the authors names wherever the work is shown on RC (and in the
+[DOI](https://www.doi.org) deposit, if the exposition is
+published). This can also be used if a group of author(s) wants to
+appear under a group name. The full list of authors will be shown on
+the metadata page.
 
-At the bottom of the __meta__ tab, one can also set the __entry page__: the weave that is the first page that the reader sees.
-<br />
+At the bottom of the __meta__ tab, one can also set the __entry
+page__: the weave that is the first page that the reader sees.  <br />
 
-* __Table of content__ change the content menu, which the user can use to navigate between pages.
-See [table-of-content](#table-of-content).
+* __Table of content__ change the content menu, which the user can use
+to navigate between pages.  See [table-of-content](#table-of-content).
 
-* __Collaboration__ add co-authors, editors and supervisors.
-See [collaboration](#collaborating-on-research)
+* __Collaboration__ add co-authors, editors and supervisors.  See
+[collaboration](#collaborating-on-research)
 
-* __Relations__ create relationships with other objects on your profile, which will result in them being listed on the Research page. This page is shown when somebody clicks the title of the research on your profile.
+* __Relations__ create relationships with other objects on your
+  profile, which will result in them being listed on the Research
+  page. This page is shown when somebody clicks the title of the
+  research on your profile.
 
 
 

@@ -1,10 +1,12 @@
 <!--pandoc -s tools.md -o tools.html -c style.css-->
 
-# Workspace editor for graphical expositions
+<a id="workspace-editor-for-graphical-expositions"></a>
+
+# Graphical Editor - Workspace
 
 ![workspace view of the graphical exposition format](images/workspace-view-2018.png "image showing graphical editor")
 
-## Editor basics
+## Editor Basics
 
 When you open the editor you will see math-paper like area in the center, this is called the grid. 
 Content is added by dragging-and-dropping "tools" from the toolbar onto the grid. You can preview what the exposition looks like to the reader by clicking the "preview" button:
@@ -32,7 +34,7 @@ On the right you will find the content manager, consisting of four tabs:
 
 
 
-## Adding a tool
+## Adding a Tool
 
 A tool is created by [dragging](https://en.wikipedia.org/wiki/Drag_and_drop) the icon onto the canvas.
 
@@ -46,7 +48,7 @@ Tools can be rotated by clicking and dragging the yellow dot.
 
 The size of the current weave will automatically grow when tools are added.
 
-### Context menu
+### Context Menu
 
 
 <div class="small_image">
@@ -72,7 +74,7 @@ Lock means that one cannot make any changes until unlocked again.
 * __Delete__  
 Delete a tool
 
-## Key commands
+## Key Commands
 
 There are a few useful key commands in the editor. Selected tools have a green border.
 

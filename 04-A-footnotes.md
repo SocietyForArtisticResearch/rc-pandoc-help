@@ -1,4 +1,6 @@
-# Footnotes and Popovers
+<a id="footnotes-and-popovers"></a>
+
+# Graphical Editor - Footnotes and Popovers
 
 It is possible to create footnotes and popover weaves in the text,
 HTML and picture tools.  The terms "footnote" and "popover" are used
@@ -15,7 +17,7 @@ create footnotes in texts, but also create popovers of any size
 containing RC objects of any type. There are a number of different
 ways of creating footnotes.
 
-### Creating a Simple Text Footnote
+## Creating a Simple Text Footnote
 
 In order to create a footnote in the text or HTML tool one selects some text, which will be the footnote link and clicks the "Insert/Edit Link or Footnote" menu item (see image).
 
@@ -42,7 +44,7 @@ Finally, click "Add Footnote" to confirm and create the footnote, which will sub
 
 ![Preview of a footnote](images/footnote_preview.png)
 
-### Editing a Footnote
+## Editing a Footnote
 
 All footnotes are listed in the "Footnotes" tab on the right hand side.
 

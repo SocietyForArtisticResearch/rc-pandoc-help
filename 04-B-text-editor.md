@@ -1,4 +1,4 @@
-# Text based editor
+# Text Based Editor
 
 First time user of the text editor? <a href="#introduction">click here</a>.
   
