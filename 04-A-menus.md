@@ -110,6 +110,27 @@ __Locking:__
 
 Locking an object means it cannot be changed or moved in any way (until it is unlocked). This feature can also be used if only part of the exposition is to be moved (by locking the objects you do not want to move). 
 
+## Arrange menu
+
+These functions help with aligning (two or more) tools. To select multiple tools, click them one by one while
+holding ctrl/cmd key, then choose the function you want to apply from the arrange menu. 
+
+<span style="red">
+(!) Be careful when applying to many tools at once on a complex weave. The changes in position are not reversable (unless you copied the tools before).
+</span>
+
+* left edges: all left sides will be aligned (to the last tool you selected)
+* right edges: all right sides will be aligned
+* top : all top sides will be aligned
+* bottom : all bottom sides will be aligned
+* center on vertical axis : the tools will all be centered around one vertical line (like centered text !)
+* center on horizontal axis : the horizontal middle of the tools will al be on the same horizontal line
+* distribute left edges equally: the left and rightmost tool stay in the same place, equally space the left sides of the tools in between
+* distribute top edges equally: the top and bottom tool stay the same, equally space the top sides of the tools in between
+* make vertical gaps equal: the gaps between tools are all made the same (by dividing the sum of gaps equally)
+* make horizontal gaps equal: the horizontal gaps between tools are made equal.
+
+
 ## Options menu
 
 <img src="images/options-menu-2018.png" class="half-image" alt="image showing options menu">
