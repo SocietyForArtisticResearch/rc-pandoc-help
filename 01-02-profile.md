@@ -99,6 +99,8 @@ There are two types of exposition on the RC:
 
 * Graphical
 * Text-based
+* HTML-based
+* Research Video (only available through ZHDK portal)
 
 The graphical editor gives the user more control over position of
 objects and is best used for expositions wich require non-linear
