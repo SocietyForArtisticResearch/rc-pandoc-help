@@ -39,9 +39,13 @@ of the exposition is maintained, while the sizes of the text will
 adjust for readability on different screen sizes. Text-based
 expositions are *responsive*.
 
-Finally, there is an option to [import static HTML](#html-import) website as a
+For users that need more customization, there is an option to [import static HTML](#html-import) website as a
 whole. The RC does not provide editors for HTML, so for that option an
 external editor is to be used. JavaScript is not supported.
+
+Finally, there is an option to import an Research Video, from 
+https://www.zhdk.ch/forschungsprojekt/research-video--549545
+
 
 ## Comparison of RC Exposition Formats
 
