@@ -45,3 +45,6 @@ repository by contacting us.
 
 The Research Catalogue is provided by the Society for Artistic
 Research (SAR).
+
+
+

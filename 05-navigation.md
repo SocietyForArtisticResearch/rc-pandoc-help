@@ -21,13 +21,20 @@ content on the current weave. You can click it to jump to a location.
 * __Abstract__\
 Abstract, this can be changed by clicking title in the editor or ☰ > __edit details__ on your profile.
 
-* __Title / Meta__\
+* __Title / citation info__\
 By moving the mouse pointer the title of
-your research, a little window with metadata will appear. The link
+your research, a little window with citation info will appear. The link
 (URL) of the current page is shown, including the current scrolling
 location. This URL can thus be used to generate the [hyperlink](#hyperlinks) for
 internal linking. You can also use this link to cite a specific
-location.
+location within an exposition.
+
+* __Meta__ 
+
+Takes you to the metadata page, which shows the full set of metadata
+related to the exposition: author(s), keywords, abstract, creation
+date, publication date and copyright & licenses of all used media
+files.
 
 * __Reviewing__ (graphical expositions only)\
 Reviewing is connected to the note tool (the yellow "post-it" notes)

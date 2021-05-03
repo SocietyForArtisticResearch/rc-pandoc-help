@@ -130,8 +130,11 @@ administered and continuously extended by the RC. They are chosen so
 that we can more easily interact with other repositories. They cannot
 be extended by individual users.
 
-
 <a id="sets">
+
+### License picker
+
+see [licenses](#licenses)
 
 ## Sets and Sharing
 

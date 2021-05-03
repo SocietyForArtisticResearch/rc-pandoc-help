@@ -61,6 +61,9 @@ media tab")
 - Edit meta-data of the file
 - Permanently delete a file from the RC (use with care)
 
+Each media file can be provided with a license, see [licenses](#licenses).
+The licenses of all used media in an exposition are shown on the META page.
+
 ### Sets
 
 You can view the media sets you created in the Media Repository. You
