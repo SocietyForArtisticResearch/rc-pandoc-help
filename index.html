@@ -108,7 +108,6 @@
 <li><a href="#publication">Publication</a></li>
 </ul></li>
 <li><a href="#follow-and-search">Follow and Search</a></li>
-<li><a href="#licenses-1">Licenses</a></li>
 <li><a href="#administration-reviewing-process">Administration: Reviewing process</a><ul>
 <li><a href="#introduction-1">Introduction</a></li>
 <li><a href="#setting-up-accounts">Setting up accounts</a></li>
@@ -202,24 +201,25 @@ window.onload = function ( ) {
 <p>The RC forms the technical backbone of the Journal for Artistic Research (JAR): potential JAR expositions emerge from the range of the artistic research activities taking place in the RC. Moreover, submissions and peer-reviewing for JAR takes place in the RC. Authors may nominate or JAR editors may select expositions for development as JAR contributions.</p>
 <p>If you think that the RC software might also support your research database needs then explore the possibility of using the RC as your repository by contacting us.</p>
 <p>The Research Catalogue is provided by the Society for Artistic Research (SAR).</p>
-<p><a id="licences"></p>
-<h2 id="licenses">Licenses</h2>
-<p>Authors can select a license for each exposition or media file they upload in the RC. A license informs other people if and how you allow your material to be (re)used. The RC provides the following options:</p>
+<p><a id="licences"></a></p>
+<h1 id="licenses">Licenses</h1>
+<p>Authors can choose different licenses for both their expositions and media. A license can help make clear under what conditions you allow your material to be (re)used. All rights reserved is the most strict: it means that people have to get your permission to use any material. The motivation to publish works under a more liberal Creative Commons license, is that it makes it easier for your materials to be used and distributed by others.</p>
+<p>The RC provides the following options:</p>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/All_rights_reserved">all rights reserved</a><br />
-only with your permission.</li>
+<li><p><a href="https://en.wikipedia.org/wiki/All_rights_reserved">all rights reserved</a> only with your permission.</p></li>
 <li><p>CC-BY - <a href="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</a><br />
 Creative Commons, allow usage (including commercial) as long as you are attributed.</p></li>
 <li><p>CC-BY-ND - <a href="https://creativecommons.org/licenses/by-nd/4.0/">Attribution-NoDerivatives 4.0 International</a><br />
-Same as CC-BY, but only if the work is kept complete.</p></li>
+Same as CC-BY, but only if the work is used in its original form (and complete).</p></li>
 <li><p>CC-BY-NC-ND - <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Attribution-NonCommercial-NoDerivatives 4.0 International</a><br />
-Same as CC-BY-ND, but further prohibits commercial use</p></li>
+Same as CC-BY-ND, but prohibits commercial distribution of your work.</p></li>
 <li><p>CC-BY-NC-SA - <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International</a><br />
 If your work is remixed, transformed, or build upon, creations must distributed under the same license as the original.</p></li>
-<li><p>public domain - <a href="https://en.wikipedia.org/wiki/Public_domain" class="uri">https://en.wikipedia.org/wiki/Public_domain</a></p></li>
+<li><p>public domain - <a href="https://en.wikipedia.org/wiki/Public_domain" class="uri">https://en.wikipedia.org/wiki/Public_domain</a><br />
+No restrictions.</p></li>
 </ul>
 <p>The RC default is CC-BY-NC-ND.</p>
-<p>You can get help choosing the right license on the Creative Commons website: <a href="https://creativecommons.org/choose/" class="uri">https://creativecommons.org/choose/</a></p>
+<p>You can get help choosing the right license on the Creative Commons website: <a href="https://creativecommons.org/choose/" class="uri">https://creativecommons.org/choose/</a> and <a href="https://creativecommons.org/faq/" class="uri">https://creativecommons.org/faq/</a>.</p>
 <h1 id="my-profile-page">My Profile Page</h1>
 <p>The RC profile page is both the central hub for your activities on the RC and a public presentation of your research activities. The RC allows you to create a detailed public profile containing biographical data, information on projects and events as well as a list of your RC objects such as media sets and expositions. The profile is divided into two sections, the upper sections contains an artist biography as well as information of research interests and the lower part, which is titled “Research” contains a list of RC works and exposition.</p>
 <h2 id="profile-section">Profile Section</h2>
@@ -467,7 +467,7 @@ A <strong>title</strong> and <strong>abstract</strong> are obligatory.</li>
 <h3 id="closed-keywords">Closed Keywords</h3>
 <p>Closed keywords are part of a closed and controlled vocabulary administered and continuously extended by the RC. They are chosen so that we can more easily interact with other repositories. They cannot be extended by individual users.</p>
 <p><a id="sets"></p>
-<h3 id="license">License</h3>
+<h3 id="license-picker">License picker</h3>
 <p>see <a href="#licenses">licenses</a></p>
 <h2 id="sets-and-sharing">Sets and Sharing</h2>
 <p>Media can be organized in sets. Media can belong to multiple sets at once. You can create a new set and by clicking “select” you can choose the media belongs to a set.</p>
@@ -1448,7 +1448,7 @@ A quotation is inserted by indenting your text with 4 spaces or 1 tab, like so:
 <p>You may also use <a href="https://www.w3schools.com/html/html_tables.asp">HTML tables</a>. There are also online tools that help you generate <a href="https://www.tablesgenerator.com/markdown_tables">either</a> of <a href="https://www.google.com/search?q=convert+excel+to+html+table">these</a></p>
 <h1 id="html-import">HTML Import</h1>
 <p>It is possible to import a website of static HTML into the RC. This feature is aimed at users that are familiar with HTML and want to use their own editor.</p>
-<p>For security reasons, JavaScript is not supported, but CSS files, <code>&lt;img&gt; &lt;video&gt; &lt;audio&gt;</code> tags can be used. The folder containing your HTML and media files are to be uploaded as a zip file (.zip).</p>
+<p>For security reasons, JavaScript is not supported, but CSS files, <code>&lt;img&gt; &lt;video&gt; &lt;audio&gt;</code> tags can be used. The folder containing your HTML and media files are to be uploaded as a single zip file (.zip). The maximum filesize is 10Gb, although for practical reasons it is probably more convenient to stay well below this.</p>
 <p><em>Important: at this moment, the existing RC Journals do not accept submissions imported as HTML, because they do not fit in existing reviewing/editing workflows. If you are planning to submit your exposition to one of the journals in the RC, one should use the graphical or the text-based editor.</em></p>
 <p>To create a HTML based exposition:</p>
 <ol type="1">
@@ -1591,25 +1591,6 @@ class="tiny_icon" src="images/menu.png" alt="hamburger menu icon">) of each obje
 <p>It is possible to “follow” other users, portals, and objects such as expositions and works. Once you are logged in you will see “follow” links in the bottom right corner of objects displayed on the front page, other user’s pages and other places on the RC. “Follow” links also appear on user and portal profile pages. Once you follow a user, portal, or object new publications, edits, comments etc. will be displayed on the “FEEDS” page. Clicking the wrench icon opens up a dialog in which you can adjust the precise information you want to see for each user, portal or object you follow.</p>
 <h3 id="search">Search</h3>
 <p>You can search the RC by using the search field in the top right corner. Moreover you can use the “advanced search” functionality, which allows for filtered searches and and searches according to specific criteria such as object type, keywords, authors, etc.</p>
-<p><a id="licences"></a></p>
-<h1 id="licenses-1">Licenses</h1>
-<p>Authors can choose different licenses for both their expositions and media. A license can help make clear under what conditions you allow your material to be (re)used. All rights reserved is the most strict: it means that people have to get your permission to use any material. The motivation to publish works under a more liberal Creative Commons license, is that it makes it easier for your materials to be used and distributed by others.</p>
-<p>The RC provides the following options:</p>
-<ul>
-<li><p><a href="https://en.wikipedia.org/wiki/All_rights_reserved">all rights reserved</a> only with your permission.</p></li>
-<li><p>CC-BY - <a href="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</a><br />
-Creative Commons, allow usage (including commercial) as long as you are attributed.</p></li>
-<li><p>CC-BY-ND - <a href="https://creativecommons.org/licenses/by-nd/4.0/">Attribution-NoDerivatives 4.0 International</a><br />
-Same as CC-BY, but only if the work is used in its original form (and complete).</p></li>
-<li><p>CC-BY-NC-ND - <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Attribution-NonCommercial-NoDerivatives 4.0 International</a><br />
-Same as CC-BY-ND, but prohibits commercial distribution of your work.</p></li>
-<li><p>CC-BY-NC-SA - <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International</a><br />
-If your work is remixed, transformed, or build upon, creations must distributed under the same license as the original.</p></li>
-<li><p>public domain - <a href="https://en.wikipedia.org/wiki/Public_domain" class="uri">https://en.wikipedia.org/wiki/Public_domain</a><br />
-No restrictions.</p></li>
-</ul>
-<p>The RC default is CC-BY-NC-ND.</p>
-<p>You can get help choosing the right license on the Creative Commons website: <a href="https://creativecommons.org/choose/" class="uri">https://creativecommons.org/choose/</a> and <a href="https://creativecommons.org/faq/" class="uri">https://creativecommons.org/faq/</a>.</p>
 <h1 id="administration-reviewing-process">Administration: Reviewing process</h1>
 <h2 id="introduction-1">Introduction</h2>
 <p>This is a tutorial to describe how an RC Portal can be used for publication workflows. It is aimed at portal administrators. The process typically consists of 4 stages:</p>

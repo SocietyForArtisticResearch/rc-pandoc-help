@@ -6,7 +6,9 @@ their own editor.
 
 For security reasons, JavaScript is not supported, but CSS files,
 `<img> <video> <audio>` tags can be used. The folder containing your
-HTML and media files are to be uploaded as a zip file (.zip).
+HTML and media files are to be uploaded as a single zip file
+(.zip). The maximum filesize is 10Gb, although for practical reasons
+it is probably more convenient to stay well below this.
 
 *Important: at this moment, the existing RC Journals do not accept
 submissions imported as HTML, because they do not fit in existing
