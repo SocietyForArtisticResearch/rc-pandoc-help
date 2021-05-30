@@ -1476,11 +1476,24 @@ A quotation is inserted by indenting your text with 4 spaces or 1 tab, like so:
 <li>Do not nest folders into folders.</li>
 <li>You can use .html .css and various media formats, mp4, mp3 etc.. The RC will automatically transcode the video and audio to a web compatible format.</li>
 <li>JavaScript is currently not supported for security reasons, if present, import will fail.</li>
-<li>The character encoding of the .html files should be UTF-8</li>
+<li>Maximum size is 10Gb.</li>
 </ul>
+<h3 id="character-encoding">character encoding</h3>
+<p>The character encoding of the .html files should be UTF-8. You should specify the character encoding first (before <code>&lt;title&gt;</code>), for example like so:</p>
+<p><code></p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;my exposition&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+etc... </code></pre>
+<p></code></p>
 <h3 id="example-exposition">Example exposition</h3>
-<p>An example HTML-based exposition can be downloaded here:<br />
-<a href="https://github.com/SocietyForArtisticResearch/rc-html-import-example/blob/master/DemoExposition.zip" class="uri">https://github.com/SocietyForArtisticResearch/rc-html-import-example/blob/master/DemoExposition.zip</a></p>
+<p>An example HTML-based exposition for use in the RC can be found on Github:</p>
+<p><strong>source:</strong> <a href="https://github.com/SocietyForArtisticResearch/rc-html-import-example" class="uri">https://github.com/SocietyForArtisticResearch/rc-html-import-example</a></p>
+<p><strong>as zip:</strong> <a href="https://github.com/SocietyForArtisticResearch/rc-html-import-example/blob/master/DemoExposition.zip" class="uri">https://github.com/SocietyForArtisticResearch/rc-html-import-example/blob/master/DemoExposition.zip</a></p>
 <h3 id="updating">Updating</h3>
 <p>Currently, it is not possible to update single files within your uploaded exposition. When something changes, you will have to upload the whole exposition again.</p>
 <!-- TODO: Insert links to other parts of the documentation -->

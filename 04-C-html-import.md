@@ -48,11 +48,35 @@ There are a few requirements to the zip that is uploaded:
   The RC will automatically transcode the video and audio to a web compatible format.
 * JavaScript is currently not supported for security reasons, if
   present, import will fail.
-* The character encoding of the .html files should be UTF-8
+* Maximum size is 10Gb.
+
+
+### character encoding
+
+The character encoding of the .html files should be UTF-8.
+You should specify the character encoding first (before `<title>`), for example like so:
+
+<code>
+	
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<meta charset="utf-8">
+	<title>my exposition</title>
+	</head>
+	<body>
+	etc... 
+
+</code>
 
 ### Example exposition
 
-An example HTML-based exposition can be downloaded here:\
+An example HTML-based exposition for use in the RC can be found on Github:
+
+__source:__
+<https://github.com/SocietyForArtisticResearch/rc-html-import-example>
+
+__as zip:__
 <https://github.com/SocietyForArtisticResearch/rc-html-import-example/blob/master/DemoExposition.zip>
 
 ### Updating
