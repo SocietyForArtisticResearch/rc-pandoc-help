@@ -41,7 +41,7 @@ into HTML. The author can express the structure of the text using
 notation. Because the input is plain text, it can also be
 automatically imported and exported from and to various external
 formats, for example MS Word documents, Open office documents and
-LateX. Styling is applied using standard CSS. By default the structure
+LateX. Styling is applied using standard [CSS](https://www.w3schools.com/css/ "more information on CSS"). By default the structure
 of the exposition is maintained, while the sizes of the text will
 adjust for readability on different screen sizes. Text-based
 expositions are *responsive*.
