@@ -1,15 +1,22 @@
-# Choosing an Editor
+<a id="comparison">
+
+# Choosing an Editor 
+
+</a>
+
   
-There are two types of editors in RC, the **graphical** editor and the
-**text-based** editor. Both editors can be used to create expositions
-that can be published, reviewed and submitted for
-publication. However, the design, the writing process as well as the
-way in which exposition can be read are significantly different. 
+There are three types of editors in RC: 
+
+- **graphical** editor
+- **text-based** editor 
+- **HTML** import
+
+Both the **graphical** and **text-based editor** are supported by all portals, the **HTML** based editor may not be accepted by some journals.
 
 When creating a new exposition you are asked to choose a format to
 use. After the exposition has been created, one cannot change the
 format anymore. It is therefore important to make the right choice for
-a particular project at the outset.
+a particular project at the outset. 
  
 ![choosing a format in the Create Exposition dialog](images/format-picker.png "image showing format picker")
 

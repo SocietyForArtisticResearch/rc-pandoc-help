@@ -95,20 +95,16 @@ name (so you can write your own name).  You can change these details
 later by choosing ☰ > __edit details__, or in the __workspace editor__
 by clicking the title of your research (at the top of you screen).
 
-There are two types of exposition on the RC:
+There are three types of exposition on the RC:
 
-* Graphical
-* Text-based
-* HTML-based
-* Research Video (only available through ZHDK portal)
+* [Graphical](#graphical-editor---workspace "graphical editor documentation")
+* [Text-based](#text-based-editor "text-based editor documentation")
+* [HTML-based](#html-import "html import documentation")
 
-The graphical editor gives the user more control over position of
-objects and is best used for expositions wich require non-linear
-layouts. See [comparison](#comparison-of-rc-exposition-formats
-"compare the two exposition formats").
+*(There is also a fourth type, __Research Video__,
+which at the moment is only available to members of the ZHDK portal.)*
 
-For more info on the text editor, see [text based
-editor](#text-based-editor).
+For a description of the differences, please consult [editor comparison section](#comparison).
 
 ![create exposition](images/add-research-dialog.png "image showing the
 add research dialog")
