@@ -12,7 +12,7 @@ It is recommended that you post your questions here, so the answer to your quest
 	- discuss general issues around the RC
  
 * [Mail support](mailto:rc@researchcatalogue.net)   
-Directly mail support. For instance when the problem concerns personal details of your profile or research. If you are a user within a institutional portal you should contact your local portal admin for support first.
+Direct mail support. For instance when the problem concerns personal details of your profile or research. If you are a user within an institutional portal you should contact your local portal admin for support first.
 
 
 
