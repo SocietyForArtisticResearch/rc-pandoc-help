@@ -2,19 +2,27 @@
 
 Blog weaves are a recent feature to the graphical editor of the RC.
 They use the same tools as the existing 2d graphical editor, but
-instead of organising them absolutely in 2 dimensions on a canves,
-they are structured as a scrollable list of content (comparable to a
-blog or social media feed, where you scroll from top to bottom to
-read).
+instead of positioning them freely in 2 dimensions on a canves, they
+are structured as a scrollable list of content (comparable to a blog
+or social media feed, where you scroll from top to bottom to
+read). This simplification allows the browser of the reader to
+dymanically optimize the display of your content on smaller screens
+(without the need for the reader to zoom in and out constantly).
 
-The result is linear and quite similar to the text-based editor,
-except that here we use the same tools and drag and drop method as in
-the text editor.
+The basic shape of a blog weave is linear and quite similar to the
+text-based editor, except that here we use the same tools and drag and
+drop method as in the text editor. By allowing custom column layouts,
+you can even have some horizontal structure.
+
+This way of editing has one other advantage, when you insert content,
+the objects below it will automatically move down. Also alignment in
+horizontal rows is guaranteed ! So for some content, this can be a
+huge benifit!
 
 ### Basic structure: rows and columns
 
-A blog page is organized as a list of blocks which are called rows.
-Within each row, you can have one or more columns of cells dividing
+A blog page is organized as a list of blocks which are called __rows__.
+Within each __row__, you can have one or more __columns__ of __cells__ dividing
 the content in that row. You can think of it as a table, except that
 the rows can vary in the number of cells they have:
 
@@ -29,6 +37,10 @@ this by changing the column layout within a row. You can only set the
 layout in a new or empty row.  If you want to change the layout of a
 row with content, it is best to insert a new row with the correct
 layout and then drag and drop the tools to this new layout.
+
+### Custom columns
+
+
 
 ### Editing
 
