@@ -33,18 +33,32 @@ particular device, that is, these expositions are not "responsive". If
 you want readers to be able to read your exposition on mobile device
 the text-based editor may be more suitable for your project.
 
-The **text-based**, which is documented [here](#text-based-editor),
-editor is designed for writing (and importing) texts, while supporting
-the embedding of media. The input is plain text, which is translated
-into HTML. The author can express the structure of the text using
+The [**block editor**](#block-editor), is using the same tools and drag-and-drop
+interface as the graphical editor, but positioning is relative. It can
+be chosen when creating a new page within an exposition.  Instead of
+an absolute grid, it uses a row and column structure. It is suitable
+for dealing with pages that have a lot of "inline" content, where
+media is inserted into blocks of text, or media has to be positioned
+in relationship to certain elements in a text. It is less suitable for
+diagrams, maps or overlayed materials. Expositions can combine both
+"graphical" and "block" pages in a single exposition.
+
+The **text-based**, is a completely separate editor, which is
+documented [here](#text-based-editor).  The editor is designed for
+writing (and importing) texts, while supporting the embedding of
+media. The input is plain text, which is translated into HTML. The
+author can express the structure of the text using
 [Markdown](http://https://en.wikipedia.org/wiki/Markdown)
 notation. Because the input is plain text, it can also be
 automatically imported and exported from and to various external
 formats, for example MS Word documents, Open office documents and
-LateX. Styling is applied using standard [CSS](https://www.w3schools.com/css/ "more information on CSS"). By default the structure
-of the exposition is maintained, while the sizes of the text will
-adjust for readability on different screen sizes. Text-based
-expositions are *responsive*.
+LateX. Styling is applied using standard
+[CSS](https://www.w3schools.com/css/ "more information on CSS"). By
+default the structure of the exposition is maintained, while the sizes
+of the text will adjust for readability on different screen
+sizes. Text-based expositions are *responsive*.
+
+**HTML import**
 
 For users that need more customization, there is an option to [import static HTML](#html-import) website as a
 whole. The RC does not provide editors for HTML, so for that option an
