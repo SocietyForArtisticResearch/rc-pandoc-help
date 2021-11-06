@@ -5,18 +5,20 @@
 </a>
 
   
-There are three types of editors in RC: 
+There are four types of editors in RC: 
 
 - **graphical** editor
+- **block** editor
 - **text-based** editor 
 - **HTML** import
 
 Both the **graphical** and **text-based editor** are supported by all portals, the **HTML** based editor may not be accepted by some journals.
 
 When creating a new exposition you are asked to choose a format to
-use. After the exposition has been created, one cannot change the
-format anymore. It is therefore important to make the right choice for
-a particular project at the outset. 
+use. The **graphical** and **block** based editors can be mixed within
+one exposition, but the text and HTML are separate formats. It is
+therefore important to make the right choice for a particular project
+at the outset.
  
 ![choosing a format in the Create Exposition dialog](images/format-picker.png "image showing format picker")
 
@@ -29,19 +31,22 @@ editor works by dragging and dropping. There is no predefined style or
 template and its possible to have the reader go through the content in
 a non-linear fashion. However, a consequence of absolutely positioning
 all elements is that the exposition cannot adjust to the size of a
-particular device, that is, these expositions are not "responsive". If
+particular device, that is, these expositions are not
+["responsive"](https://en.wikipedia.org/wiki/Responsive_web_design). If
 you want readers to be able to read your exposition on mobile device
 the text-based editor may be more suitable for your project.
 
-The [**block editor**](#block-editor), is using the same tools and drag-and-drop
-interface as the graphical editor, but positioning is relative. It can
-be chosen when creating a new page within an exposition.  Instead of
-an absolute grid, it uses a row and column structure. It is suitable
-for dealing with pages that have a lot of "inline" content, where
-media is inserted into blocks of text, or media has to be positioned
-in relationship to certain elements in a text. It is less suitable for
-diagrams, maps or overlayed materials. Expositions can combine both
-"graphical" and "block" pages in a single exposition.
+The [**block editor**](#block-editor), is using the same tools and
+drag-and-drop interface as the graphical editor, but positioning is
+relative and the result
+["responsive"](https://en.wikipedia.org/wiki/Responsive_web_design). It
+can be chosen when creating a new page within an exposition.  Instead
+of an absolute grid, it uses a row and column structure. It is
+suitable for dealing with pages that have a lot of "inline" content,
+where media is inserted into blocks of text, or media has to be
+positioned in relationship to certain elements in a text. It is less
+suitable for diagrams, maps or overlayed materials. Expositions can
+combine both "graphical" and "block" pages in a single exposition.
 
 The **text-based**, is a completely separate editor, which is
 documented [here](#text-based-editor).  The editor is designed for
