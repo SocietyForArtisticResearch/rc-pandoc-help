@@ -138,7 +138,7 @@ automatically select the right format for the screen it is being
 consumed on.
 
 
-## Tools 
+## Tools in detail
 
 ### Context Menu
 

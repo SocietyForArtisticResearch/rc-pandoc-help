@@ -39,7 +39,6 @@
 <li><a href="#choosing-an-editor">Choosing an Editor</a>
 <ul>
 <li><a href="#comparison-of-rc-exposition-formats">Comparison of RC Exposition Formats</a></li>
-<li><a href="#block-editor-will-become-available-soon">Block Editor (will become available soon!)</a></li>
 </ul></li>
 <li><a href="#media-repository">Media Repository</a>
 <ul>
@@ -55,8 +54,8 @@
 <ul>
 <li><a href="#editor-basics">Editor Basics</a></li>
 <li><a href="#adding-a-tool">Adding a Tool</a></li>
-<li><a href="#block-editor-will-become-available-soon-1">Block Editor (will become available soon!)</a></li>
-<li><a href="#tools">Tools</a></li>
+<li><a href="#block-editor-will-become-available-soon">Block Editor (will become available soon!)</a></li>
+<li><a href="#tools-in-detail">Tools in detail</a></li>
 <li><a href="#key-commands">Key Commands</a></li>
 <li><a href="#defaults">Defaults</a></li>
 <li><a href="#text-tool">Text Tool</a></li>
@@ -81,7 +80,6 @@
 <li><a href="#pages">Pages</a></li>
 <li><a href="#page-settings">Page settings</a></li>
 <li><a href="#raw-css">raw CSS</a></li>
-<li><a href="#block-editor-will-become-available-soon-2">Block Editor (will become available soon!)</a></li>
 </ul></li>
 <li><a href="#graphical-editor---footnotes-and-popovers">Graphical Editor - Footnotes and Popovers</a>
 <ul>
@@ -436,55 +434,6 @@ A <strong>title</strong> and <strong>abstract</strong> are obligatory.</li>
 </tr>
 </tbody>
 </table>
-<p><a id="block-editor"></a></p>
-<h2 id="block-editor-will-become-available-soon">Block Editor (will become available soon!)</h2>
-<p>The <em>block editor</em> is a recent feature to the graphical editor of the RC. It allows the author the same tools as the existing graphical editor, but instead of positioning content absolutely (using 2d coordinates), content is structured as a list of rows and columns. The positioning of content is relative: the bottom of the previous tool determines where the next one starts, like lego bricks. Because there are no absolute positions, the display of the content can be optimized for the screen size of the reader. This strategy is also known as <a href="https://en.wikipedia.org/wiki/Responsive_web_design">responsive web design</a>.</p>
-<h3 id="when-to-use">When to use</h3>
-<p>The block editor is most suitable for:</p>
-<ul>
-<li>exposition content that needs to be readable on a phone</li>
-<li>expositions where the content forms a block:
-<ul>
-<li>text with inline media</li>
-<li>text with media that should be next to a certain position in the text</li>
-</ul></li>
-</ul>
-<p>The block editor is less suited for:</p>
-<ul>
-<li>diagrams</li>
-<li>maps</li>
-<li>timelines</li>
-</ul>
-<p>Certain tools (Sync, Shape) for example, can only be used in graphical pages, since they do not make much sense in a block page.</p>
-<p>The <strong>block editor</strong> provides functionality similar to <strong>text-based editor</strong> (which is also responsive), but the difference is that you can more easily create horizontal rows of content and the editing is drag and drop, using the same tools as the normal editor. This also means that both type of page can be used in a single exposition.</p>
-<h3 id="basic-structure-rows-and-columns">Basic structure: rows and columns</h3>
-<p>A block page is organized as a list of boxes which are called <strong>rows</strong>. A row is created by clicking the black <strong>+</strong> at the bottom of the previous block.</p>
-<figure>
-<img src="images/create_block.png" title="image of how to create a block" alt="creating a new column" /><figcaption aria-hidden="true">creating a new column</figcaption>
-</figure>
-<p>You can then choose a certain column layout for this block:</p>
-<figure>
-<img src="images/choose_layout.png" title="picking a layout" alt="column layout options" /><figcaption aria-hidden="true">column layout options</figcaption>
-</figure>
-<p>Within each <strong>row</strong>, you can have one or more <strong>columns</strong> of <strong>cells</strong> dividing the content in that row. You can think of it as a table, except that the number of columns is allowed to be different for each row. Within a <strong>column</strong> you can drag-and-drop any number of tools, although it is probably a good idea not too have too many in one column, since this will make it harder to change layout afterwards.</p>
-<p>You can add tools by clicking the green “+” sign, or dragging them from the toolbar:</p>
-<figure>
-<img src="images/editing_cells.png" title="adding tools in block mode" alt="editing content" /><figcaption aria-hidden="true">editing content</figcaption>
-</figure>
-<figure>
-<img src="images/columns_with_content.png" title="example rows and columns" alt="example rows and columns" /><figcaption aria-hidden="true">example rows and columns</figcaption>
-</figure>
-<p>The default is 1 column in the row, in which you are basically just editing a list of tools. When you create or drag and drop new tools in the column, they will be added to bottom of that column.</p>
-<p>You can change the layout, move or delete the row by using the black controls on the right top:</p>
-<figure>
-<img src="images/column_controls.png" title="column controls" alt="column controls" /><figcaption aria-hidden="true">column controls</figcaption>
-</figure>
-<h3 id="editing">Editing</h3>
-<p>You can move tools by dragging and dropping them from one cell to the other. Dropped tools will never replace tools, they will insert at the bottom of the current cell.</p>
-<h3 id="viewing">Viewing</h3>
-<p>On screens that are very narrow, the content will automatically break into a single list again, without objects next to each other.</p>
-<h3 id="future">Future</h3>
-<p>It will become possible to make two versions of the same content, a 2d graphic and a 1d block like layout. This way the exposition content can automatically select the right format for the screen it is being consumed on.</p>
 <h1 id="media-repository">Media Repository</h1>
 <p>The media repository allows RC users to navigate, organize and manage their media. Each user can browse the media that is used in their expositions (the <a href="https://guide.researchcatalogue.net/#simple-media">simple media</a>) or collect media files and texts with which to create an exposition later. Beyond organizing media, you can share it with other users of the RC. You can upload media, organize it into <a href="#sets"><strong>sets</strong></a> and share it with other users of the RC. It extends and replaces the older “Works” feature.</p>
 <figure>
@@ -643,12 +592,12 @@ For more info on specific tools, see [workspace](#research-catalogue-workspace-t
 <p>Tools can be rotated by clicking and dragging the yellow dot.</p>
 <p>The size of the current weave will automatically grow when tools are added.</p>
 <p><a id="block-editor"></a></p>
-<h2 id="block-editor-will-become-available-soon-1">Block Editor (will become available soon!)</h2>
+<h2 id="block-editor-will-become-available-soon">Block Editor (will become available soon!)</h2>
 <figure>
 <img src="images/block-editor.png" title="block editor" alt="block editor" /><figcaption aria-hidden="true">block editor</figcaption>
 </figure>
 <p>The <em>block editor</em> is a recent feature to the graphical editor of the RC. It allows the author the same tools as the existing graphical editor, but instead of positioning content absolutely (using 2d coordinates), content is structured as a list of rows and columns. The positioning of content is relative: the bottom of the previous tool determines where the next one starts, like lego bricks. Because there are no absolute positions, the display of the content can be optimized for the screen size of the reader. This strategy is also known as <a href="https://en.wikipedia.org/wiki/Responsive_web_design">responsive web design</a>.</p>
-<h3 id="when-to-use-1">When to use</h3>
+<h3 id="when-to-use">When to use</h3>
 <p>The block editor is most suitable for:</p>
 <ul>
 <li>exposition content that needs to be readable on a phone</li>
@@ -666,7 +615,7 @@ For more info on specific tools, see [workspace](#research-catalogue-workspace-t
 </ul>
 <p>Certain tools (Sync, Shape) for example, can only be used in graphical pages, since they do not make much sense in a block page.</p>
 <p>The <strong>block editor</strong> provides functionality similar to <strong>text-based editor</strong> (which is also responsive), but the difference is that you can more easily create horizontal rows of content and the editing is drag and drop, using the same tools as the normal editor. This also means that both type of page can be used in a single exposition.</p>
-<h3 id="basic-structure-rows-and-columns-1">Basic structure: rows and columns</h3>
+<h3 id="basic-structure-rows-and-columns">Basic structure: rows and columns</h3>
 <p>A block page is organized as a list of boxes which are called <strong>rows</strong>. A row is created by clicking the black <strong>+</strong> at the bottom of the previous block.</p>
 <figure>
 <img src="images/create_block.png" title="image of how to create a block" alt="creating a new column" /><figcaption aria-hidden="true">creating a new column</figcaption>
@@ -688,13 +637,13 @@ For more info on specific tools, see [workspace](#research-catalogue-workspace-t
 <figure>
 <img src="images/column_controls.png" title="column controls" alt="column controls" /><figcaption aria-hidden="true">column controls</figcaption>
 </figure>
-<h3 id="editing-1">Editing</h3>
+<h3 id="editing">Editing</h3>
 <p>You can move tools by dragging and dropping them from one cell to the other. Dropped tools will never replace tools, they will insert at the bottom of the current cell.</p>
-<h3 id="viewing-1">Viewing</h3>
+<h3 id="viewing">Viewing</h3>
 <p>On screens that are very narrow, the content will automatically break into a single list again, without objects next to each other.</p>
-<h3 id="future-1">Future</h3>
+<h3 id="future">Future</h3>
 <p>It will become possible to make two versions of the same content, a 2d graphic and a 1d block like layout. This way the exposition content can automatically select the right format for the screen it is being consumed on.</p>
-<h2 id="tools">Tools</h2>
+<h2 id="tools-in-detail">Tools in detail</h2>
 <h3 id="context-menu">Context Menu</h3>
 <div class="small_image">
 <figure>
@@ -1148,54 +1097,6 @@ meta-data --></p>
 <p>Be aware that changing the CSS</p>
 <h3 id="deleting-a-page">Deleting a page</h3>
 <p>The page can be deleted by clicking the trashcan icon next to the page title. Deleted pages cannot be recovered. Of course, if you want to make a page invisible to the reader it may be prefered to just remove it from the <a href="#table-of-content" title="table of content">table of content</a>.</p>
-<h2 id="block-editor-will-become-available-soon-2">Block Editor (will become available soon!)</h2>
-<p>The <em>block editor</em> is a recent feature to the graphical editor of the RC. It allows the author the same tools as the existing graphical editor, but instead of positioning content absolutely (using 2d coordinates), content is structured as a list of rows and columns. The positioning of content is relative: the bottom of the previous tool determines where the next one starts, like lego bricks. Because there are no absolute positions, the display of the content can be optimized for the screen size of the reader. This strategy is also known as <a href="https://en.wikipedia.org/wiki/Responsive_web_design">responsive web design</a>.</p>
-<h3 id="when-to-use-2">When to use</h3>
-<p>The block editor is most suitable for:</p>
-<ul>
-<li>exposition content that needs to be readable on a phone</li>
-<li>expositions where the content forms a block:
-<ul>
-<li>text with inline media</li>
-<li>text with media that should be next to a certain position in the text</li>
-</ul></li>
-</ul>
-<p>The block editor is less suited for:</p>
-<ul>
-<li>diagrams</li>
-<li>maps</li>
-<li>timelines</li>
-</ul>
-<p>Certain tools (Sync, Shape) for example, can only be used in graphical pages, since they do not make much sense in a block page.</p>
-<p>The <strong>block editor</strong> provides functionality similar to <strong>text-based editor</strong> (which is also responsive), but the difference is that you can more easily create horizontal rows of content and the editing is drag and drop, using the same tools as the normal editor. This also means that both type of page can be used in a single exposition.</p>
-<h3 id="basic-structure-rows-and-columns-2">Basic structure: rows and columns</h3>
-<p>A block page is organized as a list of boxes which are called <strong>rows</strong>. A row is created by clicking the black <strong>+</strong> at the bottom of the previous block.</p>
-<figure>
-<img src="images/create_block.png" title="image of how to create a block" alt="creating a new column" /><figcaption aria-hidden="true">creating a new column</figcaption>
-</figure>
-<p>You can then choose a certain column layout for this block:</p>
-<figure>
-<img src="images/choose_layout.png" title="picking a layout" alt="column layout options" /><figcaption aria-hidden="true">column layout options</figcaption>
-</figure>
-<p>Within each <strong>row</strong>, you can have one or more <strong>columns</strong> of <strong>cells</strong> dividing the content in that row. You can think of it as a table, except that the number of columns is allowed to be different for each row. Within a <strong>column</strong> you can drag-and-drop any number of tools, although it is probably a good idea not too have too many in one column, since this will make it harder to change layout afterwards.</p>
-<p>You can add tools by clicking the green “+” sign, or dragging them from the toolbar:</p>
-<figure>
-<img src="images/editing_cells.png" title="adding tools in block mode" alt="editing content" /><figcaption aria-hidden="true">editing content</figcaption>
-</figure>
-<figure>
-<img src="images/columns_with_content.png" title="example rows and columns" alt="example rows and columns" /><figcaption aria-hidden="true">example rows and columns</figcaption>
-</figure>
-<p>The default is 1 column in the row, in which you are basically just editing a list of tools. When you create or drag and drop new tools in the column, they will be added to bottom of that column.</p>
-<p>You can change the layout, move or delete the row by using the black controls on the right top:</p>
-<figure>
-<img src="images/column_controls.png" title="column controls" alt="column controls" /><figcaption aria-hidden="true">column controls</figcaption>
-</figure>
-<h3 id="editing-2">Editing</h3>
-<p>You can move tools by dragging and dropping them from one cell to the other. Dropped tools will never replace tools, they will insert at the bottom of the current cell.</p>
-<h3 id="viewing-2">Viewing</h3>
-<p>On screens that are very narrow, the content will automatically break into a single list again, without objects next to each other.</p>
-<h3 id="future-2">Future</h3>
-<p>It will become possible to make two versions of the same content, a 2d graphic and a 1d block like layout. This way the exposition content can automatically select the right format for the screen it is being consumed on.</p>
 <p><a id="footnotes-and-popovers"></a></p>
 <h1 id="graphical-editor---footnotes-and-popovers">Graphical Editor - Footnotes and Popovers</h1>
 <p>It is possible to create footnotes and popover weaves in the text, HTML and picture tools. The terms “footnote” and “popover” are used almost interchangeably here. Footnote, however, refers rather to the textual concept of a footnote, i.e. a particular use of the functionality explained in this section, whereas popover is used when referring specifically to the appearing popover window. (There is a tutorial video explaining the footnote workflow on the <a href="https://www.researchcatalogue.net/view/273532/273533">RC Video Tutorials page</a>) These are displayed when the RC user reading the exposition clicks the footnote link or, depending on the settings, when he or she mouse the mouse pointer over the link. This functionality makes it possible to create footnotes in texts, but also create popovers of any size containing RC objects of any type. There are a number of different ways of creating footnotes.</p>
