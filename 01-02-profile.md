@@ -97,7 +97,7 @@ by clicking the title of your research (at the top of you screen).
 
 There are three types of exposition on the RC:
 
-* [Graphical](#graphical-editor---workspace "graphical editor documentation")
+* [Graphical/Block](#graphical-editor---workspace "graphical editor documentation")
 * [Text-based](#text-based-editor "text-based editor documentation")
 * [HTML-based](#html-import "html import documentation")
 
