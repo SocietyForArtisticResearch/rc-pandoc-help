@@ -48,11 +48,11 @@ The size of the current weave will automatically grow when tools are added.
 
 <a id="block-editor"></a>
 
-## Block Editor (will become available soon!)
+## Block Editor
 
 ![block editor](images/block-editor.png "block editor")
 
-The _block editor_ is a recent feature to the graphical editor of the
+The _block editor_ is a recently added feature to the graphical editor of the
 RC. It allows the author the same tools as the existing graphical
 editor, but instead of positioning content absolutely (using 2d
 coordinates), content is structured as a list of rows and columns. The
@@ -87,7 +87,10 @@ difference is that you can more easily create horizontal rows of
 content and the editing is drag and drop, using the same tools as the normal editor.
 This also means that both type of page can be used in a single exposition.
 
-### Basic structure: rows and columns
+### Basic usage
+
+You can choose the block editor when creating a new exposition or when
+creating a new page within an exisiting exposition.
 
 A block page is organized as a list of boxes which are called
 __rows__. A row is created by clicking the black __+__ at the bottom of the previous block.

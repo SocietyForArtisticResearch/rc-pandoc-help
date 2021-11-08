@@ -1,4 +1,4 @@
-<a id="comparison">
+\<a id="comparison">
 
 # Choosing an Editor 
 
