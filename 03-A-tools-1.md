@@ -146,8 +146,11 @@ viewed on.
 
 ## Tools in detail
 
-### Context Menu
+Note: The tools are described as they work in the graphical editor. When using the 
+block editor, some of the tools are not available or there may be limitations 
+in tool options.
 
+### Context Menu
 
 <div class="small_image">
 ![context menu location](images/position-context-menu.png "context menu location")
@@ -220,7 +223,7 @@ The issue is easily avoided by keeping to this rule: always start a new text too
 
 ### Scrollbars
 
- If the text within a text tool is longer than the tool height, a scrollbar will appear and part of the text is cutoff. Therefore (especially when copying from external editors) it is important to check that the tool has a large enough size (unless you specifically want a scrollbar).
+If the text within a text tool is longer than the tool height, a scrollbar will appear and part of the text is cutoff. Therefore (especially when copying from external editors) it is important to check that the tool has a large enough size (unless you specifically want a scrollbar).
 
 ### Style
 
@@ -231,7 +234,7 @@ See [style options](#style-options).
 If a text is longer than its frame on the weave, a scrollbar is
 generated automatically. You can control the visibility of the
 scrollbar in __options__. The default setting is *automatic*. Be
-careful setting this to __never__: if a text  tool is too small to display all
+careful setting this to __never__: if a text tool is too small to display all
 the text, it will be impossible for the reader to see all the text.
 
 ### History
@@ -272,9 +275,9 @@ The top right button opens the editor in fullscreen. Note: you will have to exit
 
 A few tips:
 
-* Make sure the toolsize matches the length of the text within. If the text is too long, it will result in __scrollbars__.
+* Make sure the tool size matches the length of the text within. If the text is too long, it will result in __scrollbars__.
 
-* It is possible to add pictures or even iframes, but it is not recommended in most situations. Preferably media is added to the catalogue using the appropriate tools, to avoid the of risk external content going missing when it is removed by the original source.
+* It is possible to add pictures or even iframes within the text, but it is not recommended in most situations. Preferably media is added to the catalogue using the appropriate tools, to avoid the of risk external content going missing when it is removed by the original source.
 
 * Be careful making very large texts within a single HTML tool, this may result in unexpected overlap when your exposition is viewed with another browser. 3 or 4 paragraphs per tool is a good average. If you do make a large HTML tool, keep a large margin at the bottom bordor.
 
@@ -665,6 +668,8 @@ only the selected media files will be played back.
 
 ## Shape Tool
 
+(Not available in the block editor)
+
 The Shape tool is designed for placing simple graphic elements
 such as arrows and lines in your exposition. You can generate forms to
 structure your layout or to help navigation. You can create
@@ -678,6 +683,7 @@ shape. By clicking and dragging the yellow point you can rotate an element.
 
 ## Note Tool
  
+(Not available in the block editor)
 
 The note tool allows you to organize your work on RC, comment on
 sections, and communicate with co-authors. Drag the note icon from the
@@ -718,6 +724,8 @@ using "restore deleted tools" in the commands.
 
 
 ## Embed tool
+
+(Not available in the block editor)
 
 The embed tool allows the integration of external content, such as
 videos or sounds, into RC expositions. Currently, the RC supports the
