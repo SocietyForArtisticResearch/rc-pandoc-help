@@ -8,11 +8,11 @@
 
 ## Editor Basics
 
-When you open the editor you will see math-paper like area in the center, this is called the grid. 
+When you open the editor you will see math-paper like area in the center. This is called the grid. 
 Content is added by dragging-and-dropping "tools" from the toolbar onto the grid. You can preview what the exposition looks like to the reader by clicking the "preview" button:
-<img src="images/eye_metro.svg" class="icon">. This preview button is located at the top right.
+<img src="images/eye_metro.svg" class="icon">This preview button is located at the top right.
 
-The position of content in graphical expositions is determined by the author and absolute. This implies:
+The position of content in graphical expositions is determined by the author and is always absolute. This implies:
 
 * Tools are not positioned relative to each other, (re)moving one will not affect the others.
 * The canvas size is unlimited: it will grow automatically when you add tools.
@@ -20,7 +20,7 @@ The position of content in graphical expositions is determined by the author and
 * Layout will not change depending on the screensize of the viewer (content is not ["responsive"](https://en.wikipedia.org/wiki/Responsive_web_design) ).
 
 All of the above results in the graphical editor being most suitable
-for non-linear layouts. For simpler expositions, it can be worthwhile to consider using the text based editor ( see [choosing an
+for non-linear layouts. For simpler expositions, it can be worthwhile to consider using the block editor or the text based editor ( see [choosing an
 editor](https://guide.researchcatalogue.net/#choosing-an-editor) ).
 
 On the right you will find the content manager, consisting of four tabs:
@@ -28,8 +28,8 @@ On the right you will find the content manager, consisting of four tabs:
 | Tab                                                 | Function:                                |
 | --------------------------------------------------- | ---------------------------------------  |
 | [overview](#overview-1)                             | map and list overview                    |
-| [media](#simple-media)                              | view the previously uploaded media files |
-| [footnotes](#footnotes-and-popovers)                | footnotes                                |
+| [media](#simple-media)                              | view previously uploaded media files     |
+| [footnotes](#footnotes-and-popovers)                | manage footnotes                         |
 | [pages](https://guide.researchcatalogue.net/#pages) | manage pages                             |
 
 ## Adding a Tool
@@ -44,7 +44,7 @@ Tools can be resized by clicking and dragging the green borders with the mouse.
 
 Tools can be rotated by clicking and dragging the yellow dot.
 
-The size of the current weave will automatically grow when tools are added.
+The size of the current weave will automatically grow when tools are added or dragged over the current limits.
 
 <a id="block-editor"></a>
 
@@ -54,7 +54,7 @@ The size of the current weave will automatically grow when tools are added.
 
 The _block editor_ is a recently added feature to the graphical editor of the
 RC. It allows the author the same tools as the existing graphical
-editor, but instead of positioning content absolutely (using 2d
+editor, but instead of positioning content absolutely (using 2D
 coordinates), content is structured as a list of rows and columns. The
 positioning of content is relative: the bottom of the previous tool
 determines where the next one starts, like lego bricks. Because there
@@ -84,20 +84,20 @@ pages, since they do not make much sense in a block page.
 The __block editor__ provides functionality similar to __text-based editor__ 
 (which is also responsive), but the
 difference is that you can more easily create horizontal rows of
-content and the editing is drag and drop, using the same tools as the normal editor.
+content and the editing is drag and drop, using the same tools as the graphic editor.
 This also means that both type of page can be used in a single exposition.
 
 ### Basic usage
 
 You can choose the block editor when creating a new exposition or when
-creating a new page within an exisiting exposition.
+creating a new page within an existing exposition.
 
 A block page is organized as a list of boxes which are called
 __rows__. A row is created by clicking the black __+__ at the bottom of the previous block.
 
 ![creating a new column](images/create_block.png "image of how to create a block")
 
-You can then choose a certain column layout for this block:
+You can then choose a column layout for this block:
 
 ![column layout options](images/choose_layout.png "picking a layout")
 
@@ -125,20 +125,23 @@ You can change the layout, move or delete the row by using the black controls on
 ### Editing
 
 You can move tools by dragging and dropping them from one cell to the
-other.  Dropped tools will never replace tools, they will insert at
+other. Dropped tools will never replace tools, they will insert at
 the bottom of the current cell.
 
-### Viewing 
+You can also move an entire row by dragging it from the "compass" icon
+visible at the top right corner of a row.
+
+### Viewing
 
 On screens that are very narrow, the content will automatically break
 into a single list again, without objects next to each other.
 
 ### Future
 
-It will become possible to make two versions of the same content, a 2d
-graphic and a 1d block like layout. This way the exposition content can
+It will become possible to make two versions of the same content, a 2D
+graphic and a linear block-like layout. This way the exposition content can
 automatically select the right format for the screen it is being
-consumed on.
+viewed on.
 
 
 ## Tools in detail
