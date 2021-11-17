@@ -73,16 +73,16 @@ https://www.zhdk.ch/forschungsprojekt/research-video--549545
 
 ## Comparison of RC Exposition Formats
 
-| Graphical format  														| Text-based |
-|-----------------------------------|----------------|
-| non-linear                                        | linear |
-| page can have any dimension                        | vertical collumn |
-| static                              |  responsive    |
-| slideshow, 3d-object, synchronized playback of different media | limited to images, video, audio & pdf |
-| similar to Powerpoint or Dreamweaver												| similar to a blog post |
-| only editable in RC											| input is plain text, can be imported and exported to different formats  |
-| can exist of multiple pages | single page |
-| position-based links | table of content generated from headers |
-| drag and drop, mouse based       | Expositions are written by typing |
-| reviewers can leave comments and notes       | no commenting functionality |
+| Graphic 														| Block | Text-based |
+|-----------------------------------|----------------|----------------|
+| non-linear                        | linear                 | linear |
+| page can have any dimension       | vertical column with rows                | vertical column |
+| static                            |  responsive      |  responsive    |
+| slideshow, 3d-object, synchronized playback of different media | limited to images, video, audio & pdf | limited to images, video, audio & pdf |
+| similar to Powerpoint or Dreamweaver												| similar to a structured blog post | similar to a blog post |
+| only editable in RC											| only editable in RC											| input is plain text, can be imported and exported to different formats  |
+| can have multiple pages | can have multiple pages | single page |
+| position and tool-based links | tool-based links | table of content generated from headers |
+| drag and drop, mouse based       | drag and drop, mouse based       | Expositions are written by typing |
+| reviewers can leave comments and notes       | no commenting functionality | no commenting functionality |
 
