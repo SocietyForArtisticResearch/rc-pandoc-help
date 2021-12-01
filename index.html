@@ -373,24 +373,24 @@ A <strong>title</strong> and <strong>abstract</strong> are obligatory.</li>
 <figure>
 <img src="images/format-picker.png" title="image showing format picker" alt="choosing a format in the Create Exposition dialog" /><figcaption aria-hidden="true">choosing a format in the Create Exposition dialog</figcaption>
 </figure>
-<p>The <a href="#workspace-editor"><strong>graphical editor</strong></a>, allows the author to set the position of each element in the page. This makes it easy to have non-linear formats or presentations in which the media, such as images, video and audio files, are as important, if not more important, as the text. The editor works by dragging and dropping. There is no predefined style or template and its possible to have the reader go through the content in a non-linear fashion. However, a consequence of absolutely positioning all elements is that the exposition cannot adjust to the size of a particular device, that is, these expositions are not <a href="https://en.wikipedia.org/wiki/Responsive_web_design">“responsive”</a>. If you want readers to be able to read your exposition on mobile device the text-based editor may be more suitable for your project.</p>
-<p>The <a href="#block-editor"><strong>block editor</strong></a>, is using the same tools and drag-and-drop interface as the graphical editor, but positioning is relative and the result is <a href="https://en.wikipedia.org/wiki/Responsive_web_design">“responsive”</a>. It can be chosen when creating a new page within an exposition. Instead of an absolute grid, it uses a row and column structure. It is suitable for dealing with pages that have a lot of “inline” content, where media is inserted into blocks of text, or media has to be positioned in relationship to certain elements in a text. It is less suitable for diagrams, maps or overlayed materials. Expositions can combine both “graphical” and “block” pages in a single exposition.</p>
+<p>The <a href="#workspace-editor"><strong>graphical editor</strong></a>, allows the author to set the position of each element in the page. This makes it easy to have non-linear formats or presentations in which the media, such as images, video and audio files, are as important, if not more important, as the text. The editor works by dragging and dropping. There is no predefined style or template and it’s possible to have the reader go through the content in a non-linear fashion. However, a consequence of absolutely positioning all elements is that the exposition cannot adjust to the size of a particular device, that is, these expositions are not <a href="https://en.wikipedia.org/wiki/Responsive_web_design">“responsive”</a>. If you want readers to be able to read your exposition on mobile device the block editor or the text-based editor may be more suitable for your project.</p>
+<p>The <a href="#block-editor"><strong>block editor</strong></a>, uses the same tools and drag-and-drop interface as the graphical editor, but positioning is relative and the result is <a href="https://en.wikipedia.org/wiki/Responsive_web_design">“responsive”</a>. It can be chosen when creating a new page within an exposition. Instead of an absolute grid, the block editor uses a row and column structure. It is suitable for dealing with pages that have a lot of “inline” content, where media is inserted between or beside blocks of text, or media has to be positioned in relationship to certain elements in a text. It is less suitable for diagrams, maps or overlayed materials. Expositions can combine both “graphical” and “block” pages in a single exposition.</p>
 <p>The <strong>text-based</strong>, is a completely separate editor, which is documented <a href="#text-based-editor">here</a>. The editor is designed for writing (and importing) texts, while supporting the embedding of media. The input is plain text, which is translated into HTML. The author can express the structure of the text using <a href="http://https://en.wikipedia.org/wiki/Markdown">Markdown</a> notation. Because the input is plain text, it can also be automatically imported and exported from and to various external formats, for example MS Word documents, Open office documents and LateX. Styling is applied using standard <a href="https://www.w3schools.com/css/" title="more information on CSS">CSS</a>. By default the structure of the exposition is maintained, while the sizes of the text will adjust for readability on different screen sizes. Text-based expositions are <em>responsive</em>.</p>
 <p><strong>HTML import</strong></p>
 <p>For users that need more customization, there is an option to <a href="#html-import">import static HTML</a> website as a whole. The RC does not provide editors for HTML, so for that option an external editor is to be used. JavaScript is not supported.</p>
-<p>Finally, there is an option to import an Research Video, from https://www.zhdk.ch/forschungsprojekt/research-video–549545</p>
+<p>Finally, there is an option to import a Research Video, from https://www.zhdk.ch/forschungsprojekt/research-video–549545</p>
 <h2 id="comparison-of-rc-exposition-formats">Comparison of RC Exposition Formats</h2>
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 47%" />
-<col style="width: 21%" />
-<col style="width: 30%" />
+<col style="width: 52%" />
+<col style="width: 23%" />
+<col style="width: 23%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th>Graphical format</th>
-<th>Text-based</th>
+<th>Graphic</th>
 <th>Block</th>
+<th>Text-based</th>
 </tr>
 </thead>
 <tbody>
@@ -401,8 +401,8 @@ A <strong>title</strong> and <strong>abstract</strong> are obligatory.</li>
 </tr>
 <tr class="even">
 <td>page can have any dimension</td>
-<td>vertical collumn</td>
-<td>rows and collumns</td>
+<td>vertical column with rows</td>
+<td>vertical column</td>
 </tr>
 <tr class="odd">
 <td>static</td>
@@ -412,37 +412,37 @@ A <strong>title</strong> and <strong>abstract</strong> are obligatory.</li>
 <tr class="even">
 <td>slideshow, 3d-object, synchronized playback of different media</td>
 <td>limited to images, video, audio &amp; pdf</td>
-<td>no shapes, sync</td>
+<td>limited to images, video, audio &amp; pdf</td>
 </tr>
 <tr class="odd">
 <td>similar to Powerpoint or Dreamweaver</td>
+<td>similar to a structured blog post</td>
 <td>similar to a blog post</td>
-<td>normal website layout</td>
 </tr>
 <tr class="even">
+<td>only editable in RC</td>
 <td>only editable in RC</td>
 <td>input is plain text, can be imported and exported to different formats</td>
-<td>only editable in RC</td>
 </tr>
 <tr class="odd">
-<td>can exist of multiple pages and mixed with block format</td>
+<td>can have multiple pages</td>
+<td>can have multiple pages</td>
 <td>single page</td>
-<td>can exist of multiple pages and mixed with graphical format</td>
 </tr>
 <tr class="even">
-<td>position-based links</td>
+<td>position and tool-based links</td>
+<td>tool-based links</td>
 <td>table of content generated from headers</td>
-<td>tool based links</td>
 </tr>
 <tr class="odd">
 <td>drag and drop, mouse based</td>
+<td>drag and drop, mouse based</td>
 <td>Expositions are written by typing</td>
-<td>drag-and-drop, mouse based</td>
 </tr>
 <tr class="even">
 <td>reviewers can leave comments and notes</td>
 <td>no commenting functionality</td>
-<td>no commenting (but this is planned!)</td>
+<td>no commenting functionality</td>
 </tr>
 </tbody>
 </table>
@@ -560,15 +560,15 @@ For more info on specific tools, see [workspace](#research-catalogue-workspace-t
 <img src="images/workspace-view-2018.png" title="image showing graphical editor" alt="workspace view of the graphical exposition format" /><figcaption aria-hidden="true">workspace view of the graphical exposition format</figcaption>
 </figure>
 <h2 id="editor-basics">Editor Basics</h2>
-<p>When you open the editor you will see math-paper like area in the center, this is called the grid. Content is added by dragging-and-dropping “tools” from the toolbar onto the grid. You can preview what the exposition looks like to the reader by clicking the “preview” button: <img src="images/eye_metro.svg" class="icon">. This preview button is located at the top right.</p>
-<p>The position of content in graphical expositions is determined by the author and absolute. This implies:</p>
+<p>When you open the editor you will see math-paper like area in the center. This is called the grid. Content is added by dragging-and-dropping “tools” from the toolbar onto the grid. You can preview what the exposition looks like to the reader by clicking the “preview” button: <img src="images/eye_metro.svg" class="icon">This preview button is located at the top right.</p>
+<p>The position of content in graphical expositions is determined by the author and is always absolute. This implies:</p>
 <ul>
 <li>Tools are not positioned relative to each other, (re)moving one will not affect the others.</li>
 <li>The canvas size is unlimited: it will grow automatically when you add tools.</li>
 <li>Tools can be placed on top of each other.</li>
 <li>Layout will not change depending on the screensize of the viewer (content is not <a href="https://en.wikipedia.org/wiki/Responsive_web_design">“responsive”</a> ).</li>
 </ul>
-<p>All of the above results in the graphical editor being most suitable for non-linear layouts. For simpler expositions, it can be worthwhile to consider using the text based editor ( see <a href="https://guide.researchcatalogue.net/#choosing-an-editor">choosing an editor</a> ).</p>
+<p>All of the above results in the graphical editor being most suitable for non-linear layouts. For simpler expositions, it can be worthwhile to consider using the block editor or the text based editor ( see <a href="https://guide.researchcatalogue.net/#choosing-an-editor">choosing an editor</a> ).</p>
 <p>On the right you will find the content manager, consisting of four tabs:</p>
 <table>
 <thead>
@@ -584,11 +584,11 @@ For more info on specific tools, see [workspace](#research-catalogue-workspace-t
 </tr>
 <tr class="even">
 <td><a href="#simple-media">media</a></td>
-<td>view the previously uploaded media files</td>
+<td>view previously uploaded media files</td>
 </tr>
 <tr class="odd">
 <td><a href="#footnotes-and-popovers">footnotes</a></td>
-<td>footnotes</td>
+<td>manage footnotes</td>
 </tr>
 <tr class="even">
 <td><a href="https://guide.researchcatalogue.net/#pages">pages</a></td>
@@ -602,13 +602,16 @@ For more info on specific tools, see [workspace](#research-catalogue-workspace-t
 <p><img src="images/toolbar-demo-2.png" title="image showing drag a tool to the canvas" /></p>
 <p>Tools can be resized by clicking and dragging the green borders with the mouse.</p>
 <p>Tools can be rotated by clicking and dragging the yellow dot.</p>
-<p>The size of the current weave will automatically grow when tools are added.</p>
+<p>The size of the current weave will automatically grow when tools are added or dragged over the current limits.</p>
 <p><a id="block-editor"></a></p>
 <h2 id="block-editor">Block Editor</h2>
 <figure>
 <img src="images/block-editor.png" title="block editor" alt="block editor" /><figcaption aria-hidden="true">block editor</figcaption>
 </figure>
-<p>The <em>block editor</em> is a recently added feature to the graphical editor of the RC. It allows the author the same tools as the existing graphical editor, but instead of positioning content absolutely (using x,y coordinates), content is structured as a list of rows and columns. The width of the columns is defined as percentages of the readers’ screen size. The positioning of content vertically is also relative: the bottom of the previous tool determines where the next one starts, like lego bricks. This (nowadays common) strategy is also known as <a href="https://en.wikipedia.org/wiki/Responsive_web_design">responsive web design</a>.</p>
+<p>The <em>block editor</em> is a recently added feature to the graphical editor of the RC. It allows the author to use the same tools as the graphical editor, but instead of positioning content with static pixel positions and dimensions, you build your page from a simple list of blocks.</p>
+<p>The blocks themselves can be split into 1 or more columns. The width of the columns is defined as percentages of the readers’ screen size.</p>
+<p>An important aspect (and advantage) is that vertical position of blocks is relative: the bottom of the previous tool determines where the next one starts, so the blocks are stitched together end to end, never overlapping.</p>
+<p>Using relative sizes like this is often called <a href="https://en.wikipedia.org/wiki/Responsive_web_design">responsive web design</a>.</p>
 <h3 id="when-to-use">When to use</h3>
 <p>The block editor is most suitable for:</p>
 <ul>
@@ -627,14 +630,14 @@ For more info on specific tools, see [workspace](#research-catalogue-workspace-t
 <li>timelines</li>
 </ul>
 <p>Certain tools (Sync, Shape) for example, can only be used in graphical pages, although more will become available in the future.</p>
-<p>The <strong>block editor</strong> provides functionality similar to <strong>text-based editor</strong> (which is also responsive), but the difference is that you can more easily create horizontal rows of content and the editing is drag-and-drop instead of markdown, using the same tools as the normal editor. This also means that both type of page can be used in a single exposition, so it can be easier to switch.</p>
+<p>The <strong>block editor</strong> provides functionality similar to <strong>text-based editor</strong> (which is also responsive), but the difference is that you can more easily create horizontal rows of content and the editing is drag and drop, using the same tools as the graphic editor. This also means that both type of page can be used in a single exposition.</p>
 <h3 id="basic-usage">Basic usage</h3>
-<p>You can choose the <strong>block editor</strong> when creating a new exposition or when creating a new page within an exisiting exposition, through the pages tab.</p>
+<p>You can choose the block editor when creating a new exposition or when creating a new page within an existing exposition.</p>
 <p>A block page is organized as a list of boxes which are called <strong>rows</strong>. A row is created by clicking the black <strong>+</strong> at the bottom of the previous block.</p>
 <figure>
 <img src="images/create_block.png" title="image of how to create a block" alt="creating a new column" /><figcaption aria-hidden="true">creating a new column</figcaption>
 </figure>
-<p>You can then choose a certain column layout for this block:</p>
+<p>You can then choose a column layout for this block:</p>
 <figure>
 <img src="images/choose_layout.png" title="picking a layout" alt="column layout options" /><figcaption aria-hidden="true">column layout options</figcaption>
 </figure>
@@ -653,11 +656,16 @@ For more info on specific tools, see [workspace](#research-catalogue-workspace-t
 </figure>
 <h3 id="editing">Editing</h3>
 <p>You can move tools by dragging and dropping them from one cell to the other. Dropped tools will never replace tools, they will insert at the bottom of the current cell.</p>
+<p>You can also move an entire row by dragging it from the “compass” icon visible at the top right corner of a row.</p>
+<h3 id="hyperlinking-table-of-contents">Hyperlinking / Table of Contents</h3>
+<p>Because the exact vertical position of tools depends on the width of the readers’ browsers window, the table of content works slightly different in pages created with the block editor. Instead of linking to an X, Y position, you can link to specific tool in your page. The tools can be named by double clicking them and opening the “common” tab. You can also use the overview tab to view a list of all used tools in the current page.</p>
+<p>tip: you can also use this method of tool linking in graphical pages now!</p>
 <h3 id="viewing">Viewing</h3>
 <p>On screens that are very narrow, the content will automatically break into a single list again, without objects next to each other.</p>
 <h3 id="future">Future</h3>
-<p>It will become possible to make two versions of the same content, a 2d graphic and a 1d block like layout. This way the exposition content can automatically select the right format for the screen it is being consumed on.</p>
+<p>It will become possible to make two versions of the same content, a 2D graphic and a linear block-like layout. This way the exposition content can automatically select the right format for the screen it is being viewed on.</p>
 <h2 id="tools-in-detail">Tools in detail</h2>
+<p>Note: The tools are described as they work in the graphical editor. When using the block editor, some of the tools are not available or there may be limitations in tool options.</p>
 <h3 id="context-menu">Context Menu</h3>
 <div class="small_image">
 <figure>
@@ -756,8 +764,8 @@ Delete a tool</p></li>
 </figure>
 <p>A few tips:</p>
 <ul>
-<li><p>Make sure the toolsize matches the length of the text within. If the text is too long, it will result in <strong>scrollbars</strong>.</p></li>
-<li><p>It is possible to add pictures or even iframes, but it is not recommended in most situations. Preferably media is added to the catalogue using the appropriate tools, to avoid the of risk external content going missing when it is removed by the original source.</p></li>
+<li><p>Make sure the tool size matches the length of the text within. If the text is too long, it will result in <strong>scrollbars</strong>.</p></li>
+<li><p>It is possible to add pictures or even iframes within the text, but it is not recommended in most situations. Preferably media is added to the catalogue using the appropriate tools, to avoid the of risk external content going missing when it is removed by the original source.</p></li>
 <li><p>Be careful making very large texts within a single HTML tool, this may result in unexpected overlap when your exposition is viewed with another browser. 3 or 4 paragraphs per tool is a good average. If you do make a large HTML tool, keep a large margin at the bottom bordor.</p></li>
 <li><p>You can also choose the colour or the background of the text using the colour tools, insert symbols and tables, and control the edits with the <strong>show changes</strong> option.</p></li>
 </ul>
@@ -899,8 +907,10 @@ Be sure to upload the PDF itself in the <strong>PDF</strong> field, not <strong>
 <h3 id="options-7">Options</h3>
 <p>In the options tab one can select from among all audio and video files on the weave. These must have been uploaded first with the audio and video tools. The selected files will be controlled with the play tool. The option “pause other players when playing” will ensure that only the selected media files will be played back.</p>
 <h2 id="shape-tool">Shape Tool</h2>
+<p>(Not available in the block editor)</p>
 <p>The Shape tool is designed for placing simple graphic elements such as arrows and lines in your exposition. You can generate forms to structure your layout or to help navigation. You can create rectangles, circles and lines. You can choose if they’re filled or not. You also have the possibility to specify the thickness of the frame and control the opacity of the elements. There are also four types of arrows (left, right, up, down). You can resize the elements on the weave by resizing the green frame displayed around the shape. By clicking and dragging the yellow point you can rotate an element.</p>
 <h2 id="note-tool">Note Tool</h2>
+<p>(Not available in the block editor)</p>
 <p>The note tool allows you to organize your work on RC, comment on sections, and communicate with co-authors. Drag the note icon from the tool-pallett onto the weave. You can write directly into the note without opening a new edit-window. Each note has a time-stamp which is generated when the note is placed on the weave.</p>
 <p>It is possible to define who is responsible for the content (a change or revision, correction) of the note and you can set a date for resolving the issue described in the note.</p>
 <p>Notes are visible on the preview as well. Please check, that all notes have been removed from the exposition when you intend to share or publish it.</p>
@@ -911,6 +921,7 @@ Be sure to upload the PDF itself in the <strong>PDF</strong> field, not <strong>
 <h3 id="history-1">History</h3>
 <p>“History” provides a log of all changes that have been made to the tool. If you have unintentionally deleted a tool, you can restore it using “restore deleted tools” in the commands.</p>
 <h2 id="embed-tool">Embed tool</h2>
+<p>(Not available in the block editor)</p>
 <p>The embed tool allows the integration of external content, such as videos or sounds, into RC expositions. Currently, the RC supports the following external content providers: <a href="https://www.zhdk.ch/madek">Madek</a>, Youtube, Vimeo, Soundcloud and Sketchfab.</p>
 <p>The embed tool can be used by pasting the link from the page you want to embed in the URL field and clicking submit twice. The first submit initiates the processing of the link. How to retrieve the correct embedding link depends on the service. The main URL visible when opening the media content that is to be embedded can be used by the RC for the above mentioned services. Please contact <a href="mailto:support@researchcatalogue.net">support</a> if you have trouble or questions regarding the necessary URL.</p>
 <p>Content from Youtube and Soundcloud can be used in the play tool and the playback can be synchronized with native RC tools.</p>
@@ -1021,7 +1032,7 @@ total number of images. -->
 <h4 id="works">Works</h4>
 <p>“Works” are an older feature similar to media sets, if you had created works in the past you will find them under sets as well.</p>
 <h2 id="import-word-documents-using-simple-media-upload">Import Word documents using Simple Media upload</h2>
-<p>It is possible to upload docx/odt/LaTeX documents and have the content automatically be turned into HTML tools and image tools.</p>
+<p>It is possible to upload docx/odt/LaTeX documents and have the content automatically turned into HTML tools and image tools.</p>
 <p>To convert a document, open the Simple Media Tab and upload it in the “document” section of the upload dialog. It may take a few moments to convert after the upload has reached 100%.</p>
 <figure>
 <img src="images/media-upload-tab.png" title="image showing the media upload button" alt="media upload tab" /><figcaption aria-hidden="true">media upload tab</figcaption>
@@ -1029,9 +1040,9 @@ total number of images. -->
 <figure>
 <img src="images/upload-doc-dialog.png" title="image showing the doc upload section" alt="upload doc dialog" /><figcaption aria-hidden="true">upload doc dialog</figcaption>
 </figure>
-<p>Once converted, the document will show up as a folder within your simple media. You can drag the elements from this folder to their final desired location in the exposition and resize them to the size you desire.</p>
-<p>To ensure maximum compatibility with RC fonts and styling, text-editor specific styling is automatically filtered, but the inner structure of the text is maintained. This includes: paragraphs, headers, bold, italics, footnotes, illustrations &amp; tables. Footnotes are also converted into RC Footnotes/Popovers. Afterwards, one can use raw CSS (also see below for more details) to add styling again, without the need to style each structural element individually. It may thus still be necessary to import certain elements by hand after the import.</p>
-<p>The document is split at illustrations, or after a significant amount of text. This to avoid extremely long text tools, which result in problems between browsers and are harder to handle in the graphical editor. The splitting should also make it easier to restructure the document a bit to a more fitting layout to the RC. Because of the graphic and non-linear nature of RC expositions, a 1 on 1 import does not make so much sense. If your documentation requires a more traditional text-based layout (think article/blog post), it may be better to use the text-based editor, which also supports importing from external text editors.</p>
+<p>Once converted, the document will show up as a folder within your simple media. You can drag the elements from this folder to a desired location in the exposition, resize and further adjust them.</p>
+<p>To ensure maximum compatibility with RC fonts and styling, text-editor specific styling is automatically filtered, but the inner structure of the text is maintained. This includes: paragraphs, headers, bold, italics, footnotes, illustrations &amp; tables. Footnotes are also converted into RC Footnotes/Popovers. Afterwards, one can use raw CSS (see below for more details) to add styling again, without the need to style each structural element individually. It may thus still be necessary to import certain elements by hand after the import.</p>
+<p>The document is split at illustrations, or after a significant amount of text. This to avoid extremely long text tools, which result in problems between browsers and are harder to handle in the graphical editor. The splitting should also make it easier to restructure the document a bit to a more fitting layout to the RC. Because of the graphic and non-linear nature of RC expositions, a 1 on 1 import does not make so much sense. If your documentation requires a more traditional text-based layout (think article/blog post), it may be better to use the block editor or the text-based editor, which also supports importing from external text editors.</p>
 <h3 id="important-note-regarding-styling">Important note regarding styling:</h3>
 <p>By default, RC has zero margin on all paragraphs, this will mean that there is no whitespace between paragraphs. To avoid this issue, I recommend adding the following style to your <a href="#page-settings---style" title="link to page settings docs">raw CSS</a> settings of your page where you import word content. You can edit the “raw css” of a page by opening <strong>pages tab</strong> &gt; ✎ <strong>edit settings</strong> &gt; <strong>style</strong> &gt; <strong>raw css</strong>.</p>
 <pre>
@@ -1047,17 +1058,17 @@ total number of images. -->
 <img src="images/pages-tab-2018.png" title="image showing the page tab" alt="page tab" /><figcaption aria-hidden="true">page tab</figcaption>
 </figure>
 <h3 id="creating-a-page">Creating a page</h3>
-<p>New pages are by default <em>private</em>, they have to be explicitely added to the <a href="#table-of-content" title="table of content">table of content</a> to be visible (or by making a <a href="#hyperlinking">hyperlink</a> to the page in your own content). The order of pages cannot be changed in the pages list, but it can in the table of contents. The page will automatically change size based on the content.</p>
+<p>New pages are by default <em>private</em>, they have to be explicitely added to the <a href="#table-of-content" title="table of content">table of content</a> to be visible (or by making a <a href="#hyperlinking">hyperlink</a> to the page in your own content). The order of pages cannot be changed in the pages list, but this can be done in the table of contents. The exposition page will automatically change size based on the content.</p>
 <h3 id="entry-page">Entry page</h3>
 <p>One can change the first page visible to the reader by changing the <strong>entry page</strong>. Go to the menu <strong>options</strong> and choose <strong>edit meta data</strong>. Scroll down to <strong>“entry page”</strong> (at the bottom of the dialog) and select the page you want as your start page for the reader. <!--
 This should be in table of contents, it is completely out of place in
 meta-data --></p>
 <h2 id="page-settings">Page settings</h2>
 <p><img src="images/pages-tab-2018.png" title="image showing the page settings" alt="the page settings dialog" />]</p>
-<p>In the page settings dialog, you can change the meta data of the page and control the appearance. It is opened by clicking the pencil button in the bar.</p>
+<p>In the page settings dialog, you can change the meta data of the page and control the page appearance. It is opened by clicking the pencil button in the bar.</p>
 <h3 id="page-settings---meta-title-description-and-iframe-field">Page settings - Meta : title, description and iframe field</h3>
 <ul>
-<li><p><strong>Page title</strong> Set a title for the page. This title can be overriden in the <a href="#table-of-content">table of content</a>, so the reader sees a different one. This can be useful if you need to keep track of different versions of pages.</p></li>
+<li><p><strong>Page title</strong> Set a title for the page. This title can be overridden in the <a href="#table-of-content">table of content</a>, so the reader sees a different one. This can be useful if you need to keep track of different versions of pages.</p></li>
 <li><p><strong>Description</strong> The description is for personal reference and only visible to the author and collaborators on the exposition.</p></li>
 <li><p><strong>Iframe field</strong> Replace the entire page by an external website by means of a URL. There are a few requirements to the URL for this to work:</p>
 <ul>
@@ -1070,12 +1081,12 @@ meta-data --></p>
 <h3 id="page-settings---style">Page settings - Style</h3>
 <p>Here one can change:</p>
 <ul>
-<li><strong>margin</strong>: If set, it will make the exposition as if is seen through a smaller window.</li>
-<li><strong>padding</strong>: Padd extra space on the content itself (for example if you set top and left to 100, it will create extra space on the top and left). In other words, this makes the exposition canvas itself larger.</li>
-<li><strong>background</strong>: change the color or set an image as background.</li>
-<li><strong>links</strong>: change the default color for all hyperlinks within the page. One can set seperate colors for links the user visited.</li>
-<li><strong>footnote</strong>: The color of footnote/popover links same as links, but then for links of footnotes/popovers.</li>
-<li><strong>raw css</strong>: apple your own CSS rules to the page, see below</li>
+<li><strong>margin</strong>: If set, it will make the exposition as if seen through a smaller window.</li>
+<li><strong>padding</strong>: Pad extra space on the content itself (for example if you set top and left to 100, it will create extra space on the top and left). In other words, this makes the exposition canvas itself larger.</li>
+<li><strong>background</strong>: Change the color or set an image as background.</li>
+<li><strong>links</strong>: Change the default color for all hyperlinks within the page. One can set seperate colors for links the user visited.</li>
+<li><strong>footnote</strong>: The color of footnote/popover links works the same way as with links, but for links of footnotes/popovers.</li>
+<li><strong>raw css</strong>: apply your own CSS rules to the page, see below</li>
 </ul>
 <h2 id="raw-css">raw CSS</h2>
 <p>You can set user defined <a href="https://www.w3schools.com/css/" title="css tutorial">CSS</a> rules that are applied to the whole page. Cascading Style Sheets are the standard way of styling HTML documents. Although most styling can be directly edited through the style tab, it can sometimes be useful to specify your own CSS.</p>
@@ -1113,7 +1124,7 @@ meta-data --></p>
 <p>The page can be deleted by clicking the trashcan icon next to the page title. Deleted pages cannot be recovered. Of course, if you want to make a page invisible to the reader it may be prefered to just remove it from the <a href="#table-of-content" title="table of content">table of content</a>.</p>
 <p><a id="footnotes-and-popovers"></a></p>
 <h1 id="graphical-editor---footnotes-and-popovers">Graphical Editor - Footnotes and Popovers</h1>
-<p>It is possible to create footnotes and popover weaves in the text, HTML and picture tools. The terms “footnote” and “popover” are used almost interchangeably here. Footnote, however, refers rather to the textual concept of a footnote, i.e. a particular use of the functionality explained in this section, whereas popover is used when referring specifically to the appearing popover window. (There is a tutorial video explaining the footnote workflow on the <a href="https://www.researchcatalogue.net/view/273532/273533">RC Video Tutorials page</a>) These are displayed when the RC user reading the exposition clicks the footnote link or, depending on the settings, when he or she mouse the mouse pointer over the link. This functionality makes it possible to create footnotes in texts, but also create popovers of any size containing RC objects of any type. There are a number of different ways of creating footnotes.</p>
+<p>It is possible to create footnotes and popover weaves in the text, HTML and picture tools. The terms “footnote” and “popover” are used almost interchangeably here. Footnote, however, refers rather to the textual concept of a footnote, i.e. a particular use of the functionality explained in this section, whereas popover is used when referring specifically to the appearing popover window. (There is a tutorial video explaining the footnote workflow on the <a href="https://www.researchcatalogue.net/view/273532/273533">RC Video Tutorials page</a>) These are displayed when the RC user reading the exposition clicks the footnote link or, depending on the settings, when moving the mouse pointer over the link. This functionality makes it possible to create footnotes in texts, but also create popovers of any size containing RC objects of any type. There are a number of different ways of creating footnotes.</p>
 <h2 id="creating-a-simple-text-footnote">Creating a Simple Text Footnote</h2>
 <p>In order to create a footnote in the text or HTML tool one selects some text, which will be the footnote link and clicks the “Insert/Edit Link or Footnote” menu item (see image).</p>
 <figure>
@@ -1132,7 +1143,7 @@ meta-data --></p>
 <li>A simple text popover. A small text box appears which facilitates the creation of footnotes and other popovers containing only a short amount of text. The text can be entered here directly upon creation without the need to further edit the popover and adjust its size. <img src="images/footnote_dia.png" alt="Footnote dialog window" /></li>
 </ul></li>
 </ul>
-<p>Finally, click “Add Footnote” to confirm and create the footnote, which will subsequently appear in the list of footnotes on the left side of the screen.</p>
+<p>Finally, click “Add Footnote” to confirm and create the footnote, which will subsequently appear in the list of footnotes on the right side of the screen.</p>
 <figure>
 <img src="images/footnote_preview.png" alt="Preview of a footnote" /><figcaption aria-hidden="true">Preview of a footnote</figcaption>
 </figure>
@@ -1151,8 +1162,9 @@ meta-data --></p>
 <p>If you need to change the screen position or display settings of an existing footnote, the best way is:</p>
 <ol type="1">
 <li>Go to the Footnote tab.</li>
-<li>Click the little blanc page icon next to the footnote you want to change.</li>
-<li>Go to the settings tab</li>
+<li>Click the footnote you want to change.</li>
+<li>Click Edit Settings (“pen”) icon.</li>
+<li>Go to the options tab.</li>
 </ol>
 <h3 id="auto-numbered-footnotes">Auto-Numbered Footnotes</h3>
 <p>Instead of using text as footnote links it is also possible to use numbered links. The numbers will be filled in and adjusted automatically. In order to create auto-numbered footnotes create a footnote in the text or HTML tool as described above but without selecting any text. An “x” will be inserted where the cursor is placed. This “x” will be replaced by the correct number when the text is displayed.</p>
@@ -1160,7 +1172,7 @@ meta-data --></p>
 <img src="images/footnote_auto.png" alt="Auto-numbered footnote in the editor" /><figcaption aria-hidden="true">Auto-numbered footnote in the editor</figcaption>
 </figure>
 <p>The numbering starts at 1 and encompasses all text and HTML objects on the weave. Numbering is performed by object and proceeds from the top and left to the bottom and right of the page.</p>
-<p>Be aware that automatic numbering does not depend on creation order, it only depends on x and y position of the tools. This means that if the notes (1,2, 3 etc..) are in a vertical column, for example:</p>
+<p>Be aware that automatic numbering does not depend on creation order, it only depends on x and y position of the tools. This means that if the notes (1,2,3 etc..) are in a vertical column, for example:</p>
 <figure>
 <img class="portrait-image" src="images/footnotes_align_correct.png" title="image demonstrating incorrect allignment will result in incorrect numbering" alt="">
 <figcaption>
@@ -1174,7 +1186,7 @@ Footnote numbering in correctly vertically-aligned tools
 Incorrect auto-numbering in non-aligned tools
 </figcaption>
 </figure>
-<p>Then rc will automatically number the notes in 2 first than 1 than 3. So in this case, it is very important to have the text tools exactly at the same x position (through right click -&gt; style tab you can check this most easily).</p>
+<p>Then RC will automatically number the notes in 2 first, then 1, then 3. In this case, it is very important to have the text tools exactly at the same x position (through right click -&gt; style tab you can check this most easily).</p>
 <h3 id="pictures">Pictures</h3>
 <p>It is also possible to use images as links to footnotes. When clicking on the image or moving over it with the mouse cursor the popover will be show. In order to use an image as a footnote click the menu icon on the bottom right of the image (or right click the image) in order to open the context menu. Click the item “add footnote” from the context menu and fill in the appearing dialog window.</p>
 <p><a id="table-of-content"></a></p>
@@ -1192,30 +1204,33 @@ Incorrect auto-numbering in non-aligned tools
 <ul>
 <li><p><strong>Title</strong><br />
 Specify a custom name for this entry to be used within the contents menu. If left empty, it uses the title from the editor.</p></li>
+<li><p><strong>Tool</strong><br />
+You can use a tool coordinates as an entry point. You will be provided with the list of tools in the exposition. This also means if you later change the tool position, this entry will still point to the same tool. It is recommended to name the intended tools in a clear way, so you can better find them from the list.</p></li>
 <li><p><strong>X-COORD &amp; Y-COORD</strong><br />
 you can use this to create an entry that has an offset, which immediately opens the page on a specific location within the exposition. The X,Y values correspond to an offset in pixels. The Y offset is measured from the top. Instead of looking these values up by hand, you may also use <a href="#set-default-position-show-current-position"><strong>commands -&gt; show current position</strong></a>.</p></li>
 </ul>
 <p><em>Tip: you can easily reorder the table of contents entries by clicking and dragging the boxes.</em></p>
 <h3 id="static-navigation-bar">Static navigation bar</h3>
-<p>At the bottom of the <strong>table of content</strong> dialog, there is an option <strong>static menu bar</strong> to display the navigation bar continuously (instead of it automatically hiding).</p>
+<p>At the bottom of the <strong>table of content</strong> dialog, there is an option <strong>static menu bar</strong> to display the navigation bar continuously (instead of automatically hiding it).</p>
 <h3 id="toc-alignment">TOC alignment</h3>
-<p>Choose wether the links in the content menu should be displayed <em>horizontally</em> or <em>vertically</em>.</p>
+<p>Choose whether the links in the content menu should be displayed <em>horizontally</em> or <em>vertically</em>.</p>
 <h2 id="hyperlinking">Hyperlinking</h2>
 <p>See the <a href="https://www.researchcatalogue.net/view/273532/273533">video tutorial</a> on this topic.</p>
-<p>It is possible to create hyperlinks between pages (or “weaves”) of an exposition and within a single page. This process exists of two steps: fetch the link and creating the hyperlink.</p>
+<p>It is possible to create hyperlinks between pages (or “weaves”) of an exposition and within a single page. This process has two steps: First fetch the link and then create the hyperlink.</p>
 <p>In order to fetch a link to a different page within your exposition:</p>
 <ol type="1">
-<li>open the page you want to link <strong>to</strong> in the editor (through the page tab on the right hand side).</li>
+<li>Open the page you want to link <strong>to</strong> in the editor (through the page tab on the right hand side).</li>
 <li><em>(optional)</em> scroll the page to the position where you want the link to point to.</li>
-<li>go to <strong>options-&gt;show current position</strong></li>
+<li>Go to <strong>options-&gt;show current position</strong></li>
 </ol>
-<p>This will display a URL of the target page with the current scroll location. Copy the URL into the clipboard (Ctrl-C/Cmd-C).</p>
-<p>Now to turn a piece of text into a hyperlink:</p>
+<p>This will display a URL of the target page with the current location. Copy the URL into the clipboard (Ctrl-C/Cmd-C).</p>
+<p>To create the hyperlink:</p>
 <ol type="1">
 <li>Create or open a <a href="#text-tool">Text</a> or <a href="#HTML-tool">HTML tool</a> and select a word or sentence that should become the link.</li>
 <li>Now click the hyperlink button (it looks like a chain link) and a dialog will be displayed. <img src="images/html-hyperlink.png" alt="location of the hyperlink button in text tool" /> <img src="images/text-hyperlink.png" alt="location of the hyperlink button in the html tool" /></li>
 <li>Paste the link in the <strong>link URL</strong> field and click <strong>add link</strong>.</li>
 </ol>
+<p>Note that if you have not selected any text, the link dialog will not offer a hyperlink option.</p>
 <figure>
 <img src="images/hyperlink-dialog.png" alt="Hyperlink dialog window" /><figcaption aria-hidden="true">Hyperlink dialog window</figcaption>
 </figure>
@@ -1223,14 +1238,14 @@ you can use this to create an entry that has an offset, which immediately opens 
 <p>Within the hyperlink dialog there are a couple of options:</p>
 <ul>
 <li><strong>Link URL</strong> : here you can type or paste a link</li>
-<li><strong>Target</strong> : control wether the link will open in a new screen or not.</li>
+<li><strong>Target</strong> : control whether the link will open in a new screen or not.</li>
 <li><strong>Title</strong> : change the title of the link</li>
 <li><strong>Class</strong> : set the class of the link (this is rarely used)</li>
 </ul>
 <h2 id="overview-1">Overview</h2>
 <p>Within the “Commands” tab on the right-hand side of the editor there is a checkbox labeled “Overview.” Clicking the checkbox will open and close a tab on the right-hand side of the editor. It contains both a map and a list of all objects in the exposition.</p>
 <p>The overview map outlines all tools on the page, their size and position. By moving the red rectangle, one can jump to a specific position on the page.</p>
-<p>Below the overview map, there is a list of all objects. If you click one of these tools, you go directly to that tools location. This can also be very useful when trying to find tools that have somehow become hidden, for example if another tool has been placed on top.</p>
+<p>Below the overview map, there is a list of all objects. If you click one of these tools, you go directly to that tool’s location. This can also be very useful when trying to find tools that have somehow become hidden, for example if another tool has been placed on top.</p>
 <h1 id="graphical-editor---menus">Graphical Editor - Menus</h1>
 <h2 id="edit-menu">Edit menu</h2>
 <p><img src="images/edit-menu-2018.png" class="half-image" alt="image showing the edit menu"></p>
@@ -1256,7 +1271,7 @@ you can use this to create an entry that has an offset, which immediately opens 
 <p>Locking an object means it cannot be changed or moved in any way (until it is unlocked). This feature can also be used if only part of the exposition is to be moved (by locking the objects you do not want to move).</p>
 <h2 id="arrange-menu">Arrange menu</h2>
 <p>These functions help with aligning (two or more) tools. To select multiple tools, click them one by one while holding ctrl/cmd key, then choose the function you want to apply from the arrange menu.</p>
-<p><span style="red"> (!) Be careful when applying to many tools at once on a complex weave. The changes in position are not reversable (unless you copied the tools before). </span></p>
+<p><span style="red"> (!) Be careful when applying changes to many tools at once on a complex weave. The changes in position are not reversable (unless you copied the tools before). </span></p>
 <ul>
 <li>left edges: all left sides will be aligned (to the last tool you selected)</li>
 <li>right edges: all right sides will be aligned</li>
@@ -1628,36 +1643,36 @@ Reviewing is connected to the note tool (the yellow “post-it” notes) and is 
 <li><a href="#publication">publishing</a>: self-publish, or request publication within one of the portals. You cannot edit the content after publication.</li>
 </ul>
 <p class="red">
-An important feature of <strong>publication</strong> in the RC, is that it is <strong>permanent</strong>. This means that once an exposition is published, content will be locked forever. The idea behind this, is that the content of published expositions can be safely referenced by others, without risk of linking to something that has changed or dissapeared.
+An important feature of <strong>publication</strong> in the RC, is that it is <strong>permanent</strong>. This means that once an exposition is published, content will be locked forever. The idea behind this is that the content of published expositions can be safely referenced by others without risk of linking to something that has changed or disappeared.
 </p>
 <h2 id="collaborating-on-research">Collaborating on Research</h2>
-<p>The Research Catalogue allows you to work together on a research exposition with mulltiple users. This is called collaboration.</p>
+<p>The Research Catalogue allows you to work together on a research exposition with multiple users. This is called collaboration.</p>
 <p>There are 3 types of collaborators:</p>
 <ul>
-<li><em>co-author</em> : the collaborator is considered a co-author of the research and will be shown in the author list of the research exposition.</li>
-<li><em>contributor</em> : this type of collaborator has the same rights but won’t feature as co-author of your exposition. An example of a contributor might be a graphical designer helping with the layout of your exposition without having any involvement with the research itself.</li>
-<li><em>supervisor</em> : can view an exposition and leave comments. The supervisor will also be mentioned in the metadata.</li>
+<li><em>co-author</em> : The collaborator is considered a co-author of the research and will be shown in the author list of the research exposition.</li>
+<li><em>contributor</em> : This type of collaborator has the same rights but won’t feature as co-author of your exposition. An example of a contributor might be a graphic designer helping with the layout of your exposition without having any involvement with the research itself.</li>
+<li><em>supervisor</em> : The collaborator can view an exposition and leave comments. The supervisor will also be mentioned in the metadata.</li>
 </ul>
 <h3 id="adding-a-collaborator">Adding a Collaborator</h3>
 <p>An author of an exposition can invite collaborators through the collaboration tab of the exposition: click the <strong>menu icon</strong> (1) and <strong>‘edit details’</strong> (2) next to the research on your profile. If you are already in the workspace editor, you can also click on the title of your research at the top of the editor.</p>
 <figure>
 <img src="images/collaborate_1.png" title="image showing the menu icon" alt="Location of the collaboration dialog" /><figcaption aria-hidden="true">Location of the collaboration dialog</figcaption>
 </figure>
-<p>Choose <strong>‘collaboration’</strong>, search for the user you want to cooperate with and add her or him by clicking on their name.</p>
+<p>Choose <strong>‘collaboration’</strong>, search for the user you want to cooperate with and add the collaborator by clicking on their name.</p>
 <figure>
 <img src="images/inviting-supervisor.png" title="Image showing a user adding another user as supervisor" alt="Inviting a supervisor by typing it into the supervisor box" /><figcaption aria-hidden="true">Inviting a supervisor by typing it into the supervisor box</figcaption>
 </figure>
-<p>The users that were added will show up as a list below the field. After clicking submit, collaborators will receive an invitation from you in their message-box which they can accept or decline. When accepting the invitation, the collaborator will have access to your exposition workspace and he will be able to edit it.</p>
+<p>The users that were added will show up as a list below the field. After clicking submit, collaborators will receive an invitation from you in their RC message-box which they can accept or decline. When accepting the invitation, the collaborator will have access to your exposition workspace and will be able to edit it.</p>
 <h3 id="removing-a-collaborator">Removing a Collaborator</h3>
 <p>If you want to remove a collaborator, click the “x” behind their name in the field they were added. If you remove a supervisor, the supervisor will receive a request to remove them (they have to approve the removal).</p>
 <figure>
 <img src="images/collaborate_2.png" title="Collaboration tab" alt="Collaboration tab" /><figcaption aria-hidden="true">Collaboration tab</figcaption>
 </figure>
-<p>Note: If a users name in the list is enclosed in brackets ( [ name ] ), it means that the invitation is sent successfully, but has not been accepted yet by the receiver.</p>
+<p>Note: If a user’s name in the list is enclosed in brackets ( [ name ] ), it means that the invitation is sent successfully, but has not been yet accepted by the receiver.</p>
 <h3 id="communication-with-collaborators">Communication with Collaborators</h3>
-<p>While collaborating on an exposition, there are several ways of communicating with each other</p>
+<p>While collaborating on an exposition, there are several ways of communicating with each other:</p>
 <ul>
-<li><p><strong>Using the note tool</strong> Notes are the RC equivalent of yellow post it notes. You can simply drag one from the toolbar onto the exposition workspace. See also the note tool help.</p></li>
+<li><p><strong>Using the note tool</strong> Notes are the RC equivalent of yellow paper notes. You can simply drag one from the toolbar onto the exposition workspace. See also the note tool help.</p></li>
 <li><p><strong>Send collaboration message</strong> You can send a direct text message to your collaborator using the <em>Send collaboration message</em> found under the <strong>commands</strong>_ tab.</p></li>
 <li><p><strong>Posting a comment</strong> In expositions where you are not a collaborator, you can still leave comments by going to the top bar of the exposition and clicking the <strong>Comments</strong>.</p></li>
 </ul>
@@ -1679,16 +1694,17 @@ class="tiny_icon" src="images/menu.png" alt="hamburger menu icon">) of each obje
 <ul>
 <li><strong>link share</strong> : The object is accessible through a “secret” link. Only people that have the link can view the object. This is useful for sharing with readers without an RC account, by turning the option on and mailing them the link.</li>
 </ul>
-<p>Link share can be combined with any of the other sharing modes (private, RC users, limited to portal, public). An exposition can for example be shared within a portal but simultaniously be accessible through the “secret” link.</p>
+<p>A common use is to keep the exposition private but share the link with a few persons, via e-mail for example. Note that even if you tick the link share box, you still need to apply this change by using the “submit” button. Remember to copy the link first.</p>
+<p>Link share can be combined with any of the other sharing modes (private, RC users, limited to portal, public). An exposition can for example be shared within a portal but simultaneously be accessible through the “secret” link.</p>
 <figure>
 <img src="images/sharing-options.png" title="image showing sharing options" alt="sharing menu dialog" /><figcaption aria-hidden="true">sharing menu dialog</figcaption>
 </figure>
 <h2 id="publication">Publication</h2>
-<p><strong>Publication</strong>, is permanent. This means that once an exposition is published, all content will be locked. The idea behind this, is that the content of published expositions can be safely referenced by others, without risk of linking to something that has changed or dissapeared. You can self-publish an exposition, or request publication with one of the portals. Please consult the portal pages: (<a href="https://www.researchcatalogue.net/portal/institutions">institutions</a> or <a href="https://www.researchcatalogue.net/portal/journals">journals</a>) to see what requirements there are for publication there.</p>
+<p><strong>Publication</strong>, is permanent. This means that once an exposition is published, all content will be locked. The idea behind this is that the content of published expositions can be safely referenced by others without risk of linking to something that has changed or disappeared. You can self-publish an exposition, or request publication with one of the portals. Please consult the portal pages: (<a href="https://www.researchcatalogue.net/portal/institutions">institutions</a> or <a href="https://www.researchcatalogue.net/portal/journals">journals</a>) to see what requirements there are for publication there.</p>
 <h3 id="self-publish">Self-Publish</h3>
 <p>Self-publishing makes an exposition <strong>no longer editable</strong> and publicly visible. On publication you will get a (free) <a href="https://en.wikipedia.org/wiki/Digital_object_identifier">DOI</a>. By design, publishing an exposition is not reversible (so others can use the exposition link as a reference).</p>
 <h3 id="submit-for-publication">Submit for Publication</h3>
-<p>Expositions can also be submitted to portals (such as journals) for publication. Most of the institutional portals will only accept requests from within the institution that is associated with it, in case you want to submit to one of those, be sure to check their instructions regarding submissions: (<a href="https://www.researchcatalogue.net/portal/institutions">institutions</a> or <a href="https://www.researchcatalogue.net/portal/journals">journals</a>).</p>
+<p>Expositions can also be submitted to portals (such as journals) for publication. Most of the institutional portals will only accept requests from within the institution that is associated with it. In case you want to submit to an institutional portal, be sure to check their instructions regarding submissions: (<a href="https://www.researchcatalogue.net/portal/institutions">institutions</a> or <a href="https://www.researchcatalogue.net/portal/journals">journals</a>).</p>
 <p>To request publication within a portal, click ☰ -&gt; submit for publication. You can then select “submit for unlimited publication” and choose the portal to which the request is to be sent. After submitting, the exposition will show “in review” status.</p>
 <p>While the exposition is “in review” state it can no longer be edited. The portal admin or editor will contact you regarding the reviewing process. The portal admin can unlock the exposition by putting it “in revision”, or rejecting the publication request. In the first case you or the admin can lock it again, in the second case you will have to resubmit it using the normal method.</p>
 <p>After the portal admin accepts the publication request, you will receive a message and the content of the exposition will be premanently locked.</p>
