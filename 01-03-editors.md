@@ -7,7 +7,8 @@
   
 There are four types of editors in RC: 
 
-- **graphical/block** editor
+- **graphical** editor
+- **block** editor
 - **text-based** editor 
 - **HTML** import
 
