@@ -12,10 +12,10 @@ There are four types of editors in RC:
 - **text-based** editor 
 - **HTML** import
 
-Both the **graphical** and **text-based editor** are supported by all portals, the **HTML** based editor may not be accepted by some journals.
+The **graphical**, **block** and **text-based editor** are supported by all portals, the **HTML** based editor may not be accepted by some journals.
 
 When creating a new exposition you are asked to choose a format to
-use. Graphical and block are part of the same format and can be mixed,
+use. Graphical and block pages are part of the same format and can be mixed,
 but text and HTML are separate formats. It is therefore important to
 make the right choice for a particular project at the outset.
  
