@@ -8,11 +8,11 @@
 
 ## Editor Basics
 
-When you open the editor you will see math-paper like area in the center, this is called the grid. 
+When you open the editor you will see math-paper like area in the center. This is called the grid. 
 Content is added by dragging-and-dropping "tools" from the toolbar onto the grid. You can preview what the exposition looks like to the reader by clicking the "preview" button:
-<img src="images/eye_metro.svg" class="icon">. This preview button is located at the top right.
+<img src="images/eye_metro.svg" class="icon">This preview button is located at the top right.
 
-The position of content in graphical expositions is determined by the author and absolute. This implies:
+The position of content in graphical expositions is determined by the author and is always absolute. This implies:
 
 * Tools are not positioned relative to each other, (re)moving one will not affect the others.
 * The canvas size is unlimited: it will grow automatically when you add tools.
@@ -20,7 +20,7 @@ The position of content in graphical expositions is determined by the author and
 * Layout will not change depending on the screensize of the viewer (content is not ["responsive"](https://en.wikipedia.org/wiki/Responsive_web_design) ).
 
 All of the above results in the graphical editor being most suitable
-for non-linear layouts. For simpler expositions, it can be worthwhile to consider using the text based editor ( see [choosing an
+for non-linear layouts. For simpler expositions, it can be worthwhile to consider using the block editor or the text based editor ( see [choosing an
 editor](https://guide.researchcatalogue.net/#choosing-an-editor) ).
 
 On the right you will find the content manager, consisting of four tabs:
@@ -28,8 +28,8 @@ On the right you will find the content manager, consisting of four tabs:
 | Tab                                                 | Function:                                |
 | --------------------------------------------------- | ---------------------------------------  |
 | [overview](#overview-1)                             | map and list overview                    |
-| [media](#simple-media)                              | view the previously uploaded media files |
-| [footnotes](#footnotes-and-popovers)                | footnotes                                |
+| [media](#simple-media)                              | view previously uploaded media files     |
+| [footnotes](#footnotes-and-popovers)                | manage footnotes                         |
 | [pages](https://guide.researchcatalogue.net/#pages) | manage pages                             |
 
 ## Adding a Tool
@@ -44,7 +44,7 @@ Tools can be resized by clicking and dragging the green borders with the mouse.
 
 Tools can be rotated by clicking and dragging the yellow dot.
 
-The size of the current weave will automatically grow when tools are added.
+The size of the current weave will automatically grow when tools are added or dragged over the current limits.
 
 <a id="block-editor"></a>
 
@@ -53,14 +53,19 @@ The size of the current weave will automatically grow when tools are added.
 ![block editor](images/block-editor.png "block editor")
 
 The _block editor_ is a recently added feature to the graphical editor
-of the RC. It allows the author the same tools as the existing
-graphical editor, but instead of positioning content absolutely (using
-x,y coordinates), content is structured as a list of rows and
-columns. The width of the columns is defined as percentages of the
-readers' screen size. The positioning of content vertically is also
-relative: the bottom of the previous tool determines where the next
-one starts, like lego bricks. This (nowadays common) strategy is also
-known as [responsive web
+of the RC. It allows the author to use the same tools as the graphical
+editor, but instead of positioning content with static pixel positions
+and dimensions, you build your page from a simple list of blocks. 
+
+The blocks themselves can be split into 1 or more columns. The width
+of the columns is defined as percentages of the readers' screen size.
+
+An important aspect (and advantage) is that vertical position of
+blocks is relative: the bottom of the previous tool determines where
+the next one starts, so the blocks are stitched together end to end,
+never overlapping.
+
+Using relative sizes like this is often called [responsive web
 design](https://en.wikipedia.org/wiki/Responsive_web_design).
 
 ### When to use
@@ -82,24 +87,25 @@ The block editor is less suited for:
 Certain tools (Sync, Shape) for example, can only be used in graphical
 pages, although more will become available in the future.
 
-The __block editor__ provides functionality similar to __text-based
-editor__ (which is also responsive), but the difference is that you
-can more easily create horizontal rows of content and the editing is
-drag-and-drop instead of markdown, using the same tools as the normal
-editor.  This also means that both type of page can be used in a
-single exposition, so it can be easier to switch.
+
+The __block editor__ provides functionality similar to __text-based editor__ 
+(which is also responsive), but the
+difference is that you can more easily create horizontal rows of
+content and the editing is drag and drop, using the same tools as the graphic editor.
+This also means that both type of page can be used in a single exposition.
 
 ### Basic usage
 
-You can choose the __block editor__ when creating a new exposition or when
-creating a new page within an exisiting exposition, through the pages tab.
+You can choose the block editor when creating a new exposition or when
+creating a new page within an existing exposition.
+
 
 A block page is organized as a list of boxes which are called
 __rows__. A row is created by clicking the black __+__ at the bottom of the previous block.
 
 ![creating a new column](images/create_block.png "image of how to create a block")
 
-You can then choose a certain column layout for this block:
+You can then choose a column layout for this block:
 
 ![column layout options](images/choose_layout.png "picking a layout")
 
@@ -127,26 +133,45 @@ You can change the layout, move or delete the row by using the black controls on
 ### Editing
 
 You can move tools by dragging and dropping them from one cell to the
-other.  Dropped tools will never replace tools, they will insert at
+other. Dropped tools will never replace tools, they will insert at
 the bottom of the current cell.
 
-### Viewing 
+You can also move an entire row by dragging it from the "compass" icon
+visible at the top right corner of a row.
+
+### Hyperlinking / Table of Contents
+
+Because the exact vertical position of tools depends on the width of
+the readers' browsers window, the table of content works slightly
+different in pages created with the block editor. Instead of linking
+to an X, Y position, you can link to specific tool in your page. The
+tools can be named by double clicking them and opening the "common"
+tab. You can also use the overview tab to view a list of all used
+tools in the current page.
+
+tip: you can also use this method of tool linking in graphical pages now!
+
+
+### Viewing
 
 On screens that are very narrow, the content will automatically break
 into a single list again, without objects next to each other.
 
 ### Future
 
-It will become possible to make two versions of the same content, a 2d
-graphic and a 1d block like layout. This way the exposition content can
+It will become possible to make two versions of the same content, a 2D
+graphic and a linear block-like layout. This way the exposition content can
 automatically select the right format for the screen it is being
-consumed on.
+viewed on.
 
 
 ## Tools in detail
 
-### Context Menu
+Note: The tools are described as they work in the graphical editor. When using the 
+block editor, some of the tools are not available or there may be limitations 
+in tool options.
 
+### Context Menu
 
 <div class="small_image">
 ![context menu location](images/position-context-menu.png "context menu location")
@@ -219,7 +244,7 @@ The issue is easily avoided by keeping to this rule: always start a new text too
 
 ### Scrollbars
 
- If the text within a text tool is longer than the tool height, a scrollbar will appear and part of the text is cutoff. Therefore (especially when copying from external editors) it is important to check that the tool has a large enough size (unless you specifically want a scrollbar).
+If the text within a text tool is longer than the tool height, a scrollbar will appear and part of the text is cutoff. Therefore (especially when copying from external editors) it is important to check that the tool has a large enough size (unless you specifically want a scrollbar).
 
 ### Style
 
@@ -230,7 +255,7 @@ See [style options](#style-options).
 If a text is longer than its frame on the weave, a scrollbar is
 generated automatically. You can control the visibility of the
 scrollbar in __options__. The default setting is *automatic*. Be
-careful setting this to __never__: if a text  tool is too small to display all
+careful setting this to __never__: if a text tool is too small to display all
 the text, it will be impossible for the reader to see all the text.
 
 ### History
@@ -271,9 +296,9 @@ The top right button opens the editor in fullscreen. Note: you will have to exit
 
 A few tips:
 
-* Make sure the toolsize matches the length of the text within. If the text is too long, it will result in __scrollbars__.
+* Make sure the tool size matches the length of the text within. If the text is too long, it will result in __scrollbars__.
 
-* It is possible to add pictures or even iframes, but it is not recommended in most situations. Preferably media is added to the catalogue using the appropriate tools, to avoid the of risk external content going missing when it is removed by the original source.
+* It is possible to add pictures or even iframes within the text, but it is not recommended in most situations. Preferably media is added to the catalogue using the appropriate tools, to avoid the of risk external content going missing when it is removed by the original source.
 
 * Be careful making very large texts within a single HTML tool, this may result in unexpected overlap when your exposition is viewed with another browser. 3 or 4 paragraphs per tool is a good average. If you do make a large HTML tool, keep a large margin at the bottom bordor.
 
@@ -664,6 +689,8 @@ only the selected media files will be played back.
 
 ## Shape Tool
 
+(Not available in the block editor)
+
 The Shape tool is designed for placing simple graphic elements
 such as arrows and lines in your exposition. You can generate forms to
 structure your layout or to help navigation. You can create
@@ -677,6 +704,7 @@ shape. By clicking and dragging the yellow point you can rotate an element.
 
 ## Note Tool
  
+(Not available in the block editor)
 
 The note tool allows you to organize your work on RC, comment on
 sections, and communicate with co-authors. Drag the note icon from the
@@ -717,6 +745,8 @@ using "restore deleted tools" in the commands.
 
 
 ## Embed tool
+
+(Not available in the block editor)
 
 The embed tool allows the integration of external content, such as
 videos or sounds, into RC expositions. Currently, the RC supports the

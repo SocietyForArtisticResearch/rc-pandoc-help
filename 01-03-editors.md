@@ -25,29 +25,29 @@ set the position of each element in the page. This makes it easy to
 have non-linear formats or presentations in which the media, such as
 images, video and audio files, are as important, if not more
 important, as the text. The editor works by dragging and
-dropping. There is no predefined style or template and its possible to
+dropping. There is no predefined style or template and it's possible to
 have the reader go through the content in a non-linear
 fashion. However, a consequence of absolutely positioning all elements
 is that the exposition cannot adjust to the size of a particular
 device, that is, these expositions are not
 ["responsive"](https://en.wikipedia.org/wiki/Responsive_web_design). If
 you want readers to be able to read your exposition on mobile device
-the text-based editor may be more suitable for your project.
+the block editor or the text-based editor may be more suitable for your project.
 
-The [**block editor**](#block-editor), is using the same tools and
+The [**block editor**](#block-editor), uses the same tools and
 drag-and-drop interface as the graphical editor, but positioning is
 relative and the result is
 ["responsive"](https://en.wikipedia.org/wiki/Responsive_web_design). It
-can be chosen when creating a new page within an exposition.  Instead
-of an absolute grid, it uses a row and column structure. It is
+can be chosen when creating a new page within an exposition. Instead
+of an absolute grid, the block editor uses a row and column structure. It is
 suitable for dealing with pages that have a lot of "inline" content,
-where media is inserted into blocks of text, or media has to be
+where media is inserted between or beside blocks of text, or media has to be
 positioned in relationship to certain elements in a text. It is less
 suitable for diagrams, maps or overlayed materials. Expositions can
 combine both "graphical" and "block" pages in a single exposition.
 
 The **text-based**, is a completely separate editor, which is
-documented [here](#text-based-editor).  The editor is designed for
+documented [here](#text-based-editor). The editor is designed for
 writing (and importing) texts, while supporting the embedding of
 media. The input is plain text, which is translated into HTML. The
 author can express the structure of the text using
@@ -67,22 +67,22 @@ For users that need more customization, there is an option to [import static HTM
 whole. The RC does not provide editors for HTML, so for that option an
 external editor is to be used. JavaScript is not supported.
 
-Finally, there is an option to import an Research Video, from 
+Finally, there is an option to import a Research Video, from 
 https://www.zhdk.ch/forschungsprojekt/research-video--549545
 
 
 ## Comparison of RC Exposition Formats
 
-| Graphical format  														| Text-based | Block |
-|-----------------------------------|----------------|----------------------|
-| non-linear                                        | linear | linear |
-| page can have any dimension                        | vertical collumn | rows and columns |
-| static                              |  responsive    | responsive |
-| slideshow, 3d-object, synchronized playback of different media | limited to images, video, audio & pdf | no shapes, sync |
-| similar to Powerpoint or Dreamweaver												| similar to a blog post | normal website layout |
-| only editable in RC											| input is plain text, can be imported and exported to different formats  | only editable in RC |
-| can exist of multiple pages and mixed with block format | single page | can exist of multiple pages and mixed with graphical format |
-| position-based links | table of content generated from headers | tool based links |
-| drag and drop, mouse based       | Expositions are written by typing | drag-and-drop, mouse based |
-| reviewers can leave comments and notes       | no commenting functionality | no commenting (but this is planned!) |
+| Graphic 														| Block | Text-based |
+|-----------------------------------|----------------|----------------|
+| non-linear                        | linear                 | linear |
+| page can have any dimension       | vertical column with rows                | vertical column |
+| static                            |  responsive      |  responsive    |
+| slideshow, 3d-object, synchronized playback of different media | limited to images, video, audio & pdf | limited to images, video, audio & pdf |
+| similar to Powerpoint or Dreamweaver												| similar to a structured blog post | similar to a blog post |
+| only editable in RC											| only editable in RC											| input is plain text, can be imported and exported to different formats  |
+| can have multiple pages | can have multiple pages | single page |
+| position and tool-based links | tool-based links | table of content generated from headers |
+| drag and drop, mouse based       | drag and drop, mouse based       | Expositions are written by typing |
+| reviewers can leave comments and notes       | no commenting functionality | no commenting functionality |
 

@@ -11,7 +11,7 @@ referring specifically to the appearing popover window.  (There is a
 tutorial video explaining the footnote workflow on the
 [RC Video Tutorials page](https://www.researchcatalogue.net/view/273532/273533))
 These are displayed when the RC user reading the exposition clicks the
-footnote link or, depending on the settings, when he or she mouse the
+footnote link or, depending on the settings, when moving the
 mouse pointer over the link. This functionality makes it possible to
 create footnotes in texts, but also create popovers of any size
 containing RC objects of any type. There are a number of different
@@ -36,10 +36,10 @@ dialog window. In this window one can set:
 * The type of the popover. This can be:
   + A new popover.
   + The copy of an existing popover.
-  + A simple text popover. A small text box appears which facilitates the creation of footnotes and other popovers containing only a short amount of text. The text can be entered here directly upon creation   without the need to further edit the popover and adjust its size. 
+  + A simple text popover. A small text box appears which facilitates the creation of footnotes and other popovers containing only a short amount of text. The text can be entered here directly upon creation without the need to further edit the popover and adjust its size. 
 ![Footnote dialog window](images/footnote_dia.png)
 
-Finally, click "Add Footnote" to confirm and create the footnote, which will subsequently appear in the list of footnotes on the left side of the screen. 
+Finally, click "Add Footnote" to confirm and create the footnote, which will subsequently appear in the list of footnotes on the right side of the screen. 
 
 
 ![Preview of a footnote](images/footnote_preview.png)
@@ -53,7 +53,7 @@ All footnotes are listed in the "Footnotes" tab on the right hand side.
 There are three icons displayed on the top of the list. The first icon
 opens the footnote workspace editor where you can edit the content of
 the footnote, the second icon opens a window which allows editing the
-title, size, and styling of the footnote.  One can leave the footnote
+title, size, and styling of the footnote. One can leave the footnote
 weave editor by clicking the link "back to main weave" displayed to the left
 of the main tab. (see image).
 
@@ -68,8 +68,9 @@ When you are done editing: you can return to your main weave through the link in
 If you need to change the screen position or display settings of an existing footnote, the best way is:  
 
 1. Go to the Footnote tab.
-2. Click the little blanc page icon next to the footnote you want to change.
-3. Go to the settings tab
+2. Click the footnote you want to change.
+3. Click Edit Settings ("pen") icon.
+4. Go to the options tab.
 
 ### Auto-Numbered Footnotes
 
@@ -79,7 +80,7 @@ Instead of using text as footnote links it is also possible to use numbered link
 
 The numbering starts at 1 and encompasses all text and HTML objects on the weave. Numbering is performed by object and proceeds from the top and left to the bottom and right of the page. 
 
-Be aware that automatic numbering does not depend on creation order, it only depends on x and y position of the tools. This means that if the notes (1,2, 3 etc..) are in a vertical column, for example:
+Be aware that automatic numbering does not depend on creation order, it only depends on x and y position of the tools. This means that if the notes (1,2,3 etc..) are in a vertical column, for example:
 
 <figure>
 <img class="portrait-image" src="images/footnotes_align_correct.png" title="image demonstrating incorrect allignment will result in incorrect numbering" alt=""><figcaption>Footnote numbering in correctly vertically-aligned tools</figcaption>
@@ -91,7 +92,7 @@ When the tools are lined up like this, footnotes are correctly numbered. However
 <img class="portrait-image" src="images/footnotes_alignment.png" title="image demonstrating incorrect allignment will result in incorrect numbering" alt=""><figcaption>Incorrect auto-numbering in non-aligned tools</figcaption>
 </figure>
 
-Then rc will automatically number the notes in 2 first than 1 than 3. So in this case, it is very important to have the text tools exactly at the same x position (through right click -> style tab you can check this most easily).
+Then RC will automatically number the notes in 2 first, then 1, then 3. In this case, it is very important to have the text tools exactly at the same x position (through right click -> style tab you can check this most easily).
 
 ### Pictures 
 

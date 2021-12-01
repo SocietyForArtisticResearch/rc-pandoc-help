@@ -12,27 +12,27 @@ These are the three options to make something visible to others:
 
 <p class="red">An important feature of __publication__ in the RC, is
 that it is __permanent__. This means that once an exposition is
-published, content will be locked forever. The idea behind this, is
+published, content will be locked forever. The idea behind this is
 that the content of published expositions can be safely referenced by
-others, without risk of linking to something that has changed or
-dissapeared.</p>
+others without risk of linking to something that has changed or
+disappeared.</p>
 
 ## Collaborating on Research
 
 The Research Catalogue allows you to work together on a research
-exposition with mulltiple users. This is called collaboration.
-  
+exposition with multiple users. This is called collaboration.
+ 
 There are 3 types of collaborators:
   
-- *co-author* : the collaborator is considered a co-author of the
+- *co-author* : The collaborator is considered a co-author of the
   research and will be shown in the author list of the research
   exposition.
-- *contributor* : this type of collaborator has the same rights but
+- *contributor* : This type of collaborator has the same rights but
   won't feature as co-author of your exposition. An example of a
-  contributor might be a graphical designer helping with the layout of
+  contributor might be a graphic designer helping with the layout of
   your exposition without having any involvement with the research
   itself.
-- *supervisor* : can view an exposition and leave comments. The
+- *supervisor* : The collaborator can view an exposition and leave comments. The
   supervisor will also be mentioned in the metadata.
 
 ### Adding a Collaborator
@@ -47,7 +47,7 @@ of your research at the top of the editor.
 ![Location of the collaboration dialog](images/collaborate_1.png "image showing the menu icon")
 
 Choose __'collaboration'__, search for the user you want to cooperate
-with and add her or him by clicking on their name.
+with and add the collaborator by clicking on their name.
 
 
 ![Inviting a supervisor by typing it into the supervisor
@@ -56,9 +56,9 @@ another user as supervisor")
 
 The users that were added will show up as a list below the
 field. After clicking submit, collaborators will receive an invitation
-from you in their message-box which they can accept or decline. When
+from you in their RC message-box which they can accept or decline. When
 accepting the invitation, the collaborator will have access to your
-exposition workspace and he will be able to edit it.
+exposition workspace and will be able to edit it.
 
 ### Removing a Collaborator
 
@@ -69,17 +69,17 @@ the removal).
 
 ![Collaboration tab](images/collaborate_2.png "Collaboration tab")
 
-Note: If a users name in the list is enclosed in brackets ( [ name ]
+Note: If a user's name in the list is enclosed in brackets ( [ name ]
 ), it means that the invitation is sent successfully, but has not been
-accepted yet by the receiver.
+yet accepted by the receiver.
 
 ### Communication with Collaborators
 
 While collaborating on an exposition, there are several ways of
-communicating with each other
+communicating with each other:
 
-* __Using the note tool__ Notes are the RC equivalent of yellow post
-	it notes. You can simply drag one from the toolbar onto the
+* __Using the note tool__ Notes are the RC equivalent of yellow paper notes.
+	You can simply drag one from the toolbar onto the
 	exposition workspace. See also the note tool help.
 
 * __Send collaboration message__ You can send a direct text message to
@@ -130,21 +130,25 @@ Independent of the above choices there is a check box:
   link. Only people that have the link can view the object. This is
   useful for sharing with readers without an RC account, by turning
   the option on and mailing them the link.
+  
+A common use is to keep the exposition private but share the link with
+a few persons, via e-mail for example. Note that even if you tick
+the link share box, you still need to apply this change by using the
+"submit" button. Remember to copy the link first.
 
-Link share can be combined with any of the other sharing modes
-(private, RC users, limited to portal, public). An exposition can for
-example be shared within a portal but simultaniously be accessible
-through the "secret" link.
+Link share can be combined with any of the other sharing modes (private,
+RC users, limited to portal, public). An exposition can for example be
+shared within a portal but simultaneously be accessible through the "secret" link.
 
 ![sharing menu dialog](images/sharing-options.png "image showing sharing options")  
 
 ## Publication
 
 __Publication__, is permanent. This means that once an exposition is
-published, all content will be locked. The idea behind this, is that
+published, all content will be locked. The idea behind this is that
 the content of published expositions can be safely referenced by
-others, without risk of linking to something that has changed or
-dissapeared. You can self-publish an exposition, or request
+others without risk of linking to something that has changed or
+disappeared. You can self-publish an exposition, or request
 publication with one of the portals. Please consult the portal pages:
 ([institutions](https://www.researchcatalogue.net/portal/institutions)
 or [journals](https://www.researchcatalogue.net/portal/journals)) to
@@ -163,8 +167,8 @@ the exposition link as a reference).
 
 Expositions can also be submitted to portals (such as journals) for
 publication. Most of the institutional portals will only accept
-requests from within the institution that is associated with it, in
-case you want to submit to one of those, be sure to check their
+requests from within the institution that is associated with it. In
+case you want to submit to an institutional portal, be sure to check their
 instructions regarding submissions:
 ([institutions](https://www.researchcatalogue.net/portal/institutions)
 or [journals](https://www.researchcatalogue.net/portal/journals)).

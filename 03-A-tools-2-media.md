@@ -79,7 +79,7 @@ works in the past you will find them under sets as well.
 ## Import Word documents using Simple Media upload
 
 It is possible to upload docx/odt/LaTeX documents and have the content
-automatically be turned into HTML tools and image tools.
+automatically turned into HTML tools and image tools.
 
 To convert a document, open the Simple Media Tab and upload it in the
 "document" section of the upload dialog. It may take a few moments to
@@ -92,29 +92,28 @@ media upload button")
 doc upload section")
 
 Once converted, the document will show up as a folder within your
-simple media.  You can drag the elements from this folder to their
-final desired location in the exposition and resize them to the size
-you desire.
+simple media. You can drag the elements from this folder to a desired
+location in the exposition, resize and further adjust them.
 
 To ensure maximum compatibility with RC fonts and styling, text-editor
 specific styling is automatically filtered, but the inner structure of
-the text is maintained.  This includes: paragraphs, headers, bold,
-italics, footnotes, illustrations & tables.  Footnotes are also
+the text is maintained. This includes: paragraphs, headers, bold,
+italics, footnotes, illustrations & tables. Footnotes are also
 converted into RC Footnotes/Popovers. Afterwards, one can use raw CSS
-(also see below for more details) to add styling again, without the
+(see below for more details) to add styling again, without the
 need to style each structural element individually. It may thus still
 be necessary to import certain elements by hand after the import.
 
 The document is split at illustrations, or after a significant amount
-of text.  This to avoid extremely long text tools, which result in
+of text. This to avoid extremely long text tools, which result in
 problems between browsers and are harder to handle in the graphical
 editor. The splitting should also make it easier to restructure the
 document a bit to a more fitting layout to the RC. Because of the
 graphic and non-linear nature of RC expositions, a 1 on 1 import does
-not make so much sense.  If your documentation requires a more
+not make so much sense. If your documentation requires a more
 traditional text-based layout (think article/blog post), it may be
-better to use the text-based editor, which also supports importing
-from external text editors.
+better to use the block editor or the text-based editor, which also
+supports importing from external text editors.
 
 ### Important note regarding styling:
 
@@ -149,8 +148,8 @@ New pages are by default *private*, they have to be explicitely added
 to the [table of content](#table-of-content "table of content") to be
 visible (or by making a [hyperlink](#hyperlinking) to the page in your
 own content). The order of pages cannot be changed in the pages list,
-but it can in the table of contents. The page will automatically
-change size based on the content.
+but this can be done in the table of contents. The exposition
+page will automatically change size based on the content.
 
 ### Entry page 
 
@@ -167,13 +166,13 @@ meta-data -->
 the page settings")]
 
 In the page settings dialog, you can change the meta data of the page
-and control the appearance.  It is opened by clicking the pencil
+and control the page appearance. It is opened by clicking the pencil
 button in the bar.
 
 ### Page settings - Meta : title, description and iframe field
 
 * __Page title__\ Set a title for the page. This title can be
-overriden in the [table of content](#table-of-content), so the reader
+overridden in the [table of content](#table-of-content), so the reader
 sees a different one. This can be useful if you need to keep track of
 different versions of pages.
 
@@ -181,7 +180,7 @@ different versions of pages.
 visible to the author and collaborators on the exposition.
 
 * __Iframe field__\ Replace the entire page by an external website by
-means of a URL.  There are a few requirements to the URL for this to
+means of a URL. There are a few requirements to the URL for this to
 work:
 
 	* For reasons of security, the website needs to be configured to
@@ -204,18 +203,17 @@ work:
 
 Here one can change:
 
-* __margin__: If set, it will make the exposition as if is seen
+* __margin__: If set, it will make the exposition as if seen
   through a smaller window.
-* __padding__: Padd extra space on the content itself (for example if
+* __padding__: Pad extra space on the content itself (for example if
   you set top and left to 100, it will create extra space on the top
   and left). In other words, this makes the exposition canvas itself
   larger.
-* __background__: change the color or set an image as background.
-* __links__: change the default color for all hyperlinks within the
+* __background__: Change the color or set an image as background.
+* __links__: Change the default color for all hyperlinks within the
   page. One can set seperate colors for links the user visited.
-* __footnote__: The color of footnote/popover links same as links, but
-  then for links of footnotes/popovers.
-* __raw css__: apple your own CSS rules to the page, see below
+* __footnote__: The color of footnote/popover links works the same way as with links, but for links of footnotes/popovers.
+* __raw css__: apply your own CSS rules to the page, see below
 
 ## raw CSS
   
