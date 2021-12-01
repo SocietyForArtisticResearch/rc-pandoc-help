@@ -52,45 +52,47 @@ The size of the current weave will automatically grow when tools are added.
 
 ![block editor](images/block-editor.png "block editor")
 
-The _block editor_ is a recently added feature to the graphical editor of the
-RC. It allows the author the same tools as the existing graphical
-editor, but instead of positioning content absolutely (using 2d
-coordinates), content is structured as a list of rows and columns. The
-positioning of content is relative: the bottom of the previous tool
-determines where the next one starts, like lego bricks. Because there
-are no absolute positions, the display of the content can be optimized
-for the screen size of the reader. This strategy is also known as
-[responsive web
+The _block editor_ is a recently added feature to the graphical editor
+of the RC. It allows the author the same tools as the existing
+graphical editor, but instead of positioning content absolutely (using
+x,y coordinates), content is structured as a list of rows and
+columns. The width of the columns is defined as percentages of the
+readers' screen size. The positioning of content vertically is also
+relative: the bottom of the previous tool determines where the next
+one starts, like lego bricks. This (nowadays common) strategy is also
+known as [responsive web
 design](https://en.wikipedia.org/wiki/Responsive_web_design).
 
 ### When to use
 
 The block editor is most suitable for:
 
-* exposition content that needs to be readable on a phone
+* exposition content that you want to be readable on all screens.
 * expositions where the content forms a block:
   - text with inline media
   - text with media that should be next to a certain position in the text
 
 The block editor is less suited for:
 
+* free-form layouts
 * diagrams
 * maps
 * timelines
 
 Certain tools (Sync, Shape) for example, can only be used in graphical
-pages, since they do not make much sense in a block page.
+pages, although more will become available in the future.
 
-The __block editor__ provides functionality similar to __text-based editor__ 
-(which is also responsive), but the
-difference is that you can more easily create horizontal rows of
-content and the editing is drag and drop, using the same tools as the normal editor.
-This also means that both type of page can be used in a single exposition.
+The __block editor__ provides functionality similar to __text-based
+editor__ (which is also responsive), but the difference is that you
+can more easily create horizontal rows of content and the editing is
+drag-and-drop instead of markdown, using the same tools as the normal
+editor.  This also means that both type of page can be used in a
+single exposition, so it can be easier to switch.
 
 ### Basic usage
 
-You can choose the block editor when creating a new exposition or when
-creating a new page within an exisiting exposition.
+You can choose the __block editor__ when creating a new exposition or when
+creating a new page within an exisiting exposition, through the pages tab.
 
 A block page is organized as a list of boxes which are called
 __rows__. A row is created by clicking the black __+__ at the bottom of the previous block.

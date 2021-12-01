@@ -73,16 +73,16 @@ https://www.zhdk.ch/forschungsprojekt/research-video--549545
 
 ## Comparison of RC Exposition Formats
 
-| Graphical format  														| Text-based |
-|-----------------------------------|----------------|
-| non-linear                                        | linear |
-| page can have any dimension                        | vertical collumn |
-| static                              |  responsive    |
-| slideshow, 3d-object, synchronized playback of different media | limited to images, video, audio & pdf |
-| similar to Powerpoint or Dreamweaver												| similar to a blog post |
-| only editable in RC											| input is plain text, can be imported and exported to different formats  |
-| can exist of multiple pages | single page |
-| position-based links | table of content generated from headers |
-| drag and drop, mouse based       | Expositions are written by typing |
-| reviewers can leave comments and notes       | no commenting functionality |
+| Graphical format  														| Text-based | Block |
+|-----------------------------------|----------------|----------------------|
+| non-linear                                        | linear | linear |
+| page can have any dimension                        | vertical collumn | rows and columns |
+| static                              |  responsive    | responsive |
+| slideshow, 3d-object, synchronized playback of different media | limited to images, video, audio & pdf | no shapes, sync |
+| similar to Powerpoint or Dreamweaver												| similar to a blog post | normal website layout |
+| only editable in RC											| input is plain text, can be imported and exported to different formats  | only editable in RC |
+| can exist of multiple pages and mixed with block format | single page | can exist of multiple pages and mixed with graphical format |
+| position-based links | table of content generated from headers | tool based links |
+| drag and drop, mouse based       | Expositions are written by typing | drag-and-drop, mouse based |
+| reviewers can leave comments and notes       | no commenting functionality | no commenting (but this is planned!) |
 

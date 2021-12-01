@@ -380,57 +380,69 @@ A <strong>title</strong> and <strong>abstract</strong> are obligatory.</li>
 <p>For users that need more customization, there is an option to <a href="#html-import">import static HTML</a> website as a whole. The RC does not provide editors for HTML, so for that option an external editor is to be used. JavaScript is not supported.</p>
 <p>Finally, there is an option to import an Research Video, from https://www.zhdk.ch/forschungsprojekt/research-video–549545</p>
 <h2 id="comparison-of-rc-exposition-formats">Comparison of RC Exposition Formats</h2>
-<table>
+<table style="width:100%;">
 <colgroup>
-<col style="width: 68%" />
-<col style="width: 31%" />
+<col style="width: 47%" />
+<col style="width: 21%" />
+<col style="width: 30%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Graphical format</th>
 <th>Text-based</th>
+<th>Block</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>non-linear</td>
 <td>linear</td>
+<td>linear</td>
 </tr>
 <tr class="even">
 <td>page can have any dimension</td>
 <td>vertical collumn</td>
+<td>rows and collumns</td>
 </tr>
 <tr class="odd">
 <td>static</td>
+<td>responsive</td>
 <td>responsive</td>
 </tr>
 <tr class="even">
 <td>slideshow, 3d-object, synchronized playback of different media</td>
 <td>limited to images, video, audio &amp; pdf</td>
+<td>no shapes, sync</td>
 </tr>
 <tr class="odd">
 <td>similar to Powerpoint or Dreamweaver</td>
 <td>similar to a blog post</td>
+<td>normal website layout</td>
 </tr>
 <tr class="even">
 <td>only editable in RC</td>
 <td>input is plain text, can be imported and exported to different formats</td>
+<td>only editable in RC</td>
 </tr>
 <tr class="odd">
-<td>can exist of multiple pages</td>
+<td>can exist of multiple pages and mixed with block format</td>
 <td>single page</td>
+<td>can exist of multiple pages and mixed with graphical format</td>
 </tr>
 <tr class="even">
 <td>position-based links</td>
 <td>table of content generated from headers</td>
+<td>tool based links</td>
 </tr>
 <tr class="odd">
 <td>drag and drop, mouse based</td>
 <td>Expositions are written by typing</td>
+<td>drag-and-drop, mouse based</td>
 </tr>
 <tr class="even">
 <td>reviewers can leave comments and notes</td>
 <td>no commenting functionality</td>
+<td>no commenting (but this is planned!)</td>
 </tr>
 </tbody>
 </table>
@@ -596,11 +608,11 @@ For more info on specific tools, see [workspace](#research-catalogue-workspace-t
 <figure>
 <img src="images/block-editor.png" title="block editor" alt="block editor" /><figcaption aria-hidden="true">block editor</figcaption>
 </figure>
-<p>The <em>block editor</em> is a recently added feature to the graphical editor of the RC. It allows the author the same tools as the existing graphical editor, but instead of positioning content absolutely (using 2d coordinates), content is structured as a list of rows and columns. The positioning of content is relative: the bottom of the previous tool determines where the next one starts, like lego bricks. Because there are no absolute positions, the display of the content can be optimized for the screen size of the reader. This strategy is also known as <a href="https://en.wikipedia.org/wiki/Responsive_web_design">responsive web design</a>.</p>
+<p>The <em>block editor</em> is a recently added feature to the graphical editor of the RC. It allows the author the same tools as the existing graphical editor, but instead of positioning content absolutely (using x,y coordinates), content is structured as a list of rows and columns. The width of the columns is defined as percentages of the readers’ screen size. The positioning of content vertically is also relative: the bottom of the previous tool determines where the next one starts, like lego bricks. This (nowadays common) strategy is also known as <a href="https://en.wikipedia.org/wiki/Responsive_web_design">responsive web design</a>.</p>
 <h3 id="when-to-use">When to use</h3>
 <p>The block editor is most suitable for:</p>
 <ul>
-<li>exposition content that needs to be readable on a phone</li>
+<li>exposition content that you want to be readable on all screens.</li>
 <li>expositions where the content forms a block:
 <ul>
 <li>text with inline media</li>
@@ -609,14 +621,15 @@ For more info on specific tools, see [workspace](#research-catalogue-workspace-t
 </ul>
 <p>The block editor is less suited for:</p>
 <ul>
+<li>free-form layouts</li>
 <li>diagrams</li>
 <li>maps</li>
 <li>timelines</li>
 </ul>
-<p>Certain tools (Sync, Shape) for example, can only be used in graphical pages, since they do not make much sense in a block page.</p>
-<p>The <strong>block editor</strong> provides functionality similar to <strong>text-based editor</strong> (which is also responsive), but the difference is that you can more easily create horizontal rows of content and the editing is drag and drop, using the same tools as the normal editor. This also means that both type of page can be used in a single exposition.</p>
+<p>Certain tools (Sync, Shape) for example, can only be used in graphical pages, although more will become available in the future.</p>
+<p>The <strong>block editor</strong> provides functionality similar to <strong>text-based editor</strong> (which is also responsive), but the difference is that you can more easily create horizontal rows of content and the editing is drag-and-drop instead of markdown, using the same tools as the normal editor. This also means that both type of page can be used in a single exposition, so it can be easier to switch.</p>
 <h3 id="basic-usage">Basic usage</h3>
-<p>You can choose the block editor when creating a new exposition or when creating a new page within an exisiting exposition.</p>
+<p>You can choose the <strong>block editor</strong> when creating a new exposition or when creating a new page within an exisiting exposition, through the pages tab.</p>
 <p>A block page is organized as a list of boxes which are called <strong>rows</strong>. A row is created by clicking the black <strong>+</strong> at the bottom of the previous block.</p>
 <figure>
 <img src="images/create_block.png" title="image of how to create a block" alt="creating a new column" /><figcaption aria-hidden="true">creating a new column</figcaption>
