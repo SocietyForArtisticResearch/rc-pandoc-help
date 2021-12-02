@@ -4,10 +4,14 @@ The RC profile page is both the central hub for your activities on the
 RC and a public presentation of your research activities. The RC
 allows you to create a detailed public profile containing biographical
 data, information on projects and events as well as a list of your RC
-objects such as media sets and expositions. The profile is divided into two
-sections, the upper sections contains an artist biography as well as
-information of research interests and the lower part, which is titled
-"Research" contains a list of RC works and exposition.
+objects such as media sets and expositions. The profile is divided
+into two sections, the upper sections contains an artist biography as
+well as information of research interests and the lower part, which is
+titled "Research" contains a list of RC media sets and expositions.
+
+Reviewers will also see the headers "Exposition Reviewing" or
+"Application Reviewing", containing links to the expositions they have
+been assigned to.
 
 ## Profile Section
 
@@ -56,34 +60,13 @@ that you are member of the portal before you are able to submit an
 application for a program.
 
 In most cases however, it is the task of the portal admin to make you
-a member of their portal, most portals do theirfore not allow users to
+a member of their portal, most portals do therefore not allow users to
 request membership themselves.
 
 Click edit to ask for a request to become a portal member, or remove
 yourself from a portal.
 
 ## Research Section
-
-### Grouping
-
-When you create a new work or exposition the newly created objects
-appear in default groupings ("Sets" and "Expositions").  By using the
-"add grouping" button you can create custom groupings. You can arrange
-objects according to freely created categories.
-
-To add a new group click "add grouping" and enter the name of the
-grouping. You can sort your objects within a group, arrange the groups
-themselves and move object between groups via drag and drop. Click and
-drag a grouping to change the order of the groups. On the right-hand
-side of a grouping's title, there are a series of icons
-displayed. Here you can edit and delete the grouping and control its
-public visibility (using the circle icon).
-
-Only custom grouping can be deleted. If you have only one grouping
-containing content, its title will not be shown on your public
-profile. Empty groups will also not be displayed on your public
-profile page.
- 
 
 ### Create Exposition
 
@@ -97,38 +80,30 @@ by clicking the title of your research (at the top of you screen).
 
 There are three types of exposition on the RC:
 
-* [Graphical/Block](#graphical-editor---workspace "graphical editor documentation")
+* [Graphical/Block](#graphical-editor---workspace "graphical editor
+  documentation")
 * [Text-based](#text-based-editor "text-based editor documentation")
 * [HTML-based](#html-import "html import documentation")
 
-*(There is also a fourth type, __Research Video__,
-which at the moment is only available to members of the ZHDK portal.)*
+*(There is also a fourth type, __Research Video__, which at the moment
+is only available to members of the ZHDK portal.)*
 
-For a description of the differences, please consult [editor comparison section](#comparison).
+For a description of the differences, please consult [editor
+comparison section](#comparison).
 
 ![create exposition](images/add-research-dialog.png "image showing the
 add research dialog")
 
 ### Add Work
 
-Works are an older feature, which has now been replaced by media sets through the [media repository](#media-repository).
-If you had created works previously, you can still edit or remove them.
+Works are an older feature, which has now been replaced by media sets
+through the [media repository](#media-repository).  If you had created
+works previously, you can still edit or remove them.
 
 ### Add Project 
 
 Projects were part of an external import of data, they are no longer
 available for users now.
-
-### Visibility Of Groupings
-
-You can decide if you want a grouping to be visible in your public
-profile.
-
-By default, new groupings are visible in your profile as soon as they
-contain an RC object. To hide groupings from your public profile click
-the small circle icon on the right hand side of the grouping's
-name. If the circle is thin, the grouping will not be shown on your
-public profile.
 
 ### Open Exposition
 
@@ -192,16 +167,6 @@ information may be reduced or even hidden. Sizing objects differently
 allows to focus a reader's attention to important objects as well as
 to improve the overall readability of your profile page.
 
-Four layout-templates are possible:
-
-1. tall and across both columns
-
-2. tall but only one column wide
-
-3. short and only one column wide, the smalles possible size
-
-4. short and across both columns
-
 ## Manage versions
 
 It is possible to create a snapshot of your exposition, which you can
@@ -249,7 +214,8 @@ the original published exposition.
 This dialog can be opened by __☰ > edit details__ or clicking the
 title of the exposition in the workspace editor.
 
-![Edit research dialog, showing meta page](images/edit-research.png "image showing edit research dialog")
+![Edit research dialog, showing meta page](images/edit-research.png
+"image showing edit research dialog")
 
 * __Meta data__ change the __title__, __date__, __abstract__, __keywords__, __affiliation__ and __external link__ fields for your exposition.  
 A __title__ and __abstract__ are obligatory.
@@ -276,7 +242,41 @@ to navigate between pages.  See [table-of-content](#table-of-content).
   page. This page is shown when somebody clicks the title of the
   research on your profile.
 
+### Grouping
 
+When you create a set or exposition the new objects will appear in
+default groupings ("Sets" and "Expositions"). If you are invited to
+one by another RC user, they will appear under "Expositions
+(collaborated).
+
+To add a new group click [ add grouping ] and enter the name of the
+grouping. You can sort your objects within a group, arrange the groups
+themselves and move object between groups via drag and drop. Click and
+drag a grouping itself to change the order of the groups.
+
+On the right-hand side of a grouping's title, there are a series of
+icons displayed. Here you can edit and delete the grouping and control
+its public visibility (using the circle icon).
+
+Only custom grouping can be deleted. If you have only one grouping
+containing content, its title will not be shown on your public
+profile. Empty groups will also not be displayed on your public
+profile page.
+
+### Cleaning up cluttered profiles:
+
+You can delete expositions you have created by clicking ☰ -> delete
+exposition. Expositions which are in review or published cannot be
+deleted.
+
+If you are co-author, contributor or supervisor of an exposition, you
+can "leave collaboration" to remove the exposition from your profile.
+
+You can open / close groupings by clicking the small triangle on the
+left of an exposition.  You can also make the box of an exposition
+smaller by clicking ☰ -> change layout. It can also be easier to get
+an overview by using your browsers zoom (ctrl/cmd + ctrl/cmd -). 
+You can return to default zoom level with ctrl/cmd 0.
 
 
  
