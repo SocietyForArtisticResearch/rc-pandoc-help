@@ -75,15 +75,33 @@ Because the text-based and graphical formats are completely different,
 you can only change the editor type the moment you create a new
 exposition.
 
-Portal admins can select any of their own expositions to become a template for their portal users, by going to the "template" tab in their [portal settings](#portal-settings-screen).
+Portal admins can select any of their own expositions to become a
+template for their portal users, by going to the "template" tab in
+their [portal settings](#portal-settings-screen).
 
 ## Editor
 
-The left hand side is where you can edit your text. The editor uses [Markdown](#markdown "link to markdown docs"), which is a lightweight, human-friendly [markup language](https://en.wikipedia.org/wiki/Lightweight_markup_language). Because Markdown is expressed as plain text, you cannot directly change the styling of the text (font-size, color etc.. are edited in [style](#edit-style) ), but you can express the structure/markup of your text. See [Markdown](#markdown "more about markdown") for a brief overview.
+The left hand side is where you can edit your text. The editor uses
+[Markdown](#markdown "link to markdown docs"), which is a lightweight,
+human-friendly [markup
+language](https://en.wikipedia.org/wiki/Lightweight_markup_language). Because
+Markdown is expressed as plain text, you cannot directly change the
+styling of the text (font-size, color etc.. are edited in
+[style](#edit-style) ), but you can express the structure/markup of
+your text. See [Markdown](#markdown "more about markdown") for a brief
+overview.
 
-By default the editor uses colors to show the Markdown elements in your text, but you can also choose "plain txt" which allows your browsers spellchecker to work. [^1].
+By default the editor uses colors to show the Markdown elements in
+your text, but you can also choose "plain txt" which allows your
+browsers spellchecker to work. [^1].
 
 [^1]: It is not possible to have both at the same time.
+
+## Pages / table of contents
+
+The text based editor is limited to single page articles.
+Headers marked with `#` will be included in the "contents" menu
+automatically.
 
 ## Previews
 
@@ -95,19 +113,25 @@ screen. For a full view preview, use the eye button in the toolbar.
 
 ### Upload media
 
-To add new media, click upload media. After the upload finishes, the media edit dialog opens. This allow you to edit its metadata, size and to insert the media at the current cursor position.
+To add new media, click upload media. After the upload finishes, the
+media edit dialog opens. This allow you to edit its metadata, size and
+to insert the media at the current cursor position.
 
-If you want to insert previously used media, you can use the "media button" in the [toolbar](#toolbar).
+If you want to insert previously used media, you can use the "media
+button" in the [toolbar](#toolbar).
 
 ## Media list
 
-All media that you uploaded will appear in the "media list", where they can be edited or deleted.
+All media that you uploaded will appear in the "media list", where
+they can be edited or deleted.
 
-![The media list](images/media-list-elm.png "image showing media list")
+![The media list](images/media-list-elm.png "image showing media
+list")
 
 ### Editing media 
 
-From within the media-list, if you click [__edit__], you will be able to change the __name__, __metadata__ and display of a media file.
+From within the media-list, if you click [__edit__], you will be able
+to change the __name__, __metadata__ and display of a media file.
 
 * name (also used for the tag)
 * change the way the files is displayed (size, float left/right)
@@ -119,67 +143,92 @@ Using the buttons in the list itself:
 * remove the object from your exposition
 * insert the object in the current position in the text.
 
-![The media edit dialog](images/edit-media-elm.png "image showing the edit media dialog")
+![The media edit dialog](images/edit-media-elm.png "image showing the
+edit media dialog")
 
 ## Insert media
 
-Media is represented on the editor side using a !{*media-name*} tag. 
-The easiest way of inserting such a media tag is throught the [insert media toolbar button](#insert-toolbar-button), which shows a list of available media that can be inserted. Double click any item to insert.
+Media is represented on the editor side using a !{*media-name*} tag.
+The easiest way of inserting such a media tag is throught the [insert
+media toolbar button](#insert-toolbar-button), which shows a list of
+available media that can be inserted. Double click any item to insert.
 
 ![inserting media using the insert button](images/insert-media-elm.png "inserting media using the insert button")
 
-You can also write the media tags directly, for example: to insert a media named "myFile", you can directly write !{myFile}. 
-This !{myFile} tag will be the location in your text where myFile will be inserted.
+You can also write the media tags directly, for example: to insert a
+media named "myFile", you can directly write !{myFile}.  This
+!{myFile} tag will be the location in your text where myFile will be
+inserted.
 
-A __caption text__ can also be included, to get a caption you write ![my caption text]{myFile}.
-The caption text is displayed underneath the media.
+A __caption text__ can also be included, to get a caption you write
+![my caption text]{myFile}.  The caption text is displayed underneath
+the media.
 
 ## Import & export
 
-You can import documents from text editors like Word (.docx), Libre/Open Office (.odt), HTML and several other formats. Not all styling is supported but images, footnotes, tables and most other structural features of the text are.
+You can import content from documents from text editors like Word (.docx),
+Libre/Open Office (.odt), HTML and several other formats. Not all
+styling is supported but images, footnotes, tables and most other
+structural features of the text are. Best results will be achieved if
+the document that is imported has a simple structure. When you import a
+a document, it will not replace the current content, but be appended at 
+the end of your page.
 
 ## Edit style
 
-Text based expositions are styled using CSS (Cascading Style Sheets), which is a standard way of styling web documents.
-The CSS of an exposition can be edited by going to the __style__ tab.
-If you are not familiar with CSS, there is a good introduction here: <https://www.w3schools.com/css/>.
+Text based expositions are styled using CSS (Cascading Style Sheets),
+which is a standard way of styling web documents.  The CSS of an
+exposition can be edited by going to the __style__ tab.  If you are
+not familiar with CSS, there is a good introduction here:
+<https://www.w3schools.com/css/>.
 
-The structure of inserted media is as follows. You can use the outside class (rc-media-123455) to style an individual media element.
+The structure of inserted media is as follows. You can use the outside
+class (rc-media-123455) to style an individual media element.
 
-<code>
-<div class="rcobject small [rcimage/rcpdf/rcvideo/rcaudio] rc-media-[media id]">
-	<figure id="media-1">
-	<img src="...">
-		<figcaption>
-			Caption text, which is taken from the tag -> ![caption text]{media1}
-		</figcaption>
-	</figure>
-</div>
-</code>
+```
+	<div class="rcobject small [rcimage/rcpdf/rcvideo/rcaudio]rc-media-[media id]"> 
+		<figure id="media-1"> <img src="...">
+			<figcaption> Caption text, which is taken from the tag -> ![captiontext]{media1} 
+			</figcaption> 
+		</figure> 
+	</div>
 
-Most templates will provide some basic formatting already, that you can adjust to your needs.
+```
+
+Most templates will provide some basic formatting already, that you
+can adjust to your needs.
 
 ## Toolbar
 
 From left to right:
 
 * H1, H2 & H3 - insert [header](#headers) formatting
-* B / I - insert [__bold__ (strong) and italic (_emphasis_)](#strong-emphasis)
-* <img class="icon" src="images/icons/list-unordered.svg" title="icon" alt="list formatting button"> - [Unordered list / bullet point](#lists) formatting
-* <img class="icon" src="images/icons/list-ordered.svg" title="icon" alt="list formatting button"> - [Ordered list / Numbered list](#lists) formatting
-* <img class="icon" src="images/icons/link-intact.svg" title="icon" alt="hyperlink formatting"> - Insert [hyperlink](#links) formatting
-* <img class="icon" src="images/icons/double-quote-sans-left.svg" title="icon" alt="quotation"> - Quotation
-* __\*__ -  Insert [footnote](#footnotes) notation
-* <img id="insert-toolbar-button" class="icon" src="images/icons/file-media.svg"> - Insert Media from media list
+* B / I - insert [__bold__ (strong) and italic
+  (_emphasis_)](#strong-emphasis)
+* <img class="icon" src="images/icons/list-unordered.svg" title="icon"
+  alt="list formatting button"> - [Unordered list / bullet
+  point](#lists) formatting
+* <img class="icon" src="images/icons/list-ordered.svg" title="icon"
+  alt="list formatting button"> - [Ordered list / Numbered
+  list](#lists) formatting
+* <img class="icon" src="images/icons/link-intact.svg" title="icon"
+  alt="hyperlink formatting"> - Insert [hyperlink](#links) formatting
+* <img class="icon" src="images/icons/double-quote-sans-left.svg"
+  title="icon" alt="quotation"> - Quotation
+* __\*__ - Insert [footnote](#footnotes) notation
+* <img id="insert-toolbar-button" class="icon"
+  src="images/icons/file-media.svg"> - Insert Media from media list
 * <img class="icon" src="images/icons/undo.svg"> - Undo/Redo
-* txt - Switch to plain text mode (browser can provide spellchecker in this mode)
-* <img class="icon" src="images/icons/screen-full.svg"> - Fullscreen mode (hides preview)
+* txt - Switch to plain text mode (browser can provide spellchecker in
+  this mode)
+* <img class="icon" src="images/icons/screen-full.svg"> - Fullscreen
+  mode (hides preview)
 
 ## Markdown
 
-Markdown is a human-friendly way of writing HTML webpages without using code. 
-Markdown is written as plain text (like you would write on a typewriter), 
-that is translated into HTML for you.
+Markdown is a human-friendly way of writing HTML webpages without
+using code.  Markdown is written as plain text (like you would write
+on a typewriter), that is translated into HTML for you.
 
 By surrounding your words with a few special characters you can inform markdown which styling you want it to use.  
 
@@ -189,89 +238,86 @@ For example:
 *italic* = `*italic*`   
 __bold__ = `__bold__`   
 
-Instead of typing these characters, you can also select a piece of text and push the desired __style button__ on top of the editor. This will insert the correct Markdown notation for you.
+Instead of typing these characters, you can also select a piece of
+text and push the desired __style button__ on top of the editor. This
+will insert the correct Markdown notation for you.
 
 ### Paragraphs 
 
-When two blocks of text are separated by an empty line, it starts a new paragraph. 
+When two blocks of text are separated by an empty line, it starts a
+new paragraph.
 
 __example a)__ __an empty line starts a new paragraph:__
 
-<pre>
-a paragraph
-some text
-and some other text
+<pre> a paragraph some text and some other text
 
-another paragraph
-</pre>
+another paragraph </pre>
 
 _results in:_
 
-<p class="bg-red extra-space">a paragraph some text and some other text</p>
-<p class="bg-blue">another paragraph</p>
+<p class="bg-red extra-space">a paragraph some text and some other
+text</p> <p class="bg-blue">another paragraph</p>
 
 
-__example b)__ __if lines are not separated by an empty line, they are combined:__
+__example b)__ __if lines are not separated by an empty line, they are
+combined:__
 
-<pre>
-This text 
-will be joined together
-</pre>
+<pre> This text will be joined together </pre>
 
 _results in:_
 
-<span class="bg-red">This text </span><span class="bg-blue">will be joined together</span>
+<span class="bg-red">This text </span><span class="bg-blue">will be
+joined together</span>
 
 __You can force a newline by:__
 
 * putting two spaces at the end of a line
 * putting an `\` character at the end of a line
 
-__example c)__ __two spaces at the end tells markdown to keep the newline__
+__example c)__ __two spaces at the end tells markdown to keep the
+newline__
 
-<pre>
-This line has two spaces at the end__
-and it thus keeps the newline.
-</pre>
+<pre> This line has two spaces at the end__ and it thus keeps the
+newline.  </pre>
 
 _results in:_
 
-<span class="bg-red">This line has two spaces at the end  </span><br>
+<span class="bg-red">This line has two spaces at the end </span><br>
 <span class="bg-blue">and it thus keeps the newline.</span>
 
 __example d)__ __a newline can also be kept by appending a backslash__
 
-<pre> 
-The same for the backslash\
-also does the trick!
-</pre>
+<pre> The same for the backslash\ also does the trick!  </pre>
 
 _results in:_
  
-<span class="bg-red">The same for the backslash\ </span> <br>
-<span class="bg-blue">also does the trick!</span>
+<span class="bg-red">The same for the backslash\ </span> <br> <span
+class="bg-blue">also does the trick!</span>
 
   
 ### Headers 
-Headers are defined by using one or more \"#\" in front of the header name:
+Headers are defined by using one or more \"#\" in front of the header
+name:
 
-`# header 1`<br> 
-`## header 2`<br>
-`### header 3`<br> 
+`# header 1`<br> `## header 2`<br> `### header 3`<br>
 
-There are six levels of headers. Header level 1, 2 and 3 (`#`,`##`,`###`) are automatically included in the __contents__ menu, for easy navigation for the reader. 
+There are six levels of headers. Header level 1, 2 and 3
+(`#`,`##`,`###`) are automatically included in the __contents__ menu,
+for easy navigation for the reader.
 
-An alternative way of writing headers is by putting ===== or --- below you header text.
+An alternative way of writing headers is by putting ===== or --- below
+you header text.
 
 `Header 1`  
-`========` 
+`========`
 
 `Header 2`  
 `----------`
 
 ### Lists
  
-To get a bullet point list, write * before each item. Before the first item, keep an empty line.
+To get a bullet point list, write * before each item. Before the first
+item, keep an empty line.
 Thus, when you write:  
 
     * my first point
@@ -284,33 +330,38 @@ it will result in
 * which has
 * three items
 
-To get ordered lists, write a number and a point, 1. , 2. , 3. 
+To get ordered lists, write a number and a point, 1. , 2. , 3.
 
   	1. one
-    2. two 
+    2. two
     3. three
 
 ### Links  
+
 Hyperlinks are written in the following manner:
 `[linktext](http://example.com)`    
 which results in:   
 [linktext](http://example.com)  
 
-You can also use create internal links, called *anchors*.
-The link is made by writing a hashtag (#) before the name of your anchor:
+You can also use create internal links, called *anchors*.  The link is
+made by writing a hashtag (#) before the name of your anchor:
 
 `[link](#your-anchor-id)`
 
-The anchor itself is created like this:
+*note the '#', without this it will not work!*
+
+The anchor (or bookmark) itself is created like this:
 
 `<a id="your-anchor-id"></a>`
 
 
 
+
 ### Footnotes (text based)
 
-The easiest way of inserting a footnote is using the footnote button: [ __\*__ ]. 
-Footnotes consist of two parts, the reference, written like so:
+The easiest way of inserting a footnote is using the footnote button:
+[ __\*__ ].  Footnotes consist of two parts, the reference, written
+like so:
 
 `[^1]`
 
@@ -318,17 +369,15 @@ Then you define the footnote content at the bottom of your text with:
 
 `[^1]: This is my footnote.`
 
-It's content is automatically moved to the bottom of the text. 
-The footnote content is automatically moved to the bottom of the resulting text.
+It's content is automatically moved to the bottom of the text.  The
+footnote content is automatically moved to the bottom of the resulting
+text.
 
  
 ### Quotation
 
-A quotation is inserted by indenting your text with 4 spaces or 1 tab, like so:
-<pre>
-`    quotation`
-`    more quotation`
-</pre>
+A quotation is inserted by indenting your text with 4 spaces or 1 tab,
+like so: <pre> ` quotation` ` more quotation` </pre>
 
 Quotations are not automatically formatted (they keep their newlines).
 
@@ -337,21 +386,23 @@ Quotations are not automatically formatted (they keep their newlines).
 Tables are written like this:
 
 <pre>
-| Name    | Age | Species |
+| Name | Age | Species |
 |---------|-----|---------|
-| Harry   | 23  | Human   |
-| Gerhard | 77  | Parrot  |
-| Judith  | 6   | Cat     |
-</pre>
+| Harry | 23 | Human |
+| Gerhard | 77 | Parrot |
+| Judith | 6 | Cat | </pre>
 
-| Name    | Age | Species |
+| Name | Age | Species |
 |---------|-----|---------|
-| Harry   | 23  | Human   |
-| Gerhard | 77  | Parrot  |
-| Judith  | 6   | Cat     |
+| Harry | 23 | Human |
+| Gerhard | 77 | Parrot |
+| Judith | 6 | Cat |
 
-You may also use [HTML tables](https://www.w3schools.com/html/html_tables.asp).
-There are also online tools that help you generate [either](https://www.tablesgenerator.com/markdown_tables) of [these](https://www.google.com/search?q=convert+excel+to+html+table)
+You may also use [HTML
+tables](https://www.w3schools.com/html/html_tables.asp).  There are
+also online tools that help you generate
+[either](https://www.tablesgenerator.com/markdown_tables) of
+[these](https://www.google.com/search?q=convert+excel+to+html+table)
 
 
 

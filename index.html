@@ -23,7 +23,7 @@
 <body>
 <header id="title-block-header">
 <h1 class="title">Research Catalogue Extended Guide</h1>
-<p class="date">December 2021</p>
+<p class="date">January 2022</p>
 </header>
 <nav id="TOC" role="doc-toc">
 <ul>
@@ -105,6 +105,7 @@
 <li><a href="#introduction">Introduction</a></li>
 <li><a href="#creation-and-using-a-template">Creation and using a template</a></li>
 <li><a href="#editor">Editor</a></li>
+<li><a href="#pages-table-of-contents">Pages / table of contents</a></li>
 <li><a href="#previews">Previews</a></li>
 <li><a href="#media-list">Media list</a></li>
 <li><a href="#insert-media">Insert media</a></li>
@@ -650,6 +651,11 @@ For more info on specific tools, see [workspace](#research-catalogue-workspace-t
 <p>You can change the layout, move or delete the row by using the black controls on the right top:</p>
 <figure>
 <img src="images/column_controls.png" title="column controls" alt="column controls" /><figcaption aria-hidden="true">column controls</figcaption>
+</figure>
+<h3 id="optional-breaking-point-for-smaller-screens">Optional breaking point for smaller screens</h3>
+<p>On small screens, a high number of columns can become problematic. For these situations, you can set a breaking point. If the screen width is below this point, any multicolumn row will be displayed as a single column.</p>
+<figure>
+<img src="images/block_breakpoint.png" title="the block breakpoint dialog" alt="The row settings dialog, showing the breaking point dropdown" /><figcaption aria-hidden="true">The row settings dialog, showing the breaking point dropdown</figcaption>
 </figure>
 <h3 id="editing">Editing</h3>
 <p>You can move tools by dragging and dropping them from one cell to the other. Dropped tools will never replace tools, they will insert at the bottom of the current cell.</p>
@@ -1357,6 +1363,8 @@ href="#markdown">markdown</a> notation.</p>
 <h2 id="editor">Editor</h2>
 <p>The left hand side is where you can edit your text. The editor uses <a href="#markdown" title="link to markdown docs">Markdown</a>, which is a lightweight, human-friendly <a href="https://en.wikipedia.org/wiki/Lightweight_markup_language">markup language</a>. Because Markdown is expressed as plain text, you cannot directly change the styling of the text (font-size, color etc.. are edited in <a href="#edit-style">style</a> ), but you can express the structure/markup of your text. See <a href="#markdown" title="more about markdown">Markdown</a> for a brief overview.</p>
 <p>By default the editor uses colors to show the Markdown elements in your text, but you can also choose “plain txt” which allows your browsers spellchecker to work. <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
+<h2 id="pages-table-of-contents">Pages / table of contents</h2>
+<p>The text based editor is limited to single page articles. Headers marked with <code>#</code> will be included in the “contents” menu automatically.</p>
 <h2 id="previews">Previews</h2>
 <p>Here you can see a preview of your exposition.</p>
 <p>Because text based expositions are responsive (react to the size of the window), the result may change based on the width of the screen. For a full view preview, use the eye button in the toolbar.</p>
@@ -1391,32 +1399,34 @@ Using the buttons in the list itself:</li>
 <p>You can also write the media tags directly, for example: to insert a media named “myFile”, you can directly write !{myFile}. This !{myFile} tag will be the location in your text where myFile will be inserted.</p>
 <p>A <strong>caption text</strong> can also be included, to get a caption you write [my caption text]{myFile}. The caption text is displayed underneath the media.</p>
 <h2 id="import-export">Import &amp; export</h2>
-<p>You can import documents from text editors like Word (.docx), Libre/Open Office (.odt), HTML and several other formats. Not all styling is supported but images, footnotes, tables and most other structural features of the text are.</p>
+<p>You can import content from documents from text editors like Word (.docx), Libre/Open Office (.odt), HTML and several other formats. Not all styling is supported but images, footnotes, tables and most other structural features of the text are. Best results will be achieved if the document that is imported has a simple structure. When you import a a document, it will not replace the current content, but be appended at the end of your page.</p>
 <h2 id="edit-style">Edit style</h2>
 <p>Text based expositions are styled using CSS (Cascading Style Sheets), which is a standard way of styling web documents. The CSS of an exposition can be edited by going to the <strong>style</strong> tab. If you are not familiar with CSS, there is a good introduction here: <a href="https://www.w3schools.com/css/" class="uri">https://www.w3schools.com/css/</a>.</p>
 <p>The structure of inserted media is as follows. You can use the outside class (rc-media-123455) to style an individual media element.</p>
-<code>
-<div class="rcobject small [rcimage/rcpdf/rcvideo/rcaudio] rc-media-[media id]">
-<pre><code>&lt;figure id=&quot;media-1&quot;&gt;
-&lt;img src=&quot;...&quot;&gt;
-    &lt;figcaption&gt;
-        Caption text, which is taken from the tag -&gt; ![caption text]{media1}
-    &lt;/figcaption&gt;
-&lt;/figure&gt;</code></pre>
-</div>
-<p></code></p>
+<pre><code>    &lt;div class=&quot;rcobject small [rcimage/rcpdf/rcvideo/rcaudio]rc-media-[media id]&quot;&gt; 
+        &lt;figure id=&quot;media-1&quot;&gt; &lt;img src=&quot;...&quot;&gt;
+            &lt;figcaption&gt; Caption text, which is taken from the tag -&gt; ![captiontext]{media1} 
+            &lt;/figcaption&gt; 
+        &lt;/figure&gt; 
+    &lt;/div&gt;
+</code></pre>
 <p>Most templates will provide some basic formatting already, that you can adjust to your needs.</p>
 <h2 id="toolbar">Toolbar</h2>
 <p>From left to right:</p>
 <ul>
 <li>H1, H2 &amp; H3 - insert <a href="#headers">header</a> formatting</li>
 <li>B / I - insert <a href="#strong-emphasis"><strong>bold</strong> (strong) and italic (<em>emphasis</em>)</a></li>
-<li><img class="icon" src="images/icons/list-unordered.svg" title="icon" alt="list formatting button"> - <a href="#lists">Unordered list / bullet point</a> formatting</li>
-<li><img class="icon" src="images/icons/list-ordered.svg" title="icon" alt="list formatting button"> - <a href="#lists">Ordered list / Numbered list</a> formatting</li>
-<li><img class="icon" src="images/icons/link-intact.svg" title="icon" alt="hyperlink formatting"> - Insert <a href="#links">hyperlink</a> formatting</li>
-<li><img class="icon" src="images/icons/double-quote-sans-left.svg" title="icon" alt="quotation"> - Quotation</li>
+<li><img class="icon" src="images/icons/list-unordered.svg" title="icon"
+alt="list formatting button"> - <a href="#lists">Unordered list / bullet point</a> formatting</li>
+<li><img class="icon" src="images/icons/list-ordered.svg" title="icon"
+alt="list formatting button"> - <a href="#lists">Ordered list / Numbered list</a> formatting</li>
+<li><img class="icon" src="images/icons/link-intact.svg" title="icon"
+alt="hyperlink formatting"> - Insert <a href="#links">hyperlink</a> formatting</li>
+<li><img class="icon" src="images/icons/double-quote-sans-left.svg"
+title="icon" alt="quotation"> - Quotation</li>
 <li><strong>*</strong> - Insert <a href="#footnotes">footnote</a> notation</li>
-<li><img id="insert-toolbar-button" class="icon" src="images/icons/file-media.svg"> - Insert Media from media list</li>
+<li><img id="insert-toolbar-button" class="icon"
+src="images/icons/file-media.svg"> - Insert Media from media list</li>
 <li><img class="icon" src="images/icons/undo.svg"> - Undo/Redo</li>
 <li>txt - Switch to plain text mode (browser can provide spellchecker in this mode)</li>
 <li><img class="icon" src="images/icons/screen-full.svg"> - Fullscreen mode (hides preview)</li>
@@ -1432,13 +1442,9 @@ Using the buttons in the list itself:</li>
 <h3 id="paragraphs">Paragraphs</h3>
 <p>When two blocks of text are separated by an empty line, it starts a new paragraph.</p>
 <p><strong>example a)</strong> <strong>an empty line starts a new paragraph:</strong></p>
-<pre>
-a paragraph
-some text
-and some other text
+<pre> a paragraph some text and some other text
 
-another paragraph
-</pre>
+another paragraph </pre>
 <p><em>results in:</em></p>
 <p class="bg-red extra-space">
 a paragraph some text and some other text
@@ -1447,10 +1453,7 @@ a paragraph some text and some other text
 another paragraph
 </p>
 <p><strong>example b)</strong> <strong>if lines are not separated by an empty line, they are combined:</strong></p>
-<pre>
-This text 
-will be joined together
-</pre>
+<pre> This text will be joined together </pre>
 <p><em>results in:</em></p>
 <p><span class="bg-red">This text </span><span class="bg-blue">will be joined together</span></p>
 <p><strong>You can force a newline by:</strong></p>
@@ -1459,17 +1462,12 @@ will be joined together
 <li>putting an <code>\</code> character at the end of a line</li>
 </ul>
 <p><strong>example c)</strong> <strong>two spaces at the end tells markdown to keep the newline</strong></p>
-<pre>
-This line has two spaces at the end__
-and it thus keeps the newline.
-</pre>
+<pre> This line has two spaces at the end__ and it thus keeps the
+newline.  </pre>
 <p><em>results in:</em></p>
 <p><span class="bg-red">This line has two spaces at the end </span><br> <span class="bg-blue">and it thus keeps the newline.</span></p>
 <p><strong>example d)</strong> <strong>a newline can also be kept by appending a backslash</strong></p>
-<pre> 
-The same for the backslash\
-also does the trick!
-</pre>
+<pre> The same for the backslash\ also does the trick!  </pre>
 <p><em>results in:</em></p>
 <p><span class="bg-red">The same for the backslash </span> <br> <span class="bg-blue">also does the trick!</span></p>
 <h3 id="headers">Headers</h3>
@@ -1494,7 +1492,7 @@ also does the trick!
 </ul>
 <p>To get ordered lists, write a number and a point, 1. , 2. , 3.</p>
 <pre><code>1. one
-2. two 
+2. two
 3. three</code></pre>
 <h3 id="links">Links</h3>
 <p>Hyperlinks are written in the following manner: <code>[linktext](http://example.com)</code><br />
@@ -1502,7 +1500,8 @@ which results in:<br />
 <a href="http://example.com">linktext</a></p>
 <p>You can also use create internal links, called <em>anchors</em>. The link is made by writing a hashtag (#) before the name of your anchor:</p>
 <p><code>[link](#your-anchor-id)</code></p>
-<p>The anchor itself is created like this:</p>
+<p><em>note the ‘#’, without this it will not work!</em></p>
+<p>The anchor (or bookmark) itself is created like this:</p>
 <p><code>&lt;a id="your-anchor-id"&gt;&lt;/a&gt;</code></p>
 <h3 id="footnotes-text-based">Footnotes (text based)</h3>
 <p>The easiest way of inserting a footnote is using the footnote button: [ <strong>*</strong> ]. Footnotes consist of two parts, the reference, written like so:</p>
@@ -1512,20 +1511,16 @@ which results in:<br />
 <p>It’s content is automatically moved to the bottom of the text. The footnote content is automatically moved to the bottom of the resulting text.</p>
 <h3 id="quotation">Quotation</h3>
 A quotation is inserted by indenting your text with 4 spaces or 1 tab, like so:
-<pre>
-`    quotation`
-`    more quotation`
-</pre>
+<pre> ` quotation` ` more quotation` </pre>
 <p>Quotations are not automatically formatted (they keep their newlines).</p>
 <h3 id="tables-markdown">Tables (markdown)</h3>
 <p>Tables are written like this:</p>
 <pre>
-| Name    | Age | Species |
+| Name | Age | Species |
 |---------|-----|---------|
-| Harry   | 23  | Human   |
-| Gerhard | 77  | Parrot  |
-| Judith  | 6   | Cat     |
-</pre>
+| Harry | 23 | Human |
+| Gerhard | 77 | Parrot |
+| Judith | 6 | Cat | </pre>
 <table>
 <thead>
 <tr class="header">
@@ -2072,7 +2067,7 @@ Direct mail support. For instance when the problem concerns personal details of 
 <h1 id="changelog">Changelog</h1>
 <h1 id="in-development">In development</h1>
 <p>For the latest updates on RC development, visit: <a href="https://societyforartisticresearch.github.io/rclogbook/" class="uri">https://societyforartisticresearch.github.io/rclogbook/</a></p>
-<section class="footnotes" role="doc-endnotes">
+<section class="footnotes footnotes-end-of-document" role="doc-endnotes">
 <hr />
 <ol>
 <li id="fn1" role="doc-endnote"><p>It is not possible to have both at the same time.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>

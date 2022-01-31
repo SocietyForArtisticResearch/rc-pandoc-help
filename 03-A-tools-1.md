@@ -130,6 +130,12 @@ You can change the layout, move or delete the row by using the black controls on
 
 ![column controls](images/column_controls.png "column controls")
 
+### Optional breaking point for smaller screens
+
+On small screens, a high number of columns can become problematic. For these situations, you can set a breaking point. If the screen width is below this point, any multicolumn row will be displayed as a single column.
+
+![The row settings dialog, showing the breaking point dropdown](images/block_breakpoint.png "the block breakpoint dialog" )
+
 ### Editing
 
 You can move tools by dragging and dropping them from one cell to the
@@ -156,6 +162,11 @@ tip: you can also use this method of tool linking in graphical pages now!
 
 On screens that are very narrow, the content will automatically break
 into a single list again, without objects next to each other.
+
+
+
+
+
 
 ### Future
 
