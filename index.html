@@ -1439,35 +1439,48 @@ src="images/icons/file-media.svg"> - Insert Media from media list</li>
 <em>italic</em> = <code>*italic*</code><br />
 <strong>bold</strong> = <code>__bold__</code></p>
 <p>Instead of typing these characters, you can also select a piece of text and push the desired <strong>style button</strong> on top of the editor. This will insert the correct Markdown notation for you.</p>
-<h3 id="paragraphs">Paragraphs</h3>
-<p>When two blocks of text are separated by an empty line, it starts a new paragraph.</p>
-<p><strong>example a)</strong> <strong>an empty line starts a new paragraph:</strong></p>
-<pre> a paragraph some text and some other text
-
-another paragraph </pre>
+<h3 id="paragraphs-and-newlines">Paragraphs and newlines</h3>
+<p>When two blocks of text are separated by an empty line, it automatically starts a new paragraph. In the <em>input</em> the position of newlines is shown with “⏎”.</p>
+<hr />
+<p><strong>an empty line starts a new paragraph:</strong></p>
+<p><em>input:</em></p>
+<pre><code>a paragraph some text and some other
+text. a paragraph some text and some other
+text. a paragraph some text and some other
+text. a paragraph some text and some other
+a paragraph some text and some other text⏎
+⏎
+Another paragraph with some text. Another 
+paragraph with some text. Another paragraph 
+with some text. Another paragraph with some 
+text. Another paragraph with some text.⏎ </code></pre>
 <p><em>results in:</em></p>
 <p class="bg-red extra-space">
-a paragraph some text and some other text
+a paragraph some text and some other text. a paragraph some text and some other text. a paragraph some text and some other text. a paragraph some text and some other a paragraph some text and some other text text
 </p>
 <p class="bg-blue">
-another paragraph
+Another paragraph with some text. Another paragraph with some text. Another paragraph with some text. Another paragraph with some text. Another paragraph with some text.
 </p>
-<p><strong>example b)</strong> <strong>if lines are not separated by an empty line, they are combined:</strong></p>
-<pre> This text will be joined together </pre>
+<hr />
+<p><strong>A single newline character is ignored (!)</strong></p>
+<em>input:</em>
+<pre>This text will⏎</pre>
+<pre>be joined together</pre>
 <p><em>results in:</em></p>
 <p><span class="bg-red">This text </span><span class="bg-blue">will be joined together</span></p>
-<p><strong>You can force a newline by:</strong></p>
-<ul>
-<li>putting two spaces at the end of a line</li>
-<li>putting an <code>\</code> character at the end of a line</li>
-</ul>
-<p><strong>example c)</strong> <strong>two spaces at the end tells markdown to keep the newline</strong></p>
-<pre> This line has two spaces at the end__ and it thus keeps the
-newline.  </pre>
+<hr />
+<p><strong>Two spaces at the end of your line will retain the newline:</strong></p>
+<p><em>input</em>:</p>
+<pre>This line has two spaces at the end  ⏎  </pre>
+<pre>and it thus keeps the
+newline.</pre>
 <p><em>results in:</em></p>
-<p><span class="bg-red">This line has two spaces at the end </span><br> <span class="bg-blue">and it thus keeps the newline.</span></p>
-<p><strong>example d)</strong> <strong>a newline can also be kept by appending a backslash</strong></p>
-<pre> The same for the backslash\ also does the trick!  </pre>
+<p><span class="bg-red">This line has two spaces at the end</span><br> <span class="bg-blue">and it thus keeps the newline.</span></p>
+<hr />
+<p><strong>A newline can also be created by ending the line with a “\”:</strong></p>
+<p><em>input:</em></p>
+<pre>The same for the backslash\⏎</pre>
+<pre>also does the trick!</pre>
 <p><em>results in:</em></p>
 <p><span class="bg-red">The same for the backslash </span> <br> <span class="bg-blue">also does the trick!</span></p>
 <h3 id="headers">Headers</h3>

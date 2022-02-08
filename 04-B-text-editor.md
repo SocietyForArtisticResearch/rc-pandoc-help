@@ -242,52 +242,82 @@ Instead of typing these characters, you can also select a piece of
 text and push the desired __style button__ on top of the editor. This
 will insert the correct Markdown notation for you.
 
-### Paragraphs 
+### Paragraphs and newlines
 
-When two blocks of text are separated by an empty line, it starts a
-new paragraph.
+When two blocks of text are separated by an empty line, it automatically starts a
+new paragraph. In the _input_ the position of newlines is shown with "⏎".
 
-__example a)__ __an empty line starts a new paragraph:__
+---
 
-<pre> a paragraph some text and some other text
+__an empty line starts a new paragraph:__
 
-another paragraph </pre>
+_input:_
+```
+a paragraph some text and some other
+text. a paragraph some text and some other
+text. a paragraph some text and some other
+text. a paragraph some text and some other
+a paragraph some text and some other text⏎
+⏎
+Another paragraph with some text. Another 
+paragraph with some text. Another paragraph 
+with some text. Another paragraph with some 
+text. Another paragraph with some text.⏎ 
+```
 
 _results in:_
 
 <p class="bg-red extra-space">a paragraph some text and some other
-text</p> <p class="bg-blue">another paragraph</p>
+text. a paragraph some text and some other
+text. a paragraph some text and some other
+text. a paragraph some text and some other
+a paragraph some text and some other text
+text</p> <p class="bg-blue">
 
+Another paragraph with some text. Another 
+paragraph with some text. Another paragraph 
+with some text. Another paragraph with some 
+text. Another paragraph with some text. </p>
 
-__example b)__ __if lines are not separated by an empty line, they are
-combined:__
+---
 
-<pre> This text will be joined together </pre>
+__A single newline character is ignored (!)__
+
+_input:_
+<pre>This text will⏎</pre>
+<pre>be joined together</pre>
+
 
 _results in:_
 
 <span class="bg-red">This text </span><span class="bg-blue">will be
 joined together</span>
 
-__You can force a newline by:__
+---
 
-* putting two spaces at the end of a line
-* putting an `\` character at the end of a line
+__Two spaces at the end of your line will retain the newline:__
 
-__example c)__ __two spaces at the end tells markdown to keep the
-newline__
+_input_:
 
-<pre> This line has two spaces at the end__ and it thus keeps the
-newline.  </pre>
+<pre>This line has two spaces at the end  ⏎  </pre>
+<pre>and it thus keeps the
+newline.</pre>
 
 _results in:_
 
-<span class="bg-red">This line has two spaces at the end </span><br>
+<span class="bg-red">This line has two spaces at the end</span><br>
 <span class="bg-blue">and it thus keeps the newline.</span>
 
-__example d)__ __a newline can also be kept by appending a backslash__
 
-<pre> The same for the backslash\ also does the trick!  </pre>
+---
+
+__A newline can also be created by ending the line with a "\\":__
+
+_input:_
+
+<pre>The same for the backslash\⏎</pre>
+<pre>also does the trick!</pre>
+
 
 _results in:_
  
