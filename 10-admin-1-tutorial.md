@@ -49,11 +49,14 @@ The author can invite RC users to these roles by going to edit details or clicki
 
 ## Requesting publication
 
-Once the writing is sufficiently progressed, the next step is that the author sents a request to publish the exposition. This is done through the ☰ menu, which is located on the "my profile" in the right bottom corner of the exposition summary. This will open a dialog where he/she can choose to which portal the exposition should be published. Within this dialog the author can also indicate weither the exposition should be published "limited to portal" or "unlimited to portal". Limited to portal means that when the exposition is published, it is only visible to members of the portal.
+Once the writing is sufficiently progressed, the next step is that the
+author sents a request to review the exposition. This is done through
+the ☰ menu, which is located on the "my profile" in the right bottom
+corner of the exposition summary. This will open a dialog where he/she
+can choose in which portal the exposition is to be reviewed and possibly published. 
 
-Important: the choice by the author is only a suggestion, in the end, it will be the portal admin that  decides in which way (limited or unlimited) an exposition is published.
 
-![publication dialog](images/submit-publication2.png "Image showing the publication tab")
+![Exposition submission dialog](images/submit_for_review.png "Dialog for submission for review")
 
 Once the author has done this step, no further changes can be made to the exposition by the author. It will be listed on their profile under the status "in review". 
 
@@ -96,10 +99,53 @@ The reviewers will see a list of expositions that they are reviewers of on top o
 
 ## Final publication or rejection
 
-Once the review process has been completed, the portal can choose to either publish or dismiss the exposition. If the exposition is dismissed, this means that the editing rights are returned to the author. The author can resubmit the same exposition later, at which point the review process starts again. Instead of rejecting, one can also put the exposition ["in revision"](#in-revision "in revision documentation"), which means the author can make changes, while the exposition is still listed on the "reviewing" tab of administration.
+Once the review process has been completed, the portal can choose to
+either publish or dismiss the exposition. If the exposition is
+dismissed, this means that the editing rights are returned to the
+author. The author can resubmit the same exposition later, at which
+point the review process starts again. Instead of rejecting, one can
+also put the exposition ["in revision"](#in-revision "in revision
+documentation"), which means the author can make changes, while the
+exposition is still listed on the "reviewing" tab of administration.
 
-If the exposition is accepted, the exposition will be frozen permanently from further changes. Depending on the portal settings at this point also a DOI will be deposited through cross-ref. Please note that publishing is meant as a one way step, unpublishing is to be used only as a very last resort measure. If one does not expect to have a research be published perminately, it should not be published.
+If the exposition is accepted, the exposition will be frozen
+permanently from further changes. You will need to select a range and
+an issue for the exposition to be published in.
 
-Immediately after publication the exposition will show up on the RC frontpage and visible to any visitor to the RC website (so also non-RC users). It is recommended that keywords are added to publications, so they can more easily be retrieved. Keywords can also be added after publication, on the research list.  If this is not desired, one can also choose to publish an exposition "limited to the portal", this means only members of the portal can see the exposition.
+The range controls to who the exposition will be visible:
+
+| **range**         | **who can see it?**              |
+|-------------------|----------------------------------|
+| Limited to portal | Members of the portal can see it |
+| Unlimited         | All visitors                     |
+| Archived          | Portal admins                    |
+
+
+
+*Tip: When your portal publishes its very first exposition, you will
+first want to create a new issue in the
+[issue](https://www.researchcatalogue.net/admin/issue/list "link to
+admin issue page") page, since all expositions need to be part of an
+issue. The issue's range should match that of the exposition. The
+default range of an issue is unlimited.*
+
+![Dialog for accepting the publication request](accept_request.png "Dialog for accepting the request")
+
+
+Depending on the portal settings at this point also a DOI will be
+deposited through cross-ref. Please note that publishing is meant as a
+one-way step, unpublishing is to be used only as a very last resort
+measure. If one already expects that the exposition will be removed in
+the future, it should not be published. In that case one could better
+return the exposition to the author(s) and have them share it using
+the standard sharing options of the RC.
+
+Immediately after publication the exposition will show up on the RC
+frontpage (in the case its range is Unlimited). It is recommended
+that keywords are added to publications, so they can more easily be
+retrieved. Keywords can also be added after publication, on the
+research list.
+
+
 
 
