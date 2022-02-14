@@ -129,7 +129,7 @@ admin issue page") page, since all expositions need to be part of an
 issue. The issue's range should match that of the exposition. The
 default range of an issue is unlimited.*
 
-![Dialog for accepting the publication request](accept_request.png "Dialog for accepting the request")
+![Dialog for accepting the publication request](images/accept_request.png "Dialog for accepting the request")
 
 
 Depending on the portal settings at this point also a DOI will be
