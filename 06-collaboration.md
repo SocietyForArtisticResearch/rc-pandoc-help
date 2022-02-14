@@ -163,19 +163,18 @@ publicly visible. On publication you will get a (free)
 design, publishing an exposition is not reversible (so others can use
 the exposition link as a reference).
 
-### Submit for Publication
+### Submit for review
 
 Expositions can also be submitted to portals (such as journals) for
-publication. Most of the institutional portals will only accept
-requests from within the institution that is associated with it. In
-case you want to submit to an institutional portal, be sure to check their
-instructions regarding submissions:
+review and publication. Most of the institutional portals will only
+accept requests from within the institution that is associated with
+it. In case you want to submit to an institutional portal, be sure to
+check their instructions regarding submissions:
 ([institutions](https://www.researchcatalogue.net/portal/institutions)
 or [journals](https://www.researchcatalogue.net/portal/journals)).
 
-To request publication within a portal, click ☰ -> submit for
-publication.  You can then select "submit for unlimited publication"
-and choose the portal to which the request is to be sent. After
+To request review within a portal, click ☰ -> submit for review. You
+will be prompted to select to which portal you want to submit. After
 submitting, the exposition will show "in review" status.
 
 While the exposition is "in review" state it can no longer be

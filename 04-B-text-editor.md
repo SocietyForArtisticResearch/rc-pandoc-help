@@ -244,12 +244,36 @@ will insert the correct Markdown notation for you.
 
 ### Paragraphs and newlines
 
-When two blocks of text are separated by an empty line, it automatically starts a
-new paragraph. In the _input_ the position of newlines is shown with "⏎".
+Single newlines are ignored by Markdown, unless:
+
+- are made explicit by adding two spaces 
+- preceded by the __backslash__ character "```\```"
+- there are two newlines, which means there is one empty line.
+
+Below are some examples to illustrate the behaviour.
+In the _input_ the position of newlines is shown with ```⏎```.
 
 ---
 
-__an empty line starts a new paragraph:__
+__A single newline character is ignored (!)__
+
+_input:_
+<pre>This text will⏎</pre>
+<pre>be joined together</pre>
+
+
+_results in:_
+
+<span class="bg-red">This text </span><span class="bg-blue">will be
+joined together</span>
+
+
+---
+
+__An empty line will start a new paragraph__
+
+If you create an empty line, by hitting enter twice ( ⏎⏎ ) , it will
+create a new paragraph in the output.
 
 _input:_
 ```
@@ -263,6 +287,7 @@ Another paragraph with some text. Another
 paragraph with some text. Another paragraph 
 with some text. Another paragraph with some 
 text. Another paragraph with some text.⏎ 
+⏎ 
 ```
 
 _results in:_
@@ -278,20 +303,6 @@ Another paragraph with some text. Another
 paragraph with some text. Another paragraph 
 with some text. Another paragraph with some 
 text. Another paragraph with some text. </p>
-
----
-
-__A single newline character is ignored (!)__
-
-_input:_
-<pre>This text will⏎</pre>
-<pre>be joined together</pre>
-
-
-_results in:_
-
-<span class="bg-red">This text </span><span class="bg-blue">will be
-joined together</span>
 
 ---
 
