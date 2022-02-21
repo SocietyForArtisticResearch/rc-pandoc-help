@@ -103,10 +103,11 @@ be changed at a later point.
 ## Share
  
 __Share__ option can used to control visibility of works and
-expositions for groups of people. By default, your expositions
-are __private__, changing the mode allows others to see your
-work. Unlike __publishing__, you will still be able to change the
-content of an exposition when it is shared.
+expositions for groups of people. By default, your expositions are
+__private__, changing the mode allows others to see your work. Unlike
+__publishing__, you will still be able to change the content of an
+exposition when it is shared. Share settings can not be changed while
+the exposition is in review.
 
 The share option can be found under the object menu (<img
 class="tiny_icon" src="images/menu.png" alt="hamburger menu icon">) of
