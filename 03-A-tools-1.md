@@ -880,6 +880,8 @@ __Sans-serif:__
 - Open Sans
 - Lato
 - PT Sans (Research Catalogue logo uses this)
+- Roboto
+
 
 __Serif:__
 
@@ -889,7 +891,6 @@ __Serif:__
 
 __Monospace:__
 
-- Roboto
 - Courier Prime
 - IBM Plex Mono
 - Roboto Mono
