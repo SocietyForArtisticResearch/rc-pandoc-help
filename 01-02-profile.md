@@ -152,7 +152,7 @@ do not use this option.
   - __HTML:__  
     A complete offline version of the exposition as a folder of HTML
     compressed to a zipfile. It is equivalent to the online version and can be
-    read using any browser, but does not require a internet connection. The
+    read using any browser, but does not require an internet connection. The
     start page is named __index.html__ .
 
   - __PDF:__  

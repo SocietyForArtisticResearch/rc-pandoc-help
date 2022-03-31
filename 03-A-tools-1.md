@@ -894,20 +894,21 @@ __Monospace:__
 - IBM Plex Mono
 - Roboto Mono
 
-If you have older exposition (before 01-04-2022), you will also be able to
-select different fonts. The reason for this is that Research Catalogue allowed
-users to select fonts that were common on Windows and MacOS. The licensing
-around these propietory fonts prevented us from providing it to the user in case
-they did not have it. When a font was not available, the browser would switch to
-an alternative and this resulted in smaller or bigger visual differences and a
-warning message to the user.
+If you have an older exposition (created before April, 2022), you will also be
+able to select additional fonts. The reason for this is that Research Catalogue
+used to allow users to select these in the past. Some of them are from Windows
+while others where only available on MacOS. The licensing around these
+propietory fonts prevented us from providing it in case it was missing from the
+visitors system. When a font was not available locally, the browser would switch
+to an alternative and this resulted in smaller or bigger visual differences and
+a warning message to the user.
 
-The current solution to this problem is that Research Catalogue now provides a set of
-fonts that we can host ourselves. This guarentees that a font can never be missing. To
-ease the switch, we have included replacements that are designed to closely
-match common fonts like Arial, Calibri and Helvetica, so migrating shouldn't
-have too big of an impact. Older expositions will keep their current fonts but
-allow you to also use the new ones. Published expositions expositions cannot be
+The current solution to this problem is that Research Catalogue now provides a
+set of fonts that we can host ourselves. This guarentees that a font chosen in
+the tool can never be missing. To ease the switch, we have included replacements
+that are designed to closely match the common fonts like Arial, Calibri and
+Helvetica and Impact. Older expositions will keep their current fonts but allow
+you to also use the new ones. Published expositions expositions cannot be
 changed, but you can create a new version of the exposition.
 
 In new expositions, the default is to only allow these new fonts:
@@ -947,13 +948,14 @@ you like the result, you can then use the migration option, which can be found
 in the menu: __Options > Edit metadata > compatibility__. 
 
 The font compatibility dialog will automatically detect which fonts are used in
-your exposition. You can then easily select which font you want to have as a
-replacement.
+your exposition. You will then be asked to select a replacement font for each
+one.
 
 ### Safely trying a migration:
 
 If you have a very complex exposition with many tools, we highly recommend to
-first try the font migration on a copy instead of the original (!). You can make a copy by:
+first try the font migration on a copy instead of the original exposition (!).
+You can make a copy by:
 
 1. go to your profile page
 2. click the ☰ -> "manage versions" option on the exposition
