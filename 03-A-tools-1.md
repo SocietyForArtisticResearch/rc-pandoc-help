@@ -911,31 +911,6 @@ Helvetica and Impact. Older expositions will keep their current fonts but allow
 you to also use the new ones. Published expositions expositions cannot be
 changed, but you can create a new version of the exposition.
 
-In new expositions, the default is to only allow these new fonts:
-
-__Sans-serif:__
-
-- Anton (similar to __Impact__)
-- Nimbus Sans L (similar to __Helvetica__)
-- Arimo (similar to __Arial__)
-- Carlito (similar to __Calibri__)
-- Roboto
-- Open Sans
-- Lato
-- PT Sans (Research Catalogue logo uses this)
-
-__Serif:__
-
-- Crimson Pro
-- Libre Baskerville
-- Merriweather
-
-__Monospace:__
-
-- Courier Prime
-- IBM Plex Mono
-- Roboto Mono
-
 ## Migration of fonts in your expositions
 
 In existing expositions (that have not been published), you can replace all
