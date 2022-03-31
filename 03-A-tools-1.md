@@ -241,9 +241,13 @@ If you right-click the text tool, you can find some extra edit options
 under __edit__.  You can also (while hovering over a text tool with
 your mouse) click the (☰) menu icon and choose __edit__.
 
-In comparison to the HTML-tool, the text tool allows you to edit your
-text directly on the page. While the HTML-tool opens a new dialog
-window. If you need more styling options, or want change the HTML source code of text, use the HTML-tool. A text tool can be converted to an HTML-tool via the menu option **convert to HTML tool**.
+In comparison to the HTML-tool, the text tool allows you to edit your text
+directly on the page. While the HTML-tool opens a new dialog window. If you need
+more styling options, or want change the HTML source code of text, use the
+HTML-tool. A text tool can be converted to an HTML-tool via the menu option
+**convert to HTML tool**.
+
+Regarding the availability of typefaces/fonts please read [fonts](#fonts).
 
 ### Placing images on top of text tools
 
@@ -297,7 +301,8 @@ Text is edited in the __media__ tab. You can style your text using the buttons.
 
 To enlarge the palette of text styling options, click on the first
 button, __show/hide toolbars__. Opening it will allow you to insert lists, enumerations, tables,
-citations. 
+citations. Regarding the availability of typefaces/fonts please read [fonts](#fonts).
+
 
 Another commenly used feature is the hyperlink button (it looks like a chain link). This can be used to insert [hyperlinks](https://guide.researchcatalogue.net/#hyperlinking) or [footnotes](https://guide.researchcatalogue.net/#footnotes) into your text.
 
@@ -860,22 +865,50 @@ object are created each time you have clicked outside it (and the
 three animated dots show inside). With the html tool, a version is
 created each time you click submit.
 
-## Fonts 
+<a id="fonts"></a>
 
-In the past, Research Catalogue allowed users to select fonts that were common
-on Windows and OS X computers. Correct rendering of these fonts depended on
-having them available on the readers computer. The RC couldn't serve them to the
-readers computer, since their license status does not allow this. This resulted
-in smaller or bigger visual differences if the user didn't have these fonts
-installed, and a warning message to the user.
+## Fonts (** available 31-03-2022 **)
 
-The solution to this problem is that Research Catalogue now starts providing a
-set of freely licensed fonts, which means the fonts are served with the content,
-so can never be missing. To ease the switch, we have selected replacements that
-are designed to closely match the "classic" fonts, so migrating shouldn't have
-too big of an impact. Older expositions will keep their current fonts but allow
-you to also use the new ones. Published expositions expositions cannot be
-changed, but you could create a new version of the exposition.
+The research catalogue provides the following fonts:
+
+__Sans-serif:__
+
+- Anton (similar to __Impact__)
+- Nimbus Sans L (similar to __Helvetica__)
+- Arimo (similar to __Arial__)
+- Carlito (similar to __Calibri__)
+- Open Sans
+- Lato
+- PT Sans (Research Catalogue logo uses this)
+
+__Serif:__
+
+- Crimson Pro
+- Libre Baskerville
+- Merriweather
+
+__Monospace:__
+
+- Roboto
+- Courier Prime
+- IBM Plex Mono
+- Roboto Mono
+
+If you have older exposition (before 01-04-2022), you will also be able to
+select different fonts. The reason for this is that Research Catalogue allowed
+users to select fonts that were common on Windows and MacOS. The licensing
+around these propietory fonts prevented us from providing it to the user in case
+they did not have it. When a font was not available, the browser would switch to
+an alternative and this resulted in smaller or bigger visual differences and a
+warning message to the user.
+
+The current solution to this problem is that Research Catalogue now provides a set of
+fonts that we can host ourselves. This guarentees that a font can never be missing. To
+ease the switch, we have included replacements that are designed to closely
+match common fonts like Arial, Calibri and Helvetica, so migrating shouldn't
+have too big of an impact. Older expositions will keep their current fonts but
+allow you to also use the new ones. Published expositions expositions cannot be
+changed, but you can create a new version of the exposition.
 
 In new expositions, the default is to only allow these new fonts:
 

@@ -146,10 +146,18 @@ do not use this option.
 * __Manage versions__ create or restore snapshots, see
   [versions](#manage-versions).
 
-* __Export__ this function downloads a zip file, containing a HTML
-  Export of the exposition. These HTML files can be opened on any
-  computer with a browser, also offline. The start page is named
-  __index.html__ .
+* __Export__\
+  allows to export an exposition as either PDF or HTML. 
+  
+  - __HTML:__  
+    A complete offline version of the exposition as a folder of HTML
+    compressed to a zipfile. It is equivalent to the online version and can be
+    read using any browser, but does not require a internet connection. The
+    start page is named __index.html__ .
+
+  - __PDF:__  
+    Alternatively you can select PDF format. Dynamic elements as slideshows, video
+    and audio recordings cannot be included in this format.
 
 * __Delete__ delete an exposition or work from the RC.
 

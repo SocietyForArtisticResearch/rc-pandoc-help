@@ -71,7 +71,7 @@
 <li><a href="#embed-tool">Embed tool</a></li>
 <li><a href="#style-options">Style Options</a></li>
 <li><a href="#history-2">History</a></li>
-<li><a href="#fonts">Fonts</a></li>
+<li><a href="#fonts-available-31-03-2022">Fonts (** available 31-03-2022 **)</a></li>
 <li><a href="#migration-of-fonts-in-your-expositions">Migration of fonts in your expositions</a></li>
 </ul></li>
 <li><a href="#graphical-editor---content-manager-tabs">Graphical Editor - Content Manager / Tabs</a>
@@ -302,7 +302,14 @@ you created in support for your degree. -->
 <li><p><strong>Submit for publication</strong> submit an exposition to a portal for publication.</p></li>
 <li><p><strong>Connect to portal</strong> send a connection request to a portal.</p></li>
 <li><p><strong>Manage versions</strong> create or restore snapshots, see <a href="#manage-versions">versions</a>.</p></li>
-<li><p><strong>Export</strong> this function downloads a zip file, containing a HTML Export of the exposition. These HTML files can be opened on any computer with a browser, also offline. The start page is named <strong>index.html</strong> .</p></li>
+<li><p><strong>Export</strong><br />
+allows to export an exposition as either PDF or HTML.</p>
+<ul>
+<li><p><strong>HTML:</strong><br />
+A complete offline version of the exposition as a folder of HTML compressed to a zipfile. It is equivalent to the online version and can be read using any browser, but does not require a internet connection. The start page is named <strong>index.html</strong> .</p></li>
+<li><p><strong>PDF:</strong><br />
+Alternatively you can select PDF format. Dynamic elements as slideshows, video and audio recordings cannot be included in this format.</p></li>
+</ul></li>
 <li><p><strong>Delete</strong> delete an exposition or work from the RC.</p></li>
 </ul>
 <h3 id="change-layout">Change Layout</h3>
@@ -738,6 +745,7 @@ Delete a tool</p></li>
 <p>It has two states: when it is in <em>active state</em> you can change the text, if you click outside of the tool, you can move the tool and change its size. Double click inside of the tool to start editing the text again. Content is saved as soon as you exit the text editing state.</p>
 <p>If you right-click the text tool, you can find some extra edit options under <strong>edit</strong>. You can also (while hovering over a text tool with your mouse) click the (☰) menu icon and choose <strong>edit</strong>.</p>
 <p>In comparison to the HTML-tool, the text tool allows you to edit your text directly on the page. While the HTML-tool opens a new dialog window. If you need more styling options, or want change the HTML source code of text, use the HTML-tool. A text tool can be converted to an HTML-tool via the menu option <strong>convert to HTML tool</strong>.</p>
+<p>Regarding the availability of typefaces/fonts please read <a href="#fonts">fonts</a>.</p>
 <h3 id="placing-images-on-top-of-text-tools">Placing images on top of text tools</h3>
 <p><strong>Never place other tools (like images) directly on top of long text tools</strong>. Because of small differences in how fonts are displayed within major browsers, and the fixed position of RC tools, this can result in text overflowing into those tools if the reader uses a different browser than the author that made the exposition.</p>
 <p>The issue is easily avoided by keeping to this rule: always start a new text tool below an inline image or tool:</p>
@@ -761,7 +769,7 @@ Delete a tool</p></li>
 </figure>
 <p>Text is edited in the <strong>media</strong> tab. You can style your text using the buttons.</p>
 <p><em>! important: If you copy-paste your text from Word, Pages, LibreOffice, Google Docs or any other text editor, note that not all fonts and styles will show the same on every computer. A safer practice is to import the text without any formatting, and format it within RC. This can be done either by exporting your text as plain text and copy pasting from that version, or importing your document using the <a href="#import-word-documents-using-simple-media-upload">document import</a></em></p>
-<p>To enlarge the palette of text styling options, click on the first button, <strong>show/hide toolbars</strong>. Opening it will allow you to insert lists, enumerations, tables, citations.</p>
+<p>To enlarge the palette of text styling options, click on the first button, <strong>show/hide toolbars</strong>. Opening it will allow you to insert lists, enumerations, tables, citations. Regarding the availability of typefaces/fonts please read <a href="#fonts">fonts</a>.</p>
 <p>Another commenly used feature is the hyperlink button (it looks like a chain link). This can be used to insert <a href="https://guide.researchcatalogue.net/#hyperlinking">hyperlinks</a> or <a href="https://guide.researchcatalogue.net/#footnotes">footnotes</a> into your text.</p>
 <p>The top right button opens the editor in fullscreen. Note: you will have to exit full screen mode to submit your changes, using the same button.</p>
 <figure>
@@ -996,9 +1004,34 @@ total number of images. -->
 <p>It is possible to change the default styling settings for any tool, by double clicking the tool in the toolbar. After the default is changed, every newly created tool will initially use these new settings.</p>
 <h2 id="history-2">History</h2>
 <p>The <em>history tab</em> gives you the posibility to change the content <strong>within the tool</strong> to an older version. The versions of a text object are created each time you have clicked outside it (and the three animated dots show inside). With the html tool, a version is created each time you click submit.</p>
-<h2 id="fonts">Fonts</h2>
-<p>In the past, Research Catalogue allowed users to select fonts that were common on Windows and OS X computers. Correct rendering of these fonts depended on having them available on the readers computer. The RC couldn’t serve them to the readers computer, since their license status does not allow this. This resulted in smaller or bigger visual differences if the user didn’t have these fonts installed, and a warning message to the user.</p>
-<p>The solution to this problem is that Research Catalogue now starts providing a set of freely licensed fonts, which means the fonts are served with the content, so can never be missing. To ease the switch, we have selected replacements that are designed to closely match the “classic” fonts, so migrating shouldn’t have too big of an impact. Older expositions will keep their current fonts but allow you to also use the new ones. Published expositions expositions cannot be changed, but you could create a new version of the exposition.</p>
+<p><a id="fonts"></a></p>
+<h2 id="fonts-available-31-03-2022">Fonts (** available 31-03-2022 **)</h2>
+<p>The research catalogue provides the following fonts:</p>
+<p><strong>Sans-serif:</strong></p>
+<ul>
+<li>Anton (similar to <strong>Impact</strong>)</li>
+<li>Nimbus Sans L (similar to <strong>Helvetica</strong>)</li>
+<li>Arimo (similar to <strong>Arial</strong>)</li>
+<li>Carlito (similar to <strong>Calibri</strong>)</li>
+<li>Open Sans</li>
+<li>Lato</li>
+<li>PT Sans (Research Catalogue logo uses this)</li>
+</ul>
+<p><strong>Serif:</strong></p>
+<ul>
+<li>Crimson Pro</li>
+<li>Libre Baskerville</li>
+<li>Merriweather</li>
+</ul>
+<p><strong>Monospace:</strong></p>
+<ul>
+<li>Roboto</li>
+<li>Courier Prime</li>
+<li>IBM Plex Mono</li>
+<li>Roboto Mono</li>
+</ul>
+<p>If you have older exposition (before 01-04-2022), you will also be able to select different fonts. The reason for this is that Research Catalogue allowed users to select fonts that were common on Windows and MacOS. The licensing around these propietory fonts prevented us from providing it to the user in case they did not have it. When a font was not available, the browser would switch to an alternative and this resulted in smaller or bigger visual differences and a warning message to the user.</p>
+<p>The current solution to this problem is that Research Catalogue now provides a set of fonts that we can host ourselves. This guarentees that a font can never be missing. To ease the switch, we have included replacements that are designed to closely match common fonts like Arial, Calibri and Helvetica, so migrating shouldn’t have too big of an impact. Older expositions will keep their current fonts but allow you to also use the new ones. Published expositions expositions cannot be changed, but you can create a new version of the exposition.</p>
 <p>In new expositions, the default is to only allow these new fonts:</p>
 <p><strong>Sans-serif:</strong></p>
 <ul>
