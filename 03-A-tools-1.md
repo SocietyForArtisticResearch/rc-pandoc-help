@@ -895,6 +895,8 @@ __Monospace:__
 - IBM Plex Mono
 - Roboto Mono
 
+![fonts overview](images/fonts.png "image showing the fonts")
+
 If you have an older exposition (created before April, 2022), you will also be
 able to select additional fonts. The reason for this is that Research Catalogue
 used to allow users to select these in the past. Some of them are from Windows
