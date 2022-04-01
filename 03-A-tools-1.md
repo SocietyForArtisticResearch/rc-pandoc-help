@@ -867,7 +867,7 @@ created each time you click submit.
 
 <a id="fonts"></a>
 
-## Fonts (** available 31-03-2022 **)
+## Fonts
 
 The research catalogue provides the following fonts:
 
