@@ -879,7 +879,7 @@ __Sans-serif:__
 - Carlito (similar to __Calibri__)
 - Open Sans
 - Lato
-- PT Sans (Research Catalogue logo uses this)
+- PT Sans (used in the Research Catalogue logo)
 - Roboto
 
 
