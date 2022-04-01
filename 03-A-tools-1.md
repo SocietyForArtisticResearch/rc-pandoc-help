@@ -899,12 +899,11 @@ __Monospace:__
 
 If you have an older exposition (created before April, 2022), you will also be
 able to select additional fonts. The reason for this is that Research Catalogue
-used to allow users to select these in the past. Some of them are from Windows
-while others where only available on MacOS. The licensing around these
-propietory fonts prevented us from providing it in case it was missing from the
-visitors system. When a font was not available locally, the browser would switch
-to an alternative and this resulted in smaller or bigger visual differences and
-a warning message to the user.
+used to allow users to select these in the past. A majority of these fonts were
+only available in Windows and/or MacOS. The licensing around these propietory
+fonts prevented Research Catalogue from self-hosting them. When a font was not
+available locally, the browser would switch to an alternative and this resulted
+in smaller or bigger visual differences and a warning message to the user.
 
 The current solution to this problem is that Research Catalogue now provides a
 set of fonts that we can host ourselves. This guarentees that a font chosen in
