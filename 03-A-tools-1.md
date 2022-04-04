@@ -869,7 +869,7 @@ created each time you click submit.
 
 ## Fonts
 
-The research catalogue provides the following fonts:
+The research catalogue currently provides the following fonts:
 
 __Sans-serif:__
 
