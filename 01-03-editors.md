@@ -1,8 +1,6 @@
-\<a id="comparison">
+<a id="comparison">&nbsp;</a>
 
 # Choosing an Editor 
-
-</a>
 
   
 There are four types of editors in RC: 

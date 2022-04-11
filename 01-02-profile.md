@@ -9,6 +9,12 @@ into two sections, the upper sections contains an artist biography as
 well as information of research interests and the lower part, which is
 titled "Research" contains a list of RC media sets and expositions.
 
+Only expositions which are [shared](#share "documentation on sharing") or
+[published](#publication "documentation on publication") will be visible to
+others. Aditionaliy, you can (optionally) hide complete groupings of expositions
+through the small dot next to the grouping.
+
+
 Reviewers will also see the headers "Exposition Reviewing" or
 "Application Reviewing", containing links to the expositions they have
 been assigned to.
@@ -21,19 +27,19 @@ You can switch between your profile's editing mode (private) and your
 public profile, which is the profile as other users see it. Click on
 "my profile" for the editing mode and - below your image - click "view
 public profile" to hide all controls, grouping options and private
-research. You can thus control the public visibility of your RC
-objects.
+research. 
 
 ![view public profile](images/view_public_profile.png "view public
 profile")
 
 ### Description 
 
-You can add a short text (for example a biography), that other RC
-users will see when they visit your profile. To edit this text, click
-"edit profile", on your profile page and scroll down. Here you can
-also add a tagline, set your country of residence, and list your
-research interests.
+You can add a short text (for example a biography), that other RC users will see
+when they visit your profile. Here you can also add a tagline, set your country
+of residence, and list your research interests. You can also change the email
+address associated with your RC account that will be used to log in and notify
+you if you have turned on notifications. Click "edit profile" to edit all these
+properties.
 
 ### Uploading a CV
 

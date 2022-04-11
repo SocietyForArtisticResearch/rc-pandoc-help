@@ -279,7 +279,7 @@ See [history](#history).
 
 
 
-## HTML-Tool
+## HTML Tool
 
 The HTML-tool is used for advanced text editing. It is a
 *what-you-see-is-what-you-get* rich text editor. Unlike the text tool,
