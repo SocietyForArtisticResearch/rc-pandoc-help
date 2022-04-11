@@ -11,8 +11,8 @@ titled "Research" contains a list of RC media sets and expositions.
 
 Only expositions which are [shared](#share "documentation on sharing") or
 [published](#publication "documentation on publication") will be visible to
-others. Aditionaliy, you can (optionally) hide complete groupings of expositions
-through the small dot next to the grouping.
+others. Aditionaliy, you can (optionally) hide groupings of expositions through
+the small dot next to the grouping.
 
 
 Reviewers will also see the headers "Exposition Reviewing" or
