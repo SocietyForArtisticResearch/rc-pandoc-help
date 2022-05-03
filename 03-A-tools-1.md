@@ -402,7 +402,7 @@ Please note, you can't change the copyright information in the "edit picture" wi
 
 ## Audio Tool
 
-[> Audio tool tutorial](https://www.researchcatalogue.net/view/249652/249653)
+[> Audio tool tutorial](https://www.researchcatalogue.net/view/273532/273533/1165/1008)
 
 As with the other tools, use the audio tool by dragging and dropping
 the icon from the tool palette onto the weave. A pop-up dialog window
