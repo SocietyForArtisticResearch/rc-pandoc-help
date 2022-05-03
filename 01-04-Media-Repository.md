@@ -101,15 +101,13 @@ following fields:
 The description is not typically displayed for a reader of an
 exposition but allows the author to provide additional information.
 
-<a id="tags">
-
 ### Tags
 
 Tags are meant for personal organization. Typical examples would be
 "todo", "old", "archive", "new", or "in progress". They are private to
 your RC account, so no other users will see them.
 
-<a id="keywords">
+<a id="keywords"></a>
 
 ### Open Keywords
 
@@ -130,7 +128,7 @@ administered and continuously extended by the RC. They are chosen so
 that we can more easily interact with other repositories. They cannot
 be extended by individual users.
 
-<a id="sets">
+<a id="sets"></a>
 
 ### License picker
 
