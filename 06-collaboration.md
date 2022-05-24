@@ -20,7 +20,12 @@ disappeared.</p>
 ## Collaborating on Research
 
 The Research Catalogue allows you to work together on a research
-exposition with multiple users. This is called collaboration.
+exposition with one or more users. This is called collaboration. 
+
+## Realtime collaboration
+
+For pages created with the graphical editor, you will see the edits of the others directly as they are made, in the other editors (block, html or text-based) you will have to refresh your browser tab to see changes. When a tool is being edited by another user, it will get a <span class="blue">blue</span> border.
+When a page is being edited by another user, it will be highlighted in <span class="blue">blue</span>. 
  
 There are 3 types of collaborators:
   
@@ -37,11 +42,10 @@ There are 3 types of collaborators:
 
 ### Adding a Collaborator
 
-An author of an exposition can invite collaborators through the
-collaboration tab of the exposition: click the __menu icon__ (1) and
-__'edit details'__ (2) next to the research on your profile. If you
-are already in the workspace editor, you can also click on the title
-of your research at the top of the editor.
+An author of an exposition can invite collaborators through the collaboration
+tab of the exposition: click the __menu icon__ (1) and __'edit details'__ (2)
+next to the research on your profile. If you are already in the workspace
+editor, you can also use __options__ > __edit details__ to open the same menu.
 
 
 ![Location of the collaboration dialog](images/collaborate_1.png "image showing the menu icon")
@@ -54,18 +58,17 @@ with and add the collaborator by clicking on their name.
 box](images/inviting-supervisor.png "Image showing a user adding
 another user as supervisor")
 
-The users that were added will show up as a list below the
-field. After clicking submit, collaborators will receive an invitation
-from you in their RC message-box which they can accept or decline. When
-accepting the invitation, the collaborator will have access to your
-exposition workspace and will be able to edit it.
+The users that were added will show up as a list below the field. After clicking
+submit, collaborators will receive an invitation from you in their collaboration
+page. In the backlog you can easily find all your past collaboration
+interactions, including links to the expositons & groups that you have been
+invited to.
+
+[Collaboration page](image/collaborations-page.png "image showing the collaborations page")
 
 ### Removing a Collaborator
 
-If you want to remove a collaborator, click the "x" behind their name
-in the field they were added. If you remove a supervisor, the
-supervisor will receive a request to remove them (they have to approve
-the removal).
+If you want to remove a collaborator, click the "x" behind their name in the field they were added. 
 
 ![Collaboration tab](images/collaborate_2.png "Collaboration tab")
 

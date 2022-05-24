@@ -278,15 +278,15 @@ profile page.
 
 ### Cleaning up cluttered profiles:
 
-You can delete expositions you have created by clicking ☰ -> delete
-exposition. Expositions which are in review or published cannot be
-deleted.
+You can delete expositions you have created by clicking ☰ -> delete exposition.
+Expositions which are in review or published cannot be deleted. Please note that
+deleting an exposition is permanent.
 
 If you are co-author, contributor or supervisor of an exposition, you
 can "leave collaboration" to remove the exposition from your profile.
 
 You can open / close groupings by clicking the small triangle on the
-left of an exposition.  You can also make the box of an exposition
+left of the group.  You can also make the box of an exposition
 smaller by clicking ☰ -> change layout. It can also be easier to get
 an overview by using your browsers zoom (ctrl/cmd + ctrl/cmd -). 
 You can return to default zoom level with ctrl/cmd 0.

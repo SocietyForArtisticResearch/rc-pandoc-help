@@ -35,6 +35,8 @@ Published epositions cannot be edited (by definition) and you need to be the aut
 
 Within the workspace view, one can enable one of these two subviews:
 
+
+
 <!-- ### Note view
  
 The note-view is to be used in conjunction with the note-tool of the
