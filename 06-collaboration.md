@@ -20,12 +20,7 @@ disappeared.</p>
 ## Collaborating on Research
 
 The Research Catalogue allows you to work together on a research
-exposition with one or more users. This is called collaboration. 
-
-## Realtime collaboration
-
-For pages created with the graphical editor, you will see the edits of the others directly as they are made, in the other editors (block, html or text-based) you will have to refresh your browser tab to see changes. When a tool is being edited by another user, it will get a <span class="blue">blue</span> border.
-When a page is being edited by another user, it will be highlighted in <span class="blue">blue</span>. 
+exposition with one or more users. This is called collaboration.  
  
 There are 3 types of collaborators:
   
@@ -64,7 +59,7 @@ page. In the backlog you can easily find all your past collaboration
 interactions, including links to the expositons & groups that you have been
 invited to.
 
-[Collaboration page](image/collaborations-page.png "image showing the collaborations page")
+![Collaboration page](images/collaborations_page.png "the collaborations page")
 
 ### Removing a Collaborator
 
@@ -76,10 +71,17 @@ Note: If a user's name in the list is enclosed in brackets ( [ name ]
 ), it means that the invitation is sent successfully, but has not been
 yet accepted by the receiver.
 
+## Realtime collaboration
+
+For pages created with the graphical editor, you will see the edits of the others directly as they are made, in the other editors (block, html or text-based) you will have to refresh your browser tab to see changes. When a tool is being edited by another user, it will get a <span class="blue">blue</span> border.
+When a page is being edited by another user, it will be highlighted in <span class="blue">blue</span>.
+
 ### Communication with Collaborators
 
 While collaborating on an exposition, there are several ways of
 communicating with each other:
+
+* __chat__ In the graphical exposition editor, you can chat with your collaborators.
 
 * __Using the note tool__ Notes are the RC equivalent of yellow paper notes.
 	You can simply drag one from the toolbar onto the

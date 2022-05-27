@@ -25,6 +25,8 @@ There are 5 pages to manage content for portal admins:
 * [__Reviewing__](#reviewing-admin "reviewing")  
   Review process of expositions and objects that are waiting to be published
 
+* [__Groups__](#admin_groups) "groups")
+
 #### Multiple Portals:
 If you are an admin in multiple portals, you can switch between them in the top right corner of the site, through the drop down menu.
 
@@ -255,7 +257,12 @@ In the __issue section__ (between "portal" and "research") of the administration
 
 For the reader, issues can be found through the portals front page.
 
+<a id="admin-groups">
 
+## Groups 
+
+Here portal admins can create, edit and remove groups. A group can only be
+deleted if it no longer has users or expositions connected to it.
 
 
 
