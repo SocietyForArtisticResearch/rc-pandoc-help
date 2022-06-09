@@ -922,7 +922,8 @@ for convenience we also provide an automatic option.
 If you have a simple exposition, it is recommended to first do some small test
 switching the font in a selection of tools within your exposition by hand. If
 you like the result, you can then use the migration option, which can be found
-in the menu: __Options > Edit metadata > compatibility__. 
+in the menu: __Options > Edit metadata > compatibility__. Due to technical limitations, 
+this option is not available if the exposition is "in revision" or "in review". If you want to apply the font migration to an exposition in such state, please follow the instructions __"Safely trying a migration"__ below.
 
 The font compatibility dialog will automatically detect which fonts are used in
 your exposition. You will then be asked to select a replacement font for each

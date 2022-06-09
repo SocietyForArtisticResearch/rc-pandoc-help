@@ -6,7 +6,7 @@
 
 ---
 title: Research Catalogue Extended Guide
-date: May 2022
+date: June 2022
 ---
 
 <!--[pdf version](RC-extended-guide.pdf "pdf extended guide pdf version")  -->
@@ -18,8 +18,36 @@ date: May 2022
 // this is a little script for the navigation
 
 window.onload = function ( ) {
+	let createAnchorHelpers = function ( ) {
+		let anchorHelper = function (headerElement) {
+			let anchor_element = document.createElement("a");
+			anchor_element.href = "#" + headerElement.id;
+			anchor_element.classList.add("headerAnchor");
+			let icon = document.createElement("img");
+			icon.src = "octigon_link.svg";
+			icon.classList.add("icon");
+			icon.width = "16"
+			icon.height = "16"
+			icon.alt = "anchor"
+			icon.ariaHidden = "true";
+			anchor_element.appendChild(icon);
+			headerElement.prepend(anchor_element);
+			anchor_element.style.visibility = "hidden";
+
+			
+			headerElement.onmouseover = () => { anchor_element.style.visibility = "visible" };
+			headerElement.onmouseleave = () => { anchor_element.style.visibility = "hidden" };
+
+
+		}
+		let allHeaders = document.querySelectorAll("h1,h2,h3,h4,h5,h6");
+		allHeaders.forEach(anchorHelper);
+	}
+
 	var dynamicMenu = function( ) {
 		let isMenuOpen = false;
+
+		
 
 		let toggleNav = function ( ) { 
 			isMenuOpen = !isMenuOpen;
@@ -52,6 +80,8 @@ window.onload = function ( ) {
 	}
 
 	dynamicMenu( );
+	createAnchorHelpers();
+	
 }
 
 </script>

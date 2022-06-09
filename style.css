@@ -149,6 +149,11 @@ figcaption {
     font-style: italic;
 }
 
+.headerAnchor {
+    margin-left: -26px;
+    padding-right: 10px;
+}
+
 @media print {
 
     h1,
