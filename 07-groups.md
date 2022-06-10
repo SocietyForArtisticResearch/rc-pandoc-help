@@ -1,7 +1,5 @@
 # Groups
 
-*Upcomming feature: to be released June 2022*
-
 Groups are a feature to make it easier to use the Research Catalogue with a group of users, for example for use in a class, research project or workshop. The users that are members of the group have a shared profile page, where they can easily read and collaborate on each others expositions. When ready, this group page may also be made visible to the public. 
 
 User groups can be created by portals. Each group can have one or more admins that administrate the group's content. The groups of a portal can be found on the [portal feed page](https://www.researchcatalogue.net/portal/institutions).
