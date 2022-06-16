@@ -12,7 +12,7 @@ visible to all the group's members.
 The group may also have one or more admins (administrators). The group's admins
 have the ability to manage the members, expositions and edit the description and
 other metadata. They can also set collaborations for the expositions that are
-connected to the group.
+connected to the group. In some sense the group is a mini-portal within the portal.
 
 The group's visibility to the outside world can be controlled: it can be private
 where only its members have access to it, or it can be shared in the portal or
@@ -31,7 +31,7 @@ There are two ways to become a member of a group:
    [collaboration]("RC collaboration section"
    https://www.researchcatalogue.net/collaboration/list) section. 
 2. You visit a public group page and request membership. In this case the admin
-   will have to accept you.
+   will have to accept you before you get access.
 
 Once you are a member you can \[visit the group\] from your own [profile
 page]("my profile page" https://www.researchcatalogue.net/profile). If you want
@@ -46,7 +46,7 @@ member.*
 
 There are two roles within the group:
 
-1. __Members__:
+1. __Members__ (as described in the previous section):
     * Can view the project page and all expositions within it.
     * Can create expositions within the group.
     * Can send a request to connect a exposition from them to a project.
@@ -69,9 +69,9 @@ the group's page and clicking manage connections.
 When an admin invites a user to become admin or member, the invited user will
 have to confirm membership first in __collaboration__.
 
-## Admin Role - Group Visibility
+## Group Visibility
 
-The group may be:
+The group visibility can be changed by the group admin or portal admin.
 
 - __private__: visible only to its members and the portal admin 
 - __visible within the portal__: only members of the portal can see it
@@ -88,14 +88,13 @@ else.
 
 ## Admin Role, Managing Group Information and Members
 
-
-
 A group page has a title, description, status, preview image and member list.
 Group pages can be found on the portal feed page or on your profile. When you
-are admin of the group, you can change the metadata by clicking edit details.
+are admin of the group, you can change the metadata by clicking edit details on
+the group page.
 
 ## Creating a group
 
-A group can be created by the portal admin, see admin reference
-[admin-groups](#admin-groups) 
+A group can be created, removed and edited by the portal admin under the group
+header in the administration interface: [admin-groups](#admin-groups) 
 
