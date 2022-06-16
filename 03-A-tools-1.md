@@ -227,7 +227,7 @@ Defaults for styling and options can be set for a tool, by clicking it in the to
 
 ## Text Tool
 
-A video tutorial about the text tool is found [here](https://www.researchcatalogue.net/view/273532/273533/0/937 "link to video tutorials")
+A video tutorial about the text tool is found [here](https://www.researchcatalogue.net/view/273532/1685164#tool-1686786 "link to video tutorials")
 
 The text tool is designed for quickly adding text. 
 
@@ -402,7 +402,7 @@ Please note, you can't change the copyright information in the "edit picture" wi
 
 ## Audio Tool
 
-[> Audio tool tutorial](https://www.researchcatalogue.net/view/273532/273533/1165/1008)
+[> Audio tool tutorial](https://www.researchcatalogue.net/view/273532/1685164#tool-1687981)
 
 As with the other tools, use the audio tool by dragging and dropping
 the icon from the tool palette onto the weave. A pop-up dialog window
@@ -467,7 +467,7 @@ mouse cursor hovers over the item.
 
 ## Video Tool
 
-[Video tutorial](https://www.researchcatalogue.net/view/273532/273533/623/1369)
+[Video tutorial](https://www.researchcatalogue.net/view/273532/1685164#tool-1686872)
 
 As with the other tools, you can use the video tool by dragging it
 from the tool bar and dropping it onto the weave.

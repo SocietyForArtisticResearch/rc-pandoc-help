@@ -2,7 +2,7 @@
 
 # Graphical Expositions - Table of Content
 
-See the [video tutorial](https://www.researchcatalogue.net/view/273532/273533/54/759) on this topic.
+See the [video tutorial](https://www.researchcatalogue.net/view/273532/1685164#tool-1686823) on this topic.
 
 ![an example of a contents list, made through the table of content](images/table-of-content-example.png)
 
@@ -38,7 +38,7 @@ Choose whether the links in the content menu should be displayed *horizontally* 
 
 ## Hyperlinking
 
-See the [video tutorial](https://www.researchcatalogue.net/view/273532/273533) on this topic.
+See the [video tutorial](https://www.researchcatalogue.net/view/273532/1685164) on this topic.
 
 It is possible to create hyperlinks between pages (or "weaves") of an
 exposition and within a single page. This process has two steps: 

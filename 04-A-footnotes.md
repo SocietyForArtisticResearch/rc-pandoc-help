@@ -9,7 +9,7 @@ textual concept of a footnote, i.e. a particular use of the
 functionality explained in this section, whereas popover is used when
 referring specifically to the appearing popover window.  (There is a
 tutorial video explaining the footnote workflow on the
-[RC Video Tutorials page](https://www.researchcatalogue.net/view/273532/273533))
+[RC Video Tutorials page](https://www.researchcatalogue.net/view/273532/1685164))
 These are displayed when the RC user reading the exposition clicks the
 footnote link or, depending on the settings, when moving the
 mouse pointer over the link. This functionality makes it possible to
