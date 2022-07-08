@@ -61,8 +61,6 @@ This controls to which portals a user is added. A user can be added to multiple 
 
 When the option is turned on, the user cannot create any content. This is the default when a user has registered an account by themselves. Limited users can still become supervisors, read expositions or added as reviewers. To allow users to create expositions, works and applications, you have to turn this option OFF. 
 
-Before a portal admin upgrades a user to a full account, the user will have to have read and signed the "terms of use" agreement letter. This is available for download from the portal partner basecamp or directly from SAR.
-
 ### Settings
 ![user email settings dialog](images/user-settings.png "image showing user email settings")
 
