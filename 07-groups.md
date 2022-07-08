@@ -33,14 +33,14 @@ There are two ways to become a member of a group:
 2. You visit a public group page and request membership. In this case the admin
    will have to accept you before you get access.
 
-Once you are a member you can \[visit the group\] from your own [profile
-page]("my profile page" https://www.researchcatalogue.net/profile). If you want
-to create an exposition within the group, you can do so by clicking the "create
-exposition" button on the groups page. Alternatively, you can request one of
-your expositions to be connected to the group. To do this, scroll to the
-exposition on your profile, click ☰ -> __"Connect to"__ menu. *Note: you can
-only request a exposition to be connected to the groups of which you are a
-member.*
+Only a full user account can become part of a group. Once you are a member you
+can \[visit the group\] from your own [profile page]("my profile page"
+https://www.researchcatalogue.net/profile). If you want to create an exposition
+within the group, you can do so by clicking the "create exposition" button on
+the groups page. Alternatively, you can request one of your expositions to be
+connected to the group. To do this, scroll to the exposition on your profile,
+click ☰ -> __"Connect to"__ menu. *Note: you can only request a exposition to be
+connected to the groups of which you are a member.*
 
 ## Roles within Groups
 

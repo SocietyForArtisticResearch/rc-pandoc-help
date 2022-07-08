@@ -16,7 +16,11 @@ There are two ways of setting up accounts:
 
 1. The author can create an account for him/her self, by clicking [REGISTER](https://www.researchcatalogue.net/portal/register "Registration on the Research Catalogue") on the research catalogue homepage. After filling in the form the author will immediatly get a basic account. To gain a full account, which has the right to create content, the author will be requisted to send a proof of identity and signed SAR agreement letter. 
 
-2. The portal admin creates the account(s) for the author(s). This option is common when a large number of users need be created at once. In this case, the responsibility of identification and making sure that the SAR agreement letter is signed lies with the portal administrator creating the account(s). The agreement letter can be found on basecamp or requirested through RC support. Please send the signed agreement letters to RC user support.
+2. The portal admin creates the account(s) for the author(s). This option is common when a large number of users need be created at once. In this case, the responsibility of making sure that the email address belongs to an actual person lies with the portal admin. Ideally, a person should only have __at most one user account__ in the RC (not multiple, to avoid mixups). In case of copyright or other legal problems the portal admin should be able to provide contact information to this person.
+
+### Roles 
+
+<a id="full-account-toggle"></a>
 
 The administrator can create accounts by going to the __[admin section](https://www.researchcatalogue.net/admin)__ and opening the __user__ page. Click __+__ at the right top corner of the screen. After creating the account, the username (which is an email address) and password can be sent through email. Be sure that in the roles tab, the "basic account" option is turned __off__. This means the user will have a full account and is able to create content.
 
