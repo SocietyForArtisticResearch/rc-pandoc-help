@@ -24,7 +24,7 @@ There are two ways of setting up accounts:
 
 The administrator can create accounts by going to the __[admin section](https://www.researchcatalogue.net/admin)__ and opening the __user__ page. Click __+__ at the right top corner of the screen. After creating the account, the username (which is an email address) and password can be sent through email. Be sure that in the roles tab, the "basic account" option is turned __off__. This means the user will have a full account and is able to create content.
 
-![edit user roles dialog](images/user-roles.png "Image showing edit user roles dialog")
+![edit user roles dialog](images/edit-user-roles.png "Image showing edit user roles dialog")
 
 For safety, admins creating user accounts should:
 

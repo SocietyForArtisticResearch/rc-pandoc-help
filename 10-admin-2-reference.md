@@ -57,7 +57,7 @@ An administrator can also change these fields without having to change the passw
 This controls to which portals a user is added. A user can be added to multiple portals at once. Portals which are selected are marked by a gray background.
 
 ### Roles
-![user role settings dialog](images/user-roles.png "image showing user role settings")
+![user role settings dialog](images/edit-user-roles.png "image showing user role settings")
 
 When the option is turned on, the user cannot create any content. This is the default when a user has registered an account by themselves. Limited users can still become supervisors, read expositions or added as reviewers. To allow users to create expositions, works and applications, you have to turn this option OFF. 
 
