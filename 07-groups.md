@@ -96,5 +96,5 @@ the group page.
 ## Creating a group
 
 A group can be created, removed and edited by the portal admin under the group
-header in the administration interface: [admin-groups](#admin-groups) 
+header in the administration interface: [admin-groups](#admin-groups).
 

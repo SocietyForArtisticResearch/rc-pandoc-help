@@ -261,8 +261,12 @@ For the reader, issues can be found through the portals front page.
 
 ## Groups 
 
-Here portal admins can create, edit and remove groups. A group can only be
-deleted if it no longer has users or expositions connected to it.
+On the group [overview
+page](https://www.researchcatalogue.net/admin/project/list) portal admins can
+create, edit and remove groups. A group can only be deleted if it no longer has
+users or expositions connected to it. 
+
+![edit group dialog](images/create_group.png)
 
 
 
