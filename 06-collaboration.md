@@ -7,6 +7,8 @@ These are the three options to make something visible to others:
   users to view, comment or edit your exposition.
 * [share](#share): make your research visible to other people, but you
   can still change the content or make it private again. Others will not be able to edit.
+  By sharing, the exposition will appear on the front page, your public profile, and search results.
+  You can also connect a shared exposition to a Group or Portal, this way it will appear there as well (as the other locations).
 * [publishing](#publication): self-publish, or request publication
   within one of the portals. You cannot edit the content after publication.
 
@@ -194,15 +196,25 @@ After the portal admin accepts the publication request, you will
 receive a message and the content of the exposition will be
 premanently locked.
 
+## Connect to Portal
+
+A shared exposition can be connected to a portal. Connecting shared exposition will result in the exposition being listed on the portal page, without locking the content. The important difference with publication is, that connected expositions can still be changed after the connection has been made.
+
+To connect an exposition, the main author will have to use the ☰ -> "connect to" option to request connection.
+
+There are two conditions that need to be met before a request can be made:
+
+- The main author has to be a member of the portal.
+- The exposition cannot be private (it has to be at least shared within the portal, or public).
+
+The portal admin will receive a notification and has to
+confirm the connection [(information for portal-admins)](#connection-requests).
 
 
-### Connect to Portal
 
-An exposition can be connected to a portal without being published by
-the portal. The portal admin will receive a notification and has to
-confirm the connection. Once the connection has been approved it will
-be shown in the object's metadata and the object may appear on the
+
+Once the connection has been approved by the portal admin, the connection will
+be shown in the expositions metadata and the exposition may appear on the
 portal page and portal feeds. Connected works may for example
 accompany a published exposition or represent a connected event. They
-have to be at least shared within the portal, private expositions
-cannot be connected to a portal.
+have to be at least shared within the portal.

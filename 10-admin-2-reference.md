@@ -197,6 +197,9 @@ The unpublishing of expositions is not encuraged. Published expositions are supp
 
 ## Connection Requests
 It is possible for users to connect a work or exposition to a portal. The works that have been accepted by an admin of the portal will be listed here.
+
+A connected exposition will appear on the Portal's landing page, and the metadata of the exposition will now mention that is connected to the portal. They will also appear when searching for expositions within the portal.
+
 Requests can be accepted with: __V__ or rejected with: __X__.
 
 Once research is connected, the portal admin can add an __Editor__ role to the expositions.
