@@ -145,9 +145,9 @@ do not use this option.
   your profile.
 
 * __Submit for publication__ submit an exposition to a portal for
-  publication.
+  publication. *Only the [owner](#the-owner-role) can do this.*
 
-* __Connect to portal__ send a connection request to a portal.
+* __Connect to__ send a connection request to a Portal or Group. *Only the [owner](#the-owner-role) can do this.*
 
 * __Manage versions__ create or restore snapshots, see
   [versions](#manage-versions).
@@ -165,7 +165,7 @@ do not use this option.
     Alternatively you can select PDF format. Dynamic elements as slideshows, video
     and audio recordings cannot be included in this format.
 
-* __Delete__ delete an exposition or work from the RC.
+* __Delete__ delete an exposition or work from the RC. *Only the [owner](#the-owner-role) can do this.*
 
 ### Change Layout
 

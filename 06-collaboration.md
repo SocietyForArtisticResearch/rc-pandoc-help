@@ -107,6 +107,16 @@ with groups of people. The difference is when an exposition is
 __shared__, content can still be changed, and the mode of sharing can
 be changed at a later point.
 
+### The _owner_ role
+
+Every exposition has exactly one owner. The owner is one of the author(s), and has some extra capabilities:
+
+* Can delete the exposition.
+* Can submit a publication request for the exposition.
+* Can request connecting it to a Project or Portal.
+
+The owner can also select one of the other authors to be the owner. Be aware that this will remove the privileges from the previous owner.
+
 ## Share
  
 __Share__ option can used to control visibility of works and
@@ -208,7 +218,7 @@ There are two conditions that need to be met before a request can be made:
 - The exposition cannot be private (it has to be at least shared within the portal, or public).
 
 The portal admin will receive a notification and has to
-confirm the connection [(information for portal-admins)](#connection-requests).
+confirm the connection [(portal-admin documentation)](#connection-requests).
 
 
 
