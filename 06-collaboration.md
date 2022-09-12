@@ -37,6 +37,16 @@ There are 3 types of collaborators:
 - *supervisor* : The collaborator can view an exposition and leave comments. The
   supervisor will also be mentioned in the metadata.
 
+### The _owner_ role
+
+Every exposition has exactly one owner. The owner is one of the author(s), and has some extra capabilities:
+
+* Can delete the exposition.
+* Can submit a publication request for the exposition.
+* Can request connecting it to a Project or Portal.
+
+The owner can also select one of the other authors to be the owner. Be aware that this will remove the privileges from the previous owner.
+
 ### Adding a Collaborator
 
 An author of an exposition can invite collaborators through the collaboration
@@ -48,7 +58,7 @@ editor, you can also use __options__ > __edit details__ to open the same menu.
 ![Location of the collaboration dialog](images/collaborate_1.png "image showing the menu icon")
 
 Choose __'collaboration'__, search for the user you want to cooperate
-with and add the collaborator by clicking on their name.
+with and add the collaborator by clicking on their name. Only users with full accounts can be collaborated with, and limited accounts will not show up if you try to find them.
 
 
 ![Inviting a supervisor by typing it into the supervisor
@@ -106,16 +116,6 @@ Instead of collaborating with RC users you can also
 with groups of people. The difference is when an exposition is
 __shared__, content can still be changed, and the mode of sharing can
 be changed at a later point.
-
-### The _owner_ role
-
-Every exposition has exactly one owner. The owner is one of the author(s), and has some extra capabilities:
-
-* Can delete the exposition.
-* Can submit a publication request for the exposition.
-* Can request connecting it to a Project or Portal.
-
-The owner can also select one of the other authors to be the owner. Be aware that this will remove the privileges from the previous owner.
 
 ## Share
  

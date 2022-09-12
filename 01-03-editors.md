@@ -10,12 +10,11 @@ There are four types of editors in RC:
 - **text-based** editor 
 - **HTML** import
 
-The **graphical**, **block** and **text-based editor** are supported by all portals, the **HTML** based editor may not be accepted by some journals.
-
-When creating a new exposition you are asked to choose a format to
-use. Graphical and block pages are part of the same format and can be mixed,
+When creating a new exposition you are asked to choose which editor you want to start with. Graphical and block pages are part of the same format and can be mixed,
 but text and HTML are separate formats. It is therefore important to
 make the right choice for a particular project at the outset.
+
+Some portals will not accept HTML imported submissions, consult the portal before you start using the HTML import.
  
 ![choosing a format in the Create Exposition dialog](images/format-picker.png "image showing format picker")
 
@@ -42,22 +41,19 @@ of an absolute grid, the block editor uses a row and column structure. It is
 suitable for dealing with pages that have a lot of "inline" content,
 where media is inserted between or beside blocks of text, or media has to be
 positioned in relationship to certain elements in a text. It is less
-suitable for diagrams, maps or overlayed materials. Expositions can
-combine both "graphical" and "block" pages in a single exposition.
+suitable for diagrams, maps or overlayed materials.
 
-The **text-based**, is a completely separate editor, which is
-documented [here](#text-based-editor). The editor is designed for
-writing (and importing) texts, while supporting the embedding of
-media. The input is plain text, which is translated into HTML. The
-author can express the structure of the text using
-[Markdown](http://https://en.wikipedia.org/wiki/Markdown)
-notation. Because the input is plain text, it can also be
-automatically imported and exported from and to various external
-formats, for example MS Word documents, Open office documents and
-LateX. Styling is applied using standard
-[CSS](https://www.w3schools.com/css/ "more information on CSS"). By
-default the structure of the exposition is maintained, while the sizes
-of the text will adjust for readability on different screen
+The [**text-based editor**](#text-based-editor) allows creating blog-like
+expositions through writing and editing text. Pages using the text-based editor
+cannot be combined with block or graphical editors. The editor is optimized for
+writing (and importing) texts, while still supporting the embedding of media.
+You can structure and format your exposition using
+[Markdown](http://https://en.wikipedia.org/wiki/Markdown) notation. Content can
+be automatically imported and exported from and to various external formats, for
+example MS Word documents, Open Office documents and LateX. Styling can be
+costimized extensively using [CSS](https://www.w3schools.com/css/ "more
+information on CSS"). By default, the structure of the exposition is maintained,
+while the sizes of the text will adjust for readability on different screen
 sizes. Text-based expositions are *responsive*.
 
 **HTML import**

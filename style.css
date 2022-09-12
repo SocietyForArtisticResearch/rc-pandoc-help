@@ -166,27 +166,27 @@ figcaption {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 36px;
     text-decoration-color: black;
 }
 
 h2 {
-    margin-top: 20px;
+    margin-top: 24px;
     font-size: 18px;
     text-decoration: underline;
     text-decoration-color: gray;
 }
 
 h3 {
-    font-size: 12px;
+    font-size: 18px;
 }
 
 h4 {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 h5 {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 img {
