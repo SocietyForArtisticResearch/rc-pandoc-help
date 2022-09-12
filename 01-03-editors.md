@@ -66,8 +66,7 @@ For users that need more customization, there is an option to [import static HTM
 whole. The RC does not provide editors for HTML, so for that option an
 external editor is to be used. JavaScript is not supported.
 
-Finally, there is an option to import a Research Video, from 
-https://www.zhdk.ch/forschungsprojekt/research-video--549545
+Finally, there is an option to import a Research Video, from the ["Research Video" project by ZHDK](https://www.zhdk.ch/forschungsprojekt/research-video-549545).
 
 
 ## Comparison of RC Exposition Formats

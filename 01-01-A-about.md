@@ -1,6 +1,8 @@
 ## About the Research Catalogue
 
-RC content presented through some of our portals is peer reviewed, while the remaining expositions and other information are quality controlled by the individual author(s) themselves. As a result, the RC is highly inclusive. 
+The Research Catalogue (RC) is a non-commercial, collaboration and publishing platform for artistic research provided by the <a href="https://societyforartisticresearch.org" title="SAR website" target="_blank">Society for Artistic Research</a>. The RC is free to use for artists and researchers. It serves also as a backbone for teaching purposes, student assessment, peer review workflows and research funding administration. It strives to be an open space for experimentation and exchange. 
+
+Research Catalogue (RC) content presented through some of our portals is peer reviewed, while the remaining expositions and other information are quality controlled by the individual author(s) themselves. As a result, the RC is highly inclusive. 
 
 The open source status of the RC is essential to its nature and serves
 its function as a connective and transitional layer between academic
