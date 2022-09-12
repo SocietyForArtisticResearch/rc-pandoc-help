@@ -52,9 +52,7 @@ You can structure and format your exposition using
 be automatically imported and exported from and to various external formats, for
 example MS Word documents, Open Office documents and LateX. Styling can be
 costimized extensively using [CSS](https://www.w3schools.com/css/ "more
-information on CSS"). By default, the structure of the exposition is maintained,
-while the sizes of the text will adjust for readability on different screen
-sizes. Text-based expositions are *responsive*.
+information on CSS"). Text-based expositions are *responsive* and thus mobile friendly.
 
 **HTML import**
 
