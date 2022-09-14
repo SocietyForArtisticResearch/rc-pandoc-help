@@ -11,7 +11,7 @@ All expositions have [a navigation bar](#navigation) that shows if the user move
 It contains a table of contents, abstract and other information.
 
 While you are editing your exposition in the workspace editor, the
-Preview button (👁, right top corner) shows what the page will look like
+Preview button (<img src="images/eye_metro.svg" class="icon" />, right top corner) shows what the page will look like
 to the reader. If you already have a preview tab open, the second time
 you click Preview, it will simply refresh, instead of opening a new
 tab.
