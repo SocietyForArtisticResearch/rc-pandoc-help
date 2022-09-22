@@ -97,7 +97,7 @@ is only available to members of the ZHDK portal.)*
 For a description of the differences, please consult [editor
 comparison section](#comparison).
 
-![create exposition](images/add-research-dialog.png "image showing the
+![create exposition](images/add-research-dialog.png " the
 add research dialog")
 
 ### Add Work
@@ -119,7 +119,7 @@ exposition workspace.
 
 ### Exposition Details Menu
 
-![object menu location](images/hamburger_location.png "image showing
+![object menu location](images/hamburger_location.png "
 location of menu button")
 
 To access the menu, click on the ("hamburger") menu icon, located in
@@ -189,7 +189,7 @@ restore later.
 A snapshot is created by going to ☰ > __versions__ and clicking __add
 snapshot__.
 
-![version dialog](images/manage-versions.png "image showing manage
+![version dialog](images/manage-versions.png " manage
 versions dialog")
 
 When you restore a snapshot, the original is not overwritten, instead
@@ -228,7 +228,7 @@ the original published exposition.
 This dialog can be opened by __☰ > edit details__ or clicking the
 title of the exposition in the workspace editor.
 
-![Edit research dialog, showing meta page](images/edit-research.png "image showing edit research dialog")
+![Edit research dialog, showing meta page](images/edit-research.png " edit research dialog")
 
 * __Meta data__ change the __title__, __date__, __abstract__, __keywords__, __affiliation__ and __external link__ fields for your exposition.  
 A __title__ and __abstract__ are obligatory.

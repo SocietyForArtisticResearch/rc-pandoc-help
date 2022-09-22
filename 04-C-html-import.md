@@ -21,11 +21,11 @@ To create a HTML based exposition:
 1. Click \[ Create Exposition \] on your profile page.
 2. Select "html based" as the editor, fill in required metadata fields and click submit.
 
-![selecting html import editor](images/selecting-html-import.png "image showing html import editor")
+![selecting html import editor](images/selecting-html-import.png " html import editor")
 
 3. You will now enter an upload screen, where you can select your zip.
 
-![the upload screen](images/upload-html-expo.png "image showing the upload screen")
+![the upload screen](images/upload-html-expo.png " the upload screen")
 
 4. Wait for upload to finish
 

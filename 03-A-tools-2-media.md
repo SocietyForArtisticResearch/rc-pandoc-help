@@ -53,7 +53,7 @@ Files that are listed in gray are in the process of being transcoded.
 
 There four buttons on top of the list of files, from left to right:
 
-![Simple media tab](images/media_manage.png "image showing the simple
+![Simple media tab](images/media_manage.png " the simple
 media tab")
 
 - Upload a file
@@ -85,10 +85,10 @@ To convert a document, open the Simple Media Tab and upload it in the
 "document" section of the upload dialog. It may take a few moments to
 convert after the upload has reached 100%.
 
-![media upload tab](images/media-upload-tab.png "image showing the
+![media upload tab](images/media-upload-tab.png " the
 media upload button")
 
-![upload doc dialog](images/upload-doc-dialog.png "image showing the
+![upload doc dialog](images/upload-doc-dialog.png " the
 doc upload section")
 
 Once converted, the document will show up as a folder within your
@@ -140,7 +140,7 @@ Pages are managed in the __pages__ tab of the content manager. An RC
 exposition can consist of one or more pages. A new exposition starts
 with a single page, called "default page".
 
-![page tab](images/pages-tab-2018.png "image showing the page tab")
+![page tab](images/pages-tab-2018.png " the page tab")
 
 ### Creating a page
 
@@ -162,7 +162,7 @@ meta-data -->
 
 ## Page settings
 
-![the page settings dialog](images/pages-tab-2018.png "image showing
+![the page settings dialog](images/pages-tab-2018.png "
 the page settings")]
 
 In the page settings dialog, you can change the meta data of the page

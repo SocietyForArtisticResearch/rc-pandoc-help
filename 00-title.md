@@ -1,4 +1,4 @@
-<div id="menuButton" onclick="openNav()"><div id="menuSymbol">&#9776; </div><span id="menuName">MENU</span></div>
+<button type="button" id="menuButton" onclick="openNav()"><div id="menuSymbol">&#9776; </div><span id="menuName">MENU</span></button>
 <!--
     this has to be added manually to the finished HTML
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,11 +32,13 @@ window.onload = function ( ) {
 			icon.ariaHidden = "true";
 			anchor_element.appendChild(icon);
 			headerElement.prepend(anchor_element);
-			anchor_element.style.visibility = "hidden";
+			anchor_element.style.opacity = "0.33";
+			anchor_element.title = "shareable anchor link"
+
 
 			
-			headerElement.onmouseover = () => { anchor_element.style.visibility = "visible" };
-			headerElement.onmouseleave = () => { anchor_element.style.visibility = "hidden" };
+			headerElement.onmouseover = () => { anchor_element.style.opacity = "1.0" };
+			headerElement.onmouseleave = () => { anchor_element.style.opacity = "0.33" };
 
 
 		}

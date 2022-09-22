@@ -125,7 +125,7 @@ button" in the [toolbar](#toolbar).
 All media that you uploaded will appear in the "media list", where
 they can be edited or deleted.
 
-![The media list](images/media-list-elm.png "image showing media
+![The media list](images/media-list-elm.png " media
 list")
 
 ### Editing media 
@@ -143,7 +143,7 @@ Using the buttons in the list itself:
 * remove the object from your exposition
 * insert the object in the current position in the text.
 
-![The media edit dialog](images/edit-media-elm.png "image showing the
+![The media edit dialog](images/edit-media-elm.png " the
 edit media dialog")
 
 ## Insert media

@@ -1,10 +1,8 @@
-<!--pandoc -s tools.md -o tools.html -c style.css-->
-
 <a id="workspace-editor-for-graphical-expositions"></a>
 
 # Graphical Editor - Workspace
 
-![workspace view of the graphical exposition format](images/workspace-view-2018.png "image showing graphical editor")
+![workspace view of the graphical exposition format](images/workspace-view-2018.png "graphical editor")
 
 ## Editor Basics
 
@@ -38,7 +36,7 @@ A tool is created by [dragging](https://en.wikipedia.org/wiki/Drag_and_drop) the
 
 If you click a tool once, it will open the default setting dialog.
 
-![](images/toolbar-demo-2.png "image showing drag a tool to the canvas")
+![](images/toolbar-demo-2.png " drag a tool to the canvas")
 
 Tools can be resized by clicking and dragging the green borders with the mouse.
 
@@ -227,7 +225,7 @@ Defaults for styling and options can be set for a tool, by clicking it in the to
 
 ## Text Tool
 
-A video tutorial about the text tool is found [here](https://www.researchcatalogue.net/view/273532/1685164#tool-1686786 "link to video tutorials")
+[Watch the video tutorial.](https://www.researchcatalogue.net/view/273532/1685164#tool-1686820 "simple text tool tutorial")
 
 The text tool is designed for quickly adding text. 
 
@@ -255,7 +253,7 @@ Regarding the availability of typefaces/fonts please read [fonts](#fonts).
 
 The issue is easily avoided by keeping to this rule: always start a new text tool below an inline image or tool:
 
-![proper way of combining text with other tools](images/proper-use-text.png "Image showing the proper use of text tools")
+![proper way of combining text with other tools](images/proper-use-text.png " the proper use of text tools")
 
 ### Scrollbars
 
@@ -289,7 +287,7 @@ You add the HTML Tool like any other tool: drag it with your mouse from the tool
 
 ### Media
 
-![html tool media tab](images/html-tool.png "an image showing the html media tab")
+![html tool media tab](images/html-tool.png "html tool media tab")
 
 Text is edited in the __media__ tab. You can style your text using the buttons.
 
@@ -416,7 +414,7 @@ au, mp4 audio container formats; mp2, mp3, aac, pcm a-law, flac audio
 codec* formats. All audio file formats will be transcoded to mp3s with
 256kpbs.
 
-![Audio tool upload dialog](images/audio-tool-dialog.png "image showing Audio Tool Dialog")
+![Audio tool upload dialog](images/audio-tool-dialog.png " Audio Tool Dialog")
 
 To minimize loading times, audio files are automatically
 compressed. During the transcoding process, the name will be grayed out in the
@@ -612,7 +610,7 @@ Be sure to upload the PDF itself in the __PDF__ field, not __PREVIEW__.
 One is also requested to add copyright information.
 When done, click submit and the file will begin uploading. 
 
-![The pdf tool dialog](images/pdf-tool-dialog.png "Image showing the pdf tool dialog")
+![The pdf tool dialog](images/pdf-tool-dialog.png " the pdf tool dialog")
 
 The __PREVIEW__ field is for changing the image that represents the pdf in the exposition for the reader.
 If no preview image is provided, a miniturised copy of the first page will be used. You can later change the preview image, by selecting one from your media list.
@@ -816,7 +814,7 @@ total number of images. -->
 
 ## Style Options
 
-![image showing the style tab of an html tool](images/style-tab.png "the style tab of an html tool")
+![ the style tab of an html tool](images/style-tab.png "the style tab of an html tool")
 
 The style tab allows you to set the way a tool looks on the outside.
 There are two ways of reaching the style tab:
@@ -895,7 +893,7 @@ __Monospace:__
 - IBM Plex Mono
 - Roboto Mono
 
-![fonts overview](images/fonts.png "image showing the fonts")
+![fonts overview](images/fonts.png " the fonts")
 
 If you have an older exposition (created before April, 2022), you will also be
 able to select additional fonts. The reason for this is that Research Catalogue

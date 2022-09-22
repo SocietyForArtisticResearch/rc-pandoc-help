@@ -24,7 +24,7 @@ There are two ways of setting up accounts:
 
 The administrator can create accounts by going to the __[admin section](https://www.researchcatalogue.net/admin)__ and opening the __user__ page. Click __+__ at the right top corner of the screen. After creating the account, the username (which is an email address) and password can be sent through email. Be sure that in the roles tab, the "basic account" option is turned __off__. This means the user will have a full account and is able to create content.
 
-![edit user roles dialog](images/edit-user-roles.png "Image showing edit user roles dialog")
+![edit user roles dialog](images/edit-user-roles.png " edit user roles dialog")
 
 For safety, admins creating user accounts should:
 
@@ -49,7 +49,7 @@ During the writing stage, it is common that the exposition in progress is shared
 
 The author can invite RC users to these roles by going to edit details or clicking on the title of their exposition in the workspace editor and choosing "collaboration". The collaborators will receive an invitation (in RC messages) that has to be accepted before they can start to collaborate.
 
-![collaboration tab](images/collaboration.png "Image showing the collabration tab")
+![collaboration tab](images/collaboration.png " the collabration tab")
 
 ## Requesting publication
 
@@ -97,7 +97,7 @@ For the second requirement, the user has to be added to the reviewer pool of the
 Once a reviewer is part of the review pool, they can be added to the research exposition. To do this, go to __review__ tab of the __administration__ part of the RC, and click the edit page. Here you can add (or remove) reviewers to the research. Reviewers can be either added single blind (they cannot see each other), or double blind (they cannot see the author's name).
 
 
-![the edit request page, found when clicking edit icon on an exposition in review](images/edit-request.png "image showing edit request, within the review tab")
+![the edit request page, found when clicking edit icon on an exposition in review](images/edit-request.png " edit request, within the review tab")
 
 The reviewers will see a list of expositions that they are reviewers of on top of their "my profile" page. Within the exposition they can use the "REVIEW" menu to leave notes to themselves, which are only visible to them and the portal administrator. Typically further communication between the portal admin and the reviewer takes place through the messaging system or by e-mail.
 

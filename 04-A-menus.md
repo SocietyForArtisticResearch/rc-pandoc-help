@@ -90,7 +90,7 @@ Below the overview map, there is a list of all objects. If you click one of thes
 
 ## Edit menu
 
-<img src="images/edit-menu-2018.png" class="half-image" alt="image showing the edit menu">
+<img src="images/edit-menu-2018.png" class="half-image" alt=" the edit menu">
 
 __Trivial copy paste functions:__
 
@@ -138,7 +138,7 @@ holding ctrl/cmd key, then choose the function you want to apply from the arrang
 
 ## Options menu
 
-<img src="images/options-menu-2018.png" class="half-image" alt="image showing options menu">
+<img src="images/options-menu-2018.png" class="half-image" alt=" options menu">
 
 ### Edit metadata
 

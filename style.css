@@ -65,6 +65,7 @@
     background-color: #eee;
     min-width: 120px;
     border-bottom-right-radius: 10px;
+    border:unset;
     z-index: 3;
     position: fixed;
     font-size: 32px;
