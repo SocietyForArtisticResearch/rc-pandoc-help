@@ -50,20 +50,20 @@ The size of the current weave will automatically grow when tools are added or dr
 
 ![block editor](images/block-editor.png "block editor")
 
-The _block editor_ is a recently added feature to the graphical editor
-of the RC. It allows the author to use the same tools as the graphical
-editor, but instead of positioning content with static pixel positions
-and dimensions, you build your page from a simple list of blocks. 
+The block editor is an alternative method of creating exposition pages.
+It allows the author to use the same media tools as the graphical
+editor, but instead of exact positions, the page is built up using blocks.
 
-The blocks themselves can be split into 1 or more columns. The width
-of the columns is defined as percentages of the readers' screen size.
+Block-page content is organized using rows and columns. The main
+structure is a single stack of rows. Each row can either be a single block, or a
+custom division in columns.
 
-An important aspect (and advantage) is that vertical position of
-blocks is relative: the bottom of the previous tool determines where
-the next one starts, so the blocks are stitched together end to end,
-never overlapping.
+An important aspect (and advantage) is that the height and vertical position
+will automatically fit the content: the bottom of the previous tool determines
+where the next one starts. The blocks are thus stitched together end to end, never
+overlapping. This means it easier to work with text content.
 
-Using relative sizes like this is often called [responsive web
+Using relative sizes like this is often associated with the concept of [responsive web
 design](https://en.wikipedia.org/wiki/Responsive_web_design).
 
 ### When to use
