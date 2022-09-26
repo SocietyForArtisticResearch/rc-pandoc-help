@@ -7,7 +7,7 @@
 When one moves the mouse cursor to the top of an exposition, a menu bar
 appears. 
 
-![the RC navigation bar](images/navigation-bar.png " the navigation bar")  
+![the RC navigation bar](images/navigation-bar.png "the navigation bar")  
 
 The navigation bar contains, from left to right:
 

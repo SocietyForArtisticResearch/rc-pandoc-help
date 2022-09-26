@@ -6,7 +6,7 @@
 
 To reach the administration functionalities of the RC website, click on __administration__, located in the top right corner. To return to your own profile, you can click on the Research Catalogue logo. Only portal admins have access to these pages.
 
-![admin main page](images/admin_main.png " the administration main page")
+![admin main page](images/admin_main.png "the administration main page")
 
 There are 5 pages to manage content for portal admins:
 
@@ -32,7 +32,7 @@ If you are an admin in multiple portals, you can switch between them in the top 
 
 ## User Page
 
-![admin user page](images/admin-user.png " the admin user page") 
+![admin user page](images/admin-user.png "the admin user page") 
 
 | Action         | Icon                                                |
 | -------------- | --------------------------------------------------- |
@@ -46,23 +46,23 @@ If you are an admin in multiple portals, you can switch between them in the top 
 Important: when you type a new user name, the RC tries to find if the user exists already. If it does, the RC will show a dialog requesting if you want to add the existing user to the portal instead of creating a new account. It is highly discouraged for a single person to have two accounts on the RC, so normally admins are expected to simply add this existing account.
 
 ### Profile
-![user profile dialog](images/user-profile.png " user profile dialog")
+![user profile dialog](images/user-profile.png "user profile dialog")
 
 Change the name, alias, email and password (optional).
 An administrator can also change these fields without having to change the password (by leaving the field empty).
 
 ### Portal
-![user portal settings dialog](images/user-portal.png " user portal settings")
+![user portal settings dialog](images/user-portal.png "user portal settings")
 
 This controls to which portals a user is added. A user can be added to multiple portals at once. Portals which are selected are marked by a gray background.
 
 ### Roles
-![user role settings dialog](images/edit-user-roles.png " user role settings")
+![user role settings dialog](images/edit-user-roles.png "user role settings")
 
 When the option is turned on, the user cannot create any content. This is the default when a user has registered an account by themselves. Limited users can still become supervisors, read expositions or added as reviewers. To allow users to create expositions, works and applications, you have to turn this option OFF. 
 
 ### Settings
-![user email settings dialog](images/user-settings.png " user email settings")
+![user email settings dialog](images/user-settings.png "user email settings")
 
 Here you can set which emails the user should receive.
 
@@ -83,7 +83,7 @@ It has 3 actions:
 | Delete a portal     | <img src="images/remove.gif" class="icon">          |
 
 ### Portal mail
-![portal mail dialog](images/portal-mail.png " portal mail dialog")
+![portal mail dialog](images/portal-mail.png "portal mail dialog")
 
 * __testmode__ only sends a test mail to your account
 * __type__ (default/digest/announcement) announcement can be scheduled
@@ -101,7 +101,7 @@ The announcement option has to be scheduled at least 1 day in advance. The sendi
 ## Portal Edit Screen
 
 ### Common
-![portal edit common screen](images/portal-edit-common2.png " portal edit common dialog")
+![portal edit common screen](images/portal-edit-common2.png "portal edit common dialog")
 
 Here you can edit the basic information of the portal, which is displayed on the RC's internal page.
 You can also replace this internal page with an external page if desired. See [external link option](#external-portal-page "further info")  
@@ -119,7 +119,7 @@ available placeholders:
 
 
 ### Roles
-![portal edit roles](images/portal-edit-roles2.png " the portal roles")
+![portal edit roles](images/portal-edit-roles2.png "the portal roles")
 
 Here you can edit the various roles of the portal:
 
@@ -135,7 +135,7 @@ Portal admins can select any of their Text based expositions to be available as 
 <a id="submissions">
 
 ### Portal Settings
-![portal edit submissions](images/portal-allow.png " portal submissions")
+![portal edit submissions](images/portal-allow.png "portal submissions")
 
 Here you can set which objects can be submitted to the portal.
 
@@ -240,7 +240,7 @@ Either the author can resubmit the exposition using the hamburger menu, or the p
 When a publication request is accepted, the portal admin can choose to which issue it belongs and if the publication should be local to the portal (limited publication) or public (the whole world). Issues can be created using the [issue page](#issue-page "the issue page documentation").
 You can also write a custom message to the author.
 
-![publication dialog](images/publication-dialog.png " the publication dialog")
+![publication dialog](images/publication-dialog.png "the publication dialog")
 
 
 
@@ -254,7 +254,7 @@ Issues names are managed on this [here](https://www.researchcatalogue.net/admin/
 
 In the __issue section__ (between "portal" and "research") of the administration interface, the number, title and description of issues can be edited.
 
-![edit issue dialog](images/portal-issues.png " the edit issue collaboration")
+![edit issue dialog](images/portal-issues.png "the edit issue collaboration")
 
 For the reader, issues can be found through the portals front page.
 

@@ -36,7 +36,7 @@ A tool is created by [dragging](https://en.wikipedia.org/wiki/Drag_and_drop) the
 
 If you click a tool once, it will open the default setting dialog.
 
-![](images/toolbar-demo-2.png " drag a tool to the canvas")
+![](images/toolbar-demo-2.png "drag a tool to the canvas")
 
 Tools can be resized by clicking and dragging the green borders with the mouse.
 
@@ -253,7 +253,7 @@ Regarding the availability of typefaces/fonts please read [fonts](#fonts).
 
 The issue is easily avoided by keeping to this rule: always start a new text tool below an inline image or tool:
 
-![proper way of combining text with other tools](images/proper-use-text.png " the proper use of text tools")
+![proper way of combining text with other tools](images/proper-use-text.png "the proper use of text tools")
 
 ### Scrollbars
 
@@ -414,7 +414,7 @@ au, mp4 audio container formats; mp2, mp3, aac, pcm a-law, flac audio
 codec* formats. All audio file formats will be transcoded to mp3s with
 256kpbs.
 
-![Audio tool upload dialog](images/audio-tool-dialog.png " Audio Tool Dialog")
+![Audio tool upload dialog](images/audio-tool-dialog.png "Audio Tool Dialog")
 
 To minimize loading times, audio files are automatically
 compressed. During the transcoding process, the name will be grayed out in the
@@ -610,7 +610,7 @@ Be sure to upload the PDF itself in the __PDF__ field, not __PREVIEW__.
 One is also requested to add copyright information.
 When done, click submit and the file will begin uploading. 
 
-![The pdf tool dialog](images/pdf-tool-dialog.png " the pdf tool dialog")
+![The pdf tool dialog](images/pdf-tool-dialog.png "the pdf tool dialog")
 
 The __PREVIEW__ field is for changing the image that represents the pdf in the exposition for the reader.
 If no preview image is provided, a miniturised copy of the first page will be used. You can later change the preview image, by selecting one from your media list.
@@ -893,7 +893,7 @@ __Monospace:__
 - IBM Plex Mono
 - Roboto Mono
 
-![fonts overview](images/fonts.png " the fonts")
+![fonts overview](images/fonts.png "the fonts")
 
 If you have an older exposition (created before April, 2022), you will also be
 able to select additional fonts. The reason for this is that Research Catalogue

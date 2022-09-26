@@ -55,7 +55,7 @@ next to the research on your profile. If you are already in the workspace
 editor, you can also use __options__ > __edit details__ to open the same menu.
 
 
-![Location of the collaboration dialog](images/collaborate_1.png " the menu icon")
+![Location of the collaboration dialog](images/collaborate_1.png "the menu icon")
 
 Choose __'collaboration'__, search for the user you want to cooperate
 with and add the collaborator by clicking on their name. Only users with full accounts can be collaborated with, and limited accounts will not show up if you try to find them.
@@ -158,7 +158,7 @@ Link share can be combined with any of the other sharing modes (private,
 RC users, limited to portal, public). An exposition can for example be
 shared within a portal but simultaneously be accessible through the "secret" link.
 
-![sharing menu dialog](images/sharing-options.png " sharing options")  
+![sharing menu dialog](images/sharing-options.png "sharing options")  
 
 ## Publication
 
