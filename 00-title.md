@@ -88,7 +88,7 @@ window.onload = function ( ) {
 
 	dynamicMenu( );
 	createAnchorHelpers();
-
+	make_hrefs_blank();
 	
 }
 
