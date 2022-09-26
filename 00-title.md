@@ -81,8 +81,14 @@ window.onload = function ( ) {
 		makeLinksCloseNav( );
 	}
 
+	function make_hrefs_blank ( ) {
+		let hrefs = document.getElementsByTagName("a");
+		([].slice.call(hrefs)).map(href => href.target = "_blank");
+	}
+
 	dynamicMenu( );
 	createAnchorHelpers();
+
 	
 }
 
