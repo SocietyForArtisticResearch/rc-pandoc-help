@@ -898,18 +898,18 @@ __Monospace:__
 If you have an older exposition (created before April, 2022), you will also be
 able to select additional fonts. The reason for this is that Research Catalogue
 used to allow users to select these in the past. A majority of these fonts were
-only available in Windows and/or MacOS. The licensing around these propietory
+only available in Windows and/or MacOS. The licensing around these proprietory
 fonts prevented Research Catalogue from self-hosting them. When a font was not
 available locally, the browser would switch to an alternative and this resulted
 in smaller or bigger visual differences and a warning message to the user.
 
 The current solution to this problem is that Research Catalogue now provides a
 set of fonts that we can host ourselves. This guarentees that a font chosen in
-the tool can never be missing. To ease the switch, we have included replacements
-that are designed to closely match the common fonts like Arial, Calibri and
-Helvetica and Impact. Older expositions will keep their current fonts but allow
-you to also use the new ones. Published expositions expositions cannot be
-changed, but you can create a new version of the exposition.
+the text & html tools can never be missing. To ease the switch, we have included
+replacements that are designed to closely match the common fonts like Arial,
+Calibri and Helvetica and Impact. Older expositions will keep their current
+fonts but allow you to also use the new ones. Published expositions expositions
+cannot be changed, but you can create a new version of the exposition.
 
 ## Migration of fonts in your expositions
 
