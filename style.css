@@ -331,6 +331,10 @@ table tr td :last-child {
         max-width: 100%;
         overflow-x: hidden;
     }
+
+    .headerAnchor {
+        margin-left:0px;
+    }
 }
 
 .bg-red {

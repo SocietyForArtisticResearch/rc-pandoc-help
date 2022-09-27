@@ -26,6 +26,7 @@ window.onload = function ( ) {
 			let icon = document.createElement("img");
 			icon.src = "octigon_link.svg";
 			icon.classList.add("icon");
+			icon.classList.add("anchor-link");
 			icon.width = "16"
 			icon.height = "16"
 			icon.alt = "anchor"
