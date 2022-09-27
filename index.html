@@ -325,9 +325,9 @@ window.onload = function ( ) {
     window.onscroll = function() {
         let currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos || currentScrollPos < 50.0) {
-            window.document.getElementById("menuButton").style.top = "-1px";
+            window.document.getElementById("main").style.top = "-1px";
         } else {
-            window.document.getElementById("menuButton").style.top = "-50px";
+            window.document.getElementById("main").style.top = "-50px";
         }
         prevScrollpos = currentScrollPos;
     } 
