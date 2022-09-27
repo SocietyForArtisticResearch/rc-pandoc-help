@@ -228,7 +228,7 @@ the original published exposition.
 This dialog can be opened by __☰ > edit details__ or clicking the
 title of the exposition in the workspace editor.
 
-![Edit research dialog, showing meta page](images/edit-research.png " edit research dialog")
+![Edit research dialog, showing meta page](images/edit-research.png "edit research dialog")
 
 * __Meta data__ change the __title__, __date__, __abstract__, __keywords__, __affiliation__ and __external link__ fields for your exposition.  
 A __title__ and __abstract__ are obligatory.

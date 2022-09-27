@@ -235,12 +235,14 @@ id="toc-connection-requests">Connection Requests</a></li>
 development</a></li>
 </ul>
 </nav>
+<nav id="main">
 <button type="button" id="menuButton" onclick="openNav()">
 <div id="menuSymbol">
 ☰
 </div>
 <span id="menuName">MENU</span>
 </button>
+</nav>
 <!--
     this has to be added manually to the finished HTML
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -318,6 +320,17 @@ window.onload = function ( ) {
         let hrefs = document.getElementsByTagName("a");
         ([].slice.call(hrefs)).map(href => href.target = "_blank");
     }
+
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+        let currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos || currentScrollPos < 50.0) {
+            window.document.getElementById("menuButton").style.top = "-1px";
+        } else {
+            window.document.getElementById("menuButton").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+    } 
 
     dynamicMenu( );
     createAnchorHelpers();
@@ -622,8 +635,12 @@ on the original published exposition.</p>
 <h2 id="edit-research">Edit Research</h2>
 <p>This dialog can be opened by <strong>☰ &gt; edit details</strong> or
 clicking the title of the exposition in the workspace editor.</p>
-<p>[Edit research dialog, showing meta page](images/edit-research.png ”
-edit research dialog”)</p>
+<figure>
+<img loading="lazy" src="images/edit-research.png" title="edit research dialog"
+alt="Edit research dialog, showing meta page" />
+<figcaption aria-hidden="true">Edit research dialog, showing meta
+page</figcaption>
+</figure>
 <ul>
 <li><strong>Meta data</strong> change the <strong>title</strong>,
 <strong>date</strong>, <strong>abstract</strong>,
@@ -698,8 +715,12 @@ therefore important to make the right choice for a particular project at
 the outset.</p>
 <p>Some portals will not accept HTML imported submissions, consult the
 portal before you start using the HTML import.</p>
-<p>[choosing a format in the Create Exposition
-dialog](images/format-picker.png ” format picker”)</p>
+<figure>
+<img loading="lazy" src="images/format-picker.png" title="format picker"
+alt="choosing a format in the Create Exposition dialog" />
+<figcaption aria-hidden="true">choosing a format in the Create
+Exposition dialog</figcaption>
+</figure>
 <p>The <a href="#workspace-editor"><strong>graphical
 editor</strong></a>, allows the author to set the position of each
 element in the page. This makes it easy to have non-linear formats or
@@ -824,9 +845,11 @@ exposition later. Beyond organizing media, you can share it with other
 users of the RC. You can upload media, organize it into <a
 href="#sets"><strong>sets</strong></a> and share it with other users of
 the RC. It extends and replaces the older “Works” feature.</p>
-<p><img src="#media-repository"
-alt="Media repository" />(images/media-repository.png ” the media
-repository”)</p>
+<figure>
+<img loading="lazy" src="images/media-repository.png" title="the media repository"
+alt="Media repository" />
+<figcaption aria-hidden="true">Media repository</figcaption>
+</figure>
 <h3 id="browsing">Browsing</h3>
 <p>The media browser contains three tabs:</p>
 <ul>
@@ -2100,7 +2123,11 @@ edit the “raw css” of a page by opening <strong>pages tab</strong> &gt;
 <p>Pages are managed in the <strong>pages</strong> tab of the content
 manager. An RC exposition can consist of one or more pages. A new
 exposition starts with a single page, called “default page”.</p>
-<p>[page tab](images/pages-tab-2018.png ” the page tab”)</p>
+<figure>
+<img loading="lazy" src="images/pages-tab-2018.png" title="the page tab"
+alt="page tab" />
+<figcaption aria-hidden="true">page tab</figcaption>
+</figure>
 <h3 id="creating-a-page">Creating a page</h3>
 <p>New pages are by default <em>private</em>, they have to be
 explicitely added to the <a href="#table-of-content"
@@ -3495,8 +3522,11 @@ the account, the username (which is an email address) and password can
 be sent through email. Be sure that in the roles tab, the “basic
 account” option is turned <strong>off</strong>. This means the user will
 have a full account and is able to create content.</p>
-<p>[edit user roles dialog](images/edit-user-roles.png ” edit user roles
-dialog”)</p>
+<figure>
+<img loading="lazy" src="images/edit-user-roles.png" title="edit user roles dialog"
+alt="edit user roles dialog" />
+<figcaption aria-hidden="true">edit user roles dialog</figcaption>
+</figure>
 <p>For safety, admins creating user accounts should:</p>
 <ul>
 <li>Use a unique password for each new user.</li>
@@ -3534,8 +3564,11 @@ details or clicking on the title of their exposition in the workspace
 editor and choosing “collaboration”. The collaborators will receive an
 invitation (in RC messages) that has to be accepted before they can
 start to collaborate.</p>
-<p>[collaboration tab](images/collaboration.png ” the collabration
-tab”)</p>
+<figure>
+<img loading="lazy" src="images/collaboration.png" title="the collabration tab"
+alt="collaboration tab" />
+<figcaption aria-hidden="true">collaboration tab</figcaption>
+</figure>
 <h2 id="requesting-publication">Requesting publication</h2>
 <p>Once the writing is sufficiently progressed, the next step is that
 the author sents a request to review the exposition. This is done
@@ -3595,9 +3628,13 @@ the <strong>administration</strong> part of the RC, and click the edit
 page. Here you can add (or remove) reviewers to the research. Reviewers
 can be either added single blind (they cannot see each other), or double
 blind (they cannot see the author’s name).</p>
-<p>[the edit request page, found when clicking edit icon on an
-exposition in review](images/edit-request.png ” edit request, within the
-review tab”)</p>
+<figure>
+<img loading="lazy" src="images/edit-request.png"
+title="edit request, within the review tab"
+alt="the edit request page, found when clicking edit icon on an exposition in review" />
+<figcaption aria-hidden="true">the edit request page, found when
+clicking edit icon on an exposition in review</figcaption>
+</figure>
 <p>The reviewers will see a list of expositions that they are reviewers
 of on top of their “my profile” page. Within the exposition they can use
 the “REVIEW” menu to leave notes to themselves, which are only visible

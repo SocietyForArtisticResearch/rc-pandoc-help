@@ -1,4 +1,4 @@
-<button type="button" id="menuButton" onclick="openNav()"><div id="menuSymbol">&#9776; </div><span id="menuName">MENU</span></button>
+<nav id="main"><button type="button" id="menuButton" onclick="openNav()"><div id="menuSymbol">&#9776; </div><span id="menuName">MENU</span></button></nav>
 <!--
     this has to be added manually to the finished HTML
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -85,6 +85,17 @@ window.onload = function ( ) {
 		let hrefs = document.getElementsByTagName("a");
 		([].slice.call(hrefs)).map(href => href.target = "_blank");
 	}
+
+	var prevScrollpos = window.pageYOffset;
+	window.onscroll = function() {
+		let currentScrollPos = window.pageYOffset;
+		if (prevScrollpos > currentScrollPos || currentScrollPos < 50.0) {
+			window.document.getElementById("menuButton").style.top = "-1px";
+		} else {
+			window.document.getElementById("menuButton").style.top = "-50px";
+		}
+		prevScrollpos = currentScrollPos;
+	} 
 
 	dynamicMenu( );
 	createAnchorHelpers();

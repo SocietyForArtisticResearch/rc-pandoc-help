@@ -11,7 +11,7 @@ other users of the RC. It extends and replaces the older "Works"
 feature.
 
 
-![Media repository](images/media-repository.png " the media repository")
+![Media repository](images/media-repository.png "the media repository")
 
 
 ### Browsing

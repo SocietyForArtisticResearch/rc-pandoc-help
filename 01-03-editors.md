@@ -16,7 +16,7 @@ make the right choice for a particular project at the outset.
 
 Some portals will not accept HTML imported submissions, consult the portal before you start using the HTML import.
  
-![choosing a format in the Create Exposition dialog](images/format-picker.png " format picker")
+![choosing a format in the Create Exposition dialog](images/format-picker.png "format picker")
 
 The [**graphical editor**](#workspace-editor), allows the author to
 set the position of each element in the page. This makes it easy to

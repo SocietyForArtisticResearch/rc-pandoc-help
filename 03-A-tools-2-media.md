@@ -140,7 +140,7 @@ Pages are managed in the __pages__ tab of the content manager. An RC
 exposition can consist of one or more pages. A new exposition starts
 with a single page, called "default page".
 
-![page tab](images/pages-tab-2018.png " the page tab")
+![page tab](images/pages-tab-2018.png "the page tab")
 
 ### Creating a page
 

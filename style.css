@@ -62,6 +62,7 @@
 }
 
 #menuButton {
+    color:black;
     background-color: #eee;
     min-width: 120px;
     border-bottom-right-radius: 10px;
@@ -91,6 +92,8 @@
 #menuName {
     font-weight: bold;
     font-size: 50%;
+    position:relative;
+    top:-2px;
 }
 
 .navIsOpen {
@@ -292,8 +295,13 @@ table tr td :last-child {
 }
 
 @media screen and (max-width: 600px) {
+    nav#main {
+        width:100%;
+        background-color:gray;
+    }
+
     body {
-        width: 90%;
+        width: 85%;
         left: unset;
     }
 
