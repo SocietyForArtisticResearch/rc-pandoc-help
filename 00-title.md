@@ -85,6 +85,8 @@ window.onload = function ( ) {
 	function make_hrefs_blank ( ) {
 		let hrefs = document.getElementsByTagName("a");
 		([].slice.call(hrefs)).map(href => href.target = "_blank");
+		let toc_refs = document.querySelectorAll("#TOC a");
+		([].slice.call(toc_refs)).map(href => href.target = "_self");
 	}
 
 	var prevScrollpos = window.pageYOffset;
