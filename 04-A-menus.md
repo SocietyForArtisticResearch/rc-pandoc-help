@@ -49,7 +49,8 @@ In order to fetch a link to a different page within your exposition:
 1. Open the page you want to link __to__ in the editor
    (through the page tab on the right hand side).
 2. *(optional)* scroll the page to the position where you want the link to point to.
-3. Go to __options->show current position__
+3. Go to __options->show current position__  
+   *In the block editor, you right click the target tool, click edit, go to "common" tab -> "viewer link".*
 
 This will display a URL of the target page with the current location. Copy the URL
 into the clipboard (Ctrl-C/Cmd-C). 
