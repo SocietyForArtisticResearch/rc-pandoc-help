@@ -39,7 +39,7 @@ reset the password themselves using
 
 ## Writing the exposition, collaboration
 
-The next stage is the writing of the *exposition* itself. It is important to note that it has to be an *exposition*, a *work* object on its own cannot enter a review workflow on the RC. *Works* can however be embedded as part of an exposition to be reviewed & published. The author does not need to be a member of the portal user list in order to make a publication request to it.
+The next stage is the writing of the *exposition* itself. The author does not need to be a member of the portal user list in order to make a publication request to it.
 
 During the writing stage, it is common that the exposition in progress is shared with one or more other readers or collaborators. These collaborators can use the notes system to leave feedback. There are three types of collaboration roles:
 
@@ -50,6 +50,8 @@ During the writing stage, it is common that the exposition in progress is shared
 The author can invite RC users to these roles by going to edit details or clicking on the title of their exposition in the workspace editor and choosing "collaboration". The collaborators will receive an invitation (in RC messages) that has to be accepted before they can start to collaborate.
 
 ![collaboration tab](images/collaboration.png "the collabration tab")
+
+It is also possible that an author makes the in-progress exposition content visible to specific groups of users, before publication. This is done by using the [share option](#share "share options in the RC"). Since sharing in this manner is not an official publication, shared expositions can be unshared (made private again), and will appear on the author's profile and not in the portal feed.
 
 ## Requesting publication
 
