@@ -215,7 +215,7 @@ From left to right:
   alt="hyperlink formatting"> - Insert [hyperlink](#links) formatting
 * <img class="icon" src="images/icons/double-quote-sans-left.svg"
   title="icon" alt="quotation"> - Quotation
-* __\*__ - Insert [footnote](#footnotes) notation
+* __\*__ - Insert [footnote](#text-based-footnote) notation
 * <img id="insert-toolbar-button" class="icon"
   src="images/icons/file-media.svg"> - Insert Media from media list
 * <img class="icon" src="images/icons/undo.svg"> - Undo/Redo
@@ -400,6 +400,8 @@ The anchor (or bookmark) itself is created like this:
 
 ### Footnotes (text based)
 
+<a id="text-based-footnote"></a>
+
 The easiest way of inserting a footnote is using the footnote button:
 [ __\*__ ].  Footnotes consist of two parts, the reference, written
 like so:
@@ -410,9 +412,11 @@ Then you define the footnote content at the bottom of your text with:
 
 `[^1]: This is my footnote.`
 
-It's content is automatically moved to the bottom of the text.  The
-footnote content is automatically moved to the bottom of the resulting
-text.
+The footnote content is automatically moved to the bottom of the resulting
+text. 
+
+Tip: the footnote identifier, does not have to be a number.
+You can also use names like (`[^fn1]` or `[^myfootnote]` etc..)
 
  
 ### Quotation

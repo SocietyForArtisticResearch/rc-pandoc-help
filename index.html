@@ -2802,8 +2802,8 @@ alt="hyperlink formatting"> - Insert <a href="#links">hyperlink</a>
 formatting</li>
 <li><img class="icon" src="images/icons/double-quote-sans-left.svg"
 title="icon" alt="quotation"> - Quotation</li>
-<li><strong>*</strong> - Insert <a href="#footnotes">footnote</a>
-notation</li>
+<li><strong>*</strong> - Insert <a
+href="#text-based-footnote">footnote</a> notation</li>
 <li><img id="insert-toolbar-button" class="icon"
 src="images/icons/file-media.svg"> - Insert Media from media list</li>
 <li><img class="icon" src="images/icons/undo.svg"> - Undo/Redo</li>
@@ -2934,6 +2934,7 @@ anchor:</p>
 <p>The anchor (or bookmark) itself is created like this:</p>
 <p><code>&lt;a id="your-anchor-id"&gt;&lt;/a&gt;</code></p>
 <h3 id="footnotes-text-based">Footnotes (text based)</h3>
+<p><a id="text-based-footnote"></a></p>
 <p>The easiest way of inserting a footnote is using the footnote button:
 [ <strong>*</strong> ]. Footnotes consist of two parts, the reference,
 written like so:</p>
@@ -2941,9 +2942,11 @@ written like so:</p>
 <p>Then you define the footnote content at the bottom of your text
 with:</p>
 <p><code>[^1]: This is my footnote.</code></p>
-<p>It’s content is automatically moved to the bottom of the text. The
-footnote content is automatically moved to the bottom of the resulting
-text.</p>
+<p>The footnote content is automatically moved to the bottom of the
+resulting text.</p>
+<p>Tip: the footnote identifier, does not have to be a number. You can
+also use names like (<code>[^fn1]</code> or <code>[^myfootnote]</code>
+etc..)</p>
 <h3 id="quotation">Quotation</h3>
 A quotation is inserted by indenting your text with 4 spaces or 1 tab,
 like so:
