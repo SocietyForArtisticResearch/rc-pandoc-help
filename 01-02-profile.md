@@ -97,8 +97,7 @@ is only available to members of the ZHDK portal.)*
 For a description of the differences, please consult [editor
 comparison section](#comparison).
 
-![create exposition](images/add-research-dialog.png " the
-add research dialog")
+![create exposition](images/add-research-dialog.png "the add research dialog")
 
 ### Add Work
 

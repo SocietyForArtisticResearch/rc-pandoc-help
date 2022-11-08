@@ -148,12 +148,10 @@ visible at the top right corner of a row.
 Because the exact vertical position of tools depends on the width of
 the readers' browsers window, the table of content works slightly
 different in pages created with the block editor. Instead of linking
-to an X, Y position, you can link to specific tool in your page. The
-tools can be named by double clicking them and opening the "common"
-tab. You can also use the overview tab to view a list of all used
-tools in the current page.
+to an X, Y position, you can link to specific tool in your page. You can fetch the url of a tool, by right clicking it and choosing "copy tool link". 
 
-tip: you can also use this method of tool linking in graphical pages now!
+![copy tool link in the context menu](images/copy-tool-link.png "editor > context menu, showing the copy tool link option")
+
 
 
 ### Viewing
@@ -249,10 +247,14 @@ Regarding the availability of typefaces/fonts please read [fonts](#fonts).
 
 ### Placing images on top of text tools
 
-**Never place other tools (like images) directly on top of long text tools**. Because of small differences in how fonts are displayed within major browsers, and the fixed position of RC tools, this can result in text overflowing into those tools if the reader uses a different browser than the author that made the exposition. 
+An important advice regarding text tools in the graphical editor is to __keep
+them short__. As a rule of thumb, keep the height below 1-2 screenheights maximum. Taller
+tools can result in positioning errors between the text content and other tools
+and text in your exposition.
 
-The issue is easily avoided by keeping to this rule: always start a new text tool below an inline image or tool:
+*The reason for this is that browsers are not identical when it comes to text-rendering, there are actually minute differences (a fragment of a pixel) that can add up and cause serious alignment issues if your tools are bigger. This risk is worsened by the fact that you as the author will not notice: because the magnitude of error is actually dependent on what browser your reader is using.* 
 
+If you find your design requires taller text-tools with illustrations inline, use the specialized [block editor](#block-editor) instead, or split the text tools in smaller parts:
 ![proper way of combining text with other tools](images/proper-use-text.png "the proper use of text tools")
 
 ### Scrollbars

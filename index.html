@@ -527,9 +527,11 @@ which at the moment is only available to members of the ZHDK
 portal.)</em></p>
 <p>For a description of the differences, please consult <a
 href="#comparison">editor comparison section</a>.</p>
-<p><img src="#create-exposition"
-alt="create exposition" />(images/add-research-dialog.png ” the add
-research dialog”)</p>
+<figure>
+<img loading="lazy" src="images/add-research-dialog.png"
+title="the add research dialog" alt="create exposition" />
+<figcaption aria-hidden="true">create exposition</figcaption>
+</figure>
 <h3 id="add-work">Add Work</h3>
 <p>Works are an older feature, which has now been replaced by media sets
 through the <a href="#media-repository">media repository</a>. If you had
@@ -1213,12 +1215,16 @@ Contents</h3>
 <p>Because the exact vertical position of tools depends on the width of
 the readers’ browsers window, the table of content works slightly
 different in pages created with the block editor. Instead of linking to
-an X, Y position, you can link to specific tool in your page. The tools
-can be named by double clicking them and opening the “common” tab. You
-can also use the overview tab to view a list of all used tools in the
-current page.</p>
-<p>tip: you can also use this method of tool linking in graphical pages
-now!</p>
+an X, Y position, you can link to specific tool in your page. You can
+fetch the url of a tool, by right clicking it and choosing “copy tool
+link”.</p>
+<figure>
+<img loading="lazy" src="images/copy-tool-link.png"
+title="editor &gt; context menu, showing the copy tool link option"
+alt="copy tool link in the context menu" />
+<figcaption aria-hidden="true">copy tool link in the context
+menu</figcaption>
+</figure>
 <h3 id="viewing">Viewing</h3>
 <p>On screens that are very narrow, the content will automatically break
 into a single list again, without objects next to each other.</p>
@@ -1331,20 +1337,22 @@ HTML-tool via the menu option <strong>convert to HTML tool</strong>.</p>
 href="#fonts">fonts</a>.</p>
 <h3 id="placing-images-on-top-of-text-tools">Placing images on top of
 text tools</h3>
-<p><strong>Never place other tools (like images) directly on top of long
-text tools</strong>. Because of small differences in how fonts are
-displayed within major browsers, and the fixed position of RC tools,
-this can result in text overflowing into those tools if the reader uses
-a different browser than the author that made the exposition.</p>
-<p>The issue is easily avoided by keeping to this rule: always start a
-new text tool below an inline image or tool:</p>
-<figure>
-<img loading="lazy" src="images/proper-use-text.png"
-title="the proper use of text tools"
-alt="proper way of combining text with other tools" />
-<figcaption aria-hidden="true">proper way of combining text with other
-tools</figcaption>
-</figure>
+<p>An important advice regarding text tools in the graphical editor is
+to <strong>keep them short</strong>. As a rule of thumb, keep the height
+below 1-2 screenheights maximum. Taller tools can result in positioning
+errors between the text content and other tools and text in your
+exposition.</p>
+<p><em>The reason for this is that browsers are not identical when it
+comes to text-rendering, there are actually minute differences (a
+fragment of a pixel) that can add up and cause serious alignment issues
+if your tools are bigger. This risk is worsened by the fact that you as
+the author will not notice: because the magnitude of error is actually
+dependent on what browser your reader is using.</em></p>
+<p>If you find your design requires taller text-tools with illustrations
+inline, use the specialized <a href="#block-editor">block editor</a>
+instead, or split the text tools in smaller parts: <img
+src="images/proper-use-text.png" title="the proper use of text tools"
+alt="proper way of combining text with other tools" /></p>
 <h3 id="scrollbars">Scrollbars</h3>
 <p>If the text within a text tool is longer than the tool height, a
 scrollbar will appear and part of the text is cutoff. Therefore
