@@ -85,10 +85,10 @@ To convert a document, open the Simple Media Tab and upload it in the
 "document" section of the upload dialog. It may take a few moments to
 convert after the upload has reached 100%.
 
-![media upload tab](images/media-upload-tab.png " the
+![media upload tab](images/media-upload-tab.png "the
 media upload button")
 
-![upload doc dialog](images/upload-doc-dialog.png " the
+![upload doc dialog](images/upload-doc-dialog.png "the
 doc upload section")
 
 Once converted, the document will show up as a folder within your

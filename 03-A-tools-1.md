@@ -145,13 +145,17 @@ visible at the top right corner of a row.
 
 ### Hyperlinking / Table of Contents
 
-Because the exact vertical position of tools depends on the width of
-the readers' browsers window, the table of content works slightly
-different in pages created with the block editor. Instead of linking
-to an X, Y position, you can link to specific tool in your page. You can fetch the url of a tool, by right clicking it and choosing "copy tool link". 
+__Hyperlink__
+
+It is possible to construct a hyperlink to a specific tool within a block page. To retrieve such a tool link, right click the tool and choose "copy tool link". This will copy the tool url to your clipboard, so you can use it to create a hyperlink elsewere. 
 
 ![copy tool link in the context menu](images/copy-tool-link.png "editor > context menu, showing the copy tool link option")
 
+__Table of contents__
+
+To link to a specific tool in your "CONTENTS" menu, open the menu "options", choose "edit table of contents". This will open a list of entries, where you can choose a page and a tool within your page to link to. 
+
+![selecting a specific tool in the table of contents dialog](images/block-table-of-contents.png "table of contents dialog: page, entry title, tool (dropdown)")
 
 
 ### Viewing

@@ -1212,18 +1212,29 @@ bottom of the current cell.</p>
 icon visible at the top right corner of a row.</p>
 <h3 id="hyperlinking-table-of-contents">Hyperlinking / Table of
 Contents</h3>
-<p>Because the exact vertical position of tools depends on the width of
-the readers’ browsers window, the table of content works slightly
-different in pages created with the block editor. Instead of linking to
-an X, Y position, you can link to specific tool in your page. You can
-fetch the url of a tool, by right clicking it and choosing “copy tool
-link”.</p>
+<p><strong>Hyperlink</strong></p>
+<p>It is possible to construct a hyperlink to a specific tool within a
+block page. To retrieve such a tool link, right click the tool and
+choose “copy tool link”. This will copy the tool url to your clipboard,
+so you can use it to create a hyperlink elsewere.</p>
 <figure>
 <img loading="lazy" src="images/copy-tool-link.png"
 title="editor &gt; context menu, showing the copy tool link option"
 alt="copy tool link in the context menu" />
 <figcaption aria-hidden="true">copy tool link in the context
 menu</figcaption>
+</figure>
+<p><strong>Table of contents</strong></p>
+<p>To link to a specific tool in your “CONTENTS” menu, open the menu
+“options”, choose “edit table of contents”. This will open a list of
+entries, where you can choose a page and a tool within your page to link
+to.</p>
+<figure>
+<img loading="lazy" src="images/block-table-of-contents.png"
+title="table of contents dialog: page, entry title, tool (dropdown)"
+alt="selecting a specific tool in the table of contents dialog" />
+<figcaption aria-hidden="true">selecting a specific tool in the table of
+contents dialog</figcaption>
 </figure>
 <h3 id="viewing">Viewing</h3>
 <p>On screens that are very narrow, the content will automatically break
@@ -2089,10 +2100,16 @@ content automatically turned into HTML tools and image tools.</p>
 <p>To convert a document, open the Simple Media Tab and upload it in the
 “document” section of the upload dialog. It may take a few moments to
 convert after the upload has reached 100%.</p>
-<p>[media upload tab](images/media-upload-tab.png ” the media upload
-button”)</p>
-<p>[upload doc dialog](images/upload-doc-dialog.png ” the doc upload
-section”)</p>
+<figure>
+<img loading="lazy" src="images/media-upload-tab.png" title="the media upload button"
+alt="media upload tab" />
+<figcaption aria-hidden="true">media upload tab</figcaption>
+</figure>
+<figure>
+<img loading="lazy" src="images/upload-doc-dialog.png" title="the doc upload section"
+alt="upload doc dialog" />
+<figcaption aria-hidden="true">upload doc dialog</figcaption>
+</figure>
 <p>Once converted, the document will show up as a folder within your
 simple media. You can drag the elements from this folder to a desired
 location in the exposition, resize and further adjust them.</p>
@@ -2467,13 +2484,13 @@ exposition:</p>
 (through the page tab on the right hand side).</li>
 <li><em>(optional)</em> scroll the page to the position where you want
 the link to point to.</li>
-<li>Go to <strong>options-&gt;show current position</strong><br />
-<em>In the block editor, you right click the target tool, click edit, go
-to “common” tab -&gt; “viewer link”.</em></li>
+<li>Right click any tool you want to link to and click “copy tool link”.
+In the graphical editor it is also possible to create a link that points
+to location where you are currently editing. To fetch such a absolute
+“position link”, use the menu <strong>options &gt; show current
+position</strong> and copy the url.</li>
 </ol>
-<p>This will display a URL of the target page with the current location.
-Copy the URL into the clipboard (Ctrl-C/Cmd-C).</p>
-<p>To create the hyperlink:</p>
+<p>To use the hyperlink in your text:</p>
 <ol type="1">
 <li>Create or open a <a href="#text-tool">Text</a> or <a
 href="#HTML-tool">HTML tool</a> and select a word or sentence that
@@ -2486,8 +2503,9 @@ alt="location of the hyperlink button in the html tool" /></li>
 <li>Paste the link in the <strong>link URL</strong> field and click
 <strong>add link</strong>.</li>
 </ol>
-<p>Note that if you have not selected any text, the link dialog will not
-offer a hyperlink option.</p>
+<p>Optionally you can change the target property, to have the link open
+in a new window. Note that if you have not selected any text, the link
+dialog will not offer a hyperlink option.</p>
 <figure>
 <img loading="lazy" src="images/hyperlink-dialog.png" alt="Hyperlink dialog window" />
 <figcaption aria-hidden="true">Hyperlink dialog window</figcaption>

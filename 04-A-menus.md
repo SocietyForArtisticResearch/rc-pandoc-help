@@ -49,13 +49,12 @@ In order to fetch a link to a different page within your exposition:
 1. Open the page you want to link __to__ in the editor
    (through the page tab on the right hand side).
 2. *(optional)* scroll the page to the position where you want the link to point to.
-3. Go to __options->show current position__  
-   *In the block editor, you right click the target tool, click edit, go to "common" tab -> "viewer link".*
+3. Right click any tool you want to link to and click "copy tool link". In the
+   graphical editor it is also possible to create a link that points to location
+   where you are currently editing. To fetch such a absolute "position link", use the menu __options
+   > show current position__ and copy the url.
 
-This will display a URL of the target page with the current location. Copy the URL
-into the clipboard (Ctrl-C/Cmd-C). 
- 
-To create the hyperlink:  
+To use the hyperlink in your text:  
 
 1. Create or open a [Text](#text-tool) or [HTML tool](#HTML-tool) and select a word or sentence that should become the link.
 2. Now click the hyperlink button (it looks like a chain link) and a dialog will be displayed.
@@ -63,6 +62,7 @@ To create the hyperlink:
 ![location of the hyperlink button in the html tool](images/text-hyperlink.png)
 3. Paste the link in the __link URL__ field and click __add link__.
 
+Optionally you can change the target property, to have the link open in a new window.
 Note that if you have not selected any text, the link dialog will not offer a hyperlink option.
 
 ![Hyperlink dialog window](images/hyperlink-dialog.png)
