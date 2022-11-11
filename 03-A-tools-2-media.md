@@ -78,8 +78,9 @@ works in the past you will find them under sets as well.
 
 ## Import Word documents using Simple Media upload
 
-It is possible to upload docx/odt/LaTeX documents and have the content
-automatically turned into HTML tools and image tools.
+It is possible to upload Microsoft Word (.docx), Libre Office, Open Office
+(.odt) and LaTeX documents and have the content automatically turned into RC
+HTML tools and image tools.
 
 To convert a document, open the Simple Media Tab and upload it in the
 "document" section of the upload dialog. It may take a few moments to

@@ -143,7 +143,10 @@ Here you can set which objects can be submitted to the portal.
 #### allow
 
 * __listing in 'portals' section.__  
-	This will make the portal shown on the front page.
+* __listing in 'projects' section.__
+* __listing in 'journals' section.__ 
+	<br>These options will make the portal/journal/project visible on the RC frontpage.
+	<br><strong><p class="red">Important: this option can only be set by superadmins, please contact<a href="mailto:info@societyforartisticresearch.org"> SAR </a> if you want your portal to become visible!</p></strong>
 * __linking to external portal page instead of rc profile page.__ <a id="external-portal-page">
 	If selected, the portal link on the RC frontpage, will directly link to the website of the portal (the one provided in the URL* field), instead of the internal RC page.
 * __listing in 'member of' dialog.__    
