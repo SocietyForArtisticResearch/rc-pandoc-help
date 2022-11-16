@@ -188,7 +188,7 @@ restore later.
 A snapshot is created by going to ☰ > __versions__ and clicking __add
 snapshot__.
 
-![version dialog](images/manage-versions.png " manage
+![version dialog](images/manage-versions.png "manage
 versions dialog")
 
 When you restore a snapshot, the original is not overwritten, instead
