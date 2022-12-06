@@ -554,9 +554,9 @@ Drag and drop the slideshow icon onto the weave and the dialog window will appea
 
 Open the __slides__ tab to select the images. You can either upload an image
 from your disk, by clicking __add media__, or you can select images from your
-__media repository__ sets and __simple media__ clicking "__select media__". 
+__media repository__ sets and __simple media__ clicking __select media__. 
 
-Each image can also be joined with an (optional) audio recording, which will be
+Each image can also be joined with an audio recording, which will be
 played in the background. Only audio files that have been previously uploaded to
 your __simple media__ or __media repository__ can be selected to be used as
 background. You can upload new audio files in your media list.
