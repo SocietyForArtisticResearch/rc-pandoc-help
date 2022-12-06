@@ -165,7 +165,9 @@ into a single list again, without objects next to each other.
 
 ### Styling 
 
-You can globally change the typeface, line-height 
+You can globally control the styling of your page, through the page style dialog, available in your pages tab.
+
+![styling dialog](images/page-font-settings.png "dialog, font-family, size, color, line-height (as percentage)")
 
 ### Future
 
