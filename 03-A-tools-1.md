@@ -163,10 +163,9 @@ To link to a specific tool in your "CONTENTS" menu, open the menu "options", cho
 On screens that are very narrow, the content will automatically break
 into a single list again, without objects next to each other.
 
+### Styling 
 
-
-
-
+You can globally change the typeface, line-height 
 
 ### Future
 
@@ -174,6 +173,9 @@ It will become possible to make two versions of the same content, a 2D
 graphic and a linear block-like layout. This way the exposition content can
 automatically select the right format for the screen it is being
 viewed on.
+
+
+
 
 
 ## Tools in detail
@@ -548,13 +550,15 @@ slideshow.
 
 Drag and drop the slideshow icon onto the weave and the dialog window will appear.
 
-To be able to select media you first have to upload an item into
-__simple media__ or select media files from your works. To add an
-item, choose __add__ and upload the object from your desktop to the RC
-servers. Name the file and make a declaration of the copyright
-holder. After adding the file, you can edit the style of the picture
-with the html style standards. To add a sound file to the slide, the
-file first needs to be uploaded to simple media.
+Open the __slides__ tab to select the images. You can either upload an image
+from your disk, by clicking __add media__, or you can select images from your
+__media repository__ sets and __simple media__ clicking "__select media__". 
+
+Each image can also be joined with an (optional) audio recording, which will be
+played in the background. Only audio files that have been previously uploaded to
+your __simple media__ or __media repostitory__ can be selected to be used as
+background. You can upload new audio files in your media list.
+
 
 ### Style
 
