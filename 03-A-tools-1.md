@@ -558,7 +558,7 @@ __media repository__ sets and __simple media__ clicking "__select media__".
 
 Each image can also be joined with an (optional) audio recording, which will be
 played in the background. Only audio files that have been previously uploaded to
-your __simple media__ or __media repostitory__ can be selected to be used as
+your __simple media__ or __media repository__ can be selected to be used as
 background. You can upload new audio files in your media list.
 
 
