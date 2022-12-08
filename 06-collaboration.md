@@ -61,9 +61,7 @@ Choose __'collaboration'__, search for the user you want to cooperate
 with and add the collaborator by clicking on their name. Only users with full accounts can be collaborated with, and limited accounts will not show up if you try to find them.
 
 
-![Inviting a supervisor by typing it into the supervisor
-box](images/inviting-supervisor.png " a user adding
-another user as supervisor")
+![Inviting a supervisor by typing it into the supervisor box](images/inviting-supervisor.png" a user adding another user as supervisor")
 
 The users that were added will show up as a list below the field. After clicking
 submit, collaborators will receive an invitation from you in their collaboration
