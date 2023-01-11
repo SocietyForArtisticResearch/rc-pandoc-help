@@ -49,9 +49,13 @@ In order to fetch a link to a different page within your exposition:
 1. Open the page you want to link __to__ in the editor
    (through the page tab on the right hand side).
 2. *(optional)* scroll the page to the position where you want the link to point to.
-3. Right click any tool you want to link to and click "copy tool link". In the
-   graphical editor it is also possible to create a link that points to location
-   where you are currently editing. To fetch such a absolute "position link", use the menu __options
+3. Right click any tool you want to link to and click "copy tool link". 
+
+   ![context menu showing the copy tool link command](images/copy-tool-link2.png "context menu, copy-tool-link is the second option")
+
+In the graphical editor it is also possible to create a link that points to
+   location where you are currently editing. To fetch such an absolute "position
+   link", use the menu __options
    > show current position__ and copy the url.
 
 To use the hyperlink in your text:  

@@ -293,8 +293,6 @@ The HTML-tool is used for advanced text editing. It is a
 *what-you-see-is-what-you-get* rich text editor. Unlike the text tool,
 you can only edit its content in a dialog box. 
 
-You add the HTML Tool like any other tool: drag it with your mouse from the toolbar onto your canvas.
-
 ### Media
 
 ![html tool media tab](images/html-tool.png "html tool media tab")
@@ -316,13 +314,20 @@ Another commenly used feature is the hyperlink button (it looks like a chain lin
 
 The top right button opens the editor in fullscreen. Note: you will have to exit full screen mode to submit your changes, using the same button.
 
+<a id="html-tool-bar-extended"></a>
+
 ![html extended tool options](images/html-tool-bar-extended.png) 
 
-A few tips:
+### Anchors (Graphical/Block) 
+
+You can use the anchor button to insert standard HTML anchors to a specific location in your HTML tool. 
+When creating a hyperlink to your anchor, do not forget to prefix it with a '#'. So if you anchor is called "anchor1", the link should be to "#anchor1".
+
+### Tips using the HTML tool:
 
 * Make sure the tool size matches the length of the text within. If the text is too long, it will result in __scrollbars__.
 
-* It is possible to add pictures or even iframes within the text, but it is not recommended in most situations. Preferably media is added to the catalogue using the appropriate tools, to avoid the of risk external content going missing when it is removed by the original source.
+* It is possible to insert image or even iframes within an HTML tool, but it is not recommended in most situations. Preferably media is added to the catalogue using the appropriate tools, to avoid the of risk external content going missing when it is removed by the original source. Never copy a media link from a resource in the RC, since it has a timeout.
 
 * Be careful making very large texts within a single HTML tool, this may result in unexpected overlap when your exposition is viewed with another browser. 3 or 4 paragraphs per tool is a good average. If you do make a large HTML tool, keep a large margin at the bottom bordor.
 

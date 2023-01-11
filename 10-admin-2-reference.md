@@ -272,8 +272,44 @@ users or expositions connected to it.
 
 ![edit group dialog](images/create_group.png)
 
+# Using JSON feeds
 
+The search functionality of the RC allows you to export metadata of the portal in JSON format. You can construct a normal query by going to advanced search from the front page, and select JSON as the output. The results are always pages with a maximum of 250 results per page.
 
+Here is an example query, to show the 25 most recent publications in the RC:
+<https://www.researchcatalogue.net/portal/search-result?fulltext=&title=&autocomplete=&keyword=&portal=&statusprogress=0&statuspublished=0&statuspublished=1&includelimited=0&includeprivate=0&type_research=research&resulttype=research&modifiedafter=&modifiedbefore=&format=json&limit=25&page=0>
+
+The JSON has the following format:
+__id__ : (this is the RC ID, which can also be used to construct links, since it will never change.
+__type__ : exposition / work / 
+__title__ : the full title of the exposition
+__thumb__ : (optional) a thumbnail image of the exposition, as provided by the author
+__default-page__ : the first page of the exposition
+__keywords__ : open keywords added by the author or admin, note that this is not a protected vocabulary.
+__created__ : date of creation of the exposition DD/MM/YYYY
+__status__ : 
+	- in progress : still being edited, can also be deleted
+	- published : a permanent exposition, will not be edited or removed
+__doi__ :
+	if published, most expsoitions will have a DOI.
+__published in__:
+	This shows in which portal(s) the exposition is published in 
+__license__: 
+	- all-rights-reserved
+	- CC-BY Creative Commons
+	- CC-BY-SA
+	- CC-NC-BY-SA (share alike)
+	- CC-NC-BY-ND (no derivates)
+	- Public Domain 
+__issue__:
+	Portals in the RC always publish their expositions as part of Issues. For journals these can mean __issue__ as in journal issue, however, other portals also use it to distinguish between different variaties of research (student, staff, 3rd cycle etc..)
+
+__author__:
+	Internal RC ID (can be used to construct author profile link: `https://www.researchcatalogue.net/profile/?person=[id]` )
+	This user will also be the owner (the user that can publish, delete and rename the exposition and controls who is ).
+
+__coauthor__:
+	The other authors of the exposition.
 
 
 

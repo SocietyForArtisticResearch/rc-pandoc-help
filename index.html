@@ -229,6 +229,8 @@ id="toc-connection-requests">Connection Requests</a></li>
 <li><a href="#issue-page" id="toc-issue-page">Issue page</a></li>
 <li><a href="#groups-1" id="toc-groups-1">Groups</a></li>
 </ul></li>
+<li><a href="#using-json-feeds" id="toc-using-json-feeds">Using JSON
+feeds</a></li>
 <li><a href="#more-help" id="toc-more-help">More help</a></li>
 <li><a href="#changelog" id="toc-changelog">Changelog</a></li>
 <li><a href="#in-development" id="toc-in-development">In
@@ -1397,8 +1399,6 @@ see all the text.</p>
 <p>The HTML-tool is used for advanced text editing. It is a
 <em>what-you-see-is-what-you-get</em> rich text editor. Unlike the text
 tool, you can only edit its content in a dialog box.</p>
-<p>You add the HTML Tool like any other tool: drag it with your mouse
-from the toolbar onto your canvas.</p>
 <h3 id="media">Media</h3>
 <figure>
 <img loading="lazy" src="images/html-tool.png" title="html tool media tab"
@@ -1429,21 +1429,28 @@ your text.</p>
 <p>The top right button opens the editor in fullscreen. Note: you will
 have to exit full screen mode to submit your changes, using the same
 button.</p>
+<p><a id="html-tool-bar-extended"></a></p>
 <figure>
 <img loading="lazy" src="images/html-tool-bar-extended.png"
 alt="html extended tool options" />
 <figcaption aria-hidden="true">html extended tool options</figcaption>
 </figure>
-<p>A few tips:</p>
+<h3 id="anchors-graphicalblock">Anchors (Graphical/Block)</h3>
+<p>You can use the anchor button to insert standard HTML anchors to a
+specific location in your HTML tool. When creating a hyperlink to your
+anchor, do not forget to prefix it with a ‘#’. So if you anchor is
+called “anchor1”, the link should be to “#anchor1”.</p>
+<h3 id="tips-using-the-html-tool">Tips using the HTML tool:</h3>
 <ul>
 <li><p>Make sure the tool size matches the length of the text within. If
 the text is too long, it will result in
 <strong>scrollbars</strong>.</p></li>
-<li><p>It is possible to add pictures or even iframes within the text,
-but it is not recommended in most situations. Preferably media is added
-to the catalogue using the appropriate tools, to avoid the of risk
+<li><p>It is possible to insert image or even iframes within an HTML
+tool, but it is not recommended in most situations. Preferably media is
+added to the catalogue using the appropriate tools, to avoid the of risk
 external content going missing when it is removed by the original
-source.</p></li>
+source. Never copy a media link from a resource in the RC, since it has
+a timeout.</p></li>
 <li><p>Be careful making very large texts within a single HTML tool,
 this may result in unexpected overlap when your exposition is viewed
 with another browser. 3 or 4 paragraphs per tool is a good average. If
@@ -2489,16 +2496,24 @@ fetch the link and then create the hyperlink.</p>
 <p>In order to fetch a link to a different page within your
 exposition:</p>
 <ol type="1">
-<li>Open the page you want to link <strong>to</strong> in the editor
-(through the page tab on the right hand side).</li>
-<li><em>(optional)</em> scroll the page to the position where you want
-the link to point to.</li>
-<li>Right click any tool you want to link to and click “copy tool link”.
-In the graphical editor it is also possible to create a link that points
-to location where you are currently editing. To fetch such a absolute
-“position link”, use the menu <strong>options &gt; show current
-position</strong> and copy the url.</li>
+<li><p>Open the page you want to link <strong>to</strong> in the editor
+(through the page tab on the right hand side).</p></li>
+<li><p><em>(optional)</em> scroll the page to the position where you
+want the link to point to.</p></li>
+<li><p>Right click any tool you want to link to and click “copy tool
+link”.</p>
+<figure>
+<img loading="lazy" src="images/copy-tool-link2.png"
+title="context menu, copy-tool-link is the second option"
+alt="context menu showing the copy tool link command" />
+<figcaption aria-hidden="true">context menu showing the copy tool link
+command</figcaption>
+</figure></li>
 </ol>
+<p>In the graphical editor it is also possible to create a link that
+points to location where you are currently editing. To fetch such an
+absolute “position link”, use the menu <strong>options &gt; show current
+position</strong> and copy the url.</p>
 <p>To use the hyperlink in your text:</p>
 <ol type="1">
 <li>Create or open a <a href="#text-tool">Text</a> or <a
@@ -4219,6 +4234,42 @@ it.</p>
 <img loading="lazy" src="images/create_group.png" alt="edit group dialog" />
 <figcaption aria-hidden="true">edit group dialog</figcaption>
 </figure>
+<h1 id="using-json-feeds">Using JSON feeds</h1>
+<p>The search functionality of the RC allows you to export metadata of
+the portal in JSON format. You can construct a normal query by going to
+advanced search from the front page, and select JSON as the output. The
+results are always pages with a maximum of 250 results per page.</p>
+<p>Here is an example query, to show the 25 most recent publications in
+the RC: <a
+href="https://www.researchcatalogue.net/portal/search-result?fulltext=&amp;title=&amp;autocomplete=&amp;keyword=&amp;portal=&amp;statusprogress=0&amp;statuspublished=0&amp;statuspublished=1&amp;includelimited=0&amp;includeprivate=0&amp;type_research=research&amp;resulttype=research&amp;modifiedafter=&amp;modifiedbefore=&amp;format=json&amp;limit=25&amp;page=0"
+class="uri">https://www.researchcatalogue.net/portal/search-result?fulltext=&amp;title=&amp;autocomplete=&amp;keyword=&amp;portal=&amp;statusprogress=0&amp;statuspublished=0&amp;statuspublished=1&amp;includelimited=0&amp;includeprivate=0&amp;type_research=research&amp;resulttype=research&amp;modifiedafter=&amp;modifiedbefore=&amp;format=json&amp;limit=25&amp;page=0</a></p>
+<p>The JSON has the following format: <strong>id</strong> : (this is the
+RC ID, which can also be used to construct links, since it will never
+change. <strong>type</strong> : exposition / work /
+<strong>title</strong> : the full title of the exposition
+<strong>thumb</strong> : (optional) a thumbnail image of the exposition,
+as provided by the author <strong>default-page</strong> : the first page
+of the exposition <strong>keywords</strong> : open keywords added by the
+author or admin, note that this is not a protected vocabulary.
+<strong>created</strong> : date of creation of the exposition DD/MM/YYYY
+<strong>status</strong> : - in progress : still being edited, can also
+be deleted - published : a permanent exposition, will not be edited or
+removed <strong>doi</strong> : if published, most expsoitions will have
+a DOI. <strong>published in</strong>: This shows in which portal(s) the
+exposition is published in <strong>license</strong>: -
+all-rights-reserved - CC-BY Creative Commons - CC-BY-SA - CC-NC-BY-SA
+(share alike) - CC-NC-BY-ND (no derivates) - Public Domain
+<strong>issue</strong>: Portals in the RC always publish their
+expositions as part of Issues. For journals these can mean
+<strong>issue</strong> as in journal issue, however, other portals also
+use it to distinguish between different variaties of research (student,
+staff, 3rd cycle etc..)</p>
+<p><strong>author</strong>: Internal RC ID (can be used to construct
+author profile link:
+<code>https://www.researchcatalogue.net/profile/?person=[id]</code> )
+This user will also be the owner (the user that can publish, delete and
+rename the exposition and controls who is ).</p>
+<p><strong>coauthor</strong>: The other authors of the exposition.</p>
 <h1 id="more-help">More help</h1>
 <ul>
 <li><p><a
