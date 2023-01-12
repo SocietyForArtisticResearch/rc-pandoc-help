@@ -39,10 +39,10 @@ Please visit <https://creativecommons.org> for full license information.
    -->
 
 * CC-BY-NC - [Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/)\
-  Work has to be attributed, derivitives can be made, but not for commercial purposes.
+  Work has to be attributed, derivatives can be made, but not for commercial purposes.
 
 * CC-BY-SA - [Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)\
-  Work has to be attributed, derivities may be made but only under the same license as the original.
+  Work has to be attributed, derivatives may be made but only under the same license as the original.
 
 * CC-BY-NC-ND - [Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/)\
   Same as CC-BY-ND, but prohibits commercial distribution of your work.
