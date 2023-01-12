@@ -17,13 +17,13 @@ You can get help choosing the right license on the Creative Commons website:
 
 ### __Abbriviations:__
 
-* __All rights reserved__ : ask permission of author.
+* __All rights reserved__ : ask permission of author in case you want to reuse
 * __CC__ : Creative Commons
 * __BY__ : Attribution required
 * __NC__ : No commercial use allowed
-* __SA__ : Share alike: you may only distribute (derivities or copies) under the same license.
-* __ND__ : No derivitives: may not be take apart of remixed.
-* __Public domain__ : no restrictions.
+* __SA__ : Share alike: you may only distribute (derivatives or copies) under the same license as the original
+* __ND__ : No derivatives: the work should be kept in its original form, you may not distribute modified copies
+* __Public domain__ : no restrictions (often used with historical works that no longer fall under any copyright)
 
 Please visit <https://creativecommons.org> for full license information.
 
