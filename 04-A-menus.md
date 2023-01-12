@@ -53,8 +53,7 @@ In order to fetch a link to a different page within your exposition:
 
    ![context menu showing the copy tool link command](images/copy-tool-link2.png "context menu, copy-tool-link is the second option")
 
-In the graphical editor it is also possible to create a link that points to
-   location where you are currently editing. To fetch such an absolute "position
+In the graphical editor it is also possible to create a link that points to your current (absolute) position in the editor. To fetch such a "position
    link", use the menu __options
    > show current position__ and copy the url.
 
