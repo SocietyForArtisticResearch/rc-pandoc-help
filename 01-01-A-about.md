@@ -72,7 +72,7 @@ support@researchcatalogue.net.
 |                               | use the media repository |
 |                               | collaborate              |
 
-# Safe upgrade 
+## Safe upgrade 
 
 [support@researchcatalogue.net](mailto:support@researchcatalogue.net "mail user support") supports OpenPGP email signing to prevent
 sensitive information from going lost. If you have never used OpenPGP, by far,
