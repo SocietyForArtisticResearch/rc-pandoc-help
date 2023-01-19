@@ -48,5 +48,39 @@ repository by contacting us.
 The Research Catalogue is provided by the Society for Artistic
 Research (SAR).
 
+# Basic Account vs Full Account
+
+When you register an account in the RC, you will first just have a basic
+account. This allows you to be a supervisor, review expositions, and leave
+comments. Some application calls may also accept limited user accounts to
+submit, but this depends on the application. 
+
+Limited accounts do not have the
+option to create expositions or publish work. For this you will have to upgrade
+to a full account.
+
+You can upgrade your limited account by logging in, and clicking "request
+upgrade", where you will be instructed to send in a proof of identity to
+support@researchcatalogue.net. 
+
+| **Limited account**           | **Full Account**         |
+|-------------------------------|--------------------------|
+| comment                       | comment                  |
+| review                        | review                   |
+| create applications (not all) | create applications      |
+|                               | create expositions       |
+|                               | use the media repository |
+|                               | collaborate              |
+
+# Safe upgrade 
+
+[support@researchcatalogue.net](mailto:support@researchcatalogue.net "mail user support") supports OpenPGP email signing to prevent
+sensitive information from going lost. If you have never used OpenPGP, by far,
+the easiest way is to use Mozilla's Thunderbird application, which has OpenPGP
+built-in, is free and well documented.
+
+You may find this resource by Mozilla useful:
+[Mozilla Help: I have never used OpenPGP before](https://support.mozilla.org/en-US/kb/openpgp-thunderbird-howto-and-faq#w_i-have-never-used-openpgp-with-thunderbird-before-how-do-i-setup-openpgp)
+
 
 
