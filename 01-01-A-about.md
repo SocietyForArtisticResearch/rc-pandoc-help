@@ -61,7 +61,8 @@ to a full account.
 
 You can upgrade your limited account by logging in, and clicking "request
 upgrade", where you will be instructed to send in a proof of identity to
-support@researchcatalogue.net. 
+support@researchcatalogue.net. Please read about "safe upgrade" below, to make sure
+you send this information safely.
 
 | **Limited account**           | **Full Account**         |
 |-------------------------------|--------------------------|

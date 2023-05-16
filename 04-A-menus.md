@@ -24,7 +24,7 @@ If left empty, it uses the title from the editor.
 You can use a tool coordinates as an entry point. You will be provided with the list of tools in the exposition. This also means if you later change the tool position, this entry will still point to the same tool. It is recommended to name the intended tools in a clear way, so you can better find them from the list.
 
 * __X-COORD & Y-COORD__\
-you can use this to create an entry that has an offset, which immediately opens the page on a specific location within the exposition. The X,Y values correspond to an offset in pixels. The Y offset is measured from the top. Instead of looking these values up by hand, you may also use [__commands -> show current position__](#set-default-position-show-current-position).
+you can use this to create an entry that has an offset, which immediately opens the page on a specific location within the exposition. The X,Y values correspond to an offset in pixels. The Y offset is measured from the top. Instead of looking these values up by hand, you may also use [__options -> show current position__](#set-default-position-show-current-position).
 
 *Tip: you can easily reorder the table of contents entries by clicking and dragging the boxes.*
 
@@ -81,7 +81,7 @@ Within the hyperlink dialog there are a couple of options:
 
 ## Overview
 
-Within the "Commands" tab on the right-hand side of the editor there
+Within the "Overview" tab on the right-hand side of the editor there
 is a checkbox labeled "Overview." Clicking the checkbox will open
 and close a tab on the right-hand side of
 the editor. It contains both a map and a list of all objects in the exposition.
@@ -185,11 +185,11 @@ The position link in Hyperlinking, or simply to share a specific position throug
 
 ### Restore deleted tools
 
-Restore recently deleted tools.
+Restore recently deleted tools. Currently, this option is only available in the graphical editor mode.
 
 ### Restore deleted footnotes
 
-Restore recently deleted tool.
+Restore recently deleted footnotes. Currently, this option is only available in the graphical editor mode.
 
 ## Help menu
 
