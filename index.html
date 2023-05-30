@@ -101,11 +101,10 @@ Options</a></li>
 id="toc-migration-of-fonts-in-your-expositions">Migration of fonts in
 your expositions</a></li>
 </ul></li>
-<li><a href="#graphical-editor---content-manager-tabs"
-id="toc-graphical-editor---content-manager-tabs">Graphical Editor -
-Content Manager / Tabs</a>
+<li><a href="#content-manager-tabs"
+id="toc-content-manager-tabs">Content Manager / Tabs</a>
 <ul>
-<li><a href="#overview" id="toc-overview">Overview</a></li>
+<li><a href="#map" id="toc-map">Map</a></li>
 <li><a href="#media-tab" id="toc-media-tab">Media tab</a></li>
 <li><a href="#import-word-documents-using-simple-media-upload"
 id="toc-import-word-documents-using-simple-media-upload">Import Word
@@ -130,7 +129,7 @@ id="toc-graphical-expositions---table-of-content">Graphical Expositions
 - Table of Content</a>
 <ul>
 <li><a href="#hyperlinking" id="toc-hyperlinking">Hyperlinking</a></li>
-<li><a href="#overview-1" id="toc-overview-1">Overview</a></li>
+<li><a href="#overview" id="toc-overview">Overview</a></li>
 </ul></li>
 <li><a href="#graphical-editor---menus"
 id="toc-graphical-editor---menus">Graphical Editor - Menus</a>
@@ -142,10 +141,18 @@ id="toc-graphical-editor---menus">Graphical Editor - Menus</a>
 <li><a href="#send-collaboration-message"
 id="toc-send-collaboration-message">Send Collaboration Message</a></li>
 </ul></li>
+<li><a href="#references" id="toc-references">References</a>
+<ul>
+<li><a href="#creating-a-reference"
+id="toc-creating-a-reference">Creating a reference</a></li>
+<li><a href="#viewing-the-references"
+id="toc-viewing-the-references">Viewing the references</a></li>
+<li><a href="#import" id="toc-import">Import</a></li>
+</ul></li>
 <li><a href="#text-based-editor" id="toc-text-based-editor">Text Based
 Editor</a>
 <ul>
-<li><a href="#overview-2" id="toc-overview-2">Overview</a></li>
+<li><a href="#overview-1" id="toc-overview-1">Overview</a></li>
 <li><a href="#introduction" id="toc-introduction">Introduction</a></li>
 <li><a href="#creation-and-using-a-template"
 id="toc-creation-and-using-a-template">Creation and using a
@@ -1160,7 +1167,7 @@ tabs:</p>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="#overview-1">overview</a></td>
+<td><a href="#overview-1">map</a></td>
 <td>map and list overview</td>
 </tr>
 <tr class="even">
@@ -1168,10 +1175,14 @@ tabs:</p>
 <td>view previously uploaded media files</td>
 </tr>
 <tr class="odd">
-<td><a href="#footnotes-and-popovers">footnotes</a></td>
-<td>manage footnotes</td>
+<td><a href="#footnotes-and-popovers">popup</a></td>
+<td>manage popovers</td>
 </tr>
 <tr class="even">
+<td><a href="#references">ref</a></td>
+<td>manage references / bibliography</td>
+</tr>
+<tr class="odd">
 <td><a href="https://guide.researchcatalogue.net/#pages">pages</a></td>
 <td>manage pages</td>
 </tr>
@@ -2131,18 +2142,18 @@ metadata &gt; compatibility</strong> to apply the migration.</li>
 </ol>
 <p>If you do not like the result, you can just delete the exposition and
 start at step 1.</p>
-<h1 id="graphical-editor---content-manager-tabs">Graphical Editor -
-Content Manager / Tabs</h1>
-<p>The content manager is a collection of tabs located on the right size
-of the graphical editor.</p>
+<h1 id="content-manager-tabs">Content Manager / Tabs</h1>
+<p>The content manager is a collection of tabs located on the right side
+of the graphical &amp; block editors. It is not present in the
+text-based editor.</p>
 <figure>
-<img loading="lazy" src="images/media_manage.png" title="media management"
-alt="media, pages and footnotes tabs" />
-<figcaption aria-hidden="true">media, pages and footnotes
+<img loading="lazy" src="images/content-manager-v2.png" title="media management"
+alt="map, media, references, popover and pages tabs" />
+<figcaption aria-hidden="true">map, media, references, popover and pages
 tabs</figcaption>
 </figure>
 <ul>
-<li>overview - all objects in the current weave</li>
+<li>map - all objects in the current weave</li>
 <li>media:
 <ul>
 <li>simple media - all media uploaded in this exposition (including
@@ -2150,12 +2161,14 @@ media that is no longer used in the weaves)</li>
 <li>sets - sets are folders of media managed by the media repository,
 you will also find your (old) “works” here.</li>
 </ul></li>
+<li>ref - manage your bibliography and references</li>
 <li>pages - a list of all the different pages (pages)</li>
-<li>footnotes - a list of rc <a href="#footnotes-and-popovers">footnotes
-and popovers</a></li>
+<li>popup - a list of rc <a href="#footnotes-and-popovers">footnotes and
+popovers</a></li>
 </ul>
 <p><a id="media-management"></a></p>
-<h2 id="overview">Overview</h2>
+<p><a id="overview"></a></p>
+<h2 id="map">Map</h2>
 <p>You can use the overview to see all objects in the exposition as both
 a miniature map and a list. This can also be useful to retrieve lost
 objects, or change the ordering (front to back). If you click on a tool
@@ -2255,7 +2268,7 @@ edit the “raw css” of a page by opening <strong>pages tab</strong> &gt;
 manager. An RC exposition can consist of one or more pages. A new
 exposition starts with a single page, called “default page”.</p>
 <figure>
-<img loading="lazy" src="images/pages-tab-2018.png" title="the page tab"
+<img loading="lazy" src="images/pages-tab-2023.png" title="the page tab"
 alt="page tab" />
 <figcaption aria-hidden="true">page tab</figcaption>
 </figure>
@@ -2630,7 +2643,7 @@ new screen or not.</li>
 <li><strong>Class</strong> : set the class of the link (this is rarely
 used)</li>
 </ul>
-<h2 id="overview-1">Overview</h2>
+<h2 id="overview">Overview</h2>
 <p>Within the “Overview” tab on the right-hand side of the editor there
 is a checkbox labeled “Overview.” Clicking the checkbox will open and
 close a tab on the right-hand side of the editor. It contains both a map
@@ -2748,10 +2761,55 @@ available in the graphical editor mode.</p>
 <h2 id="send-collaboration-message">Send Collaboration Message</h2>
 <p>When you are collaborating on an exposition, you can use the command
 “send collaboration message” to communicate with your collaborators.</p>
+<p><a id="references"></a></p>
+<h1 id="references">References</h1>
+<p>The reference feature helps you build a bibliography for your
+exposition. The RC currently supports the following types:</p>
+<ul>
+<li>Book</li>
+<li>Chapter (of a book)</li>
+<li>Journal (article)</li>
+<li>Website</li>
+<li>Master Thesis</li>
+<li>Phd Thesis</li>
+<li>Proceedings</li>
+<li>Video</li>
+<li>Score</li>
+<li>Artwork</li>
+<li>Recording</li>
+<li>Exposition</li>
+<li>Misc</li>
+</ul>
+<p>Each item will have different fields. Fields marked with * are
+required. In case none of the types fit, you may choose to use Misc,
+which stands for miscellaneous.</p>
+<h2 id="creating-a-reference">Creating a reference</h2>
+<p>You can create a new reference by going to the Ref tab, which is
+located on the right-hand side of the workspace editor. Click the +
+button to create a new reference. A dialog will open with a form to
+enter the reference data.</p>
+<figure>
+<img loading="lazy" src="images/ref-tab.png"
+title="a dialog with tabs, showing a tab for each type of reference"
+alt="create reference" />
+<figcaption aria-hidden="true">create reference</figcaption>
+</figure>
+<h2 id="viewing-the-references">Viewing the references</h2>
+<p>References are listen on the META page of an expostion, at the
+bottom.</p>
+<h2 id="import">Import</h2>
+<p>You can import your references from other systems using BibTeX
+format. This is supported by systems like Zotero, Menderley &amp;
+JabRef.</p>
+<p>You can create and manage your references under the Ref tab. This
+will be displayed at the bottom of the META page of an exposition. The
+RC mainly follows the MHRA style of bibliography, with some additions
+where relavant. You can also insert links to references in your HTML
+tools, using the “*” button.</p>
 <h1 id="text-based-editor">Text Based Editor</h1>
 <p>First time user of the text editor? <a href="#introduction">click
 here</a>.</p>
-<h2 id="overview-2">Overview</h2>
+<h2 id="overview-1">Overview</h2>
 <div id="overview-block">
 <p>
 Click any element in the image to jump to the relevant section:

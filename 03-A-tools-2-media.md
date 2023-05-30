@@ -1,25 +1,27 @@
-# Graphical Editor - Content Manager / Tabs
+# Content Manager / Tabs
 
 The content manager is a collection of tabs located on the right side
-of the graphical editor.
+of the graphical & block editors. It is not present in the text-based editor.
 
-![media, pages and footnotes tabs](images/media_manage.png "media
+![map, media, references, popover and pages tabs](images/content-manager-v2.png "media
 management")
 
-* overview - all objects in the current weave
+* map - all objects in the current weave
 * media:
   - simple media - all media uploaded in this exposition (including
     media that is no longer used in the weaves)
   - sets - sets are folders of media managed by the media repository,
     you will also find your (old) "works" here.
-  
+* ref - manage your bibliography and references
 * pages - a list of all the different pages (pages)
-* footnotes - a list of rc [footnotes and
+* popup - a list of rc [footnotes and
   popovers](#footnotes-and-popovers)
 
 <a id="media-management"></a>
 
-## Overview
+<a id="overview"></a>
+
+## Map
 
 You can use the overview to see all objects in the exposition as both
 a miniature map and a list.  This can also be useful to retrieve lost
@@ -132,7 +134,7 @@ Pages are managed in the __pages__ tab of the content manager. An RC
 exposition can consist of one or more pages. A new exposition starts
 with a single page, called "default page".
 
-![page tab](images/pages-tab-2018.png "the page tab")
+![page tab](images/pages-tab-2023.png "the page tab")
 
 ### Creating a page
 

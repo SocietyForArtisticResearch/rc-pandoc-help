@@ -25,10 +25,12 @@ On the right you will find the content manager, consisting of four tabs:
 
 | Tab                                                 | Function:                                |
 | --------------------------------------------------- | ---------------------------------------  |
-| [overview](#overview-1)                             | map and list overview                    |
+| [map](#overview-1)                             | map and list overview                    |
 | [media](#simple-media)                              | view previously uploaded media files     |
-| [footnotes](#footnotes-and-popovers)                | manage footnotes                         |
+| [popup](#footnotes-and-popovers)                | manage popovers                         |
+| [ref](#references)                                 | manage references / bibliography  |
 | [pages](https://guide.researchcatalogue.net/#pages) | manage pages                             |
+
 
 ## Adding a Tool
 
