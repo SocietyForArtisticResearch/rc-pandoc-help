@@ -1,6 +1,6 @@
 # Graphical Editor - Content Manager / Tabs
 
-The content manager is a collection of tabs located on the right size
+The content manager is a collection of tabs located on the right side
 of the graphical editor.
 
 ![media, pages and footnotes tabs](images/media_manage.png "media
