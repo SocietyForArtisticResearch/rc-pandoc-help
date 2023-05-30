@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a tutorial to describe how an RC Portal can be used for publication workflows. It is aimed at portal administrators.
+This tutorial describes how an RC Portal can be used for publication workflows. It is aimed at portal administrators. ("portal admin" or "admin")
 The process typically consists of 4 stages: 
 
 * setting up accounts
@@ -14,7 +14,7 @@ The process typically consists of 4 stages:
 
 There are two ways of setting up accounts: 
 
-1. The author can create an account for him/her self, by clicking [REGISTER](https://www.researchcatalogue.net/portal/register "Registration on the Research Catalogue") on the research catalogue homepage. After filling in the form the author will immediatly get a basic account. To gain a full account, which has the right to create content, the author will be requisted to send a proof of identity. RC user support will upgrade the account after verification.
+1. The author can create an account by clicking [REGISTER](https://www.researchcatalogue.net/portal/register "Registration on the Research Catalogue") on the research catalogue homepage. After filling in the form the author will immediatly get a basic account. To gain a full account, which has the right to create content, the author will be requested to send a proof of identity. RC user support will upgrade the account after verification.
 
 2. The portal admin creates the account(s) for the author(s). This option is common when a large number of users need be created at once. In this case, the responsibility of making sure that the email address belongs to an actual person lies with the portal admin. Ideally, a person should only have __at most one user account__ in the RC (not multiple, to avoid mixups). In case of copyright or other legal problems the portal admin should be able to provide contact information to this person.
 
@@ -31,7 +31,7 @@ For safety, admins creating user accounts should:
 - Use a unique password for each new user.
 - Make the password sufficiently random (current standard is at least 12 characters).
 
-Safer is to have the student make their own limited account (through normal [registration](https://www.researchcatalogue.net/portal/register)) and add them to
+It is safer to have the student make their own limited account (through normal [registration](https://www.researchcatalogue.net/portal/register)) and add them to
 the portal afterwards.  Alternatively, you could also generate a long
 random password and throw it away immediately, then ask the user to
 reset the password themselves using
@@ -58,8 +58,8 @@ It is also possible that an author makes the in-progress exposition content visi
 Once the writing is sufficiently progressed, the next step is that the
 author sents a request to review the exposition. This is done through
 the ☰ menu, which is located on the "my profile" in the right bottom
-corner of the exposition summary. This will open a dialog where he/she
-can choose in which portal the exposition is to be reviewed and possibly published. 
+corner of the exposition summary. This will open a dialog where a portal
+can be chosen for review and possible publication.
 
 
 ![Exposition submission dialog](images/submit_for_review.png "Dialog for submission for review")
@@ -68,21 +68,14 @@ Once the author has done this step, no further changes can be made to the exposi
 
 The portal admin will receive a message from the RC that a new work is ready for review. It will also be available under the “reviewing” section in the __[admin section](https://www.researchcatalogue.net/admin)__.
 
-The expositions content is locked for the author(s) during the review
-process, only the portal admin can edit.  If the author needs to
-revision the content, it is possible to 
-temporarely open for editing by clicking the "in revision" button <img
-class="icon" src="images/revision-action.png" />. This will open a
-dialog where you can put the exposition "in revision". During
-revision, the exposition will remain listed in the reviewing
-page. Once the author is done, they can either resubmit themselves
-from their profile page, or the administrator can use the button in
-the "reviewing" page to change the status back to "in review".
+The expositions content is locked for the author(s) during the review process, only the portal admin can edit.  If the author needs to
+revision the content, it is possible to temporarily open for editing by clicking the "in revision" button <img
+class="icon" src="images/revision-action.png" />. This will open a dialog where you can put the exposition "in revision". During
+revision, the exposition will remain listed in the reviewing page. Once the author is done, they can either resubmit themselves
+from their profile page, or the administrator can use the button in the "reviewing" page to change the status back to "in review".
 
-If the publication was by accident or to the wrong portal, the
-publication request can be declined by the portal
-administrator. He/she can also do this under __administration >
-reviewing__ and clicking the __X__ next to the research title. This
+If the publication was sent by accident or to the wrong portal, the publication request can be declined by the portal
+administrator. The admin can also do this under __administration > reviewing__ and clicking the __X__ next to the research title. This
 will also open the exposition for editing again.
 
 ### Reviewing, assigning reviewers
@@ -140,8 +133,8 @@ default range of an issue is unlimited.*
 
 Depending on the portal settings at this point also a DOI will be
 deposited through cross-ref. Please note that publishing is meant as a
-one-way step, unpublishing is to be used only as a very last resort
-measure. If one already expects that the exposition will be removed in
+one-way step, unpublishing is to be used only as a very last resort.
+If one already expects the exposition will be removed in
 the future, it should not be published. In that case one could better
 return the exposition to the author(s) and have them share it using
 the standard sharing options of the RC.
