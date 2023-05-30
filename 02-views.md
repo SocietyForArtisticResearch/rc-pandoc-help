@@ -5,9 +5,9 @@
 ## Preview
 
 The preview is the final result that the reader will see when
-he/she opens your exposition, for example by opening the exposition
+opening your exposition, for example through the exposition
 URL or when a user clicks "OPEN EXPOSITION" anywhere on the RC.
-All expositions have [a navigation bar](#navigation) that shows if the user moves his/her mouse to the top.
+All expositions have [a navigation bar](#navigation) that shows if the user moves the mouse cursor to the top.
 It contains a table of contents, abstract and other information.
 
 While you are editing your exposition in the workspace editor, the
