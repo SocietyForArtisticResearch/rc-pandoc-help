@@ -98,3 +98,62 @@ Then RC will automatically number the notes in 2 first, then 1, then 3. In this 
 
 It is also possible to use images as links to footnotes. When clicking on the image or moving over it with the mouse cursor the popover will be show. In order to use an image as a footnote click the menu icon on the bottom right of the image (or right click the image) in order to open the context menu. Click the item "add footnote" from the context menu and fill in the appearing dialog window. 
 
+<a id="references"></a>
+
+# Graphical Editor - References
+
+The reference feature helps you build a bibliography for your exposition.
+
+
+## Creating a reference
+
+You can create a new reference by going to the Ref tab, which is located on the right-hand side of the workspace editor. 
+Click the + button to create a new reference. A dialog will open with a form to enter the reference data.
+
+![create reference](images/ref-tab.png "a dialog with tabs, showing a tab for each type of reference")
+
+The RC currently supports the following types:
+
+- Book
+- Chapter (of a book)
+- Journal (article)
+- Website
+- Master Thesis
+- Phd Thesis
+- Proceedings
+- Video
+- Score
+- Artwork
+- Recording
+- Exposition
+- Misc
+
+Each item will have different fields. Fields marked with * are required.
+In case none of the types fit, you may choose to use Misc, which stands for miscellaneous.
+
+![create reference dialog](images/ref-dialog.png "a dialog, where the tabs are the different types, each containing a form to provide ref data")
+
+## Inserting a hyperlink to reference in bibliography
+
+In the HTML tool, there is a button whcih allows you to insert a reference.
+
+![insert a reference in HTML tool](images/reference.png "the html tool toolbar, 2nd row, 14th icon is the insert reference button")
+
+By default, it uses the last name of the author and the year. If need a
+different format for the hyperlink, just select the text and write over it. The
+links will use the default hyperlink color, that can be customized in the
+__Page__  settings page.
+
+## Viewing the references
+
+References are listen on the META page of an expostion, at the bottom. 
+
+## Import 
+
+You can import your references from other systems using BibTeX format. This is supported by systems like Zotero, Menderley & JabRef.
+
+
+You can create and manage your references under the Ref tab. This will be displayed at the bottom of the META page of an exposition.
+The RC mainly follows the MHRA style of bibliography, with some additions where relavant.
+You can also insert links to references in your HTML tools, using the "*" button.
+

@@ -124,6 +124,18 @@ Footnote</a></li>
 <li><a href="#editing-a-footnote" id="toc-editing-a-footnote">Editing a
 Footnote</a></li>
 </ul></li>
+<li><a href="#graphical-editor---references"
+id="toc-graphical-editor---references">Graphical Editor - References</a>
+<ul>
+<li><a href="#creating-a-reference"
+id="toc-creating-a-reference">Creating a reference</a></li>
+<li><a href="#inserting-a-hyperlink-to-reference-in-bibliography"
+id="toc-inserting-a-hyperlink-to-reference-in-bibliography">Inserting a
+hyperlink to reference in bibliography</a></li>
+<li><a href="#viewing-the-references"
+id="toc-viewing-the-references">Viewing the references</a></li>
+<li><a href="#import" id="toc-import">Import</a></li>
+</ul></li>
 <li><a href="#graphical-expositions---table-of-content"
 id="toc-graphical-expositions---table-of-content">Graphical Expositions
 - Table of Content</a>
@@ -140,14 +152,6 @@ id="toc-graphical-editor---menus">Graphical Editor - Menus</a>
 <li><a href="#help-menu" id="toc-help-menu">Help menu</a></li>
 <li><a href="#send-collaboration-message"
 id="toc-send-collaboration-message">Send Collaboration Message</a></li>
-</ul></li>
-<li><a href="#references" id="toc-references">References</a>
-<ul>
-<li><a href="#creating-a-reference"
-id="toc-creating-a-reference">Creating a reference</a></li>
-<li><a href="#viewing-the-references"
-id="toc-viewing-the-references">Viewing the references</a></li>
-<li><a href="#import" id="toc-import">Import</a></li>
 </ul></li>
 <li><a href="#text-based-editor" id="toc-text-based-editor">Text Based
 Editor</a>
@@ -2532,6 +2536,74 @@ popover will be show. In order to use an image as a footnote click the
 menu icon on the bottom right of the image (or right click the image) in
 order to open the context menu. Click the item “add footnote” from the
 context menu and fill in the appearing dialog window.</p>
+<p><a id="references"></a></p>
+<h1 id="graphical-editor---references">Graphical Editor -
+References</h1>
+<p>The reference feature helps you build a bibliography for your
+exposition.</p>
+<h2 id="creating-a-reference">Creating a reference</h2>
+<p>You can create a new reference by going to the Ref tab, which is
+located on the right-hand side of the workspace editor. Click the +
+button to create a new reference. A dialog will open with a form to
+enter the reference data.</p>
+<figure>
+<img loading="lazy" src="images/ref-tab.png"
+title="a dialog with tabs, showing a tab for each type of reference"
+alt="create reference" />
+<figcaption aria-hidden="true">create reference</figcaption>
+</figure>
+<p>The RC currently supports the following types:</p>
+<ul>
+<li>Book</li>
+<li>Chapter (of a book)</li>
+<li>Journal (article)</li>
+<li>Website</li>
+<li>Master Thesis</li>
+<li>Phd Thesis</li>
+<li>Proceedings</li>
+<li>Video</li>
+<li>Score</li>
+<li>Artwork</li>
+<li>Recording</li>
+<li>Exposition</li>
+<li>Misc</li>
+</ul>
+<p>Each item will have different fields. Fields marked with * are
+required. In case none of the types fit, you may choose to use Misc,
+which stands for miscellaneous.</p>
+<figure>
+<img loading="lazy" src="images/ref-dialog.png"
+title="a dialog, where the tabs are the different types, each containing a form to provide ref data"
+alt="create reference dialog" />
+<figcaption aria-hidden="true">create reference dialog</figcaption>
+</figure>
+<h2 id="inserting-a-hyperlink-to-reference-in-bibliography">Inserting a
+hyperlink to reference in bibliography</h2>
+<p>In the HTML tool, there is a button whcih allows you to insert a
+reference.</p>
+<figure>
+<img loading="lazy" src="images/reference.png"
+title="the html tool toolbar, 2nd row, 14th icon is the insert reference button"
+alt="insert a reference in HTML tool" />
+<figcaption aria-hidden="true">insert a reference in HTML
+tool</figcaption>
+</figure>
+<p>By default, it uses the last name of the author and the year. If need
+a different format for the hyperlink, just select the text and write
+over it. The links will use the default hyperlink color, that can be
+customized in the <strong>Page</strong> settings page.</p>
+<h2 id="viewing-the-references">Viewing the references</h2>
+<p>References are listen on the META page of an expostion, at the
+bottom.</p>
+<h2 id="import">Import</h2>
+<p>You can import your references from other systems using BibTeX
+format. This is supported by systems like Zotero, Menderley &amp;
+JabRef.</p>
+<p>You can create and manage your references under the Ref tab. This
+will be displayed at the bottom of the META page of an exposition. The
+RC mainly follows the MHRA style of bibliography, with some additions
+where relavant. You can also insert links to references in your HTML
+tools, using the “*” button.</p>
 <p><a id="table-of-content"></a></p>
 <h1 id="graphical-expositions---table-of-content">Graphical Expositions
 - Table of Content</h1>
@@ -2761,51 +2833,6 @@ available in the graphical editor mode.</p>
 <h2 id="send-collaboration-message">Send Collaboration Message</h2>
 <p>When you are collaborating on an exposition, you can use the command
 “send collaboration message” to communicate with your collaborators.</p>
-<p><a id="references"></a></p>
-<h1 id="references">References</h1>
-<p>The reference feature helps you build a bibliography for your
-exposition. The RC currently supports the following types:</p>
-<ul>
-<li>Book</li>
-<li>Chapter (of a book)</li>
-<li>Journal (article)</li>
-<li>Website</li>
-<li>Master Thesis</li>
-<li>Phd Thesis</li>
-<li>Proceedings</li>
-<li>Video</li>
-<li>Score</li>
-<li>Artwork</li>
-<li>Recording</li>
-<li>Exposition</li>
-<li>Misc</li>
-</ul>
-<p>Each item will have different fields. Fields marked with * are
-required. In case none of the types fit, you may choose to use Misc,
-which stands for miscellaneous.</p>
-<h2 id="creating-a-reference">Creating a reference</h2>
-<p>You can create a new reference by going to the Ref tab, which is
-located on the right-hand side of the workspace editor. Click the +
-button to create a new reference. A dialog will open with a form to
-enter the reference data.</p>
-<figure>
-<img loading="lazy" src="images/ref-tab.png"
-title="a dialog with tabs, showing a tab for each type of reference"
-alt="create reference" />
-<figcaption aria-hidden="true">create reference</figcaption>
-</figure>
-<h2 id="viewing-the-references">Viewing the references</h2>
-<p>References are listen on the META page of an expostion, at the
-bottom.</p>
-<h2 id="import">Import</h2>
-<p>You can import your references from other systems using BibTeX
-format. This is supported by systems like Zotero, Menderley &amp;
-JabRef.</p>
-<p>You can create and manage your references under the Ref tab. This
-will be displayed at the bottom of the META page of an exposition. The
-RC mainly follows the MHRA style of bibliography, with some additions
-where relavant. You can also insert links to references in your HTML
-tools, using the “*” button.</p>
 <h1 id="text-based-editor">Text Based Editor</h1>
 <p>First time user of the text editor? <a href="#introduction">click
 here</a>.</p>
