@@ -81,6 +81,18 @@ Note: If a user's name in the list is enclosed in brackets ( [ name ]
 ), it means that the invitation is sent successfully, but has not been
 yet accepted by the receiver.
 
+## Accepting a collaboration invitation
+
+You can find all collaboration invitations under
+<https://www.researchcatalogue.net/collaboration/list>. At the bottom of the
+list of invitations, you can find an archive of all collaboration changes. This
+can be useful to trace back an old collaboration or find a link. If you have
+"collaboration" notifications switched on in your profile settings, you will
+also recieve an email when somebody invites you.
+
+![https://www.researchcatalogue.net/collaboration/list](images/collaboration-list.png "interface for collaboration invitations and log")
+
+
 ## Realtime collaboration
 
 For pages created with the graphical editor, you will see the edits of the others directly as they are made, in the other editors (block, html or text-based) you will have to refresh your browser tab to see changes. When a tool is being edited by another user, it will get a <span class="blue">blue</span> border.
