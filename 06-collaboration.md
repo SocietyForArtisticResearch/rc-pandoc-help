@@ -71,16 +71,6 @@ invited to.
 
 ![Collaboration page](images/collaborations_page.png "the collaborations page")
 
-### Removing a Collaborator
-
-If you want to remove a collaborator, click the "x" behind their name in the field they were added. 
-
-![Collaboration tab](images/collaborate_2.png "Collaboration tab")
-
-Note: If a user's name in the list is enclosed in brackets ( [ name ]
-), it means that the invitation is sent successfully, but has not been
-yet accepted by the receiver.
-
 ## Accepting a collaboration invitation
 
 You can find all collaboration invitations under
@@ -91,6 +81,16 @@ can be useful to trace back an old collaboration or find a link. If you have
 also recieve an email when somebody invites you.
 
 ![https://www.researchcatalogue.net/collaboration/list](images/collaboration-list.png "interface for collaboration invitations and log")
+
+### Removing a Collaborator
+
+If you want to remove a collaborator, click the "x" behind their name in the field they were added. 
+
+![Collaboration tab](images/collaborate_2.png "Collaboration tab")
+
+Note: If a user's name in the list is enclosed in brackets ( [ name ]
+), it means that the invitation is sent successfully, but has not been
+yet accepted by the receiver.
 
 
 ## Realtime collaboration
