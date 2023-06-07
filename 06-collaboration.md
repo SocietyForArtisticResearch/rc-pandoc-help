@@ -65,22 +65,21 @@ with and add the collaborator by clicking on their name. Only users with full ac
 
 The users that were added will show up as a list below the field. After clicking
 submit, collaborators will receive an invitation from you in their collaboration
-page. In the backlog you can easily find all your past collaboration
-interactions, including links to the expositons & groups that you have been
-invited to.
+page. 
 
-![Collaboration page](images/collaborations_page.png "the collaborations page")
+
 
 ## Accepting a collaboration invitation
 
 You can find all collaboration invitations under
 <https://www.researchcatalogue.net/collaboration/list>. At the bottom of the
-list of invitations, you can find an archive of all collaboration changes. This
-can be useful to trace back an old collaboration or find a link. If you have
-"collaboration" notifications switched on in your profile settings, you will
-also recieve an email when somebody invites you.
+list of invitations, you can find the __backlog__. In the backlog you can easily
+find all your past collaboration interactions, including links to the expositons
+& groups that you have been invited to. If you have "collaboration"
+notifications switched on in your profile settings, you will also recieve an
+email when somebody invites you.
 
-![https://www.researchcatalogue.net/collaboration/list](images/collaboration-list.png "interface for collaboration invitations and log")
+![Collaboration page](images/collaborations_page.png "the collaborations page")
 
 ### Removing a Collaborator
 
