@@ -4413,23 +4413,37 @@ results are always pages with a maximum of 250 results per page.</p>
 the RC: <a
 href="https://www.researchcatalogue.net/portal/search-result?fulltext=&amp;title=&amp;autocomplete=&amp;keyword=&amp;portal=&amp;statusprogress=0&amp;statuspublished=0&amp;statuspublished=1&amp;includelimited=0&amp;includeprivate=0&amp;type_research=research&amp;resulttype=research&amp;modifiedafter=&amp;modifiedbefore=&amp;format=json&amp;limit=25&amp;page=0"
 class="uri">https://www.researchcatalogue.net/portal/search-result?fulltext=&amp;title=&amp;autocomplete=&amp;keyword=&amp;portal=&amp;statusprogress=0&amp;statuspublished=0&amp;statuspublished=1&amp;includelimited=0&amp;includeprivate=0&amp;type_research=research&amp;resulttype=research&amp;modifiedafter=&amp;modifiedbefore=&amp;format=json&amp;limit=25&amp;page=0</a></p>
-<p>The JSON has the following format: <strong>id</strong> : (this is the
+<p>The JSON has the following format: <strong>id</strong> : this is the
 RC ID, which can also be used to construct links, since it will never
-change. <strong>type</strong> : exposition / work /
-<strong>title</strong> : the full title of the exposition
-<strong>thumb</strong> : (optional) a thumbnail image of the exposition,
-as provided by the author <strong>default-page</strong> : the first page
-of the exposition <strong>keywords</strong> : open keywords added by the
-author or admin, note that this is not a protected vocabulary.
-<strong>created</strong> : date of creation of the exposition DD/MM/YYYY
-<strong>status</strong> : - in progress : still being edited, can also
-be deleted - published : a permanent exposition, will not be edited or
-removed <strong>doi</strong> : if published, most expsoitions will have
-a DOI. <strong>published in</strong>: This shows in which portal(s) the
-exposition is published in <strong>license</strong>: -
-all-rights-reserved - CC-BY Creative Commons - CC-BY-SA - CC-NC-BY-SA
-(share alike) - CC-NC-BY-ND (no derivates) - Public Domain
-<strong>issue</strong>: Portals in the RC always publish their
+change.</p>
+<p><strong>type</strong> : exposition / work /</p>
+<p><strong>title</strong> : the full title of the exposition</p>
+<p><strong>thumb</strong> : (optional) a thumbnail image of the
+exposition, as provided by the author</p>
+<p><strong>default-page</strong> : the first page of the exposition</p>
+<p><strong>keywords</strong> : open keywords added by the author or
+admin, note that this is not a protected vocabulary.</p>
+<p><strong>created</strong> : date of creation of the exposition
+DD/MM/YYYY</p>
+<p><strong>status</strong> : - in progress : still being edited, can
+also be deleted - published : a permanent exposition, will not be edited
+or removed</p>
+<p><strong>doi</strong> : if published, most expsoitions will have a
+DOI.</p>
+<p><strong>published in</strong>: This shows in which portal(s) the
+exposition is published in</p>
+<p><strong>license</strong>:</p>
+<ul>
+<li>all-rights-reserved</li>
+<li>CC-BY</li>
+<li>CC-BY-ND</li>
+<li>CC-BY-SA</li>
+<li>CC-NC-BY-SA</li>
+<li>CC-NC-BY-ND</li>
+<li>Public Domain</li>
+</ul>
+<p>see details in <a href="#licenses">licences</a></p>
+<p><strong>issue</strong>: Portals in the RC always publish their
 expositions as part of Issues. For journals these can mean
 <strong>issue</strong> as in journal issue, however, other portals also
 use it to distinguish between different variaties of research (student,
