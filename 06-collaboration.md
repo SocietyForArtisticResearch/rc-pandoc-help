@@ -28,14 +28,13 @@ There are 3 types of collaborators:
   
 - *co-author* : The collaborator is considered a co-author of the
   research and will be shown in the author list of the research
-  exposition.
+  exposition. They can __read and edit__ all content.
 - *contributor* : This type of collaborator has the same rights but
   won't feature as co-author of your exposition. An example of a
   contributor might be a graphic designer helping with the layout of
   your exposition without having any involvement with the research
-  itself.
-- *supervisor* : The collaborator can view an exposition and leave comments. The
-  supervisor will also be mentioned in the metadata.
+  itself. They can __read and edit__ all content.
+- *supervisor* : The collaborator can view an exposition and leave comments. The supervisor can only __read__ the content.
 
 ### The _owner_ role
 
