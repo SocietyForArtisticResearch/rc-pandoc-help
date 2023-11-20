@@ -21,6 +21,25 @@ suitable structure in which to develop the relationship between
 documentation and presentation, whilst also retaining congruence with
 art itself.
 
+## What can I use the RC for?
+
+Research Catalogue has been used for publishing articles, project documentation, thesis works, peer reviewed journal publications and course materials within the field of Artistic Research.
+
+## Why use RC ?
+
+In the Research Catalogue's graphical editor, authors can combine different media and tailor the layout in which these materials are presented, depending on the needs of the project. In the RC:
+
+* images and sounds are not subordinate to, but fundamentally on a par with the text;
+* possibility of non-linear presentation of results
+* authors can present work-in-progress
+
+ 
+ With RC's graphical layout, objects can be freely positioned and even on top of each other, aiding in the creation of detailed, non-linear and structured documents. This allows you to create maps, timelines, diagrams, staged presentations, clouds, mind-maps, networks etc.
+
+In addition to the graphical editor, there is also a block-based editor, optimized for efficiently publishing more traditionally structured research articles.
+
+One of the more practical benefits of using RC is that page layouts and media content are stored inside the platform. This means you don't have to worry about hosting or keeping your platform online. 
+
 ### What is an RC Exposition ?
 
 The RC allows the user to create custom designed webpages called
@@ -48,16 +67,23 @@ repository by contacting us.
 The Research Catalogue is provided by the Society for Artistic
 Research (SAR).
 
-# Basic Account vs Full Account
+# Basic Account vs full Account
 
 When you register an account in the RC, you will first just have a basic
-account. This allows you to be a supervisor, review expositions, and leave
+account. This will allow you to be a supervisor, review expositions, and leave
 comments. Some application calls may also accept limited user accounts to
 submit, but this depends on the application. 
 
-Limited accounts do not have the
-option to create expositions or publish work. For this you will have to upgrade
-to a full account.
+Limited accounts do not have the option to create expositions or publish work.
+For legal reasons regarding copyright, the Research Catalogue has to be able to
+identify the author of what is made public. Thus to make research public in the
+Research Catalogue, you will first have to upgrade to a full account. <span
+class="red">Important: if you are a student or staff member of an institution
+that has a portal within the RC, you should contact your local portal admin for
+upgrading to a full account. You can find the contact info of portal admins 
+<a
+href="https://www.researchcatalogue.net/view/1369076/1369075">here</a>.</span>
+
 
 You can upgrade your limited account by logging in, and clicking "request
 upgrade", where you will be instructed to send in a proof of identity to
@@ -82,6 +108,24 @@ built-in, is free and well documented.
 
 You may find this resource by Mozilla useful:
 [Mozilla Help: I have never used OpenPGP before](https://support.mozilla.org/en-US/kb/openpgp-thunderbird-howto-and-faq#w_i-have-never-used-openpgp-with-thunderbird-before-how-do-i-setup-openpgp)
+
+## Institutional Portals, Journals and Project Portals
+
+It is also possible for institutions to start their own Portal within the Research Catalogue. 
+Having a portal will allows institutions to:
+
+- Publish research to a highly relavant audience (there are 30000 registered users in the RC, all specific to the Artistic Research field).
+- Use the RC to manage, edit, review and publish a rich media online journal 
+- Use RC as a teaching platform for students
+- Organize researchers in portal subgroups, that allow for easy collaboration of a small group of authors.
+- Publish and share research resources interally to only the users connected to the portal
+- Use the RC as a closed archive
+
+For more information, please contact 
+
+
+
+
 
 
 

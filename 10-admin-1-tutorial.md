@@ -14,9 +14,11 @@ The process typically consists of 4 stages:
 
 There are two ways of setting up accounts: 
 
-1. The author can create an account by clicking [REGISTER](https://www.researchcatalogue.net/portal/register "Registration on the Research Catalogue") on the research catalogue homepage. After filling in the form the author will immediatly get a basic account. To gain a full account, which has the right to create content, the author will be requested to send a proof of identity. RC user support will upgrade the account after verification.
+1. (__preferred__) The portal admin creates the account(s) for the author(s). This option is common when a large number of users need be created at once. In this case, the responsibility of making sure that the email address belongs to an actual person lies with the portal admin. Ideally, a person should only have __at most one user account__ in the RC (not multiple, to avoid mixups). In case of copyright or other legal problems the portal admin should be able to provide contact information to this person.
 
-2. The portal admin creates the account(s) for the author(s). This option is common when a large number of users need be created at once. In this case, the responsibility of making sure that the email address belongs to an actual person lies with the portal admin. Ideally, a person should only have __at most one user account__ in the RC (not multiple, to avoid mixups). In case of copyright or other legal problems the portal admin should be able to provide contact information to this person.
+2. The author can create an account by clicking [REGISTER](https://www.researchcatalogue.net/portal/register "Registration on the Research Catalogue") on the research catalogue homepage. After filling in the form the author will immediatly get a basic account. To gain a full account, which has the right to create content, the author will be requested to send a proof of identity. RC user support will upgrade the account after verification. 
+
+It is possible to add people with existing accounts to your portal. When you click "create user" in the user page, and you type the name of the user that is similar to existing users, they will be displayed below. If you click the name and then continue to the next field, the RC will show a pop-up promting if you want to add this user to your portal.
 
 ### Roles 
 
@@ -31,15 +33,24 @@ For safety, admins creating user accounts should:
 - Use a unique password for each new user.
 - Make the password sufficiently random (current standard is at least 12 characters).
 
-It is safer to have the student make their own limited account (through normal [registration](https://www.researchcatalogue.net/portal/register)) and add them to
-the portal afterwards.  Alternatively, you could also generate a long
-random password and throw it away immediately, then ask the user to
-reset the password themselves using
-<https://www.researchcatalogue.net/portal/forgotten-password>.
+A safer method is to generate a long random password and throw it away
+immediately after making the account, then ask the user to reset the password
+themselves using <https://www.researchcatalogue.net/portal/forgotten-password>.
+This way you do not have to email passwords or risk storing them.
+
+If you email new users to reset their RC password this way, it is good to remind them to choose a strong password.
+Strong passwords are:
+- long (over 12 characters)
+- maximise randomness (cannot be guessed)
+- do not use famous phrases, lyrics or words
+- don't use easily found personal information 
+- have an unusual shape (by mixing case, numbers, other characters) Since
+generating (and remembering!) good passwords is not trivial, most experts
+recommend using a password manager instead.
 
 ## Writing the exposition, collaboration
 
-The next stage is the writing of the *exposition* itself. The author does not need to be a member of the portal user list in order to make a publication request to it.
+The next stage is the writing of the *exposition* itself. The author does not need to be a member of the portal user list in order to make a publication request to it. 
 
 During the writing stage, it is common that the exposition in progress is shared with one or more other readers or collaborators. These collaborators can use the notes system to leave feedback. There are three types of collaboration roles:
 
@@ -69,10 +80,12 @@ Once the author has done this step, no further changes can be made to the exposi
 The portal admin will receive a message from the RC that a new work is ready for review. It will also be available under the “reviewing” section in the __[admin section](https://www.researchcatalogue.net/admin)__.
 
 The expositions content is locked for the author(s) during the review process, only the portal admin can edit.  If the author needs to
-revision the content, it is possible to temporarily open for editing by clicking the "in revision" button <img
+revise the content, it is possible to temporarily open for editing by clicking the "in revision" button <img
 class="icon" src="images/revision-action.png" />. This will open a dialog where you can put the exposition "in revision". During
 revision, the exposition will remain listed in the reviewing page. Once the author is done, they can either resubmit themselves
 from their profile page, or the administrator can use the button in the "reviewing" page to change the status back to "in review".
+
+The RC automatically creates a snapshot of the exposition state every time the author submits the exposition for review. This allows to trace between different versions of the exposition later.
 
 If the publication was sent by accident or to the wrong portal, the publication request can be declined by the portal
 administrator. The admin can also do this under __administration > reviewing__ and clicking the __X__ next to the research title. This
@@ -84,6 +97,8 @@ The most common next step is to assign reviewers to this research. However, for 
 
 1. have an RC account 
 2. added to the reviewer pool of the portal.
+
+You can do so both in one go, by using "create reviewer" button on the admin reviewer page. This will also work for users that have already an account in the RC.
 
 The reviewer role does not require a full RC account, it is enough to be a limited RC user. 
 

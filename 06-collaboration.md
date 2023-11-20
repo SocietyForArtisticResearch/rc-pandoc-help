@@ -28,13 +28,13 @@ There are 3 types of collaborators:
   
 - *co-author* : The collaborator is considered a co-author of the
   research and will be shown in the author list of the research
-  exposition. They can __read and edit__ all content.
+  exposition. They __can read and edit__ all content.
 - *contributor* : This type of collaborator has the same rights but
   won't feature as co-author of your exposition. An example of a
   contributor might be a graphic designer helping with the layout of
   your exposition without having any involvement with the research
-  itself. They can __read and edit__ all content.
-- *supervisor* : The collaborator can view an exposition and leave comments. The supervisor can only __read__ the content.
+  itself. They __can read and edit__ all content.
+- *supervisor* : The collaborator can view an exposition and leave comments. A supervisor can only __read__ the content, not edit.
 
 ### The _owner_ role
 
@@ -105,7 +105,7 @@ communicating with each other:
 
 * __Using the note tool__ Notes are the RC equivalent of yellow paper notes.
 	You can simply drag one from the toolbar onto the
-	exposition workspace. See also the note tool help.
+	exposition workspace. See also the note tool help. The note tool currently is not supported in block style pages.
 
 * __Send collaboration message__ You can send a direct text message to
 	your collaborator using the *Send collaboration message* found
