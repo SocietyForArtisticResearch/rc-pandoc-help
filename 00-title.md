@@ -100,7 +100,7 @@ window.onload = function ( ) {
 		prevScrollpos = currentScrollPos;
 	} 
 
-	dynamicMenu( );
+	dynamicMenu();
 	make_hrefs_blank();
 	createAnchorHelpers();
 

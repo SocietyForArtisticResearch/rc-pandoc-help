@@ -233,7 +233,7 @@ title of the exposition in the workspace editor.
 A __title__ and __abstract__ are obligatory.
 
 __Author Pseudonym__ field allows you to display the exposition under
-a different name. If one is provided, the author pseudonym will
+a different name (if the author is just an editor). If one is provided, the author pseudonym will
 replace the authors names wherever the work is shown on RC (and in the
 [DOI](https://www.doi.org) deposit, if the exposition is
 published). This can also be used if a group of author(s) wants to

@@ -120,15 +120,15 @@ documents using Simple Media upload</a></li>
 settings</a></li>
 <li><a href="#raw-css" id="toc-raw-css">raw CSS</a></li>
 </ul></li>
-<li><a href="#graphical-editor---footnotes-and-popovers"
-id="toc-graphical-editor---footnotes-and-popovers">Graphical Editor -
-Footnotes and Popovers</a>
+<li><a href="#graphical-editor---popovers"
+id="toc-graphical-editor---popovers">Graphical Editor - Popovers</a>
 <ul>
-<li><a href="#creating-a-simple-text-footnote"
-id="toc-creating-a-simple-text-footnote">Creating a Simple Text
-Footnote</a></li>
-<li><a href="#editing-a-footnote" id="toc-editing-a-footnote">Editing a
-Footnote</a></li>
+<li><a href="#customizing-the-popover-behavior"
+id="toc-customizing-the-popover-behavior">Customizing the popover
+behavior</a></li>
+<li><a href="#editing-a-popover-footnote"
+id="toc-editing-a-popover-footnote">Editing a Popover
+(footnote)</a></li>
 </ul></li>
 <li><a href="#graphical-editor---references"
 id="toc-graphical-editor---references">Graphical Editor - References</a>
@@ -361,7 +361,7 @@ window.onload = function ( ) {
         prevScrollpos = currentScrollPos;
     } 
 
-    dynamicMenu( );
+    dynamicMenu();
     make_hrefs_blank();
     createAnchorHelpers();
 
@@ -820,12 +820,13 @@ A <strong>title</strong> and <strong>abstract</strong> are
 obligatory.</li>
 </ul>
 <p><strong>Author Pseudonym</strong> field allows you to display the
-exposition under a different name. If one is provided, the author
-pseudonym will replace the authors names wherever the work is shown on
-RC (and in the <a href="https://www.doi.org">DOI</a> deposit, if the
-exposition is published). This can also be used if a group of author(s)
-wants to appear under a group name. The full list of authors will be
-shown on the metadata page.</p>
+exposition under a different name (if the author is just an editor). If
+one is provided, the author pseudonym will replace the authors names
+wherever the work is shown on RC (and in the <a
+href="https://www.doi.org">DOI</a> deposit, if the exposition is
+published). This can also be used if a group of author(s) wants to
+appear under a group name. The full list of authors will be shown on the
+metadata page.</p>
 <p>At the bottom of the <strong>meta</strong> tab, one can also set the
 <strong>entry page</strong>: the weave that is the first page that the
 reader sees. <br /></p>
@@ -871,10 +872,15 @@ by using your browsers zoom (ctrl/cmd + ctrl/cmd -). You can return to
 default zoom level with ctrl/cmd 0.</p>
 <p><a id="comparison"> </a></p>
 <h1 id="choosing-an-editor">Choosing an Editor</h1>
-<p>There are four types of editors in RC:</p>
+<p>The main editors:</p>
 <ul>
 <li><strong>graphical</strong> editor</li>
 <li><strong>block</strong> editor</li>
+</ul>
+<p><em>Users can combine both <strong>graphical</strong> and
+<strong>block</strong> edited pages in a single exposition.</em></p>
+<p>And some specialized editors (cannot be combined):</p>
+<ul>
 <li><strong>text-based</strong> editor</li>
 <li><strong>HTML</strong> import</li>
 </ul>
@@ -2456,37 +2462,44 @@ make a page invisible to the reader it may be prefered to just remove it
 from the <a href="#table-of-content" title="table of content">table of
 content</a>.</p>
 <p><a id="footnotes-and-popovers"></a></p>
-<h1 id="graphical-editor---footnotes-and-popovers">Graphical Editor -
-Footnotes and Popovers</h1>
-<p>It is possible to create footnotes and popover weaves in the text,
-HTML and picture tools. The terms “footnote” and “popover” are used
-almost interchangeably here. Footnote, however, refers rather to the
-textual concept of a footnote, i.e. a particular use of the
-functionality explained in this section, whereas popover is used when
-referring specifically to the appearing popover window. (There is a
-tutorial video explaining the footnote workflow on the <a
-href="https://www.researchcatalogue.net/view/273532/1685164">RC Video
-Tutorials page</a>) These are displayed when the RC user reading the
-exposition clicks the footnote link or, depending on the settings, when
-moving the mouse pointer over the link. This functionality makes it
-possible to create footnotes in texts, but also create popovers of any
-size containing RC objects of any type. There are a number of different
-ways of creating footnotes.</p>
-<h2 id="creating-a-simple-text-footnote">Creating a Simple Text
-Footnote</h2>
-<p>In order to create a footnote in the text or HTML tool one selects
-some text, which will be the footnote link and clicks the “Insert/Edit
-Link or Footnote” menu item (see image).</p>
+<h1 id="graphical-editor---popovers">Graphical Editor - Popovers</h1>
+<p><strong>Popovers</strong> provide a way to present additional content
+in your exposition without cluttering the page. The popover appears when
+the reader clicks/hoovers over the popovers’ activation hyperlink (or
+image tool). The content of a popup is edited in the same way as a
+graphical page: this means the author can fill it with any content.</p>
+<p>Inside of the editor Popovers may still be refered to as
+<strong>Footnotes</strong>, as they fulfilled a similar function to the
+numbered footnotes in printed media.</p>
+<figure>
+<img loading="lazy" src="images/popover.gif"
+title="a little animation showing the popover"
+alt="what a popover looks like" />
+<figcaption aria-hidden="true">what a popover looks like</figcaption>
+</figure>
+<p>Popovers can thus be created in two ways:</p>
+<ol type="1">
+<li>As a hyperlink within text tools.</li>
+<li>Linked to an image tool</li>
+</ol>
+<p>To create a popover within a text tool, open a text or HTML tool and
+select a piece of text. After this click the hyperlink button, this will
+open a dialog: <img loading="lazy" src="images/footnote_dia.png"
+title="footnote dialog"
+alt="image of insert link/footnote dialog" /></p>
+<p>Now choose the second tab <strong>“footnote”</strong> to create a new
+<strong>popover</strong>.</p>
+<h2 id="customizing-the-popover-behavior">Customizing the popover
+behavior</h2>
 <figure>
 <img loading="lazy" src="images/footnotes_sel.png"
 alt="Selecting text as a footnote link" />
 <figcaption aria-hidden="true">Selecting text as a footnote
 link</figcaption>
 </figure>
-<p>A new footnote can be created by using the left tab in the appearing
-dialog window. In this window one can set:</p>
+<p>In this window one can set:</p>
 <ul>
-<li>The title of the footnote.</li>
+<li>The title of the popover.</li>
 <li>Whether the popover will be shown when the link is clicked or on
 mouseover (“View on”).</li>
 <li>Where the popover will be displayed with reference to the link or
@@ -2498,39 +2511,42 @@ darkened when the popover is being shown.</li>
 <li>A new popover.</li>
 <li>The copy of an existing popover.</li>
 <li>A simple text popover. A small text box appears which facilitates
-the creation of footnotes and other popovers containing only a short
-amount of text. The text can be entered here directly upon creation
-without the need to further edit the popover and adjust its size. <img
-src="images/footnote_dia.png" alt="Footnote dialog window" /></li>
+the creation of popovers containing only a short amount of text. The
+text can be entered here directly upon creation without the need to
+further edit the popover and adjust its size. <img
+src="images/footnote_dia.png"
+alt="Popover/footnote dialog window" /></li>
 </ul></li>
 </ul>
-<p>Finally, click “Add Footnote” to confirm and create the footnote,
-which will subsequently appear in the list of footnotes on the right
-side of the screen.</p>
+<p>Finally, click “Add Footnote” to confirm and create the
+popover/footnote, which will subsequently appear in the list of popovers
+on the right side of the screen.</p>
 <figure>
-<img loading="lazy" src="images/footnote_preview.png" alt="Preview of a footnote" />
-<figcaption aria-hidden="true">Preview of a footnote</figcaption>
+<img loading="lazy" src="images/footnote_preview.png" alt="Preview of a popover" />
+<figcaption aria-hidden="true">Preview of a popover</figcaption>
 </figure>
-<h2 id="editing-a-footnote">Editing a Footnote</h2>
-<p>All footnotes are listed in the “Footnotes” tab on the right hand
+<h2 id="editing-a-popover-footnote">Editing a Popover (footnote)</h2>
+<p>All popovers are listed in the “Popups” tab on the right hand
 side.</p>
 <figure>
-<img loading="lazy" src="images/footnotes_list_new.png" alt="List of footnotes" />
-<figcaption aria-hidden="true">List of footnotes</figcaption>
+<img loading="lazy" src="images/footnotes_list_new.png" alt="List of popovers" />
+<figcaption aria-hidden="true">List of popovers</figcaption>
 </figure>
 <p>There are three icons displayed on the top of the list. The first
-icon opens the footnote workspace editor where you can edit the content
-of the footnote, the second icon opens a window which allows editing the
+icon opens the popover workspace editor where you can edit the content
+of the popover, the second icon opens a window which allows editing the
 title, size, and styling of the footnote. One can leave the footnote
 weave editor by clicking the link “back to main weave” displayed to the
 left of the main tab. (see image).</p>
-<p><strong>“simple text”</strong> footnotes are in fact automatically
-generated normal footnotes with your text inserted in a text tool. This
+<p>Within the popover editor, you can resize it by dragging its
+corner.</p>
+<p><strong>“simple text”</strong> popovers are in fact automatically
+generated normal popovers with your text inserted in a text tool. This
 has consequences if you want to adjust the size of a <strong>“simple
-text”</strong> footnote as a whole, since you would also need to change
-the size of the tool within that footnote after resizing. To edit a
-“simple text” footnote internal tools, simply double click it in the
-footnote list.</p>
+text”</strong> popover as a whole, since you would also need to change
+the size of the tool within that popover after resizing. To edit a
+“simple text” popover internal tools, simply double click it in the
+popover list.</p>
 <p>When you are done editing: you can return to your main weave through
 the link in the top of the editor.</p>
 <figure>
@@ -3807,14 +3823,14 @@ the portal admin. Ideally, a person should only have <strong>at most one
 user account</strong> in the RC (not multiple, to avoid mixups). In case
 of copyright or other legal problems the portal admin should be able to
 provide contact information to this person.</p></li>
-<li><p>The author can create an account by clicking <a
+<li><p>An independent author can create an account by clicking <a
 href="https://www.researchcatalogue.net/portal/register"
 title="Registration on the Research Catalogue">REGISTER</a> on the
 research catalogue homepage. After filling in the form the author will
 immediatly get a basic account. To gain a full account, which has the
 right to create content, the author will be requested to send a proof of
-identity. RC user support will upgrade the account after
-verification.</p></li>
+identity. RC user support will upgrade the account after verification.
+This method should not be used for large groups of students.</p></li>
 </ol>
 <p>It is possible to add people with existing accounts to your portal.
 When you click “create user” in the user page, and you type the name of

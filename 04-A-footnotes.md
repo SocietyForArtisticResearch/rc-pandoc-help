@@ -1,32 +1,36 @@
 <a id="footnotes-and-popovers"></a>
 
-# Graphical Editor - Footnotes and Popovers
+# Graphical Editor - Popovers
 
-It is possible to create footnotes and popover weaves in the text,
-HTML and picture tools.  The terms "footnote" and "popover" are used
-almost interchangeably here. Footnote, however, refers rather to the
-textual concept of a footnote, i.e. a particular use of the
-functionality explained in this section, whereas popover is used when
-referring specifically to the appearing popover window.  (There is a
-tutorial video explaining the footnote workflow on the
-[RC Video Tutorials page](https://www.researchcatalogue.net/view/273532/1685164))
-These are displayed when the RC user reading the exposition clicks the
-footnote link or, depending on the settings, when moving the
-mouse pointer over the link. This functionality makes it possible to
-create footnotes in texts, but also create popovers of any size
-containing RC objects of any type. There are a number of different
-ways of creating footnotes.
+__Popovers__ provide a way to present additional content in your exposition
+without cluttering the page. The popover appears when the reader clicks/hoovers
+over the popovers' activation hyperlink (or image tool). The content of a popup is
+edited in the same way as a graphical page: this means the author can fill it
+with any content.
 
-## Creating a Simple Text Footnote
+Inside of the editor Popovers may still be refered to as __Footnotes__, as they fulfilled
+a similar function to the numbered footnotes in printed media.
 
-In order to create a footnote in the text or HTML tool one selects some text, which will be the footnote link and clicks the "Insert/Edit Link or Footnote" menu item (see image).
+![what a popover looks like](images/popover.gif "a little animation showing the popover")
+
+Popovers can thus be created in two ways:
+
+1. As a hyperlink within text tools.
+2. Linked to an image tool
+
+To create a popover within a text tool, open a text or HTML tool and select a piece of text.
+After this click the hyperlink button,  this will open a dialog:
+![image of insert link/footnote dialog](images/footnote_dia.png "footnote dialog")
+
+Now choose the second tab __"footnote"__ to create a new __popover__.
+
+## Customizing the popover behavior
 
 ![Selecting text as a footnote link](images/footnotes_sel.png)
 
-A new footnote can be created by using the left tab in the appearing
-dialog window. In this window one can set:
+In this window one can set:
 
-* The title of the footnote.
+* The title of the popover.
 * Whether the popover will be shown when the link is clicked or on
   mouseover ("View on").
 * Where the popover will be displayed with reference to the link or
@@ -36,28 +40,30 @@ dialog window. In this window one can set:
 * The type of the popover. This can be:
   + A new popover.
   + The copy of an existing popover.
-  + A simple text popover. A small text box appears which facilitates the creation of footnotes and other popovers containing only a short amount of text. The text can be entered here directly upon creation without the need to further edit the popover and adjust its size. 
-![Footnote dialog window](images/footnote_dia.png)
+  + A simple text popover. A small text box appears which facilitates the creation of popovers containing only a short amount of text. The text can be entered here directly upon creation without the need to further edit the popover and adjust its size. 
+![Popover/footnote dialog window](images/footnote_dia.png)
 
-Finally, click "Add Footnote" to confirm and create the footnote, which will subsequently appear in the list of footnotes on the right side of the screen. 
+Finally, click "Add Footnote" to confirm and create the popover/footnote, which will subsequently appear in the list of popovers on the right side of the screen. 
 
 
-![Preview of a footnote](images/footnote_preview.png)
+![Preview of a popover](images/footnote_preview.png)
 
-## Editing a Footnote
+## Editing a Popover (footnote)
 
-All footnotes are listed in the "Footnotes" tab on the right hand side.
+All popovers are listed in the "Popups" tab on the right hand side.
 
-![List of footnotes](images/footnotes_list_new.png)
+![List of popovers](images/footnotes_list_new.png)
 
 There are three icons displayed on the top of the list. The first icon
-opens the footnote workspace editor where you can edit the content of
-the footnote, the second icon opens a window which allows editing the
+opens the popover workspace editor where you can edit the content of
+the popover, the second icon opens a window which allows editing the
 title, size, and styling of the footnote. One can leave the footnote
 weave editor by clicking the link "back to main weave" displayed to the left
 of the main tab. (see image).
 
-__"simple text"__ footnotes are in fact automatically generated normal footnotes with your text inserted in a text tool. This has consequences if you want to adjust the size of a __"simple text"__ footnote as a whole, since you would also need to change the size of the tool within that footnote after resizing. To edit a "simple text" footnote internal tools, simply double click it in the footnote list.
+Within the popover editor, you can resize it by dragging its corner.
+
+__"simple text"__ popovers are in fact automatically generated normal popovers with your text inserted in a text tool. This has consequences if you want to adjust the size of a __"simple text"__ popover as a whole, since you would also need to change the size of the tool within that popover after resizing. To edit a "simple text" popover internal tools, simply double click it in the popover list.
 
 When you are done editing: you can return to your main weave through the link in the top of the editor.
 

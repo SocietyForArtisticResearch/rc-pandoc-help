@@ -2,11 +2,15 @@
 
 # Choosing an Editor 
 
-  
-There are four types of editors in RC: 
+The main editors:
 
 - **graphical** editor
 - **block** editor
+
+*Users can combine both __graphical__ and __block__ edited pages in a single exposition.*
+
+And some specialized editors (cannot be combined):
+
 - **text-based** editor 
 - **HTML** import
 
