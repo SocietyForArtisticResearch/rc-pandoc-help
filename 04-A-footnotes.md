@@ -1,6 +1,8 @@
 <a id="footnotes-and-popovers"></a>
 
-# Graphical Editor - Popovers
+# Popovers 
+
+*this feature is available in graphical & block pages*
 
 __Popovers__ provide a way to present additional content in your exposition
 without cluttering the page. The popover appears when the reader clicks/hoovers
