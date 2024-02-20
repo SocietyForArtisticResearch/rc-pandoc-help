@@ -484,23 +484,21 @@ mouse cursor hovers over the item.
 
 [Video tutorial](https://www.researchcatalogue.net/view/273532/1685164#tool-1686872)
 
-As with the other tools, you can use the video tool by dragging it
-from the tool bar and dropping it onto the weave.
+As with the other tools, you can use the video tool by dragging it from the tool bar and dropping it onto the weave or block.
 
 In the dialog box that appears you have the possibility to add
 (i.e. upload) items from your computer or select items from the
-"simple media" folder.  At the moment, the RC supports the following
+"simple media" or media sets. 
+
+![Dialog for adding a new file](images/add_video_file.png "upload video dialog")
+
+When uploading a new video file, you will see both a __preview__ and __video__ field. The __preview__ field, which controls the image that is shown before playback, is optional: if you only provide a __video__, the preview image will be generated from the first frame. You can later also select different images to function as a preview image. In that case, these images have to be part of your __simple media__ or __media sets__.
+
+ At the moment, the RC supports the following
 formats: *avi, mov, mp4, mpg* video container formats; *dv1394, h.264,
 mpeg2, mpeg1, mjepeg* video codec formats. Both VBR and CBR are supported.
 
 The video tool currently supports resolutions up to 2048x1080. If the resolution is higher, transcoding will fail. Please keep this in mind while uploading videos shot on phones, which commonly provide up to 4k resolution.
-
-To add an item, choose "add" and upload the file from your desktop to
-the RC servers. All videos uploaded in this way will also be added to
-the simple media tab. Name the file and make a declaration of
-the copyright holder. 
-
-After adding a video, the player will not appear in the workspace editor, to view it, please click PREVIEW at the top right corner of the editor.
 
 All media will be compressed to a smaller size, this is
 called 'transcoding'. This process takes time. During the
