@@ -6,7 +6,7 @@
 
 ---
 title: Research Catalogue Extended Guide
-date: June 2023
+date: February 2024
 ---
 
 <!--[pdf version](RC-extended-guide.pdf "pdf extended guide pdf version")  -->
