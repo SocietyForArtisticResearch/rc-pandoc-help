@@ -490,9 +490,9 @@ In the dialog box that appears you have the possibility to add
 (i.e. upload) items from your computer or select items from the
 "simple media" or media sets. 
 
-![Dialog for adding a new file](images/add_video_file.png "upload video dialog")
+If you choose "add media", you will see the dialog below. This dialog contains both a __preview__ and __video__ field. The __preview__ field, which controls the image that is shown before playback, is optional: if you only provide a __video__, the preview image will be generated from the first frame. You can later also select different images to function as a preview image. In that case, these images have to be part of your __simple media__ or __media sets__.
 
-When uploading a new video file, you will see both a __preview__ and __video__ field. The __preview__ field, which controls the image that is shown before playback, is optional: if you only provide a __video__, the preview image will be generated from the first frame. You can later also select different images to function as a preview image. In that case, these images have to be part of your __simple media__ or __media sets__.
+![Dialog for adding a new file](images/add_video_file.png "upload video dialog")
 
  At the moment, the RC supports the following
 formats: *avi, mov, mp4, mpg* video container formats; *dv1394, h.264,
