@@ -2,38 +2,43 @@
 
 # Popovers 
 
-__Popovers__ provide a way to present additional content in your graphical and
-block pages without cluttering the page. The popover appears when the reader
-clicks/hoovers over the popovers' activation hyperlink (or image tool). 
+__Popovers__ provide a way to present additional content in your _graphical_ and
+_block_ pages without cluttering the page. The popover appears when the reader
+clicks/hoovers over the popovers' activation hyperlink. You can also connect it
+to an image tool. 
 
-![what a popover looks like](images/popover.gif "a little animation showing the
-popover")
+![what a popover looks like](images/popover.gif "reader hoovers over a link, a
+popover window appears")
 
-The content of a popup is edited in the same way as a graphical page: this means
-the author can fill it with any content.
+The content of a popup is edited in the same way as graphical pages.
 
-Inside of the editor Popovers may still be refered to as __Footnotes__, as they
-fulfilled a similar function to the numbered footnotes in printed media. 
+**Naming**: Inside of the RC, __Popovers__ may still be refered to as
+__Footnotes__: __Popovers__ and __Footnotes__ are the same thing in RC.
 
-A common use for these popovers is to insert bibliographical references,
-however, the RC also has a dedicated [reference feature](#references) for that
+A common use for __Popovers__ was to insert bibliographical references,
+however, the RC also has a dedicated [__reference feature__](#references) for that
 now.
 
 ## Creating a popover
 
 Popovers can be created in two ways:
 
-1. As a hyperlink within text tools.
+1. As a hyperlink within text tools
 2. Linked to an image tool
 
-To create a popover within a text tool, open a text or HTML tool and select a
-piece of text. After this click the hyperlink button,  this will open a dialog:
-![image of insert link/footnote dialog](images/footnote_dia.png "footnote
-dialog")
+To create a popover within a text tool, open a __Text__ or __HTML tool__ and
+select a piece of text. After this, click the hyperlink button <img
+src="images/hyperlink-button.png" class="wide-icon" alt="insert
+hyperlink"></img>,  this will open a dialog: 
+
+![image of insert link/footnote dialog](images/footnote_dia.png "footnote dialog") 
 
 Now choose the second tab __"footnote"__ to create a new __popover__.
 
-## Customizing the popover behavior
+To link a __popover__ to an image tool, right click the image tool and select
+__"add footnote"__.
+
+## Customizing the popover properties
 
 ![Selecting text as a footnote link](images/footnotes_sel.png)
 
@@ -58,20 +63,28 @@ Finally, click "Add Footnote" to confirm and create the popover/footnote, which
 will subsequently appear in the list of popovers on the right side of the
 screen. 
 
-
 ![Preview of a popover](images/footnote_preview.png)
 
 ## Editing a Popover (footnote)
 
-All popovers are listed in the "Popups" tab on the right hand side.
+All popovers are listed in the "Popups" tab on the right hand side. If you click
+one, the RC will automatically scroll to it's reference in the text or image
+tool.
 
 ![List of popovers](images/footnotes_list_new.png)
 
-There are three icons displayed on the top of the list. The first icon opens the
-popover workspace editor where you can edit the content of the popover, the
-second icon opens a window which allows editing the title, size, and styling of
-the footnote. One can leave the footnote weave editor by clicking the link "back
-to main weave" displayed to the left of the main tab. (see image).
+There are three icons displayed on the top of the list. 
+
+<table>
+<tr>
+<th> Icon </th><th>Function</th>
+<tr> <td> <img src="images/icon-tool.png" class="icon" alt="open popover workspace"></img> </td><td> opens the popover workspace editor where you can edit thecontent of the popover </td> </tr>
+<tr> <td> <img src="images/icon-pencil.png" class="icon" alt="edit settings"></img> </td> <td>opens a window which allows editing the title, size, and styling of the footnote.  </td> </tr>
+<tr> <td> <img src="images/icon-trash.png" class="icon" alt="open popover
+workspace"></img> </td><td> delete a footnote </td></tr> 
+</table>
+
+
 
 Within the popover editor, you can resize it by dragging its corner.
 
@@ -81,11 +94,6 @@ adjust the size of a __"simple text"__ popover as a whole, since you would also
 need to change the size of the tool within that popover after resizing. To edit
 a "simple text" popover internal tools, simply double click it in the popover
 list.
-
-When you are done editing: you can return to your main weave through the link in
-the top of the editor.
-
-![Back to main weave link](images/footnote_back.png)
 
 ### Changing the position or display settings of a footnote
 

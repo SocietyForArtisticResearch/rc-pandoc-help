@@ -124,9 +124,9 @@ settings</a></li>
 <ul>
 <li><a href="#creating-a-popover" id="toc-creating-a-popover">Creating a
 popover</a></li>
-<li><a href="#customizing-the-popover-behavior"
-id="toc-customizing-the-popover-behavior">Customizing the popover
-behavior</a></li>
+<li><a href="#customizing-the-popover-properties"
+id="toc-customizing-the-popover-properties">Customizing the popover
+properties</a></li>
 <li><a href="#editing-a-popover-footnote"
 id="toc-editing-a-popover-footnote">Editing a Popover
 (footnote)</a></li>
@@ -2474,38 +2474,49 @@ content</a>.</p>
 <p><a id="footnotes-and-popovers"></a></p>
 <h1 id="popovers">Popovers</h1>
 <p><strong>Popovers</strong> provide a way to present additional content
-in your graphical and block pages without cluttering the page. The
-popover appears when the reader clicks/hoovers over the popovers’
-activation hyperlink (or image tool).</p>
+in your <em>graphical</em> and <em>block</em> pages without cluttering
+the page. The popover appears when the reader clicks/hoovers over the
+popovers’ activation hyperlink. You can also connect it to an image
+tool.</p>
 <figure>
 <img loading="lazy" src="images/popover.gif"
-title="a little animation showing the popover"
+title="reader hoovers over a link, a popover window appears"
 alt="what a popover looks like" />
 <figcaption aria-hidden="true">what a popover looks like</figcaption>
 </figure>
-<p>The content of a popup is edited in the same way as a graphical page:
-this means the author can fill it with any content.</p>
-<p>Inside of the editor Popovers may still be refered to as
-<strong>Footnotes</strong>, as they fulfilled a similar function to the
-numbered footnotes in printed media.</p>
-<p>A common use for these popovers is to insert bibliographical
-references, however, the RC also has a dedicated <a
-href="#references">reference feature</a> for that now.</p>
+<p>The content of a popup is edited in the same way as graphical
+pages.</p>
+<p><strong>Naming</strong>: Inside of the RC, <strong>Popovers</strong>
+may still be refered to as <strong>Footnotes</strong>:
+<strong>Popovers</strong> and <strong>Footnotes</strong> are the same
+thing in RC.</p>
+<p>A common use for <strong>Popovers</strong> was to insert
+bibliographical references, however, the RC also has a dedicated <a
+href="#references"><strong>reference feature</strong></a> for that
+now.</p>
 <h2 id="creating-a-popover">Creating a popover</h2>
 <p>Popovers can be created in two ways:</p>
 <ol type="1">
-<li>As a hyperlink within text tools.</li>
+<li>As a hyperlink within text tools</li>
 <li>Linked to an image tool</li>
 </ol>
-<p>To create a popover within a text tool, open a text or HTML tool and
-select a piece of text. After this click the hyperlink button, this will
-open a dialog: <img loading="lazy" src="images/footnote_dia.png"
-title="footnote dialog"
-alt="image of insert link/footnote dialog" /></p>
+<p>To create a popover within a text tool, open a <strong>Text</strong>
+or <strong>HTML tool</strong> and select a piece of text. After this,
+click the hyperlink button <img
+src="images/hyperlink-button.png" class="wide-icon" alt="insert
+hyperlink"></img>, this will open a dialog:</p>
+<figure>
+<img loading="lazy" src="images/footnote_dia.png" title="footnote dialog"
+alt="image of insert link/footnote dialog" />
+<figcaption aria-hidden="true">image of insert link/footnote
+dialog</figcaption>
+</figure>
 <p>Now choose the second tab <strong>“footnote”</strong> to create a new
 <strong>popover</strong>.</p>
-<h2 id="customizing-the-popover-behavior">Customizing the popover
-behavior</h2>
+<p>To link a <strong>popover</strong> to an image tool, right click the
+image tool and select <strong>“add footnote”</strong>.</p>
+<h2 id="customizing-the-popover-properties">Customizing the popover
+properties</h2>
 <figure>
 <img loading="lazy" src="images/footnotes_sel.png"
 alt="Selecting text as a footnote link" />
@@ -2541,18 +2552,50 @@ on the right side of the screen.</p>
 <figcaption aria-hidden="true">Preview of a popover</figcaption>
 </figure>
 <h2 id="editing-a-popover-footnote">Editing a Popover (footnote)</h2>
-<p>All popovers are listed in the “Popups” tab on the right hand
-side.</p>
+<p>All popovers are listed in the “Popups” tab on the right hand side.
+If you click one, the RC will automatically scroll to it’s reference in
+the text or image tool.</p>
 <figure>
 <img loading="lazy" src="images/footnotes_list_new.png" alt="List of popovers" />
 <figcaption aria-hidden="true">List of popovers</figcaption>
 </figure>
-<p>There are three icons displayed on the top of the list. The first
-icon opens the popover workspace editor where you can edit the content
-of the popover, the second icon opens a window which allows editing the
-title, size, and styling of the footnote. One can leave the footnote
-weave editor by clicking the link “back to main weave” displayed to the
-left of the main tab. (see image).</p>
+<p>There are three icons displayed on the top of the list.</p>
+<table>
+<tr>
+<th>
+Icon
+</th>
+<th>
+Function
+</th>
+<tr>
+<td>
+<img loading="lazy" src="images/icon-tool.png" class="icon" alt="open popover workspace"></img>
+</td>
+<td>
+opens the popover workspace editor where you can edit thecontent of the
+popover
+</td>
+</tr>
+<tr>
+<td>
+<img loading="lazy" src="images/icon-pencil.png" class="icon" alt="edit settings"></img>
+</td>
+<td>
+opens a window which allows editing the title, size, and styling of the
+footnote.
+</td>
+</tr>
+<tr>
+<td>
+<img loading="lazy" src="images/icon-trash.png" class="icon" alt="open popover
+workspace"></img>
+</td>
+<td>
+delete a footnote
+</td>
+</tr>
+</table>
 <p>Within the popover editor, you can resize it by dragging its
 corner.</p>
 <p><strong>“simple text”</strong> popovers are in fact automatically
@@ -2562,12 +2605,6 @@ text”</strong> popover as a whole, since you would also need to change
 the size of the tool within that popover after resizing. To edit a
 “simple text” popover internal tools, simply double click it in the
 popover list.</p>
-<p>When you are done editing: you can return to your main weave through
-the link in the top of the editor.</p>
-<figure>
-<img loading="lazy" src="images/footnote_back.png" alt="Back to main weave link" />
-<figcaption aria-hidden="true">Back to main weave link</figcaption>
-</figure>
 <h3
 id="changing-the-position-or-display-settings-of-a-footnote">Changing
 the position or display settings of a footnote</h3>
