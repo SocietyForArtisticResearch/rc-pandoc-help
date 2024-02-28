@@ -72,7 +72,7 @@ Research (SAR).
 When you register an account in the RC, you will first just have a basic
 account. This will allow you to be a supervisor, review expositions, and leave
 comments. Some application calls may also accept limited user accounts to
-submit, but this depends on the application. 
+submit forms. 
 
 Limited accounts do not have the option to create expositions or publish work.
 For legal reasons regarding copyright, the Research Catalogue has to be able to
@@ -111,17 +111,17 @@ You may find this resource by Mozilla useful:
 
 ## Institutional Portals, Journals and Project Portals
 
-It is also possible for institutions to start their own Portal within the Research Catalogue. 
-Having a portal will allows institutions to:
+It is possible for institutions to start their own Portal within the Research Catalogue. 
+Having a portal will allow institutions to:
 
 - Publish research to a highly relavant audience (there are 30000 registered users in the RC, all specific to the Artistic Research field).
 - Use the RC to manage, edit, review and publish a rich media online journal 
 - Use RC as a teaching platform for students
-- Organize researchers in portal subgroups, that allow for easy collaboration of a small group of authors.
+- Organize researchers in portal subgroups, for easy collaboration of a small group of authors.
 - Publish and share research resources interally to only the users connected to the portal
 - Use the RC as a closed archive
 
-For more information, please contact 
+For more information, please contact Society for Artistic Research (SAR).
 
 
 
