@@ -3,13 +3,10 @@
 
 # Licenses
 
-Authors can choose different licenses for both their expositions and
-media.  A license can help make clear under what conditions you allow
-your material to be (re)used. All rights reserved is the most strict:
-it means that people have to get your permission to use any
-material. The motivation to publish works under a more liberal
-Creative Commons license, is that it makes it easier for your
-materials to be used and distributed by others.
+Authors can choose different licenses for both their expositions and media.  A license can help make clear under what conditions you allow
+your material to be (re)used. All rights reserved is the most strict: it means that people have to get your permission to use any material. The motivation to publish under a more liberal Creative Commons license, is that it makes it easier for your materials to be used and distributed by others.
+
+Peer-reviewed journals may have differing views on licenses, usually based on the requirements of Open Access.
 
 You can get help choosing the right license on the Creative Commons website:
 <https://creativecommons.org/choose/> and <https://creativecommons.org/faq/>. 
