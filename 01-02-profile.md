@@ -1,45 +1,28 @@
 # My Profile Page
 
-The RC profile page is both the central hub for your activities on the
-RC and a public presentation of your research activities. The RC
-allows you to create a detailed public profile containing biographical
-data, information on projects and events as well as a list of your RC
-objects such as media sets and expositions. The profile is divided
-into two sections, the upper sections contains an artist biography as
-well as information of research interests and the lower part, which is
-titled "Research" contains a list of RC media sets and expositions.
+The RC profile page is both the central hub for your activities on the RC and a public presentation of your research. You can create a detailed public profile containing two main sections: The first has biographical data, information on projects and events, and the second is a list of your RC objects such as media sets and expositions.
 
 Only expositions which are [shared](#share "documentation on sharing") or
 [published](#publication "documentation on publication") will be visible to
-others. Aditionaliy, you can (optionally) hide groupings of expositions through
+others. Additionally, you can hide groupings of expositions through
 the small dot next to the grouping.
 
 
-Reviewers will also see the headers "Exposition Reviewing" or
-"Application Reviewing", containing links to the expositions they have
+Reviewers will also see the headers "Exposition Reviewing" or "Application Reviewing", containing links to the expositions they have
 been assigned to.
 
 ## Profile Section
 
 ### View Public Profile
 
-You can switch between your profile's editing mode (private) and your
-public profile, which is the profile as other users see it. Click on
-"my profile" for the editing mode and - below your image - click "view
-public profile" to hide all controls, grouping options and private
-research. 
+You can switch between your profile's editing mode (private) and your public profile, which is the profile as other users see it. Click on "my profile" for the editing mode and - below your image - click "view public profile" to hide all controls, grouping options and private research. 
 
 ![view public profile](images/view_public_profile.png "view public
 profile")
 
 ### Description 
 
-You can add a short text (for example a biography), that other RC users will see
-when they visit your profile. Here you can also add a tagline, set your country
-of residence, and list your research interests. You can also change the email
-address associated with your RC account that will be used to log in and notify
-you if you have turned on notifications. Click "edit profile" to edit all these
-properties.
+You can add a short text (for example a biography), that other RC users will see when they visit your profile. Here you can also add a tagline, set your country of residence, and list your research interests. You can also change the email address associated with your RC account that will be used to log in and notify you if you have turned on notifications. Click "edit profile" to edit all these properties.
 
 ### Uploading a CV
 
@@ -108,12 +91,12 @@ works previously, you can still edit or remove them.
 ### Add Project 
 
 Projects were part of an external import of data, they are no longer
-available for users now.
+available for users.
 
 ### Open Exposition
 
 The button "open exposition" opens the first page (or "weave") of your
-exposition.  This is equivalent to the __preview__ version in the
+exposition. This is equivalent to the __preview__ version in the
 exposition workspace.
 
 ### Exposition Details Menu
@@ -236,7 +219,7 @@ __Author Pseudonym__ field allows you to display the exposition under a
 different name (if the author is just an editor). Note that if you want to stay
 fully anonymous, you can ask your username to be replaced by an ALIAS. However
 due to legal requirements of copyright, you have to request this with
-support@researchcatalogue.net. Also SAR will still need to be able to indentitfy
+support@researchcatalogue.net. Also SAR will still need to be able to indentify
 the author if there is a legal issue within the exposition. If one is provided,
 the author pseudonym will replace the authors names wherever the work is shown
 on RC (and in the [DOI](https://www.doi.org) deposit, if the exposition is
@@ -264,8 +247,8 @@ default groupings ("Sets" and "Expositions"). If you are invited to
 one by another RC user, they will appear under "Expositions
 (collaborated).
 
-To add a new group click [ add grouping ] and enter the name of the
-grouping. You can sort your objects within a group, arrange the groups
+To add a new grouping click [ add grouping ] and enter the name of the
+grouping. You can sort your objects within a grouping, arrange the groupings
 themselves and move object between groups via drag and drop. Click and
 drag a grouping itself to change the order of the groups.
 
@@ -275,7 +258,7 @@ its public visibility (using the circle icon).
 
 Only custom grouping can be deleted. If you have only one grouping
 containing content, its title will not be shown on your public
-profile. Empty groups will also not be displayed on your public
+profile. Empty groupings will also not be displayed on your public
 profile page.
 
 ### Cleaning up cluttered profiles:
@@ -288,13 +271,11 @@ If you are co-author, contributor or supervisor of an exposition, you
 can "leave collaboration" to remove the exposition from your profile.
 
 You can open / close groupings by clicking the small triangle on the
-left of the group. You can also make the box of an exposition
+left of the grouping. You can also make the box of an exposition
 smaller by clicking ☰ -> change layout. It can also be easier to get
 an overview by using your browsers zoom (ctrl/cmd + ctrl/cmd -). 
 You can return to default zoom level with ctrl/cmd 0.
 
-
- 
 
  
 
