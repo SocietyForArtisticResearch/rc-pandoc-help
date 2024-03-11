@@ -7,7 +7,6 @@ Only expositions which are [shared](#share "documentation on sharing") or
 others. Additionally, you can hide groupings of expositions through
 the small dot next to the grouping.
 
-
 Reviewers will also see the headers "Exposition Reviewing" or "Application Reviewing", containing links to the expositions they have
 been assigned to.
 
@@ -15,14 +14,14 @@ been assigned to.
 
 ### View Public Profile
 
-You can switch between your profile's editing mode (private) and your public profile, which is the profile as other users see it. Click on "my profile" for the editing mode and - below your image - click "view public profile" to hide all controls, grouping options and private research. 
+You can switch between your profile's editing mode (which includes all your private work in progress) and your public profile, which is the profile as other users see it. Click on "my profile" for the editing mode and - below your profile picture - click "view public profile" to see how other people see your profile.
 
 ![view public profile](images/view_public_profile.png "view public
 profile")
 
 ### Description 
 
-You can add a short text (for example a biography), that other RC users will see when they visit your profile. Here you can also add a tagline, set your country of residence, and list your research interests. You can also change the email address associated with your RC account that will be used to log in and notify you if you have turned on notifications. Click "edit profile" to edit all these properties.
+You can add a biography or text, that other RC users will see when they visit your profile. Here you can also add a tagline, set your country of residence, and list your research interests. You can also change the email address associated with your RC account that will be used to log in and notify you if you have turned on notifications. This email address will not be shown to visitors of your profile. Click "edit profile" to edit all these properties. Note that accounts that use bots to generate advertisements that have nothing to do with research may be removed without notice.
 
 ### Uploading a CV
 
@@ -93,12 +92,6 @@ works previously, you can still edit or remove them.
 Projects were part of an external import of data, they are no longer
 available for users.
 
-### Open Exposition
-
-The button "open exposition" opens the first page (or "weave") of your
-exposition. This is equivalent to the __preview__ version in the
-exposition workspace.
-
 ### Exposition Details Menu
 
 ![object menu location](images/hamburger_location.png "
@@ -108,26 +101,29 @@ To access the menu, click on the ("hamburger") menu icon, located in
 the bottom right corner of an object (expositions or works). Some
 options are only available to the author of the object.
 
-* __Change layout__ change the size of an object on the profile.
+* __Change layout__ change the size of an exposition preview on the profile.
 
-* __Edit workspace__ go to the workspace editor of this exposition.
+* __Edit workspace__ open the exposition in the editor.
 
-* __Edit details__ change the meta data of your exposition, and
+* __Edit details__ change the metadata of your exposition, and
   control collaboration with other users. See [edit
   research](#edit-research)
 
-* __Share__ change who can see and access this item.
+* __Share__ change the visibility of the exposition: private, public or shared to a specific group. 
+Sharing is only available if the exposition is still a work in progress, after (self)publication of the research, the share status is ignored.
 
-* __Self-publish__ turn an exposition into a fixed state.  <br/>Please
+* __Self-publish__ turn an exposition into a fixed object that can be safely referenced.  <br/>Please
 note that publishing is a one-way action, *once published one can not
 unpublish*. If you want to keep the option of removing an exposition,
-do not use this option.
+do not use this option. This is the only way the RC will register a DOI outside of submitting to a journal or portal.
 
 * __Add to shortcut__ add a compact link to this object on the top of
   your profile.
 
-* __Submit for publication__ submit an exposition to a portal for
-  publication. *Only the [owner](#the-owner-role) can do this.*
+* __Submit for review__ this will submit the publication for review (and possibly publication). 
+  Submitting will change the status of the exposition to "in review" and will prevent you from editing it further.
+   *Only the [owner](#the-owner-role) can submit for review and only the portal admin can undo it*
+  [see a full visual overview of review workflow here](https://www.researchcatalogue.net/view/2066568/2175687)
 
 * __Connect to__ send a connection request to a Portal or Group. *Only the [owner](#the-owner-role) can do this.*
 
@@ -208,26 +204,30 @@ the original published exposition.
 ## Edit Research
 
 This dialog can be opened by __☰ > edit details__ or clicking the
-title of the exposition in the workspace editor.
+title of the exposition in the workspace editor. It allows you to edit metadata, collaborations with other users and the table of contents.
 
 ![Edit research dialog, showing meta page](images/edit-research.png "edit research dialog")
 
-* __Meta data__ change the __title__, __date__, __abstract__, __keywords__, __affiliation__ and __external link__ fields for your exposition.  
-A __title__ and __abstract__ are obligatory.
+* __Meta data__ change the:
+  -  __title__ (*)
+  -  __date__ (*)
+  -  __abstract__ (*)
+  -  __keywords__ use this to make your exposition easier to find. The RC currently uses an open vocabulary, please take care to not needlessly duplicate terms, the field will automatically suggest existing terms.
+  -  __affiliation__
+  -  __external link__
+  -  __entry page__ the page the exposition starts at
 
-__Author Pseudonym__ field allows you to display the exposition under a
-different name (if the author is just an editor). Note that if you want to stay
-fully anonymous, you can ask your username to be replaced by an ALIAS. However
-due to legal requirements of copyright, you have to request this with
-support@researchcatalogue.net. Also SAR will still need to be able to indentify
-the author if there is a legal issue within the exposition. If one is provided,
+(*) = __title__ and __abstract__ are obligatory.
+
+__Author Pseudonym__: by default an exposition always appears under the name of the user(s) that have edited it. The __author pseudonym__ field allows you to customize what is displayed as author, for example if you are publishing an exposition as a group (ie "The Beatles", "Monty Python") or when representing somebody or something else. If an __author pseudonym__ is provided,
 the author pseudonym will replace the authors names wherever the work is shown
 on RC (and in the [DOI](https://www.doi.org) deposit, if the exposition is
-published). This can also be used if a group of author(s) wants to appear under
-a group name. The full list of authors will be shown on the metadata page.
+published). 
 
-At the bottom of the __meta__ tab, one can also set the __entry
-page__: the weave that is the first page that the reader sees.  <br />
+### Being anonymous
+
+<strong style="color:red">Important: using a pseudonym does not make you fully anonymous</strong>, as the authors and co-authors will still be displayed in the metadata (contributors are not shown). The only way to be fully anonymous, is to request an ALIAS for your account as a whole. You can request an ALIAS by contacting:
+[support@researchcatalogue.net](mailto:support@researchcatalogue.net). In this case, your own name will not be shown anywhere in public pages of the RC, however even with an ALIAS, SAR will still be able to indentify the user that created the exposition if there is copyright infringement or other illegal material.
 
 * __Table of content__ change the content menu, which the user can use
 to navigate between pages.  See [table-of-content](#table-of-content).
@@ -237,17 +237,16 @@ to navigate between pages.  See [table-of-content](#table-of-content).
 
 * __Relations__ create relationships with other objects on your
   profile, which will result in them being listed on the Research
-  page. This page is shown when somebody clicks the title of the
-  research on your profile.
+  page. 
 
 ### Grouping
 
-When you create a set or exposition the new objects will appear in
+Default groupings: When you create a set or exposition the new objects will appear in
 default groupings ("Sets" and "Expositions"). If you are invited to
 one by another RC user, they will appear under "Expositions
-(collaborated).
+(collaborated)".
 
-To add a new grouping click [ add grouping ] and enter the name of the
+Custom grouping: You can also create your own groupings. To add a new grouping click [ add grouping ] and enter the name of the
 grouping. You can sort your objects within a grouping, arrange the groupings
 themselves and move object between groups via drag and drop. Click and
 drag a grouping itself to change the order of the groups.
