@@ -38,7 +38,6 @@ The portal admin can accept the request through messages.
 
 It is also possible to add existing users to your portal (without creating a new account). If you click "create user" in the portal's user list, typing a name of an existing user, will make it show up below the field, If you click the name and then continue to the next field, the RC will show a pop-up promting if you want to add this user to your portal.
 
-
 ### Roles 
 
 <a id="full-account-toggle"></a>
@@ -64,6 +63,8 @@ This way you do not have to email passwords or risk storing them.
 If you email new users to reset their RC password this way, it is good to remind them to choose a strong password.
 Strong passwords are:
 
+- use a password manager
+- use eff's method: https://www.eff.org/dice
 - long (over 12 characters)
 - maximise randomness (cannot be guessed)
 - do not use famous phrases, lyrics or words
