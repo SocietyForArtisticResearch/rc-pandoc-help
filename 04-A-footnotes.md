@@ -1,11 +1,13 @@
 <a id="footnotes-and-popovers"></a>
+<a id="footnotes"></a>
 
-# Popovers 
+# Popovers
 
-__Popovers__ provide a way to present additional content in your _graphical_ and
-_block_ pages without cluttering the page. The popover appears when the reader
-clicks/hoovers over the popovers' activation hyperlink. You can also connect it
-to an image tool. 
+__Popovers__ are footnotes that pop up. They provide a way to present additional
+content in your _graphical_ and _block_ pages without cluttering the page. The
+popover appears when the reader clicks/hoovers over the popovers' activation
+hyperlink. Instead of as hyperlink within text, you can also make them show up
+on hoovering a particular image tool.
 
 ![what a popover looks like](images/popover.gif "reader hoovers over a link, a
 popover window appears")
@@ -13,11 +15,12 @@ popover window appears")
 The content of a popup is edited in the same way as graphical pages.
 
 **Naming**: Inside of the RC, __Popovers__ may still be refered to as
-__Footnotes__: __Popovers__ and __Footnotes__ are the same thing in RC.
+__Footnotes__ in certain places: there is no difference in functionality.
 
-A common use for __Popovers__ was to insert bibliographical references,
-however, the RC also has a dedicated [__reference feature__](#references) for that
-now.
+A common use for __Popovers__ was to make bibliographical references that pop up
+in the text. however, the RC also has a dedicated [__reference
+feature__](#references) for that now, that will also generate a bibliographical
+list on the metadata page.
 
 ## Creating a popover
 
@@ -42,7 +45,7 @@ __"add footnote"__.
 
 ![Selecting text as a footnote link](images/footnotes_sel.png)
 
-In this window one can set:
+You can customize the popover by setting the following properties:
 
 * The title of the popover.
 * Whether the popover will be shown when the link is clicked or on mouseover
@@ -59,12 +62,6 @@ creation of popovers containing only a short amount of text. The text can be
 entered here directly upon creation without the need to further edit the popover
 and adjust its size. ![Popover/footnote dialog window](images/footnote_dia.png)
 
-Finally, click "Add Footnote" to confirm and create the popover/footnote, which
-will subsequently appear in the list of popovers on the right side of the
-screen. 
-
-![Preview of a popover](images/footnote_preview.png)
-
 ## Editing a Popover (footnote)
 
 All popovers are listed in the "Popups" tab on the right hand side. If you click
@@ -73,7 +70,7 @@ tool.
 
 ![List of popovers](images/footnotes_list_new.png)
 
-There are three icons displayed on the top of the list. 
+The list has the following actions:
 
 <table>
 <tr>

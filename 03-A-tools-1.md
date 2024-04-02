@@ -1,9 +1,3 @@
-<a id="workspace-editor-for-graphical-expositions"></a>
-
-# Graphical Editor - Workspace
-
-![workspace view of the graphical exposition format](images/workspace-view-2018.png "graphical editor")
-
 ## Editor Basics
 
 When you open the editor you will see math-paper like area in the center. This is called the grid. 
@@ -370,16 +364,19 @@ in it, click __delete__. Unintended deletions can be restored via
 __commands__ – __restore deleted tools__.
  
 
-## Picture Tool
+## Image Tool 
 
-To add a picture, drag and drop the __picture__ icon from the tool
+Also known as the *picture tool*
+
+To add a picture, drag and drop the __image__ icon from the tool
 palette onto the weave. As with all other tools, a pop-up dialog
 appears automatically and gives you the choice between "selecting" or
 "adding" an item.
 
 You can upload image files in the following formats:
 *jpg, png, tiff, gif, psd, tga, bmp.* For uploading PDFs, please use
-the PDF-tool.
+the PDF-tool. At the moment, regardless of the format, the RC will convert the 
+image to a PNG (a lossless format). It's dimensions will be optimized to the specific use in the tool.
 
 To add an item, choose "add" and upload the object from your desktop
 to the RC servers. Name the file and make a declaration of the

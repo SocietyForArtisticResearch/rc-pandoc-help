@@ -94,8 +94,7 @@ available for users.
 
 ### Exposition Details Menu
 
-![object menu location](images/hamburger_location.png "
-location of menu button")
+![the "hamburger" menu](images/hamburger_location.png "location of menu")
 
 To access the menu, click on the ("hamburger") menu icon, located in
 the bottom right corner of an object (expositions or works). Some

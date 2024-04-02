@@ -1,12 +1,24 @@
-# Administration: Reviewing process
+# Portal Admin Tutorial 
+
+<a id="administration-reviewing-process"></a>
+
+## Securing your admin account
+
+Before we dive in, it is important that you use a strong password for your
+portal admin account, as admin rights should not come in the wrong hands. You
+can set it under settings. 
+
+To create a secure password, either use an automatic password manager, or use
+ the following method to generate a memorable but extremely secure passphrase:
+https://www.eff.org/dice. Do not use a previously used password.
 
 ## Introduction
 
-This tutorial describes how an RC Portal can be used for publication workflows. It is aimed at portal administrators. ("portal admin" or "admin")
+This tutorial describes how an RC Portal can be used for publication workflows. It is aimed at portal administrators ("portal admin").
 The process typically consists of 4 stages: 
 
 * setting up accounts
-* writing the content by the author(s), possibly in collaboration with other RC users.
+* writing the content by the author(s), possibly in collaboration with other RC users or editors.
 * reviewing of the exposition by reviewers
 * publication 
 
@@ -14,24 +26,35 @@ The process typically consists of 4 stages:
 
 There are two ways of setting up accounts: 
 
-1. (__preferred__) The portal admin creates the account(s) for the author(s). This option is common when a large number of users need be created at once. In this case, the responsibility of making sure that the email address belongs to an actual person lies with the portal admin. Ideally, a person should only have __at most one user account__ in the RC (not multiple, to avoid mixups). In case of copyright or other legal problems the portal admin should be able to provide contact information to this person.
+1. (__preferred__) The portal admin creates the account(s) for the author(s). This option is common when a large number of users need be created at once. In this case, the responsibility of making sure that the email address belongs to an actual person lies with the portal admin. Ideally, a person should only have __at most one user account__ in the RC (not multiple, to avoid mixups). In case of copyright or other legal problems the portal admin should be able to provide contact information to this person. 
 
-2. An independent author can create an account by clicking [REGISTER](https://www.researchcatalogue.net/portal/register "Registration on the Research Catalogue") on the research catalogue homepage. After filling in the form the author will immediatly get a basic account. To gain a full account, which has the right to create content, the author will be requested to send a proof of identity. RC user support will upgrade the account after verification. This method should not be used for large groups of students.
+The administrator can create accounts by going to the __[admin section](https://www.researchcatalogue.net/admin)__ and opening the __user__ page. Click __+__ at the right top corner of the screen. After creating the account, the username (which is an email address) and password can be sent through email. Be sure to turn of "basic account" in the ROLES tab (see [roles](#full-account-toggle))
 
-It is possible to add people with existing accounts to your portal. When you click "create user" in the user page, and you type the name of the user that is similar to existing users, they will be displayed below. If you click the name and then continue to the next field, the RC will show a pop-up promting if you want to add this user to your portal.
+2. An independent author can also create an account on their own, clicking [REGISTER](https://www.researchcatalogue.net/portal/register "Registration on the Research Catalogue") on the research catalogue homepage. After filling in the form the author will immediatly get a basic account. After this, they can request membership of your portal through their profile page: 
+
+![requesting portal membership](images/location_of_portal_membership.jpg "member of option location on user profile")
+
+The portal admin can accept the request through messages. 
+
+It is also possible to add existing users to your portal (without creating a new account). If you click "create user" in the portal's user list, typing a name of an existing user, will make it show up below the field, If you click the name and then continue to the next field, the RC will show a pop-up promting if you want to add this user to your portal.
+
 
 ### Roles 
 
 <a id="full-account-toggle"></a>
 
-The administrator can create accounts by going to the __[admin section](https://www.researchcatalogue.net/admin)__ and opening the __user__ page. Click __+__ at the right top corner of the screen. After creating the account, the username (which is an email address) and password can be sent through email. Be sure that in the roles tab, the "basic account" option is turned __off__. This means the user will have a full account and is able to create content.
+To give an account the ability to create expositions, you have to __disable__ the "basic account" option like so:
 
-![edit user roles dialog](images/edit-user-roles.png "edit user roles dialog")
+1. click "edit" next to the user
+2. open the "roles" tab
+3. deselect basic user:
+
+![removing the basic user limitation](images/full_account.jpg "user's role tab, basic account is deselected")
 
 For safety, admins creating user accounts should:
 
 - Use a unique password for each new user.
-- Make the password sufficiently random (current standard is at least 12 characters).
+- Make the password sufficiently random (at least 12 completely random characters).
 
 A safer method is to generate a long random password and throw it away
 immediately after making the account, then ask the user to reset the password
@@ -40,6 +63,7 @@ This way you do not have to email passwords or risk storing them.
 
 If you email new users to reset their RC password this way, it is good to remind them to choose a strong password.
 Strong passwords are:
+
 - long (over 12 characters)
 - maximise randomness (cannot be guessed)
 - do not use famous phrases, lyrics or words

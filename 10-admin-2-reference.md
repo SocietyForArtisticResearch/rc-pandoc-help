@@ -25,7 +25,7 @@ There are 5 pages to manage content for portal admins:
 * [__Reviewing__](#reviewing-admin "reviewing")  
   Review process of expositions and objects that are waiting to be published
 
-* [__Groups__](#admin_groups) "groups")
+* [__Groups__](#admin_groups "groups") 
 
 #### Multiple Portals:
 If you are an admin in multiple portals, you can switch between them in the top right corner of the site, through the drop down menu.
