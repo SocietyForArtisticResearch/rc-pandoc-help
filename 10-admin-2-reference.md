@@ -40,7 +40,7 @@ If you are an admin in multiple portals, you can switch between them in the top 
 | ------------------------ | --------------------------------------------------------------- |
 | Add a user               | <img src="images/add.gif" class="icon">    		             |
 | Edit a user              | <img src="images/edit.gif" class="icon">           			 |
-| Remove user from portal  | <img src="images/portal_user_minus.jpeg" class="icon">          |
+| Remove user from portal  | <img src="images/portal_user_minus.jpg" class="icon">          |
 | Login as a user          | <img src="images/loginas.png" class="icon">                     |
 
 Note: it is not possible for a portal admin to fully delete an account, however, the RC superadmin can delete an account if necessary.
