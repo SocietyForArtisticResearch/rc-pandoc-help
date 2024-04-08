@@ -64,7 +64,7 @@ If you email new users to reset their RC password this way, it is good to remind
 Strong passwords are:
 
 - use a password manager
-- use eff's method: https://www.eff.org/dice
+- use eff's method: <https://www.eff.org/dice>
 - long (over 12 characters)
 - maximise randomness (cannot be guessed)
 - do not use famous phrases, lyrics or words

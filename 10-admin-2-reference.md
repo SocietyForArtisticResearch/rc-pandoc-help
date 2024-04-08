@@ -30,16 +30,21 @@ There are 5 pages to manage content for portal admins:
 #### Multiple Portals:
 If you are an admin in multiple portals, you can switch between them in the top right corner of the site, through the drop down menu.
 
-## User Page
+<a id="user-page"></a>
+
+## User Page / User list
 
 ![admin user page](images/admin-user.png "the admin user page") 
 
-| Action         | Icon                                                |
-| -------------- | --------------------------------------------------- |
-| Add a user     | <img src="images/add.gif" class="icon">    		   |
-| Edit a user    | <img src="images/edit.gif" class="icon">            |
-| Remove a user  | <img src="images/remove.gif" class="icon">          |
-| Login as a user| <img src="images/loginas.png" class="icon">         |
+| Action                   | Icon                                                            |
+| ------------------------ | --------------------------------------------------------------- |
+| Add a user               | <img src="images/add.gif" class="icon">    		             |
+| Edit a user              | <img src="images/edit.gif" class="icon">           			 |
+| Remove user from portal  | <img src="images/portal_user_minus.jpeg" class="icon">          |
+| Login as a user          | <img src="images/loginas.png" class="icon">                     |
+
+Note: it is not possible for a portal admin to fully delete an account, however, the RC superadmin can delete an account if necessary.
+Please contact [support](mailto:support@researchcatalogue.net) if the need arises (for example, duplicate accounts).
 
 ### Add / Edit A User Dialog
 

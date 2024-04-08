@@ -238,7 +238,8 @@ guide</a>
 <ul>
 <li><a href="#administration-main-page"
 id="toc-administration-main-page">Administration Main Page</a></li>
-<li><a href="#user-page" id="toc-user-page">User Page</a></li>
+<li><a href="#user-page-user-list" id="toc-user-page-user-list">User
+Page / User list</a></li>
 <li><a href="#portal-page" id="toc-portal-page">Portal page</a></li>
 <li><a href="#portal-edit-screen" id="toc-portal-edit-screen">Portal
 Edit Screen</a></li>
@@ -3959,7 +3960,8 @@ good to remind them to choose a strong password. Strong passwords
 are:</p>
 <ul>
 <li>use a password manager</li>
-<li>use eff’s method: https://www.eff.org/dice</li>
+<li>use eff’s method: <a href="https://www.eff.org/dice"
+class="uri">https://www.eff.org/dice</a></li>
 <li>long (over 12 characters)</li>
 <li>maximise randomness (cannot be guessed)</li>
 <li>do not use famous phrases, lyrics or words</li>
@@ -4177,13 +4179,18 @@ title="groups"><strong>Groups</strong></a></p></li>
 <h4 id="multiple-portals">Multiple Portals:</h4>
 <p>If you are an admin in multiple portals, you can switch between them
 in the top right corner of the site, through the drop down menu.</p>
-<h2 id="user-page">User Page</h2>
+<p><a id="user-page"></a></p>
+<h2 id="user-page-user-list">User Page / User list</h2>
 <figure>
 <img loading="lazy" src="images/admin-user.png" title="the admin user page"
 alt="admin user page" />
 <figcaption aria-hidden="true">admin user page</figcaption>
 </figure>
 <table>
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 72%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th>Action</th>
@@ -4200,8 +4207,8 @@ alt="admin user page" />
 <td><img loading="lazy" src="images/edit.gif" class="icon"></td>
 </tr>
 <tr class="odd">
-<td>Remove a user</td>
-<td><img loading="lazy" src="images/remove.gif" class="icon"></td>
+<td>Remove user from portal</td>
+<td><img loading="lazy" src="images/portal_user_minus.jpeg" class="icon"></td>
 </tr>
 <tr class="even">
 <td>Login as a user</td>
@@ -4209,6 +4216,11 @@ alt="admin user page" />
 </tr>
 </tbody>
 </table>
+<p>Note: it is not possible for a portal admin to fully delete an
+account, however, the RC superadmin can delete an account if necessary.
+Please contact <a
+href="mailto:support@researchcatalogue.net">support</a> if the need
+arises (for example, duplicate accounts).</p>
 <h3 id="add-edit-a-user-dialog">Add / Edit A User Dialog</h3>
 <p>Important: when you type a new user name, the RC tries to find if the
 user exists already. If it does, the RC will show a dialog requesting if
