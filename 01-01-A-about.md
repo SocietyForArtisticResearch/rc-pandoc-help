@@ -23,11 +23,11 @@ art itself.
 
 ## What can I use the RC for?
 
-Research Catalogue has been used for publishing articles, project documentation, thesis works, peer reviewed journal publications and course materials within the field of Artistic Research.
+Research Catalogue has been used for publishing articles, project documentation, dissertations, thesis works, peer reviewed journal publications and course materials within the field of Artistic Research. It has also been used as a collaboration and communication tool in workshops, seminars and conferences.
 
 ## Why use RC ?
 
-In the Research Catalogue's graphical editor, authors can combine different media and tailor the layout in which these materials are presented, depending on the needs of the project. In the RC:
+In the Research Catalogue's editors, authors can combine different media and tailor the layout in which these materials are presented, depending on the needs of the project. In the RC:
 
 * images and sounds are not subordinate to, but fundamentally on a par with the text;
 * possibility of non-linear presentation of results

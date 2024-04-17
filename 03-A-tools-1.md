@@ -26,7 +26,7 @@ On the right you will find the content manager, consisting of four tabs:
 | [pages](https://guide.researchcatalogue.net/#pages) | manage pages                             |
 
 
-## Adding a Tool
+## Graphical Editing Mode (adding a tool)
 
 A tool is created by [dragging](https://en.wikipedia.org/wiki/Drag_and_drop) the icon onto the canvas.
 
@@ -42,7 +42,7 @@ The size of the current weave will automatically grow when tools are added or dr
 
 <a id="block-editor"></a>
 
-## Block Editor
+## Block Editing Mode 
 
 ![block editor](images/block-editor.png "block editor")
 
@@ -172,10 +172,6 @@ graphic and a linear block-like layout. This way the exposition content can
 automatically select the right format for the screen it is being
 viewed on.
 
-
-
-
-
 ## Tools in detail
 
 Note: The tools are described as they work in the graphical editor. When using the 
@@ -207,7 +203,7 @@ Lock means that one cannot make any changes until unlocked again.
 * __Delete__  
 Delete a tool
 
-## Key Commands
+### Key Commands
 
 There are a few useful key commands in the editor. Selected tools have a green border.
 
@@ -221,7 +217,7 @@ There are a few useful key commands in the editor. Selected tools have a green b
 
 <a id="copy-paste-footnote">__* = Important: the object you copy, is duplicated at the moment you paste__. This means that if you change an object after copying, the pasted object will also have these changes (!)</a>
 
-## Defaults
+### Defaults
 
 Defaults for styling and options can be set for a tool, by clicking it in the toolbar.
 

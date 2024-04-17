@@ -68,21 +68,19 @@ Repository</a>
 <li><a href="#sets-and-sharing" id="toc-sets-and-sharing">Sets and
 Sharing</a></li>
 </ul></li>
-<li><a href="#graphical-editor---views"
-id="toc-graphical-editor---views">Graphical Editor - Views</a>
+<li><a href="#exposition-editors" id="toc-exposition-editors">Exposition
+Editors</a>
 <ul>
-<li><a href="#preview" id="toc-preview">Preview</a></li>
-<li><a href="#workspace-view" id="toc-workspace-view">Workspace
-View</a></li>
+<li><a href="#views" id="toc-views">Views</a></li>
 <li><a href="#editor-basics" id="toc-editor-basics">Editor
 Basics</a></li>
-<li><a href="#adding-a-tool" id="toc-adding-a-tool">Adding a
-Tool</a></li>
-<li><a href="#block-editor" id="toc-block-editor">Block Editor</a></li>
+<li><a href="#graphical-editing-mode-adding-a-tool"
+id="toc-graphical-editing-mode-adding-a-tool">Graphical Editing Mode
+(adding a tool)</a></li>
+<li><a href="#block-editing-mode" id="toc-block-editing-mode">Block
+Editing Mode</a></li>
 <li><a href="#tools-in-detail" id="toc-tools-in-detail">Tools in
 detail</a></li>
-<li><a href="#key-commands" id="toc-key-commands">Key Commands</a></li>
-<li><a href="#defaults" id="toc-defaults">Defaults</a></li>
 <li><a href="#text-tool" id="toc-text-tool">Text Tool</a></li>
 <li><a href="#html-tool" id="toc-html-tool">HTML Tool</a></li>
 <li><a href="#image-tool" id="toc-image-tool">Image Tool</a></li>
@@ -261,7 +259,7 @@ development</a></li>
 </ul>
 </nav>
 <nav id="main">
-<button type="button" id="menuButton" onclick="openNav()">
+<button type="button" id="menuButton">
 <div id="menuSymbol">
 ☰
 </div>
@@ -273,99 +271,9 @@ development</a></li>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 -->
 <!--[pdf version](RC-extended-guide.pdf "pdf extended guide pdf version")  -->
-<script>
+<script src="main.js">
 
 // this is a little script for the navigation
-
-window.onload = function ( ) {
-    let createAnchorHelpers = function ( ) {
-        let anchorHelper = function (headerElement) {
-            let anchor_element = document.createElement("a");
-            anchor_element.href = "#" + headerElement.id;
-            anchor_element.classList.add("headerAnchor");
-            let icon = document.createElement("img");
-            icon.src = "octigon_link.svg";
-            icon.classList.add("icon");
-            icon.classList.add("anchor-link");
-            icon.width = "16"
-            icon.height = "16"
-            icon.alt = "anchor"
-            icon.ariaHidden = "true";
-            anchor_element.appendChild(icon);
-            headerElement.prepend(anchor_element);
-            anchor_element.style.opacity = "0.33";
-            anchor_element.title = "shareable anchor link"
-
-
-            
-            headerElement.onmouseover = () => { anchor_element.style.opacity = "1.0" };
-            headerElement.onmouseleave = () => { anchor_element.style.opacity = "0.33" };
-
-
-        }
-        let allHeaders = document.querySelectorAll("h1,h2,h3,h4,h5,h6");
-        allHeaders.forEach(anchorHelper);
-    }
-
-    var dynamicMenu = function( ) {
-        let isMenuOpen = false;
-
-        
-
-        let toggleNav = function ( ) { 
-            isMenuOpen = !isMenuOpen;
-
-            let TOC = document.getElementById('TOC');
-            TOC.classList.toggle('showMenu');
-            
-            let menuSymbol = document.getElementById('menuSymbol');
-            menuSymbol.innerHTML = isMenuOpen ? '&times;' : '&#9776;';
-
-            // because of scrolling issue on mobile devices, body is best hidden if menu is open:
-            document.getElementById('body-text').classList.toggle('navIsOpen');
-        }
-
-        let makeLinksCloseNav = function ( ) { // links should close the navigation
-            let links = document.getElementById('TOC').getElementsByTagName('A');
-            for (let i = 0;i<links.length;i++) {
-                links[i].onclick = function ( ) { 
-                    document.getElementById('body-text').style.display = 'default';
-                    toggleNav( );
-                };
-            }
-        }
-
-        document.getElementById('menuButton').onclick = function ( ) { 
-            toggleNav( );
-        };
-
-        makeLinksCloseNav( );
-    }
-
-    function make_hrefs_blank ( ) {
-        let hrefs = document.getElementsByTagName("a");
-        ([].slice.call(hrefs)).map(href => href.target = "_blank");
-        let toc_refs = document.querySelectorAll("#TOC a");
-        ([].slice.call(toc_refs)).map(href => href.target = "_self");
-    }
-
-    var prevScrollpos = window.pageYOffset;
-    window.onscroll = function() {
-        let currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos || currentScrollPos < 50.0) {
-            window.document.getElementById("main").style.top = "-1px";
-        } else {
-            window.document.getElementById("main").style.top = "-50px";
-        }
-        prevScrollpos = currentScrollPos;
-    } 
-
-    dynamicMenu();
-    make_hrefs_blank();
-    createAnchorHelpers();
-
-    
-}
 
 </script>
 <div id="body-text">
@@ -401,12 +309,14 @@ documentation and presentation, whilst also retaining congruence with
 art itself.</p>
 <h2 id="what-can-i-use-the-rc-for">What can I use the RC for?</h2>
 <p>Research Catalogue has been used for publishing articles, project
-documentation, thesis works, peer reviewed journal publications and
-course materials within the field of Artistic Research.</p>
+documentation, dissertations, thesis works, peer reviewed journal
+publications and course materials within the field of Artistic Research.
+It has also been used as a collaboration and communication tool in
+workshops, seminars and conferences.</p>
 <h2 id="why-use-rc">Why use RC ?</h2>
-<p>In the Research Catalogue’s graphical editor, authors can combine
-different media and tailor the layout in which these materials are
-presented, depending on the needs of the project. In the RC:</p>
+<p>In the Research Catalogue’s editors, authors can combine different
+media and tailor the layout in which these materials are presented,
+depending on the needs of the project. In the RC:</p>
 <ul>
 <li>images and sounds are not subordinate to, but fundamentally on a par
 with the text;</li>
@@ -545,7 +455,7 @@ website: <a href="https://creativecommons.org/choose/"
 class="uri">https://creativecommons.org/choose/</a> and <a
 href="https://creativecommons.org/faq/"
 class="uri">https://creativecommons.org/faq/</a>.</p>
-<h3 id="abbriviations"><strong>Abbriviations:</strong></h3>
+<h3 id="license-abbreviations">License abbreviations</h3>
 <ul>
 <li><strong>All rights reserved</strong> : ask permission of author in
 case you want to reuse</li>
@@ -638,7 +548,7 @@ used to log in and notify you if you have turned on notifications. This
 email address will not be shown to visitors of your profile. Click “edit
 profile” to edit all these properties. Note that accounts that use bots
 to generate advertisements that have nothing to do with research may be
-removed without notice.</p>
+hidden without notice.</p>
 <h3 id="uploading-a-cv">Uploading a CV</h3>
 <p>In addition to the profile description, it is possible to upload a
 more extended CV as a PDF. To do so, click “upload cv” below your
@@ -1158,8 +1068,10 @@ set.</li>
 members of the portal in which you share a set will see the set on your
 profile even if you don’t publicly share it.</li>
 </ul>
-<h1 id="graphical-editor---views">Graphical Editor - Views</h1>
-<h2 id="preview">Preview</h2>
+<h1 id="exposition-editors">Exposition Editors</h1>
+<h2 id="views">Views</h2>
+<p>This applies to both the graphical and block editor.</p>
+<h3 id="preview">Preview</h3>
 <p>The preview is the final result that the reader will see when opening
 your exposition, for example through the exposition URL or when a user
 clicks “OPEN EXPOSITION” anywhere on the RC. All expositions have <a
@@ -1179,7 +1091,7 @@ Note, that the video player, the audio player, the slideshow and object tool are
 button in the editor shows the page that you currently are working on in
 your workspace. Thus, you can also PREVIEW pages that are not yet listed
 in the table of contents.</p>
-<h2 id="workspace-view">Workspace View</h2>
+<h3 id="workspace-view">Workspace View</h3>
 <p><a id="workspace-editor-for-graphical-expositions"></a></p>
 <figure>
 <img loading="lazy" src="images/workspace-view-2018.png" title="workspace view"
@@ -1278,7 +1190,8 @@ tabs:</p>
 </tr>
 </tbody>
 </table>
-<h2 id="adding-a-tool">Adding a Tool</h2>
+<h2 id="graphical-editing-mode-adding-a-tool">Graphical Editing Mode
+(adding a tool)</h2>
 <p>A tool is created by <a
 href="https://en.wikipedia.org/wiki/Drag_and_drop">dragging</a> the icon
 onto the canvas.</p>
@@ -1292,7 +1205,7 @@ the mouse.</p>
 <p>The size of the current weave will automatically grow when tools are
 added or dragged over the current limits.</p>
 <p><a id="block-editor"></a></p>
-<h2 id="block-editor">Block Editor</h2>
+<h2 id="block-editing-mode">Block Editing Mode</h2>
 <figure>
 <img loading="lazy" src="images/block-editor.png" title="block editor"
 alt="block editor" />
@@ -1483,7 +1396,7 @@ again.</p></li>
 <li><p><strong>Delete</strong><br />
 Delete a tool</p></li>
 </ul>
-<h2 id="key-commands">Key Commands</h2>
+<h3 id="key-commands">Key Commands</h3>
 <p>There are a few useful key commands in the editor. Selected tools
 have a green border.</p>
 <table>
@@ -1526,7 +1439,7 @@ object</td>
 copy, is duplicated at the moment you paste</strong>. This means that if
 you change an object after copying, the pasted object will also have
 these changes (!)</a></p>
-<h2 id="defaults">Defaults</h2>
+<h3 id="defaults">Defaults</h3>
 <p>Defaults for styling and options can be set for a tool, by clicking
 it in the toolbar.</p>
 <h2 id="text-tool">Text Tool</h2>

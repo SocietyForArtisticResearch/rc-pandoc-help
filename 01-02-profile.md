@@ -21,7 +21,7 @@ profile")
 
 ### Description 
 
-You can add a biography or text, that other RC users will see when they visit your profile. Here you can also add a tagline, set your country of residence, and list your research interests. You can also change the email address associated with your RC account that will be used to log in and notify you if you have turned on notifications. This email address will not be shown to visitors of your profile. Click "edit profile" to edit all these properties. Note that accounts that use bots to generate advertisements that have nothing to do with research may be removed without notice.
+You can add a biography or text, that other RC users will see when they visit your profile. Here you can also add a tagline, set your country of residence, and list your research interests. You can also change the email address associated with your RC account that will be used to log in and notify you if you have turned on notifications. This email address will not be shown to visitors of your profile. Click "edit profile" to edit all these properties. Note that accounts that use bots to generate advertisements that have nothing to do with research may be hidden without notice.
 
 ### Uploading a CV
 
