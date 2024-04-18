@@ -1,125 +1,138 @@
-window.addEventListener('load', function () {
-    // Your function code here
-    make_hrefs_blank();
-    createAnchorHelpers();
-    makeTocFoldable();
-    dynamicMenu();
-
-    document.getElementById("menuButton").addEventListener('click', toggleDisplay);
-
-    function createAnchorHelpers() {
-        let anchorHelper = function (headerElement) {
-            let anchor_element = document.createElement("a");
-            anchor_element.href = "#" + headerElement.id;
-            anchor_element.classList.add("headerAnchor");
-            let icon = document.createElement("img");
-            icon.src = "octigon_link.svg";
-            icon.classList.add("icon");
-            icon.classList.add("anchor-link");
-            icon.width = "16"
-            icon.height = "16"
-            icon.alt = "anchor"
-            icon.ariaHidden = "true";
-            anchor_element.appendChild(icon);
-            headerElement.prepend(anchor_element);
-            anchor_element.style.opacity = "0.33";
-            anchor_element.title = "shareable anchor link"
+window.addEventListener('DOMContentLoaded', function () {
+    window.onload = function () {
+        function createAnchorHelpers() {
+            let anchorHelper = function (headerElement) {
+                let anchor_element = document.createElement("a");
+                anchor_element.href = "#" + headerElement.id;
+                anchor_element.classList.add("headerAnchor");
+                let icon = document.createElement("img");
+                icon.src = "octigon_link.svg";
+                icon.classList.add("icon");
+                icon.classList.add("anchor-link");
+                icon.width = "16"
+                icon.height = "16"
+                icon.alt = "anchor"
+                icon.ariaHidden = "true";
+                anchor_element.appendChild(icon);
+                headerElement.prepend(anchor_element);
+                anchor_element.style.opacity = "0.33";
+                anchor_element.title = "shareable anchor link"
 
 
 
-            headerElement.onmouseover = () => { anchor_element.style.opacity = "1.0" };
-            headerElement.onmouseleave = () => { anchor_element.style.opacity = "0.33" };
+                headerElement.onmouseover = () => { anchor_element.style.opacity = "1.0" };
+                headerElement.onmouseleave = () => { anchor_element.style.opacity = "0.33" };
 
 
-        }
-        let allHeaders = document.querySelectorAll("h1,h2,h3,h4,h5,h6");
-        allHeaders.forEach(anchorHelper);
-    }
-
-    function dynamicMenu() {
-        console.log("dynamic");
-        let isMenuOpen = false;
-
-        let toggleNav = function () {
-            isMenuOpen = !isMenuOpen;
-
-            let TOC = document.getElementById('TOC');
-            console.log('toc classlist', TOC);
-            TOC.classList.toggle('showMenu');
-
-            console.log('toc classlist', TOC);
-
-            let menuSymbol = document.getElementById('menuSymbol');
-            menuSymbol.innerHTML = isMenuOpen ? '&times;' : '&#9776;';
-
-            // because of scrolling issue on mobile devices, body is best hidden if menu is open:
-            document.getElementById('body-text').classList.toggle('navIsOpen');
+            }
+            let allHeaders = document.querySelectorAll("h1,h2,h3,h4,h5,h6");
+            allHeaders.forEach(anchorHelper);
         }
 
-        let makeLinksCloseNav = function () { // links should close the navigation
-            let links = document.getElementById('TOC').getElementsByTagName('A');
-            for (let i = 0; i < links.length; i++) {
-                links[i].onclick = function () {
-                    document.getElementById('body-text').style.display = 'default';
-                    toggleNav();
-                };
+        function dynamicMenu() {
+            let isMenuOpen = false;
+
+
+
+            let toggleNav = function () {
+                isMenuOpen = !isMenuOpen;
+
+                let TOC = document.getElementById('TOC');
+                TOC.classList.toggle('showMenu');
+
+                let menuSymbol = document.getElementById('menuSymbol');
+                menuSymbol.innerHTML = isMenuOpen ? '&times;' : '&#9776;';
+
+                // because of scrolling issue on mobile devices, body is best hidden if menu is open:
+                document.getElementById('body-text').classList.toggle('navIsOpen');
+            }
+
+            function makeLinksCloseNav() { // links should close the navigation
+                let links = document.getElementById('TOC').getElementsByTagName('A');
+                for (let i = 0; i < links.length; i++) {
+                    links[i].onclick = function () {
+                        document.getElementById('body-text').style.display = 'default';
+                        toggleNav();
+                    };
+                }
+            }
+
+            document.getElementById('menuButton').onclick = function () {
+                toggleNav();
+            };
+
+            makeLinksCloseNav();
+        }
+
+        function make_hrefs_blank() {
+            let hrefs = document.getElementsByTagName("a");
+            ([].slice.call(hrefs)).map(href => href.target = "_blank");
+            let toc_refs = document.querySelectorAll("#TOC a");
+            ([].slice.call(toc_refs)).map(href => href.target = "_self");
+        }
+
+        var prevScrollpos = window.scrollY;
+        window.onscroll = function () {
+            let currentScrollPos = window.scrollY;
+            if (prevScrollpos > currentScrollPos || currentScrollPos < 50.0) {
+                window.document.getElementById("main").style.top = "-1px";
+            } else {
+                window.document.getElementById("main").style.top = "-50px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+        function insertAfter(newNode, referenceNode) {
+            // Check if the reference node is the last child within its parent
+            if (referenceNode.nextSibling) {
+                // If the reference node has a next sibling, insert before the next sibling
+                referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+            } else {
+                // If the reference node is the last child, append the new node to the parent node
+                referenceNode.parentNode.appendChild(newNode);
             }
         }
 
-        document.getElementById('menuButton').onclick = function () {
-            toggleNav();
-        };
 
-        document.getElementById("menuButton").addEventListener('click', toggleNav);
-        makeLinksCloseNav();
-    }
+        function makeTOCFoldable() {
+            const toc = document.getElementById("TOC");
 
-    function make_hrefs_blank() {         // a function that makes hyperlinks go to _blank"
+            if (toc) {
+                // Find all list items within the TOC that contain nested ul elements
+                const expandableItems = toc.querySelectorAll('li > ul');
 
-        let hrefs = document.getElementsByTagName("a");
-        ([].slice.call(hrefs)).map(href => href.target = "_blank");
-        let toc_refs = document.querySelectorAll("#TOC a");
-        ([].slice.call(toc_refs)).map(href => href.target = "_self");
-    }
+                expandableItems.forEach(ul => {
+                    const parentLi = ul.parentNode;
+                    ul.style.display = 'none'; // Start with the menu collapsed
 
-    var prevScrollpos = window.scrollY;
-    window.onscroll = function () {
-        let currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos || currentScrollPos < 50.0) {
-            window.document.getElementById("main").style.top = "-1px";
-        } else {
-            window.document.getElementById("main").style.top = "-50px";
-        }
-        prevScrollpos = currentScrollPos;
-    }
+                    // Create the toggle icon
+                    const icon = document.createElement('img');
+                    icon.src = "shevron.svg"
+                    icon.style.cursor = 'pointer';
+                    icon.style.userSelect = 'none'; // Prevent text selection on click
+                    icon.className = 'toc-icon';
 
-    function toggleDisplay(element) {
-        console.log('elm', element);
-        const displayStyle = element.style.display;
-        element.style.display = displayStyle === 'none' ? 'block' : 'none';
-    }
+                    // Insert the icon before the text of the list item
+                    const insideUl = parentLi.querySelector('ul');
+                    if (insideUl) {
+                        parentLi.insertBefore(icon, insideUl);
+                    }
 
-    function makeTocFoldable() {
-        // Add click event listeners to all list items that have child ULs
-        document.querySelectorAll('#toc li > ul').forEach(function (ul) {
-            // Initially hide the child ul elements
-            ul.style.display = 'none';
-
-            // Add a clickable character to toggle the display
-            let toggleSpan = document.createElement('span');
-            toggleSpan.textContent = '>';
-            toggleSpan.className = 'toggle';
-            ul.parentNode.insertBefore(toggleSpan, ul);
-
-            // Toggle on click
-            toggleSpan.onclick = function (event) {
-                const isHidden = ul.style.display === 'none';
-                ul.style.display = isHidden ? 'block' : 'none';
-                this.textContent = isHidden ? '^' : '>';
-                event.stopPropagation(); // Stop event from bubbling up
+                    // Add a click event to toggle the display of the ul
+                    icon.addEventListener('click', function () {
+                        const isVisible = ul.style.display === 'none';
+                        ul.style.display = isVisible ? 'block' : 'none';
+                        icon.style.transform = isVisible ? 'rotate(90deg)' : 'rotate(0)';
+                    });
+                });
             };
-        });
+        }
+
+
+
+
+        dynamicMenu();
+        make_hrefs_blank();
+        createAnchorHelpers();
+        makeTOCFoldable();
     }
-
-
 });

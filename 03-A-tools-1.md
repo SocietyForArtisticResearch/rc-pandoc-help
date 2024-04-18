@@ -139,7 +139,7 @@ the bottom of the current cell.
 You can also move an entire row by dragging it from the "compass" icon
 visible at the top right corner of a row.
 
-### Hyperlinking / Table of Contents
+### Hyperlinks in the block editor / Table of Contents
 
 __Hyperlink__
 
@@ -172,7 +172,7 @@ graphic and a linear block-like layout. This way the exposition content can
 automatically select the right format for the screen it is being
 viewed on.
 
-## Tools in detail
+# Tools (in the Block & Graphical Modes)
 
 Note: The tools are described as they work in the graphical editor. When using the 
 block editor, some of the tools are not available or there may be limitations 

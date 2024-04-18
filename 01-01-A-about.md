@@ -1,4 +1,4 @@
-## About the Research Catalogue
+# About the Research Catalogue
 
 The Research Catalogue (RC) is a non-commercial, collaboration and publishing platform for artistic research provided by the <a href="https://societyforartisticresearch.org" title="SAR website" target="_blank">Society for Artistic Research</a>. The RC is free to use for artists and researchers. It serves also as a backbone for teaching purposes, student assessment, peer review workflows and research funding administration. It strives to be an open space for experimentation and exchange. 
 
@@ -21,10 +21,6 @@ suitable structure in which to develop the relationship between
 documentation and presentation, whilst also retaining congruence with
 art itself.
 
-## What can I use the RC for?
-
-Research Catalogue has been used for publishing articles, project documentation, dissertations, thesis works, peer reviewed journal publications and course materials within the field of Artistic Research. It has also been used as a collaboration and communication tool in workshops, seminars and conferences.
-
 ## Why use RC ?
 
 In the Research Catalogue's editors, authors can combine different media and tailor the layout in which these materials are presented, depending on the needs of the project. In the RC:
@@ -40,7 +36,12 @@ In addition to the graphical editor, there is also a block-based editor, optimiz
 
 One of the more practical benefits of using RC is that page layouts and media content are stored inside the platform. This means you don't have to worry about hosting or keeping your platform online. 
 
-### What is an RC Exposition ?
+
+## What can I use the RC for?
+
+Research Catalogue has been used for publishing articles, project documentation, dissertations, thesis works, peer reviewed journal publications and course materials within the field of Artistic Research. It has also been used as a collaboration and communication tool in workshops, seminars and conferences.
+
+## What is an RC Exposition ?
 
 The RC allows the user to create custom designed webpages called
 __expositions__. These __expositions__ can contain many types of media

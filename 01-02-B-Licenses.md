@@ -12,7 +12,7 @@ You can get help choosing the right license on the Creative Commons website:
 <https://creativecommons.org/choose/> and <https://creativecommons.org/faq/>. 
 
 
-### License abbreviations
+## License abbreviations
 
 * __All rights reserved__ : ask permission of author in case you want to reuse
 * __CC__ : Creative Commons

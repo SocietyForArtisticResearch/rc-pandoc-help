@@ -50,7 +50,9 @@
 }
 
 #TOC>ul>li>a {
-    font-weight: bold;
+    /* font-weight: bold; */
+    position: relative;
+    top: -7px;
 }
 
 #TOC>ul>li>li>a {
@@ -359,4 +361,29 @@ table tr td :last-child {
 
 .extra-space {
     margin-bottom: 2em;
+}
+
+.nested {
+    display: none;
+}
+
+.toc-icon {
+    width: 22px;
+    height: 22px;
+    min-width: unset;
+    border: none;
+    display: inline-block;
+    transition: transform 0.1s ease;
+    margin-right: 5px;
+    transform-origin: center;
+    padding: 0;
+}
+
+li>ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    /* Removes default bullet styling */
+    padding-left: 20px;
+    /* Indent nested lists */
 }

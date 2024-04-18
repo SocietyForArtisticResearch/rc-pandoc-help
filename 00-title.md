@@ -14,8 +14,6 @@ date: April 2024
 
 
 <script src="main.js">
-
 // this is a little script for the navigation
-
 </script>
 <div id="body-text">
