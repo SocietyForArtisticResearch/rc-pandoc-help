@@ -1,7 +1,3 @@
-
-
-# Exposition Editors
-
 ## Views
 
 This applies to both the graphical and block editor. 

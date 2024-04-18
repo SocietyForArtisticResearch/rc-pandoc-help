@@ -24,19 +24,21 @@ The process typically consists of 4 stages:
 
 ## Setting up accounts
 
-There are two ways of setting up accounts: 
+### Creating new accounts
 
-1. (__preferred__) The portal admin creates the account(s) for the author(s). This option is common when a large number of users need be created at once. In this case, the responsibility of making sure that the email address belongs to an actual person lies with the portal admin. Ideally, a person should only have __at most one user account__ in the RC (not multiple, to avoid mixups). In case of copyright or other legal problems the portal admin should be able to provide contact information to this person. 
+In most situations, it is best if the portal admin creates the account(s) for the author(s). Especially when a large number of users need be created at once. In this case, the responsibility of making sure that the email address belongs to an actual person lies with the portal admin (for example, by having an institutional email address). Ideally, a person should only have __at most one user account__ in the RC (not multiple, to avoid mixups). In case of copyright or other legal problems the portal admin should be able to provide contact information to this person. 
 
 The administrator can create accounts by going to the __[admin section](https://www.researchcatalogue.net/admin)__ and opening the __user__ page. Click __+__ at the right top corner of the screen. After creating the account, the username (which is an email address) and password can be sent through email. Be sure to turn of "basic account" in the ROLES tab (see [roles](#full-account-toggle))
 
-2. An independent author can also create an account on their own, clicking [REGISTER](https://www.researchcatalogue.net/portal/register "Registration on the Research Catalogue") on the research catalogue homepage. After filling in the form the author will immediatly get a basic account. After this, they can request membership of your portal through their profile page: 
+### Adding existing users to your portal
+
+Sometimes, it happens that a student or author has creates an RC account on their own, clicking [REGISTER](https://www.researchcatalogue.net/portal/register "Registration on the Research Catalogue") on the research catalogue homepage. After filling in the form the author will immediatly get a basic account. After this, they can request membership of your portal through their profile page: 
 
 ![requesting portal membership](images/location_of_portal_membership.jpg "member of option location on user profile")
 
 The portal admin can accept the request through messages. 
 
-It is also possible to add existing users to your portal (without creating a new account). If you click "create user" in the portal's user list, typing a name of an existing user, will make it show up below the field, If you click the name and then continue to the next field, the RC will show a pop-up promting if you want to add this user to your portal.
+It is also possible to add these kind of existing users to your portal (without creating a new account). If you click "create user" in the portal's user list, typing a name of an existing user, will make it show up below the field, If you click the name and then continue to the next field, the RC will show a pop-up promting if you want to add this user to your portal.
 
 ### Roles 
 
@@ -63,21 +65,23 @@ This way you do not have to email passwords or risk storing them.
 If you email new users to reset their RC password this way, it is good to remind them to choose a strong password.
 Strong passwords are:
 
-- use a password manager
+- generated automatically by a password manager
+
+If you want to generate a password by hand, you can:
 - use eff's method: <https://www.eff.org/dice>
-- long (over 12 characters)
-- maximise randomness (cannot be guessed)
 - do not use famous phrases, lyrics or words
+- never use [cliche passwords, like from the list of 10000 most common passwords](https://en.wikipedia.org/wiki/Wikipedia:10,000_most_common_passwords)
 - don't use easily found personal information 
-- have an unusual shape (by mixing case, numbers, other characters) Since
-generating (and remembering!) good passwords is not trivial, most experts
+- in contrast to common belief (and many forms that request this), having a short password and adding a few numbers '!' '#' '.' ',' characters does not guarantee safety! 
+
+Since generating (and remembering!) good passwords is not trivial to do by hand, most experts
 recommend using a password manager instead.
 
 ## Writing the exposition, collaboration
 
 The next stage is the writing of the *exposition* itself. The author does not need to be a member of the portal user list in order to make a publication request to it. 
 
-During the writing stage, it is common that the exposition in progress is shared with one or more other readers or collaborators. These collaborators can use the notes system to leave feedback. There are three types of collaboration roles:
+During the writing stage, it is common that the exposition in progress is shared with one or more other readers or collaborators. These collaborators can use the review notes system to leave feedback. There are three types of collaboration roles:
 
 - supervisor (no edit permissions, but can leave notes)
 - co author (full edit permissions)

@@ -1,4 +1,26 @@
-# Finding other research:
+# How to find expositions and research ? 
+
+## Search
+
+You can search the RC by using the search field in the top right
+corner. Moreover you can use the "advanced search" functionality,
+which allows for filtered searches and and searches according to
+specific criteria such as object type, keywords, authors, etc.
+
+
+
+## Researchers tab
+
+You can find all researchers with public content of the RC here:
+<https://www.researchcatalogue.net/portal/researchers?publicObjects=1>
+
+## Journals
+
+<https://www.researchcatalogue.net/portal/journals>
+
+## Institutional Portals
+
+<https://www.researchcatalogue.net/portal/institutions>
 
 ## Follow 
 
@@ -12,9 +34,8 @@ displayed on the "FEEDS" page. Clicking the wrench icon opens up a
 dialog in which you can adjust the precise information you want to see
 for each user, portal or object you follow.
 
-## Search
+## Experimental map
 
-You can search the RC by using the search field in the top right
-corner. Moreover you can use the "advanced search" functionality,
-which allows for filtered searches and and searches according to
-specific criteria such as object type, keywords, authors, etc.
+There is also a visual map of the RC in development:
+<https://keywords.sarconference2016.net/>
+

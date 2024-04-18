@@ -1,4 +1,6 @@
-# My Profile Page
+<a id="my-profile-page"></a>
+
+# Profile Page
 
 The RC profile page is both the central hub for your activities on the RC and a public presentation of your research. You can create a detailed public profile containing two main sections: The first has biographical data, information on projects and events, and the second is a list of your RC objects such as media sets and expositions.
 

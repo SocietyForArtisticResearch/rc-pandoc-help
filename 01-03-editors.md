@@ -1,6 +1,10 @@
 <a id="comparison">&nbsp;</a>
 
-# Choosing an Editor 
+# Exposition Editor
+
+*workspace*
+
+## Choosing an Editor 
 
 The main editors:
 

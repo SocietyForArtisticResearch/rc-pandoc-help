@@ -1,5 +1,7 @@
 # Text Based Editor
 
+<a id="text-based-editor"></a>
+
 First time user of the text editor? <a href="#introduction">click here</a>.
   
 ## Overview
