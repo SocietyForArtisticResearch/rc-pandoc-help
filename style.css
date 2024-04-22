@@ -372,8 +372,8 @@ table tr td :last-child {
 }
 
 .toc-icon {
-    width: 22px;
-    height: 22px;
+    width: 14px;
+    height: 14px;
     min-width: unset;
     border: none;
     display: inline-block;
@@ -381,6 +381,8 @@ table tr td :last-child {
     margin-right: 5px;
     transform-origin: center;
     padding: 0;
+    position: relative;
+    top: -4px;
 }
 
 li>ul {
@@ -393,6 +395,6 @@ li>ul {
 }
 
 ul ul>li .toc-icon {
-    top: 6px;
+    top: 5px;
     position: relative;
 }

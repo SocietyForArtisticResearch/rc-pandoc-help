@@ -172,7 +172,7 @@ graphic and a linear block-like layout. This way the exposition content can
 automatically select the right format for the screen it is being
 viewed on.
 
-## Tools (in the Block & Graphical Modes)
+## Tools for Text, Video, Image and Audio
 
 Note: The tools are described as they work in the graphical editor. When using the 
 block editor, some of the tools are not available or there may be limitations 
