@@ -1,4 +1,4 @@
-## About the Research Catalogue
+# About the Research Catalogue
 
 The Research Catalogue (RC) is a non-commercial, collaboration and publishing platform for artistic research provided by the <a href="https://societyforartisticresearch.org" title="SAR website" target="_blank">Society for Artistic Research</a>. The RC is free to use for artists and researchers. It serves also as a backbone for teaching purposes, student assessment, peer review workflows and research funding administration. It strives to be an open space for experimentation and exchange. 
 
@@ -36,7 +36,7 @@ In addition to the graphical editor, there is also a block-based editor, optimiz
 
 One of the more practical benefits of using RC is that page layouts and media content are stored inside the platform. This means you don't have to worry about hosting or keeping your platform online. 
 
-### What is an RC Exposition ?
+## What is an RC Exposition ?
 
 The RC allows authors to create custom designed webpages called
 __expositions__. __Expositions__ can contain many types of media
@@ -46,7 +46,7 @@ drag-and-drop editor or written using a text-based editor. Various
 types of import formats are also supported. Multiple
 authors can collaborate in a single exposition.
 
-### Connection between RC and JAR
+## Connection between RC and JAR
 
 The RC forms the technical backbone of the Journal for Artistic
 Research (JAR): potential JAR expositions emerge from the range of the
