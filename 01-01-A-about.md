@@ -48,7 +48,7 @@ Research (JAR): potential JAR expositions emerge from the range of the
 artistic research activities taking place in the RC. Moreover,
 submissions and peer-reviewing for JAR takes place in the RC. Expositions published in JAR are either nominated by authors, or directly selected by JAR editorial board.
 
-# Setting up Your Account
+# Setting up a New Account
 
 When you register an account in the RC, you will first just have a basic account. This will allow you to be a supervisor, review expositions, and leave comments. Some application calls may also accept limited user accounts to submit forms. 
 

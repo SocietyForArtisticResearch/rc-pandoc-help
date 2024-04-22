@@ -26,7 +26,7 @@ Some portals will not accept HTML imported submissions. Please consult the porta
  
 ![choosing a format in the Create Exposition dialog](images/format-picker.png "format picker")
 
-## Graphical Editor
+### Graphical Editor
 
 The [**graphical editor**](#workspace-editor), allows the author to
 set the position of each element in the page. This makes it easy to
@@ -36,7 +36,7 @@ images, video and audio files, are freely positioned in a infinite canvas. Howev
 you want readers to be able to read your exposition on mobile devices, then
 either the block editor or the text-based editor might be more suitable for your project.
 
-## Block Editor
+### Block Editor
 
 The [**block editor**](#block-editor), uses the same tools and
 the drag-and-drop interface of the graphical editor, but positioning is
@@ -48,7 +48,7 @@ where media is inserted between or beside blocks of text, or media has to be
 positioned in relation to certain elements in a text. It is less
 flexible for creating diagrams, maps, or for overlaying materials.
 
-## Text-Based Editor
+### Text-Based Editor
 
 The [**text-based editor**](#text-based-editor) allows creating blog-like
 expositions through writing and editing text. Pages using the text-based editor
@@ -61,12 +61,12 @@ example MS Word documents, Open Office documents and LateX. Styling can be
 customized extensively using [CSS](https://www.w3schools.com/css/ "more
 information on CSS"). Text-based expositions are *responsive* and thus mobile-friendly.
 
-## HTML Import
+### HTML Import
 
 For more customization, you can [import a static HTML](#html-import) website as a
 whole. JavaScript is not supported.
 
-## Comparison of RC Exposition Formats
+### Comparison of RC Exposition Formats
 
 | Graphic 														| Block | Text-based |
 |-----------------------------------|----------------|----------------|

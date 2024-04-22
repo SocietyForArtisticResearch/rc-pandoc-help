@@ -161,6 +161,11 @@ h5 {
     font-family: helvetica, arial, sans-serif;
     font-family: 'PT Sans', sans-serif;
     letter-spacing: 1px;
+    color: #575757;
+}
+
+h1 {
+    text-decoration: underline;
 }
 
 figcaption {
@@ -192,8 +197,7 @@ h1 {
 h2 {
     margin-top: 24px;
     font-size: 18px;
-    text-decoration: underline;
-    text-decoration-color: gray;
+
 }
 
 h3 {

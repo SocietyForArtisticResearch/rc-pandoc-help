@@ -1,10 +1,10 @@
-# Text Based Editor
+## Text Based Editor
 
 <a id="text-based-editor"></a>
 
 First time user of the text editor? <a href="#introduction">click here</a>.
   
-## Overview
+### Overview
 
 <div id="overview-block">
 <p>Click any element in the image to jump to the relevant section:</p>
@@ -36,18 +36,19 @@ First time user of the text editor? <a href="#introduction">click here</a>.
 * <a href="#upload-media">Upload media</a>    
     *Upload media files (image, video, pdf) and insert in your exposition*  
    
-## Introduction  
+### Introduction  
 
 The text-based editor is aimed at creating
 [responsive](http://https://nl.wikipedia.org/wiki/Responsive_webdesign)
 RC expositions. Despite the "text" in the name, expositions made with
 this editor can also contain images, video, audio or PDF. "Text based"
-refers to the method of editing: through plain text. Because of this
-plain text input, text-based expositions can be easily imported or
-edited in external editors. The consequence is that editing the visual
-layout is less direct as in the graphical based editor. The structure of 
-the exposition is expressed by using Markdown, the display of which can be 
-customized through style sheets (css). 
+refers to the method of editing: through plain text. 
+
+Because of this plain text input, text-based expositions can be easily imported
+or edited in external editors. The consequence is that editing the visual layout
+is less direct as in the graphical based editor. The structure of the exposition
+is expressed by using Markdown, the display of which can be customized through
+style sheets (css). 
 
  
 On desktop, the editor splits the screen in two: you can write your
@@ -65,7 +66,7 @@ dialog will automatically open, allowing you to edit and insert it.
 
 Finally, the look of your text and media can be controlled through the media list and the style editor.
 
-## Creation and using a template
+###Creation and using a template
 
 To create a text-based exposition, go to "my profile" and click [
 create exposition ], then select "text-based" for the editor
@@ -81,7 +82,7 @@ Portal admins can select any of their own expositions to become a
 template for their portal users, by going to the "template" tab in
 their [portal settings](#portal-settings-screen).
 
-## Editor
+### Editor
 
 The left hand side is where you can edit your text. The editor uses
 [Markdown](#markdown "link to markdown docs"), which is a lightweight,
@@ -99,13 +100,13 @@ browsers spellchecker to work. [^1].
 
 [^1]: It is not possible to have both at the same time.
 
-## Pages / table of contents
+### Pages / table of contents
 
 The text based editor is limited to single page articles.
 Headers marked with `#` will be included in the "contents" menu
 automatically.
 
-## Previews
+### Previews
 
 Here you can see a preview of your exposition.
 
@@ -113,7 +114,7 @@ Because text based expositions are responsive (react to the size of
 the window), the result may change based on the width of the
 screen. For a full view preview, use the eye button in the toolbar.
 
-### Upload media
+### #Upload media
 
 To add new media, click upload media. After the upload finishes, the
 media edit dialog opens. This allow you to edit its metadata, size and
@@ -122,7 +123,7 @@ to insert the media at the current cursor position.
 If you want to insert previously used media, you can use the "media
 button" in the [toolbar](#toolbar).
 
-## Media list
+### Media list
 
 All media that you uploaded will appear in the "media list", where
 they can be edited or deleted.
@@ -130,7 +131,7 @@ they can be edited or deleted.
 ![The media list](images/media-list-elm.png " media
 list")
 
-### Editing media 
+### #Editing media 
 
 From within the media-list, if you click [__edit__], you will be able
 to change the __name__, __metadata__ and display of a media file.
@@ -148,7 +149,7 @@ Using the buttons in the list itself:
 ![The media edit dialog](images/edit-media-elm.png " the
 edit media dialog")
 
-## Insert media
+### Insert media
 
 Media is represented on the editor side using a !{*media-name*} tag.
 The easiest way of inserting such a media tag is throught the [insert
@@ -166,7 +167,7 @@ A __caption text__ can also be included, to get a caption you write
 ![my caption text]{myFile}.  The caption text is displayed underneath
 the media.
 
-## Import & export
+### Import & export
 
 You can import content from documents from text editors like Word (.docx),
 Libre/Open Office (.odt), HTML and several other formats. Not all
@@ -176,7 +177,7 @@ the document that is imported has a simple structure. When you import a
 a document, it will not replace the current content, but be appended at 
 the end of your page.
 
-## Edit style
+###  Edit style
 
 Text based expositions are styled using CSS (Cascading Style Sheets),
 which is a standard way of styling web documents.  The CSS of an
@@ -200,7 +201,7 @@ class (rc-media-123455) to style an individual media element.
 Most templates will provide some basic formatting already, that you
 can adjust to your needs.
 
-## Toolbar
+###  Toolbar
 
 From left to right:
 
@@ -226,7 +227,7 @@ From left to right:
 * <img class="icon" src="images/icons/screen-full.svg"> - Fullscreen
   mode (hides preview)
 
-## Markdown
+###  Markdown
 
 Markdown is a human-friendly way of writing HTML webpages without
 using code.  Markdown is written as plain text (like you would write
@@ -244,7 +245,7 @@ Instead of typing these characters, you can also select a piece of
 text and push the desired __style button__ on top of the editor. This
 will insert the correct Markdown notation for you.
 
-### Paragraphs and newlines
+#### Paragraphs and newlines
 
 Single newlines are ignored by Markdown, unless:
 

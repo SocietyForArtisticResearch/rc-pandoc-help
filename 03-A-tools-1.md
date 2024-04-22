@@ -165,13 +165,6 @@ You can globally control the styling of your page, through the page style dialog
 
 ![styling dialog](images/page-font-settings.png "dialog, font-family, size, color, line-height (as percentage)")
 
-### Future
-
-It will become possible to make two versions of the same content, a 2D
-graphic and a linear block-like layout. This way the exposition content can
-automatically select the right format for the screen it is being
-viewed on.
-
 ## Tools for Text, Video, Image and Audio
 
 Note: The tools are described as they work in the graphical editor. When using the 
