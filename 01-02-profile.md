@@ -167,7 +167,7 @@ snapshot:
 One can also restore as private and change the settings afterwards of
 course, through the collaboration and share menus.
 
-### Versions of published expositions
+### Versions of Published Expositions
 
 Published expositions cannot be changed in the RC (this is per
 definition, to allow referencing content within these expositions by
@@ -204,7 +204,7 @@ the author pseudonym will replace the authors names wherever the work is shown
 on RC (and in the [DOI](https://www.doi.org) deposit, if the exposition is
 published). 
 
-### Being anonymous
+### Being Anonymous
 
 <strong style="color:red">Important: using a pseudonym does not make you fully anonymous</strong>, as the authors and co-authors will still be displayed in the metadata (contributors are not shown). The only way to be fully anonymous, is to request an ALIAS for your account as a whole. You can request an ALIAS by contacting:
 [support@researchcatalogue.net](mailto:support@researchcatalogue.net). In this case, your own name will not be shown anywhere in public pages of the RC, however even with an ALIAS, SAR will still be able to indentify the user that created the exposition if there is copyright infringement or other illegal material.
