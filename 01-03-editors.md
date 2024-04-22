@@ -66,7 +66,7 @@ information on CSS"). Text-based expositions are *responsive* and thus mobile-fr
 For more customization, you can [import a static HTML](#html-import) website as a
 whole. JavaScript is not supported.
 
-# Comparison of RC Exposition Formats
+## Comparison of RC Exposition Formats
 
 | Graphic 														| Block | Text-based |
 |-----------------------------------|----------------|----------------|

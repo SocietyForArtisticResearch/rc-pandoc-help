@@ -12,13 +12,14 @@ artistic research.
 The Research Catalogue is provided by the [Society for Artistic
 Research (SAR)](https://www.societyforartisticresearch.org "Society for Artistic Research").
 
-## What Can I Use the RC for?
+## What is the RC used for?
 
-Research Catalogue has been used for publishing articles, project documentation, thesis works, peer reviewed journal publications and course materials within the field of Artistic Research.
+Research Catalogue can be used for creating research documentation, editing
+articles, collaborative writing, thesis works, peer reviewed journal
+publications and course materials.
 
-## Why Use RC ?
+<!-- ## Why Use RC ?
 
-<!-- is this clear ? -->
 
 The RC creates a link between:
 
@@ -30,7 +31,7 @@ It is believed that the reflective space provided by the RC
 constitutes an essential part of the research process by providing a
 suitable structure in which to develop the relationship between
 documentation and presentation, whilst also retaining congruence with
-art itself.
+art itself. -->
 
 ## What is an RC Exposition ?
 
