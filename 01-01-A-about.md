@@ -4,13 +4,13 @@ The Research Catalogue (RC) is a non-commercial, collaboration and publishing pl
 
 Research Catalogue (RC) content presented through some of our portals is peer reviewed, while the remaining expositions and other information are quality controlled by the individual author(s) themselves. As a result, the RC is highly inclusive. 
 
-The open access and open source spirit of the RC is essential to its nature and serves
-its function as a connective and transitional layer between academic
-discourse and artistic practice, thereby constituting a discursive
-field for artistic research.
+The open access and open source spirit of the RC is essential to its nature and
+serves its function as a connective and transitional layer between academic
+discourse and artistic practice, thereby constituting a discursive field for
+artistic research.
 
 The Research Catalogue is provided by the [Society for Artistic
-Research (SAR)](https://www.societyforartisticresearch.org "SAR website").
+Research (SAR)](https://www.societyforartisticresearch.org "Society for Artistic Research").
 
 ## What can I use the RC for?
 
@@ -34,11 +34,16 @@ art itself.
 
 ## What is an RC Exposition ?
 
-In contrast to most other repositories, research data is not presented as folders or lists of files.
-In the RC, authors can design a context in which both reflective texts and the artistic results may be presented. The balance and priority between the different media formats (audio, video, image and text) is open to the author. Such multi-media presentations are known as __expositions__. Expositions can be edited either using a graphical
-drag-and-drop editor or written using a text-based editor. Various
-types of import formats are also supported. Multiple
-authors can collaborate in a single exposition.
+In contrast to other research repositories, research data is not presented as
+folders or lists of files. Using the RC exposition format, authors can design a
+freeform webpage in which both reflective texts and other media can be presented
+and properly contextualized. This allows an author not just to illustrate a
+text, but demonstrate knowledge emerging from artistic practice.
+
+The balance and priority between the different media formats (audio, video,
+image and text) is open to the author to decide. Expositions may be edited
+either using a graphical drag-and-drop editor or written using a text-based
+editor.
 
 ### Connection between RC and JAR
 

@@ -204,7 +204,7 @@ author and the year. You can customize the text of the link by selecting it and
 typing over it, for example to include a page number. The links will use the
 default hyperlink color, that can be customized in the __Page__ settings page.
 
-## Viewing the references
+### Viewing the references
 
 References are listen on the META page of an expostion, at the bottom. 
 
