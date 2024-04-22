@@ -86,7 +86,7 @@ nav#main {
     left: 0px; */
     font-family: helvetica, arial, sans-serif;
     letter-spacing: 1px;
-    text-transform: uppercase
+
 }
 
 #TOC.showMenu {
@@ -156,7 +156,6 @@ h5 {
     font-family: helvetica, arial, sans-serif;
     font-family: 'PT Sans', sans-serif;
     letter-spacing: 1px;
-    text-transform: uppercase
 }
 
 figcaption {
