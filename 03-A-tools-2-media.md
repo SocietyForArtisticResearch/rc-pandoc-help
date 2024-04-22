@@ -21,7 +21,7 @@ management")
 
 <a id="overview"></a>
 
-## Map
+### Map
 
 You can use the overview to see all objects in the exposition as both
 a miniature map and a list.  This can also be useful to retrieve lost
@@ -29,7 +29,7 @@ objects, or change the ordering (front to back). If you click on a
 tool in the list, the editor will automatically jump to its location,
 you can also double click a tool to edit the content of that tool.
 
-## Media tab
+### Media tab
 
 Media files can be found, uploaded, previewed and deleted in the
 "Media"-tab on the right hand side. There are subtabs: __Simple
@@ -37,7 +37,7 @@ Media__, __Sets__ and __"+"__, which allows the integration of
 external repositories, such as the Media Archive of the Arts of the
 ZHdK (Madek).
 
-### Simple Media 
+#### Simple Media 
 
 The simple media, which can be found within the "Media"-tab on right
 hand side of the editor. Images, videos, audio and other media that
@@ -66,7 +66,7 @@ media tab")
 Each media file can be provided with a license, see [licenses](#licenses).
 The licenses of all used media in an exposition are shown on the META page.
 
-### Sets
+#### Sets
 
 You can view the media sets you created in the Media Repository. You
 have to click on the set to open and view the media. Once opened, you
@@ -78,7 +78,7 @@ shared to you by others.
 "Works" are an older feature similar to media sets, if you had created
 works in the past you will find them under sets as well.
 
-## Import Word documents using Simple Media upload
+### Import Word documents using Simple Media upload
 
 It is possible to upload Microsoft Word (.docx), Libre Office, Open Office
 (.odt) and LaTeX documents and have the content automatically turned into RC
@@ -109,7 +109,7 @@ If you want to reproduce the feel of a text document in your RC exposition, it
 is best to use the block editor. When importing word content in the graphical
 editor, please be careful with long text tools (which may cause issues).
 
-### Important note regarding styling:
+#### Important note regarding styling:
 
 By default, RC has zero margin on all paragraphs, this will mean that
 there is no whitespace between paragraphs. To avoid this issue, I
@@ -128,7 +128,7 @@ __raw css__.
 
 This makes sure paragraph margins are displayed correctly.
 
-## Pages
+### Pages
 
 Pages are managed in the __pages__ tab of the content manager. An RC
 exposition can consist of one or more pages. A new exposition starts
@@ -136,7 +136,7 @@ with a single page, called "default page".
 
 ![page tab](images/pages-tab-2023.png "the page tab")
 
-### Creating a page
+#### Creating a page
 
 New pages are by default *private*, they have to be explicitely added
 to the [table of content](#table-of-content "table of content") to be
@@ -145,7 +145,7 @@ own content). The order of pages cannot be changed in the pages list,
 but this can be done in the table of contents. The exposition
 page will automatically change size based on the content.
 
-### Entry page 
+#### Entry page 
 
 One can change the first page visible to the reader by changing the
 __entry page__. Go to the menu __options__ and choose __edit meta
@@ -154,7 +154,7 @@ and select the page you want as your start page for the reader.  <!--
 This should be in table of contents, it is completely out of place in
 meta-data -->
 
-## Page settings
+### Page settings
 
 ![the page settings dialog](images/pages-tab-2018.png "
 the page settings")]
@@ -163,7 +163,7 @@ In the page settings dialog, you can change the meta data of the page
 and control the page appearance. It is opened by clicking the pencil
 button in the bar.
 
-### Page settings - Meta : title, description and iframe field
+#### Page settings - Meta : title, description and iframe field
 
 * __Page title__\ Set a title for the page. This title can be
 overridden in the [table of content](#table-of-content), so the reader
@@ -193,7 +193,7 @@ work:
 	If you want to combine external content with tools you should use
     the [embed tool](#embed-tool).
 
-### Page settings - Style
+#### Page settings - Style
 
 Here one can change:
 
@@ -209,7 +209,7 @@ Here one can change:
 * __footnote__: The color of footnote/popover links works the same way as with links, but for links of footnotes/popovers.
 * __raw css__: apply your own CSS rules to the page, see below
 
-## raw CSS
+### raw CSS
   
 You can set user defined [CSS](https://www.w3schools.com/css/ "css
 tutorial") rules that are applied to the whole page. Cascading Style
@@ -230,7 +230,7 @@ To style text within a simple text tool you have to use:
 	/* put your style here */	
 	}
   
-### Supplying your own fonts 
+#### Supplying your own fonts 
 
 You can include your own external fonts through CSS @import
 statements. Be aware that many (also fonts like "Arial"), cannot be
@@ -248,7 +248,7 @@ an example of using the "Roboto" font:
 		font-family: roboto;
 	}
 
-### Line-height
+#### Line-height
 
 There is no way to control line height within the HTML or text tool, but you can change it using CSS:
 
@@ -267,7 +267,7 @@ the size of the 'm' character in the font.
 Be aware that changing the CSS 
 	
 
-### Deleting a page
+#### Deleting a page
 
 The page can be deleted by clicking the trashcan icon next to the page
 title. Deleted pages cannot be recovered. Of course, if you want to

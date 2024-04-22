@@ -1,3 +1,82 @@
+<a id="fonts"></a>
+
+## Fonts
+
+The research catalogue currently provides the following fonts:
+
+__Sans-serif:__
+
+- Anton (similar to __Impact__)
+- Nimbus Sans L (similar to __Helvetica__)
+- Arimo (similar to __Arial__)
+- Carlito (similar to __Calibri__)
+- Open Sans
+- Lato
+- PT Sans (used in the Research Catalogue logo)
+- Roboto
+
+
+__Serif:__
+
+- Crimson Pro
+- Libre Baskerville
+- Merriweather
+
+__Monospace:__
+
+- Courier Prime
+- IBM Plex Mono
+- Roboto Mono
+
+![fonts overview](images/fonts.png "the fonts")
+
+If you have an older exposition (created before April, 2022), you will also be
+able to select additional fonts. The reason for this is that Research Catalogue
+used to allow users to select these in the past. A majority of these fonts were
+only available in Windows and/or MacOS. The licensing around these proprietory
+fonts prevented Research Catalogue from self-hosting them. When a font was not
+available locally, the browser would switch to an alternative and this resulted
+in smaller or bigger visual differences and a warning message to the user.
+
+The current solution to this problem is that Research Catalogue now provides a
+set of fonts that we can host ourselves. This guarentees that a font chosen in
+the text & html tools can never be missing. To ease the switch, we have included
+replacements that are designed to closely match the common fonts like Arial,
+Calibri and Helvetica and Impact. Older expositions will keep their current
+fonts but allow you to also use the new ones. Published expositions expositions
+cannot be changed, but you can create a new version of the exposition.
+
+## Migration of fonts in your expositions
+
+In existing expositions (that have not been published), you can replace all
+current fonts to using the RC-safe set. One way would be to do this by hand, but
+for convenience we also provide an automatic option.
+
+If you have a simple exposition, it is recommended to first do some small test
+switching the font in a selection of tools within your exposition by hand. If
+you like the result, you can then use the migration option, which can be found
+in the menu: __Options > Edit metadata > compatibility__. Due to technical limitations, 
+this option is not available if the exposition is "in revision" or "in review". If you want to apply the font migration to an exposition in such state, please follow the instructions __"Safely trying a migration"__ below.
+
+The font compatibility dialog will automatically detect which fonts are used in
+your exposition. You will then be asked to select a replacement font for each
+one.
+
+### Safely trying a migration:
+
+If you have a very complex exposition with many tools, we highly recommend to
+first try the font migration on a copy instead of the original exposition (!).
+You can make a copy by:
+
+1. go to your profile page
+2. click the ☰ -> "manage versions" option on the exposition
+3. create a snapshot
+4. restore the snapshot, this will appear as a separate exposition on your profile.
+5. open ☰ -> edit workspace, and go to __options > Edit metadata >
+   compatibility__ to apply the migration.
+
+If you do not like the result, you can just delete the exposition and start at step 1.
+
 ## Text Based Editor
 
 <a id="text-based-editor"></a>
