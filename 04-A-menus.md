@@ -1,6 +1,6 @@
 <a id="table-of-content"></a>
 
-# Graphical Expositions - Table of Content
+## Table of Content
 
 See the [video tutorial](https://www.researchcatalogue.net/view/273532/1685164#tool-1686823) on this topic.
 
@@ -90,9 +90,9 @@ The overview map outlines all tools on the page, their size and position. By mov
 
 Below the overview map, there is a list of all objects. If you click one of these tools, you go directly to that tool's location. This can also be very useful when trying to find tools that have somehow become hidden, for example if another tool has been placed on top.
 
-# Graphical Editor - Menus
+## Other Menus
 
-## Edit menu
+### Edit menu
 
 <img src="images/edit-menu-2018.png" class="half-image" alt=" the edit menu">
 
@@ -119,7 +119,7 @@ __Locking:__
 
 Locking an object means it cannot be changed or moved in any way (until it is unlocked). This feature can also be used if only part of the exposition is to be moved (by locking the objects you do not want to move). 
 
-## Arrange menu
+### Arrange menu
 
 These functions help with aligning (two or more) tools. To select multiple tools, click them one by one while
 holding ctrl/cmd key, then choose the function you want to apply from the arrange menu. 
@@ -140,26 +140,26 @@ holding ctrl/cmd key, then choose the function you want to apply from the arrang
 * make horizontal gaps equal: the horizontal gaps between tools are made equal.
 
 
-## Options menu
+### Options menu
 
 <img src="images/options-menu-2018.png" class="half-image" alt=" options menu">
 
-### Edit metadata
+#### Edit metadata
 
 Here you can edit the Title, Abstract and Entry Page of the exposition.
 
-### Show tool borders
+#### Show tool borders
 
 When this option is turned on, you will be able to see all borders of all tools (green dashed line) in the editor.
 This can be helpful searching for empty tools.
 
-### Edit table of content
+#### Edit table of content
 
 Here you can set the contents of the "contents menu" that the reader uses to navigate between pages and position in your exposition.
 
 See [table of content](#table-of-content).
 
-### Grid options
+#### Grid options
 
 * Snap to grid
 
@@ -173,25 +173,25 @@ Show/hide the grid
 
 Change the size of the grid
 
-### Set default position
+#### Set default position
 
 Change the initial position that the reader starts at in the weave, to the current location of the editor view.
 
-### Show current position
+#### Show current position
 
 This provides the X,Y offset of the editor and a position link.
 X,Y can be used in the Table of content.
 The position link in Hyperlinking, or simply to share a specific position through a position link.
 
-### Restore deleted tools
+#### Restore deleted tools
 
 Restore recently deleted tools. Currently, this option is only available in the graphical editor mode.
 
-### Restore deleted footnotes
+#### Restore deleted footnotes
 
 Restore recently deleted footnotes. Currently, this option is only available in the graphical editor mode.
 
-## Help menu
+### Help menu
 
 Get help!
 
@@ -199,7 +199,7 @@ Get help!
 * the forum
 * the video tutorials
 
-## Send Collaboration Message
+### Send Collaboration Message
 
 When you are collaborating on an exposition, you can use the command
 "send collaboration message" to communicate with your collaborators.

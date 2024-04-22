@@ -71,8 +71,9 @@ If you want to generate a password by hand, you can:
 - use eff's method: <https://www.eff.org/dice>
 - do not use famous phrases, lyrics or words
 - never use [cliche passwords, like from the list of 10000 most common passwords](https://en.wikipedia.org/wiki/Wikipedia:10,000_most_common_passwords)
+- resist the temptation to reuse passwords
 - don't use easily found personal information 
-- in contrast to common belief (and many forms that request this), having a short password and adding a few numbers '!' '#' '.' ',' characters does not guarantee safety! 
+- in contrast to common belief, adding a few numbers '!' '#' '.' ',' characters to a bad password does not guarantee safety! 
 
 Since generating (and remembering!) good passwords is not trivial to do by hand, most experts
 recommend using a password manager instead.
