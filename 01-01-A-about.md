@@ -12,11 +12,11 @@ artistic research.
 The Research Catalogue is provided by the [Society for Artistic
 Research (SAR)](https://www.societyforartisticresearch.org "Society for Artistic Research").
 
-## What can I use the RC for?
+## What Can I Use the RC for?
 
 Research Catalogue has been used for publishing articles, project documentation, thesis works, peer reviewed journal publications and course materials within the field of Artistic Research.
 
-## Why use RC ?
+## Why Use RC ?
 
 <!-- is this clear ? -->
 
@@ -40,12 +40,7 @@ freeform webpage in which both reflective texts and other media can be presented
 and properly contextualized. This allows an author not just to illustrate a
 text, but demonstrate knowledge emerging from artistic practice.
 
-The balance and priority between the different media formats (audio, video,
-image and text) is open to the author to decide. Expositions may be edited
-either using a graphical drag-and-drop editor or written using a text-based
-editor.
-
-### Connection between RC and JAR
+## Connection Between RC and JAR
 
 The RC forms the technical backbone of the Journal for Artistic
 Research (JAR): potential JAR expositions emerge from the range of the
@@ -79,7 +74,7 @@ you send this information safely.
 |                               | use the media repository |
 |                               | collaborate              |
 
-## Safe upgrade 
+## Safe Upgrade 
 
 [support@researchcatalogue.net](mailto:support@researchcatalogue.net "mail user support") supports OpenPGP email signing to prevent
 sensitive information from going lost. If you have never used OpenPGP, by far,

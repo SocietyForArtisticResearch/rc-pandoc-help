@@ -4,11 +4,10 @@ The media repository allows RC users to navigate, organize and manage
 their media. Each user can browse the media that is used in their
 expositions (the [simple
 media](https://guide.researchcatalogue.net/#simple-media)) or collect
-media files and texts with which to create an exposition later. Beyond
+media files and texts to be used in an exposition. Beyond
 organizing media, you can share it with other users of the RC. You can
-upload media, organize it into [__sets__](#sets) and share it with
-other users of the RC. It extends and replaces the older "Works"
-feature.
+upload media, organize them into [__sets__](#sets) and share it with
+other users of the RC.
 
 
 ![Media repository](images/media-repository.png "the media repository")
@@ -29,14 +28,13 @@ The media browser contains three tabs:
 	
 * __Sets shared with you__
 
-	Media sets that have been shared with you by others.
+	Media sets that have been shared with you.
 	
 	
 There are two ways of displaying the media or sets:
 
-* The __gallery view__ displays a preview image of the entities and
-  helps finding media visually.
-* The __list view__ is better suited for sorting media or sets.  Click
+* The __gallery view__ displays a preview image for each element.
+* The __list view__ displays media as a list. It is better suited for sorting media or sets.  Click
   on a column to sort a list by a certain property.
 
 ## Filter and Search
@@ -45,7 +43,7 @@ The filter can be used to only show certain types of media. You can filter by
 [__tags__](#tags), [__keywords__](#keywords), date and media type.
 
 
-## Creating new media
+## Creating New Media
 
 There are various ways to create new media:
 
@@ -70,13 +68,11 @@ The Media Repository accepts all common audio and video formats and
 will automatically convert them to web compatible format.  Audio is
 transcoded to 256 kbps mp3, video to mp4 with the original resolution.
 
-### Multi-upload
+### Multi-Upload
 
 You can select multiple files to upload at once or a folder containing
 several files. You will be presented with a form block for each
-file. In order to ease such a workflow you can apply the copyright
-information and the set you want to add the media to from one form to
-all other forms.
+file. 
 
 
 ### Text
@@ -130,9 +126,9 @@ be extended by individual users.
 
 <a id="sets"></a>
 
-### License picker
+### License Picker
 
-see [licenses](#licenses)
+Please consult [licenses](#licenses).
 
 ## Sets and Sharing
 
