@@ -387,3 +387,8 @@ li>ul {
     padding-left: 20px;
     /* Indent nested lists */
 }
+
+ul ul>li .toc-icon {
+    top: 6px;
+    position: relative;
+}

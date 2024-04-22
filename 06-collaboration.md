@@ -1,4 +1,4 @@
-# Making expositions visible and working with others
+# Collaboration, Sharing and Publication
 
 By default, expositions are __private__: only visible to your account.
 These are the three options to make something visible to others:
