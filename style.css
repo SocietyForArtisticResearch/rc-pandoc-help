@@ -9,7 +9,7 @@
 
 h1.title {
     text-transform: uppercase;
-    color: #575757;
+    /* color: #575757; */
 }
 
 #TOC {
@@ -161,7 +161,6 @@ h5 {
     font-family: helvetica, arial, sans-serif;
     font-family: 'PT Sans', sans-serif;
     letter-spacing: 1px;
-    color: #575757;
 }
 
 h1 {

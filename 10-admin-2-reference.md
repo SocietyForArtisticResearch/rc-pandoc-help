@@ -1,8 +1,8 @@
 <!-- pandoc -s -f markdown_github -i admin.md -o admin.html -c style.css -->
 
-# Administration reference guide
+## Administration reference guide
 
-## Administration Main Page
+### Administration Main Page
 
 To reach the administration functionalities of the RC website, click on __administration__, located in the top right corner. To return to your own profile, you can click on the Research Catalogue logo. Only portal admins have access to these pages.
 
