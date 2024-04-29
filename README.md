@@ -1,4 +1,11 @@
+# Todo
+
+[ ] Normalize titles
+[ ] Make menu more responsive, can stay if there is space
+[ ] Highlight menu items while reading the docs.
+
 # rc-pandoc-help
+
 Pandoc style conversion of RC helpfiles
 
 If you want to make changes you have three options:
