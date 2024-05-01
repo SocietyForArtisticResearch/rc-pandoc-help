@@ -141,7 +141,7 @@ profile](images/change-layout.png "image displaying layout options for
 research on My Profile")
 
 
-## Manage versions
+## Manage Versions
 
 It is possible to create a snapshot of your exposition, which you can
 restore later.
@@ -242,7 +242,7 @@ containing content, its title will not be shown on your public
 profile. Empty groupings will also not be displayed on your public
 profile page.
 
-### Cleaning up cluttered profiles:
+### Cleaning up Cluttered Profiles:
 
 You can delete expositions you have created by clicking ☰ -> delete exposition.
 Expositions which are in review or published cannot be deleted. Please note that

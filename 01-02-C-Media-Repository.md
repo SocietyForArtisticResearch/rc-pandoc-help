@@ -22,11 +22,11 @@ The media browser contains three tabs:
 
 	The complete list of all media.
 
-* __My sets__
+* __My Sets__
 
 	Your media sets.
 	
-* __Sets shared with you__
+* __Sets Shared with You__
 
 	Media sets that have been shared with you.
 	
@@ -62,7 +62,7 @@ Accepted types:
 * Text files: plain / html / markdown
 * Images : .png .gif .jpg .svg .tiff
 
-__Transcoding audio and video:__
+__Transcoding Audio and Video files:__
 
 The Media Repository accepts all common audio and video formats and
 will automatically convert them to web compatible format.  Audio is
