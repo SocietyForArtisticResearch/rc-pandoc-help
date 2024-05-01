@@ -846,7 +846,7 @@ Click on the small ">" to open one of these sections:
 The style tab only sets the external style of the
 tool, text markup is done within the text or html tools.
 
-#### Change tool defaults
+#### Tool Defaults
 
 It is possible to change the default styling settings for any tool, by double clicking the tool in the toolbar.
 After the default is changed, every newly created tool will initially use these new settings.
