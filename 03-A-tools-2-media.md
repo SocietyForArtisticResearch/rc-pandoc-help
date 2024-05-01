@@ -267,7 +267,7 @@ the size of the 'm' character in the font.
 Be aware that changing the CSS 
 	
 
-#### Deleting a page
+#### Deleting a Page
 
 The page can be deleted by clicking the trashcan icon next to the page
 title. Deleted pages cannot be recovered. Of course, if you want to
