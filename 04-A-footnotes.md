@@ -153,7 +153,7 @@ window.
 The reference feature allows you to build a bibliography for your exposition. It is available for both _graphical_ and _block_ pages.
 
 
-### Creating a reference
+### Creating a Reference
 
 You can create a new reference by going to the Ref tab, which is located on the
 right-hand side of the workspace editor. Click the + button to create a new
@@ -190,7 +190,7 @@ miscellaneous.
 ![create reference dialog](images/ref-dialog.png "a dialog, where the tabs are
 the different types, each containing a form to provide ref data")
 
-### Inserting a hyperlink to reference in bibliography
+### Inserting a Hyperlink to Reference in Bibliography
 
 In the HTML tool, there is a button which allows you to insert a direct link to
 a reference in your bibliography. The reference will both show on hover and when
