@@ -2,7 +2,7 @@
 
 # Navigation
 
-## Navigation bar
+## Navigation Bar
 
 When one moves the mouse cursor to the top of an exposition, a menu bar
 appears. 
@@ -57,7 +57,7 @@ There are a couple of functions available:
 Shows the latest and previous comments on your exposition from the RC
 community.
 
-### Terms of use
+### Terms of Use
 
 This displays the terms of as set by the Society for Artistic Research (SAR).
 

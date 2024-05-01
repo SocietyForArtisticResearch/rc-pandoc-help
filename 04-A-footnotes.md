@@ -1,7 +1,7 @@
 <a id="footnotes-and-popovers"></a>
 <a id="footnotes"></a>
 
-# Popovers
+## Popovers
 
 __Popovers__ are footnotes that pop up. They provide a way to present additional
 content in your _graphical_ and _block_ pages without cluttering the page. The
@@ -22,7 +22,7 @@ in the text. however, the RC also has a dedicated [__reference
 feature__](#references) for that now, that will also generate a bibliographical
 list on the metadata page.
 
-## Creating a popover
+### Creating a Popover
 
 Popovers can be created in two ways:
 
@@ -41,7 +41,7 @@ Now choose the second tab __"footnote"__ to create a new __popover__.
 To link a __popover__ to an image tool, right click the image tool and select
 __"add footnote"__.
 
-## Customizing the popover properties
+### Customizing the Popover Properties
 
 ![Selecting text as a footnote link](images/footnotes_sel.png)
 
@@ -62,7 +62,7 @@ creation of popovers containing only a short amount of text. The text can be
 entered here directly upon creation without the need to further edit the popover
 and adjust its size. ![Popover/footnote dialog window](images/footnote_dia.png)
 
-## Editing a Popover (footnote)
+### Editing a Popover 
 
 All popovers are listed in the "Popups" tab on the right hand side. If you click
 one, the RC will automatically scroll to it's reference in the text or image
@@ -92,7 +92,7 @@ need to change the size of the tool within that popover after resizing. To edit
 a "simple text" popover internal tools, simply double click it in the popover
 list.
 
-### Changing the position or display settings of a footnote
+### Changing the Position or Display Settings of a Footnote
 
 If you need to change the screen position or display settings of an existing
 footnote, the best way is:  
@@ -148,12 +148,12 @@ window.
 
 <a id="references"></a>
 
-# References 
+## References 
 
 The reference feature allows you to build a bibliography for your exposition. It is available for both _graphical_ and _block_ pages.
 
 
-## Creating a reference
+### Creating a Reference
 
 You can create a new reference by going to the Ref tab, which is located on the
 right-hand side of the workspace editor. Click the + button to create a new
@@ -190,7 +190,7 @@ miscellaneous.
 ![create reference dialog](images/ref-dialog.png "a dialog, where the tabs are
 the different types, each containing a form to provide ref data")
 
-## Inserting a hyperlink to reference in bibliography
+### Inserting a Hyperlink to Reference in Bibliography
 
 In the HTML tool, there is a button which allows you to insert a direct link to
 a reference in your bibliography. The reference will both show on hover and when
@@ -204,7 +204,7 @@ author and the year. You can customize the text of the link by selecting it and
 typing over it, for example to include a page number. The links will use the
 default hyperlink color, that can be customized in the __Page__ settings page.
 
-## Viewing the references
+### Viewing the References
 
 References are listen on the META page of an expostion, at the bottom. 
 

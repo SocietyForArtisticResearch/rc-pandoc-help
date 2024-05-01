@@ -1,4 +1,4 @@
-# Making expositions visible and working with others
+# Collaboration, Sharing and Publication
 
 By default, expositions are __private__: only visible to your account.
 These are the three options to make something visible to others:
@@ -68,7 +68,7 @@ page.
 
 
 
-## Accepting a collaboration invitation
+## Accepting a Collaboration Invitation
 
 You can find all collaboration invitations under
 <https://www.researchcatalogue.net/collaboration/list>. At the bottom of the
@@ -91,7 +91,7 @@ Note: If a user's name in the list is enclosed in brackets ( [ name ]
 yet accepted by the receiver.
 
 
-## Realtime collaboration
+## Realtime Collaboration
 
 For pages created with the graphical editor, you will see the edits of the others directly as they are made, in the other editors (block, html or text-based) you will have to refresh your browser tab to see changes. When a tool is being edited by another user, it will get a <span class="blue">blue</span> border.
 When a page is being edited by another user, it will be highlighted in <span class="blue">blue</span>.
@@ -189,7 +189,7 @@ publicly visible. On publication you will get a (free)
 design, publishing an exposition is not reversible (so others can use
 the exposition link as a reference).
 
-### Submit for review
+### Submit for Review
 
 Expositions can also be submitted to portals (such as journals) for
 review and publication. Most of the institutional portals will only

@@ -1,8 +1,89 @@
-# Text Based Editor
+<a id="fonts"></a>
+
+## Fonts
+
+The research catalogue currently provides the following fonts:
+
+__Sans-serif:__
+
+- Anton (similar to __Impact__)
+- Nimbus Sans L (similar to __Helvetica__)
+- Arimo (similar to __Arial__)
+- Carlito (similar to __Calibri__)
+- Open Sans
+- Lato
+- PT Sans (used in the Research Catalogue logo)
+- Roboto
+
+
+__Serif:__
+
+- Crimson Pro
+- Libre Baskerville
+- Merriweather
+
+__Monospace:__
+
+- Courier Prime
+- IBM Plex Mono
+- Roboto Mono
+
+![fonts overview](images/fonts.png "the fonts")
+
+If you have an older exposition (created before April, 2022), you will also be
+able to select additional fonts. The reason for this is that Research Catalogue
+used to allow users to select these in the past. A majority of these fonts were
+only available in Windows and/or MacOS. The licensing around these proprietory
+fonts prevented Research Catalogue from self-hosting them. When a font was not
+available locally, the browser would switch to an alternative and this resulted
+in smaller or bigger visual differences and a warning message to the user.
+
+The current solution to this problem is that Research Catalogue now provides a
+set of fonts that we can host ourselves. This guarentees that a font chosen in
+the text & html tools can never be missing. To ease the switch, we have included
+replacements that are designed to closely match the common fonts like Arial,
+Calibri and Helvetica and Impact. Older expositions will keep their current
+fonts but allow you to also use the new ones. Published expositions expositions
+cannot be changed, but you can create a new version of the exposition.
+
+## Migration of fonts in your expositions
+
+In existing expositions (that have not been published), you can replace all
+current fonts to using the RC-safe set. One way would be to do this by hand, but
+for convenience we also provide an automatic option.
+
+If you have a simple exposition, it is recommended to first do some small test
+switching the font in a selection of tools within your exposition by hand. If
+you like the result, you can then use the migration option, which can be found
+in the menu: __Options > Edit metadata > compatibility__. Due to technical limitations, 
+this option is not available if the exposition is "in revision" or "in review". If you want to apply the font migration to an exposition in such state, please follow the instructions __"Safely trying a migration"__ below.
+
+The font compatibility dialog will automatically detect which fonts are used in
+your exposition. You will then be asked to select a replacement font for each
+one.
+
+### Safely trying a migration:
+
+If you have a very complex exposition with many tools, we highly recommend to
+first try the font migration on a copy instead of the original exposition (!).
+You can make a copy by:
+
+1. go to your profile page
+2. click the ☰ -> "manage versions" option on the exposition
+3. create a snapshot
+4. restore the snapshot, this will appear as a separate exposition on your profile.
+5. open ☰ -> edit workspace, and go to __options > Edit metadata >
+   compatibility__ to apply the migration.
+
+If you do not like the result, you can just delete the exposition and start at step 1.
+
+## Text Based Editor
+
+<a id="text-based-editor"></a>
 
 First time user of the text editor? <a href="#introduction">click here</a>.
   
-## Overview
+### Overview
 
 <div id="overview-block">
 <p>Click any element in the image to jump to the relevant section:</p>
@@ -34,18 +115,19 @@ First time user of the text editor? <a href="#introduction">click here</a>.
 * <a href="#upload-media">Upload media</a>    
     *Upload media files (image, video, pdf) and insert in your exposition*  
    
-## Introduction  
+### Introduction  
 
 The text-based editor is aimed at creating
 [responsive](http://https://nl.wikipedia.org/wiki/Responsive_webdesign)
 RC expositions. Despite the "text" in the name, expositions made with
 this editor can also contain images, video, audio or PDF. "Text based"
-refers to the method of editing: through plain text. Because of this
-plain text input, text-based expositions can be easily imported or
-edited in external editors. The consequence is that editing the visual
-layout is less direct as in the graphical based editor. The structure of 
-the exposition is expressed by using Markdown, the display of which can be 
-customized through style sheets (css). 
+refers to the method of editing: through plain text. 
+
+Because of this plain text input, text-based expositions can be easily imported
+or edited in external editors. The consequence is that editing the visual layout
+is less direct as in the graphical based editor. The structure of the exposition
+is expressed by using Markdown, the display of which can be customized through
+style sheets (css). 
 
  
 On desktop, the editor splits the screen in two: you can write your
@@ -63,7 +145,7 @@ dialog will automatically open, allowing you to edit and insert it.
 
 Finally, the look of your text and media can be controlled through the media list and the style editor.
 
-## Creation and using a template
+### Creation and Using a Template
 
 To create a text-based exposition, go to "my profile" and click [
 create exposition ], then select "text-based" for the editor
@@ -79,7 +161,7 @@ Portal admins can select any of their own expositions to become a
 template for their portal users, by going to the "template" tab in
 their [portal settings](#portal-settings-screen).
 
-## Editor
+### Editor
 
 The left hand side is where you can edit your text. The editor uses
 [Markdown](#markdown "link to markdown docs"), which is a lightweight,
@@ -97,13 +179,13 @@ browsers spellchecker to work. [^1].
 
 [^1]: It is not possible to have both at the same time.
 
-## Pages / table of contents
+### Pages / Table of Contents
 
 The text based editor is limited to single page articles.
 Headers marked with `#` will be included in the "contents" menu
 automatically.
 
-## Previews
+### Previews
 
 Here you can see a preview of your exposition.
 
@@ -111,7 +193,7 @@ Because text based expositions are responsive (react to the size of
 the window), the result may change based on the width of the
 screen. For a full view preview, use the eye button in the toolbar.
 
-### Upload media
+#### Upload Media
 
 To add new media, click upload media. After the upload finishes, the
 media edit dialog opens. This allow you to edit its metadata, size and
@@ -120,7 +202,7 @@ to insert the media at the current cursor position.
 If you want to insert previously used media, you can use the "media
 button" in the [toolbar](#toolbar).
 
-## Media list
+### Media List
 
 All media that you uploaded will appear in the "media list", where
 they can be edited or deleted.
@@ -128,7 +210,7 @@ they can be edited or deleted.
 ![The media list](images/media-list-elm.png " media
 list")
 
-### Editing media 
+#### Editing Media 
 
 From within the media-list, if you click [__edit__], you will be able
 to change the __name__, __metadata__ and display of a media file.
@@ -146,7 +228,7 @@ Using the buttons in the list itself:
 ![The media edit dialog](images/edit-media-elm.png " the
 edit media dialog")
 
-## Insert media
+### Insert Media
 
 Media is represented on the editor side using a !{*media-name*} tag.
 The easiest way of inserting such a media tag is throught the [insert
@@ -164,7 +246,7 @@ A __caption text__ can also be included, to get a caption you write
 ![my caption text]{myFile}.  The caption text is displayed underneath
 the media.
 
-## Import & export
+### Import & Export
 
 You can import content from documents from text editors like Word (.docx),
 Libre/Open Office (.odt), HTML and several other formats. Not all
@@ -174,7 +256,7 @@ the document that is imported has a simple structure. When you import a
 a document, it will not replace the current content, but be appended at 
 the end of your page.
 
-## Edit style
+###  Edit Style
 
 Text based expositions are styled using CSS (Cascading Style Sheets),
 which is a standard way of styling web documents.  The CSS of an
@@ -198,7 +280,7 @@ class (rc-media-123455) to style an individual media element.
 Most templates will provide some basic formatting already, that you
 can adjust to your needs.
 
-## Toolbar
+### Toolbar
 
 From left to right:
 
@@ -224,7 +306,7 @@ From left to right:
 * <img class="icon" src="images/icons/screen-full.svg"> - Fullscreen
   mode (hides preview)
 
-## Markdown
+### Markdown
 
 Markdown is a human-friendly way of writing HTML webpages without
 using code.  Markdown is written as plain text (like you would write
@@ -242,7 +324,7 @@ Instead of typing these characters, you can also select a piece of
 text and push the desired __style button__ on top of the editor. This
 will insert the correct Markdown notation for you.
 
-### Paragraphs and newlines
+#### Paragraphs and Newlines
 
 Single newlines are ignored by Markdown, unless:
 
@@ -336,7 +418,8 @@ _results in:_
 class="bg-blue">also does the trick!</span>
 
   
-### Headers 
+### Headers
+
 Headers are defined by using one or more \"#\" in front of the header
 name:
 
@@ -395,10 +478,7 @@ The anchor (or bookmark) itself is created like this:
 
 `<a id="your-anchor-id"></a>`
 
-
-
-
-### Footnotes (text based)
+### Text-based Footnotes
 
 <a id="text-based-footnote"></a>
 
@@ -426,7 +506,7 @@ like so: <pre> ` quotation` ` more quotation` </pre>
 
 Quotations are not automatically formatted (they keep their newlines).
 
-### Tables (markdown)
+### Markdown Tables
 
 Tables are written like this:
 

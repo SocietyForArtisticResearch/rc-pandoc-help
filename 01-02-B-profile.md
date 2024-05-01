@@ -1,10 +1,12 @@
-# My Profile Page
+<a id="my-profile-page"></a>
 
-The RC profile page is both the central hub for your activities on the RC and a public presentation of your research. You can create a detailed public profile containing two main sections: The first has biographical data, information on projects and events, and the second is a list of your RC objects such as media sets and expositions.
+# Profile Page
+
+The RC profile page is both the central hub for your activities on the RC and a public presentation of your research. You can create a detailed public profile containing two main sections. The first section contains biographical data, informations on projects and events. The second section is a list of your RC objects, such as media sets and expositions.
 
 Only expositions which are [shared](#share "documentation on sharing") or
 [published](#publication "documentation on publication") will be visible to
-others. Additionally, you can hide groupings of expositions through
+others. Additionally, you can hide ??? groupings of expositions through
 the small dot next to the grouping.
 
 Reviewers will also see the headers "Exposition Reviewing" or "Application Reviewing", containing links to the expositions they have
@@ -21,7 +23,7 @@ profile")
 
 ### Description 
 
-You can add a biography or text, that other RC users will see when they visit your profile. Here you can also add a tagline, set your country of residence, and list your research interests. You can also change the email address associated with your RC account that will be used to log in and notify you if you have turned on notifications. This email address will not be shown to visitors of your profile. Click "edit profile" to edit all these properties. Note that accounts that use bots to generate advertisements that have nothing to do with research may be removed without notice.
+You can add a biography or text, that other RC users will see when they visit your profile. Here you can also add a tagline, set your country of residence, and list your research interests. You can also change the email address associated with your RC account that will be used to log in and notify you if you have turned on notifications. Your email address is not public. Click "edit profile" to edit all these properties.
 
 ### Uploading a CV
 
@@ -48,11 +50,10 @@ that you are member of the portal before you are able to submit an
 application for a program.
 
 In most cases however, it is the task of the portal admin to make you
-a member of their portal, most portals do therefore not allow users to
+a member of their portal. Most portals therefore do not allow users to
 request membership themselves.
 
-Click edit to ask for a request to become a portal member, or remove
-yourself from a portal.
+Click "edit" to request / widthdraw a portal membership.
 
 ## Research Section
 
@@ -60,9 +61,8 @@ yourself from a portal.
 
 By clicking "Create exposition" you can create a new exposition object
 which will be opened in the RC exposition workspace editor. The
-__title__, __copyright__ and __abstract__ fields are obligatory. In
-most cases, the copyright field should be the same as the main author
-name (so you can write your own name).  You can change these details
+__title__, __copyright__ and __abstract__ fields are required. In
+most cases, copyright is assigned to the main author of the exposition.  You can change these details
 later by choosing ☰ > __edit details__, or in the __workspace editor__
 by clicking the title of your research (at the top of you screen).
 
@@ -73,30 +73,16 @@ There are three types of exposition on the RC:
 * [Text-based](#text-based-editor "text-based editor documentation")
 * [HTML-based](#html-import "html import documentation")
 
-*(There is also a fourth type, __Research Video__, which at the moment
-is only available to members of the ZHDK portal.)*
-
 For a description of the differences, please consult [editor
 comparison section](#comparison).
 
 ![create exposition](images/add-research-dialog.png "the add research dialog")
 
-### Add Work
-
-Works are an older feature, which has now been replaced by media sets
-through the [media repository](#media-repository).  If you had created
-works previously, you can still edit or remove them.
-
-### Add Project 
-
-Projects were part of an external import of data, they are no longer
-available for users.
-
 ### Exposition Details Menu
 
 ![the "hamburger" menu](images/hamburger_location.png "location of menu")
 
-To access the menu, click on the ("hamburger") menu icon, located in
+To access the menu, click on the "hamburger" menu icon, located in
 the bottom right corner of an object (expositions or works). Some
 options are only available to the author of the object.
 
@@ -106,10 +92,10 @@ options are only available to the author of the object.
 
 * __Edit details__ change the metadata of your exposition, and
   control collaboration with other users. See [edit
-  research](#edit-research)
+  research](#edit-research).
 
 * __Share__ change the visibility of the exposition: private, public or shared to a specific group. 
-Sharing is only available if the exposition is still a work in progress, after (self)publication of the research, the share status is ignored.
+Sharing is only available if the exposition is still a work in progress. After (self)publication of the research, the share status is ignored.
 
 * __Self-publish__ turn an exposition into a fixed object that can be safely referenced.  <br/>Please
 note that publishing is a one-way action, *once published one can not
@@ -121,8 +107,8 @@ do not use this option. This is the only way the RC will register a DOI outside 
 
 * __Submit for review__ this will submit the publication for review (and possibly publication). 
   Submitting will change the status of the exposition to "in review" and will prevent you from editing it further.
-   *Only the [owner](#the-owner-role) can submit for review and only the portal admin can undo it*
-  [see a full visual overview of review workflow here](https://www.researchcatalogue.net/view/2066568/2175687)
+   *Only the [owner](#the-owner-role) can submit for review and only the portal admin can undo it.*
+  [See a full visual overview of review workflow here.](https://www.researchcatalogue.net/view/2066568/2175687) !!!broken link
 
 * __Connect to__ send a connection request to a Portal or Group. *Only the [owner](#the-owner-role) can do this.*
 
@@ -147,18 +133,15 @@ do not use this option. This is the only way the RC will register a DOI outside 
 ### Change Layout
 
 This dialogue gives you the option of choosing the size of the
-research description boxes on your profile page.
+research description boxes on your profile page. Depending on the length of the content, the abstract and additional
+information may be reduced or even hidden.
 
 ![The 4 options for how to display research on your
 profile](images/change-layout.png "image displaying layout options for
 research on My Profile")
 
-Depending on the length of the content, the abstract and additional
-information may be reduced or even hidden. Sizing objects differently
-allows to focus a reader's attention to important objects as well as
-to improve the overall readability of your profile page.
 
-## Manage versions
+## Manage Versions
 
 It is possible to create a snapshot of your exposition, which you can
 restore later.
@@ -186,11 +169,11 @@ snapshot:
 One can also restore as private and change the settings afterwards of
 course, through the collaboration and share menus.
 
-### Versions of published expositions
+### Versions of Published Expositions
 
 Published expositions cannot be changed in the RC (this is per
 definition, to allow referencing content within these expositions by
-other researchers), but duplicates can !
+other researchers), but duplicates can.
 
 To get an editable duplicate of a published exposition one has to:
 
@@ -223,7 +206,7 @@ the author pseudonym will replace the authors names wherever the work is shown
 on RC (and in the [DOI](https://www.doi.org) deposit, if the exposition is
 published). 
 
-### Being anonymous
+### Being Anonymous
 
 <strong style="color:red">Important: using a pseudonym does not make you fully anonymous</strong>, as the authors and co-authors will still be displayed in the metadata (contributors are not shown). The only way to be fully anonymous, is to request an ALIAS for your account as a whole. You can request an ALIAS by contacting:
 [support@researchcatalogue.net](mailto:support@researchcatalogue.net). In this case, your own name will not be shown anywhere in public pages of the RC, however even with an ALIAS, SAR will still be able to indentify the user that created the exposition if there is copyright infringement or other illegal material.
@@ -245,7 +228,7 @@ default groupings ("Sets" and "Expositions"). If you are invited to
 one by another RC user, they will appear under "Expositions
 (collaborated)".
 
-Custom grouping: You can also create your own groupings. To add a new grouping click [ add grouping ] and enter the name of the
+Custom grouping: You can also create your own groupings. To add a new grouping click "add grouping" and enter the name of the
 grouping. You can sort your objects within a grouping, arrange the groupings
 themselves and move object between groups via drag and drop. Click and
 drag a grouping itself to change the order of the groups.
@@ -259,7 +242,7 @@ containing content, its title will not be shown on your public
 profile. Empty groupings will also not be displayed on your public
 profile page.
 
-### Cleaning up cluttered profiles:
+### Cleaning up Cluttered Profiles:
 
 You can delete expositions you have created by clicking ☰ -> delete exposition.
 Expositions which are in review or published cannot be deleted. Please note that
@@ -275,6 +258,15 @@ an overview by using your browsers zoom (ctrl/cmd + ctrl/cmd -).
 You can return to default zoom level with ctrl/cmd 0.
 
 
- 
+## Legacy
 
- 
+### Add Work
+
+Works are an older feature, which has now been replaced by media sets
+through the [media repository](#media-repository).  If you had created
+works previously, you can still edit or remove them.
+
+### Add Project 
+
+Projects were part of an external import of data, they are no longer
+available for users.

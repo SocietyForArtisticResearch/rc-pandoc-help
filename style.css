@@ -7,6 +7,11 @@
  * TOC styling, menu button etc...
  **/
 
+h1.title {
+    text-transform: uppercase;
+    /* color: #575757; */
+}
+
 #TOC {
     background-color: rgba(237, 237, 237, 0.98);
     position: fixed;
@@ -50,7 +55,9 @@
 }
 
 #TOC>ul>li>a {
-    font-weight: bold;
+    /* font-weight: bold; */
+    position: relative;
+    top: -7px;
 }
 
 #TOC>ul>li>li>a {
@@ -84,7 +91,7 @@ nav#main {
     left: 0px; */
     font-family: helvetica, arial, sans-serif;
     letter-spacing: 1px;
-    text-transform: uppercase
+
 }
 
 #TOC.showMenu {
@@ -154,7 +161,10 @@ h5 {
     font-family: helvetica, arial, sans-serif;
     font-family: 'PT Sans', sans-serif;
     letter-spacing: 1px;
-    text-transform: uppercase
+}
+
+h1 {
+    text-decoration: underline;
 }
 
 figcaption {
@@ -186,8 +196,7 @@ h1 {
 h2 {
     margin-top: 24px;
     font-size: 18px;
-    text-decoration: underline;
-    text-decoration-color: gray;
+
 }
 
 h3 {
@@ -359,4 +368,36 @@ table tr td :last-child {
 
 .extra-space {
     margin-bottom: 2em;
+}
+
+.nested {
+    display: none;
+}
+
+.toc-icon {
+    width: 14px;
+    height: 14px;
+    min-width: unset;
+    border: none;
+    display: inline-block;
+    transition: transform 0.1s ease;
+    margin-right: 5px;
+    transform-origin: center;
+    padding: 0;
+    position: relative;
+    top: -4px;
+}
+
+li>ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    /* Removes default bullet styling */
+    padding-left: 20px;
+    /* Indent nested lists */
+}
+
+ul ul>li .toc-icon {
+    top: 5px;
+    position: relative;
 }

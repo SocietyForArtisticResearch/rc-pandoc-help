@@ -1,8 +1,5 @@
-
-
-# Graphical Editor - Views
- 
-## Preview
+## Views
+### Preview
 
 The preview is the final result that the reader will see when
 opening your exposition, for example through the exposition
@@ -25,7 +22,7 @@ of your exposition, clicking the PREVIEW button in the editor shows the page tha
 currently are working on in your workspace. Thus, you can also PREVIEW
 pages that are not yet listed in the table of contents. 
 
-## Workspace View
+### Workspace View
 
 <a id="workspace-editor-for-graphical-expositions"></a>
 

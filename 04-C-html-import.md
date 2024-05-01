@@ -1,4 +1,4 @@
-# HTML Import
+## HTML Import
 
 It is possible to import a website of static HTML into the RC. This
 feature is aimed at users that are familiar with HTML and want to use
@@ -35,7 +35,7 @@ To create a HTML based exposition:
 	see what changes you may need to make and try again.
 
 
-### Requirements for HTML expositions
+### Requirements for HTML Expositions
 
 There are a few requirements to the zip that is uploaded:
 
@@ -51,7 +51,7 @@ There are a few requirements to the zip that is uploaded:
 * Maximum size is 10Gb.
 
 
-### character encoding
+### Character Encoding
 
 The character encoding of the .html files should be UTF-8.
 You should specify the character encoding first (before `<title>`), for example like so:
@@ -69,7 +69,7 @@ You should specify the character encoding first (before `<title>`), for example 
 
 </code>
 
-### Example exposition
+### Example Exposition
 
 An example HTML-based exposition for use in the RC can be found on Github:
 

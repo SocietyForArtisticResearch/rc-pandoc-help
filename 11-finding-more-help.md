@@ -1,4 +1,4 @@
-# More help
+# More Help
 
 * [Video Tutorials](https://www.researchcatalogue.net/view/273532/1685164)  
 Video tutorials showing various processes in the RC.

@@ -26,13 +26,13 @@ On the right you will find the content manager, consisting of four tabs:
 | [pages](https://guide.researchcatalogue.net/#pages) | manage pages                             |
 
 
-## Adding a Tool
+## Graphical Editing Mode
 
 A tool is created by [dragging](https://en.wikipedia.org/wiki/Drag_and_drop) the icon onto the canvas.
 
 If you click a tool once, it will open the default setting dialog.
 
-![](images/toolbar-demo-2.png "drag a tool to the canvas")
+![](images/toolbar-demo-2.png "to add content, drag a tool from the toolbar onto the canvas")
 
 Tools can be resized by clicking and dragging the green borders with the mouse.
 
@@ -42,7 +42,7 @@ The size of the current weave will automatically grow when tools are added or dr
 
 <a id="block-editor"></a>
 
-## Block Editor
+## Block Editing Mode 
 
 ![block editor](images/block-editor.png "block editor")
 
@@ -88,7 +88,7 @@ difference is that you can more easily create horizontal rows of
 content and the editing is drag and drop, using the same tools as the graphic editor.
 This also means that both type of page can be used in a single exposition.
 
-### Basic usage
+### Basic Usage
 
 You can choose the block editor when creating a new exposition or when
 creating a new page within an existing exposition.
@@ -139,7 +139,7 @@ the bottom of the current cell.
 You can also move an entire row by dragging it from the "compass" icon
 visible at the top right corner of a row.
 
-### Hyperlinking / Table of Contents
+### Hyperlinks in the block editor / Table of Contents
 
 __Hyperlink__
 
@@ -147,7 +147,7 @@ It is possible to construct a hyperlink to a specific tool within a block page. 
 
 ![copy tool link in the context menu](images/copy-tool-link.png "editor > context menu, showing the copy tool link option")
 
-__Table of contents__
+__Table of Contents__
 
 To link to a specific tool in your "CONTENTS" menu, open the menu "options", choose "edit table of contents". This will open a list of entries, where you can choose a page and a tool within your page to link to. 
 
@@ -165,18 +165,7 @@ You can globally control the styling of your page, through the page style dialog
 
 ![styling dialog](images/page-font-settings.png "dialog, font-family, size, color, line-height (as percentage)")
 
-### Future
-
-It will become possible to make two versions of the same content, a 2D
-graphic and a linear block-like layout. This way the exposition content can
-automatically select the right format for the screen it is being
-viewed on.
-
-
-
-
-
-## Tools in detail
+## Tools for Text, Video, Image and Audio
 
 Note: The tools are described as they work in the graphical editor. When using the 
 block editor, some of the tools are not available or there may be limitations 
@@ -207,7 +196,7 @@ Lock means that one cannot make any changes until unlocked again.
 * __Delete__  
 Delete a tool
 
-## Key Commands
+### Key Commands
 
 There are a few useful key commands in the editor. Selected tools have a green border.
 
@@ -221,11 +210,11 @@ There are a few useful key commands in the editor. Selected tools have a green b
 
 <a id="copy-paste-footnote">__* = Important: the object you copy, is duplicated at the moment you paste__. This means that if you change an object after copying, the pasted object will also have these changes (!)</a>
 
-## Defaults
+### Defaults
 
 Defaults for styling and options can be set for a tool, by clicking it in the toolbar.
 
-## Text Tool
+### Text Tool
 
 [Watch the video tutorial.](https://www.researchcatalogue.net/view/273532/1685164#tool-1686820 "simple text tool tutorial")
 
@@ -249,7 +238,9 @@ HTML-tool. A text tool can be converted to an HTML-tool via the menu option
 
 Regarding the availability of typefaces/fonts please read [fonts](#fonts).
 
-### Placing images on top of text tools
+<a id="placing-images-on-top-of-text-tools"></a>
+
+#### Mixing Images and Text
 
 An important advice regarding text tools in the graphical editor is to __keep
 them short__. As a rule of thumb, keep the height below 1-2 screenheights maximum. Taller
@@ -261,15 +252,15 @@ and text in your exposition.
 If you find your design requires taller text-tools with illustrations inline, use the specialized [block editor](#block-editor) instead, or split the text tools in smaller parts:
 ![proper way of combining text with other tools](images/proper-use-text.png "the proper use of text tools")
 
-### Scrollbars
+#### Scrollbars
 
 If the text within a text tool is longer than the tool height, a scrollbar will appear and part of the text is cutoff. Therefore (especially when copying from external editors) it is important to check that the tool has a large enough size (unless you specifically want a scrollbar).
 
-### Style
+#### Style
 
 See [style options](#style-options).
 
-### Options
+#### Options
 
 If a text is longer than its frame on the weave, a scrollbar is
 generated automatically. You can control the visibility of the
@@ -277,19 +268,19 @@ scrollbar in __options__. The default setting is *automatic*. Be
 careful setting this to __never__: if a text tool is too small to display all
 the text, it will be impossible for the reader to see all the text.
 
-### History
+#### History
 
 See [history](#history).
 
 
 
-## HTML Tool
+### HTML Tool
 
 The HTML-tool is used for advanced text editing. It is a
 *what-you-see-is-what-you-get* rich text editor. Unlike the text tool,
 you can only edit its content in a dialog box. 
 
-### Media
+#### Media
 
 ![html tool media tab](images/html-tool.png "html tool media tab")
 
@@ -314,12 +305,12 @@ The top right button opens the editor in fullscreen. Note: you will have to exit
 
 ![html extended tool options](images/html-tool-bar-extended.png) 
 
-### Anchors (Graphical/Block) 
+#### Anchors (Graphical/Block) 
 
 You can use the anchor button to insert standard HTML anchors to a specific location in your HTML tool. 
 When creating a hyperlink to your anchor, do not forget to prefix it with a '#'. So if you anchor is called "anchor1", the link should be to "#anchor1".
 
-### Tips using the HTML tool:
+#### Tips Using the HTML Tool:
 
 * Make sure the tool size matches the length of the text within. If the text is too long, it will result in __scrollbars__.
 
@@ -331,11 +322,11 @@ When creating a hyperlink to your anchor, do not forget to prefix it with a '#'.
 insert symbols and tables, and control the edits with the __show
 changes__ option.
 
-### Style
+#### Style
 
 [> See style options](#style-options)
 
-### Options
+#### Options
 
 If a text is longer than its frame on the weave, a scrollbar is
 generated automatically. You can control the visibility of the
@@ -345,7 +336,7 @@ display all the text, it will be impossible for the reader to see all
 the text.
 
 
-### Templates
+#### Templates
 
 If you want to reuse the content of an HTML-tool, you can create your
 own templates. This function can be found in the __media__ tab. After
@@ -354,7 +345,7 @@ __template__ and give the template a name in the dialog box that
 appears. To load a template, click __load template__ and choose one
 from the list in the dialog box.
 
-### Submit, Delete, Or Cancel
+#### Submit, Delete, Or Cancel
 
 Finally, you need to exit the dialog window. If everything is the way
 you want it, choose __submit__ and the text field will be loaded on
@@ -364,7 +355,7 @@ in it, click __delete__. Unintended deletions can be restored via
 __commands__ – __restore deleted tools__.
  
 
-## Image Tool 
+### Image Tool 
 
 Also known as the *picture tool*
 
@@ -383,11 +374,11 @@ to the RC servers. Name the file and make a declaration of the
 copyright holder. Once an image is uploaded it is also automatically
 added to the simple media tab.
 
-### Style
+#### Style
 
 [> see style options](#style-options)
 
-### Options
+#### Options
 
 There are options available to change how images are resized in relation to the green border containing the image.
 This is controlled by changing the size parameter, which can be set to:  
@@ -412,7 +403,7 @@ You can also make the tooltip display the copyright info, by setting the __show 
 Please note, you can't change the copyright information in the "edit picture" window. To change the name or the copyright text, close the current dialog and go to the item in __simple media__ and click __edit__
 (also double click) to open the __edit media__ dialog.
 
-## Audio Tool
+### Audio Tool
 
 [> Audio tool tutorial](https://www.researchcatalogue.net/view/273532/1685164#tool-1687981)
 
@@ -439,13 +430,13 @@ RC encodes with a bitrate of 256 bits per second. For further information and te
 RC User Support.
 
  
-### Style
+#### Style
 
 [> see style options](#style-options)
 
  
 
-### Options
+#### Options
 
 The audio player has a number of settings:
 
@@ -477,7 +468,7 @@ about the sound file, you can enter the text to be displayed when the
 mouse cursor hovers over the item.
 
 
-## Video Tool
+### Video Tool
 
 [Video tutorial](https://www.researchcatalogue.net/view/273532/1685164#tool-1686872)
 
@@ -508,11 +499,11 @@ contact the RC User Support.
 
 We highly recommend using smaller video files, for easier upload. If your file is extremely large, you may want to compress it before uploading using a program like Handbrake, FFMpeg or QuickTime (Mac).
 
-### Style
+#### Style
 
 [> see style options](#style-options)
 
-### Options
+#### Options
 
 The video player has a number of options:
 
@@ -545,7 +536,7 @@ item.
 You can also use the play tool to synchronize selected video and audio tools.
 
 
-## Slideshow Tool
+### Slideshow Tool
 
 The slideshow tool allows you to create a gallery of images that can
 be displayed in a loop. You can choose to start the slideshow
@@ -564,11 +555,11 @@ your __simple media__ or __media repository__ can be selected to be used as
 background. You can upload new audio files in your media list.
 
 
-### Style
+#### Style
 
 [> see style options](#style-options)
 
-### Options
+#### Options
 
 In "options" you can define the position of the image within the
 frame. This is important when you are using images with different
@@ -595,7 +586,7 @@ specified time). You can also choose the fade duration and the timeout
 of an audio file.
 
 
-## PDF Tool
+### PDF Tool
 
 
 The PDF tool gives you the possibility to add PDF documents containing
@@ -616,7 +607,7 @@ processor needs to be combined with video and audio, use the [HTML
 tool](#HTML-tool "link to html tool") for the text and add the media
 separately using the other tools.
 
-### Uploading a pdf
+#### Uploading a pdf
 
 After dragging the icon to the weave, a dialog will show.  
 Click the button __ADD MEDIA__ to open the dialog for uploading a PDF.  
@@ -629,7 +620,7 @@ When done, click submit and the file will begin uploading.
 The __PREVIEW__ field is for changing the image that represents the pdf in the exposition for the reader.
 If no preview image is provided, a miniturised copy of the first page will be used. You can later change the preview image, by selecting one from your media list.
 
-### Changing the PDF preview image
+#### Changing the PDF Preview Image
 
 If you have an existing PDF tool, you can update the preview image with any image from your [media list](#media-list).
 If you want to use a completely new image, you will have to add it to your [media list](#media-list) first.
@@ -639,7 +630,7 @@ If you want to use a completely new image, you will have to add it to your [medi
 - Select the image from the dropdown list
 - Submit
 
-#### A few notes
+#### A Few Notes
 
 * __Never re-use the url__ of the pdf file that opens when you click the pdf tool in the preview.
 For example: "https://media.researchcatalogue.net/rc/master/73723.pdf?t=2629205589&e=1510816850" 
@@ -652,7 +643,7 @@ These (timed) links are automatically generated by the PDF tool specifically for
  
 <a id="pdf-options"></a>
 
-### Options
+#### Options
 
 - __Position__ 
 
@@ -684,7 +675,7 @@ These (timed) links are automatically generated by the PDF tool specifically for
 		preview. To use this, choose "plain text" or "copyright & plain text"
 		from the pull-down menu and write your text in the text field below.
 
-## Sync Tool
+### Sync Tool
 
 *this was previously sometimes referred to as the "play tool"*
 
@@ -695,18 +686,18 @@ playback of all connected tools at once, with one click. This can, for example,
 be used to document video installations with multiple screens and allows playing
 back synchronized combinations of musical voices and audio tracks. 
 
-### Media
+#### Media
 
 The Sync Tool itself functions as the start/stop button, but you have to upload your own icons or images in the tool's Media tab to make it visible. One is for the "play" state, starting the playback. The other image represents stopping the playback (in all connected tools).
 
-### Options
+#### Options
 
 In the options tab you can sellect which tools need to be connected to this Sync
 Tool. Only tools already present in the current weave may be selected. The
 option “pause other players when playing” will ensure that only the selected
 media files will be played back.
 
-## Shape Tool
+### Shape Tool
 
 (Not available in the block editor)
 
@@ -721,7 +712,7 @@ on the weave by resizing the green frame displayed around the
 shape. By clicking and dragging the yellow point you can rotate an element.
  
 
-## Note Tool
+### Note Tool
  
 (Not available in the block editor)
 
@@ -739,7 +730,7 @@ Notes are visible on the preview as well. Please check, that all notes
 have been removed from the exposition when you intend to share or
 publish it.
 
-### Notes and User Roles
+#### Notes and User Roles
 
 If an exposition is submitted to a portal the notes created by the
 different users involved (authors, portal admins, editor, reviewers)
@@ -749,21 +740,21 @@ the admin (though not the author or editor) and notes left to the
 editor are visible to the author and admin (though not to the review).
 
 
-### Text Style Options
+#### Text Style Options
 
 You can use the buttons to directly add the basic stylings,
 eg. highlight it with bold or italic font or structure it with
 numerations or lists. You can change the font-family and increase or
 decrease the indentation. You can also insert links.
 
-### History
+#### History
 
 "History" provides a log of all changes that have been made to the
 tool. If you have unintentionally deleted a tool, you can restore it
 using "restore deleted tools" in the commands.
 
 
-## Embed tool
+### Embed tool
 
 (Not available in the block editor)
 
@@ -817,7 +808,7 @@ around the vertical axis is implicitly defined by "levels" and the
 total number of images. -->
 
 
-## Style Options
+#### Style Options
 
 ![ the style tab of an html tool](images/style-tab.png "the style tab of an html tool")
 
@@ -855,12 +846,12 @@ Click on the small ">" to open one of these sections:
 The style tab only sets the external style of the
 tool, text markup is done within the text or html tools.
 
-### Change tool defaults
+#### Tool Defaults
 
 It is possible to change the default styling settings for any tool, by double clicking the tool in the toolbar.
 After the default is changed, every newly created tool will initially use these new settings.
 
-## History
+#### History
 
 The *history tab* gives you the posibility to change the content
 __within the tool__ to an older version.  The versions of a text
@@ -868,84 +859,7 @@ object are created each time you have clicked outside it (and the
 three animated dots show inside). With the html tool, a version is
 created each time you click submit.
 
-<a id="fonts"></a>
 
-## Fonts
-
-The research catalogue currently provides the following fonts:
-
-__Sans-serif:__
-
-- Anton (similar to __Impact__)
-- Nimbus Sans L (similar to __Helvetica__)
-- Arimo (similar to __Arial__)
-- Carlito (similar to __Calibri__)
-- Open Sans
-- Lato
-- PT Sans (used in the Research Catalogue logo)
-- Roboto
-
-
-__Serif:__
-
-- Crimson Pro
-- Libre Baskerville
-- Merriweather
-
-__Monospace:__
-
-- Courier Prime
-- IBM Plex Mono
-- Roboto Mono
-
-![fonts overview](images/fonts.png "the fonts")
-
-If you have an older exposition (created before April, 2022), you will also be
-able to select additional fonts. The reason for this is that Research Catalogue
-used to allow users to select these in the past. A majority of these fonts were
-only available in Windows and/or MacOS. The licensing around these proprietory
-fonts prevented Research Catalogue from self-hosting them. When a font was not
-available locally, the browser would switch to an alternative and this resulted
-in smaller or bigger visual differences and a warning message to the user.
-
-The current solution to this problem is that Research Catalogue now provides a
-set of fonts that we can host ourselves. This guarentees that a font chosen in
-the text & html tools can never be missing. To ease the switch, we have included
-replacements that are designed to closely match the common fonts like Arial,
-Calibri and Helvetica and Impact. Older expositions will keep their current
-fonts but allow you to also use the new ones. Published expositions expositions
-cannot be changed, but you can create a new version of the exposition.
-
-## Migration of fonts in your expositions
-
-In existing expositions (that have not been published), you can replace all
-current fonts to using the RC-safe set. One way would be to do this by hand, but
-for convenience we also provide an automatic option.
-
-If you have a simple exposition, it is recommended to first do some small test
-switching the font in a selection of tools within your exposition by hand. If
-you like the result, you can then use the migration option, which can be found
-in the menu: __Options > Edit metadata > compatibility__. Due to technical limitations, 
-this option is not available if the exposition is "in revision" or "in review". If you want to apply the font migration to an exposition in such state, please follow the instructions __"Safely trying a migration"__ below.
-
-The font compatibility dialog will automatically detect which fonts are used in
-your exposition. You will then be asked to select a replacement font for each
-one.
-
-### Safely trying a migration:
-
-If you have a very complex exposition with many tools, we highly recommend to
-first try the font migration on a copy instead of the original exposition (!).
-You can make a copy by:
-
-1. go to your profile page
-2. click the ☰ -> "manage versions" option on the exposition
-3. create a snapshot
-4. restore the snapshot, this will appear as a separate exposition on your profile.
-5. open ☰ -> edit workspace, and go to __options > Edit metadata >
-   compatibility__ to apply the migration.
-
-If you do not like the result, you can just delete the exposition and start at step 1.
 
 
 

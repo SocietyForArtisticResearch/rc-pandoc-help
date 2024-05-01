@@ -1,8 +1,10 @@
-# Portal Admin Tutorial 
+# Portal Admin Guide
+
+## Tutorial 
 
 <a id="administration-reviewing-process"></a>
 
-## Securing your admin account
+## Choosing a Strong Password
 
 Before we dive in, it is important that you use a strong password for your
 portal admin account, as admin rights should not come in the wrong hands. You
@@ -12,7 +14,7 @@ To create a secure password, either use an automatic password manager, or use
  the following method to generate a memorable but extremely secure passphrase:
 https://www.eff.org/dice. Do not use a previously used password.
 
-## Introduction
+### Introduction
 
 This tutorial describes how an RC Portal can be used for publication workflows. It is aimed at portal administrators ("portal admin").
 The process typically consists of 4 stages: 
@@ -22,23 +24,25 @@ The process typically consists of 4 stages:
 * reviewing of the exposition by reviewers
 * publication 
 
-## Setting up accounts
+### Setting up Accounts
 
-There are two ways of setting up accounts: 
+#### Creating new Accounts
 
-1. (__preferred__) The portal admin creates the account(s) for the author(s). This option is common when a large number of users need be created at once. In this case, the responsibility of making sure that the email address belongs to an actual person lies with the portal admin. Ideally, a person should only have __at most one user account__ in the RC (not multiple, to avoid mixups). In case of copyright or other legal problems the portal admin should be able to provide contact information to this person. 
+In most situations, it is best if the portal admin creates the account(s) for the author(s). Especially when a large number of users need be created at once. In this case, the responsibility of making sure that the email address belongs to an actual person lies with the portal admin (for example, by having an institutional email address). Ideally, a person should only have __at most one user account__ in the RC (not multiple, to avoid mixups). In case of copyright or other legal problems the portal admin should be able to provide contact information to this person. 
 
 The administrator can create accounts by going to the __[admin section](https://www.researchcatalogue.net/admin)__ and opening the __user__ page. Click __+__ at the right top corner of the screen. After creating the account, the username (which is an email address) and password can be sent through email. Be sure to turn of "basic account" in the ROLES tab (see [roles](#full-account-toggle))
 
-2. An independent author can also create an account on their own, clicking [REGISTER](https://www.researchcatalogue.net/portal/register "Registration on the Research Catalogue") on the research catalogue homepage. After filling in the form the author will immediatly get a basic account. After this, they can request membership of your portal through their profile page: 
+#### Adding Existing Users to your Portal
+
+Sometimes, it happens that a student or author has creates an RC account on their own, clicking [REGISTER](https://www.researchcatalogue.net/portal/register "Registration on the Research Catalogue") on the research catalogue homepage. After filling in the form the author will immediatly get a basic account. After this, they can request membership of your portal through their profile page: 
 
 ![requesting portal membership](images/location_of_portal_membership.jpg "member of option location on user profile")
 
 The portal admin can accept the request through messages. 
 
-It is also possible to add existing users to your portal (without creating a new account). If you click "create user" in the portal's user list, typing a name of an existing user, will make it show up below the field, If you click the name and then continue to the next field, the RC will show a pop-up promting if you want to add this user to your portal.
+It is also possible to add these kind of existing users to your portal (without creating a new account). If you click "create user" in the portal's user list, typing a name of an existing user, will make it show up below the field, If you click the name and then continue to the next field, the RC will show a pop-up promting if you want to add this user to your portal.
 
-### Roles 
+#### Roles 
 
 <a id="full-account-toggle"></a>
 
@@ -63,21 +67,24 @@ This way you do not have to email passwords or risk storing them.
 If you email new users to reset their RC password this way, it is good to remind them to choose a strong password.
 Strong passwords are:
 
-- use a password manager
+- generated automatically by a password manager
+
+If you want to generate a password by hand, you can:
 - use eff's method: <https://www.eff.org/dice>
-- long (over 12 characters)
-- maximise randomness (cannot be guessed)
 - do not use famous phrases, lyrics or words
+- never use [cliche passwords, like from the list of 10000 most common passwords](https://en.wikipedia.org/wiki/Wikipedia:10,000_most_common_passwords)
+- resist the temptation to reuse passwords
 - don't use easily found personal information 
-- have an unusual shape (by mixing case, numbers, other characters) Since
-generating (and remembering!) good passwords is not trivial, most experts
+- in contrast to common belief, adding a few numbers '!' '#' '.' ',' characters to a bad password does not guarantee safety! 
+
+Since generating (and remembering!) good passwords is not trivial to do by hand, most experts
 recommend using a password manager instead.
 
-## Writing the exposition, collaboration
+### Writing the Exposition, Collaboration
 
 The next stage is the writing of the *exposition* itself. The author does not need to be a member of the portal user list in order to make a publication request to it. 
 
-During the writing stage, it is common that the exposition in progress is shared with one or more other readers or collaborators. These collaborators can use the notes system to leave feedback. There are three types of collaboration roles:
+During the writing stage, it is common that the exposition in progress is shared with one or more other readers or collaborators. These collaborators can use the review notes system to leave feedback. There are three types of collaboration roles:
 
 - supervisor (no edit permissions, but can leave notes)
 - co author (full edit permissions)
@@ -89,7 +96,7 @@ The author can invite RC users to these roles by going to edit details or clicki
 
 It is also possible that an author makes the in-progress exposition content visible to specific groups of users, before publication. This is done by using the [share option](#share "share options in the RC"). Since sharing in this manner is not an official publication, shared expositions can be unshared (made private again), and will appear on the author's profile and not in the portal feed.
 
-## Requesting publication
+### Requesting Publication
 
 Once the writing is sufficiently progressed, the next step is that the
 author sents a request to review the exposition. This is done through
@@ -116,7 +123,7 @@ If the publication was sent by accident or to the wrong portal, the publication 
 administrator. The admin can also do this under __administration > reviewing__ and clicking the __X__ next to the research title. This
 will also open the exposition for editing again.
 
-### Reviewing, assigning reviewers
+#### Reviewing, Assigning Reviewers
 
 The most common next step is to assign reviewers to this research. However, for a person to be available as reviewer, they first have to:
 
@@ -136,7 +143,7 @@ Once a reviewer is part of the review pool, they can be added to the research ex
 
 The reviewers will see a list of expositions that they are reviewers of on top of their "my profile" page. Within the exposition they can use the "REVIEW" menu to leave notes to themselves, which are only visible to them and the portal administrator. Typically further communication between the portal admin and the reviewer takes place through the messaging system or by e-mail.
 
-## Final publication or rejection
+### Final Publication or Rejection
 
 Once the review process has been completed, the portal can choose to
 either publish or dismiss the exposition. If the exposition is
