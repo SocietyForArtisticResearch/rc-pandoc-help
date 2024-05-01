@@ -29,7 +29,7 @@ objects, or change the ordering (front to back). If you click on a
 tool in the list, the editor will automatically jump to its location,
 you can also double click a tool to edit the content of that tool.
 
-### Media tab
+### Media Tab
 
 Media files can be found, uploaded, previewed and deleted in the
 "Media"-tab on the right hand side. There are subtabs: __Simple
@@ -78,11 +78,11 @@ shared to you by others.
 "Works" are an older feature similar to media sets, if you had created
 works in the past you will find them under sets as well.
 
-### Import Word documents using Simple Media upload
+### Import Word documents using Simple Media
 
 It is possible to upload Microsoft Word (.docx), Libre Office, Open Office
 (.odt) and LaTeX documents and have the content automatically turned into RC
-HTML tools and image tools.
+HTML tools and image tools. The RC uses pandoc for this.
 
 To convert a document, open the Simple Media Tab and upload it in the
 "document" section of the upload dialog. It may take a few moments to
