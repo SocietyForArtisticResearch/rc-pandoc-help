@@ -1,4 +1,4 @@
-# HTML Import
+## HTML Import
 
 It is possible to import a website of static HTML into the RC. This
 feature is aimed at users that are familiar with HTML and want to use
