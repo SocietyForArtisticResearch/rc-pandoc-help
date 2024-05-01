@@ -26,13 +26,13 @@ On the right you will find the content manager, consisting of four tabs:
 | [pages](https://guide.researchcatalogue.net/#pages) | manage pages                             |
 
 
-## Graphical Editing Mode (adding a tool)
+## Graphical Editing Mode
 
 A tool is created by [dragging](https://en.wikipedia.org/wiki/Drag_and_drop) the icon onto the canvas.
 
 If you click a tool once, it will open the default setting dialog.
 
-![](images/toolbar-demo-2.png "drag a tool to the canvas")
+![](images/toolbar-demo-2.png "to add content, drag a tool from the toolbar onto the canvas")
 
 Tools can be resized by clicking and dragging the green borders with the mouse.
 
@@ -88,7 +88,7 @@ difference is that you can more easily create horizontal rows of
 content and the editing is drag and drop, using the same tools as the graphic editor.
 This also means that both type of page can be used in a single exposition.
 
-### Basic usage
+### Basic Usage
 
 You can choose the block editor when creating a new exposition or when
 creating a new page within an existing exposition.
@@ -147,7 +147,7 @@ It is possible to construct a hyperlink to a specific tool within a block page. 
 
 ![copy tool link in the context menu](images/copy-tool-link.png "editor > context menu, showing the copy tool link option")
 
-__Table of contents__
+__Table of Contents__
 
 To link to a specific tool in your "CONTENTS" menu, open the menu "options", choose "edit table of contents". This will open a list of entries, where you can choose a page and a tool within your page to link to. 
 
@@ -238,7 +238,9 @@ HTML-tool. A text tool can be converted to an HTML-tool via the menu option
 
 Regarding the availability of typefaces/fonts please read [fonts](#fonts).
 
-#### Placing images on top of text tools
+<a id="placing-images-on-top-of-text-tools"></a>
+
+#### Mixing Images and Text
 
 An important advice regarding text tools in the graphical editor is to __keep
 them short__. As a rule of thumb, keep the height below 1-2 screenheights maximum. Taller
@@ -308,7 +310,7 @@ The top right button opens the editor in fullscreen. Note: you will have to exit
 You can use the anchor button to insert standard HTML anchors to a specific location in your HTML tool. 
 When creating a hyperlink to your anchor, do not forget to prefix it with a '#'. So if you anchor is called "anchor1", the link should be to "#anchor1".
 
-#### Tips using the HTML tool:
+#### Tips Using the HTML Tool:
 
 * Make sure the tool size matches the length of the text within. If the text is too long, it will result in __scrollbars__.
 
@@ -618,7 +620,7 @@ When done, click submit and the file will begin uploading.
 The __PREVIEW__ field is for changing the image that represents the pdf in the exposition for the reader.
 If no preview image is provided, a miniturised copy of the first page will be used. You can later change the preview image, by selecting one from your media list.
 
-#### Changing the PDF preview image
+#### Changing the PDF Preview Image
 
 If you have an existing PDF tool, you can update the preview image with any image from your [media list](#media-list).
 If you want to use a completely new image, you will have to add it to your [media list](#media-list) first.
@@ -628,7 +630,7 @@ If you want to use a completely new image, you will have to add it to your [medi
 - Select the image from the dropdown list
 - Submit
 
-#### A few notes
+#### A Few Notes
 
 * __Never re-use the url__ of the pdf file that opens when you click the pdf tool in the preview.
 For example: "https://media.researchcatalogue.net/rc/master/73723.pdf?t=2629205589&e=1510816850" 
