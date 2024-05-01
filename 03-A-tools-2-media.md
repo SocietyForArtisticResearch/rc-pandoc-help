@@ -248,7 +248,7 @@ an example of using the "Roboto" font:
 		font-family: roboto;
 	}
 
-#### Line-height
+#### Line-Height
 
 There is no way to control line height within the HTML or text tool, but you can change it using CSS:
 
