@@ -28,11 +28,11 @@ you can use this to create an entry that has an offset, which immediately opens 
 
 *Tip: you can easily reorder the table of contents entries by clicking and dragging the boxes.*
 
-### Static navigation bar
+### Static Navigation Bar
 
 At the bottom of the __table of content__ dialog, there is an option __static menu bar__ to display the navigation bar continuously (instead of automatically hiding it).
 
-### TOC alignment
+### TOC Alignment
 
 Choose whether the links in the content menu should be displayed *horizontally* or *vertically*.
 
@@ -70,7 +70,7 @@ Note that if you have not selected any text, the link dialog will not offer a hy
 
 ![Hyperlink dialog window](images/hyperlink-dialog.png)
 
-### Dialog options:
+### Dialog Options:
 
 Within the hyperlink dialog there are a couple of options:
 
@@ -92,7 +92,7 @@ Below the overview map, there is a list of all objects. If you click one of thes
 
 ## Other Menus
 
-### Edit menu
+### Edit Menu
 
 <img src="images/edit-menu-2018.png" class="half-image" alt=" the edit menu">
 
@@ -119,7 +119,7 @@ __Locking:__
 
 Locking an object means it cannot be changed or moved in any way (until it is unlocked). This feature can also be used if only part of the exposition is to be moved (by locking the objects you do not want to move). 
 
-### Arrange menu
+### Arrange Menu
 
 These functions help with aligning (two or more) tools. To select multiple tools, click them one by one while
 holding ctrl/cmd key, then choose the function you want to apply from the arrange menu. 
@@ -140,26 +140,26 @@ holding ctrl/cmd key, then choose the function you want to apply from the arrang
 * make horizontal gaps equal: the horizontal gaps between tools are made equal.
 
 
-### Options menu
+### Options Menu
 
 <img src="images/options-menu-2018.png" class="half-image" alt=" options menu">
 
-#### Edit metadata
+#### Edit Metadata
 
 Here you can edit the Title, Abstract and Entry Page of the exposition.
 
-#### Show tool borders
+#### Show Tool Borders
 
 When this option is turned on, you will be able to see all borders of all tools (green dashed line) in the editor.
 This can be helpful searching for empty tools.
 
-#### Edit table of content
+#### Edit Table of Content
 
 Here you can set the contents of the "contents menu" that the reader uses to navigate between pages and position in your exposition.
 
 See [table of content](#table-of-content).
 
-#### Grid options
+#### Grid Options
 
 * Snap to grid
 
@@ -173,25 +173,25 @@ Show/hide the grid
 
 Change the size of the grid
 
-#### Set default position
+#### Set Default Position
 
 Change the initial position that the reader starts at in the weave, to the current location of the editor view.
 
-#### Show current position
+#### Show Current Position
 
 This provides the X,Y offset of the editor and a position link.
 X,Y can be used in the Table of content.
 The position link in Hyperlinking, or simply to share a specific position through a position link.
 
-#### Restore deleted tools
+#### Restore Deleted Tools
 
 Restore recently deleted tools. Currently, this option is only available in the graphical editor mode.
 
-#### Restore deleted footnotes
+#### Restore Deleted Footnotes
 
 Restore recently deleted footnotes. Currently, this option is only available in the graphical editor mode.
 
-### Help menu
+### Help Menu
 
 Get help!
 
