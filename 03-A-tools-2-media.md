@@ -82,7 +82,7 @@ works in the past you will find them under sets as well.
 
 It is possible to upload Microsoft Word (.docx), Libre Office, Open Office
 (.odt) and LaTeX documents and have the content automatically turned into RC
-HTML tools and image tools. The RC uses pandoc for this.
+HTML tools and image tools. The RC uses [pandoc](https://pandoc.org/ "a Universal Document Converter") for this.
 
 To convert a document, open the Simple Media Tab and upload it in the
 "document" section of the upload dialog. It may take a few moments to
@@ -109,7 +109,7 @@ If you want to reproduce the feel of a text document in your RC exposition, it
 is best to use the block editor. When importing word content in the graphical
 editor, please be careful with long text tools (which may cause issues).
 
-#### Important note regarding styling:
+#### Important Note Regarding Styling:
 
 By default, RC has zero margin on all paragraphs, this will mean that
 there is no whitespace between paragraphs. To avoid this issue, I
@@ -136,7 +136,7 @@ with a single page, called "default page".
 
 ![page tab](images/pages-tab-2023.png "the page tab")
 
-#### Creating a page
+#### Creating a Page
 
 New pages are by default *private*, they have to be explicitely added
 to the [table of content](#table-of-content "table of content") to be
@@ -154,7 +154,7 @@ and select the page you want as your start page for the reader.  <!--
 This should be in table of contents, it is completely out of place in
 meta-data -->
 
-### Page settings
+### Page Settings
 
 ![the page settings dialog](images/pages-tab-2018.png "
 the page settings")]
@@ -163,7 +163,7 @@ In the page settings dialog, you can change the meta data of the page
 and control the page appearance. It is opened by clicking the pencil
 button in the bar.
 
-#### Page settings - Meta : title, description and iframe field
+#### Page Settings - Metadata
 
 * __Page title__\ Set a title for the page. This title can be
 overridden in the [table of content](#table-of-content), so the reader
@@ -193,7 +193,7 @@ work:
 	If you want to combine external content with tools you should use
     the [embed tool](#embed-tool).
 
-#### Page settings - Style
+#### Page Settings - Style
 
 Here one can change:
 
@@ -209,7 +209,7 @@ Here one can change:
 * __footnote__: The color of footnote/popover links works the same way as with links, but for links of footnotes/popovers.
 * __raw css__: apply your own CSS rules to the page, see below
 
-### raw CSS
+### Raw CSS
   
 You can set user defined [CSS](https://www.w3schools.com/css/ "css
 tutorial") rules that are applied to the whole page. Cascading Style
@@ -230,7 +230,7 @@ To style text within a simple text tool you have to use:
 	/* put your style here */	
 	}
   
-#### Supplying your own fonts 
+#### Supplying Your own Fonts 
 
 You can include your own external fonts through CSS @import
 statements. Be aware that many (also fonts like "Arial"), cannot be
