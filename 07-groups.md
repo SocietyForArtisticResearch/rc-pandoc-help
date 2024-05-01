@@ -23,7 +23,7 @@ can be found on the [portal feed
 page](https://www.researchcatalogue.net/portal/institutions). Private groups of
 which you are a member appear on your profile page.
 
-## Using the group as a member
+## Using the Group as a Member
 
 There are two ways to become a member of a group:
 
@@ -93,7 +93,7 @@ Group pages can be found on the portal feed page or on your profile. When you
 are admin of the group, you can change the metadata by clicking edit details on
 the group page.
 
-## Creating a group
+## Creating a Group
 
 A group can be created, removed and edited by the portal admin under the group
 header in the administration interface: [admin-groups](#admin-groups).

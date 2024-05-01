@@ -277,7 +277,7 @@ users or expositions connected to it.
 
 ![edit group dialog](images/create_group.png)
 
-# Using JSON feeds
+# Using JSON Feeds
 
 The search functionality of the RC allows you to export metadata of the portal in JSON format. You can construct a normal query by going to advanced search from the front page, and select JSON as the output. The results are always pages with a maximum of 250 results per page.
 
@@ -308,6 +308,9 @@ __doi__ :
 
 __published in__:
 	This shows in which portal(s) the exposition is published in 
+
+__connected_to__:
+	This shows to which portal(s) the exposition is connected to
 
 __license__: 
 	

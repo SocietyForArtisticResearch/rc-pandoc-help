@@ -145,7 +145,7 @@ dialog will automatically open, allowing you to edit and insert it.
 
 Finally, the look of your text and media can be controlled through the media list and the style editor.
 
-###Creation and using a template
+### Creation and Using a Template
 
 To create a text-based exposition, go to "my profile" and click [
 create exposition ], then select "text-based" for the editor
@@ -179,7 +179,7 @@ browsers spellchecker to work. [^1].
 
 [^1]: It is not possible to have both at the same time.
 
-### Pages / table of contents
+### Pages / Table of Contents
 
 The text based editor is limited to single page articles.
 Headers marked with `#` will be included in the "contents" menu
@@ -193,7 +193,7 @@ Because text based expositions are responsive (react to the size of
 the window), the result may change based on the width of the
 screen. For a full view preview, use the eye button in the toolbar.
 
-### #Upload media
+#### Upload Media
 
 To add new media, click upload media. After the upload finishes, the
 media edit dialog opens. This allow you to edit its metadata, size and
@@ -202,7 +202,7 @@ to insert the media at the current cursor position.
 If you want to insert previously used media, you can use the "media
 button" in the [toolbar](#toolbar).
 
-### Media list
+### Media List
 
 All media that you uploaded will appear in the "media list", where
 they can be edited or deleted.
@@ -210,7 +210,7 @@ they can be edited or deleted.
 ![The media list](images/media-list-elm.png " media
 list")
 
-### #Editing media 
+#### Editing Media 
 
 From within the media-list, if you click [__edit__], you will be able
 to change the __name__, __metadata__ and display of a media file.
@@ -228,7 +228,7 @@ Using the buttons in the list itself:
 ![The media edit dialog](images/edit-media-elm.png " the
 edit media dialog")
 
-### Insert media
+### Insert Media
 
 Media is represented on the editor side using a !{*media-name*} tag.
 The easiest way of inserting such a media tag is throught the [insert
@@ -246,7 +246,7 @@ A __caption text__ can also be included, to get a caption you write
 ![my caption text]{myFile}.  The caption text is displayed underneath
 the media.
 
-### Import & export
+### Import & Export
 
 You can import content from documents from text editors like Word (.docx),
 Libre/Open Office (.odt), HTML and several other formats. Not all
@@ -256,7 +256,7 @@ the document that is imported has a simple structure. When you import a
 a document, it will not replace the current content, but be appended at 
 the end of your page.
 
-###  Edit style
+###  Edit Style
 
 Text based expositions are styled using CSS (Cascading Style Sheets),
 which is a standard way of styling web documents.  The CSS of an
@@ -280,7 +280,7 @@ class (rc-media-123455) to style an individual media element.
 Most templates will provide some basic formatting already, that you
 can adjust to your needs.
 
-###  Toolbar
+### Toolbar
 
 From left to right:
 
@@ -306,7 +306,7 @@ From left to right:
 * <img class="icon" src="images/icons/screen-full.svg"> - Fullscreen
   mode (hides preview)
 
-###  Markdown
+### Markdown
 
 Markdown is a human-friendly way of writing HTML webpages without
 using code.  Markdown is written as plain text (like you would write
@@ -324,7 +324,7 @@ Instead of typing these characters, you can also select a piece of
 text and push the desired __style button__ on top of the editor. This
 will insert the correct Markdown notation for you.
 
-#### Paragraphs and newlines
+#### Paragraphs and Newlines
 
 Single newlines are ignored by Markdown, unless:
 
@@ -418,7 +418,8 @@ _results in:_
 class="bg-blue">also does the trick!</span>
 
   
-### Headers 
+### Headers
+
 Headers are defined by using one or more \"#\" in front of the header
 name:
 
@@ -477,10 +478,7 @@ The anchor (or bookmark) itself is created like this:
 
 `<a id="your-anchor-id"></a>`
 
-
-
-
-### Footnotes (text based)
+### Text-based Footnotes
 
 <a id="text-based-footnote"></a>
 
@@ -508,7 +506,7 @@ like so: <pre> ` quotation` ` more quotation` </pre>
 
 Quotations are not automatically formatted (they keep their newlines).
 
-### Tables (markdown)
+### Markdown Tables
 
 Tables are written like this:
 
