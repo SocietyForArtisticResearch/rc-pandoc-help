@@ -204,14 +204,6 @@ Tool</a></li>
 <li><a href="#note-tool" id="toc-note-tool">Note Tool</a></li>
 <li><a href="#embed-tool" id="toc-embed-tool">Embed tool</a></li>
 </ul></li>
-<li><a href="#fonts" id="toc-fonts">Fonts</a></li>
-<li><a href="#migration-of-fonts-in-your-expositions"
-id="toc-migration-of-fonts-in-your-expositions">Migration of fonts in
-your expositions</a>
-<ul>
-<li><a href="#safely-trying-a-migration"
-id="toc-safely-trying-a-migration">Safely trying a migration:</a></li>
-</ul></li>
 <li><a href="#content-manager-editor-tab"
 id="toc-content-manager-editor-tab">Content Manager / Editor Tab</a>
 <ul>
@@ -275,13 +267,13 @@ options:</a></li>
 <li><a href="#send-collaboration-message"
 id="toc-send-collaboration-message">Send Collaboration Message</a></li>
 </ul></li>
-<li><a href="#fonts-1" id="toc-fonts-1">Fonts</a></li>
-<li><a href="#migration-of-fonts-in-your-expositions-1"
-id="toc-migration-of-fonts-in-your-expositions-1">Migration of fonts in
+<li><a href="#fonts" id="toc-fonts">Fonts</a></li>
+<li><a href="#migration-of-fonts-in-your-expositions"
+id="toc-migration-of-fonts-in-your-expositions">Migration of fonts in
 your expositions</a>
 <ul>
-<li><a href="#safely-trying-a-migration-1"
-id="toc-safely-trying-a-migration-1">Safely trying a migration:</a></li>
+<li><a href="#safely-trying-a-migration"
+id="toc-safely-trying-a-migration">Safely trying a migration:</a></li>
 </ul></li>
 <li><a href="#text-based-editor-1" id="toc-text-based-editor-1">Text
 Based Editor</a>
@@ -408,26 +400,11 @@ guide</a>
 <ul>
 <li><a href="#administration-main-page"
 id="toc-administration-main-page">Administration Main Page</a></li>
-</ul></li>
 <li><a href="#user-page-user-list" id="toc-user-page-user-list">User
-Page / User list</a>
-<ul>
-<li><a href="#add-edit-a-user-dialog"
-id="toc-add-edit-a-user-dialog">Add / Edit A User Dialog</a></li>
-<li><a href="#profile" id="toc-profile">Profile</a></li>
-<li><a href="#portal" id="toc-portal">Portal</a></li>
-<li><a href="#roles-1" id="toc-roles-1">Roles</a></li>
-<li><a href="#settings" id="toc-settings">Settings</a></li>
-<li><a href="#log-in-as-a-user" id="toc-log-in-as-a-user">Log in as a
-user</a></li>
-</ul></li>
-<li><a href="#portal-page" id="toc-portal-page">Portal page</a>
-<ul>
-<li><a href="#portal-mail" id="toc-portal-mail">Portal mail</a></li>
-</ul></li>
+Page / User list</a></li>
+<li><a href="#portal-page" id="toc-portal-page">Portal page</a></li>
 <li><a href="#portal-edit-screen" id="toc-portal-edit-screen">Portal
-Edit Screen</a>
-<ul>
+Edit Screen</a></li>
 <li><a href="#common" id="toc-common">Common</a></li>
 <li><a href="#roles-2" id="toc-roles-2">Roles</a></li>
 <li><a href="#templates-1" id="toc-templates-1">Templates</a></li>
@@ -2273,85 +2250,6 @@ content <strong>within the tool</strong> to an older version. The
 versions of a text object are created each time you have clicked outside
 it (and the three animated dots show inside). With the html tool, a
 version is created each time you click submit.</p>
-<p><a id="fonts"></a></p>
-<h2 id="fonts">Fonts</h2>
-<p>The research catalogue currently provides the following fonts:</p>
-<p><strong>Sans-serif:</strong></p>
-<ul>
-<li>Anton (similar to <strong>Impact</strong>)</li>
-<li>Nimbus Sans L (similar to <strong>Helvetica</strong>)</li>
-<li>Arimo (similar to <strong>Arial</strong>)</li>
-<li>Carlito (similar to <strong>Calibri</strong>)</li>
-<li>Open Sans</li>
-<li>Lato</li>
-<li>PT Sans (used in the Research Catalogue logo)</li>
-<li>Roboto</li>
-</ul>
-<p><strong>Serif:</strong></p>
-<ul>
-<li>Crimson Pro</li>
-<li>Libre Baskerville</li>
-<li>Merriweather</li>
-</ul>
-<p><strong>Monospace:</strong></p>
-<ul>
-<li>Courier Prime</li>
-<li>IBM Plex Mono</li>
-<li>Roboto Mono</li>
-</ul>
-<figure>
-<img loading="lazy" src="images/fonts.png" title="the fonts" alt="fonts overview" />
-<figcaption aria-hidden="true">fonts overview</figcaption>
-</figure>
-<p>If you have an older exposition (created before April, 2022), you
-will also be able to select additional fonts. The reason for this is
-that Research Catalogue used to allow users to select these in the past.
-A majority of these fonts were only available in Windows and/or MacOS.
-The licensing around these proprietory fonts prevented Research
-Catalogue from self-hosting them. When a font was not available locally,
-the browser would switch to an alternative and this resulted in smaller
-or bigger visual differences and a warning message to the user.</p>
-<p>The current solution to this problem is that Research Catalogue now
-provides a set of fonts that we can host ourselves. This guarentees that
-a font chosen in the text &amp; html tools can never be missing. To ease
-the switch, we have included replacements that are designed to closely
-match the common fonts like Arial, Calibri and Helvetica and Impact.
-Older expositions will keep their current fonts but allow you to also
-use the new ones. Published expositions expositions cannot be changed,
-but you can create a new version of the exposition.</p>
-<h2 id="migration-of-fonts-in-your-expositions">Migration of fonts in
-your expositions</h2>
-<p>In existing expositions (that have not been published), you can
-replace all current fonts to using the RC-safe set. One way would be to
-do this by hand, but for convenience we also provide an automatic
-option.</p>
-<p>If you have a simple exposition, it is recommended to first do some
-small test switching the font in a selection of tools within your
-exposition by hand. If you like the result, you can then use the
-migration option, which can be found in the menu: <strong>Options &gt;
-Edit metadata &gt; compatibility</strong>. Due to technical limitations,
-this option is not available if the exposition is “in revision” or “in
-review”. If you want to apply the font migration to an exposition in
-such state, please follow the instructions <strong>“Safely trying a
-migration”</strong> below.</p>
-<p>The font compatibility dialog will automatically detect which fonts
-are used in your exposition. You will then be asked to select a
-replacement font for each one.</p>
-<h3 id="safely-trying-a-migration">Safely trying a migration:</h3>
-<p>If you have a very complex exposition with many tools, we highly
-recommend to first try the font migration on a copy instead of the
-original exposition (!). You can make a copy by:</p>
-<ol type="1">
-<li>go to your profile page</li>
-<li>click the ☰ -&gt; “manage versions” option on the exposition</li>
-<li>create a snapshot</li>
-<li>restore the snapshot, this will appear as a separate exposition on
-your profile.</li>
-<li>open ☰ -&gt; edit workspace, and go to <strong>options &gt; Edit
-metadata &gt; compatibility</strong> to apply the migration.</li>
-</ol>
-<p>If you do not like the result, you can just delete the exposition and
-start at step 1.</p>
 <h2 id="content-manager-editor-tab">Content Manager / Editor Tab</h2>
 <p>The content manager is a collection of tabs located on the right side
 of the graphical &amp; block editors. It is not present in the
@@ -3084,7 +2982,7 @@ available in the graphical editor mode.</p>
 <p>When you are collaborating on an exposition, you can use the command
 “send collaboration message” to communicate with your collaborators.</p>
 <p><a id="fonts"></a></p>
-<h2 id="fonts-1">Fonts</h2>
+<h2 id="fonts">Fonts</h2>
 <p>The research catalogue currently provides the following fonts:</p>
 <p><strong>Sans-serif:</strong></p>
 <ul>
@@ -3129,7 +3027,7 @@ match the common fonts like Arial, Calibri and Helvetica and Impact.
 Older expositions will keep their current fonts but allow you to also
 use the new ones. Published expositions expositions cannot be changed,
 but you can create a new version of the exposition.</p>
-<h2 id="migration-of-fonts-in-your-expositions-1">Migration of fonts in
+<h2 id="migration-of-fonts-in-your-expositions">Migration of fonts in
 your expositions</h2>
 <p>In existing expositions (that have not been published), you can
 replace all current fonts to using the RC-safe set. One way would be to
@@ -3147,7 +3045,7 @@ migration”</strong> below.</p>
 <p>The font compatibility dialog will automatically detect which fonts
 are used in your exposition. You will then be asked to select a
 replacement font for each one.</p>
-<h3 id="safely-trying-a-migration-1">Safely trying a migration:</h3>
+<h3 id="safely-trying-a-migration">Safely trying a migration:</h3>
 <p>If you have a very complex exposition with many tools, we highly
 recommend to first try the font migration on a copy instead of the
 original exposition (!). You can make a copy by:</p>
@@ -4357,7 +4255,7 @@ title="groups"><strong>Groups</strong></a></p></li>
 <p>If you are an admin in multiple portals, you can switch between them
 in the top right corner of the site, through the drop down menu.</p>
 <p><a id="user-page"></a></p>
-<h2 id="user-page-user-list">User Page / User list</h2>
+<h3 id="user-page-user-list">User Page / User list</h3>
 <figure>
 <img loading="lazy" src="images/admin-user.png" title="the admin user page"
 alt="admin user page" />
@@ -4398,14 +4296,14 @@ account, however, the RC superadmin can delete an account if necessary.
 Please contact <a
 href="mailto:support@researchcatalogue.net">support</a> if the need
 arises (for example, duplicate accounts).</p>
-<h3 id="add-edit-a-user-dialog">Add / Edit A User Dialog</h3>
+<h4 id="add-edit-a-user-dialog">Add / Edit A User Dialog</h4>
 <p>Important: when you type a new user name, the RC tries to find if the
 user exists already. If it does, the RC will show a dialog requesting if
 you want to add the existing user to the portal instead of creating a
 new account. It is highly discouraged for a single person to have two
 accounts on the RC, so normally admins are expected to simply add this
 existing account.</p>
-<h3 id="profile">Profile</h3>
+<h4 id="profile">Profile</h4>
 <figure>
 <img loading="lazy" src="images/user-profile.png" title="user profile dialog"
 alt="user profile dialog" />
@@ -4414,7 +4312,7 @@ alt="user profile dialog" />
 <p>Change the name, alias, email and password (optional). An
 administrator can also change these fields without having to change the
 password (by leaving the field empty).</p>
-<h3 id="portal">Portal</h3>
+<h4 id="portal">Portal</h4>
 <figure>
 <img loading="lazy" src="images/user-portal.png" title="user portal settings"
 alt="user portal settings dialog" />
@@ -4423,7 +4321,7 @@ alt="user portal settings dialog" />
 <p>This controls to which portals a user is added. A user can be added
 to multiple portals at once. Portals which are selected are marked by a
 gray background.</p>
-<h3 id="roles-1">Roles</h3>
+<h4 id="roles-1">Roles</h4>
 <figure>
 <img loading="lazy" src="images/edit-user-roles.png" title="user role settings"
 alt="user role settings dialog" />
@@ -4434,14 +4332,14 @@ This is the default when a user has registered an account by themselves.
 Limited users can still become supervisors, read expositions or added as
 reviewers. To allow users to create expositions, works and applications,
 you have to turn this option OFF.</p>
-<h3 id="settings">Settings</h3>
+<h4 id="settings">Settings</h4>
 <figure>
 <img loading="lazy" src="images/user-settings.png" title="user email settings"
 alt="user email settings dialog" />
 <figcaption aria-hidden="true">user email settings dialog</figcaption>
 </figure>
 <p>Here you can set which emails the user should receive.</p>
-<h3 id="log-in-as-a-user">Log in as a user</h3>
+<h4 id="log-in-as-a-user">Log in as a user</h4>
 <p>The admins can log in as another user, for example to help resolve
 issues with a specific account. While logged in as another user, you
 will see a red bar on the top of your window that shows who you are and
@@ -4450,7 +4348,7 @@ while helping somebody with issues specific to their account.</p>
 <p>Keep in mind: you become this user in all the tabs of your browser
 window, so you would temporarly loose some of you admin permissions
 while navigating as this user.</p>
-<h2 id="portal-page">Portal page</h2>
+<h3 id="portal-page">Portal page</h3>
 <p>The portal tab shows you which users are administrators on the
 portal. It has 3 actions:</p>
 <table>
@@ -4479,7 +4377,7 @@ portal. It has 3 actions:</p>
 </tr>
 </tbody>
 </table>
-<h3 id="portal-mail">Portal mail</h3>
+<h4 id="portal-mail">Portal mail</h4>
 <figure>
 <img loading="lazy" src="images/portal-mail.png" title="portal mail dialog"
 alt="portal mail dialog" />
@@ -4506,7 +4404,7 @@ the email body text itself. One should always test before requesting it
 to be sent out.</p>
 <p>The announcement option has to be scheduled at least 1 day in
 advance. The sending of the email will have to be approved by SAR.</p>
-<h2 id="portal-edit-screen">Portal Edit Screen</h2>
+<h3 id="portal-edit-screen">Portal Edit Screen</h3>
 <h3 id="common">Common</h3>
 <figure>
 <img loading="lazy" src="images/portal-edit-common2.png"

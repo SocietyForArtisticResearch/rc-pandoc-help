@@ -1,4 +1,4 @@
-# How to find expositions and research ? 
+# How to Find Expositions and Research ? 
 
 ## Search
 
@@ -9,7 +9,7 @@ specific criteria such as object type, keywords, authors, etc.
 
 
 
-## Researchers tab
+## Researchers
 
 You can find all researchers with public content of the RC here:
 <https://www.researchcatalogue.net/portal/researchers?publicObjects=1>
@@ -34,7 +34,7 @@ displayed on the "FEEDS" page. Clicking the wrench icon opens up a
 dialog in which you can adjust the precise information you want to see
 for each user, portal or object you follow.
 
-## Experimental map
+## Experimental Map
 
 There is also a visual map of the RC in development:
 <https://keywords.sarconference2016.net/>

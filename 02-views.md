@@ -1,7 +1,4 @@
 ## Views
-
-This applies to both the graphical and block editor. 
- 
 ### Preview
 
 The preview is the final result that the reader will see when

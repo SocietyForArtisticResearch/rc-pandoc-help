@@ -32,7 +32,7 @@ If you are an admin in multiple portals, you can switch between them in the top 
 
 <a id="user-page"></a>
 
-## User Page / User list
+### User Page / User list
 
 ![admin user page](images/admin-user.png "the admin user page") 
 
@@ -46,37 +46,37 @@ If you are an admin in multiple portals, you can switch between them in the top 
 Note: it is not possible for a portal admin to fully delete an account, however, the RC superadmin can delete an account if necessary.
 Please contact [support](mailto:support@researchcatalogue.net) if the need arises (for example, duplicate accounts).
 
-### Add / Edit A User Dialog
+#### Add / Edit A User Dialog
 
 Important: when you type a new user name, the RC tries to find if the user exists already. If it does, the RC will show a dialog requesting if you want to add the existing user to the portal instead of creating a new account. It is highly discouraged for a single person to have two accounts on the RC, so normally admins are expected to simply add this existing account.
 
-### Profile
+#### Profile
 ![user profile dialog](images/user-profile.png "user profile dialog")
 
 Change the name, alias, email and password (optional).
 An administrator can also change these fields without having to change the password (by leaving the field empty).
 
-### Portal
+#### Portal
 ![user portal settings dialog](images/user-portal.png "user portal settings")
 
 This controls to which portals a user is added. A user can be added to multiple portals at once. Portals which are selected are marked by a gray background.
 
-### Roles
+#### Roles
 ![user role settings dialog](images/edit-user-roles.png "user role settings")
 
 When the option is turned on, the user cannot create any content. This is the default when a user has registered an account by themselves. Limited users can still become supervisors, read expositions or added as reviewers. To allow users to create expositions, works and applications, you have to turn this option OFF. 
 
-### Settings
+#### Settings
 ![user email settings dialog](images/user-settings.png "user email settings")
 
 Here you can set which emails the user should receive.
 
-### Log in as a user
+#### Log in as a user
 The admins can log in as another user, for example to help resolve issues with a specific account. While logged in as another user, you will see a red bar on the top of your window that shows who you are and enables you to switch back to your own account. This feature is useful while helping somebody with issues specific to their account.
 
 Keep in mind: you become this user in all the tabs of your browser window, so you would temporarly loose some of you admin permissions while navigating as this user.
 
-## Portal page
+### Portal page
 
 The portal tab shows you which users are administrators on the portal.
 It has 3 actions:
@@ -87,7 +87,7 @@ It has 3 actions:
 | Edit portal settings| <img src="images/edit.gif" class="icon">            |
 | Delete a portal     | <img src="images/remove.gif" class="icon">          |
 
-### Portal mail
+#### Portal mail
 ![portal mail dialog](images/portal-mail.png "portal mail dialog")
 
 * __testmode__ only sends a test mail to your account
@@ -103,7 +103,7 @@ The JAR Template includes several standard fields (title, contact and a banner i
 
 The announcement option has to be scheduled at least 1 day in advance. The sending of the email will have to be approved by SAR. 
 
-## Portal Edit Screen
+### Portal Edit Screen
 
 ### Common
 ![portal edit common screen](images/portal-edit-common2.png "portal edit common dialog")
