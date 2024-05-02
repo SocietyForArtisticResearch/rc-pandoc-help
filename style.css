@@ -68,6 +68,14 @@ h1.title {
     padding-top: 25px;
 }
 
+#TOC ul {
+    position: relative;
+}
+
+#TOC li {
+    position: relative;
+}
+
 nav#main {
     z-index: 3;
     position: fixed;

@@ -94,9 +94,64 @@ window.addEventListener('DOMContentLoaded', function () {
 
 
         function makeTOCFoldable() {
+            var collapsed = true;
+
+            function toggleExpand(button) {
+                collapsed ? expandAll(button) : collapseAll(button);
+                collapsed = !collapsed;
+            }
+
+            function expandAll(button) {
+                document.getElementById('TOC').querySelectorAll('ul > li > ul').forEach(ul => unfoldElement(ul));
+                button.innerText = 'collapse';
+                button.removeEventListener
+            }
+
+            function collapseAll(button) {
+                document.getElementById('TOC').querySelectorAll('ul > li > ul').forEach(ul => foldElement(ul));
+                button.innerText = 'expand all';
+            }
+
+            function expandAllButton() {
+                const button = document.createElement('button');
+                button.innerText = 'expand all';
+                button.addEventListener('click', () => toggleExpand(button));
+                button.style.marginTop = '40px';
+                button.style.marginLeft = '25px';
+                button.style.boxShadow = 'box-shadow: inset 1px 3px 1px gray';
+                button.style.backgroundColor = 'none';
+                button.style.border = 'unset';
+                button.style.padding = '10px';
+                return button;
+            }
+
+            function unfoldElement(elm) {
+                //('element', elm);
+                const parentLi = elm.parentElement;
+                const icon = parentLi.querySelector('img.toc-icon');
+                elm.style.display = 'block';
+                if (icon) {
+                    icon.style.transform = 'rotate(90deg)';
+                }
+            }
+
+            function foldElement(elm) {
+                const parentLi = elm.parentElement;
+                const icon = parentLi.querySelector('img.toc-icon');
+                elm.style.display = 'none';
+                if (icon) {
+                    icon.style.transform = 'rotate(0deg)';
+                }
+            }
+
             const toc = document.getElementById("TOC");
 
             if (toc) {
+                const first = toc.firstElementChild;
+                const button = expandAllButton();
+                console.log(button);
+                toc.insertBefore(button, first);
+
                 // Find all list items within the TOC that contain nested ul elements
                 const expandableItems = toc.querySelectorAll('li > ul');
 
@@ -107,6 +162,8 @@ window.addEventListener('DOMContentLoaded', function () {
                     // Create the toggle icon
                     const icon = document.createElement('img');
                     icon.src = "shevron.svg"
+                    icon.style.position = 'absolute';
+                    icon.style.left = '-10px';
                     icon.style.cursor = 'pointer';
                     icon.style.userSelect = 'none'; // Prevent text selection on click
                     icon.className = 'toc-icon';
