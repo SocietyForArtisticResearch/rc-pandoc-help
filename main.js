@@ -149,7 +149,6 @@ window.addEventListener('DOMContentLoaded', function () {
             if (toc) {
                 const first = toc.firstElementChild;
                 const button = expandAllButton();
-                console.log(button);
                 toc.insertBefore(button, first);
 
                 // Find all list items within the TOC that contain nested ul elements
