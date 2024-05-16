@@ -132,9 +132,22 @@ Please consult [licenses](#licenses).
 
 ## Sets and Sharing
 
-Media can be organized in sets. Media can belong to multiple sets at
-once. You can create a new set and by clicking "select" you can
-choose the media belongs to a set.
+Media can be organized in sets. Once media is in a set, it will also become
+available in the block and graphic editors in the __media__ tab, under __sets__.
+
+You can create a new set by clicking "create set" button (located on top).
+
+To add media to a set, open the set, and click "select media".
+
+![a media set](images/media-set.png "a media set with 4 items")
+
+This will divide the screen in two rows. The first row is the media currently in the set, the right row is all your media.
+You can add a media to the set by clicking the plus. 
+
+![a media set in selection mode](images/media-set-select-media.png "two columns, left is in the set, the right column is all media")
+
+Tip: you can filter your media to only show a specific file type, date range or tag.
+
 
 Media sets can be shared with other users and in portals. Click
 __share__ to open the share form. There are three sections in this
