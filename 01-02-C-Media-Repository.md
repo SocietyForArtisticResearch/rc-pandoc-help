@@ -137,7 +137,7 @@ available in the block and graphic editors in the __media__ tab, under __sets__.
 
 You can create a new set by clicking "create set" button (located on top).
 
-To add media to a set, open the set, and click "select media".
+To add media to a set, open the set by clicking it, and click "select media".
 
 ![a media set](images/media-set.png "a media set with 4 items")
 
