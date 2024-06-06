@@ -70,6 +70,7 @@ Strong passwords are:
 - generated automatically by a password manager
 
 If you want to generate a password by hand, you can:
+
 - use eff's method: <https://www.eff.org/dice>
 - do not use famous phrases, lyrics or words
 - never use [cliche passwords, like from the list of 10000 most common passwords](https://en.wikipedia.org/wiki/Wikipedia:10,000_most_common_passwords)
