@@ -6,7 +6,7 @@
 
 ## Choosing a Strong Password
 
-Before we dive in, it is important that you use a strong password for your
+As an admin account has special abilities, it is very important that you use a strong password for your
 portal admin account, as admin rights should not come in the wrong hands. You
 can set it under settings. 
 
@@ -30,7 +30,9 @@ The process typically consists of 4 stages:
 
 In most situations, it is best if the portal admin creates the account(s) for the author(s). Especially when a large number of users need be created at once. In this case, the responsibility of making sure that the email address belongs to an actual person lies with the portal admin (for example, by having an institutional email address). Ideally, a person should only have __at most one user account__ in the RC (not multiple, to avoid mixups). In case of copyright or other legal problems the portal admin should be able to provide contact information to this person. 
 
-The administrator can create accounts by going to the __[admin section](https://www.researchcatalogue.net/admin)__ and opening the __user__ page. Click __+__ at the right top corner of the screen. After creating the account, the username (which is an email address) and password can be sent through email. Be sure to turn of "basic account" in the ROLES tab (see [roles](#full-account-toggle))
+The administrator can create accounts by going to the __[admin section](https://www.researchcatalogue.net/admin)__ and opening the __user__ page. Click __+__ at the right top corner of the screen. Be sure to turn of "basic account" in the ROLES tab (see [roles](#full-account-toggle))
+
+You can set a password and email the credentials to the user, or use a throwaway (but random!) password and ask the user to set one themselves by using the [reset link](https://www.researchcatalogue.net/portal/forgotten-password). If your institution already uses a single sign on system (MS Teams, Feide), it is also possible to provide a single sign on connection to the RC, please consult SAR for this option.
 
 #### Adding Existing Users to your Portal
 
@@ -40,7 +42,9 @@ Sometimes, it happens that a student or author has creates an RC account on thei
 
 The portal admin can accept the request through messages. 
 
-It is also possible to add these kind of existing users to your portal (without creating a new account). If you click "create user" in the portal's user list, typing a name of an existing user, will make it show up below the field, If you click the name and then continue to the next field, the RC will show a pop-up promting if you want to add this user to your portal.
+#### Existing Users
+
+Instead of having the users ask for membership to the portal, portal admins may also add them directly. If you click "create user" in the portal's user list, typing a name of an existing user, will make it show up below the field, If you click the name and then continue to the next field, the RC will show a pop-up promting if you want to add this user to your portal.
 
 #### Roles 
 
@@ -54,36 +58,9 @@ To give an account the ability to create expositions, you have to __disable__ th
 
 ![removing the basic user limitation](images/full_account.jpg "user's role tab, basic account is deselected")
 
-For safety, admins creating user accounts should:
-
-- Use a unique password for each new user.
-- Make the password sufficiently random (at least 12 completely random characters).
-
-A safer method is to generate a long random password and throw it away
-immediately after making the account, then ask the user to reset the password
-themselves using <https://www.researchcatalogue.net/portal/forgotten-password>.
-This way you do not have to email passwords or risk storing them.
-
-If you email new users to reset their RC password this way, it is good to remind them to choose a strong password.
-Strong passwords are:
-
-- generated automatically by a password manager
-
-If you want to generate a password by hand, you can:
-
-- use eff's method: <https://www.eff.org/dice>
-- do not use famous phrases, lyrics or words
-- never use [cliche passwords, like from the list of 10000 most common passwords](https://en.wikipedia.org/wiki/Wikipedia:10,000_most_common_passwords)
-- resist the temptation to reuse passwords
-- don't use easily found personal information 
-- in contrast to common belief, adding a few numbers '!' '#' '.' ',' characters to a bad password does not guarantee safety! 
-
-Since generating (and remembering!) good passwords is not trivial to do by hand, most experts
-recommend using a password manager instead.
-
 ### Writing the Exposition, Collaboration
 
-The next stage is the writing of the *exposition* itself. The author does not need to be a member of the portal user list in order to make a publication request to it. 
+The next stage is the writing of the *exposition* itself. 
 
 During the writing stage, it is common that the exposition in progress is shared with one or more other readers or collaborators. These collaborators can use the review notes system to leave feedback. There are three types of collaboration roles:
 
@@ -100,7 +77,7 @@ It is also possible that an author makes the in-progress exposition content visi
 ### Requesting Publication
 
 Once the writing is sufficiently progressed, the next step is that the
-author sents a request to review the exposition. This is done through
+author sends a request to review the exposition. This is done through
 the ☰ menu, which is located on the "my profile" in the right bottom
 corner of the exposition summary. This will open a dialog where a portal
 can be chosen for review and possible publication.
@@ -110,7 +87,7 @@ can be chosen for review and possible publication.
 
 Once the author has done this step, no further changes can be made to the exposition by the author. It will be listed on their profile under the status "in review". 
 
-The portal admin will receive a message from the RC that a new work is ready for review. It will also be available under the “reviewing” section in the __[admin section](https://www.researchcatalogue.net/admin)__.
+The portal admin will receive a message from the RC that a new exposition is ready for review. It will also be available under the “reviewing” section in the __[admin section](https://www.researchcatalogue.net/admin/reviewing/list)__.
 
 The expositions content is locked for the author(s) during the review process, only the portal admin can edit.  If the author needs to
 revise the content, it is possible to temporarily open for editing by clicking the "in revision" button <img
@@ -131,9 +108,9 @@ The most common next step is to assign reviewers to this research. However, for 
 1. have an RC account 
 2. added to the reviewer pool of the portal.
 
-You can do so both in one go, by using "create reviewer" button on the admin reviewer page. This will also work for users that have already an account in the RC.
+You can do so both in one go, by using "create reviewer" button on the portal ["users" list](https://www.researchcatalogue.net/admin/user/list). This will also work for users that have already an account in the RC.
 
-The reviewer role does not require a full RC account, it is enough to be a limited RC user. 
+The reviewer role does not require a full RC account, a basic account suffices.
 
 For the second requirement, the user has to be added to the reviewer pool of the portal. This can be done by going to the __Portal__ page of the __[admin section](https://www.researchcatalogue.net/admin)__ and then choosing edit. Under the ROLES tab, RC users can be added as reviewers for that particular portal. 
 
@@ -176,11 +153,13 @@ admin issue page") page, since all expositions need to be part of an
 issue. The issue's range should match that of the exposition. The
 default range of an issue is unlimited.*
 
+Issues can be used both as a grouping "master research" "research project" etc.
+or for periodicals like journal issues. This is up to the portal to decide. 
+
 ![Dialog for accepting the publication request](images/accept_request.png "Dialog for accepting the request")
 
-
 Depending on the portal settings at this point also a DOI will be
-deposited through cross-ref. Please note that publishing is meant as a
+deposited through Crossref. Please note that publishing is meant as a
 one-way step, unpublishing is to be used only as a very last resort.
 If one already expects the exposition will be removed in
 the future, it should not be published. In that case one could better
