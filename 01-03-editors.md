@@ -1,8 +1,8 @@
 <a id="comparison">&nbsp;</a>
 
-# Exposition Editor
+<a id="exposition-editor"></a>
 
-*workspace*
+# Creating Expositions
 
 ## Choosing an Editor 
 
