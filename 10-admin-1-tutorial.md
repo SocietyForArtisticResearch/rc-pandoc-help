@@ -74,6 +74,18 @@ The author can invite RC users to these roles by going to edit details or clicki
 
 It is also possible that an author makes the in-progress exposition content visible to specific groups of users, before publication. This is done by using the [share option](#share "share options in the RC"). Since sharing in this manner is not an official publication, shared expositions can be unshared (made private again), and will appear on the author's profile and not in the portal feed.
 
+### Connecting an exposition to the portal
+
+The key aspect of a typical exposition publication in an RC portal is that it results in a permanent online object.
+
+However, sometimes, it is useful to make an exposition visible on the portal page while it is still being written.
+For example, in the case of an ongoing research project, where results are being added in a continuous fashion.
+
+In this case, the author can request an exposition to be "connected to".
+The portal admin will be able to accept such a request by accepting it here:  
+<https://www.researchcatalogue.net/admin/part-of-requests/list>
+"Connecting to" a portal is only possible if the exposition is at minimum shared within that portal (connecting an invisible exposition does not make any sense).
+
 ### Requesting Publication
 
 Once the writing is sufficiently progressed, the next step is that the
