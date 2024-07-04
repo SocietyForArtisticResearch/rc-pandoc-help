@@ -37,5 +37,5 @@ for each user, portal or object you follow.
 ## Experimental Map
 
 There is also a visual map of the RC in development:
-<https://keywords.sarconference2016.net/>
+[map.rcdata.org](map.rcdata.org "a visual map of the RC")
 
