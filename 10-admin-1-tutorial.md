@@ -74,6 +74,16 @@ The author can invite RC users to these roles by going to edit details or clicki
 
 It is also possible that an author makes the in-progress exposition content visible to specific groups of users, before publication. This is done by using the [share option](#share "share options in the RC"). Since sharing in this manner is not an official publication, shared expositions can be unshared (made private again), and will appear on the author's profile and not in the portal feed.
 
+## Portal Exposition Workflow
+
+There are two major methods of making an exposition part of a portal. One is __publication__, which follows a controlled, peer reviewed journal-like methodology. If required, the exposition contents can be locked during periods of review and can give reviewers access to individual expositions. The goal of such a workflow is a static online publication in the portal that cannot be edited again.
+
+The other is __"connecting to"__, which is a more informal connection to the portal, where the exposition is connected to the portal, but remains editable.
+
+<a target="_blank" href="images/simple-exposition-portal-workflow.svg">
+![exposition workflows](images/simple-exposition-portal-workflow.svg "click to open")
+</a>
+
 ### Connecting an exposition to the portal
 
 The key aspect of a typical exposition publication in an RC portal is that it results in a permanent online object.
@@ -84,7 +94,7 @@ For example, in the case of an ongoing research project, where results are being
 In this case, the author can request an exposition to be "connected to".
 The portal admin will be able to accept such a request by accepting it here:  
 <https://www.researchcatalogue.net/admin/part-of-requests/list>
-"Connecting to" a portal is only possible if the exposition is at minimum shared within that portal (connecting an invisible exposition does not make any sense).
+"Connecting to" a portal is only possible if the exposition is at minimum shared within that portal (connecting an invisible exposition does not make any sense). 
 
 ### Requesting Publication
 
