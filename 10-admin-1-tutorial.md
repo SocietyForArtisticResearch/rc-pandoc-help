@@ -2,11 +2,18 @@
 
 # Portal Admin Guide
 
-## What is a Portal?
+This portal admin guide consists of two parts:
+
+1. A tutorial for new portal admins
+2. Reference manual of all adminstration pages in more detail
+
+## 1. Tutorial for new portal admins
+
+### What is a Portal?
 
 A portal is a dedicated section within the Research Catalogue that allows institutions to organize, display, and share their research outputs and projects. A portal is autonomous: the content of a portal is not controlled or peer-reviewed by SAR, it is the institution that decides what research may be displayed or included in it. The publication policy, reviewing procedures and format requirements are also decided by the portal.
 
-## Purpose of a Portal
+### Purpose of a Portal
 
 * Showcase research: either by publishing as journal or provide a platform to highlight the research projects of an institution’s faculty, researchers, and students to the external visitors.
 
@@ -18,13 +25,7 @@ A portal is a dedicated section within the Research Catalogue that allows instit
 
 For more information: <https://societyforartisticresearch.org/rc/portal-partnership/>.
 
-## Other benifits
-
-As a portal partner you also become part of the portal community that includes access to online seminars and once a year offline portal partner meetings where member institutions exchange knowledge, share strategies, collaborate, and coordinate efforts for mutual benefit.
-
-You can find all portals on the front page, under institutional portals, journals and projects. To start a new portal within the RC, contact <info@societyforartisticresearch.org>.
-
-## Functionalities of a portal
+### Functionalities of a portal
 
 To facilitate all these activities of portals, the Research Catalogue website gives portal admins access to the following special functionalities:
 
@@ -40,9 +41,11 @@ To facilitate all these activities of portals, the Research Catalogue website gi
 
 Content of a portal may be visible internally (only visible to members), externally (visible to all) or archived (hidden, only visible to admins). If desired, SAR allows institutions to create separate portals for either of these to keep them more separate. 
 
-## Portal workflow tutorial
+### Portal workflow tutorial
 
 <a id="administration-reviewing-process"></a>
+
+When a portal is starting out, the most important workflow to learn is managing its users and publication.
 
 A typical portal publication workflow consists of:
 
@@ -56,19 +59,15 @@ A typical portal publication workflow consists of:
 __admin account password__
 
 As an admin account has special abilities, it is very important that you use a strong password for your
-portal admin account, as admin rights should not come in the wrong hands. You can change it under settings. 
-
-To create a secure password, either use an automatic password manager, or use
- the following method to generate a memorable but extremely secure passphrase:
-https://www.eff.org/dice. Do not use a previously used password.  
+portal admin account, as admin rights should not come in the wrong hands. You can change it under settings. It is recommended to use a password manager (firefox, chrome or safari have built in password generators) or a secure method like EFF's [dice based generator](https://www.eff.org/dic).
 
 </div>
 
 ### Creating new users within the portal
 
-Outside of portals, independent users generally register their own account using the registration page. 
+Outside of portals, independent users generally register their own account using the RC's registration page. 
 
-However, for larger portals, it is better if the portal admin creates accounts for their users. There are two important requirements for an admin while creating an account for other users:
+For portals, it is better if the portal admin creates accounts for their users. There are two important requirements for an admin while creating an account for other users:
 
 1. Making sure the name and email belongs to a real person (for example by linking it with an institutional account). 
 2. A person should have __at most one user account__ in the RC. 
@@ -79,7 +78,9 @@ The administrator can create accounts by going to the __[admin section](https://
 
 This will open a dialog where you can enter the name, email and password for the new user.
 
-It is recommended to use a throwaway (but random!) password and ask the new user to set a proper password themselves by using the [reset link](https://www.researchcatalogue.net/portal/forgotten-password). If your institution already uses a single sign on system (MS Teams, Feide), it is also possible to provide a single sign on connection to the RC, please consult SAR for this option.
+It is recommended to use a throwaway (random) password and ask the new user to set a proper password themselves by using the [reset link](https://www.researchcatalogue.net/portal/forgotten-password). 
+
+If your institution already uses a single sign on system (MS Teams, Feide), it is also possible to provide a single sign on connection to the RC, please consult SAR for this option.
 
 #### Adding Existing Users to your Portal
 
@@ -122,11 +123,11 @@ The author can invite RC users to these roles by going to edit details or clicki
 
 It is also possible that an author makes the in-progress exposition content visible to specific groups of users, before publication. This is done by using the [share option](#share "share options in the RC"). Since sharing in this manner is not an official publication, shared expositions can be unshared (made private again), and will appear on the author's profile and not in the portal feed.
 
-## Portal Exposition Workflow
+### Publication or "connecting to" a portal to make expositions visible
 
-There are two major methods of making an exposition part of a portal. The one we discussing here is __publication__, which follows a controlled, peer reviewed journal-like methodology. The exposition contents are locked during periods of review and reviewers have an overview page in the RC of expositions they need to review. The goal of such a workflow is a static online publication in the portal that cannot be edited again.
+There are two methods of making an exposition part of a portal. The most commonly used is __publication__, which follows a controlled, peer reviewed journal-like methodology. The exposition contents are locked during periods of review and reviewers have an overview page in the RC of expositions they need to review. The goal of such a workflow is a static online publication with a DOI in the portal that cannot be edited again.
 
-The RC also allows for a more informal connection to the portal, this is known as __"connecting to"__ a portal, where the exposition is connected to the portal, but remains editable. No review or control takes place, and the author can change content of such an exposition after the connection has been made. The "connecting to" workflow is described [here](#connecting-to-tutorial).
+The RC also allows for a more informal connection to the portal, this is known as __"connecting to"__ a portal, where the exposition is connected to the portal, becomes visible in its feed, but its contents remains editable. No review workflow is provided, and the author can still change content of such an exposition (or even remove it altogether) after the connection has been made. The "connecting to" workflow is described [here](#connecting-to-tutorial).
 
 Below is a diagram of review, "connecting to" and sharing of expositions:
 
@@ -136,17 +137,16 @@ Below is a diagram of review, "connecting to" and sharing of expositions:
 
 ### Reviewing and publication
 
-We will now describe the more official review workflow of a portal, using the submission and review facilities of the portal. 
+We will now describe the review and publication workflow of a portal.
 
 The first step is that the author submits the exposition for review by a portal.
 This is done through the ☰ menu, which is located on the "my profile" in the
 right bottom corner of the exposition summary. This will open a dialog where a
 portal can be chosen.
 
-
 ![Exposition submission dialog](images/submit_for_review.png "Dialog for submission for review")
 
-Once the author has submitted the exposition, no further changes can be made to the exposition by the author. It will be listed on their profile under the status "in review". 
+Once the author has submitted the exposition, no further changes can be made to the exposition by the author. It will be listed on their profile under the status "in review". The share status and thus visibility will remain unchanged. 
 
 The portal admin will receive a message from the RC that a new exposition is ready for review. It will also be available under the “reviewing” section in the __[admin section](https://www.researchcatalogue.net/admin/reviewing/list)__.
 
@@ -171,18 +171,23 @@ For the second requirement, the user has to be added to the reviewer pool of the
 
 Once a reviewer is part of the review pool, they can be added to the research exposition. To do this, go to __review__ tab of the __administration__ part of the RC, and click the edit page. Here you can add (or remove) reviewers to the research. Reviewers can be either added single blind (they cannot see each other), or double blind (they cannot see the author's name).
 
-
 ![the edit request page, found when clicking edit icon on an exposition in review](images/edit-request.png "edit request, within the review tab")
 
-The reviewers will see a list of expositions that they are reviewers of on top of their "my profile" page. Within the exposition they can use the "REVIEW" menu to leave notes to themselves, which are only visible to them and the portal administrator. Typically further communication between the portal admin and the reviewer takes place through the messaging system or by e-mail.
+The reviewers will see a list of expositions that they are reviewers of on top of their "my profile" page or [https://www.researchcatalogue.net/review](https://www.researchcatalogue.net/review). 
+
+Within the exposition they can use the "REVIEW" menu to leave notes to themselves, which are only visible to them and the portal administrator. Typically further communication between the portal admin and the reviewer takes place through the messaging system or by e-mail.
 
 ### Optional revision of exposition content 
 
-The expositions content is locked for the author(s) during the review process, only the portal admin can edit.  If the author needs to
-revise the content, it is possible to temporarily open for editing by clicking the "in revision" button <img
-class="icon" src="images/revision-action.png" />. This will open a dialog where you can put the exposition "in revision". During
-revision, the exposition will remain listed in the reviewing page. Once the author is done, they can either resubmit themselves
-from their profile page, or the administrator can use the button in the "reviewing" page to change the status back to "in review".
+As stated before, the exposition content is locked for the author(s) during the review process, only the portal admin can edit.  
+
+If the author needs to revise the content, it is possible to temporarily open
+for editing by clicking the "in revision" button <img class="icon"
+src="images/revision-action.png" />. This will open a dialog where you can put
+the exposition "in revision". During revision, the exposition will remain listed
+in the reviewing page. Once the author is done, they can either resubmit
+themselves from their profile page, or the administrator can use the button in
+the "reviewing" page to change the status back to "in review", and the exposition content is locked again.
 
 ### Final Publication or Rejection
 
@@ -221,9 +226,17 @@ or for periodicals like journal issues. This is up to the portal to decide.
 
 ![Dialog for accepting the publication request](images/accept_request.png "Dialog for accepting the request")
 
+
 Depending on the portal settings at this point also a DOI will be
-deposited through Crossref. Please note that publishing is meant as a
+deposited through Crossref. 
+
+### Unpublishing
+
+The list of expositions of a portal can be found under [expositions](
+https://www.researchcatalogue.net/admin/research/list).
+Please note that publishing is meant as a
 one-way step, unpublishing is to be used only as a very last resort.
+
 If one already expects the exposition will be removed in
 the future, it should not be published. In that case one could better
 return the exposition to the author(s) and have them share it using
