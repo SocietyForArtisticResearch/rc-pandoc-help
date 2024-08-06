@@ -99,6 +99,8 @@ Having a portal will allow institutions to:
 
 For more information, please contact Society for Artistic Research (SAR).
 
+More on portals and portal administration can be found in the [admin section](#admin-section "portal administration") of this manual. 
+
 
 
 
