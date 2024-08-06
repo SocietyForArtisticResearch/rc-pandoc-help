@@ -67,16 +67,13 @@ portal admin account, as admin rights should not come in the wrong hands. You ca
 
 Outside of portals, independent users generally register their own account using the RC's registration page. 
 
-For portals, it is better if the portal admin creates accounts for their users. There are two important requirements for an admin while creating an account for other users:
-
-1. Making sure the name and email belongs to a real person (for example by linking it with an institutional account). 
-2. A person should have __at most one user account__ in the RC. 
-
-The motivation behind both of these that in case of copyright or other legal problems surrounding an account created by a portal, the portal admin should be able to provide contact information to this person. Experience tells that having two accounts for one person will guarantee undesirable mixups, especially in collaboration.
+When a portal admin creates a user, it is important that you are sure that the name and email belongs to a real person (for example by linking it with an institutional email account). In case of copyright or other legal problems surrounding an account created by a portal, the portal admin should be able to provide contact information to this person. 
 
 The administrator can create accounts by going to the __[admin section](https://www.researchcatalogue.net/admin)__ and opening the __user__ page. Click __create user__ at the right top corner of the screen. 
 
 This will open a dialog where you can enter the name, email and password for the new user.
+
+If you type the name of a user that already exists under that name in the RC, it will show up below the field, if you click the name and then continue to the next field, the RC will show a pop-up prompting if you want to add this user to your portal. Double accounts should be avoided.  
 
 It is recommended to use a throwaway (random) password and ask the new user to set a proper password themselves by using the [reset link](https://www.researchcatalogue.net/portal/forgotten-password). 
 
@@ -84,9 +81,7 @@ If your institution already uses a single sign on system (MS Teams, Feide), it i
 
 #### Adding Existing Users to your Portal
 
-Sometimes, it happens that somebody already has an account in the RC. Portal admins can also add such existing users directly to their portal. If you click "create user" in the portal's user list, typing a name of an existing user, will make it show up below the field, if you click the name and then continue to the next field, the RC will show a pop-up prompting if you want to add this user to your portal.
-
-It is also possible for such existing users to request membership to a portal on their own account, by clicking "edit portals" on their profile page:
+It is also possible for existing RC users to request membership to a portal on their own account, by clicking "edit portals" on their profile page:
 
 ![requesting portal membership](images/location_of_portal_membership.jpg "member of option location on user profile")
 
