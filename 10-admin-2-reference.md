@@ -71,10 +71,11 @@ When the option is turned on, the user cannot create any content. This is the de
 
 Here you can set which emails the user should receive.
 
+<!--
 #### Log in as a user
 The admins can log in as another user, for example to help resolve issues with a specific account. While logged in as another user, you will see a red bar on the top of your window that shows who you are and enables you to switch back to your own account. This feature is useful while helping somebody with issues specific to their account.
 
-Keep in mind: you become this user in all the tabs of your browser window, so you would temporarly loose some of you admin permissions while navigating as this user.
+Keep in mind: you become this user in all the tabs of your browser window, so you would temporarly loose some of you admin permissions while navigating as this user.-->
 
 ### Portal page
 
@@ -190,7 +191,7 @@ Here you can set which objects can be submitted to the portal.
 
 
 
-## Research page
+### Research page
 Here you can manage all research connected to the portal. Expositions are sorted per issue. Those without a publishing date, have not been published yet. There are a number of actions available:
 
 | Action    | Icon                                                         |
@@ -200,10 +201,10 @@ Here you can manage all research connected to the portal. Expositions are sorted
 | Comment   | <img src="images/research-icon-comment.png" class="icon">    |
 | Block     | <img src="images/research-icon-block.png" class="icon">      |
 
-### Unpublishing an exposition
+#### Unpublishing an exposition
 The unpublishing of expositions is not encuraged. Published expositions are supposed to be a permament reference, never to be deleted or changed. If an exposition is to be continuously changed or temporary, it is better to not publish, but simply set its sharing settings to __public__.  When unpublishing an exposition make sure with the author of the exposition that there are no connected works that have been deleted since, otherwise it may be impossible to reconstruct the publication. 
 
-## Connection Requests
+### Connection Requests
 It is possible for users to connect a work or exposition to a portal. The works that have been accepted by an admin of the portal will be listed here.
 
 A connected exposition will appear on the Portal's landing page, and the metadata of the exposition will now mention that is connected to the portal. They will also appear when searching for expositions within the portal.
@@ -216,7 +217,7 @@ The editor is than able to change the content within the exposition.
 They can also add __Supervisor__ role, which can only read the exposition.
 
 
-## Reviewing (admin) 
+### Reviewing (admin) 
 The reviewing page allows managment of expositions that have been applied for publication by the author. Reviewers or editors can be assigned to these works. When a reviewer is added they will automatically recieve a notification from RC that they have been added. Reviewers can leave notes only visible to themselves (so not to other reviewers) and the portal admin(s). 
 
 Actions that are available:
@@ -252,7 +253,7 @@ You can also write a custom message to the author.
 
 
 
-## Issue page
+### Issue page
 
 The [Issue page](https://www.researchcatalogue.net/admin/issue/list "issue page on the RC") is an overview page within the RC that shows all published expositions that are part of an issue.
 
@@ -268,7 +269,7 @@ For the reader, issues can be found through the portals front page.
 
 <a id="admin-groups">
 
-## Groups 
+### Groups 
 
 On the group [overview
 page](https://www.researchcatalogue.net/admin/project/list) portal admins can

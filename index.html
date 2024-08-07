@@ -375,7 +375,7 @@ Group</a></li>
 Admin Guide</a>
 <ul>
 <li><a href="#tutorial-for-new-portal-admins"
-id="toc-tutorial-for-new-portal-admins">1. Tutorial for new portal
+id="toc-tutorial-for-new-portal-admins">Tutorial for new portal
 admins</a>
 <ul>
 <li><a href="#what-is-a-portal" id="toc-what-is-a-portal">What is a
@@ -433,23 +433,18 @@ Settings</a></li>
 connection of</a></li>
 <li><a href="#allow-publishing" id="toc-allow-publishing">allow
 publishing</a></li>
-</ul></li>
-<li><a href="#research-page" id="toc-research-page">Research page</a>
-<ul>
-<li><a href="#unpublishing-an-exposition"
-id="toc-unpublishing-an-exposition">Unpublishing an exposition</a></li>
-</ul></li>
+<li><a href="#research-page" id="toc-research-page">Research
+page</a></li>
 <li><a href="#connection-requests"
 id="toc-connection-requests">Connection Requests</a></li>
 <li><a href="#reviewing-admin" id="toc-reviewing-admin">Reviewing
-(admin)</a>
-<ul>
+(admin)</a></li>
 <li><a href="#in-revision" id="toc-in-revision">In revision</a></li>
 <li><a href="#publication-dialog"
 id="toc-publication-dialog">Publication dialog</a></li>
-</ul></li>
 <li><a href="#issue-page" id="toc-issue-page">Issue page</a></li>
 <li><a href="#groups-1" id="toc-groups-1">Groups</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#using-json-feeds" id="toc-using-json-feeds">Using JSON
 Feeds</a></li>
@@ -3987,7 +3982,7 @@ href="#admin-groups">admin-groups</a>.</p>
 <li>A tutorial for new portal admins</li>
 <li>Reference manual of all adminstration pages in more detail</li>
 </ol>
-<h2 id="tutorial-for-new-portal-admins">1. Tutorial for new portal
+<h2 id="tutorial-for-new-portal-admins">Tutorial for new portal
 admins</h2>
 <h3 id="what-is-a-portal">What is a Portal?</h3>
 <p>A portal is a dedicated section within the Research Catalogue that
@@ -4012,12 +4007,11 @@ with peers worldwide.</p></li>
 preserves the institution’s research outputs for future reference and
 use.</p></li>
 </ul>
-<p>For more information: <a
+<p>For more information on portal partnership: <a
 href="https://societyforartisticresearch.org/rc/portal-partnership/"
 class="uri">https://societyforartisticresearch.org/rc/portal-partnership/</a>.</p>
 <h3 id="functionalities-of-a-portal">Functionalities of a portal</h3>
-<p>To facilitate all these activities of portals, the Research Catalogue
-website gives portal admins access to the following special
+<p>A portal in the research catalogue provides the following
 functionalities:</p>
 <ul>
 <li><p>Portal admins can create and manage user accounts and user roles
@@ -4030,6 +4024,8 @@ presented to external visitors by “connecting to” a group or to the
 portal as a whole.</p></li>
 <li><p>Researchers and expositions can be organized into research
 groups.</p></li>
+<li><p>The portal feed that showcases the institution, publications and
+research groups within the portal.</p></li>
 </ul>
 <h3 id="internal-versus-external-portal">Internal versus external
 portal</h3>
@@ -4039,14 +4035,15 @@ to admins). If desired, SAR allows institutions to create separate
 portals for either of these to keep them more separate.</p>
 <h3 id="portal-workflow-tutorial">Portal workflow tutorial</h3>
 <p><a id="administration-reviewing-process"></a></p>
-<p>When a portal is starting out, the most important workflow to learn
-is managing its users and publication.</p>
 <p>A typical portal publication workflow consists of:</p>
 <ul>
 <li>setup: creating accounts for authors</li>
-<li>writing: writing the content by the author(s)</li>
-<li>review: submitting and reviewing the exposition by reviewers</li>
-<li>publication</li>
+<li>writing: creation of the exposition by the author(s)</li>
+<li>submitting: the author submits the exposition to the portal</li>
+<li>review: the admin assigns reviewers and they will review the
+exposition</li>
+<li>publication: the exposition becomes visible within or outside of the
+portal</li>
 </ul>
 <div class="warning">
 <p><strong>admin account password</strong></p>
@@ -4059,17 +4056,20 @@ href="https://www.eff.org/dic">dice based generator</a>.</p>
 </div>
 <h3 id="creating-new-users-within-the-portal">Creating new users within
 the portal</h3>
-<p>Outside of portals, independent users generally register their own
-account using the RC’s registration page.</p>
-<p>When a portal admin creates a user, it is important that you are sure
-that the name and email belongs to a real person (for example by linking
-it with an institutional email account). In case of copyright or other
-legal problems surrounding an account created by a portal, the portal
-admin should be able to provide contact information to this person.</p>
-<p>The administrator can create accounts by going to the <strong><a
-href="https://www.researchcatalogue.net/admin">admin
-section</a></strong> and opening the <strong>user</strong> page. Click
-<strong>create user</strong> at the right top corner of the screen.</p>
+<p>Users are created and managed in the “Users” tab of the portal
+adminstration: <a
+href="https://www.researchcatalogue.net/admin/user/list"
+class="uri">https://www.researchcatalogue.net/admin/user/list</a></p>
+<div class="warning">
+<p>When a portal admin creates a user, it is important that the admin is
+sure that the name and email belongs to a real person (for example by
+linking it with an institutional email account). In case of copyright or
+other legal problems surrounding an account created by a portal, the
+portal admin should be able to provide contact information to this
+person.</p>
+</div>
+<p>To create a user, click <strong>create user</strong> at the right top
+corner of the screen.</p>
 <p>This will open a dialog where you can enter the name, email and
 password for the new user.</p>
 <p>If you type the name of a user that already exists under that name in
@@ -4120,7 +4120,8 @@ limitation</figcaption>
 </figure>
 <h3 id="writing-the-exposition-collaboration">Writing the Exposition,
 Collaboration</h3>
-<p>The next stage is the writing of the <em>exposition</em> itself.</p>
+<p>The next stage is the writing of the <em>exposition</em> itself, by
+the author.</p>
 <p>During the writing stage, it is common that the exposition in
 progress is shared with one or more other readers or collaborators.
 These collaborators can use the review notes system to leave feedback.
@@ -4173,8 +4174,9 @@ title="click to open" alt="exposition workflows" /> </a></p>
 <p>We will now describe the review and publication workflow of a
 portal.</p>
 <p>The first step is that the author submits the exposition for review
-by a portal. This is done through the ☰ menu, which is located on the
-“my profile” in the right bottom corner of the exposition summary. This
+by a portal. This is done through the ☰ menu, which is located on the <a
+href="www.researchcatalogue.net/profile" title="profile page">“my
+profile”</a> in the right bottom corner of the exposition summary. This
 will open a dialog where a portal can be chosen.</p>
 <figure>
 <img loading="lazy" src="images/submit_for_review.png"
@@ -4190,7 +4192,8 @@ visibility will remain unchanged.</p>
 exposition is ready for review. It will also be available under the
 “reviewing” section in the <strong><a
 href="https://www.researchcatalogue.net/admin/reviewing/list">admin
-section</a></strong>.</p>
+section</a></strong>, where the whole reviewing procedure will be
+managed by the portal admin.</p>
 <p>The RC automatically creates a snapshot of the exposition when the
 author submits the exposition for review. This allows to trace between
 different versions of the exposition later.</p>
@@ -4202,9 +4205,8 @@ research title. This will also open the exposition for editing
 again.</p>
 <h4 id="reviewing-assigning-reviewers">Reviewing, Assigning
 Reviewers</h4>
-<p>The most common next step is to assign reviewers to this research.
-However, for a person to be available as reviewer, they first have
-to:</p>
+<p>The next step is to assign reviewers to the exposition. For a person
+to be available as reviewer, they have to:</p>
 <ol type="1">
 <li>have an RC account</li>
 <li>added to the reviewer pool of the portal.</li>
@@ -4213,9 +4215,8 @@ to:</p>
 the portal <a
 href="https://www.researchcatalogue.net/admin/user/list">“users”
 list</a>. This will also work for users that have already an account in
-the RC.</p>
-<p>The reviewer role does not require a full RC account, a basic account
-suffices.</p>
+the RC. The reviewer role does not require a full RC account, a basic
+account suffices.</p>
 <p>For the second requirement, the user has to be added to the reviewer
 pool of the portal. This can be done by going to the
 <strong>Portal</strong> page of the <strong><a
@@ -4248,8 +4249,8 @@ exposition content</h3>
 <p>As stated before, the exposition content is locked for the author(s)
 during the review process, only the portal admin can edit.</p>
 <p>If the author needs to revise the content, it is possible to
-temporarily open for editing by clicking the “in revision” button
-<img class="icon"
+temporarily open an exposition for editing by clicking the “in revision”
+button <img class="icon"
 src="images/revision-action.png" />. This will open a dialog where you
 can put the exposition “in revision”. During revision, the exposition
 will remain listed in the reviewing page. Once the author is done, they
@@ -4466,15 +4467,11 @@ alt="user email settings dialog" />
 <figcaption aria-hidden="true">user email settings dialog</figcaption>
 </figure>
 <p>Here you can set which emails the user should receive.</p>
-<h4 id="log-in-as-a-user">Log in as a user</h4>
-<p>The admins can log in as another user, for example to help resolve
-issues with a specific account. While logged in as another user, you
-will see a red bar on the top of your window that shows who you are and
-enables you to switch back to your own account. This feature is useful
-while helping somebody with issues specific to their account.</p>
-<p>Keep in mind: you become this user in all the tabs of your browser
-window, so you would temporarly loose some of you admin permissions
-while navigating as this user.</p>
+<!--
+#### Log in as a user
+The admins can log in as another user, for example to help resolve issues with a specific account. While logged in as another user, you will see a red bar on the top of your window that shows who you are and enables you to switch back to your own account. This feature is useful while helping somebody with issues specific to their account.
+
+Keep in mind: you become this user in all the tabs of your browser window, so you would temporarly loose some of you admin permissions while navigating as this user.-->
 <h3 id="portal-page">Portal page</h3>
 <p>The portal tab shows you which users are administrators on the
 portal. It has 3 actions:</p>
@@ -4646,7 +4643,7 @@ Degrees no longer exist, only for legacy reasons.</li>
 This setting is only used in combination with the application module,
 should be discussed with SAR.</li>
 </ul>
-<h2 id="research-page">Research page</h2>
+<h3 id="research-page">Research page</h3>
 <p>Here you can manage all research connected to the portal. Expositions
 are sorted per issue. Those without a publishing date, have not been
 published yet. There are a number of actions available:</p>
@@ -4680,7 +4677,7 @@ published yet. There are a number of actions available:</p>
 </tr>
 </tbody>
 </table>
-<h3 id="unpublishing-an-exposition">Unpublishing an exposition</h3>
+<h4 id="unpublishing-an-exposition">Unpublishing an exposition</h4>
 <p>The unpublishing of expositions is not encuraged. Published
 expositions are supposed to be a permament reference, never to be
 deleted or changed. If an exposition is to be continuously changed or
@@ -4689,7 +4686,7 @@ settings to <strong>public</strong>. When unpublishing an exposition
 make sure with the author of the exposition that there are no connected
 works that have been deleted since, otherwise it may be impossible to
 reconstruct the publication.</p>
-<h2 id="connection-requests">Connection Requests</h2>
+<h3 id="connection-requests">Connection Requests</h3>
 <p>It is possible for users to connect a work or exposition to a portal.
 The works that have been accepted by an admin of the portal will be
 listed here.</p>
@@ -4704,7 +4701,7 @@ portal.</p>
 to change the content within the exposition.</p>
 <p>They can also add <strong>Supervisor</strong> role, which can only
 read the exposition.</p>
-<h2 id="reviewing-admin">Reviewing (admin)</h2>
+<h3 id="reviewing-admin">Reviewing (admin)</h3>
 <p>The reviewing page allows managment of expositions that have been
 applied for publication by the author. Reviewers or editors can be
 assigned to these works. When a reviewer is added they will
@@ -4785,7 +4782,7 @@ a custom message to the author.</p>
 alt="publication dialog" />
 <figcaption aria-hidden="true">publication dialog</figcaption>
 </figure>
-<h2 id="issue-page">Issue page</h2>
+<h3 id="issue-page">Issue page</h3>
 <p>The <a href="https://www.researchcatalogue.net/admin/issue/list"
 title="issue page on the RC">Issue page</a> is an overview page within
 the RC that shows all published expositions that are part of an
@@ -4808,7 +4805,7 @@ alt="edit issue dialog" />
 <p>For the reader, issues can be found through the portals front
 page.</p>
 <p><a id="admin-groups"></p>
-<h2 id="groups-1">Groups</h2>
+<h3 id="groups-1">Groups</h3>
 <p>On the group <a
 href="https://www.researchcatalogue.net/admin/project/list">overview
 page</a> portal admins can create, edit and remove groups. A group can

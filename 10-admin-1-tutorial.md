@@ -7,7 +7,7 @@ This portal admin guide consists of two parts:
 1. A tutorial for new portal admins
 2. Reference manual of all adminstration pages in more detail
 
-## 1. Tutorial for new portal admins
+## Tutorial for new portal admins
 
 ### What is a Portal?
 
@@ -23,11 +23,11 @@ A portal is a dedicated section within the Research Catalogue that allows instit
 
 * Preserve Research: the portal serves as a digital archive that preserves the institution’s research outputs for future reference and use.
 
-For more information: <https://societyforartisticresearch.org/rc/portal-partnership/>.
+For more information on portal partnership: <https://societyforartisticresearch.org/rc/portal-partnership/>.
 
 ### Functionalities of a portal
 
-To facilitate all these activities of portals, the Research Catalogue website gives portal admins access to the following special functionalities:
+A portal in the research catalogue provides the following functionalities:
 
 * Portal admins can create and manage user accounts and user roles within the portal.
 
@@ -37,6 +37,8 @@ To facilitate all these activities of portals, the Research Catalogue website gi
 
 * Researchers and expositions can be organized into research groups.
 
+* The portal feed that showcases the institution, publications and research groups within the portal.
+
 ### Internal versus external portal
 
 Content of a portal may be visible internally (only visible to members), externally (visible to all) or archived (hidden, only visible to admins). If desired, SAR allows institutions to create separate portals for either of these to keep them more separate. 
@@ -45,14 +47,13 @@ Content of a portal may be visible internally (only visible to members), externa
 
 <a id="administration-reviewing-process"></a>
 
-When a portal is starting out, the most important workflow to learn is managing its users and publication.
-
 A typical portal publication workflow consists of:
 
 * setup: creating accounts for authors
-* writing: writing the content by the author(s)
-* review: submitting and reviewing the exposition by reviewers
-* publication 
+* writing: creation of the exposition by the author(s)
+* submitting: the author submits the exposition to the portal
+* review: the admin assigns reviewers and they will review the exposition
+* publication: the exposition becomes visible within or outside of the portal
 
 <div class="warning">
 
@@ -65,11 +66,16 @@ portal admin account, as admin rights should not come in the wrong hands. You ca
 
 ### Creating new users within the portal
 
-Outside of portals, independent users generally register their own account using the RC's registration page. 
+Users are created and managed in the "Users" tab of the portal adminstration:
+<https://www.researchcatalogue.net/admin/user/list>
 
-When a portal admin creates a user, it is important that you are sure that the name and email belongs to a real person (for example by linking it with an institutional email account). In case of copyright or other legal problems surrounding an account created by a portal, the portal admin should be able to provide contact information to this person. 
+<div class="warning">
 
-The administrator can create accounts by going to the __[admin section](https://www.researchcatalogue.net/admin)__ and opening the __user__ page. Click __create user__ at the right top corner of the screen. 
+When a portal admin creates a user, it is important that the admin is sure that the name and email belongs to a real person (for example by linking it with an institutional email account). In case of copyright or other legal problems surrounding an account created by a portal, the portal admin should be able to provide contact information to this person. 
+
+</div>
+
+To create a user, click __create user__ at the right top corner of the screen. 
 
 This will open a dialog where you can enter the name, email and password for the new user.
 
@@ -104,7 +110,7 @@ To give an account the ability to create expositions, you have to __disable__ th
 
 ### Writing the Exposition, Collaboration
 
-The next stage is the writing of the *exposition* itself. 
+The next stage is the writing of the *exposition* itself, by the author.
 
 During the writing stage, it is common that the exposition in progress is shared with one or more other readers or collaborators. These collaborators can use the review notes system to leave feedback. There are three types of collaboration roles:
 
@@ -135,7 +141,7 @@ Below is a diagram of review, "connecting to" and sharing of expositions:
 We will now describe the review and publication workflow of a portal.
 
 The first step is that the author submits the exposition for review by a portal.
-This is done through the ☰ menu, which is located on the "my profile" in the
+This is done through the ☰ menu, which is located on the ["my profile"](www.researchcatalogue.net/profile "profile page") in the
 right bottom corner of the exposition summary. This will open a dialog where a
 portal can be chosen.
 
@@ -143,7 +149,7 @@ portal can be chosen.
 
 Once the author has submitted the exposition, no further changes can be made to the exposition by the author. It will be listed on their profile under the status "in review". The share status and thus visibility will remain unchanged. 
 
-The portal admin will receive a message from the RC that a new exposition is ready for review. It will also be available under the “reviewing” section in the __[admin section](https://www.researchcatalogue.net/admin/reviewing/list)__.
+The portal admin will receive a message from the RC that a new exposition is ready for review. It will also be available under the “reviewing” section in the __[admin section](https://www.researchcatalogue.net/admin/reviewing/list)__, where the whole reviewing procedure will be managed by the portal admin.
 
 The RC automatically creates a snapshot of the exposition when the author submits the exposition for review. This allows to trace between different versions of the exposition later.
 
@@ -153,14 +159,13 @@ will also open the exposition for editing again.
 
 #### Reviewing, Assigning Reviewers
 
-The most common next step is to assign reviewers to this research. However, for a person to be available as reviewer, they first have to:
+The next step is to assign reviewers to the exposition. 
+For a person to be available as reviewer, they have to:
 
 1. have an RC account 
 2. added to the reviewer pool of the portal.
 
-You can do so both in one go, by using "create reviewer" button on the portal ["users" list](https://www.researchcatalogue.net/admin/user/list). This will also work for users that have already an account in the RC.
-
-The reviewer role does not require a full RC account, a basic account suffices.
+You can do so both in one go, by using "create reviewer" button on the portal ["users" list](https://www.researchcatalogue.net/admin/user/list). This will also work for users that have already an account in the RC. The reviewer role does not require a full RC account, a basic account suffices.
 
 For the second requirement, the user has to be added to the reviewer pool of the portal. This can be done by going to the __Portal__ page of the __[admin section](https://www.researchcatalogue.net/admin)__ and then choosing edit. Under the ROLES tab, RC users can be added as reviewers for that particular portal. 
 
@@ -177,7 +182,7 @@ Within the exposition they can use the "REVIEW" menu to leave notes to themselve
 As stated before, the exposition content is locked for the author(s) during the review process, only the portal admin can edit.  
 
 If the author needs to revise the content, it is possible to temporarily open
-for editing by clicking the "in revision" button <img class="icon"
+an exposition for editing by clicking the "in revision" button <img class="icon"
 src="images/revision-action.png" />. This will open a dialog where you can put
 the exposition "in revision". During revision, the exposition will remain listed
 in the reviewing page. Once the author is done, they can either resubmit
