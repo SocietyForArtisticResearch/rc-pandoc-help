@@ -11,7 +11,9 @@ This portal admin guide consists of two parts:
 
 ### What is a Portal?
 
-A portal is a dedicated section within the Research Catalogue that allows institutions to organize, display, and share their research outputs and projects. A portal is autonomous: the content of a portal is not controlled or peer-reviewed by SAR, it is the institution that decides what research may be displayed or included in it. The publication policy, reviewing procedures and format requirements are also decided by the portal.
+A portal is a dedicated section within the Research Catalogue that allows institutions to organize, display, and share their research outputs and projects. A portal is autonomous: it is the portal institution that decides which research is visible in it. The policies for format, reviewing and publication are also decided by the portal.
+
+The contents of a portal is build from the expositions written by its users. Expositions can either be submitted to the portal and made visible through publication, or directly linked to the portal. On a technical level, it is the portal admin that moderates which expositions are visible through the portal, however, the choice of what to include is dependent on the publication policy of the institution.
 
 ### Purpose of a Portal
 
@@ -23,21 +25,35 @@ A portal is a dedicated section within the Research Catalogue that allows instit
 
 * Preserve Research: the portal serves as a digital archive that preserves the institution’s research outputs for future reference and use.
 
-For more information on portal partnership: <https://societyforartisticresearch.org/rc/portal-partnership/>.
+For more information on portal partnership and its benefits:  
+<https://societyforartisticresearch.org/rc/portal-partnership/>.
+
+### Portal pages
+
+The portals and their content can be accessed through the front page of the RC, in three categories:
+
+* [Institutional portals](https://www.researchcatalogue.net/portal/institutions)
+* [Journals](https://www.researchcatalogue.net/portal/journals)
+* [Projects](https://www.researchcatalogue.net/portal/projects)
+
+ These categories only differentiate the function of the portal, in terms of
+ user interface they all work in the same manner. By default, the portal pages
+ (or portal feeds) will display the institutional information, recent
+ publication and research groups of the portal. However, once a portal has
+ grown, more customized structures are also possible, using the feeds option,
+ for example. To keep things simple however, we will start with the basics.
 
 ### Functionalities of a portal
 
 A portal in the research catalogue provides the following functionalities:
 
-* Portal admins can create and manage user accounts and user roles within the portal.
+* Portal admins can create and manage users.
 
-* Research can be submitted, reviewed and published in the portal. Within educational environments, examination work may be submitted, reviewed and archived using the same mechanisms.
+* Research may be submitted, reviewed and published in the portal. Within educational environments, examination work may be submitted, assessed and archived using similar mechanisms.
 
-* Work in progress can be shared with other portal members or presented to external visitors by "connecting to" a group or to the portal as a whole.
+* Work-in-progress can be shared with other portal members or presented to external visitors by "connecting to" a group or to the portal as a whole.
 
 * Researchers and expositions can be organized into research groups.
-
-* The portal feed that showcases the institution, publications and research groups within the portal.
 
 ### Internal versus external portal
 
@@ -47,33 +63,27 @@ Content of a portal may be visible internally (only visible to members), externa
 
 <a id="administration-reviewing-process"></a>
 
-A typical portal publication workflow consists of:
+The basic workflow of a portal consists of the following:
 
-* setup: creating accounts for authors
-* writing: creation of the exposition by the author(s)
+* setup: creating accounts for users
+* writing: creation of exposition(s) by the author(s)
 * submitting: the author submits the exposition to the portal
 * review: the admin assigns reviewers and they will review the exposition
-* publication: the exposition becomes visible within or outside of the portal
+* publication: expositions becomes visible within or outside of the portal
 
 <div class="warning">
 
 __admin account password__
 
 As an admin account has special abilities, it is very important that you use a strong password for your
-portal admin account, as admin rights should not come in the wrong hands. You can change it under settings. It is recommended to use a password manager (firefox, chrome or safari have built in password generators) or a secure method like EFF's [dice based generator](https://www.eff.org/dic).
+portal admin account, as admininstration rights should not come in the wrong hands. You can change your password under __settings__. It is recommended to use a password manager (most browsers have this built-in) or a secure method like EFF's [dice based generator](https://www.eff.org/dice).
 
 </div>
 
 ### Creating new users within the portal
 
-Users are created and managed in the "Users" tab of the portal adminstration:
+Users are created and managed in the "Users" tab of the portal adminstration:  
 <https://www.researchcatalogue.net/admin/user/list>
-
-<div class="warning">
-
-When a portal admin creates a user, it is important that the admin is sure that the name and email belongs to a real person (for example by linking it with an institutional email account). In case of copyright or other legal problems surrounding an account created by a portal, the portal admin should be able to provide contact information to this person. 
-
-</div>
 
 To create a user, click __create user__ at the right top corner of the screen. 
 
@@ -85,6 +95,12 @@ It is recommended to use a throwaway (random) password and ask the new user to s
 
 If your institution already uses a single sign on system (MS Teams, Feide), it is also possible to provide a single sign on connection to the RC, please consult SAR for this option.
 
+<div class="warning">
+
+When a portal admin creates a user, it is important that the admin is sure that the name and email belongs to a real person (for example by linking it with an institutional email account). In case of copyright or other legal problems surrounding an account created by a portal, the portal admin should be able to provide contact information to this person. 
+
+</div>
+
 #### Adding Existing Users to your Portal
 
 It is also possible for existing RC users to request membership to a portal on their own account, by clicking "edit portals" on their profile page:
@@ -95,8 +111,7 @@ The portal admin can accept (or reject, in case the request was made in error) s
 
 #### Roles 
 
-A new account can be made as a __basic account__ or a __full account__. A basic account cannot create or publish content, and because of this, do not have to agree with the
-terms of use. Basic accounts may be useful in case of creating external reviewers or supervisors.
+A new account can be made as a __basic account__ or a __full account__. A basic account cannot create or publish conten. Basic accounts may be useful in case of creating external reviewers or supervisors.
 
 <a id="full-account-toggle"></a>
 
@@ -118,11 +133,11 @@ During the writing stage, it is common that the exposition in progress is shared
 - co author (full edit permissions)
 - contributor (full edit permissions, but not mentioned in meta-data)
 
-The author can invite RC users to these roles by going to edit details or clicking on the title of their exposition in the workspace editor and choosing "collaboration". The collaborators will receive an invitation (in RC messages) that has to be accepted before they can start to collaborate.
-
 ![collaboration tab](images/collaboration.png "the collabration tab")
 
-It is also possible that an author makes the in-progress exposition content visible to specific groups of users, before publication. This is done by using the [share option](#share "share options in the RC"). Since sharing in this manner is not an official publication, shared expositions can be unshared (made private again), and will appear on the author's profile and not in the portal feed.
+See <https://guide.researchcatalogue.net/#collaborating-on-research> for more.
+
+It is also possible that an author makes the in-progress exposition content visible to specific groups of users, before publication. This is done by using the [share option](#share "share options in the RC"). Since sharing in this manner is not an official publication, shared expositions can be unshared (made private again), and will appear on the author's profile and __not__ in the portal feed.
 
 ### Publication or "connecting to" a portal to make expositions visible
 
@@ -262,5 +277,6 @@ The portal admin will be able to accept such a request by accepting it here:
 <https://www.researchcatalogue.net/admin/part-of-requests/list>
 "Connecting to" a portal is only possible if the exposition has a minimum of visiblity. This means the exposition has to be __shared__ within the portal, or fully public.
 
+### Portal feed
 
-
+A portal feed that provides basic information about the institutions, recently edited content, publications and research groups within the RC portal.
