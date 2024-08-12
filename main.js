@@ -66,7 +66,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
         function make_hrefs_blank() {
             let hrefs = document.getElementsByTagName("a");
-            ([].slice.call(hrefs)).map(href => href.target = "_blank");
+            ([].slice.call(hrefs)).map(href => href.target = "_self");
             let toc_refs = document.querySelectorAll("#TOC a");
             ([].slice.call(toc_refs)).map(href => href.target = "_self");
         }
