@@ -175,10 +175,11 @@ Formats</a></li>
 <li><a href="#workspace-view" id="toc-workspace-view">Workspace
 View</a></li>
 </ul></li>
-<li><a href="#editor-basics" id="toc-editor-basics">Editor
-Basics</a></li>
-<li><a href="#graphical-editing-mode"
-id="toc-graphical-editing-mode">Graphical Editing Mode</a></li>
+<li><a href="#graphical-editor-mode"
+id="toc-graphical-editor-mode">Graphical Editor Mode</a></li>
+<li><a href="#adding-tools-in-graphical-editing-mode"
+id="toc-adding-tools-in-graphical-editing-mode">Adding Tools in
+Graphical Editing Mode</a></li>
 <li><a href="#block-editing-mode" id="toc-block-editing-mode">Block
 Editing Mode</a>
 <ul>
@@ -661,6 +662,7 @@ portal or object you follow.</p>
 <!-- TODO: Insert links to other parts of the documentation -->
 <h1 id="navigation-while-reading-expositions">Navigation while reading
 expositions</h1>
+<p><a href="#navigation">navigation</a></p>
 <h2 id="navigation-bar">Navigation Bar</h2>
 <p>When one moves the mouse cursor to the top of an exposition, a menu
 bar appears.</p>
@@ -677,7 +679,7 @@ the help section on <a href="#table-of-content">table of
 contents</a>.</p></li>
 <li><p><strong>Navigation</strong> (graphical expositions only)<br />
 Navigation is a graphical map of all the exposition’s content on the
-current weave. You can click it to jump to a location.</p></li>
+current weave. You can click within it to jump to a location.</p></li>
 <li><p><strong>Abstract</strong><br />
 Abstract, this can be changed by clicking title in the editor or ☰ &gt;
 <strong>edit details</strong> on your profile.</p></li>
@@ -1419,7 +1421,7 @@ You can close both views by clicking on "close note view" or "close
 text view" in the top-right.
 
 For more info on specific tools, see [workspace](#research-catalogue-workspace-tools). -->
-<h2 id="editor-basics">Editor Basics</h2>
+<h2 id="graphical-editor-mode">Graphical Editor Mode</h2>
 <p>When you open the editor you will see math-paper like area in the
 center. This is called the grid. Content is added by
 dragging-and-dropping “tools” from the toolbar onto the grid. You can
@@ -1436,8 +1438,7 @@ add tools.</li>
 <li>Tools can be placed on top of each other.</li>
 <li>Layout will not change depending on the screensize of the viewer
 (content is not <a
-href="https://en.wikipedia.org/wiki/Responsive_web_design">“responsive”</a>
-).</li>
+href="https://en.wikipedia.org/wiki/Responsive_web_design">“responsive”</a>).</li>
 </ul>
 <p>All of the above results in the graphical editor being most suitable
 for non-linear layouts. For simpler expositions, it can be worthwhile to
@@ -1480,7 +1481,8 @@ tabs:</p>
 </tr>
 </tbody>
 </table>
-<h2 id="graphical-editing-mode">Graphical Editing Mode</h2>
+<h2 id="adding-tools-in-graphical-editing-mode">Adding Tools in
+Graphical Editing Mode</h2>
 <p>A tool is created by <a
 href="https://en.wikipedia.org/wiki/Drag_and_drop">dragging</a> the icon
 onto the canvas.</p>
@@ -1493,6 +1495,8 @@ the mouse.</p>
 <p>Tools can be rotated by clicking and dragging the yellow dot.</p>
 <p>The size of the current weave will automatically grow when tools are
 added or dragged over the current limits.</p>
+<p>You can right-click (🍎 -&gt; cmd and click) a tool to see extra
+options.</p>
 <p><a id="block-editor-mode"></a></p>
 <h2 id="block-editing-mode">Block Editing Mode</h2>
 <figure>
@@ -1593,7 +1597,8 @@ point for smaller screens</h3>
 <p>On small screens, a high number of columns can become problematic.
 For these situations, you can set a breaking point. If the screen width
 is below this point, any multicolumn row will be displayed as a single
-column.</p>
+column. The lower the breaking point, the more it will keep the rows
+unchanged (even on smaller screens).</p>
 <figure>
 <img loading="lazy" src="images/block_breakpoint.png"
 title="the block breakpoint dialog"
@@ -1874,7 +1879,7 @@ content in it, click <strong>delete</strong>. Unintended deletions can
 be restored via <strong>commands</strong> – <strong>restore deleted
 tools</strong>.</p>
 <h3 id="image-tool">Image Tool</h3>
-<p>Also known as the <em>picture tool</em></p>
+<p>Also known as the <em>picture tool</em>.</p>
 <p>To add a picture, drag and drop the <strong>image</strong> icon from
 the tool palette onto the weave. As with all other tools, a pop-up
 dialog appears automatically and gives you the choice between
@@ -1941,10 +1946,10 @@ formats. All audio file formats will be transcoded to mp3s with
 alt="Audio tool upload dialog" />
 <figcaption aria-hidden="true">Audio tool upload dialog</figcaption>
 </figure>
-<p>To minimize loading times, audio files are automatically compressed.
-During the transcoding process, the name will be grayed out in the media
-list and a text will be shown in the preview.</p>
-<p>RC encodes with a bitrate of 256 bits per second. For further
+<p>To minimize loading times for readers, audio files are automatically
+compressed. During the transcoding process, the name will be grayed out
+in the media list and a text will be shown in the preview.</p>
+<p>RC encodes with a bitrate of 256 kB per second. For further
 information and technical questions see <a
 href="http://www.researchcatalogue.net/portal/faq" title="FAQ">FAQ
 2.6</a> or contact the RC User Support.</p>
@@ -1956,14 +1961,16 @@ href="http://www.researchcatalogue.net/portal/faq" title="FAQ">FAQ
 <li><p><strong>loop</strong> Will loop the playback when it reaches the
 end of the file.</p></li>
 <li><p><strong>autoplay</strong> The player starts to play back the file
-as soon as the page has been loaded.</p></li>
+as soon as the page has been loaded. Note that this may depend on the
+readers permissions. If the reader of your exposition blocks
+autoplay.</p></li>
 <li><p><strong>stop other players</strong> If you are using multiple
 audio (or video) players on the same weave and your page is quite big,
 visitors may find it helpful if you prevent overlapping by defining
 which player is playing. With this option selected, all players (video
 player, audio player on slideshows, other audio players) will stop when
-the selected player is playing back a file. When simultaneous playback
-is desired, it may be helpful to use the <a href="#play-tool"
+the selected player is playing back. When simultaneous playback is
+desired, it may be helpful to use the <a href="#play-tool"
 title="jump to play tool help">Play-tool</a>.</p></li>
 <li><p><strong>display minimal</strong> When selected, the player
 consists of only the play button and bar. You can also define some
@@ -2135,8 +2142,8 @@ href="#media-list">media list</a> first.</p>
 </ul>
 <h4 id="a-few-notes">A Few Notes</h4>
 <ul>
-<li><p><strong>Never re-use the url</strong> of the pdf file that opens
-when you click the pdf tool in the preview. For example:
+<li><p><strong>! Never re-use the url</strong> of the pdf file that
+opens when you click the pdf tool in the preview. For example:
 “https://media.researchcatalogue.net/rc/master/73723.pdf?t=2629205589&amp;e=1510816850”
 These (timed) links are automatically generated by the PDF tool
 specifically for the user that views the tool and are automatically
@@ -2251,6 +2258,31 @@ videos or sounds, into RC expositions. Currently, the RC supports the
 following external content providers: <a
 href="https://www.zhdk.ch/madek">Madek</a>, Youtube, Vimeo, Soundcloud
 and Sketchfab.</p>
+<h4 id="embedding-risks">Embedding Risks</h4>
+<p>When considering embedding content from external sources, it’s
+essential to understand the potential risks involved. Here are some key
+points to consider:</p>
+<ul>
+<li><p>Trust and Reliability: When you use the embed tool, you are
+placing a significant amount of trust in the external site to maintain
+and provide access to that content. However, this trust is not always
+warranted, as external services can change their policies or remove
+content at any time, especially in the long run.</p></li>
+<li><p>Content Removal Risks: Platforms like YouTube and others have
+policies that may lead to the removal of content without prior notice.
+For instance, videos might be taken down due to copyright claims, policy
+violations, or other reasons that are beyond your control.</p></li>
+<li><p>Long-Term Availability: If your content is meant to be published
+permanently, relying heavily on external embeddings can be risky. Once
+embedded content is removed or altered, it leaves gaps in your work,
+which can detract from the quality and reliability of your
+publication.</p></li>
+</ul>
+<p><strong>Recommendation</strong>: To ensure the longevity and
+integrity of your content, it’s advisable to limit the use of external
+embedding, especially for key elements. Whenever possible, use
+internally hosted media or obtain the necessary permissions to host
+content directly in your exposition.</p>
 <p>The embed tool can be used by pasting the link from the page you want
 to embed in the URL field and clicking submit twice. The first submit
 initiates the processing of the link. How to retrieve the correct

@@ -1,4 +1,4 @@
-## Editor Basics
+## Graphical Editor Mode
 
 When you open the editor you will see math-paper like area in the center. This is called the grid. 
 Content is added by dragging-and-dropping "tools" from the toolbar onto the grid. You can preview what the exposition looks like to the reader by clicking the "preview" button:
@@ -9,7 +9,7 @@ The position of content in graphical expositions is determined by the author and
 * Tools are not positioned relative to each other, (re)moving one will not affect the others.
 * The canvas size is unlimited: it will grow automatically when you add tools.
 * Tools can be placed on top of each other.
-* Layout will not change depending on the screensize of the viewer (content is not ["responsive"](https://en.wikipedia.org/wiki/Responsive_web_design) ).
+* Layout will not change depending on the screensize of the viewer (content is not ["responsive"](https://en.wikipedia.org/wiki/Responsive_web_design)).
 
 All of the above results in the graphical editor being most suitable
 for non-linear layouts. For simpler expositions, it can be worthwhile to consider using the block editor or the text based editor ( see [choosing an
@@ -26,7 +26,7 @@ On the right you will find the content manager, consisting of four tabs:
 | [pages](https://guide.researchcatalogue.net/#pages) | manage pages                             |
 
 
-## Graphical Editing Mode
+## Adding Tools in Graphical Editing Mode
 
 A tool is created by [dragging](https://en.wikipedia.org/wiki/Drag_and_drop) the icon onto the canvas.
 
@@ -39,6 +39,8 @@ Tools can be resized by clicking and dragging the green borders with the mouse.
 Tools can be rotated by clicking and dragging the yellow dot.
 
 The size of the current weave will automatically grow when tools are added or dragged over the current limits.
+
+You can right-click (🍎 -> cmd and click)  a tool to see extra options.
 
 <a id="block-editor-mode"></a>
 
@@ -80,7 +82,6 @@ The block editor is less suited for:
 
 Certain tools (Sync, Shape) for example, can only be used in graphical
 pages, although more will become available in the future.
-
 
 The __block editor__ provides functionality similar to __text-based editor__ 
 (which is also responsive), but the
@@ -126,7 +127,7 @@ You can change the layout, move or delete the row by using the black controls on
 
 ### Optional breaking point for smaller screens
 
-On small screens, a high number of columns can become problematic. For these situations, you can set a breaking point. If the screen width is below this point, any multicolumn row will be displayed as a single column.
+On small screens, a high number of columns can become problematic. For these situations, you can set a breaking point. If the screen width is below this point, any multicolumn row will be displayed as a single column. The lower the breaking point, the more it will keep the rows unchanged (even on smaller screens).
 
 ![The row settings dialog, showing the breaking point dropdown](images/block_breakpoint.png "the block breakpoint dialog" )
 
@@ -243,9 +244,9 @@ Regarding the availability of typefaces/fonts please read [fonts](#fonts).
 #### Mixing Images and Text
 
 An important advice regarding text tools in the graphical editor is to __keep
-them short__. As a rule of thumb, keep the height below 1-2 screenheights maximum. Taller
-tools can result in positioning errors between the text content and other tools
-and text in your exposition.
+them short__. As a rule of thumb, keep the height below 1-2 screenheights
+maximum. Taller tools can result in positioning errors between the text content
+and other tools and text in your exposition.
 
 *The reason for this is that browsers are not identical when it comes to text-rendering, there are actually minute differences (a fragment of a pixel) that can add up and cause serious alignment issues if your tools are bigger. This risk is worsened by the fact that you as the author will not notice: because the magnitude of error is actually dependent on what browser your reader is using.* 
 
@@ -271,8 +272,6 @@ the text, it will be impossible for the reader to see all the text.
 #### History
 
 See [history](#history).
-
-
 
 ### HTML Tool
 
@@ -357,7 +356,7 @@ __commands__ – __restore deleted tools__.
 
 ### Image Tool 
 
-Also known as the *picture tool*
+Also known as the *picture tool*.
 
 To add a picture, drag and drop the __image__ icon from the tool
 palette onto the weave. As with all other tools, a pop-up dialog
@@ -421,11 +420,11 @@ codec* formats. All audio file formats will be transcoded to mp3s with
 
 ![Audio tool upload dialog](images/audio-tool-dialog.png "Audio Tool Dialog")
 
-To minimize loading times, audio files are automatically
+To minimize loading times for readers, audio files are automatically
 compressed. During the transcoding process, the name will be grayed out in the
 media list and a text will be shown in the preview.
 
-RC encodes with a bitrate of 256 bits per second. For further information and technical questions see [FAQ
+RC encodes with a bitrate of 256 kB per second. For further information and technical questions see [FAQ
 2.6](http://www.researchcatalogue.net/portal/faq "FAQ") or contact the
 RC User Support.
 
@@ -445,7 +444,8 @@ Will loop the playback when it reaches the end of the file.
 
 * __autoplay__ 
 The player starts to play back the file as soon as the
-page has been loaded.
+page has been loaded. Note that this may depend on the readers permissions.
+If the reader of your exposition blocks autoplay.
 
 * __stop other players__ 
 If you are using multiple audio (or video)
@@ -453,7 +453,7 @@ players on the same weave and your page is quite big, visitors may
 find it helpful if you prevent overlapping by defining which player is
 playing. With this option selected, all players (video player, audio
 player on slideshows, other audio players) will stop when the selected
-player is playing back a file. When simultaneous playback is desired, it
+player is playing back. When simultaneous playback is desired, it
 may be helpful to use the [Play-tool](#play-tool "jump to play tool
 help").
 
@@ -632,7 +632,7 @@ If you want to use a completely new image, you will have to add it to your [medi
 
 #### A Few Notes
 
-* __Never re-use the url__ of the pdf file that opens when you click the pdf tool in the preview.
+* __! Never re-use the url__ of the pdf file that opens when you click the pdf tool in the preview.
 For example: "https://media.researchcatalogue.net/rc/master/73723.pdf?t=2629205589&e=1510816850" 
 These (timed) links are automatically generated by the PDF tool specifically for the user that views the tool and are automatically invalidated after use.
 
@@ -763,6 +763,18 @@ videos or sounds, into RC expositions. Currently, the RC supports the
 following external content providers:
 [Madek](https://www.zhdk.ch/madek), Youtube, Vimeo, Soundcloud and
 Sketchfab. 
+
+#### Embedding Risks
+
+When considering embedding content from external sources, it's essential to understand the potential risks involved. Here are some key points to consider:
+
+* Trust and Reliability: When you use the embed tool, you are placing a significant amount of trust in the external site to maintain and provide access to that content. However, this trust is not always warranted, as external services can change their policies or remove content at any time, especially in the long run.
+
+* Content Removal Risks: Platforms like YouTube and others have policies that may lead to the removal of content without prior notice. For instance, videos might be taken down due to copyright claims, policy violations, or other reasons that are beyond your control.
+
+* Long-Term Availability: If your content is meant to be published permanently, relying heavily on external embeddings can be risky. Once embedded content is removed or altered, it leaves gaps in your work, which can detract from the quality and reliability of your publication.
+
+__Recommendation__: To ensure the longevity and integrity of your content, it's advisable to limit the use of external embedding, especially for key elements. Whenever possible, use internally hosted media or obtain the necessary permissions to host content directly in your exposition.
 
 The embed tool can be used by pasting the link from the page you want
 to embed in the URL field and clicking submit twice.  The first submit
