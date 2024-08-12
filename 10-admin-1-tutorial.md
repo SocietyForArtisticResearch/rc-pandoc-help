@@ -11,9 +11,15 @@ This portal admin guide consists of two parts:
 
 ### What is a Portal?
 
-A portal allows institutions to have their own dedicated section within the Research Catalogue. A portal allows institutions to organize, display, and share their research outputs and projects. An important property of a portal is that it is autonomous, it is the portal institution that decides which research it wants to make visible in it, not SAR. Institutions may use the portal's reviewing functionality to conduct their own review procedure for publications. The policies for format, reviewing and publication are decided by the portal.
+A portal allows institutions to organize, display, and share their research outputs and projects, in a dedicated section within the Research Catalogue.
 
-The contents of a portal is build from the expositions that are published in the portal or connected to it. The portal admin is the user that can control which expositions are part of the portal.
+An important property of a portal is that it is autonomous: it is the portal
+institution that decides which research it wants to make visible in it, not SAR.
+Institutions may use the portal's reviewing functionality to conduct their own
+review procedure for publications. Policies for format, reviewing and
+publication can be different for each portal, and are decided by the institution.
+
+The majority of content within a portal is built from expositions that are published in the portal or connected to it. The portal admin is the user that can control which expositions are part of the portal.
 
 ### Purpose of a Portal
 
