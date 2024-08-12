@@ -40,9 +40,9 @@ Tools can be rotated by clicking and dragging the yellow dot.
 
 The size of the current weave will automatically grow when tools are added or dragged over the current limits.
 
-<a id="block-editor"></a>
+<a id="block-editor-mode"></a>
 
-## Block Editing Mode 
+## Block Editing Mode
 
 ![block editor](images/block-editor.png "block editor")
 

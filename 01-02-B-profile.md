@@ -2,15 +2,16 @@
 
 # Profile Page
 
-The RC profile page is both the central hub for your activities on the RC and a public presentation of your research. You can create a detailed public profile containing two main sections. The first section contains biographical data, informations on projects and events. The second section is a list of your RC objects, such as media sets and expositions.
+The RC profile page is both the central hub for your activities on the RC and a public presentation of your research. You can create a detailed public profile containing two main sections. The first section contains biographical data, information on projects and events. The second section is a list of your RC objects, such as media sets and expositions.
 
 Only expositions which are [shared](#share "documentation on sharing") or
 [published](#publication "documentation on publication") will be visible to
-others. Additionally, you can hide ??? groupings of expositions through
+others. Additionally, you can hide groupings of expositions through
 the small dot next to the grouping.
 
-Reviewers will also see the headers "Exposition Reviewing" or "Application Reviewing", containing links to the expositions they have
-been assigned to.
+If you are a reviewer, you will also see the headers "Exposition Reviewing" or
+"Application Reviewing" on your own profile, containing links to the expositions
+they have been assigned to.
 
 ## Profile Section
 
@@ -23,7 +24,12 @@ profile")
 
 ### Description 
 
-You can add a biography or text, that other RC users will see when they visit your profile. Here you can also add a tagline, set your country of residence, and list your research interests. You can also change the email address associated with your RC account that will be used to log in and notify you if you have turned on notifications. Your email address is not public. Click "edit profile" to edit all these properties.
+You can add a biography or text, that other RC users will see when they visit
+your profile. If you want, you can also add a tagline, set your country of
+residence, and list your research interests. You can also change the email
+address associated with your RC account that will be used to log in and notify
+you if you have turned on notifications. Your email address is never shared
+publicly. Click "edit profile" to edit all these properties.
 
 ### Uploading a CV
 
@@ -49,9 +55,9 @@ portal. For example: for some application programs, it may be required
 that you are member of the portal before you are able to submit an
 application for a program.
 
-In most cases however, it is the task of the portal admin to make you
-a member of their portal. Most portals therefore do not allow users to
-request membership themselves.
+In most cases however, it is the task of the portal admin to make you a member
+of their portal. Most portals therefore do not allow users to request membership
+themselves.
 
 Click "edit" to request / widthdraw a portal membership.
 

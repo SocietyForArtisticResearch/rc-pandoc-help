@@ -11,26 +11,24 @@ This portal admin guide consists of two parts:
 
 ### What is a Portal?
 
-A portal is a dedicated section within the Research Catalogue that allows institutions to organize, display, and share their research outputs and projects. A portal is autonomous: it is the portal institution that decides which research is visible in it. The policies for format, reviewing and publication are also decided by the portal.
+A portal allows institutions to have their own dedicated section within the Research Catalogue. A portal allows institutions to organize, display, and share their research outputs and projects. An important property of a portal is that it is autonomous, it is the portal institution that decides which research it wants to make visible in it, not SAR. Institutions may use the portal's reviewing functionality to conduct their own review procedure for publications. The policies for format, reviewing and publication are decided by the portal.
 
-The contents of a portal is build from the expositions written by its users. Expositions can either be submitted to the portal and made visible through publication, or directly linked to the portal. On a technical level, it is the portal admin that moderates which expositions are visible through the portal, however, the choice of what to include is dependent on the publication policy of the institution.
+The contents of a portal is build from the expositions that are published in the portal or connected to it. The portal admin is the user that can control which expositions are part of the portal.
 
 ### Purpose of a Portal
 
-* Showcase research: either by publishing as journal or provide a platform to highlight the research projects of an institution’s faculty, researchers, and students to the external visitors.
+* Showcase research externally: either by publishing as journal or provide a platform to highlight the research projects of an institution’s faculty, researchers, and students to the external visitors.
 
-* Increase internal visibility: by making research outputs publicly accessible, the portal helps increase the visibility of the institution's research efforts.
-
-* Facilitate collaboration: it enables collaboration among researchers by providing a space to share findings and methodologies with peers worldwide.
+* Increase internal visibility: by making research outputs accessible within the portal, the portal helps increase the visibility of the institution's research efforts to its members.
 
 * Preserve Research: the portal serves as a digital archive that preserves the institution’s research outputs for future reference and use.
 
-For more information on portal partnership and its benefits:  
+For more information on portal partnership and its benefits:
 <https://societyforartisticresearch.org/rc/portal-partnership/>.
 
 ### Portal pages
 
-The portals and their content can be accessed through the front page of the RC, in three categories:
+The portals can be accessed through the front page of the RC, in three categories:
 
 * [Institutional portals](https://www.researchcatalogue.net/portal/institutions)
 * [Journals](https://www.researchcatalogue.net/portal/journals)
@@ -47,7 +45,7 @@ The portals and their content can be accessed through the front page of the RC, 
 
 A portal in the research catalogue provides the following functionalities:
 
-* Portal admins can create and manage users.
+* Portal admins can create and manage users. 
 
 * Research may be submitted, reviewed and published in the portal. Within educational environments, examination work may be submitted, assessed and archived using similar mechanisms.
 
@@ -81,6 +79,8 @@ portal admin account, as admininstration rights should not come in the wrong han
 </div>
 
 ### Creating new users within the portal
+
+<!-- Insert screenshot of user page -->
 
 Users are created and managed in the "Users" tab of the portal adminstration:  
 <https://www.researchcatalogue.net/admin/user/list>
@@ -153,6 +153,8 @@ Below is a diagram of review, "connecting to" and sharing of expositions:
 
 ### Reviewing and publication
 
+<!-- Show reviewing page -->
+
 We will now describe the review and publication workflow of a portal.
 
 The first step is that the author submits the exposition for review by a portal.
@@ -205,6 +207,8 @@ themselves from their profile page, or the administrator can use the button in
 the "reviewing" page to change the status back to "in review", and the exposition content is locked again.
 
 ### Final Publication or Rejection
+
+<!-- Show accept reject buttons and dialog of accepting -->
 
 Once the review process has been completed, the portal can choose to
 either publish or dismiss the exposition. If the exposition is
@@ -267,6 +271,8 @@ research list.
 
 ### Connecting an exposition to the portal
 
+<!-- screenshot of connecting to portal -->
+
 The key aspect of a typical exposition publication in an RC portal is that it results in a permanent online object.
 
 However, sometimes, it is useful to make an exposition visible on the portal page while it is still being written.
@@ -280,3 +286,7 @@ The portal admin will be able to accept such a request by accepting it here:
 ### Portal feed
 
 A portal feed that provides basic information about the institutions, recently edited content, publications and research groups within the RC portal.
+
+<!-- ### Managing portal 
+
+There is an exposition page within portals that allows portal admins to manager their previous publications, update metadata etc.. -->

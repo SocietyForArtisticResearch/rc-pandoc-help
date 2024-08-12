@@ -1,8 +1,27 @@
+# About this guide
+
+This is the extended guide. It tries to be as complete as possible manual for
+all features of the RC. If you just want to get started quickly with creating an
+exposition, be sure to check the [quick start
+guide](https://www.researchcatalogue.net/RC%20Quick%20Start%20Guide.pdf "quick
+start pdf") or the [video
+tutorials](https://www.researchcatalogue.net/view/273532/1685164 "video
+tutorials") first.
+
 # About the Research Catalogue
 
-The Research Catalogue (RC) is a non-commercial, collaboration and publishing platform for artistic research provided by the <a href="https://societyforartisticresearch.org" title="SAR website" target="_blank">Society for Artistic Research</a>. The RC is free to use and access for artists and researchers. It serves also as a backbone for teaching purposes, student assessment, peer review workflows and research funding administration. It strives to be an open space for experimentation and exchange. 
+The Research Catalogue (RC) is a non-commercial, collaboration and publishing
+platform for artistic research provided by the <a
+href="https://societyforartisticresearch.org" title="SAR website"
+target="_blank">Society for Artistic Research</a>. The RC is free to use and
+access for artists and researchers. It serves also as a backbone for teaching
+purposes, student assessment, peer review workflows and research funding
+administration. It strives to be an open space for experimentation and exchange. 
 
-Research Catalogue (RC) content presented through some of our portals is peer reviewed, while the remaining expositions and other information are quality controlled by the individual author(s) themselves. As a result, the RC is highly inclusive. 
+Research Catalogue (RC) content presented through some of our portals is peer
+reviewed, while the remaining expositions and other information are quality
+controlled by the individual author(s) themselves. As a result, the RC is highly
+inclusive. 
 
 The open access and open source spirit of the RC is essential to its nature and
 serves its function as a connective and transitional layer between academic

@@ -2,7 +2,7 @@
 
 It is possible to import a website of static HTML into the RC. This
 feature is aimed at users that are familiar with HTML and want to use
-their own editor.
+their own editor. 
 
 For security reasons, JavaScript is not supported, but CSS files,
 `<img> <video> <audio>` tags can be used. The folder containing your

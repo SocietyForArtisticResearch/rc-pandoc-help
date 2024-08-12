@@ -9,16 +9,18 @@ expositions connected to the group as well as general information. As a member,
 you can create (your own) expositions within the group, that will be directly
 visible to all the group's members.
 
-The group may also have one or more admins (administrators). The group's admins
-have the ability to manage the members, expositions and edit the description and
+The group may also have one or more group admins (administrators). The groups's admins
+have the ability to manage the groups' members, expositions and edit the description and
 other metadata. They can also set collaborations for the expositions that are
-connected to the group. In some sense the group is a mini-portal within the portal.
+connected to the group. In some sense the group is a sub-portal within the portal.
 
-The group's visibility to the outside world can be controlled: it can be private
-where only its members have access to it, or it can be shared in the portal or
-made completely public. 
+The group's visibility to the outside world can be controlled: 
 
-User groups are created by the portal admin(s). The public groups of a portal
+* private (for internal use in the group)
+* portal (visible only to the portal members)
+* public (visible to all)
+
+Groups are always created by the portal admin(s). The public groups of a portal
 can be found on the [portal feed
 page](https://www.researchcatalogue.net/portal/institutions). Private groups of
 which you are a member appear on your profile page.

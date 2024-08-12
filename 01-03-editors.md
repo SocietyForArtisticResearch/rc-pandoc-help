@@ -13,14 +13,18 @@ The Research Catalogue offers two general-purpose editors:
 
 *Users can combine both __graphical__ and __block__ pages in a single exposition.*
 
-And two specialized editors (cannot be combined):
+And two aditional specialized formats (cannot be combined):
 
-- **text-based** editor 
+- **text-based**  
 - **HTML** import
 
-When creating a new exposition you are asked to choose which editor you want to start with. Graphical and block pages are part of the same format and can be mixed,
-but text and HTML are separate formats. It is therefore important to
-make the right choice for a particular project at the outset. For an overview of selected use cases, and how to make an informed decision on the editor choice, please visit [this exposition](https://www.researchcatalogue.net/view/2445101/2445102).
+When creating a new exposition you are asked to choose which editor you want to
+start with. Graphical and block pages are part of the same format and can be
+mixed, but text and HTML are separate formats. This makes it important to choose
+the right format. Most beginners will want to use the block or graphical editor.
+For an overview of selected use cases, and how to make an informed decision on
+the editor choice, please visit [this
+exposition](https://www.researchcatalogue.net/view/2445101/2445102).
 
 Some portals will not accept HTML imported submissions. Please consult the portal beforehand, in case you are planning to submit and want to use the HTML import feature.
  
@@ -28,7 +32,7 @@ Some portals will not accept HTML imported submissions. Please consult the porta
 
 ### Graphical Editor
 
-The [**graphical editor**](#workspace-editor), allows the author to
+The [**graphical editor**](#workspace-editor-for-graphical-expositions), allows the author to
 set the position of each element in the page. This makes it easy to
 build rich graphical pages in which text and media, such as
 images, video and audio files, are freely positioned in a infinite canvas. However, due to their non-linear nature, graphical expositions are not
@@ -38,32 +42,34 @@ either the block editor or the text-based editor might be more suitable for your
 
 ### Block Editor
 
-The [**block editor**](#block-editor), uses the same tools and
-the drag-and-drop interface of the graphical editor, but positioning is
-relative. As a result, block pages are fully
-["responsive"](https://en.wikipedia.org/wiki/Responsive_web_design). Instead
-of an absolute grid and an infinite canvas, the block editor uses a traditional rows-columns structure. It is
-suitable for editing pages that have a lot of "inline" content,
-where media is inserted between or beside blocks of text, or media has to be
-positioned in relation to certain elements in a text. It is less
-flexible for creating diagrams, maps, or for overlaying materials.
+The [**block editor**](#block-editor-mode), uses the same tools and the
+drag-and-drop interface of the graphical editor, but positioning is relative. As
+a result, block pages are fully
+["responsive"](https://en.wikipedia.org/wiki/Responsive_web_design). Instead of
+an absolute grid and an infinite canvas, the block editor uses a more
+newspaper-like rows-columns structure. It is suitable for editing pages that
+have a lot of "inline" content, where media is inserted between or beside blocks
+of text, or media has to be positioned in relation to certain elements in a
+text. It is less flexible for creating diagrams, maps, or for overlaying
+materials.
 
 ### Text-Based Editor
 
 The [**text-based editor**](#text-based-editor) allows creating blog-like
-expositions through writing and editing text. Pages using the text-based editor
+pages through writing and editing text. Pages using the text-based editor
 cannot be combined with block or graphical editors. The editor is optimized for
-writing (and importing) texts, while still supporting the embedding of media.
-You can structure and format your exposition using
+writing (and importing) texts, while still supporting the embedding of inline media.
+
+You can structure and format the text using the commonly used
 [Markdown](http://https://en.wikipedia.org/wiki/Markdown) notation. Content can
 be automatically imported and exported from and to various external formats, for
-example MS Word documents, Open Office documents and LateX. Styling can be
-customized extensively using [CSS](https://www.w3schools.com/css/ "more
+example Word, Open Office and LateX documents. Styling can be
+customized extensively using standard [CSS](https://www.w3schools.com/css/ "more
 information on CSS"). Text-based expositions are *responsive* and thus mobile-friendly.
 
 ### HTML Import
 
-For more customization, you can [import a static HTML](#html-import) website as a
+For even more customization, you can [import a static HTML](#html-import) website as a
 whole. JavaScript is not supported.
 
 ### Comparison of RC Exposition Formats
