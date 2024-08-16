@@ -19,7 +19,7 @@ Institutions may use the portal's reviewing functionality to conduct their own
 review procedure for publications. Policies for format, reviewing and
 publication can be different for each portal, and are decided by the institution.
 
-The majority of content within a portal is built from expositions that are published in the portal or connected to it. The portal admin is the user that can control which expositions are part of the portal.
+The majority of content within a portal is built from expositions that are published in the portal or connected to it. The portal admin is a special user role that controls the appearance of the portal, its users and the publication and connection of expositions to it.
 
 ### Purpose of a Portal
 

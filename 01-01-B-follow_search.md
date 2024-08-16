@@ -10,7 +10,7 @@ specific criteria such as object type, keywords, authors, etc.
 ## Experimental Map
 
 There is also a visual map of the RC in development:
-[map.rcdata.org](map.rcdata.org "a visual map of the RC")
+[https://map.rcdata.org](https://map.rcdata.org "a visual map of the RC")
 
 ## Researchers
 
