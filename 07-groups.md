@@ -86,8 +86,8 @@ The group's page visibility can be changed by the group admin or portal admin.
 - __visible within the portal__: only members of the portal can see it
 - __public__: visible to all
 
-Expositions connected to the group can be seen by all members (even if they are
-otherwise private). 
+Expositions connected to the group can be seen by all members, even if they are
+otherwise private. 
 
 The visibility of expositions is not modified for any user outside of the group:
 if a private exposition is connected to a public group for example the
