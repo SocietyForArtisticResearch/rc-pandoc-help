@@ -44,6 +44,13 @@ connected to the group. To do this, scroll to the exposition on your profile,
 click ☰ -> __"Connect to"__ menu. *Note: you can only request a exposition to be
 connected to the groups of which you are a member.*
 
+While an exposition is part of a group, it will be visible to all group members
+and group admins, even if it is otherwise _private_. The exposition can be
+removed by the groupadmin if it should no longer be part of the group, through
+__managing connections__, at which point it will no longer be accessible by the
+group members.
+
+
 ## Roles within Groups
 
 There are two roles within the group:
@@ -73,20 +80,19 @@ have to confirm membership first in __collaboration__.
 
 ## Group Visibility
 
-The group visibility can be changed by the group admin or portal admin.
+The group's page visibility can be changed by the group admin or portal admin.
 
 - __private__: visible only to its members and the portal admin 
 - __visible within the portal__: only members of the portal can see it
 - __public__: visible to all
 
 Expositions connected to the group can be seen by all members (even if they are
-otherwise private). The visibility of expositions of non-members of the group
-are controlled by each individual exposition share or publication status. 
+otherwise private). 
 
-If a group is public, other visitors will only see expositions that are
-explicitely made public. This means there is the possibility to have private
-expositions that are only visible to members of the group but not to anybody
-else.
+The visibility of expositions is not modified for any user outside of the group:
+if a private exposition is connected to a public group for example the
+exposition will remain private to the outside world and only visible to the
+group members.
 
 ## Admin Role, Managing Group Information and Members
 
