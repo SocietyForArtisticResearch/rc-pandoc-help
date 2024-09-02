@@ -94,6 +94,9 @@ if a private exposition is connected to a public group for example the
 exposition will remain private to the outside world and only visible to the
 group members.
 
+An exposition can be disconnected by the group admin, at this point it will no
+longer be accessible for the group members.
+
 ## Admin Role, Managing Group Information and Members
 
 A group page has a title, description, status, preview image and member list.
