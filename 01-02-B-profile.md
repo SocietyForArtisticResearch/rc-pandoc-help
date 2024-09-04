@@ -150,7 +150,7 @@ research on My Profile")
 ## Manage Versions
 
 It is possible to create a snapshot of your exposition, which you can
-restore later.
+restore later. 
 
 A snapshot is created by going to ☰ > __versions__ and clicking __add
 snapshot__.
@@ -158,8 +158,9 @@ snapshot__.
 ![version dialog](images/manage-versions.png "manage
 versions dialog")
 
-When you restore a snapshot, the original is not overwritten, instead
-a new exposition will be created from the snapshot.
+When you restore a snapshot, the original is never overwritten, instead a new
+exposition, with a new id and urls, will be created from the snapshot. You can
+also use this property of snapshots to duplicate or clone an exposition. 
 
 There are three options for how to deal with the
 [collaboration](#collaborating-on-research) settings of a restored
