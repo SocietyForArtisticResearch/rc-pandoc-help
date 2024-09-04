@@ -113,11 +113,11 @@ It is also possible for existing RC users to request membership to a portal on t
 
 ![requesting portal membership](images/location_of_portal_membership.jpg "member of option location on user profile")
 
-The portal admin can accept (or reject, in case the request was made in error) such request through messages.
+The portal admin can accept (or reject, in case the request was made by mistake) such requests through messages.
 
 #### Roles 
 
-A new account can be made as a __basic account__ or a __full account__. A basic account cannot create or publish conten. Basic accounts may be useful in case of creating external reviewers or supervisors.
+A new account can be made as a __basic account__ or a __full account__. A basic account cannot create or publish content. Basic accounts may be useful in case of creating external reviewers or supervisors.
 
 <a id="full-account-toggle"></a>
 
@@ -177,8 +177,7 @@ The portal admin will receive a message from the RC that a new exposition is rea
 The RC automatically creates a snapshot of the exposition when the author submits the exposition for review. This allows to trace between different versions of the exposition later.
 
 If the review request was sent by accident or to the wrong portal, the publication request can be declined by the portal
-administrator. The admin can also do this under __administration > reviewing__ and clicking the __X__ next to the research title. This
-will also open the exposition for editing again.
+administrator. The admin can also do this under __administration > reviewing__ and clicking the __X__ next to the research title. This will also open the exposition for editing again.
 
 #### Reviewing, Assigning Reviewers
 
@@ -186,7 +185,7 @@ The next step is to assign reviewers to the exposition.
 For a person to be available as reviewer, they have to:
 
 1. have an RC account 
-2. added to the reviewer pool of the portal.
+2. be part of the reviewer pool of the portal.
 
 You can do so both in one go, by using "create reviewer" button on the portal ["users" list](https://www.researchcatalogue.net/admin/user/list). This will also work for users that have already an account in the RC. The reviewer role does not require a full RC account, a basic account suffices.
 
