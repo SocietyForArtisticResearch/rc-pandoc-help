@@ -35,7 +35,7 @@ Research (SAR)](https://www.societyforartisticresearch.org "Society for Artistic
 
 Research Catalogue can be used for creating research documentation, editing
 articles, collaborative writing, thesis works, peer reviewed journal
-publications and course materials.
+publications and course materials. It has also been used for setting up low-
 
 <!-- ## Why Use RC ?
 

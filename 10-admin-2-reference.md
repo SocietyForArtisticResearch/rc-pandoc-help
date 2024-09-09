@@ -4,7 +4,7 @@
 
 ### Administration Main Page
 
-To reach the administration functionalities of the RC website, click on __administration__, located in the top right corner. To return to your own profile, you can click on the Research Catalogue logo. Only portal admins have access to these pages.
+Once you are an administrator of the RC, the administration functions will appear under your "profile" button. Once you are in any of the administration pages, you can also switch between them by clicking the headers within the administration interface. To return to your own profile, you can click on the Research Catalogue logo. 
 
 ![admin main page](images/admin_main.png "the administration main page")
 
@@ -334,6 +334,9 @@ __author__:
 
 __coauthor__:
 	The other authors of the exposition.
+
+__last-modified__:
+	The last modification date, as a [POSIX timestamp](https://www.epochconverter.com/ "explanation of what a POSIX stamp is") of the last modification date. The timezone of this value is CEST.
 
 
 
