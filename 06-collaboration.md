@@ -38,6 +38,8 @@ There are 3 types of collaborators:
 
 ### The _owner_ role
 
+<a id="owner-role"></a>
+
 Every exposition has exactly one owner. The owner is one of the author(s), and has some extra capabilities:
 
 * Can delete the exposition.
@@ -201,18 +203,22 @@ or [journals](https://www.researchcatalogue.net/portal/journals)).
 
 To request review within a portal, click ☰ -> submit for review. You
 will be prompted to select to which portal you want to submit. After
-submitting, the exposition will show "in review" status.
+submitting, the exposition will show "in review" status. 
 
-While the exposition is "in review" state it can no longer be
-edited. The portal admin or editor will contact you regarding the
-reviewing process. The portal admin can unlock the exposition by
-putting it "in revision", or rejecting the publication request. In the
-first case you or the admin can lock it again, in the second case you
-will have to resubmit it using the normal method.
+While the exposition is "in review" state it can no longer be edited. The portal
+admin or editor will contact you regarding the reviewing process. The portal
+admin can unlock the exposition by putting it "in revision", or rejecting the
+publication request. In the first case you or the admin can lock it again, in
+the second case you will have to resubmit it using the normal method. 
 
 After the portal admin accepts the publication request, you will
 receive a message and the content of the exposition will be
 premanently locked.
+
+#### Submitting collaborated expositions
+
+Expositions can only be submitted by the main author or owner of the exposition.
+So a co-author or contributor cannot submit an exposition for review. See [owner](#owner-role).
 
 ## Connect to Portal
 

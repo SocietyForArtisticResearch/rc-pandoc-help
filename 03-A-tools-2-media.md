@@ -1,3 +1,5 @@
+
+
 ## Content Manager / Editor Tab
 
 The content manager is a collection of tabs located on the right side
@@ -20,6 +22,8 @@ management")
 <a id="media-management"></a>
 
 <a id="overview"></a>
+
+<a id="content-manager-map"></a>
 
 ### Map
 

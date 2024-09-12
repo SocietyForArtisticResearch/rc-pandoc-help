@@ -69,7 +69,7 @@ The Research Catalogue provides an automatically generated landing page that dis
 
 You can configure some aspects of this page by opening the __"portals"__ functionality within the profile menu of your admin account, then click the little page icon to open the portal settings. Here you can provide a description, logo and manage roles. For more info, consult the [portal reference section](#portal-page).
 
-Important: if a portal is new, the portal will not listed on the RC until you inform SAR (info@societyforartisticresearch.org) that it has some content and can be made visible.
+Important: if a portal is new, the portal will not listed on the RC until you inform SAR (info@societyforartisticresearch.org) that it has some content and can be made visible. 
 
 ### Portal workflow tutorial
 

@@ -4,6 +4,14 @@
 
 # Creating Expositions
 
+You can start a new exposition from your [profile
+page](www.researchcatalogue.net/profile) page, by clicking __Create Exposition__. You will need to provide a title, abstract and copyright as minimum. If you
+are the creator of an exposition, the copyright is typically your own name. All
+of these may be changed later.
+
+If you do not see \[ create exposition \], you may have to arrange a [full
+account](#upgrading-your-account) first. 
+
 ## Choosing an Editor 
 
 The Research Catalogue offers two general-purpose editors:

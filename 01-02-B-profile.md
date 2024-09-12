@@ -114,7 +114,10 @@ do not use this option. This is the only way the RC will register a DOI outside 
 * __Submit for review__ this will submit the publication for review (and possibly publication). 
   Submitting will change the status of the exposition to "in review" and will prevent you from editing it further.
    *Only the [owner](#the-owner-role) can submit for review and only the portal admin can undo it.*
-  [See a full visual overview of review workflow here.](https://www.researchcatalogue.net/view/2666692/2666693) 
+  [See a full visual overview of review workflow here.](https://www.researchcatalogue.net/view/2666692/2666693)
+
+* __Resubmit for review__ this option is shown when the exposition was put "in revision" during a review process.
+It is only available to the exposition [owner](#owner-role). Using it will lock the exposition and inform the portal admin that the exposition has been resubmitted.
 
 * __Connect to__ send a connection request to a Portal or Group. *Only the [owner](#the-owner-role) can do this.*
 
