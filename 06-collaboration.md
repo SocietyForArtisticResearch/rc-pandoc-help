@@ -140,6 +140,8 @@ The share option can be found under the object menu (<img
 class="tiny_icon" src="images/menu.png" alt="hamburger menu icon">) of
 each object on your profile.
 
+![sharing menu dialog](images/sharing-options.png "sharing options")  
+
 There are four modes of sharing:
 
 * __private__ (__default__) : only visible to you or the
@@ -152,23 +154,26 @@ There are four modes of sharing:
   also select multiple.
 * __public__ : visible to anyone on the internet.
 
+<a href="line-share-option"></a>
+
 Independent of the above choices there is a check box:
 
-* __link share__ : The object is accessible through a "secret"
-  link. Only people that have the link can view the object. This is
-  useful for sharing with readers without an RC account, by turning
-  the option on and mailing them the link.
+![share link option](images/share-link-option.png "share link option")
+
+__link share__ : *"When enabled, the object is accessible..."* The exposition is
+  accessible through the link displayed next to it, which is not shown anywhere
+  else. This is useful for sharing with readers without an RC account, by
+  turning the option on and mailing them the link. 
   
-A common use is to keep the exposition private but share the link with
-a few persons, via e-mail for example. Note that even if you tick
-the link share box, you still need to apply this change by using the
-"submit" button. Remember to copy the link first.
+Tip: Do not forget to submit the form, as the secret link will become active
+after submitting the form.
 
-Link share can be combined with any of the other sharing modes (private,
-RC users, limited to portal, public). An exposition can for example be
-shared within a portal but simultaneously be accessible through the "secret" link.
+Link share can be combined with any of the other sharing modes (private, RC
+users, limited to portal, public). An exposition can for example be shared
+within a portal but simultaneously be accessible to some other people through
+the "secret" link.
 
-![sharing menu dialog](images/sharing-options.png "sharing options")  
+
 
 ## Publication
 
