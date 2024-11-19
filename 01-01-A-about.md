@@ -34,8 +34,12 @@ Research (SAR)](https://www.societyforartisticresearch.org "Society for Artistic
 ## What is the RC used for?
 
 Research Catalogue can be used for creating research documentation, editing
-articles, collaborative writing, thesis works, peer reviewed journal
-publications and course materials. It has also been used for setting up low-
+articles, reports, collaborative writing, thesis/dissertation works, peer
+reviewed journal publications and class logbooks. 
+
+
+
+It can also be used to present research data in a human friendly layout.
 
 <!-- ## Why Use RC ?
 
@@ -54,11 +58,17 @@ art itself. -->
 
 ## What is an RC Exposition ?
 
-In contrast to other research repositories, research data is not presented as
-folders or lists of files. Using the RC exposition format, authors can design a
-freeform webpage in which both reflective texts and other media can be presented
-and properly contextualized. This allows an author not just to illustrate a
-text, but demonstrate knowledge emerging from artistic practice.
+Unlike traditional research repositories, which present data as PDF documents or
+folders of files, the RC employs a unique exposition format: a free form,
+flexible and media-friendly webpage.
+
+This format is particularly well-suited for merging different forms of media and
+text into a single highly customizable presentation. The flexibility in
+structure accommodates the diverse, context-specific needs of organizing
+materials produced in artistic research. 
+
+If you want to know more this may be a good starting point:  
+[Expositionality in Action (Michael Schwab 2024)](https://www.researchcatalogue.net/view/1024139/1029718)
 
 ## Connection Between RC and JAR
 

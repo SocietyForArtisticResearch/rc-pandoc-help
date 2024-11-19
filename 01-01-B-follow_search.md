@@ -7,10 +7,12 @@ corner. Moreover you can use the "advanced search" functionality,
 which allows for filtered searches and and searches according to
 specific criteria such as object type, keywords, authors, etc.
 
-## Experimental Map
+## Visual Map
 
-There is also a visual map of the RC in development:
-[https://map.rcdata.org](https://map.rcdata.org "a visual map of the RC")
+A visual way of exploring content in the Research Catalogue. This map actually
+allows you to do normal search, but the results are miniatures of the actual
+content of the exposition: [https://map.rcdata.org](https://map.rcdata.org "a
+visual map of the RC")
 
 ## Researchers
 
@@ -19,11 +21,17 @@ You can find all researchers with public content of the RC here:
 
 ## Journals
 
-<https://www.researchcatalogue.net/portal/journals>
+<https://www.researchcatalogue.net/portal/journals> All journals listed here are
+open for submissions, but do visit their portal first to see specific
+requirements/calls.
 
 ## Institutional Portals
 
 <https://www.researchcatalogue.net/portal/institutions>
+
+## Projects
+
+These are for (time limited) Research Projects.
 
 ## Follow 
 
