@@ -216,8 +216,8 @@ Here one can change:
 ### Raw CSS
   
 You can set user defined [CSS](https://www.w3schools.com/css/ "css
-tutorial") rules that are applied to the whole page. Cascading Style
-Sheets are the standard way of styling HTML documents. Although most
+tutorial") rules that are applied to the page or the exposition as a whole. Cascading Style
+Sheets are the standard way of styling HTML documents. Although a lot of
 styling can be directly edited through the style tab, it can
 sometimes be useful to specify your own CSS.
   

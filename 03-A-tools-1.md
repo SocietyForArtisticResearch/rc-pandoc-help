@@ -853,6 +853,7 @@ Click on the small ">" to open one of these sections:
   * __unschaerfe__ : this will set how wide the fuzzy part of the shadow is. You can also use this when margins are 0, resulting in a completely fuzzy shadow around the object.
   * __color__ : set the color of the shadow.
 - __opacity__ : smaller values will make the tool more transparent.
+- __css__ : set one or more custom CSS classes that can be used trough raw CSS tab on page or exposition level
   
 
 The style tab only sets the external style of the
