@@ -59,8 +59,7 @@ Files that are listed in gray are in the process of being transcoded.
 
 There four buttons on top of the list of files, from left to right:
 
-![Simple media tab](images/media_manage.png " the simple
-media tab")
+![Simple media tab](images/media_manage.png "the simple media tab")
 
 - Upload a file
 - Preview a file
