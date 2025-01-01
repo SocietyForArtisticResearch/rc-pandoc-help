@@ -415,3 +415,13 @@ ul ul>li .toc-icon {
     top: 5px;
     position: relative;
 }
+
+.chapter-toc ul {
+    list-style: none;
+    column-count: 2;
+}
+
+.chapter-toc ul li { 
+    line-height: 1.5em;
+    
+}

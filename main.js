@@ -185,31 +185,37 @@ window.addEventListener('DOMContentLoaded', function () {
 
         function insert_chapter_tocs() {
             // insert little chapter tocs into the chapter text, so that it is easier to navigate a chapter.
-            const navLinks = document.querySelectorAll('#TOC > ul > li > a');
+            const toc = document.querySelector('#TOC > ul');
 
-            navLinks.forEach(link => {
-                // Find the corresponding chapter section
+            // Iterate through each top-level TOC item
+            toc.querySelectorAll(':scope > li > a').forEach(link => {
+                // Get the corresponding chapter ID from the href attribute
                 const chapterId = link.getAttribute('href').substring(1); // Remove the '#' from href
                 const chapterSection = document.getElementById(chapterId);
 
-                // Create a new TOC for the chapter
-                const subItems = link.parentElement.querySelectorAll('ul > li > a');
-                if (subItems.length > 0) {
+                // Ensure the chapter exists in the document
+                if (chapterSection) {
+                    // Create a new container for the chapter's TOC
                     const chapterToc = document.createElement('div');
                     chapterToc.classList.add('chapter-toc');
-                    chapterToc.innerHTML = '<h2>In this chapter:</h2><ul></ul>';
+                    chapterToc.innerHTML = '<h2>In this chapter</h2><ul></ul>';
 
+                    // Get only the first-level items under this TOC item
                     const chapterTocList = chapterToc.querySelector('ul');
-                    subItems.forEach(subLink => {
+                    const firstLevelItems = link.parentElement.querySelectorAll(':scope > ul > li > a');
+                    console.log(firstLevelItems,'first level');
+                    firstLevelItems.forEach(subLink => {
                         const listItem = document.createElement('li');
-                        const subLinkClone = subLink.cloneNode(true); // Clone the sublink
+                        const subLinkClone = subLink.cloneNode(true); // Clone the first-level sublink
                         listItem.appendChild(subLinkClone);
                         chapterTocList.appendChild(listItem);
                     });
 
-                    // Insert the chapter TOC right after the chapter's main header
-                  
-                    chapterSection.insertAdjacentElement('afterend', chapterToc);
+                    // Insert the TOC into the chapter after its main header
+                    const chapterHeader = chapterSection;
+                    if (chapterHeader) {
+                        chapterHeader.insertAdjacentElement('afterend', chapterToc);
+                    }
                 }
             });
         };
