@@ -203,7 +203,6 @@ window.addEventListener('DOMContentLoaded', function () {
                     // Get only the first-level items under this TOC item
                     const chapterTocList = chapterToc.querySelector('ul');
                     const firstLevelItems = link.parentElement.querySelectorAll(':scope > ul > li > a');
-                    console.log(firstLevelItems,'first level');
                     firstLevelItems.forEach(subLink => {
                         const listItem = document.createElement('li');
                         const subLinkClone = subLink.cloneNode(true); // Clone the first-level sublink
@@ -213,7 +212,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
                     // Insert the TOC into the chapter after its main header
                     const chapterHeader = chapterSection;
-                    if (chapterHeader) {
+                    if (chapterHeader && (firstLevelItems.length > 0)) {
                         chapterHeader.insertAdjacentElement('afterend', chapterToc);
                     }
                 }
