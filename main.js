@@ -227,6 +227,6 @@ window.addEventListener('DOMContentLoaded', function () {
         make_hrefs_blank();
         createAnchorHelpers();
         makeTOCFoldable();
-        insert_chapter_tocs();
+       // insert_chapter_tocs();
     }
 });
