@@ -198,7 +198,7 @@ window.addEventListener('DOMContentLoaded', function () {
                     // Create a new container for the chapter's TOC
                     const chapterToc = document.createElement('div');
                     chapterToc.classList.add('chapter-toc');
-                    chapterToc.innerHTML = '<h2>In this chapter</h2><ul></ul>';
+                    chapterToc.innerHTML = '<h2>In this chapter:</h2><ul></ul>';
 
                     // Get only the first-level items under this TOC item
                     const chapterTocList = chapterToc.querySelector('ul');
@@ -227,6 +227,6 @@ window.addEventListener('DOMContentLoaded', function () {
         make_hrefs_blank();
         createAnchorHelpers();
         makeTOCFoldable();
-       // insert_chapter_tocs();
+        insert_chapter_tocs();
     }
 });

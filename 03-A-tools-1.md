@@ -26,7 +26,7 @@ On the right you will find the content manager, consisting of four tabs:
 | [pages](https://guide.researchcatalogue.net/#pages) | manage pages                             |
 
 
-## Adding Tools in Graphical Editing Mode
+### Adding Tools in Graphical Editing Mode
 
 A tool is created by [dragging](https://en.wikipedia.org/wiki/Drag_and_drop) the icon onto the canvas.
 

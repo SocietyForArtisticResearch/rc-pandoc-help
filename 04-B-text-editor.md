@@ -141,8 +141,7 @@ Advantages:
 Disadvantages:
 
 - You cannot style your text while you write it
-- It is not possible to be very precise about location of elements.
-- Sometimes, Markdown can be a bit quirky with newlines.
+- Markdown can be a bit counterintuitive, especially with the way it handles newlines, lists and paragraphs
  
 On desktop, the editor splits the screen in two: you can write your
 text on the left side <a href="#editor">editor</a> while the result is
