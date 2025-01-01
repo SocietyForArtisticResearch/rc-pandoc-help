@@ -1,13 +1,16 @@
 <a id="footnotes-and-popovers"></a>
 <a id="footnotes"></a>
 
-## Popovers
+## Popovers / Footnotes
 
-__Popovers__ are footnotes that pop up. They provide a way to present additional
-content in your _graphical_ and _block_ pages without cluttering the page. The
-popover appears when the reader clicks/hoovers over the popovers' activation
-hyperlink. Instead of as hyperlink within text, you can also make them show up
-on hoovering a particular image tool.
+__Popovers__ provide a way to present additional
+content in your _graphical_ and _block_ pages without cluttering the page. Popovers thus
+serve a purpose very similar to that of numbered footnotes in books, without
+the inconvenience of the reader having to look up the number, they can just
+hoover over the reference to view the extra content. The popover appears when
+the reader clicks/hoovers over the popovers' activation hyperlink. Instead of as
+hyperlink within text, you can also make them show up on hoovering a particular
+image tool.
 
 ![what a popover looks like](images/popover.gif "reader hoovers over a link, a
 popover window appears")

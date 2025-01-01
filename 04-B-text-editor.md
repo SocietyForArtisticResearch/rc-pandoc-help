@@ -124,11 +124,25 @@ this editor can also contain images, video, audio or PDF. "Text based"
 refers to the method of editing: through plain text. 
 
 Because of this plain text input, text-based expositions can be easily imported
-or edited in external editors. The consequence is that editing the visual layout
-is less direct as in the graphical based editor. The structure of the exposition
-is expressed by using Markdown, the display of which can be customized through
-style sheets (css). 
+or edited in external editors. What you express is the structure of the text
+instead (paragraphs, headers, figures, emphasis, links, inline media), without
+specifying the styling yet. To express this structure, one uses Markdown. For
+styling the text one may use Cascading Style Sheets (CSS).
 
+Advantages:
+
+- You can change the look of an exposition globaly very easily after writing it
+- Portable: you can copy and paste the source from and to external editors
+- Many programs support converting something into Markdown
+- Closer to HTML: you may use HTML directly to do some custom markup or styling
+- Responsive by default
+- Allows some templating
+
+Disadvantages:
+
+- You cannot style your text while you write it
+- It is not possible to be very precise about location of elements.
+- Sometimes, Markdown can be a bit quirky with newlines.
  
 On desktop, the editor splits the screen in two: you can write your
 text on the left side <a href="#editor">editor</a> while the result is
@@ -492,13 +506,15 @@ Then you define the footnote content at the bottom of your text with:
 
 `[^1]: This is my footnote.`
 
-The footnote content is automatically moved to the bottom of the resulting
-text. 
+Tips:
 
-Tip: the footnote identifier, does not have to be a number.
-You can also use names like (`[^fn1]` or `[^myfootnote]` etc..)
+- You may define a footnote content anywhere in your text, all footnotes will
+always be rendered at the bottom of your text.
 
- 
+- The footnote identifier, does not have to be a number. You can also use names
+like (`[^fn1]` or `[^myfootnote]` etc..). When the exposition is generated from
+the markdown, all identifiers are sorted and turned into numbers.
+
 ### Quotation
 
 A quotation is inserted by indenting your text with 4 spaces or 1 tab,

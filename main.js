@@ -183,6 +183,37 @@ window.addEventListener('DOMContentLoaded', function () {
             };
         }
 
+        function insert_chapter_tocs() {
+            // insert little chapter tocs into the chapter text, so that it is easier to navigate a chapter.
+            const navLinks = document.querySelectorAll('#TOC > ul > li > a');
+
+            navLinks.forEach(link => {
+                // Find the corresponding chapter section
+                const chapterId = link.getAttribute('href').substring(1); // Remove the '#' from href
+                const chapterSection = document.getElementById(chapterId);
+
+                // Create a new TOC for the chapter
+                const subItems = link.parentElement.querySelectorAll('ul > li > a');
+                if (subItems.length > 0) {
+                    const chapterToc = document.createElement('div');
+                    chapterToc.classList.add('chapter-toc');
+                    chapterToc.innerHTML = '<h2>In this chapter:</h2><ul></ul>';
+
+                    const chapterTocList = chapterToc.querySelector('ul');
+                    subItems.forEach(subLink => {
+                        const listItem = document.createElement('li');
+                        const subLinkClone = subLink.cloneNode(true); // Clone the sublink
+                        listItem.appendChild(subLinkClone);
+                        chapterTocList.appendChild(listItem);
+                    });
+
+                    // Insert the chapter TOC right after the chapter's main header
+                  
+                    chapterSection.insertAdjacentElement('afterend', chapterToc);
+                }
+            });
+        };
+
 
 
 
@@ -190,5 +221,6 @@ window.addEventListener('DOMContentLoaded', function () {
         make_hrefs_blank();
         createAnchorHelpers();
         makeTOCFoldable();
+        insert_chapter_tocs();
     }
 });

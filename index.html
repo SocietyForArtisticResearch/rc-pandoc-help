@@ -228,7 +228,8 @@ using Simple Media</a></li>
 Settings</a></li>
 <li><a href="#raw-css" id="toc-raw-css">Raw CSS</a></li>
 </ul></li>
-<li><a href="#popovers" id="toc-popovers">Popovers</a>
+<li><a href="#popovers-footnotes" id="toc-popovers-footnotes">Popovers /
+Footnotes</a>
 <ul>
 <li><a href="#creating-a-popover" id="toc-creating-a-popover">Creating a
 Popover</a></li>
@@ -2682,13 +2683,15 @@ make a page invisible to the reader it may be prefered to just remove it
 from the <a href="#table-of-content" title="table of content">table of
 content</a>.</p>
 <p><a id="footnotes-and-popovers"></a> <a id="footnotes"></a></p>
-<h2 id="popovers">Popovers</h2>
-<p><strong>Popovers</strong> are footnotes that pop up. They provide a
-way to present additional content in your <em>graphical</em> and
-<em>block</em> pages without cluttering the page. The popover appears
-when the reader clicks/hoovers over the popovers’ activation hyperlink.
-Instead of as hyperlink within text, you can also make them show up on
-hoovering a particular image tool.</p>
+<h2 id="popovers-footnotes">Popovers / Footnotes</h2>
+<p><strong>Popovers</strong> provide a way to present additional content
+in your <em>graphical</em> and <em>block</em> pages without cluttering
+the page. Popovers thus serve a purpose very similar to that of numbered
+footnotes in books, without the inconvenience of the reader having to
+look up the number, they can just hoover over the reference to view the
+extra content. The popover appears when the reader clicks/hoovers over
+the popovers’ activation hyperlink. Instead of as hyperlink within text,
+you can also make them show up on hoovering a particular image tool.</p>
 <figure>
 <img loading="lazy" src="images/popover.gif"
 title="reader hoovers over a link, a popover window appears"
@@ -3289,10 +3292,30 @@ RC expositions. Despite the “text” in the name, expositions made with
 this editor can also contain images, video, audio or PDF. “Text based”
 refers to the method of editing: through plain text.</p>
 <p>Because of this plain text input, text-based expositions can be
-easily imported or edited in external editors. The consequence is that
-editing the visual layout is less direct as in the graphical based
-editor. The structure of the exposition is expressed by using Markdown,
-the display of which can be customized through style sheets (css).</p>
+easily imported or edited in external editors. What you express is the
+structure of the text instead (paragraphs, headers, figures, emphasis,
+links, inline media), without specifying the styling yet. To express
+this structure, one uses Markdown. For styling the text one may use
+Cascading Style Sheets (CSS).</p>
+<p>Advantages:</p>
+<ul>
+<li>You can change the look of an exposition globaly very easily after
+writing it</li>
+<li>Portable: you can copy and paste the source from and to external
+editors</li>
+<li>Many programs support converting something into Markdown</li>
+<li>Closer to HTML: you may use HTML directly to do some custom markup
+or styling</li>
+<li>Responsive by default</li>
+<li>Allows some templating</li>
+</ul>
+<p>Disadvantages:</p>
+<ul>
+<li>You cannot style your text while you write it</li>
+<li>It is not possible to be very precise about location of
+elements.</li>
+<li>Sometimes, Markdown can be a bit quirky with newlines.</li>
+</ul>
 <p>On desktop, the editor splits the screen in two: you can write your
 text on the left side <a href="#editor">editor</a> while the result is
 shown as a <a href="#preview">preview</a> on the right hand side. It is
@@ -3574,11 +3597,15 @@ written like so:</p>
 <p>Then you define the footnote content at the bottom of your text
 with:</p>
 <p><code>[^1]: This is my footnote.</code></p>
-<p>The footnote content is automatically moved to the bottom of the
-resulting text.</p>
-<p>Tip: the footnote identifier, does not have to be a number. You can
+<p>Tips:</p>
+<ul>
+<li><p>You may define a footnote content anywhere in your text, all
+footnotes will always be rendered at the bottom of your text.</p></li>
+<li><p>The footnote identifier, does not have to be a number. You can
 also use names like (<code>[^fn1]</code> or <code>[^myfootnote]</code>
-etc..)</p>
+etc..). When the exposition is generated from the markdown, all
+identifiers are sorted and turned into numbers.</p></li>
+</ul>
 <h3 id="quotation">Quotation</h3>
 A quotation is inserted by indenting your text with 4 spaces or 1 tab,
 like so:
