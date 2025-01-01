@@ -43,7 +43,7 @@ Some portals will not accept HTML imported submissions. Please consult the porta
 The [**graphical editor**](#workspace-editor-for-graphical-expositions), allows the author to
 set the position of each element in the page. This makes it easy to
 build rich graphical pages in which text and media, such as
-images, video and audio files, are freely positioned in a infinite canvas. However, due to their non-linear nature, graphical expositions are not
+images, video and audio files, are freely positioned in an infinite canvas. However, due to their non-linear nature, graphical expositions are not
 ["responsive"](https://en.wikipedia.org/wiki/Responsive_web_design). If
 you want readers to be able to read your exposition on mobile devices, then
 either the block editor or the text-based editor might be more suitable for your project.
