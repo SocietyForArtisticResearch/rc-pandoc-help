@@ -5,19 +5,21 @@
 The content manager is a collection of tabs located on the right side
 of the graphical & block editors. It is not present in the text-based editor.
 
-![map, media, references, popover and pages tabs](images/content-manager-v2.png "media
-management")
+<figure>
+<img class="portrait-image" loading="lazy" src="images/content-manager-v2.png" title="media management" alt="map, media, references, popover and pages tabs">
+<figcaption aria-hidden="true">map, media, references, popover and pages
+tabs</figcaption>
+</figure>
 
-* map - all objects in the current weave
-* media:
-  - simple media - all media uploaded in this exposition (including
-    media that is no longer used in the weaves)
-  - sets - sets are folders of media managed by the media repository,
-    you will also find your (old) "works" here.
-* ref - manage your bibliography and references
-* pages - a list of all the different pages (pages)
-* popup - a list of rc [footnotes and
-  popovers](#footnotes-and-popovers)
+
+| Tab                                                 | Function:                                |
+| --------------------------------------------------- | ---------------------------------------  |
+| [map](#overview-1)                             | map and list overview                    |
+| [media](#simple-media)                              | view previously uploaded media files     |
+| [popup](#footnotes-and-popovers)                | manage popovers                         |
+| [ref](#references)                                 | manage references / bibliography  |
+| [pages](https://guide.researchcatalogue.net/#pages) | manage pages                             |
+
 
 <a id="media-management"></a>
 

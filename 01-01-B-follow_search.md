@@ -49,7 +49,7 @@ for each user, portal or object you follow.
 
 # Navigation while reading expositions
 
-[navigation](#navigation)
+<a id="navigation"></a>
 
 ## Navigation Bar
 

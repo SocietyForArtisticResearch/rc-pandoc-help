@@ -85,9 +85,9 @@ The list has the following actions:
 workspace"></img> </td><td> delete a footnote </td></tr> 
 </table>
 
+The popover's content is edited using the [graphical editor mode](#graphical-editor-mode). There is only one important difference: the popover canvas has a specific size which can be changed by dragging the right-bottom corner:
 
-
-Within the popover editor, you can resize it by dragging its corner.
+![Popover workspace editor](images/footnote_editor.png "screenshot, showing the toolbar, canvas and footnote list")
 
 __"simple text"__ popovers are in fact automatically generated normal popovers
 with your text inserted in a text tool. This has consequences if you want to

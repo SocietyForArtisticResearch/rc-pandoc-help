@@ -15,17 +15,6 @@ All of the above results in the graphical editor being most suitable
 for non-linear layouts. For simpler expositions, it can be worthwhile to consider using the block editor or the text based editor ( see [choosing an
 editor](https://guide.researchcatalogue.net/#choosing-an-editor) ).
 
-On the right you will find the content manager, consisting of four tabs:
-
-| Tab                                                 | Function:                                |
-| --------------------------------------------------- | ---------------------------------------  |
-| [map](#overview-1)                             | map and list overview                    |
-| [media](#simple-media)                              | view previously uploaded media files     |
-| [popup](#footnotes-and-popovers)                | manage popovers                         |
-| [ref](#references)                                 | manage references / bibliography  |
-| [pages](https://guide.researchcatalogue.net/#pages) | manage pages                             |
-
-
 ### Adding Tools in Graphical Editing Mode
 
 A tool is created by [dragging](https://en.wikipedia.org/wiki/Drag_and_drop) the icon onto the canvas.
