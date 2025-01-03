@@ -1,5 +1,6 @@
 <a id="footnotes-and-popovers"></a>
 <a id="footnotes"></a>
+<a id="popovers"></a>
 
 ## Popovers / Footnotes
 
