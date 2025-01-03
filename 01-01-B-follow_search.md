@@ -1,4 +1,4 @@
-# How to Find Expositions and Research ? 
+# How to Find Expositions and Research? 
 
 ## Search
 

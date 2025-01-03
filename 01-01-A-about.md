@@ -56,11 +56,11 @@ suitable structure in which to develop the relationship between
 documentation and presentation, whilst also retaining congruence with
 art itself. -->
 
-## What is an RC Exposition ?
+## What is an RC Exposition?
 
 Unlike traditional research repositories, which present data as PDF documents or
-folders of files, the RC employs a unique exposition format: a free form,
-flexible and media-friendly webpage.
+folders of files, the RC employs a unique format: a free form,
+flexible and media-friendly webpage, called an *exposition*.
 
 This format is particularly well-suited for merging different forms of media and
 text into a single highly customizable presentation. The flexibility in
