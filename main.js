@@ -212,7 +212,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
                     // Insert the TOC into the chapter after its main header
                     const chapterHeader = chapterSection;
-                    if (chapterHeader && (firstLevelItems.length > 0)) {
+                    if (chapterHeader && (firstLevelItems.length > 1)) {
                         chapterHeader.insertAdjacentElement('afterend', chapterToc);
                     }
                 }
