@@ -41,8 +41,10 @@ Choose whether the links in the content menu should be displayed *horizontally* 
 See the [video tutorial](https://www.researchcatalogue.net/view/273532/1685164) on this topic.
 
 It is possible to create hyperlinks between pages (or "weaves") of an
-exposition and within a single page. This process has two steps: 
-First fetch the link and then create the hyperlink.
+exposition and within a single page. This process has two steps:
+
+1. Fetch a link to a position or tool you want to link to.
+2. Insert the hyperlink within text, or attach the link to an image tool.
 
 In order to fetch a link to a different page within your exposition:
   
