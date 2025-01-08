@@ -214,5 +214,5 @@ default hyperlink color, that can be customized in the __Page__ settings page.
 
 ### Viewing the References
 
-References are listen on the META page of an expostion, at the bottom. 
+References are listed on the META page of an expostion, at the bottom. 
 
