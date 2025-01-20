@@ -37,9 +37,15 @@ Research Catalogue can be used for creating research documentation, editing
 articles, reports, collaborative writing, thesis/dissertation works, peer
 reviewed journal publications and class logbooks. 
 
-
-
 It can also be used to present research data in a human friendly layout.
+
+<figure>
+<a href="images/rc-workflow.jpg">
+<img class="workflow-chart" loading="lazy" src="images/rc-workflow.jpg" title="a diagram of the research catalogue, showing the stages: artistic practice, collection and organisation in the media repository, contextualisation of findings in the form of an exposition, sharing and peer review and assessment of the exposition and finally publication, archiving and other forms of dissemination" alt="RC functionality overview">
+<figcaption aria-hidden="true">RC functionality overview</figcaption>
+</a>
+</figure>
+
 
 <!-- ## Why Use RC ?
 
@@ -127,10 +133,14 @@ Having a portal will allow institutions to:
 - Organize researchers in portal subgroups, for easy collaboration of a small group of authors.
 - Publish and share research resources interally to only the users connected to the portal.
 - Use the RC as a closed archive.
+- Be listed as an official portal partner in the institutional portal page.
+
+There is also an option for a more temporary __project portal__, this has similar functionality to a normal portal, but is assumed to only be active for a limited amount of time.
 
 For more information, please contact Society for Artistic Research (SAR).
 
 More on portals and portal administration can be found in the [admin section](#admin-section "portal administration") of this manual. 
+
 
 
 
