@@ -13,6 +13,69 @@
     div.column{display: inline-block; vertical-align: top; width: 50%;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="style.css" />
@@ -1903,9 +1966,8 @@ simple media tab.</p>
 <h4 id="style-2">Style</h4>
 <p><a href="#style-options">&gt; see style options</a></p>
 <h4 id="options-2">Options</h4>
-<p>There are options available to change how images are resized in
-relation to the green border containing the image. This is controlled by
-changing the size parameter, which can be set to:</p>
+<p>Through the “size” property, you can customize how the image is
+scaled or stretched inside of its defined box:</p>
 <ul>
 <li><strong>contain</strong> : make the image small enough to fit
 without changing the aspect ratio (<strong>default</strong>)</li>
@@ -1915,17 +1977,38 @@ without changing the aspect ratio (<strong>default</strong>)</li>
 <li><strong>auto</strong> : let the browser decide which part should be
 cut off</li>
 </ul>
-<p>You can also change the <em>position</em> within the border ie:
-top-left, right-bottom etc…</p>
-<p>In <strong>settings</strong> you are able to lock the aspect ratio.
-And you can allow readers to enlarge the image by activating the
-checkbox “on click open image in popup.”.</p>
+<p>You can also change the <strong>position</strong> within the border
+ie: top-left, right-bottom etc…</p>
+<p><strong>lock aspect ratio</strong> locks width and height of the tool
+borders. If turned off, you can have a deviating size of the tool, which
+is useful if you stretch or fit it.</p>
+<p>To allow a (smaller) image to be enlarged by the reader: <strong>“on
+click open image in popup”</strong>.</p>
 <p>If you want to use a picture as a hyperlink, paste a URL into the
-field <em>on click open link</em>.</p>
-<p>You can also set a <em>tooltip text</em> (a text that shows when the
-user ‘hoovers’ his mouse over the picture) for the image. Set the
-<strong>show on hoover</strong> option to <strong>plain text</strong>
-and enter your text in the box below.</p>
+field <strong>on click open link</strong>.</p>
+<p><strong>Show on hover</strong> controls wether to display the
+copyright when the user hovers (or touches) a tool in your exposition.
+In addition to copyright, you can also specify a custom caption text
+<strong>“Text On Hover”</strong>.</p>
+<figure>
+<img loading="lazy" src="images/tooltip-text.jpg" title="a tooltip text"
+alt="a tooltip text" />
+<figcaption aria-hidden="true">a tooltip text</figcaption>
+</figure>
+<p>If you want to customize the style of this box, you can use the
+following “raw” CSS to target it:</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode css"><code class="sourceCode css"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#hover</span> pre { <span class="co">/* main body */</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="kw">background-color</span>:<span class="cn">black</span><span class="op">;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="kw">font-family</span>: <span class="dv">sans-serif</span><span class="op">;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="kw">font-size</span>: <span class="dv">12</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="pp">#hover</span> { <span class="co">/* copyright, if you choose to display it as well */</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="kw">background-color</span>:<span class="cn">black</span><span class="op">;</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="kw">font-family</span>: <span class="dv">sans-serif</span><span class="op">;</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="kw">font-size</span>: <span class="dv">12</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
 <p>You can also make the tooltip display the copyright info, by setting
 the <strong>show on hoover</strong> option to
 <strong>copyright</strong>.</p>

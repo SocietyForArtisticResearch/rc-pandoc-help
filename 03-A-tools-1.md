@@ -368,23 +368,46 @@ added to the simple media tab.
 
 #### Options
 
-There are options available to change how images are resized in relation to the green border containing the image.
-This is controlled by changing the size parameter, which can be set to:  
+Through the "size" property, you can customize how the image is scaled or stretched inside of its defined box:
 
 * __contain__ : make the image small enough to fit without changing the aspect ratio (__default__)
 * __cover__ : crop part of the image that is not fitting (aspect ratio stays the same)
 * __fit__ : stretch the image  (aspect ratio changes)
 * __auto__ : let the browser decide which part should be cut off
 
-You can also change the *position* within the border ie: top-left, right-bottom etc...
+You can also change the __position__ within the border ie: top-left, right-bottom etc...
 
-In __settings__ you are able to lock the aspect ratio. And you can allow readers to enlarge the image by
-activating the checkbox "on click open image in popup.".
+__lock aspect ratio__ locks width and height of the tool borders. If turned off,
+you can have a deviating size of the tool, which is useful if you stretch or fit
+it.
 
-If you want to use a picture as a hyperlink, paste a URL into the field *on click
-open link*. 
+To allow a (smaller) image to be enlarged by the reader: __"on click open image in popup"__.
 
-You can also set a *tooltip text* (a text that shows when the user 'hoovers' his mouse over the picture) for the image. Set the __show on hoover__ option to __plain text__ and enter your text in the box below.
+If you want to use a picture as a hyperlink, paste a URL into the field __on click open link__. 
+
+__Show on hover__  controls wether to display the copyright when the user hovers (or touches) a tool in your exposition.
+In addition to copyright, you can also specify a custom caption text __"Text On Hover"__.
+
+
+![a tooltip text](images/tooltip-text.jpg "a tooltip text")
+
+If you want to customize the style of this box, you can use the following "raw" CSS to
+target it:
+
+```css
+#hover pre { /* main body */
+  background-color:black;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+#hover { /* copyright, if you choose to display it as well */
+  background-color:black;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+```
+
 
 You can also make the tooltip display the copyright info, by setting the __show on hoover__ option to __copyright__.
 
