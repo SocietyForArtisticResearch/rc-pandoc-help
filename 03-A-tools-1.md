@@ -357,10 +357,20 @@ You can upload image files in the following formats:
 the PDF-tool. At the moment, regardless of the format, the RC will convert the 
 image to a PNG (a lossless format). It's dimensions will be optimized to the specific use in the tool.
 
+
+
 To add an item, choose "add" and upload the object from your desktop
 to the RC servers. Name the file and make a declaration of the
 copyright holder. Once an image is uploaded it is also automatically
 added to the simple media tab.
+
+#### Warning about .svg files from score programs like Sibelius
+
+Please take care when uploading score .svg files from programs like Sibelius. They may rely on font files ("Helsinki Std") for the notes that are not embedded in the file itself, which can result in broken display with readers that do not have the fonts available (blank squares instead of notes). As an author you often don't notice this as the font is installed on your own computer with the software that has created the SVG.  
+
+To avoid the problem convert to PNG or use Adobe or Inkscape to make a SVG that encodes the notes as vector glyphs.
+
+<https://www.sibelius.com/cgi-bin/helpcenter/chat/chat.pl?com=thread&start=728149&groupid=3&&guest=1>
 
 #### Style
 
@@ -407,9 +417,6 @@ target it:
   font-size: 12px;
 }
 ```
-
-
-You can also make the tooltip display the copyright info, by setting the __show on hoover__ option to __copyright__.
 
 Please note, you can't change the copyright information in the "edit picture" window. To change the name or the copyright text, close the current dialog and go to the item in __simple media__ and click __edit__
 (also double click) to open the __edit media__ dialog.
