@@ -74,7 +74,14 @@ __Transcoding Audio and Video files:__
 
 The Media Repository accepts all common audio and video formats and will
 automatically convert them to web compatible format.  Audio is transcoded to 256
-kbps mp3, video to mp4 with the original resolution.
+kbps mp3, video to mp4 with the original resolution. 
+
+We do not recommend uploading raw video files of 2k or higher resolution, as
+this wastes a lot of bandwidth and storage: none of this extra quality will be
+enjoyed by the reader. In this case it is prefered to transcode them before
+uploading them, for example using a tool like Handbrake, ffmpeg or Quicktime (if you are on MacOS).
+
+We are currently relying on an external service (zencoder), but are planning to move to our own transcoder to gain better control over image quality.
 
 ### Multi-Upload
 
