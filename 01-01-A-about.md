@@ -87,16 +87,19 @@ submissions and peer-reviewing for JAR takes place in the RC. Expositions publis
 
 # Setting up a New Account
 
-When you register an account in the RC, you will first just have a basic account. This will allow you to be a supervisor, review expositions, and leave comments. Some application calls may also accept limited user accounts to submit forms. 
+When you register an account in the RC, you will first just have a __basic account__. This will allow you to be a supervisor, review expositions, and leave comments. Some application calls may also accept limited user accounts to submit forms. 
 
 Limited accounts do not have the option to create expositions or publish work.
-Due to copyright laws, if you are interested in making your content public in the Research Catalogue, you need to register as author by upgrading your limited account to a full account. <span
-class="red">Important: if you are a student or staff member of an institution
-that has a portal within the RC, you should contact your local portal admin for
-upgrading to a full account. You can find the contact info of portal admins 
-<a
-href="https://www.researchcatalogue.net/view/1369076/1369075">here</a>.</span>
+Due to copyright laws, if you are interested in making your content public in the Research Catalogue, you need to register as author by upgrading your limited account to a full account. 
 
+<p style="color:#A34700;padding:10px;border-left:5px solid gray; font-weight:bold">Important: if you are a student or staff member of an institution
+that has a portal within the RC, you should contact your <a
+href="https://www.researchcatalogue.net/view/1369076/1369075">local portal admin</a> for</p>
+
+## Upgrading to full account
+
+If you have a limited account (or a member of SARA Announcements):
+ you can upgrade it via [the upgrade page](https://www.researchcatalogue.net/portal/upgrade)
 
 The account upgrade is free of charge. You can upgrade your limited account by logging in, and clicking "request
 upgrade", where you will be instructed to send in a proof of identity to
