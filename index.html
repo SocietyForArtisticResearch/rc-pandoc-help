@@ -113,9 +113,8 @@ id="toc-upgrading-to-full-account">Upgrading to full account</a></li>
 id="toc-institutional-portals-journals-and-project-portals">Institutional
 Portals, Journals and Project Portals</a></li>
 </ul></li>
-<li><a href="#how-to-find-expositions-and-research"
-id="toc-how-to-find-expositions-and-research">How to Find Expositions
-and Research?</a>
+<li><a href="#search-and-discovery" id="toc-search-and-discovery">Search
+and Discovery</a>
 <ul>
 <li><a href="#search" id="toc-search">Search</a></li>
 <li><a href="#visual-map" id="toc-visual-map">Visual Map</a></li>
@@ -727,8 +726,7 @@ is assumed to only be active for a limited amount of time.</p>
 <p>More on portals and portal administration can be found in the <a
 href="#admin-section" title="portal administration">admin section</a> of
 this manual.</p>
-<h1 id="how-to-find-expositions-and-research">How to Find Expositions
-and Research?</h1>
+<h1 id="search-and-discovery">Search and Discovery</h1>
 <h2 id="search">Search</h2>
 <p>You can search the RC by using the search field in the top right
 corner. Moreover you can use the “advanced search” functionality, which
@@ -830,6 +828,9 @@ Field
 <th>
 Description
 </th>
+<th>
+Optional?
+</th>
 </tr>
 <tr>
 <td>
@@ -839,13 +840,19 @@ Author and Co-author(s)
 Work may also be published under a pseudonym. But the original author
 will always be listed as well.
 </td>
+<td>
+Required
+</td>
 </tr>
 <tr>
 <td>
-Title (in multiple EU languages)
+Title (may be providedin multiple EU languages)
 </td>
 <td>
 The title of the exposition
+</td>
+<td>
+Required
 </td>
 </tr>
 <tr>
@@ -854,6 +861,9 @@ Abstract (in multiple EU languages)
 </td>
 <td>
 A summary of its contents
+</td>
+<td>
+Required
 </td>
 </tr>
 <tr>
@@ -864,6 +874,9 @@ Copyright
 The copyright of the exposition as such (media elements and citations
 may have their own copyrights expressed)
 </td>
+<td>
+Required
+</td>
 </tr>
 <tr>
 <td>
@@ -873,6 +886,9 @@ License
 We provide “all rights reserved”, the “creative commons” variants and
 “public domain”<br> More info under <a href="#licenses">licenses</a>
 </td>
+<td>
+Required
+</td>
 </tr>
 <tr>
 <td>
@@ -880,6 +896,9 @@ Language
 </td>
 <td>
 The primary language of the exposition as chosen by the author
+</td>
+<td>
+Optional
 </td>
 </tr>
 <tr>
@@ -889,6 +908,9 @@ Keywords
 <td>
 Currently an open vocabulary
 </td>
+<td>
+Optional
+</td>
 </tr>
 <tr>
 <td>
@@ -897,13 +919,30 @@ Date
 <td>
 An arbitrary date that may be associated with the exposition
 </td>
+<td>
+Optional
+</td>
 </tr>
 <tr>
 <td>
 Date of creation
 </td>
 <td>
-Date of last modification (this cannot be set by the author)
+When the exposition was created
+</td>
+<td>
+Automatic
+</td>
+</tr>
+<tr>
+<td>
+Last modification
+</td>
+<td>
+When the exposition content was last changed
+</td>
+<td>
+Automatic
 </td>
 </tr>
 <tr>
@@ -912,6 +951,20 @@ Affiliation
 </td>
 <td>
 External link
+</td>
+<td>
+Optional
+</td>
+</tr>
+<tr>
+<td>
+Published in
+</td>
+<td>
+In which portal/project/journal the exposition was published
+</td>
+<td>
+Automatic
 </td>
 </tr>
 </table>

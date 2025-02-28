@@ -1,4 +1,4 @@
-# How to Find Expositions and Research? 
+# Search and Discovery
 
 ## Search
 
@@ -119,47 +119,68 @@ The RC supports the following metadata for expositions
     <tr>
         <th>Field</th>
         <th>Description</th>
+        <th>Optional?</th>
     </tr>
     <tr>
         <td>Author and Co-author(s)</td>
         <td>Work may also be published under a pseudonym. But the original author will always be listed as well.</td>
+        <td>Required</td>
     </tr>
     <tr>
-        <td>Title (in multiple EU languages)</td>
+        <td>Title (may be providedin multiple EU languages)</td>
         <td>The title of the exposition</td>
+        <td>Required</td>
     </tr>
     <tr>
         <td>Abstract (in multiple EU languages)</td>
         <td>A summary of its contents</td>
+        <td>Required</td>
     </tr>
     <tr>
         <td>Copyright</td>
         <td>The copyright of the exposition as such (media elements and citations may have their own copyrights expressed)</td>
+        <td>Required</td>
     </tr>
     <tr>
         <td>License</td>
         <td>We provide "all rights reserved", the "creative commons" variants and "public domain"<br>
         More info under <a href="#licenses">licenses</a></td>
+        <td>Required</td>
     </tr>
     <tr>
         <td>Language</td>
         <td>The primary language of the exposition as chosen by the author</td>
+        <td>Optional</td>
     </tr>
     <tr>
         <td>Keywords</td>
         <td>Currently an open vocabulary</td>
+        <td>Optional</td>
     </tr>
     <tr>
         <td>Date</td>
         <td>An arbitrary date that may be associated with the exposition</td>
+        <td>Optional</td>
     </tr>
     <tr>
         <td>Date of creation</td>
-        <td>Date of last modification (this cannot be set by the author)</td>
+        <td>When the exposition was created</td>
+        <td>Automatic</td>
+    </tr>
+    <tr>
+        <td>Last modification</td>
+        <td>When the exposition content was last changed</td>
+        <td>Automatic</td>
     </tr>
     <tr>
         <td>Affiliation</td>
         <td>External link</td>
+        <td>Optional</td>
+    </tr>
+    <tr>
+        <td>Published in</td>
+        <td>In which portal/project/journal the exposition was published</td>
+        <td>Automatic</td>
     </tr>
 </table>
 
