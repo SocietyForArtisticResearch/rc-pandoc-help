@@ -623,7 +623,7 @@ audio. Although Abobe has started to support rich media embedding in
 their own PDF viewers, there is almost no support for this in other
 PDF viewers (like the one in browsers). In case text from a word
 processor needs to be combined with video and audio, use the [HTML
-tool](#HTML-tool "link to html tool") for the text and add the media
+tool](#html-tool "link to html tool") for the text and add the media
 separately using the other tools.
 
 #### Uploading a pdf

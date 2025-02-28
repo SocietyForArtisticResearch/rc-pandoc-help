@@ -61,7 +61,7 @@ In the graphical editor it is also possible to create a link that points to your
 
 To use the hyperlink in your text:  
 
-1. Create or open a [Text](#text-tool) or [HTML tool](#HTML-tool) and select a word or sentence that should become the link.
+1. Create or open a [Text](#text-tool) or [HTML tool](#html-tool) and select a word or sentence that should become the link.
 2. Now click the hyperlink button (it looks like a chain link) and a dialog will be displayed.
 ![location of the hyperlink button in text tool](images/html-hyperlink.png)
 ![location of the hyperlink button in the html tool](images/text-hyperlink.png)

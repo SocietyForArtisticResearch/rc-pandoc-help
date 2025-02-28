@@ -111,3 +111,70 @@ community.
 This displays the terms of as set by the Society for Artistic Research (SAR).
 
 
+# Metadata in the RC
+
+The RC supports the following metadata for expositions
+
+<table>
+    <tr>
+        <th>Field</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Author and Co-author(s)</td>
+        <td>Work may also be published under a pseudonym. But the original author will always be listed as well.</td>
+    </tr>
+    <tr>
+        <td>Title (in multiple EU languages)</td>
+        <td>The title of the exposition</td>
+    </tr>
+    <tr>
+        <td>Abstract (in multiple EU languages)</td>
+        <td>A summary of its contents</td>
+    </tr>
+    <tr>
+        <td>Copyright</td>
+        <td>The copyright of the exposition as such (media elements and citations may have their own copyrights expressed)</td>
+    </tr>
+    <tr>
+        <td>License</td>
+        <td>We provide "all rights reserved", the "creative commons" variants and "public domain"<br>
+        More info under <a href="#licenses">licenses</a></td>
+    </tr>
+    <tr>
+        <td>Language</td>
+        <td>The primary language of the exposition as chosen by the author</td>
+    </tr>
+    <tr>
+        <td>Keywords</td>
+        <td>Currently an open vocabulary</td>
+    </tr>
+    <tr>
+        <td>Date</td>
+        <td>An arbitrary date that may be associated with the exposition</td>
+    </tr>
+    <tr>
+        <td>Date of creation</td>
+        <td>Date of last modification (this cannot be set by the author)</td>
+    </tr>
+    <tr>
+        <td>Affiliation</td>
+        <td>External link</td>
+    </tr>
+</table>
+
+
+## META page
+
+The meta page provides information on the contents of the exposition in a formalized list.
+
+It constists of
+
+* Title
+* Author names
+* Abstract, dates and license info
+* Copyrights (a list of all media files, their copyright and license info and where they have been used in the exposition)
+* References (if the author used the RC reference system).
+
+
+
