@@ -63,7 +63,7 @@ materials.
 
 ### Text-Based Editor
 
-The [**text-based editor**](#text-based-editor1) allows creating blog-like
+The [**text-based editor**](#text-based-editor-1) allows creating blog-like
 pages through writing and editing text. Pages using the text-based editor
 cannot be combined with block or graphical editors. The editor is optimized for
 writing (and importing) texts, while still supporting the embedding of inline media.
