@@ -1,6 +1,7 @@
 
+<a id="content-manager-editor-tab"></a>
 
-## Content Manager / Editor Tab
+## Content Manager / Tabs
 
 The content manager is a collection of tabs located on the right side
 of the graphical & block editors. It is not present in the text-based editor.

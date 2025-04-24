@@ -1,5 +1,7 @@
 ## Graphical Editor Mode
 
+<a id="graphical-editor-mode"></a>
+
 When you open the editor you will see math-paper like area in the center. This is called the grid. 
 Content is added by dragging-and-dropping "tools" from the toolbar onto the grid. You can preview what the exposition looks like to the reader by clicking the "preview" button:
 <img src="images/eye_metro.svg" class="icon">This preview button is located at the top right.
@@ -31,9 +33,9 @@ The size of the current weave will automatically grow when tools are added or dr
 
 You can right-click (🍎 -> cmd and click)  a tool to see extra options.
 
-<a id="block-editor-mode"></a>
+<a id="block-editor-mode"></a><a id="block-editing-mode"></a>
 
-## Block Editing Mode
+## Block Editor Mode
 
 ![block editor](images/block-editor.png "block editor")
 
@@ -491,26 +493,48 @@ mouse cursor hovers over the item.
 
 [Video tutorial](https://www.researchcatalogue.net/view/273532/1685164#tool-1686872)
 
-As with the other tools, you can use the video tool by dragging it from the tool bar and dropping it onto the weave or block.
+As with the other tools, you can use the video tool by dragging it from the tool bar and dropping it onto the weave or block. You can then either "add media": upload it from your local storage, or choose a video that was uploaded before ("select media").
 
-In the dialog box that appears you have the possibility to add
-(i.e. upload) items from your computer or select items from the
-"simple media" or media sets. 
-
-If you choose "add media", you will see the dialog below. This dialog contains both a __preview__ and __video__ field. The __preview__ field, which controls the image that is shown before playback, is optional: if you only provide a __video__, the preview image will be generated from the first frame. You can later also select different images to function as a preview image. In that case, these images have to be part of your __simple media__ or __media sets__.
+If you choose "add media", you will see the dialog below. This dialog contains both a __preview__ and __video__ field. The __preview__ field, which controls the image that is shown before playback, is optional: if you only provide a __video__, the preview image will be generated from the first frame of the video. You can later also select different images to function as a preview image. In that case, these images have to be part of your __simple media__ or __media sets__.
 
 ![Dialog for adding a new file](images/add_video_file.png "upload video dialog")
 
- At the moment, the RC supports the following
+#### Video Formats and Transcoding
+
+At the moment, the RC supports (at minimum) the following
 formats: *avi, mov, mp4, mpg* video container formats; *dv1394, h.264,
 mpeg2, mpeg1, mjepeg* video codec formats. Both VBR and CBR are supported.
 
-The video tool currently supports resolutions up to 2048x1080. If the resolution is higher, transcoding will fail. Please keep this in mind while uploading videos shot on phones, which commonly provide up to 4k resolution.
+There are some limitations to the files;
 
-All media will be compressed to a smaller size, this is
-called 'transcoding'. This process takes time. During the
-'transcoding' the file name is greyed out in your simple media. If you want, the RC can also sent you an email when transcoding has finished.
-You can find that option under [__profile, settings__](https://www.researchcatalogue.net/settings).
+* It should not be larger than 10GB.
+* It should not have a resolution of over 2k (2048x1080), anything higher will make the
+  transcoding fail.
+* It should not be uncompressed raw video
+
+We kindly ask you not to upload raw uncompressed video into the RC. Raw video is
+easily 100x times larger than compressed video (even at extremely high quality
+encoding settings). This thus puts enormous pressure on our storage costs
+also ecologically. The RC is not intented primarily as a general purpose media
+archive, but intended as a contextualized presentation of results in artistic
+research. 
+
+The RC transcoding process results in:
+
+- h264 encoding, in a mp4 container format
+- 1024x768 resolution in case of a deviating aspect ratio, it will be kept but
+  scaled down.
+- aac audio encoding, equivalent to 160-192kbs mp3
+
+The original file is also stored in the RC and available in your media
+repository. It therefore stays available for download by the author or sharing
+it as part of a media set. See media repository for more information.  
+(It also allows for the possibility to switch to a higher web streaming bitrate in the future of RC).
+
+Transcoding takes time. During the 'transcoding' the file name is greyed out in
+your simple media. If you want, the RC can also sent you an email when
+transcoding has finished. You can find that option under [__profile,
+settings__](https://www.researchcatalogue.net/settings).
 
 For further information and technical questions see
 [FAQ](http://www.researchcatalogue.net/portal/faq "FAQ") or
@@ -557,21 +581,30 @@ You can also use the play tool to synchronize selected video and audio tools.
 
 ### Slideshow Tool
 
-The slideshow tool allows you to create a gallery of images that can
-be displayed in a loop. You can choose to start the slideshow
-automatically and you can add an audio file to each picture of the
-slideshow.
+The slideshow tool allows you to:   
 
-Drag and drop the slideshow icon onto the weave and the dialog window will appear.
+* create a gallery of images that cycled through automatically or by the reader clicking the arrows.
+* each slide can be combined with an audio recording that will play as a *"background"* [*] during the slide.
+* you can either set a global time interval, or
+* set a timing for each individual slide
 
-Open the __slides__ tab to select the images. You can either upload an image
+[*] Of course, what you consider *"background"* may depend on your intented use:
+you can also use the slideshow as an audio playlist/sequencer and consider the
+images "background". If you don't want images, you could consider using
+transparent or very small images.
+
+After adding a slideshow tool, open the __slides__ tab to select the images. You can either upload an image
 from your disk, by clicking __add media__, or you can select images from your
 __media repository__ sets and __simple media__ clicking __select media__. 
 
 Each image can also be joined with an audio recording, which will be
 played in the background. Only audio files that have been previously uploaded to
 your __simple media__ or __media repository__ can be selected to be used as
-background. You can upload new audio files in your media list.
+background. You can upload new audio files in your media list (see [content manager](https://guide.researchcatalogue.net/#content-manager-editor-tab)).
+
+
+#### Slides tab
+
 
 
 #### Style
@@ -604,6 +637,8 @@ crossfade (when one audio file fades out while a second fades in at a
 specified time). You can also choose the fade duration and the timeout
 of an audio file.
 
+Under **speed per slide** you can set a duration for each slide individually (in seconds).
+This will override the default speed.
 
 ### PDF Tool
 
@@ -782,6 +817,11 @@ videos or sounds, into RC expositions. Currently, the RC supports the
 following external content providers:
 [Madek](https://www.zhdk.ch/madek), Youtube, Vimeo, Soundcloud and
 Sketchfab. 
+
+If you need to embed an external video into a __block page__, you cannot use the embed tool.
+However you can still embed a youtube iframe manually, by adding an [html tool](#html-tool), open the extended toolbar,
+choose "show html source" which is the button with HTML on it and pasting the
+iframe embed code from youtube.
 
 #### Embedding Risks
 

@@ -247,8 +247,8 @@ id="toc-graphical-editor-mode">Graphical Editor Mode</a>
 id="toc-adding-tools-in-graphical-editing-mode">Adding Tools in
 Graphical Editing Mode</a></li>
 </ul></li>
-<li><a href="#block-editing-mode" id="toc-block-editing-mode">Block
-Editing Mode</a>
+<li><a href="#block-editor-mode" id="toc-block-editor-mode">Block Editor
+Mode</a>
 <ul>
 <li><a href="#when-to-use" id="toc-when-to-use">When to use</a></li>
 <li><a href="#basic-usage" id="toc-basic-usage">Basic Usage</a></li>
@@ -282,8 +282,8 @@ Tool</a></li>
 <li><a href="#note-tool" id="toc-note-tool">Note Tool</a></li>
 <li><a href="#embed-tool" id="toc-embed-tool">Embed tool</a></li>
 </ul></li>
-<li><a href="#content-manager-editor-tab"
-id="toc-content-manager-editor-tab">Content Manager / Editor Tab</a>
+<li><a href="#content-manager-tabs"
+id="toc-content-manager-tabs">Content Manager / Tabs</a>
 <ul>
 <li><a href="#map" id="toc-map">Map</a></li>
 <li><a href="#media-tab" id="toc-media-tab">Media Tab</a></li>
@@ -1722,6 +1722,7 @@ text view" in the top-right.
 
 For more info on specific tools, see [workspace](#research-catalogue-workspace-tools). -->
 <h2 id="graphical-editor-mode">Graphical Editor Mode</h2>
+<p><a id="graphical-editor-mode"></a></p>
 <p>When you open the editor you will see math-paper like area in the
 center. This is called the grid. Content is added by
 dragging-and-dropping “tools” from the toolbar onto the grid. You can
@@ -1761,8 +1762,8 @@ the mouse.</p>
 added or dragged over the current limits.</p>
 <p>You can right-click (🍎 -&gt; cmd and click) a tool to see extra
 options.</p>
-<p><a id="block-editor-mode"></a></p>
-<h2 id="block-editing-mode">Block Editing Mode</h2>
+<p><a id="block-editor-mode"></a><a id="block-editing-mode"></a></p>
+<h2 id="block-editor-mode">Block Editor Mode</h2>
 <figure>
 <img loading="lazy" src="images/block-editor.png" title="block editor"
 alt="block editor" />
@@ -2282,36 +2283,59 @@ when the mouse cursor hovers over the item.</p>
 href="https://www.researchcatalogue.net/view/273532/1685164#tool-1686872">Video
 tutorial</a></p>
 <p>As with the other tools, you can use the video tool by dragging it
-from the tool bar and dropping it onto the weave or block.</p>
-<p>In the dialog box that appears you have the possibility to add
-(i.e. upload) items from your computer or select items from the “simple
-media” or media sets.</p>
+from the tool bar and dropping it onto the weave or block. You can then
+either “add media”: upload it from your local storage, or choose a video
+that was uploaded before (“select media”).</p>
 <p>If you choose “add media”, you will see the dialog below. This dialog
 contains both a <strong>preview</strong> and <strong>video</strong>
 field. The <strong>preview</strong> field, which controls the image that
 is shown before playback, is optional: if you only provide a
 <strong>video</strong>, the preview image will be generated from the
-first frame. You can later also select different images to function as a
-preview image. In that case, these images have to be part of your
-<strong>simple media</strong> or <strong>media sets</strong>.</p>
+first frame of the video. You can later also select different images to
+function as a preview image. In that case, these images have to be part
+of your <strong>simple media</strong> or <strong>media
+sets</strong>.</p>
 <figure>
 <img loading="lazy" src="images/add_video_file.png" title="upload video dialog"
 alt="Dialog for adding a new file" />
 <figcaption aria-hidden="true">Dialog for adding a new file</figcaption>
 </figure>
-<p>At the moment, the RC supports the following formats: <em>avi, mov,
-mp4, mpg</em> video container formats; <em>dv1394, h.264, mpeg2, mpeg1,
-mjepeg</em> video codec formats. Both VBR and CBR are supported.</p>
-<p>The video tool currently supports resolutions up to 2048x1080. If the
-resolution is higher, transcoding will fail. Please keep this in mind
-while uploading videos shot on phones, which commonly provide up to 4k
-resolution.</p>
-<p>All media will be compressed to a smaller size, this is called
-‘transcoding’. This process takes time. During the ‘transcoding’ the
-file name is greyed out in your simple media. If you want, the RC can
-also sent you an email when transcoding has finished. You can find that
-option under <a
-href="https://www.researchcatalogue.net/settings"><strong>profile,
+<h4 id="video-formats-and-transcoding">Video Formats and
+Transcoding</h4>
+<p>At the moment, the RC supports (at minimum) the following formats:
+<em>avi, mov, mp4, mpg</em> video container formats; <em>dv1394, h.264,
+mpeg2, mpeg1, mjepeg</em> video codec formats. Both VBR and CBR are
+supported.</p>
+<p>There are some limitations to the files;</p>
+<ul>
+<li>It should not be larger than 10GB.</li>
+<li>It should not have a resolution of over 2k (2048x1080), anything
+higher will make the transcoding fail.</li>
+<li>It should not be uncompressed raw video</li>
+</ul>
+<p>We kindly ask you not to upload raw uncompressed video into the RC.
+Raw video is easily 100x times larger than compressed video (even at
+extremely high quality encoding settings). This thus puts enormous
+pressure on our storage costs also ecologically. The RC is not intented
+primarily as a general purpose media archive, but intended as a
+contextualized presentation of results in artistic research.</p>
+<p>The RC transcoding process results in:</p>
+<ul>
+<li>h264 encoding, in a mp4 container format</li>
+<li>1024x768 resolution in case of a deviating aspect ratio, it will be
+kept but scaled down.</li>
+<li>aac audio encoding, equivalent to 160-192kbs mp3</li>
+</ul>
+<p>The original file is also stored in the RC and available in your
+media repository. It therefore stays available for download by the
+author or sharing it as part of a media set. See media repository for
+more information.<br />
+(It also allows for the possibility to switch to a higher web streaming
+bitrate in the future of RC).</p>
+<p>Transcoding takes time. During the ‘transcoding’ the file name is
+greyed out in your simple media. If you want, the RC can also sent you
+an email when transcoding has finished. You can find that option under
+<a href="https://www.researchcatalogue.net/settings"><strong>profile,
 settings</strong></a>.</p>
 <p>For further information and technical questions see <a
 href="http://www.researchcatalogue.net/portal/faq" title="FAQ">FAQ</a>
@@ -2346,22 +2370,32 @@ the item.</p>
 <p>You can also use the play tool to synchronize selected video and
 audio tools.</p>
 <h3 id="slideshow-tool">Slideshow Tool</h3>
-<p>The slideshow tool allows you to create a gallery of images that can
-be displayed in a loop. You can choose to start the slideshow
-automatically and you can add an audio file to each picture of the
-slideshow.</p>
-<p>Drag and drop the slideshow icon onto the weave and the dialog window
-will appear.</p>
-<p>Open the <strong>slides</strong> tab to select the images. You can
-either upload an image from your disk, by clicking <strong>add
-media</strong>, or you can select images from your <strong>media
-repository</strong> sets and <strong>simple media</strong> clicking
-<strong>select media</strong>.</p>
+<p>The slideshow tool allows you to:</p>
+<ul>
+<li>create a gallery of images that cycled through automatically or by
+the reader clicking the arrows.</li>
+<li>each slide can be combined with an audio recording that will play as
+a <em>“background”</em> [*] during the slide.</li>
+<li>you can either set a global time interval, or</li>
+<li>set a timing for each individual slide</li>
+</ul>
+<p>[*] Of course, what you consider <em>“background”</em> may depend on
+your intented use: you can also use the slideshow as an audio
+playlist/sequencer and consider the images “background”. If you don’t
+want images, you could consider using transparent or very small
+images.</p>
+<p>After adding a slideshow tool, open the <strong>slides</strong> tab
+to select the images. You can either upload an image from your disk, by
+clicking <strong>add media</strong>, or you can select images from your
+<strong>media repository</strong> sets and <strong>simple media</strong>
+clicking <strong>select media</strong>.</p>
 <p>Each image can also be joined with an audio recording, which will be
 played in the background. Only audio files that have been previously
 uploaded to your <strong>simple media</strong> or <strong>media
 repository</strong> can be selected to be used as background. You can
-upload new audio files in your media list.</p>
+upload new audio files in your media list (see <a
+href="https://guide.researchcatalogue.net/#content-manager-editor-tab">content
+manager</a>)</p>
 <h4 id="style-5">Style</h4>
 <p><a href="#style-options">&gt; see style options</a></p>
 <h4 id="options-5">Options</h4>
@@ -2554,6 +2588,12 @@ videos or sounds, into RC expositions. Currently, the RC supports the
 following external content providers: <a
 href="https://www.zhdk.ch/madek">Madek</a>, Youtube, Vimeo, Soundcloud
 and Sketchfab.</p>
+<p>If you need to embed an external video into a <strong>block
+page</strong>, you cannot use the embed tool. However you can still
+embed a youtube iframe manually, by adding an <a href="#html-tool">html
+tool</a>, open the extended toolbar, choose “show html source” which is
+the button with HTML on it and pasting the iframe embed code from
+youtube.</p>
 <h4 id="embedding-risks">Embedding Risks</h4>
 <p>When considering embedding content from external sources, it’s
 essential to understand the potential risks involved. Here are some key
@@ -2690,7 +2730,8 @@ content <strong>within the tool</strong> to an older version. The
 versions of a text object are created each time you have clicked outside
 it (and the three animated dots show inside). With the html tool, a
 version is created each time you click submit.</p>
-<h2 id="content-manager-editor-tab">Content Manager / Editor Tab</h2>
+<p><a id="content-manager-editor-tab"></a></p>
+<h2 id="content-manager-tabs">Content Manager / Tabs</h2>
 <p>The content manager is a collection of tabs located on the right side
 of the graphical &amp; block editors. It is not present in the
 text-based editor.</p>
