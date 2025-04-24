@@ -508,46 +508,59 @@ If you choose "add media", you will see the dialog below. This dialog contains b
 
 #### Video Formats and Transcoding
 
-At the moment, the RC supports (at minimum) the following
-formats: *avi, mov, mp4, mpg* video container formats; *dv1394, h.264,
-mpeg2, mpeg1, mjepeg* video codec formats. Both VBR and CBR are supported.
+__accepted formats__
 
-There are some limitations to the files;
+At the moment, the RC supports a very large number of file formats. The
+transcoding happens by a service called Zencoder, which itself goes so far as to
+say that they support any format except a few very rare formats, which may be
+found here:
+<https://zencoder.support.brightcove.com/general-information/supported-video-and-audio-formats-codecs-and-containers.html>
 
-* It should not be larger than 10GB.
-* It should not have a resolution of over 2k (2048x1080), anything higher will make the
-  transcoding fail.
-* It should not be uncompressed raw video
+There are a few more general limitations though;
 
-We kindly ask you not to upload raw uncompressed video into the RC. Raw video is
-easily 100x times larger than compressed video (even at extremely high quality
-encoding settings). This thus puts enormous pressure on our storage costs
-also ecologically. The RC is not intented primarily as a general purpose media
-archive, but intended as a contextualized presentation of results in artistic
-research. 
+* The file should not be larger than 10GB.
+* It should not have a resolution of over 2k (2048x1080), anything higher will
+  make the transcoding fail. This is because resolutions like 4k are very CPU
+  intensive to transcode.
+* It should not be uncompressed video (raw). 
 
-The RC transcoding process results in:
+__recommended upload quality__
 
-- h264 encoding, in a mp4 container format
-- 1024x768 resolution in case of a deviating aspect ratio, it will be kept but
-  scaled down.
+In general: we highly recommend self-compressing your videos to:
+
+- max 2k resolution 
+- h264 encoder
+- mp4 container format
+- above average quality setting
+
+It will result in a faster upload and less waste on the RC side. There is free
+software that makes this relatively easy (handbrake, ffmpeg, quicktime) to name
+a few. 
+
+__transcoded output used in expositions__
+
+All videos in expositions are displayed as:
+
+- h264 encoding, in a .mp4 container format
+- 1024x768 resolution. If the aspect ratio deviates, it will be kept, but still
+  scaled down to a similar level as 1024x768.
 - aac audio encoding, equivalent to 160-192kbs mp3
+
+__originals in the media repository__
 
 The original file is also stored in the RC and available in your media
 repository. It therefore stays available for download by the author or sharing
 it as part of a media set. See media repository for more information.  
 (It also allows for the possibility to switch to a higher web streaming bitrate in the future of RC).
 
+__waiting__
+
 Transcoding takes time. During the 'transcoding' the file name is greyed out in
 your simple media. If you want, the RC can also sent you an email when
 transcoding has finished. You can find that option under [__profile,
 settings__](https://www.researchcatalogue.net/settings).
 
-For further information and technical questions see
-[FAQ](http://www.researchcatalogue.net/portal/faq "FAQ") or
-contact the RC User Support.
-
-We highly recommend using smaller video files, for easier upload. If your file is extremely large, you may want to compress it before uploading using a program like Handbrake, FFMpeg or QuickTime (Mac).
+If you encounter problems transcoding your files, please contact user support.
 
 #### Style
 
@@ -633,7 +646,7 @@ image tool](#image-tool-settings).
 In __automate__ you can set the autoplay options to:
 
 * *run after click* : run automatically after the first click 
-* *autoplay* 		: after loading the page
+* *autoplay* : after loading the page
 
 By default, users have to click the arrows to switch between slides. When
 choosing *autoplay*, you need to define the speed with which the slide will

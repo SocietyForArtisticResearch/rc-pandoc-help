@@ -2303,47 +2303,55 @@ alt="Dialog for adding a new file" />
 </figure>
 <h4 id="video-formats-and-transcoding">Video Formats and
 Transcoding</h4>
-<p>At the moment, the RC supports (at minimum) the following formats:
-<em>avi, mov, mp4, mpg</em> video container formats; <em>dv1394, h.264,
-mpeg2, mpeg1, mjepeg</em> video codec formats. Both VBR and CBR are
-supported.</p>
-<p>There are some limitations to the files;</p>
+<p><strong>accepted formats</strong></p>
+<p>At the moment, the RC supports a very large number of file formats.
+The transcoding happens by a service called Zencoder, which itself goes
+so far as to say that they support any format except a few very rare
+formats, which may be found here: <a
+href="https://zencoder.support.brightcove.com/general-information/supported-video-and-audio-formats-codecs-and-containers.html"
+class="uri">https://zencoder.support.brightcove.com/general-information/supported-video-and-audio-formats-codecs-and-containers.html</a></p>
+<p>There are a few more general limitations though;</p>
 <ul>
-<li>It should not be larger than 10GB.</li>
+<li>The file should not be larger than 10GB.</li>
 <li>It should not have a resolution of over 2k (2048x1080), anything
-higher will make the transcoding fail.</li>
-<li>It should not be uncompressed raw video</li>
+higher will make the transcoding fail. This is because resolutions like
+4k are very CPU intensive to transcode.</li>
+<li>It should not be uncompressed video (raw).</li>
 </ul>
-<p>We kindly ask you not to upload raw uncompressed video into the RC.
-Raw video is easily 100x times larger than compressed video (even at
-extremely high quality encoding settings). This thus puts enormous
-pressure on our storage costs also ecologically. The RC is not intented
-primarily as a general purpose media archive, but intended as a
-contextualized presentation of results in artistic research.</p>
-<p>The RC transcoding process results in:</p>
+<p><strong>recommended upload quality</strong></p>
+<p>In general: we highly recommend self-compressing your videos to:</p>
 <ul>
-<li>h264 encoding, in a mp4 container format</li>
-<li>1024x768 resolution in case of a deviating aspect ratio, it will be
-kept but scaled down.</li>
+<li>max 2k resolution</li>
+<li>h264 encoder</li>
+<li>mp4 container format</li>
+<li>above average quality setting</li>
+</ul>
+<p>It will result in a faster upload and less waste on the RC side.
+There is free software that makes this relatively easy (handbrake,
+ffmpeg, quicktime) to name a few.</p>
+<p><strong>transcoded output used in expositions</strong></p>
+<p>All videos in expositions are displayed as:</p>
+<ul>
+<li>h264 encoding, in a .mp4 container format</li>
+<li>1024x768 resolution. If the aspect ratio deviates, it will be kept,
+but still scaled down to a similar level as 1024x768.</li>
 <li>aac audio encoding, equivalent to 160-192kbs mp3</li>
 </ul>
+<p><strong>originals in the media repository</strong></p>
 <p>The original file is also stored in the RC and available in your
 media repository. It therefore stays available for download by the
 author or sharing it as part of a media set. See media repository for
 more information.<br />
 (It also allows for the possibility to switch to a higher web streaming
 bitrate in the future of RC).</p>
+<p><strong>waiting</strong></p>
 <p>Transcoding takes time. During the ‘transcoding’ the file name is
 greyed out in your simple media. If you want, the RC can also sent you
 an email when transcoding has finished. You can find that option under
 <a href="https://www.researchcatalogue.net/settings"><strong>profile,
 settings</strong></a>.</p>
-<p>For further information and technical questions see <a
-href="http://www.researchcatalogue.net/portal/faq" title="FAQ">FAQ</a>
-or contact the RC User Support.</p>
-<p>We highly recommend using smaller video files, for easier upload. If
-your file is extremely large, you may want to compress it before
-uploading using a program like Handbrake, FFMpeg or QuickTime (Mac).</p>
+<p>If you encounter problems transcoding your files, please contact user
+support.</p>
 <h4 id="style-4">Style</h4>
 <p><a href="#style-options">&gt; see style options</a></p>
 <h4 id="options-4">Options</h4>
