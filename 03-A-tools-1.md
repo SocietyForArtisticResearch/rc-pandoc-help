@@ -345,7 +345,10 @@ in it, click __delete__. Unintended deletions can be restored via
 __commands__ – __restore deleted tools__.
  
 
+
+
 ### Image Tool 
+
 
 Also known as the *picture tool*.
 
@@ -378,7 +381,11 @@ To avoid the problem convert to PNG or use Adobe or Inkscape to make a SVG that 
 
 [> see style options](#style-options)
 
+<a id="image-tool-settings"></a>
+
 #### Options
+
+
 
 Through the "size" property, you can customize how the image is scaled or stretched inside of its defined box:
 
@@ -583,29 +590,27 @@ You can also use the play tool to synchronize selected video and audio tools.
 
 The slideshow tool allows you to:   
 
-* create a gallery of images that cycled through automatically or by the reader clicking the arrows.
-* each slide can be combined with an audio recording that will play as a *"background"* [*] during the slide.
-* you can either set a global time interval, or
-* set a timing for each individual slide
+* present a series of images that the reader can browse trough
+* the slideshow can also be automated, with user defined timing
+* each slide can be combined with an audio "background" file \[*\]
 
 [*] Of course, what you consider *"background"* may depend on your intented use:
 you can also use the slideshow as an audio playlist/sequencer and consider the
-images "background". If you don't want images, you could consider using
-transparent or very small images.
+images "background", for example by selecting transparant images.
+
+#### Slides tab
+
+![slides tab](images/slideshow-slides.png)
 
 After adding a slideshow tool, open the __slides__ tab to select the images. You can either upload an image
 from your disk, by clicking __add media__, or you can select images from your
 __media repository__ sets and __simple media__ clicking __select media__. 
 
-Each image can also be joined with an audio recording, which will be
-played in the background. Only audio files that have been previously uploaded to
-your __simple media__ or __media repository__ can be selected to be used as
-background. You can upload new audio files in your media list (see [content manager](https://guide.researchcatalogue.net/#content-manager-editor-tab)).
-
-
-#### Slides tab
-
-
+Each image can also be joined with an audio recording, which will be played in
+the background. Only audio files that have been previously uploaded to your
+__[simple media](https://guide.researchcatalogue.net/#content-manager-editor-tab)__ or in
+a [__media repository set__](#media-repository) can be selected to be used as
+background.
 
 #### Style
 
@@ -613,22 +618,29 @@ background. You can upload new audio files in your media list (see [content mana
 
 #### Options
 
-In "options" you can define the position of the image within the
-frame. This is important when you are using images with different
-sizes and proportions. In __settings__ it is possible to choose to
-loop the slideshow. If the __loop__ option is enable, the slideshow
-will continue with the first slide once it reaches its last slide. You
-can choose to hide the navigation bar or give the reader the option to
-enlarge the picture with a click on the picture in your weave.
+The options tab contains several sections to control aspects of the slideshow:
+
+__Position__ provides similar options as the [image tool](#image-tool-settings).
+
+![slideshow settings](images/slideshow-settings.png)
+
+In __settings__ it is possible to choose to __loop__ the slideshow. __Navigation bar__ allows you to show or hide the navigation buttons. __On click open image
+in popup__, __show on hover__ and __text on hover__ work the same [as in the
+image tool](#image-tool-settings).
+
+![slideshow automate](images/slideshow-automate.png)
 
 In __automate__ you can set the autoplay options to:
 
 * *run after click* : run automatically after the first click 
 * *autoplay* 		: after loading the page
 
-When choosing *autoplay* you need to define the speed with which the
-slide will change. You can customise the duration of each slide
-(*speed per slide*) or let each slide change at the default speed.
+By default, users have to click the arrows to switch between slides. When
+choosing *autoplay*, you need to define the speed with which the slide will
+change. You can either set a *default speed*, or define a *speed per slide*.
+
+If you set the "speed per slide" to match the duration of the audio files you
+use, you can use the slideshow tool as a playlist.
 
 As mentioned before, you can append audio files to each slide. Please
 note, you first have to upload the file into your __simple media__
@@ -637,8 +649,11 @@ crossfade (when one audio file fades out while a second fades in at a
 specified time). You can also choose the fade duration and the timeout
 of an audio file.
 
-Under **speed per slide** you can set a duration for each slide individually (in seconds).
-This will override the default speed.
+![slideshow audio](images/slideshow-audio.png)
+
+Here you can set a few extra properties for __fade duration__, __crossfade__ and
+__timeout__ between the audio fragments.
+
 
 ### PDF Tool
 

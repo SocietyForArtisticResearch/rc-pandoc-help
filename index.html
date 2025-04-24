@@ -86,7 +86,7 @@
 <body>
 <header id="title-block-header">
 <h1 class="title">Research Catalogue Extended Guide</h1>
-<p class="date">February 2025</p>
+<p class="date">April 2025</p>
 </header>
 <nav id="TOC" role="doc-toc">
 <ul>
@@ -2175,6 +2175,7 @@ href="https://www.sibelius.com/cgi-bin/helpcenter/chat/chat.pl?com=thread&amp;st
 class="uri">https://www.sibelius.com/cgi-bin/helpcenter/chat/chat.pl?com=thread&amp;start=728149&amp;groupid=3&amp;&amp;guest=1</a></p>
 <h4 id="style-2">Style</h4>
 <p><a href="#style-options">&gt; see style options</a></p>
+<p><a id="image-tool-settings"></a></p>
 <h4 id="options-2">Options</h4>
 <p>Through the “size” property, you can customize how the image is
 scaled or stretched inside of its defined box:</p>
@@ -2372,18 +2373,19 @@ audio tools.</p>
 <h3 id="slideshow-tool">Slideshow Tool</h3>
 <p>The slideshow tool allows you to:</p>
 <ul>
-<li>create a gallery of images that cycled through automatically or by
-the reader clicking the arrows.</li>
-<li>each slide can be combined with an audio recording that will play as
-a <em>“background”</em> [*] during the slide.</li>
-<li>you can either set a global time interval, or</li>
-<li>set a timing for each individual slide</li>
+<li>present a series of images that the reader can browse trough</li>
+<li>the slideshow can also be automated, with user defined timing</li>
+<li>each slide can be combined with an audio “background” file [*]</li>
 </ul>
 <p>[*] Of course, what you consider <em>“background”</em> may depend on
 your intented use: you can also use the slideshow as an audio
-playlist/sequencer and consider the images “background”. If you don’t
-want images, you could consider using transparent or very small
-images.</p>
+playlist/sequencer and consider the images “background”, for example by
+selecting transparant images.</p>
+<h4 id="slides-tab">Slides tab</h4>
+<figure>
+<img loading="lazy" src="images/slideshow-slides.png" alt="slides tab" />
+<figcaption aria-hidden="true">slides tab</figcaption>
+</figure>
 <p>After adding a slideshow tool, open the <strong>slides</strong> tab
 to select the images. You can either upload an image from your disk, by
 clicking <strong>add media</strong>, or you can select images from your
@@ -2391,38 +2393,57 @@ clicking <strong>add media</strong>, or you can select images from your
 clicking <strong>select media</strong>.</p>
 <p>Each image can also be joined with an audio recording, which will be
 played in the background. Only audio files that have been previously
-uploaded to your <strong>simple media</strong> or <strong>media
-repository</strong> can be selected to be used as background. You can
-upload new audio files in your media list (see <a
-href="https://guide.researchcatalogue.net/#content-manager-editor-tab">content
-manager</a>)</p>
+uploaded to your <strong><a
+href="https://guide.researchcatalogue.net/#content-manager-editor-tab">simple
+media</a></strong> or in a <a href="#media-repository"><strong>media
+repository set</strong></a> can be selected to be used as
+background.</p>
 <h4 id="style-5">Style</h4>
 <p><a href="#style-options">&gt; see style options</a></p>
 <h4 id="options-5">Options</h4>
-<p>In “options” you can define the position of the image within the
-frame. This is important when you are using images with different sizes
-and proportions. In <strong>settings</strong> it is possible to choose
-to loop the slideshow. If the <strong>loop</strong> option is enable,
-the slideshow will continue with the first slide once it reaches its
-last slide. You can choose to hide the navigation bar or give the reader
-the option to enlarge the picture with a click on the picture in your
-weave.</p>
+<p>The options tab contains several sections to control aspects of the
+slideshow:</p>
+<p><strong>Position</strong> provides similar options as the <a
+href="#image-tool-settings">image tool</a>.</p>
+<figure>
+<img loading="lazy" src="images/slideshow-settings.png" alt="slideshow settings" />
+<figcaption aria-hidden="true">slideshow settings</figcaption>
+</figure>
+<p>In <strong>settings</strong> it is possible to choose to
+<strong>loop</strong> the slideshow. <strong>Navigation bar</strong>
+allows you to show or hide the navigation buttons. <strong>On click open
+image in popup</strong>, <strong>show on hover</strong> and <strong>text
+on hover</strong> work the same <a href="#image-tool-settings">as in the
+image tool</a>.</p>
+<figure>
+<img loading="lazy" src="images/slideshow-automate.png" alt="slideshow automate" />
+<figcaption aria-hidden="true">slideshow automate</figcaption>
+</figure>
 <p>In <strong>automate</strong> you can set the autoplay options to:</p>
 <ul>
 <li><em>run after click</em> : run automatically after the first
 click</li>
 <li><em>autoplay</em> : after loading the page</li>
 </ul>
-<p>When choosing <em>autoplay</em> you need to define the speed with
-which the slide will change. You can customise the duration of each
-slide (<em>speed per slide</em>) or let each slide change at the default
-speed.</p>
+<p>By default, users have to click the arrows to switch between slides.
+When choosing <em>autoplay</em>, you need to define the speed with which
+the slide will change. You can either set a <em>default speed</em>, or
+define a <em>speed per slide</em>.</p>
+<p>If you set the “speed per slide” to match the duration of the audio
+files you use, you can use the slideshow tool as a playlist.</p>
 <p>As mentioned before, you can append audio files to each slide. Please
 note, you first have to upload the file into your <strong>simple
 media</strong> folder. In <strong>options</strong>,
 <strong>audio</strong> you can control the time of a crossfade (when one
 audio file fades out while a second fades in at a specified time). You
 can also choose the fade duration and the timeout of an audio file.</p>
+<figure>
+<img loading="lazy" src="images/slideshow-audio.png" alt="slideshow audio" />
+<figcaption aria-hidden="true">slideshow audio</figcaption>
+</figure>
+<p>Here you can set a few extra properties for <strong>fade
+duration</strong>, <strong>crossfade</strong> and
+<strong>timeout</strong> between the audio fragments.</p>
 <h3 id="pdf-tool">PDF Tool</h3>
 <p>The PDF tool gives you the possibility to add PDF documents
 containing texts, graphics or scores. By default the PDF is displayed as
