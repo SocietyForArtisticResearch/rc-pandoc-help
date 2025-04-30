@@ -905,11 +905,13 @@ Example embed code:
 ```html
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oxm8ph2tfpY?si=bXDl1iR8cxAmuEjX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ```
-2. Add a new HTML tool
+2. Add a new HTML tool in your block page
 3. Make sure the __extended toolbar__ is open
 ![extended toolbar and HTML button](images/html_toolbar.png "html tool interface screenshot, highlighting html button")
 4. Click HTML button, to view the source
-5. Click __submit__
+5. Paste the complete `<iframe src..` embed code
+5. Close this box, __submit__ the changes
+6. Check preview to confirm it works
 
 <!-- ## Object Viewer
 
