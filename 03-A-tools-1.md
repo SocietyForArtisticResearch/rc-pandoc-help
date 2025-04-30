@@ -508,7 +508,7 @@ You can later also select different images to function as a preview image. In th
 
 ![Dialog for adding a new file](images/add_video_file.png "upload video dialog")
 
-#### Video Formats and Transcoding
+### Video Formats and Transcoding
 
 __accepted formats__
 
