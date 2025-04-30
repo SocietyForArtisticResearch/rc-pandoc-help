@@ -502,7 +502,9 @@ mouse cursor hovers over the item.
 
 As with the other tools, you can use the video tool by dragging it from the tool bar and dropping it onto the weave or block. You can then either "add media": upload it from your local storage, or choose a video that was uploaded before ("select media").
 
-If you choose "add media", you will see the dialog below. This dialog contains both a __preview__ and __video__ field. The __preview__ field, which controls the image that is shown before playback, is optional: if you only provide a __video__, the preview image will be generated from the first frame of the video. You can later also select different images to function as a preview image. In that case, these images have to be part of your __simple media__ or __media sets__.
+If you choose "add media", you will see the dialog below. This dialog contains both a __preview__ and __video__ field. The __preview__ field, which controls the image that is shown before playback, is optional: if you only provide a __video__, the preview image will be generated from the first frame of the video. 
+
+You can later also select different images to function as a preview image. In that case, these images have to be part of your __simple media__ or __media sets__.
 
 ![Dialog for adding a new file](images/add_video_file.png "upload video dialog")
 
@@ -510,32 +512,34 @@ If you choose "add media", you will see the dialog below. This dialog contains b
 
 __accepted formats__
 
-At the moment, the RC supports a very large number of file formats. The
-transcoding happens by a service called Zencoder, which itself goes so far as to
-say that they support any format except a few very rare formats, which may be
-found here:
-<https://zencoder.support.brightcove.com/general-information/supported-video-and-audio-formats-codecs-and-containers.html>
+At the moment, the RC supports a large number of file formats. To make sure the
+video can be viewed by any reader in all browsers and platforms, all video
+uploads are [transcoded](https://en.wikipedia.org/wiki/Transcoding) to a more
+portable web-compatible format. At this moment of writing, transcoding happens
+by an external service, which itself goes so far as to say that they support any
+format except a few very rare formats, which may be found here:
+<https://zencoder.support.brightcove.com/general-information/supported-video-and-audio-formats-codecs-and-containers.html>.
 
 There are a few more general limitations though;
 
-* The file should not be larger than 10GB.
-* It should not have a resolution of over 2k (2048x1080), anything higher will
+* A single file should not be larger than 10Gb. 
+* It should not have a resolution of above 2048x1080 (2k, 1080p), anything higher will
   make the transcoding fail. This is because resolutions like 4k are very CPU
   intensive to transcode.
-* It should not be uncompressed video (raw). 
+* We do not recommend uploading in a raw video format
 
 __recommended upload quality__
 
-In general: we highly recommend self-compressing your videos to:
+If you have a very large video file (multiple Gb), we recommend compressing it locally before uploading it to the RC.
 
-- max 2k resolution 
+- max 2k/1080p resolution 
 - h264 encoder
 - mp4 container format
 - above average quality setting
 
-It will result in a faster upload and less waste on the RC side. There is free
-software that makes this relatively easy (handbrake, ffmpeg, quicktime) to name
-a few. 
+Doing this will result in a much faster upload and less waste of storage space
+on the RC side. There is free and open software that makes this relatively easy
+(handbrake, ffmpeg, quicktime) to name a few. 
 
 __transcoded output used in expositions__
 
@@ -551,7 +555,8 @@ __originals in the media repository__
 The original file is also stored in the RC and available in your media
 repository. It therefore stays available for download by the author or sharing
 it as part of a media set. See media repository for more information.  
-(It also allows for the possibility to switch to a higher web streaming bitrate in the future of RC).
+The reason we recommend to upload with a resolution slightly above 1024x768 is
+that this might allow future improvements of the displayed video content.
 
 __waiting__
 
@@ -838,7 +843,7 @@ using "restore deleted tools" in the commands.
 
 ### Embed tool
 
-(Not available in the block editor)
+(Not available in the block editor, see [alternative methode here](#embed-in-block-editor))
 
 The embed tool allows the integration of external content, such as
 videos or sounds, into RC expositions. Currently, the RC supports the
@@ -883,7 +888,28 @@ Important: Some RC-based journals/portals do not allow the use of
 externally hosted materials. If you are making an exposition to be
 published in such a portal, please check their policy first.
 
+<a id="embed-in-block-editor"></a>
 
+#### Embedding in block editor
+
+The embed tool is not available in the block editor. 
+However, you can still
+embed content using the HTML tool.
+
+This will work best in single column layout.
+
+1. Fetch the embed code from the platform of your choice. For example, in YouTube, you can click the "share" button, and click <> embed to get 
+a code that looks like this:
+
+Example embed code:
+```html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oxm8ph2tfpY?si=bXDl1iR8cxAmuEjX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```
+2. Add a new HTML tool
+3. Make sure the __extended toolbar__ is open
+![extended toolbar and HTML button](images/html_toolbar.png "html tool interface screenshot, highlighting html button")
+4. Click HTML button, to view the source
+5. Click __submit__
 
 <!-- ## Object Viewer
 
