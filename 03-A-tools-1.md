@@ -280,7 +280,7 @@ Text is edited in the __media__ tab. You can style your text using the buttons.
    LibreOffice, Google Docs or any other text editor, note that not
    all fonts and styles will show the same on every computer.
    A safer practice is to import the text without any formatting, and format it within RC.
-   This can be done either by exporting your text as plain text and copy pasting from that version, or importing your document using the [document import](#import-word-documents-using-simple-media-upload)*
+   This can be done either by exporting your text as plain text and copy pasting from that version, or importing your document using the [document import](#word-doc-import)*
 
 To enlarge the palette of text styling options, click on the first
 button, __show/hide toolbars__. Opening it will allow you to insert lists, enumerations, tables,
