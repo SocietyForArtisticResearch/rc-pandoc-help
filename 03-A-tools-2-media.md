@@ -84,7 +84,9 @@ shared to you by others.
 "Works" are an older feature similar to media sets, if you had created
 works in the past you will find them under sets as well.
 
-### Import Word documents using Simple Media
+<a id="word-doc-import"></a>
+
+### Import Word documents using Simple Media 
 
 It is possible to upload Microsoft Word (.docx), Libre Office, Open Office
 (.odt) and LaTeX documents and have the content automatically turned into RC
@@ -100,16 +102,15 @@ media upload button")
 ![upload doc dialog](images/upload-doc-dialog.png "the
 doc upload section")
 
-Once converted, the document will show up as a folder within your simple media.
-You can drag the elements from this folder to a desired location in the
-exposition, resize and further adjust them. The document will be split whevever
-there is an image and the images will become available as image tools.
+To ensure maximum compatibility with RC fonts and styling, all word specific
+styling is filtered, but the inner structure of the text is maintained. This
+includes: paragraphs, headers, bold, italics, footnotes, illustrations & tables.
+Footnotes are also converted into RC Footnotes/Popovers.
 
-To ensure maximum compatibility with RC fonts and styling, text-editor
-specific styling is automatically filtered, but the inner structure of
-the text is maintained. This includes: paragraphs, headers, bold,
-italics, footnotes, illustrations & tables. Footnotes are also
-converted into RC Footnotes/Popovers. 
+Once converted, the document will show up as a folder in your simple media. You
+can drag the elements from this folder to a desired location in the exposition,
+resize and further adjust them. The document will be split whevever there is an
+image and the images will become available as image tools.
 
 If you want to reproduce the feel of a text document in your RC exposition, it
 is best to use the block editor. When importing word content in the graphical
