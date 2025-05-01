@@ -122,7 +122,7 @@ communicating with each other:
 <a id="publishing-and-sharing"></a>
 
 Instead of collaborating with RC users you can also
-[__publish__](#publish) an exposition or [__share__](#share) share it
+[__publish__](#publication) an exposition or [__share__](#share) share it
 with groups of people. The difference is when an exposition is
 __shared__, content can still be changed, and the mode of sharing can
 be changed at a later point.
@@ -173,7 +173,7 @@ users, limited to portal, public). An exposition can for example be shared
 within a portal but simultaneously be accessible to some other people through
 the "secret" link.
 
-
+<a id="publish"></a>
 
 ## Publication
 

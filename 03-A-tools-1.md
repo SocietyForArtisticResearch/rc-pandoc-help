@@ -484,7 +484,7 @@ find it helpful if you prevent overlapping by defining which player is
 playing. With this option selected, all players (video player, audio
 player on slideshows, other audio players) will stop when the selected
 player is playing back. When simultaneous playback is desired, it
-may be helpful to use the [Play-tool](#play-tool "jump to play tool
+may be helpful to use the [sync-tool](#sync-tool "jump to play tool
 help").
 
 * __display minimal__ When selected, the player consists of only the
@@ -590,7 +590,7 @@ helpful if you prevent overlapping by defining which player is
 playing. With this option selected, all players (video player, audio
 player on slideshows, other audio players) will stop when the selected
 player is running a file. When simultaneous playback is desired, it
-may be helpful to use the [Play-tool](#play-tool "jump to play tool
+may be helpful to use the [sync-tool](#sync-tool "jump to play tool
 help").
 
 - __display minimal__ 
@@ -683,8 +683,7 @@ texts, graphics or scores. By default the PDF is displayed as a small
 thumbnail showing a miniture of the first page. The reader of your
 exposition can load this PDF in a new tab by clicking the
 thumbnail. Alternatively, you can set the tool to display the PDF
-content directly embedded in the page (see [options](#pdf-options
-"link to pdf options")).
+content directly embedded in the page (see [options](#pdf-options "link to pdf options")).
 
 PDF is a suitable format for uploading (paper) based documents into
 your exposition. The limitation is that PDF files, by nature, only
