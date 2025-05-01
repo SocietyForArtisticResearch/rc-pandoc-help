@@ -74,7 +74,7 @@ Abstract, this can be changed by clicking title in the editor or ☰ > __edit de
 By moving the mouse pointer the title of
 your research, a little window with citation info will appear. The link
 (URL) of the current page is shown, including the current scrolling
-location. This URL can thus be used to generate the [hyperlink](#hyperlinks) for
+location. This URL can thus be used to generate the [hyperlink](#hyperlinking) for
 internal linking. You can also use this link to cite a specific
 location within an exposition.
 

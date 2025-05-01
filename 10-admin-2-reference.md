@@ -25,7 +25,7 @@ There are 5 pages to manage content for portal admins:
 * [__Reviewing__](#reviewing-admin "reviewing")  
   Review process of expositions and objects that are waiting to be published
 
-* [__Groups__](#admin_groups "groups") 
+* [__Groups__](#admin-groups "groups") 
 
 #### Multiple Portals:
 If you are an admin in multiple portals, you can switch between them in the top right corner of the site, through the drop down menu.
@@ -134,6 +134,8 @@ Here you can edit the various roles of the portal:
 * Contact persons (use this field to add persons that have an rc account)
 * Contact persons (use this for people without an rc account)
 
+<a id="portal-settings-screen"></a>
+
 ### Templates
 
 Portal admins can select any of their Text based expositions to be available as templates for users within their portal. This allows users to start with a predifined CSS sheet or even content. 
@@ -217,7 +219,11 @@ The editor is than able to change the content within the exposition.
 They can also add __Supervisor__ role, which can only read the exposition.
 
 
+<a id="reviewing"></a>
+
 ### Reviewing (admin) 
+
+
 The reviewing page allows managment of expositions that have been applied for publication by the author. Reviewers or editors can be assigned to these works. When a reviewer is added they will automatically recieve a notification from RC that they have been added. Reviewers can leave notes only visible to themselves (so not to other reviewers) and the portal admin(s). 
 
 Actions that are available:
