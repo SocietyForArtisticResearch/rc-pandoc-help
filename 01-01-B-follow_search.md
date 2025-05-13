@@ -138,7 +138,8 @@ The RC supports the following metadata for expositions
     </tr>
     <tr>
         <td>Copyright</td>
-        <td>The copyright of the exposition as such (media elements and citations may have their own copyrights expressed)</td>
+        <td>The copyright owner of the exposition as such 
+        <br> Note: media elements within an exposition and citations may have their own copyright owner expressed</td>
         <td>Required</td>
     </tr>
     <tr>
@@ -154,7 +155,7 @@ The RC supports the following metadata for expositions
     </tr>
     <tr>
         <td>Keywords</td>
-        <td>Currently an open vocabulary</td>
+        <td>An open vocabulary</td>
         <td>Optional</td>
     </tr>
     <!-- <tr>
@@ -189,7 +190,8 @@ The RC supports the following metadata for expositions
     </tr>
     <tr>
         <td>Publication date</td>
-        <td>The date of last publication (republication will overwrite any previous date)</td>
+        <td>The date of publication 
+        <br>The publication date will be equal to last change date, as a publication cannot be modified after publication</td>
         <td>Automatic (when exposition is published)</td>
     </tr>
   <tr>
