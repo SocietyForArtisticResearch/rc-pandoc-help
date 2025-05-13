@@ -127,7 +127,7 @@ The RC supports the following metadata for expositions
         <td>Required</td>
     </tr>
     <tr>
-        <td>Title (may be providedin multiple EU languages)</td>
+        <td>Title (may be provided in multiple EU languages)</td>
         <td>The title of the exposition</td>
         <td>Required</td>
     </tr>
@@ -157,11 +157,11 @@ The RC supports the following metadata for expositions
         <td>Currently an open vocabulary</td>
         <td>Optional</td>
     </tr>
-    <tr>
+    <!-- <tr>
         <td>Date</td>
         <td>An arbitrary date that may be associated with the exposition</td>
         <td>Optional</td>
-    </tr>
+    </tr> -->
     <tr>
         <td>Date of creation</td>
         <td>When the exposition was created</td>
@@ -180,8 +180,25 @@ The RC supports the following metadata for expositions
     <tr>
         <td>Published in</td>
         <td>In which portal/project/journal the exposition was published</td>
-        <td>Automatic</td>
+        <td>Automatic (when exposition is published)</td>
     </tr>
+    <tr>
+        <td>Issue</td>
+        <td>In which issue the publication was made</td>
+        <td>Automatic (when exposition is published)</td>
+    </tr>
+    <tr>
+        <td>Publication date</td>
+        <td>The date of last publication (republication will overwrite any previous date)</td>
+        <td>Automatic (when exposition is published)</td>
+    </tr>
+  <tr>
+        <td>Connected to</td>
+        <td>Only when an exposition was connected to a portal (requires portal admin confirmation)</td>
+        <td>Optional</td>
+    </tr>    
+
+
 </table>
 
 
