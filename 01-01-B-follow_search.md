@@ -1,18 +1,24 @@
 # Search and Discovery
 
+This chapter discusses various ways of navigating the content of RC.
+
+## Visual Search
+
+This allows you to browse all expositions within RC, by making searches and
+seeing a miniture of the exposition front page. Typing queries will immediately update results.
+[https://map.rcdata.org](https://map.rcdata.org "a visual map of the RC"). You
+can also browse by keywords and sort results by date or even topology.
+
+<a href="https://map.rcdata.org">
+![visual map](images/screenshot-search.png "the visual search tool interface")
+</a>
+
 ## Search
 
 You can search the RC by using the search field in the top right
 corner. Moreover you can use the "advanced search" functionality,
 which allows for filtered searches and and searches according to
 specific criteria such as object type, keywords, authors, etc.
-
-## Visual Map
-
-A visual way of exploring content in the Research Catalogue. This map actually
-allows you to do normal search, but the results are miniatures of the actual
-content of the exposition: [https://map.rcdata.org](https://map.rcdata.org "a
-visual map of the RC")
 
 ## Researchers
 
