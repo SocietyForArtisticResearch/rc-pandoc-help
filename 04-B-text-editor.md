@@ -220,8 +220,7 @@ button" in the [toolbar](#toolbar).
 All media that you uploaded will appear in the "media list", where
 they can be edited or deleted.
 
-![The media list](images/media-list-elm.png " media
-list")
+![The media list](images/media-list-elm.png "media list")
 
 #### Editing Media 
 
