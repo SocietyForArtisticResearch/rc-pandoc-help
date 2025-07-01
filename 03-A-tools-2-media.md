@@ -255,6 +255,10 @@ an example of using the "Roboto" font:
 		font-family: roboto;
 	}
 
+As fonts can be vectors for hacks, the research catalogue only allows including
+external fonts from Google Fonts at the moment (although we hope to change this
+in the future).
+
 #### Line-Height
 
 There is no way to control line height within the HTML or text tool, but you can change it using CSS:
@@ -276,10 +280,11 @@ Be aware that changing the CSS
 
 #### Deleting a Page
 
-The page can be deleted by clicking the trashcan icon next to the page
-title. Deleted pages cannot be recovered. Of course, if you want to
-make a page invisible to the reader it may be prefered to just remove
-it from the [table of content](#table-of-content "table of content").
+The page can be deleted by clicking the trashcan icon next to the page title.
+Deleted pages can be recovered throught the __options__ menu > __restore deleted
+pages__, but only for 30 days within deletion. Of course, if you want to make a
+page invisible to the reader it may be prefered to just remove it from the
+[table of content](#table-of-content "table of content").
 
 
 

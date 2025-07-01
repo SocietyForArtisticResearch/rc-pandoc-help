@@ -142,11 +142,3 @@ There is also an option for a more temporary __project portal__, this has simila
 For more information, please contact Society for Artistic Research (SAR).
 
 More on portals and portal administration can be found in the [admin section](#admin-section "portal administration") of this manual. 
-
-
-
-
-
-
-
-

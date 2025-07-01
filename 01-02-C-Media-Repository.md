@@ -1,3 +1,5 @@
+<a id="media-repository"></a>
+
 # Media Repository
 
 The media repository allows RC users to navigate, organize and manage

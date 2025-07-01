@@ -39,6 +39,8 @@ requirements/calls.
 
 These are for (time limited) Research Projects.
 
+<a id="follow"></a>
+
 ## Follow 
 
 It is possible to "follow" other users, portals, and objects such as

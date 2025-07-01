@@ -1,6 +1,37 @@
 <a id="my-profile-page"></a>
 
-# Profile Page
+# Profile
+
+## Account menu
+
+Once you have a full account, the following options can be accessed through the
+👤 menu on the top right:
+
+* [My Profile](#profile-page)  
+  Create and manage expositions, organise your personal profile page.
+
+* [Media Repository](#media-repository)  
+  Upload, manage and share media for making expositions later.
+
+* Messages
+  Read direct messages and system notifications
+
+* [Collaboration](#collaboration)  
+  Receive invites from other users and track all [collaborations](#collaboration).
+
+* Feeds  
+  [Follow certain topics, people and portals](#follow)
+
+* Settings  
+  [Manage your notification settings](#settings)
+
+* Trash  
+  If you had deleted an exposition in your profile, you can restore it here (if
+  it was deleted less than 30 days ago).
+
+<a id="profile-page"></a>
+
+## Profile Structure
 
 The RC profile page is both the central hub for your activities on the RC and a public presentation of your research. You can create a detailed public profile containing two main sections. The first section contains biographical data, information on projects and events. The second section is a list of your RC objects, such as media sets and expositions.
 
@@ -13,7 +44,7 @@ If you are a reviewer, you will also see the headers "Exposition Reviewing" or
 "Application Reviewing" on your own profile, containing links to the expositions
 they have been assigned to.
 
-## Profile Section
+## Personal info
 
 ### View Public Profile
 
@@ -138,6 +169,7 @@ It is only available to the exposition [owner](#owner-role). Using it will lock 
     and audio recordings cannot be included in this format.
 
 * __Delete__ delete an exposition or work from the RC. *Only the [owner](#the-owner-role) can do this.*
+You can restore a deleted exposition, by clicking on your Profile icon and clicking "trash".
 
 ### Change Layout
 
@@ -231,17 +263,20 @@ to navigate between pages.  See [table-of-content](#table-of-content).
   profile, which will result in them being listed on the Research
   page. 
 
-### Grouping
+<a id="grouping"></a>
+
+### Exposition Grouping
 
 Default groupings: When you create a set or exposition the new objects will appear in
 default groupings ("Sets" and "Expositions"). If you are invited to
 one by another RC user, they will appear under "Expositions
 (collaborated)".
 
-Custom grouping: You can also create your own groupings. To add a new grouping click "add grouping" and enter the name of the
-grouping. You can sort your objects within a grouping, arrange the groupings
-themselves and move object between groups via drag and drop. Click and
-drag a grouping itself to change the order of the groups.
+Custom grouping: You can also create your own exposition groupings. To add a new
+grouping click "add grouping" and enter the name of the grouping. You can sort
+your objects within a grouping, arrange the groupings themselves and move object
+between groups via drag and drop. Click and drag a grouping itself to change the
+order of the groups.
 
 On the right-hand side of a grouping's title, there are a series of
 icons displayed. Here you can edit and delete the grouping and control
@@ -280,3 +315,6 @@ works previously, you can still edit or remove them.
 
 Projects were part of an external import of data, they are no longer
 available for users.
+
+
+

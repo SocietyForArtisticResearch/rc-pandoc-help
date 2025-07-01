@@ -1,3 +1,5 @@
+<a id="collaboration"></a>
+
 # Collaboration, Sharing and Publication
 
 By default, expositions are __private__: only visible to your account.
