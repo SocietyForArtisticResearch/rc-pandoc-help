@@ -119,9 +119,12 @@ When a portal admin creates a user, it is important that the admin is sure that 
 
 #### Adding Existing Users to your Portal
 
-As explained before, if a person already has a user account in the RC, they will show up when you try to create a user account under their name.
-There is one important cavat: only accounts that have a verified email address will show up. KIf you have a problem adding such an account, you may also contact user support.
-It is also possible for existing RC users to request membership to a portal on their own account, by clicking "edit portals" on their profile page:
+If you type a name that already exists in the RC, the matching account will appear below the name field. If you click on it and then click Submit, the RC will display a dialog asking if you want to add this user to your portal.
+
+There is one important caveat: only accounts with a verified email address will appear. If you encounter issues adding such an account, you can contact user support for assistance.
+
+Additionally, existing RC users can request membership to a portal from their
+own account by clicking "Edit Portals" on their profile page.
 
 ![requesting portal membership](images/location_of_portal_membership.jpg "member of option location on user profile")
 
