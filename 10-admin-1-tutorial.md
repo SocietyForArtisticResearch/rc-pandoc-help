@@ -103,8 +103,7 @@ To create a user, click __create user__ at the right top corner of the screen.
 
 This will open a dialog where you can enter the name, email and password for the new user.
 
-If you type the name of a user that already exists under that name in the RC, it will show up below the field, if you click the name and then continue to the next field, the RC will show a pop-up prompting if you want to add this user to your portal. Double accounts for one person should be avoided!
-If a person has registered 
+If you type the name of a user that already exists under that name in the RC, it will show up below the field and you can add this [existing user to your portal](#existing-user).
 
 It is recommended to use a throwaway (random) password and ask the new user to set a proper password themselves by using the [reset link](https://www.researchcatalogue.net/portal/forgotten-password). 
 
@@ -115,6 +114,8 @@ If your institution already uses a single sign on system (MS Teams, Feide), it i
 When a portal admin creates a user, it is important that the admin is sure that the name and email belongs to a real person (for example by linking it with an institutional email account). In case of copyright or other legal problems surrounding an account created by a portal, the portal admin should be able to provide contact information to this person. 
 
 </div>
+
+<a id="existing-user"></a>
 
 #### Adding Existing Users to your Portal
 
