@@ -548,8 +548,7 @@ __transcoded output used in expositions__
 All videos in expositions are displayed as:
 
 - h264 encoding, in a .mp4 container format
-- 1024x768 resolution. If the aspect ratio deviates, it will be kept, but still
-  scaled down to a similar level as 1024x768.
+- Max 1080p/2k resolution, for example 1920 × 1080 if the aspect ratio is 16:9. If the aspect ratio deviates, it will be kept, but the resolution is maxed out at 1080p.
 - aac audio encoding, equivalent to 160-192kbs mp3
 
 __originals in the media repository__
@@ -557,17 +556,11 @@ __originals in the media repository__
 The original file is also stored in the RC and available in your media
 repository. It therefore stays available for download by the author or sharing
 it as part of a media set. See media repository for more information.  
-The reason we recommend to upload with a resolution slightly above 1024x768 is
-that this might allow future improvements of the displayed video content.
 
 __waiting__
 
 Transcoding takes time. During the 'transcoding' the file name is greyed out in
-your simple media. If you want, the RC can also sent you an email when
-transcoding has finished. You can find that option under [__profile,
-settings__](https://www.researchcatalogue.net/settings).
-
-If you encounter problems transcoding your files, please contact user support.
+your simple media. If you encounter problems transcoding your files, please contact user support.
 
 #### Style
 
