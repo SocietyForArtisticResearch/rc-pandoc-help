@@ -239,10 +239,9 @@ To style text within a simple text tool you have to use:
   
 #### Supplying Your own Fonts 
 
-You can include your own external fonts through CSS @import
-statements. Be aware that many (also fonts like "Arial"), cannot be
-self-hosted unless you have a license that allows that. Google Fonts has an
-overview of fonts that you can freely use. Here is
+As fonts can be vectors for hacks, the research catalogue only allows including
+external fonts from Google Fonts at the moment (although we hope to change this
+in the future). [Google Fonts](https://fonts.google.com/) has an overview of fonts that you can freely use. You can include Google Fonts through CSS @import statements. Here is
 an example of using the "Roboto" font:
 
 	@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
@@ -255,9 +254,6 @@ an example of using the "Roboto" font:
 		font-family: roboto;
 	}
 
-As fonts can be vectors for hacks, the research catalogue only allows including
-external fonts from Google Fonts at the moment (although we hope to change this
-in the future).
 
 #### Line-Height
 
