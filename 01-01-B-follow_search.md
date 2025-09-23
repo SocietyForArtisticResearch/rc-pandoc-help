@@ -131,7 +131,8 @@ The RC supports the following metadata for expositions
     </tr>
     <tr>
         <td>Author and Co-author(s)</td>
-        <td>Work may also be published under a pseudonym. But the original author will always be listed as well.</td>
+        <td>Work may also be published under a pseudonym. But the original author(s) will always be listed as well.
+            The order of authors can be decided by the owner role.</td>
         <td>Required</td>
     </tr>
     <tr>
@@ -147,7 +148,8 @@ The RC supports the following metadata for expositions
     <tr>
         <td>Copyright</td>
         <td>The copyright owner of the exposition as such 
-        <br> Note: media elements within an exposition and citations may have their own copyright owner expressed</td>
+        <br>Note: individual media elements within an exposition may each have their own copyright and license.
+            All of these can be found under copyrights on the META page</td>
         <td>Required</td>
     </tr>
     <tr>
@@ -207,6 +209,12 @@ The RC supports the following metadata for expositions
         <td>Only when an exposition was connected to a portal (requires portal admin confirmation)</td>
         <td>Optional</td>
     </tr>    
+    <tr>
+        <td>DOI</td>
+        <td>Expositions that are published are registered at Crossref to receive a DOI. All DOI's in RC start with 10.22501.</td>
+        <td>Automatic (when exposition is published)</td>
+    </tr>
+    
 
 
 </table>

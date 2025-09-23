@@ -851,8 +851,9 @@ Optional?
 Author and Co-author(s)
 </td>
 <td>
-Work may also be published under a pseudonym. But the original author
-will always be listed as well.
+Work may also be published under a pseudonym. But the original author(s)
+will always be listed as well. The order of authors can be decided by
+the owner role.
 </td>
 <td>
 Required
@@ -885,9 +886,9 @@ Required
 Copyright
 </td>
 <td>
-The copyright owner of the exposition as such <br> Note: media elements
-within an exposition and citations may have their own copyright owner
-expressed
+The copyright owner of the exposition as such <br>Note: individual media
+elements within an exposition may each have their own copyright and
+license. All of these can be found under copyrights on the META page
 </td>
 <td>
 Required
@@ -1009,6 +1010,18 @@ confirmation)
 </td>
 <td>
 Optional
+</td>
+</tr>
+<tr>
+<td>
+DOI
+</td>
+<td>
+Expositions that are published are registered at Crossref to receive a
+DOI. All DOI’s in RC start with 10.22501.
+</td>
+<td>
+Automatic (when exposition is published)
 </td>
 </tr>
 </table>
@@ -1494,9 +1507,9 @@ transcoded to 256 kbps mp3, video to mp4 with the original
 resolution.</p>
 <p>We do not recommend uploading raw video files of 2k or higher
 resolution, as this wastes a lot of bandwidth and storage: none of this
-extra quality will be enjoyed by the reader. In this case it is prefered
-to transcode them before uploading them, for example using a tool like
-Handbrake, ffmpeg or Quicktime (if you are on MacOS).</p>
+extra quality will be enjoyed by your reader. In this case it is
+prefered to transcode them before uploading them, for example using a
+tool like Handbrake, ffmpeg or Quicktime (if you are on MacOS).</p>
 <!-- We are currently relying on an external service (zencoder), but are planning to move to our own transcoder to gain better control over image quality. -->
 <h3 id="multi-upload">Multi-Upload</h3>
 <p>You can select multiple files to upload at once or a folder
@@ -3097,12 +3110,13 @@ CSS.</p>
 /* put your style here */   
 }</code></pre>
 <h4 id="supplying-your-own-fonts">Supplying Your own Fonts</h4>
-<p>You can include your own external fonts through CSS <span
-class="citation" data-cites="import">@import</span> statements. Be aware
-that many (also fonts like “Arial”), cannot be self-hosted unless you
-have a license that allows that. Google Fonts has an overview of fonts
-that you can freely use. Here is an example of using the “Roboto”
-font:</p>
+<p>As fonts can be vectors for hacks, the research catalogue only allows
+including external fonts from Google Fonts at the moment (although we
+hope to change this in the future). <a
+href="https://fonts.google.com/">Google Fonts</a> has an overview of
+fonts that you can freely use. You can include Google Fonts through CSS
+<span class="citation" data-cites="import">@import</span> statements.
+Here is an example of using the “Roboto” font:</p>
 <pre><code>@import url(&#39;https://fonts.googleapis.com/css2?family=Roboto:ital@1&amp;display=swap&#39;);
 
 .html-text-editor-content * {
@@ -3112,9 +3126,6 @@ font:</p>
 .tool-simpletext .tool-content * {
     font-family: roboto;
 }</code></pre>
-<p>As fonts can be vectors for hacks, the research catalogue only allows
-including external fonts from Google Fonts at the moment (although we
-hope to change this in the future).</p>
 <h4 id="line-height">Line-Height</h4>
 <p>There is no way to control line height within the HTML or text tool,
 but you can change it using CSS:</p>
