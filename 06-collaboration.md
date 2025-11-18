@@ -48,7 +48,12 @@ Every exposition has exactly one owner. The owner is one of the author(s), and h
 * Can submit a publication request for the exposition.
 * Can request connecting it to a Project or Portal.
 
-The owner can also select one of the other authors to be the owner. Be aware that this will remove the privileges from the previous owner.
+Only the owner role can change who is the owner to another of the current collaborators.
+If the owner role is to be transfered, the owner has to open the collaboration menu and choose another collaborator from the drop down menu:
+
+![Location of the owner role dropdown.](images/owner-role.png "position of the owner role in collaboration dialog")
+
+Be aware that changing this will remove the privileges from the previous owner.
 
 ### Adding a Collaborator
 

@@ -132,7 +132,7 @@ The RC supports the following metadata for expositions
     <tr>
         <td>Author and Co-author(s)</td>
         <td>Work may also be published under a pseudonym. But the original author(s) will always be listed as well.
-            The order of authors can be decided by the owner role.</td>
+            The order of authors can be decided by the owner role. There is no seperation of first and last name.</td>
         <td>Required</td>
     </tr>
     <tr>
@@ -201,7 +201,7 @@ The RC supports the following metadata for expositions
     <tr>
         <td>Publication date</td>
         <td>The date of publication 
-        <br>The publication date will be equal to last change date, as a publication cannot be modified after publication</td>
+        <br>The publication date will be equal to last change date, as a publication cannot be modified after publication.</td>
         <td>Automatic (when exposition is published)</td>
     </tr>
   <tr>
@@ -214,9 +214,16 @@ The RC supports the following metadata for expositions
         <td>Expositions that are published are registered at Crossref to receive a DOI. All DOI's in RC start with 10.22501.</td>
         <td>Automatic (when exposition is published)</td>
     </tr>
-    
-
-
+      <tr>
+        <td>ORCID</td>
+        <td>Authors can be specified including a [ORCID](https://orcid.org/), which is also included in any DOI deposits made by the RC.</td>
+        <td>Optional</td>
+        </tr>
+    <tr>
+        <td>Alt-text (alternative text)</td>
+        <td>All media tools within expositions may be described by means of an alt-text, meant to used for increasing accessibility of content for visitors using screenreaders.</td>
+        <td>Optional</td>
+    </tr>
 </table>
 
 

@@ -86,7 +86,7 @@
 <body>
 <header id="title-block-header">
 <h1 class="title">Research Catalogue Extended Guide</h1>
-<p class="date">July 2025</p>
+<p class="date">November 2025</p>
 </header>
 <nav id="TOC" role="doc-toc">
 <ul>
@@ -853,7 +853,7 @@ Author and Co-author(s)
 <td>
 Work may also be published under a pseudonym. But the original author(s)
 will always be listed as well. The order of authors can be decided by
-the owner role.
+the owner role. There is no seperation of first and last name.
 </td>
 <td>
 Required
@@ -994,7 +994,7 @@ Publication date
 </td>
 <td>
 The date of publication <br>The publication date will be equal to last
-change date, as a publication cannot be modified after publication
+change date, as a publication cannot be modified after publication.
 </td>
 <td>
 Automatic (when exposition is published)
@@ -1022,6 +1022,32 @@ DOI. All DOI’s in RC start with 10.22501.
 </td>
 <td>
 Automatic (when exposition is published)
+</td>
+</tr>
+<tr>
+<td>
+ORCID
+</td>
+<td>
+Authors can be specified including a <a
+href="https://orcid.org/">ORCID</a>, which is also included in any DOI
+deposits made by the RC.
+</td>
+<td>
+Optional
+</td>
+</tr>
+<tr>
+<td>
+Alt-text (alternative text)
+</td>
+<td>
+All media tools within expositions may be described by means of an
+alt-text, meant to used for increasing accessibility of content for
+visitors using screenreaders.
+</td>
+<td>
+Optional
 </td>
 </tr>
 </table>
@@ -4272,9 +4298,19 @@ author(s), and has some extra capabilities:</p>
 <li>Can submit a publication request for the exposition.</li>
 <li>Can request connecting it to a Project or Portal.</li>
 </ul>
-<p>The owner can also select one of the other authors to be the owner.
-Be aware that this will remove the privileges from the previous
-owner.</p>
+<p>Only the owner role can change who is the owner to another of the
+current collaborators. If the owner role is to be transfered, the owner
+has to open the collaboration menu and choose another collaborator from
+the drop down menu:</p>
+<figure>
+<img loading="lazy" src="images/owner-role.png"
+title="position of the owner role in collaboration dialog"
+alt="Location of the owner role dropdown." />
+<figcaption aria-hidden="true">Location of the owner role
+dropdown.</figcaption>
+</figure>
+<p>Be aware that changing this will remove the privileges from the
+previous owner.</p>
 <h3 id="adding-a-collaborator">Adding a Collaborator</h3>
 <p>An author of an exposition can invite collaborators through the
 collaboration tab of the exposition: click the <strong>menu
