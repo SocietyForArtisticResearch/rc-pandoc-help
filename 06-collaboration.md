@@ -38,23 +38,6 @@ There are 3 types of collaborators:
   itself. They __can read and edit__ all content.
 - *supervisor* : The collaborator can view an exposition and leave comments. A supervisor can only __read__ the content, not edit.
 
-### The _owner_ role
-
-<a id="owner-role"></a>
-
-Every exposition has exactly one owner. The owner is one of the author(s), and has some extra capabilities:
-
-* Can delete the exposition.
-* Can submit a publication request for the exposition.
-* Can request connecting it to a Project or Portal.
-
-Only the owner role can change who is the owner to another of the current collaborators.
-If the owner role is to be transfered, the owner has to open the collaboration menu and choose another collaborator from the drop down menu:
-
-![Location of the owner role dropdown.](images/owner-role.png "position of the owner role in collaboration dialog")
-
-Be aware that changing this will remove the privileges from the previous owner.
-
 ### Adding a Collaborator
 
 An author of an exposition can invite collaborators through the collaboration
@@ -98,6 +81,23 @@ If you want to remove a collaborator, click the "x" behind their name in the fie
 Note: If a user's name in the list is enclosed in brackets ( [ name ]
 ), it means that the invitation is sent successfully, but has not been
 yet accepted by the receiver.
+
+### The _owner_ role
+
+<a id="owner-role"></a>
+
+Every exposition has exactly one owner. The owner is one of the author(s), and has some extra capabilities:
+
+* Can delete the exposition.
+* Can submit a publication request for the exposition.
+* Can request connecting it to a Project or Portal.
+
+Only the owner role can change who is the owner to another of the current collaborators.
+If the owner role is to be transfered, the owner has to open the collaboration menu and choose another collaborator from the drop down menu:
+
+![Location of the owner role dropdown.](images/owner-role.png "position of the owner role in collaboration dialog")
+
+Be aware that changing this will remove the privileges from the previous owner.
 
 
 ## Realtime Collaboration
