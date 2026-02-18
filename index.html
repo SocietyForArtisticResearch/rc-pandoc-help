@@ -7,12 +7,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Research Catalogue Extended Guide</title>
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
     pre > code.sourceCode { white-space: pre; position: relative; }
     pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -51,7 +65,7 @@
     code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
     code span.at { color: #7d9029; } /* Attribute */
     code span.bn { color: #40a070; } /* BaseN */
-    code span.bu { } /* BuiltIn */
+    code span.bu { color: #008000; } /* BuiltIn */
     code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
     code span.ch { color: #4070a0; } /* Char */
     code span.cn { color: #880000; } /* Constant */
@@ -64,7 +78,7 @@
     code span.ex { } /* Extension */
     code span.fl { color: #40a070; } /* Float */
     code span.fu { color: #06287e; } /* Function */
-    code span.im { } /* Import */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
     code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
     code span.kw { color: #007020; font-weight: bold; } /* Keyword */
     code span.op { color: #666666; } /* Operator */
@@ -76,468 +90,14 @@
     code span.va { color: #19177c; } /* Variable */
     code span.vs { color: #4070a0; } /* VerbatimString */
     code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="style.css" />
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 <header id="title-block-header">
 <h1 class="title">Research Catalogue Extended Guide</h1>
-<p class="date">November 2025</p>
+<p class="date">February 2025</p>
 </header>
-<nav id="TOC" role="doc-toc">
-<ul>
-<li><a href="#about-this-guide" id="toc-about-this-guide">About this
-guide</a></li>
-<li><a href="#about-the-research-catalogue"
-id="toc-about-the-research-catalogue">About the Research Catalogue</a>
-<ul>
-<li><a href="#what-is-the-rc-used-for"
-id="toc-what-is-the-rc-used-for">What is the RC used for?</a></li>
-<li><a href="#what-is-an-rc-exposition"
-id="toc-what-is-an-rc-exposition">What is an RC Exposition?</a></li>
-<li><a href="#connection-between-rc-and-jar"
-id="toc-connection-between-rc-and-jar">Connection Between RC and
-JAR</a></li>
-</ul></li>
-<li><a href="#setting-up-a-new-account"
-id="toc-setting-up-a-new-account">Setting up a New Account</a>
-<ul>
-<li><a href="#upgrading-to-full-account"
-id="toc-upgrading-to-full-account">Upgrading to full account</a></li>
-<li><a href="#safe-upgrade" id="toc-safe-upgrade">Safe Upgrade</a></li>
-<li><a href="#institutional-portals-journals-and-project-portals"
-id="toc-institutional-portals-journals-and-project-portals">Institutional
-Portals, Journals and Project Portals</a></li>
-</ul></li>
-<li><a href="#search-and-discovery" id="toc-search-and-discovery">Search
-and Discovery</a>
-<ul>
-<li><a href="#visual-search" id="toc-visual-search">Visual
-Search</a></li>
-<li><a href="#search" id="toc-search">Search</a></li>
-<li><a href="#researchers" id="toc-researchers">Researchers</a></li>
-<li><a href="#journals" id="toc-journals">Journals</a></li>
-<li><a href="#institutional-portals"
-id="toc-institutional-portals">Institutional Portals</a></li>
-<li><a href="#projects" id="toc-projects">Projects</a></li>
-<li><a href="#follow" id="toc-follow">Follow</a></li>
-</ul></li>
-<li><a href="#navigation-while-reading-expositions"
-id="toc-navigation-while-reading-expositions">Navigation while reading
-expositions</a>
-<ul>
-<li><a href="#navigation-bar" id="toc-navigation-bar">Navigation Bar</a>
-<ul>
-<li><a href="#comments" id="toc-comments">Comments</a></li>
-<li><a href="#terms-of-use" id="toc-terms-of-use">Terms of Use</a></li>
-</ul></li>
-</ul></li>
-<li><a href="#metadata-in-the-rc" id="toc-metadata-in-the-rc">Metadata
-in the RC</a>
-<ul>
-<li><a href="#meta-page" id="toc-meta-page">META page</a></li>
-</ul></li>
-<li><a href="#licenses" id="toc-licenses">Licenses</a>
-<ul>
-<li><a href="#full-list-of-license-options"
-id="toc-full-list-of-license-options">Full List of License
-Options</a></li>
-</ul></li>
-<li><a href="#profile" id="toc-profile">Profile</a>
-<ul>
-<li><a href="#account-menu" id="toc-account-menu">Account menu</a></li>
-<li><a href="#profile-structure" id="toc-profile-structure">Profile
-Structure</a></li>
-<li><a href="#personal-info" id="toc-personal-info">Personal info</a>
-<ul>
-<li><a href="#view-public-profile" id="toc-view-public-profile">View
-Public Profile</a></li>
-<li><a href="#description" id="toc-description">Description</a></li>
-<li><a href="#uploading-a-cv" id="toc-uploading-a-cv">Uploading a
-CV</a></li>
-<li><a href="#member-of" id="toc-member-of">Member of</a></li>
-</ul></li>
-<li><a href="#research-section" id="toc-research-section">Research
-Section</a>
-<ul>
-<li><a href="#create-exposition" id="toc-create-exposition">Create
-Exposition</a></li>
-<li><a href="#exposition-details-menu"
-id="toc-exposition-details-menu">Exposition Details Menu</a></li>
-<li><a href="#change-layout" id="toc-change-layout">Change
-Layout</a></li>
-</ul></li>
-<li><a href="#manage-versions" id="toc-manage-versions">Manage
-Versions</a>
-<ul>
-<li><a href="#versions-of-published-expositions"
-id="toc-versions-of-published-expositions">Versions of Published
-Expositions</a></li>
-</ul></li>
-<li><a href="#edit-research" id="toc-edit-research">Edit Research</a>
-<ul>
-<li><a href="#being-anonymous" id="toc-being-anonymous">Being
-Anonymous</a></li>
-<li><a href="#exposition-grouping"
-id="toc-exposition-grouping">Exposition Grouping</a></li>
-<li><a href="#cleaning-up-cluttered-profiles"
-id="toc-cleaning-up-cluttered-profiles">Cleaning up Cluttered
-Profiles:</a></li>
-</ul></li>
-<li><a href="#legacy" id="toc-legacy">Legacy</a>
-<ul>
-<li><a href="#add-work" id="toc-add-work">Add Work</a></li>
-<li><a href="#add-project" id="toc-add-project">Add Project</a></li>
-</ul></li>
-</ul></li>
-<li><a href="#media-repository" id="toc-media-repository">Media
-Repository</a>
-<ul>
-<li><a href="#browsing" id="toc-browsing">Browsing</a></li>
-<li><a href="#filter-and-search" id="toc-filter-and-search">Filter and
-Search</a></li>
-<li><a href="#creating-new-media" id="toc-creating-new-media">Creating
-New Media</a></li>
-<li><a href="#upload" id="toc-upload">Upload</a>
-<ul>
-<li><a href="#multi-upload" id="toc-multi-upload">Multi-Upload</a></li>
-<li><a href="#text" id="toc-text">Text</a></li>
-</ul></li>
-<li><a href="#metadata" id="toc-metadata">Metadata</a>
-<ul>
-<li><a href="#description-1" id="toc-description-1">Description</a></li>
-</ul></li>
-<li><a href="#tags" id="toc-tags">Tags</a></li>
-<li><a href="#open-keywords" id="toc-open-keywords">Open Keywords</a>
-<ul>
-<li><a href="#closed-keywords" id="toc-closed-keywords">Closed
-Keywords</a></li>
-<li><a href="#license-picker" id="toc-license-picker">License
-Picker</a></li>
-</ul></li>
-<li><a href="#sets-and-sharing" id="toc-sets-and-sharing">Sets and
-Sharing</a></li>
-</ul></li>
-<li><a href="#creating-expositions"
-id="toc-creating-expositions">Creating Expositions</a>
-<ul>
-<li><a href="#choosing-an-editor" id="toc-choosing-an-editor">Choosing
-an Editor</a>
-<ul>
-<li><a href="#graphical-editor" id="toc-graphical-editor">Graphical
-Editor</a></li>
-<li><a href="#block-editor" id="toc-block-editor">Block Editor</a></li>
-<li><a href="#text-based-editor" id="toc-text-based-editor">Text-Based
-Editor</a></li>
-<li><a href="#html-import" id="toc-html-import">HTML Import</a></li>
-<li><a href="#comparison-of-rc-exposition-formats"
-id="toc-comparison-of-rc-exposition-formats">Comparison of RC Exposition
-Formats</a></li>
-</ul></li>
-<li><a href="#views" id="toc-views">Views</a>
-<ul>
-<li><a href="#preview" id="toc-preview">Preview</a></li>
-<li><a href="#workspace-view" id="toc-workspace-view">Workspace
-View</a></li>
-</ul></li>
-<li><a href="#graphical-editor-mode"
-id="toc-graphical-editor-mode">Graphical Editor Mode</a>
-<ul>
-<li><a href="#adding-tools-in-graphical-editing-mode"
-id="toc-adding-tools-in-graphical-editing-mode">Adding Tools in
-Graphical Editing Mode</a></li>
-</ul></li>
-<li><a href="#block-editor-mode" id="toc-block-editor-mode">Block Editor
-Mode</a>
-<ul>
-<li><a href="#when-to-use" id="toc-when-to-use">When to use</a></li>
-<li><a href="#basic-usage" id="toc-basic-usage">Basic Usage</a></li>
-<li><a href="#optional-breaking-point-for-smaller-screens"
-id="toc-optional-breaking-point-for-smaller-screens">Optional breaking
-point for smaller screens</a></li>
-<li><a href="#editing" id="toc-editing">Editing</a></li>
-<li><a href="#hyperlinks-in-the-block-editor-table-of-contents"
-id="toc-hyperlinks-in-the-block-editor-table-of-contents">Hyperlinks in
-the block editor / Table of Contents</a></li>
-<li><a href="#viewing" id="toc-viewing">Viewing</a></li>
-<li><a href="#styling" id="toc-styling">Styling</a></li>
-</ul></li>
-<li><a href="#tools-for-text-video-image-and-audio"
-id="toc-tools-for-text-video-image-and-audio">Tools for Text, Video,
-Image and Audio</a>
-<ul>
-<li><a href="#context-menu" id="toc-context-menu">Context Menu</a></li>
-<li><a href="#key-commands" id="toc-key-commands">Key Commands</a></li>
-<li><a href="#defaults" id="toc-defaults">Defaults</a></li>
-<li><a href="#text-tool" id="toc-text-tool">Text Tool</a></li>
-<li><a href="#html-tool" id="toc-html-tool">HTML Tool</a></li>
-<li><a href="#image-tool" id="toc-image-tool">Image Tool</a></li>
-<li><a href="#audio-tool" id="toc-audio-tool">Audio Tool</a></li>
-<li><a href="#video-tool" id="toc-video-tool">Video Tool</a></li>
-<li><a href="#video-formats-and-transcoding"
-id="toc-video-formats-and-transcoding">Video Formats and
-Transcoding</a></li>
-<li><a href="#slideshow-tool" id="toc-slideshow-tool">Slideshow
-Tool</a></li>
-<li><a href="#pdf-tool" id="toc-pdf-tool">PDF Tool</a></li>
-<li><a href="#sync-tool" id="toc-sync-tool">Sync Tool</a></li>
-<li><a href="#shape-tool" id="toc-shape-tool">Shape Tool</a></li>
-<li><a href="#note-tool" id="toc-note-tool">Note Tool</a></li>
-<li><a href="#embed-tool" id="toc-embed-tool">Embed tool</a></li>
-</ul></li>
-<li><a href="#content-manager-tabs"
-id="toc-content-manager-tabs">Content Manager / Tabs</a>
-<ul>
-<li><a href="#map" id="toc-map">Map</a></li>
-<li><a href="#media-tab" id="toc-media-tab">Media Tab</a></li>
-<li><a href="#import-word-documents-using-simple-media"
-id="toc-import-word-documents-using-simple-media">Import Word documents
-using Simple Media</a></li>
-<li><a href="#pages" id="toc-pages">Pages</a></li>
-<li><a href="#page-settings" id="toc-page-settings">Page
-Settings</a></li>
-<li><a href="#raw-css" id="toc-raw-css">Raw CSS</a></li>
-</ul></li>
-<li><a href="#popovers-footnotes" id="toc-popovers-footnotes">Popovers /
-Footnotes</a>
-<ul>
-<li><a href="#creating-a-popover" id="toc-creating-a-popover">Creating a
-Popover</a></li>
-<li><a href="#customizing-the-popover-properties"
-id="toc-customizing-the-popover-properties">Customizing the Popover
-Properties</a></li>
-<li><a href="#editing-a-popover" id="toc-editing-a-popover">Editing a
-Popover</a></li>
-<li><a href="#changing-the-position-or-display-settings-of-a-footnote"
-id="toc-changing-the-position-or-display-settings-of-a-footnote">Changing
-the Position or Display Settings of a Footnote</a></li>
-<li><a href="#auto-numbered-footnotes"
-id="toc-auto-numbered-footnotes">Auto-Numbered Footnotes</a></li>
-<li><a href="#pictures" id="toc-pictures">Pictures</a></li>
-</ul></li>
-<li><a href="#references" id="toc-references">References</a>
-<ul>
-<li><a href="#creating-a-reference"
-id="toc-creating-a-reference">Creating a Reference</a></li>
-<li><a href="#inserting-a-hyperlink-to-reference-in-bibliography"
-id="toc-inserting-a-hyperlink-to-reference-in-bibliography">Inserting a
-Hyperlink to Reference in Bibliography</a></li>
-<li><a href="#viewing-the-references"
-id="toc-viewing-the-references">Viewing the References</a></li>
-</ul></li>
-<li><a href="#table-of-content" id="toc-table-of-content">Table of
-Content</a>
-<ul>
-<li><a href="#static-navigation-bar"
-id="toc-static-navigation-bar">Static Navigation Bar</a></li>
-<li><a href="#toc-alignment" id="toc-toc-alignment">TOC
-Alignment</a></li>
-</ul></li>
-<li><a href="#hyperlinking" id="toc-hyperlinking">Hyperlinking</a>
-<ul>
-<li><a href="#dialog-options" id="toc-dialog-options">Dialog
-Options:</a></li>
-</ul></li>
-<li><a href="#overview" id="toc-overview">Overview</a></li>
-<li><a href="#other-menus" id="toc-other-menus">Other Menus</a>
-<ul>
-<li><a href="#edit-menu" id="toc-edit-menu">Edit Menu</a></li>
-<li><a href="#arrange-menu" id="toc-arrange-menu">Arrange Menu</a></li>
-<li><a href="#options-menu" id="toc-options-menu">Options Menu</a></li>
-<li><a href="#help-menu" id="toc-help-menu">Help Menu</a></li>
-<li><a href="#send-collaboration-message"
-id="toc-send-collaboration-message">Send Collaboration Message</a></li>
-</ul></li>
-<li><a href="#fonts" id="toc-fonts">Fonts</a></li>
-<li><a href="#migration-of-fonts-in-your-expositions"
-id="toc-migration-of-fonts-in-your-expositions">Migration of fonts in
-your expositions</a>
-<ul>
-<li><a href="#safely-trying-a-migration"
-id="toc-safely-trying-a-migration">Safely trying a migration:</a></li>
-</ul></li>
-<li><a href="#text-based-editor-1" id="toc-text-based-editor-1">Text
-Based Editor</a>
-<ul>
-<li><a href="#overview-1" id="toc-overview-1">Overview</a></li>
-<li><a href="#introduction" id="toc-introduction">Introduction</a></li>
-<li><a href="#creation-and-using-a-template"
-id="toc-creation-and-using-a-template">Creation and Using a
-Template</a></li>
-<li><a href="#editor" id="toc-editor">Editor</a></li>
-<li><a href="#pages-table-of-contents"
-id="toc-pages-table-of-contents">Pages / Table of Contents</a></li>
-<li><a href="#previews" id="toc-previews">Previews</a></li>
-<li><a href="#media-list" id="toc-media-list">Media List</a></li>
-<li><a href="#insert-media" id="toc-insert-media">Insert Media</a></li>
-<li><a href="#import-export" id="toc-import-export">Import &amp;
-Export</a></li>
-<li><a href="#edit-style" id="toc-edit-style">Edit Style</a></li>
-<li><a href="#toolbar" id="toc-toolbar">Toolbar</a></li>
-<li><a href="#markdown" id="toc-markdown">Markdown</a></li>
-<li><a href="#headers" id="toc-headers">Headers</a></li>
-<li><a href="#lists" id="toc-lists">Lists</a></li>
-<li><a href="#links" id="toc-links">Links</a></li>
-<li><a href="#text-based-footnotes"
-id="toc-text-based-footnotes">Text-based Footnotes</a></li>
-<li><a href="#quotation" id="toc-quotation">Quotation</a></li>
-<li><a href="#markdown-tables" id="toc-markdown-tables">Markdown
-Tables</a></li>
-</ul></li>
-<li><a href="#html-import-1" id="toc-html-import-1">HTML Import</a>
-<ul>
-<li><a href="#requirements-for-html-expositions"
-id="toc-requirements-for-html-expositions">Requirements for HTML
-Expositions</a></li>
-<li><a href="#character-encoding" id="toc-character-encoding">Character
-Encoding</a></li>
-<li><a href="#example-exposition" id="toc-example-exposition">Example
-Exposition</a></li>
-<li><a href="#updating" id="toc-updating">Updating</a></li>
-</ul></li>
-</ul></li>
-<li><a href="#collaboration-sharing-and-publication"
-id="toc-collaboration-sharing-and-publication">Collaboration, Sharing
-and Publication</a>
-<ul>
-<li><a href="#collaborating-on-research"
-id="toc-collaborating-on-research">Collaborating on Research</a>
-<ul>
-<li><a href="#adding-a-collaborator"
-id="toc-adding-a-collaborator">Adding a Collaborator</a></li>
-</ul></li>
-<li><a href="#accepting-a-collaboration-invitation"
-id="toc-accepting-a-collaboration-invitation">Accepting a Collaboration
-Invitation</a>
-<ul>
-<li><a href="#removing-a-collaborator"
-id="toc-removing-a-collaborator">Removing a Collaborator</a></li>
-<li><a href="#the-owner-role" id="toc-the-owner-role">The <em>owner</em>
-role</a></li>
-</ul></li>
-<li><a href="#realtime-collaboration"
-id="toc-realtime-collaboration">Realtime Collaboration</a>
-<ul>
-<li><a href="#communication-with-collaborators"
-id="toc-communication-with-collaborators">Communication with
-Collaborators</a></li>
-</ul></li>
-<li><a href="#share" id="toc-share">Share</a></li>
-<li><a href="#publication" id="toc-publication">Publication</a>
-<ul>
-<li><a href="#self-publish" id="toc-self-publish">Self-Publish</a></li>
-<li><a href="#submit-for-review" id="toc-submit-for-review">Submit for
-Review</a></li>
-</ul></li>
-<li><a href="#connect-to-portal" id="toc-connect-to-portal">Connect to
-Portal</a></li>
-</ul></li>
-<li><a href="#groups" id="toc-groups">Groups</a>
-<ul>
-<li><a href="#using-the-group-as-a-member"
-id="toc-using-the-group-as-a-member">Using the Group as a
-Member</a></li>
-<li><a href="#roles-within-groups" id="toc-roles-within-groups">Roles
-within Groups</a></li>
-<li><a href="#group-visibility" id="toc-group-visibility">Group
-Visibility</a></li>
-<li><a href="#admin-role-managing-group-information-and-members"
-id="toc-admin-role-managing-group-information-and-members">Admin Role,
-Managing Group Information and Members</a></li>
-<li><a href="#creating-a-group" id="toc-creating-a-group">Creating a
-Group</a></li>
-</ul></li>
-<li><a href="#portal-admin-guide" id="toc-portal-admin-guide">Portal
-Admin Guide</a>
-<ul>
-<li><a href="#tutorial-for-new-portal-admins"
-id="toc-tutorial-for-new-portal-admins">Tutorial for new portal
-admins</a>
-<ul>
-<li><a href="#what-is-a-portal" id="toc-what-is-a-portal">What is a
-Portal?</a></li>
-<li><a href="#purpose-of-a-portal" id="toc-purpose-of-a-portal">Purpose
-of a Portal</a></li>
-<li><a href="#portal-pages" id="toc-portal-pages">Portal pages</a></li>
-<li><a href="#functionalities-of-a-portal"
-id="toc-functionalities-of-a-portal">Functionalities of a
-portal</a></li>
-<li><a href="#internal-versus-external-portal"
-id="toc-internal-versus-external-portal">Internal versus external
-portal</a></li>
-<li><a href="#initial-set-up" id="toc-initial-set-up">Initial
-set-up</a></li>
-<li><a href="#portal-workflow-tutorial"
-id="toc-portal-workflow-tutorial">Portal workflow tutorial</a></li>
-<li><a href="#creating-new-users-within-the-portal"
-id="toc-creating-new-users-within-the-portal">Creating new users within
-the portal</a></li>
-<li><a href="#writing-the-exposition-collaboration"
-id="toc-writing-the-exposition-collaboration">Writing the Exposition,
-Collaboration</a></li>
-<li><a
-href="#publication-or-connecting-to-a-portal-to-make-expositions-visible"
-id="toc-publication-or-connecting-to-a-portal-to-make-expositions-visible">Publication
-or “connecting to” a portal to make expositions visible</a></li>
-<li><a href="#reviewing-and-publication"
-id="toc-reviewing-and-publication">Reviewing and publication</a></li>
-<li><a href="#optional-revision-of-exposition-content"
-id="toc-optional-revision-of-exposition-content">Optional revision of
-exposition content</a></li>
-<li><a href="#final-publication-or-rejection"
-id="toc-final-publication-or-rejection">Final Publication or
-Rejection</a></li>
-<li><a href="#unpublishing" id="toc-unpublishing">Unpublishing</a></li>
-<li><a href="#connecting-an-exposition-to-the-portal"
-id="toc-connecting-an-exposition-to-the-portal">Connecting an exposition
-to the portal</a></li>
-<li><a href="#portal-feed" id="toc-portal-feed">Portal feed</a></li>
-</ul></li>
-<li><a href="#administration-reference-guide"
-id="toc-administration-reference-guide">Administration reference
-guide</a>
-<ul>
-<li><a href="#administration-main-page"
-id="toc-administration-main-page">Administration Main Page</a></li>
-<li><a href="#user-page-user-list" id="toc-user-page-user-list">User
-Page / User list</a></li>
-<li><a href="#portal-page" id="toc-portal-page">Portal page</a></li>
-<li><a href="#portal-edit-screen" id="toc-portal-edit-screen">Portal
-Edit Screen</a></li>
-<li><a href="#common" id="toc-common">Common</a></li>
-<li><a href="#roles-2" id="toc-roles-2">Roles</a></li>
-<li><a href="#templates-1" id="toc-templates-1">Templates</a></li>
-<li><a href="#portal-settings" id="toc-portal-settings">Portal
-Settings</a></li>
-<li><a href="#allow-connection-of" id="toc-allow-connection-of">allow
-connection of</a></li>
-<li><a href="#allow-publishing" id="toc-allow-publishing">allow
-publishing</a></li>
-<li><a href="#research-page" id="toc-research-page">Research
-page</a></li>
-<li><a href="#connection-requests"
-id="toc-connection-requests">Connection Requests</a></li>
-<li><a href="#reviewing-admin" id="toc-reviewing-admin">Reviewing
-(admin)</a></li>
-<li><a href="#in-revision" id="toc-in-revision">In revision</a></li>
-<li><a href="#publication-dialog"
-id="toc-publication-dialog">Publication dialog</a></li>
-<li><a href="#issue-page" id="toc-issue-page">Issue page</a></li>
-<li><a href="#groups-1" id="toc-groups-1">Groups</a></li>
-</ul></li>
-</ul></li>
-<li><a href="#using-json-feeds" id="toc-using-json-feeds">Using JSON
-Feeds</a></li>
-<li><a href="#more-help" id="toc-more-help">More Help</a></li>
-<li><a href="#changelog" id="toc-changelog">Changelog</a></li>
-<li><a href="#in-development" id="toc-in-development">In
-Development</a></li>
-</ul>
-</nav>
 <nav id="main">
 <button type="button" id="menuButton">
 <div id="menuSymbol">
@@ -555,7 +115,6 @@ Development</a></li>
 // this is a little script for the navigation
 </script>
 <div id="body-text">
-
 <h1 id="about-this-guide">About this guide</h1>
 <p>This is the extended guide. It tries to be as complete as possible
 manual for all features of the RC. If you just want to get started
@@ -662,33 +221,33 @@ support@researchcatalogue.net. Please read about “safe upgrade” below,
 to make sure you send this information safely.</p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th><strong>Limited account</strong></th>
 <th><strong>Full Account</strong></th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>comment</td>
 <td>comment</td>
 </tr>
-<tr class="even">
+<tr>
 <td>review</td>
 <td>review</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>create applications (not all)</td>
 <td>create applications</td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td>create expositions</td>
 </tr>
-<tr class="odd">
+<tr>
 <td></td>
 <td>use the media repository</td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td>collaborate</td>
 </tr>
@@ -1066,11 +625,12 @@ info and where they have been used in the exposition)</li>
 <p><a id="licences"></a></p>
 <h1 id="licenses">Licenses</h1>
 <p>Authors can choose different licenses for both their expositions and
-media. A license specifies under what conditions your material - or
-cannot - be (re)used. All rights reserved is the most strict license: it
-means that people need your permission to use any material. Choosing a
-less restrictive Creative Commons license makes it easier for your
-materials to be used, reproduced and distributed by others.</p>
+their media. A license defines what others may — and may not — do with
+your copyrighted material. “All rights reserved” is the most restrictive
+option: it means people need your explicit permission to use anything.
+Choosing a less restrictive Creative Commons license makes it easier for
+others to use, reproduce, and distribute your materials. In some cases,
+a more open license is required by policy.</p>
 <p>Peer-reviewed journals may have differing views on licenses, usually
 based on the requirements of Open Access.</p>
 <p>You can get help choosing the right license on the Creative Commons
@@ -1711,60 +1271,60 @@ Formats</h3>
 <col style="width: 23%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Graphic</th>
 <th>Block</th>
 <th>Text-based</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>non-linear</td>
 <td>linear</td>
 <td>linear</td>
 </tr>
-<tr class="even">
+<tr>
 <td>page can have any dimension</td>
 <td>vertical column with rows</td>
 <td>vertical column</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>static</td>
 <td>responsive</td>
 <td>responsive</td>
 </tr>
-<tr class="even">
+<tr>
 <td>slideshow, 3d-object, synchronized playback of different media</td>
 <td>limited to images, video, audio &amp; pdf</td>
 <td>limited to images, video, audio &amp; pdf</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>similar to Powerpoint or Dreamweaver</td>
 <td>similar to a structured blog post</td>
 <td>similar to a blog post</td>
 </tr>
-<tr class="even">
+<tr>
 <td>only editable in RC</td>
 <td>only editable in RC</td>
 <td>input is plain text, can be imported and exported to different
 formats</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>can have multiple pages</td>
 <td>can have multiple pages</td>
 <td>single page</td>
 </tr>
-<tr class="even">
+<tr>
 <td>position and tool-based links</td>
 <td>tool-based links</td>
 <td>table of content generated from headers</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>drag and drop, mouse based</td>
 <td>drag and drop, mouse based</td>
 <td>Expositions are written by typing</td>
 </tr>
-<tr class="even">
+<tr>
 <td>reviewers can leave comments and notes</td>
 <td>no commenting functionality</td>
 <td>no commenting functionality</td>
@@ -2069,31 +1629,31 @@ have a green border.</p>
 <col style="width: 39%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th><strong>Key command:</strong></th>
 <th><strong>Action:</strong></th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>ctrl + c</strong></td>
 <td>copy selected tools
 <a href="#copy-paste-footnote">(<sup>*</sup>)</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>ctrl + v</strong></td>
 <td>paste</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>⌘(Mac) + a</strong> or <strong>ctrl + a</strong></td>
 <td>select all tools on current weave</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>⌘(Mac) + click</strong> or <strong>ctrl + click</strong> on
 object</td>
 <td>select multiple objects one by one</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>backspace, delete</strong></td>
 <td>remove selected tools</td>
 </tr>
@@ -2318,15 +1878,15 @@ alt="a tooltip text" />
 following “raw” CSS to target it:</p>
 <div class="sourceCode" id="cb1"><pre
 class="sourceCode css"><code class="sourceCode css"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#hover</span> pre { <span class="co">/* main body */</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="kw">background-color</span>:<span class="cn">black</span><span class="op">;</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="kw">font-family</span>: <span class="dv">sans-serif</span><span class="op">;</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="kw">font-size</span>: <span class="dv">12</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="kw">background-color</span><span class="ch">:</span><span class="cn">black</span><span class="op">;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="kw">font-family</span><span class="ch">:</span> <span class="dv">sans-serif</span><span class="op">;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="kw">font-size</span><span class="ch">:</span> <span class="dv">12</span><span class="dt">px</span><span class="op">;</span></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>}</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="pp">#hover</span> { <span class="co">/* copyright, if you choose to display it as well */</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="kw">background-color</span>:<span class="cn">black</span><span class="op">;</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="kw">font-family</span>: <span class="dv">sans-serif</span><span class="op">;</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="kw">font-size</span>: <span class="dv">12</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="kw">background-color</span><span class="ch">:</span><span class="cn">black</span><span class="op">;</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="kw">font-family</span><span class="ch">:</span> <span class="dv">sans-serif</span><span class="op">;</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="kw">font-size</span><span class="ch">:</span> <span class="dv">12</span><span class="dt">px</span><span class="op">;</span></span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
 <p>Please note, you can’t change the copyright information in the “edit
 picture” window. To change the name or the copyright text, close the
@@ -2609,6 +2169,8 @@ href="#media-list">media list</a> first.</p>
 </ul>
 <h4 id="a-few-notes">A Few Notes</h4>
 <ul>
+<li><p><strong>Display in browser</strong> option is only available in
+the graphical editor.</p></li>
 <li><p><strong>! Never re-use the url</strong> of the pdf file that
 opens when you click the pdf tool in the preview. For example:
 “https://media.researchcatalogue.net/rc/master/73723.pdf?t=2629205589&amp;e=1510816850”
@@ -2627,36 +2189,34 @@ touched.</p></li>
 only there for legacy reasons. Likely to be removed in future versions
 of the editor.</p></li>
 <li><p><strong>Settings</strong></p>
-<ul>
-<li><p><strong>Display in Browser</strong></p>
-<p>Option to “embed” the pdf: display its content directly in the page
-using the browsers built in PDF viewer. If the PDF is bigger than the
-box, scrollbars will appear.</p>
-<p><em>Display in Browser</em> works best if:</p>
-<ul>
-<li>your exposition page only contains a single PDF file and not much
-else.</li>
-<li>your pdf is only 1 or 2 pages long and the tool is made large enough
-to fit the whole document. Always check with the
-<strong>preview</strong> how the PDF looks embedded.</li>
-</ul>
-<p>We recommend against putting other tools on top of a <strong>“display
-in browser”</strong> PDF tool, since browsers have slightly different
-margins on their PDF viewers : this may result in disalignment of
-content.</p>
 <figure>
 <img loading="lazy" src="images/pdf-display-in-browser.png"
 alt="Extra settings dialog of pdf tool" />
 <figcaption aria-hidden="true">Extra settings dialog of pdf
 tool</figcaption>
 </figure>
+<p><strong>display in browser</strong></p>
+<p><strong>This option is only available in the graphical
+editor!</strong> This embeds the PDF contents directly in the page,
+using the built-in browser viewer.</p>
+<ul>
+<li>use sparingly: placing an embedded pdf (with scrollbars) in a
+crowded page is disorienting. Better to use this in its own page, with
+only minimal navigation and additional materials.</li>
+<li>do not place tools on top of an embedded PDF, due to differences in
+browsers, the relative spacing within your PDF and the tools in RC may
+get out of sync.</li>
+<li>always check with the <strong>preview</strong> how the PDF looks
+embedded.</li>
+</ul>
+<p><strong>show on hover</strong> &amp; <strong>text on
+hoover</strong></p>
 <p>As in the picture tool, you can set a text that the reader sees when
-they hoover the object. To do this, select one of the options in the
+they hover the object. To do this, select one of the options in the
 “show on hover” pull-down menu. You can create a plain text to be
 displayed when the reader’s mouse hovers over the PDF preview. To use
 this, choose “plain text” or “copyright &amp; plain text” from the
 pull-down menu and write your text in the text field below.</p></li>
-</ul></li>
 </ul>
 <h3 id="sync-tool">Sync Tool</h3>
 <p><em>this was previously sometimes referred to as the “play
@@ -2785,7 +2345,7 @@ to get a code that looks like this:</li>
 </ol>
 <p>Example embed code:</p>
 <div class="sourceCode" id="cb2"><pre
-class="sourceCode html"><code class="sourceCode html"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;iframe</span> <span class="er">width</span><span class="ot">=</span><span class="st">&quot;560&quot;</span> <span class="er">height</span><span class="ot">=</span><span class="st">&quot;315&quot;</span> <span class="er">src</span><span class="ot">=</span><span class="st">&quot;https://www.youtube.com/embed/oxm8ph2tfpY?si=bXDl1iR8cxAmuEjX&quot;</span> <span class="er">title</span><span class="ot">=</span><span class="st">&quot;YouTube video player&quot;</span> <span class="er">frameborder</span><span class="ot">=</span><span class="st">&quot;0&quot;</span> <span class="er">allow</span><span class="ot">=</span><span class="st">&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot;</span> <span class="er">referrerpolicy</span><span class="ot">=</span><span class="st">&quot;strict-origin-when-cross-origin&quot;</span> <span class="er">allowfullscreen</span><span class="kw">&gt;&lt;/iframe&gt;</span></span></code></pre></div>
+class="sourceCode html"><code class="sourceCode html"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">iframe</span><span class="ot"> width</span><span class="op">=</span><span class="st">&quot;560&quot;</span><span class="ot"> height</span><span class="op">=</span><span class="st">&quot;315&quot;</span><span class="ot"> src</span><span class="op">=</span><span class="st">&quot;https://www.youtube.com/embed/oxm8ph2tfpY?si=bXDl1iR8cxAmuEjX&quot;</span><span class="ot"> title</span><span class="op">=</span><span class="st">&quot;YouTube video player&quot;</span><span class="ot"> frameborder</span><span class="op">=</span><span class="st">&quot;0&quot;</span><span class="ot"> allow</span><span class="op">=</span><span class="st">&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot;</span><span class="ot"> referrerpolicy</span><span class="op">=</span><span class="st">&quot;strict-origin-when-cross-origin&quot;</span><span class="ot"> allowfullscreen</span><span class="dt">&gt;&lt;/</span><span class="kw">iframe</span><span class="dt">&gt;</span></span></code></pre></div>
 <ol start="2" type="1">
 <li>Add a new HTML tool in your block page</li>
 <li>Make sure the <strong>extended toolbar</strong> is open <img
@@ -2909,29 +2469,29 @@ map, media, references, popover and pages tabs
 <col style="width: 43%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Tab</th>
 <th>Function:</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><a href="#overview-1">map</a></td>
 <td>map and list overview</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="#simple-media">media</a></td>
 <td>view previously uploaded media files</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="#footnotes-and-popovers">popup</a></td>
 <td>manage popovers</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="#references">ref</a></td>
 <td>manage references / bibliography</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://guide.researchcatalogue.net/#pages">pages</a></td>
 <td>manage pages</td>
 </tr>
@@ -3067,7 +2627,7 @@ want as your start page for the reader. <!--
 This should be in table of contents, it is completely out of place in
 meta-data --></p>
 <h3 id="page-settings">Page Settings</h3>
-<p>[the page settings dialog](images/pages-tab-2018.png ” the page
+<p>![the page settings dialog](images/pages-tab-2018.png ” the page
 settings”)]</p>
 <p>In the page settings dialog, you can change the meta data of the page
 and control the page appearance. It is opened by clicking the pencil
@@ -3086,11 +2646,10 @@ external website by means of a URL. There are a few requirements to the
 URL for this to work:</p>
 <ul>
 <li>For reasons of security, the website needs to be configured to use a
-<a
-href="https://en.wikipedia.org/wiki/HTTPS%20%22https%20on%20wikipedia%22">TLS
-connection</a>. Links with TLS enabled can in most cases be identified
-by the <strong>https://</strong> instead of <strong>http://</strong> at
-the start.</li>
+<a href="https://en.wikipedia.org/wiki/HTTPS"
+title="https on wikipedia">TLS connection</a>. Links with TLS enabled
+can in most cases be identified by the <strong>https://</strong> instead
+of <strong>http://</strong> at the start.</li>
 <li>You need to provide the full URL (inlude the https:// at the
 start).</li>
 </ul>
@@ -3901,7 +3460,7 @@ Using the buttons in the list itself:</li>
 <li>remove the object from your exposition</li>
 <li>insert the object in the current position in the text.</li>
 </ul>
-<p>[The media edit dialog](images/edit-media-elm.png ” the edit media
+<p>![The media edit dialog](images/edit-media-elm.png ” the edit media
 dialog”)</p>
 <h3 id="insert-media">Insert Media</h3>
 <p>Media is represented on the editor side using a
@@ -3920,7 +3479,7 @@ button</figcaption>
 media named “myFile”, you can directly write !{myFile}. This !{myFile}
 tag will be the location in your text where myFile will be inserted.</p>
 <p>A <strong>caption text</strong> can also be included, to get a
-caption you write [my caption text]{myFile}. The caption text is
+caption you write ![my caption text]{myFile}. The caption text is
 displayed underneath the media.</p>
 <h3 id="import-export">Import &amp; Export</h3>
 <p>You can import content from documents from text editors like Word
@@ -4132,24 +3691,24 @@ newlines).</p>
 | Judith | 6 | Cat | </pre>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Name</th>
 <th>Age</th>
 <th>Species</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Harry</td>
 <td>23</td>
 <td>Human</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Gerhard</td>
 <td>77</td>
 <td>Parrot</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Judith</td>
 <td>6</td>
 <td>Cat</td>
@@ -4973,21 +4532,21 @@ issue for the exposition to be published in.</p>
 <p>The range controls to who the exposition will be visible:</p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th><strong>range</strong></th>
 <th><strong>who can see it?</strong></th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Limited to portal</td>
 <td>Members of the portal can see it</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Unlimited</td>
 <td>All visitors</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Archived</td>
 <td>Portal admins</td>
 </tr>
@@ -5102,25 +4661,25 @@ alt="admin user page" />
 <col style="width: 72%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Action</th>
 <th>Icon</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Add a user</td>
 <td><img loading="lazy" src="images/add.gif" class="icon"></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Edit a user</td>
 <td><img loading="lazy" src="images/edit.gif" class="icon"></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Remove user from portal</td>
 <td><img loading="lazy" src="images/portal_user_minus.jpg" class="icon"></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Login as a user</td>
 <td><img loading="lazy" src="images/loginas.png" class="icon"></td>
 </tr>
@@ -5188,21 +4747,21 @@ portal. It has 3 actions:</p>
 <col style="width: 71%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Action</th>
 <th>Icon</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Portal mail</td>
 <td><img loading="lazy" src="images/email.gif" class="icon"></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Edit portal settings</td>
 <td><img loading="lazy" src="images/edit.gif" class="icon"></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Delete a portal</td>
 <td><img loading="lazy" src="images/remove.gif" class="icon"></td>
 </tr>
@@ -5361,25 +4920,25 @@ published yet. There are a number of actions available:</p>
 <col style="width: 86%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Action</th>
 <th>Icon</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Edit</td>
 <td><img loading="lazy" src="images/research-icon-edit.png" class="icon"></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Unpublish</td>
 <td><img loading="lazy" src="images/research-icon-unpublish.png" class="icon"></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Comment</td>
 <td><img loading="lazy" src="images/research-icon-comment.png" class="icon"></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Block</td>
 <td><img loading="lazy" src="images/research-icon-block.png" class="icon"></td>
 </tr>
@@ -5425,37 +4984,37 @@ reviewers) and the portal admin(s).</p>
 <col style="width: 26%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Action</th>
 <th>Icon</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>edit</td>
 <td><img loading="lazy" src="images/edit-action.png" class="icon"></td>
 <td>Add reviewers and/or editors</td>
 </tr>
-<tr class="even">
+<tr>
 <td>accept</td>
 <td><img loading="lazy" src="images/accept-action.png" class="icon"></td>
 <td><a href="#publication-dialog"
 title="publication dialog"><strong>Accept</strong></a> publication
 request</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>reject</td>
 <td><img loading="lazy" src="images/reject-action.png" class="icon"></td>
 <td>Reject publication request</td>
 </tr>
-<tr class="even">
+<tr>
 <td>change status</td>
 <td><img loading="lazy" src="images/revision-action.png" class="icon"></td>
 <td>Put exposition <a href="#in-revision" title="in revision"><strong>in
 revision</strong></a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>export</td>
 <td><img loading="lazy" src="images/export-action.png" class="icon"></td>
 <td>Export the exposition as zip</td>
@@ -5606,13 +5165,14 @@ support first.</p></li>
 <p>For the latest updates on RC development, visit: <a
 href="https://societyforartisticresearch.github.io/rclogbook/"
 class="uri">https://societyforartisticresearch.github.io/rclogbook/</a></p>
-<section class="footnotes footnotes-end-of-document"
+</div>
+</div>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
 role="doc-endnotes">
 <hr />
 <ol>
-<li id="fn1" role="doc-endnote"><p>It is not possible to have both at
-the same time.<a href="#fnref1" class="footnote-back"
-role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>It is not possible to have both at the same time.<a
+href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 </body>

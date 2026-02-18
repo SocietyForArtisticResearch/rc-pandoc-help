@@ -48,7 +48,8 @@ window.addEventListener('DOMContentLoaded', function () {
             }
 
             function makeLinksCloseNav() { // links should close the navigation
-                let links = document.getElementById('TOC').getElementsByTagName('A');
+                let toc = document.getElementById('TOC');
+                let links = toc.getElementsByTagName('A');
                 for (let i = 0; i < links.length; i++) {
                     links[i].onclick = function () {
                         document.getElementById('body-text').style.display = 'default';
