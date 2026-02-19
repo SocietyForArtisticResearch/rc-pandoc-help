@@ -534,7 +534,7 @@ __accepted formats__
 At the moment, the RC supports a large number of file formats. To make sure the
 video can be viewed by any reader in all browsers and platforms, all video
 uploads are [transcoded](https://en.wikipedia.org/wiki/Transcoding) to a more
-portable web-compatible format. This may mean a small reduction in quality but reduces the loading times and bandwidth requirements for the reader. Since 2025, all videos are transcoded by the Research Catalogue itself using our own local transcoder. In extremely rare cases, were the local transcoder cannot handle a rare file format, we may rely on a backup external transcoder (Zencoder). 
+portable web-compatible format. This may mean a small reduction in quality but reduces the loading times and bandwidth requirements for the reader. Since 2025, all videos are transcoded by the Research Catalogue itself using our own local transcoder. In very rare cases, were the local transcoder cannot handle a rare file format, we may rely on a backup external transcoder (Zencoder). 
 
 There are a few more general limitations though;
 
