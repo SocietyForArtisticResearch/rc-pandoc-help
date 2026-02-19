@@ -85,9 +85,9 @@ First time user of the text editor? <a href="#introduction">click here</a>.
   
 ### Overview
 
-<div id="overview-block">
+<div id="overview-block" style="width:1000px; margin-left:auto; margin-right:auto">
 <p>Click any element in the image to jump to the relevant section:</p>
-<img class="center overview-map" src="images/editor-overview-elm.png" width="1000" height="549" class="overview-map" usemap="#image-map">
+<img class="center overview-map" src="images/editor-overview-elm.png" class="overview-map" usemap="#image-map">
 <map name="image-map"> <area alt="Upload media files" title="Upload media files" href="#upload-media" coords="101,68,2,46" shape="rect">
     <area alt="Import external format (Word docx, Open office odt, Plain txt)" title="Import external format (Word docx, Open office odt, Plain txt)" href="#import-export" coords="107,51,189,70" shape="rect">
     <area alt="Editor (using Markdown)" title="Editor (using Markdown)" href="#editor" coords="496,530,7,97" shape="rect">

@@ -165,6 +165,23 @@ Note: The tools are described as they work in the graphical editor. When using t
 block editor, some of the tools are not available or there may be limitations 
 in tool options.
 
+This is the list of all tools:
+
+<ul style="display: block;">
+<li><a href="#text-tool" id="toc-text-tool" target="_self">Text Tool</a></li>
+<li><a href="#html-tool" id="toc-html-tool" target="_self">HTML Tool</a></li>
+<li><a href="#image-tool" id="toc-image-tool" target="_self">Image Tool</a></li>
+<li><a href="#audio-tool" id="toc-audio-tool" target="_self">Audio Tool</a></li>
+<li><a href="#video-tool" id="toc-video-tool" target="_self">Video Tool</a></li>
+<li><a href="#slideshow-tool" id="toc-slideshow-tool" target="_self">Slideshow
+Tool</a></li>
+<li><a href="#pdf-tool" id="toc-pdf-tool" target="_self">PDF Tool</a></li>
+<li><a href="#sync-tool" id="toc-sync-tool" target="_self">Sync Tool</a> (graphical editor only)</li>
+<li><a href="#shape-tool" id="toc-shape-tool" target="_self">Shape Tool</a> (graphical editor only)</li>
+<li><a href="#note-tool" id="toc-note-tool" target="_self">Note Tool</a> </li>
+<li><a href="#embed-tool" id="toc-embed-tool" target="_self">Embed tool</a> (graphical editor only)</li>
+</ul>
+
 ### Context Menu
 
 <div class="small_image">

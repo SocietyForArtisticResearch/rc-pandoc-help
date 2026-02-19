@@ -336,8 +336,9 @@ table tr td :last-child {
 
 .overview-map {
     position: relative;
-    left: -25%;
 }
+
+
 
 @media screen and (max-width: 600px) {
     nav#main {

@@ -82,16 +82,17 @@ whole. JavaScript is not supported.
 
 ### Comparison of RC Exposition Formats
 
-| Graphic 														| Block | Text-based |
-|-----------------------------------|----------------|----------------|
-| non-linear                        | linear                 | linear |
-| page can have any dimension       | vertical column with rows                | vertical column |
-| static                            |  responsive      |  responsive    |
-| slideshow, 3d-object, synchronized playback of different media | limited to images, video, audio & pdf | limited to images, video, audio & pdf |
-| similar to Powerpoint or Dreamweaver												| similar to a structured blog post | similar to a blog post |
-| only editable in RC											| only editable in RC											| input is plain text, can be imported and exported to different formats  |
-| can have multiple pages | can have multiple pages | single page |
-| position and tool-based links | tool-based links | table of content generated from headers |
-| drag and drop, mouse based       | drag and drop, mouse based       | Expositions are written by typing |
-| reviewers can leave comments and notes       | no commenting functionality | no commenting functionality |
+| Graphic 														| Block | Text-based | Html-based |
+|-----------------------------------|----------------|----------------|--------------------|
+| non-linear                        | linear                 | linear | linear and non-linear |
+| page can have any dimension       | vertical column with rows                | vertical column | hypertext |
+| static                            |  responsive      |  responsive    | static and responsive |
+| slideshow, 3d-object, synchronized playback of different media | limited to images, video, audio & pdf | limited to images, video, audio & pdf | HTML5 media tags, No javascript |
+| similar to Powerpoint or Dreamweaver												| similar to a structured blog post | similar to a blog post | webpage |
+| only editable in RC											| only editable in RC											| input is plain text, can be imported and exported to different formats  | not editable in RC, not editable by admins |
+| can have multiple pages | can have multiple pages | single page | can have multiple pages |
+| position and tool-based links | tool-based links | table of content generated from headers | <a href> links only |
+| drag and drop, mouse based       | drag and drop, mouse based       | Expositions are written by typing | External code editor, static generator |
+| reviewers can leave comments and notes       | no commenting functionality | no commenting functionality | no commenting |
 
+As HTML format is not editable in RC, most journals will not accept it. So always consult with a portal if you are planning to submit it.
