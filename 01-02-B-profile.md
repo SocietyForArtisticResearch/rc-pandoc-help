@@ -103,15 +103,7 @@ most cases, copyright is assigned to the main author of the exposition.  You can
 later by choosing ☰ > __edit details__, or in the __workspace editor__
 by clicking the title of your research (at the top of you screen).
 
-There are three types of exposition on the RC:
-
-* [Graphical/Block](#graphical-editor-mode "graphical editor
-  documentation")
-* [Text-based](#text-based-editor "text-based editor documentation")
-* [HTML-based](#html-import "html import documentation")
-
-For a description of the differences, please consult [editor
-comparison section](#comparison).
+As a beginner you probably want to use Graphical or Block mode, the differences can be found in the section [choosing an editor](#choosing-an-editor).
 
 ![create exposition](images/add-research-dialog.png "the add research dialog")
 

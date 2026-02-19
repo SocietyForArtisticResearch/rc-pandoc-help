@@ -30,11 +30,10 @@ When creating a new exposition you are asked to choose which editor you want to
 start with. Graphical and block pages are part of the same format and can be
 mixed, but text and HTML are separate formats. This makes it important to choose
 the right format. Most beginners will want to use the block or graphical editor.
-For an overview of selected use cases, and how to make an informed decision on
-the editor choice, please visit [this
-exposition](https://www.researchcatalogue.net/view/2445101/2445102).
 
-Some portals will not accept HTML imported submissions. Please consult the portal beforehand, in case you are planning to submit and want to use the HTML import feature.
+Most journals (and some of the portals) will not accept HTML imported
+submissions. Please consult the portal beforehand, in case you are planning to
+submit and want to use the HTML import feature.
  
 ![choosing a format in the Create Exposition dialog](images/format-picker.png "format picker")
 
@@ -91,7 +90,7 @@ whole. JavaScript is not supported.
 | similar to Powerpoint or Dreamweaver												| similar to a structured blog post | similar to a blog post | webpage |
 | only editable in RC											| only editable in RC											| input is plain text, can be imported and exported to different formats  | not editable in RC, not editable by admins |
 | can have multiple pages | can have multiple pages | single page | can have multiple pages |
-| position and tool-based links | tool-based links | table of content generated from headers | <a href> links only |
+| position and tool-based links | tool-based links | table of content generated from headers | edit yourself in table of contents dialog |
 | drag and drop, mouse based       | drag and drop, mouse based       | Expositions are written by typing | External code editor, static generator |
 | reviewers can leave comments and notes       | no commenting functionality | no commenting functionality | no commenting |
 

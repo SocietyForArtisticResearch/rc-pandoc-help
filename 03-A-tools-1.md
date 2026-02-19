@@ -534,15 +534,22 @@ __accepted formats__
 At the moment, the RC supports a large number of file formats. To make sure the
 video can be viewed by any reader in all browsers and platforms, all video
 uploads are [transcoded](https://en.wikipedia.org/wiki/Transcoding) to a more
-portable web-compatible format. This may mean a small reduction in quality but reduces the loading times and bandwidth requirements for the reader. Since 2025, all videos are transcoded by the Research Catalogue itself using our own local transcoder. In very rare cases, were the local transcoder cannot handle a rare file format, we may rely on a backup external transcoder (Zencoder). 
+portable web-compatible format. This significantly reduces both storage and
+bandwidth costs (and thereby RC's environmental impact!) and keeps loading times
+for readers acceptable. 
 
-There are a few more general limitations though;
+Since 2025, all videos are transcoded by the Research
+Catalogue itself using our own local transcoder. In very rare cases, were the
+local transcoder cannot handle a rare file format, we may rely on a backup
+external transcoder (Zencoder).
+
+There are a few general limitations though;
 
 * A single file should not be larger than 10Gb. 
 * It should not have a resolution of above 2048x1080 (2k, 1080p), anything higher will
-  make the transcoding fail. This is because resolutions like 4k are very CPU
+  and the transcoding may fail. This is because resolutions like 4k are very CPU
   intensive to transcode.
-* We do not recommend uploading in a raw video format
+* We do not recommend uploading in any raw video format
 
 __recommended upload quality__
 
@@ -555,7 +562,7 @@ If you have a very large video file (multiple Gb), we recommend compressing it l
 
 Doing this will result in a much faster upload and less waste of storage space
 on the RC side. There is free and open software that makes this relatively easy
-(handbrake, ffmpeg, quicktime) to name a few. 
+(Handbrake, ffmpeg, QuickTime).
 
 __transcoded output used in expositions__
 
