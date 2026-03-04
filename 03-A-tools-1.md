@@ -33,7 +33,7 @@ Tools can be rotated by clicking and dragging the yellow dot.
 
 The size of the current weave will automatically grow when tools are added or dragged over the current limits.
 
-You can right-click (🍎 -> cmd and click)  a tool to see extra options.
+You can right-click (MacOS -> Ctrl  click)  a tool to see extra options.
 
 <a id="block-editor-mode"></a><a id="block-editing-mode"></a>
 
@@ -54,7 +54,8 @@ will automatically fit the content: the bottom of the previous tool determines
 where the next one starts. The blocks are thus stitched together end to end, never
 overlapping. This means it easier to work with text content.
 
-Using relative sizes like this is often associated with the concept of [responsive web
+A block page will never be wider then the screen it is viewed with. Using
+relative sizes like this is often associated with the concept of [responsive web
 design](https://en.wikipedia.org/wiki/Responsive_web_design).
 
 ### When to use
@@ -72,15 +73,15 @@ The block editor is less suited for:
 * diagrams
 * maps
 * timelines
+* designs with overlap or background/foreground
 
 Certain tools (Sync, Shape) for example, can only be used in graphical
 pages, although more will become available in the future.
 
-The __block editor__ provides functionality similar to __text-based editor__ 
-(which is also responsive), but the
+The __block editor__ provides functionality similar to __text-based editor__, but the
 difference is that you can more easily create horizontal rows of
 content and the editing is drag and drop, using the same tools as the graphic editor.
-This also means that both type of page can be used in a single exposition.
+This is also the reason why you can combine the two types in one exposition.
 
 ### Basic Usage
 
@@ -104,7 +105,7 @@ for each row. Within a __column__ you can drag-and-drop any number of tools,
 although it is probably a good idea not too have too many in one
 column, since this will make it harder to change layout afterwards.
 
-You can add tools by clicking the green "+" sign, or dragging them from the toolbar:
+You can add tools by clicking the green "+" sign, or __dragging them from the toolbar__:
 
 ![editing content](images/editing_cells.png "adding tools in block mode")
 
