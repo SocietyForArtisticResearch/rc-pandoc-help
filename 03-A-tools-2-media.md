@@ -155,11 +155,8 @@ page will automatically change size based on the content.
 #### Entry page 
 
 One can change the first page visible to the reader by changing the
-__entry page__. Go to the menu __options__ and choose __edit meta
-data__. Scroll down to __"entry page"__ (at the bottom of the dialog)
-and select the page you want as your start page for the reader.  <!--
-This should be in table of contents, it is completely out of place in
-meta-data -->
+__entry page__. This is the page they see when they open the exposition through "open exposition" or through a DOI. Go to the menu __options__ and choose __edit table of contents__, and select a page in the dropdown ENTRY PAGE.
+and select the page you want as your start page for the reader.
 
 ### Page Settings
 

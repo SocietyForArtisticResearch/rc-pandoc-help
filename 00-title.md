@@ -5,9 +5,11 @@
 -->
 
 ---
-title: Research Catalogue Extended Guide
-date: February 2025
+title: Research Catalogue Extended Guide (V2)
+date: May 2025
 ---
+
+<span style="color:red">THIS IS DRAFT v2</span>
 
 <!--[pdf version](RC-extended-guide.pdf "pdf extended guide pdf version")  -->
 
