@@ -36,7 +36,9 @@ submissions. Please consult the portal beforehand, in case you are planning to
 submit and want to use the HTML import feature.
 
 <figure class="full-width">
+<a href="images/rc_editor_comparison.svg">
 <img class="full-width" loading="lazy" src="images/rc_editor_comparison.svg" title="graphical, block and text-based compared visually" alt="visual comparison to the editors">
+</a>
 <figcaption aria-hidden="true">visual comparison of the
 editors</figcaption>
 </figure>
