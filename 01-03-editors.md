@@ -35,6 +35,8 @@ Most journals (and some of the portals) will not accept HTML imported
 submissions. Please consult the portal beforehand, in case you are planning to
 submit and want to use the HTML import feature.
  
+![visual comparison to the editors](images/rc_editor_comparison.svg "graphical, block and text-based compared visually")
+
 ![choosing a format in the Create Exposition dialog](images/format-picker.png "format picker")
 
 ### Graphical Editor
