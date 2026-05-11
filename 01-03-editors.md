@@ -34,8 +34,12 @@ the right format. Most beginners will want to use the block or graphical editor.
 Most journals (and some of the portals) will not accept HTML imported
 submissions. Please consult the portal beforehand, in case you are planning to
 submit and want to use the HTML import feature.
- 
-![visual comparison to the editors](images/rc_editor_comparison.svg "graphical, block and text-based compared visually")
+
+<figure class="full-width">
+<img class="full-width" loading="lazy" src="images/rc_editor_comparison.svg" title="graphical, block and text-based compared visually" alt="visual comparison to the editors">
+<figcaption aria-hidden="true">visual comparison of the
+editors</figcaption>
+</figure>
 
 ![choosing a format in the Create Exposition dialog](images/format-picker.png "format picker")
 
@@ -83,17 +87,17 @@ whole. JavaScript is not supported.
 
 ### Comparison of RC Exposition Formats
 
-| Graphic 														| Block | Text-based | Html-based |
-|-----------------------------------|----------------|----------------|--------------------|
-| non-linear                        | linear                 | linear | linear and non-linear |
-| page can have any dimension       | vertical column with rows                | vertical column | hypertext |
-| static                            |  responsive      |  responsive    | static and responsive |
-| slideshow, 3d-object, synchronized playback of different media | limited to images, video, audio & pdf | limited to images, video, audio & pdf | HTML5 media tags, No javascript |
-| similar to Powerpoint or Dreamweaver												| similar to a structured blog post | similar to a blog post | webpage |
-| only editable in RC											| only editable in RC											| input is plain text, can be imported and exported to different formats  | not editable in RC, not editable by admins |
-| can have multiple pages | can have multiple pages | single page | can have multiple pages |
-| position and tool-based links | tool-based links | table of content generated from headers | edit yourself in table of contents dialog |
-| drag and drop, mouse based       | drag and drop, mouse based       | Expositions are written by typing | External code editor, static generator |
-| reviewers can leave comments and notes       | no commenting functionality | no commenting functionality | no commenting |
+| Graphic                                                        | Block                                 | Text-based                                                             | Html-based                                 |
+| -------------------------------------------------------------- | ------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------ |
+| non-linear                                                     | linear                                | linear                                                                 | linear and non-linear                      |
+| page can have any dimension                                    | vertical column with rows             | vertical column                                                        | hypertext                                  |
+| static                                                         | responsive                            | responsive                                                             | static and responsive                      |
+| slideshow, 3d-object, synchronized playback of different media | limited to images, video, audio & pdf | limited to images, video, audio & pdf                                  | HTML5 media tags, No javascript            |
+| similar to Powerpoint or Dreamweaver                           | similar to a structured blog post     | similar to a blog post                                                 | webpage                                    |
+| only editable in RC                                            | only editable in RC                   | input is plain text, can be imported and exported to different formats | not editable in RC, not editable by admins |
+| can have multiple pages                                        | can have multiple pages               | single page                                                            | can have multiple pages                    |
+| position and tool-based links                                  | tool-based links                      | table of content generated from headers                                | edit yourself in table of contents dialog  |
+| drag and drop, mouse based                                     | drag and drop, mouse based            | Expositions are written by typing                                      | External code editor, static generator     |
+| reviewers can leave comments and notes                         | no commenting functionality           | no commenting functionality                                            | no commenting                              |
 
 As HTML format is not editable in RC, most journals will not accept it. So always consult with a portal if you are planning to submit it.
