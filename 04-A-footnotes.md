@@ -6,17 +6,20 @@
 
 **Naming**: As of June, 2026, this feature is officially named "popover",
 
-__Popovers__ provide a way to present additional
-content in your _graphical_ and _block_ pages without cluttering the page. Popovers thus
-serve a purpose very similar to that of numbered footnotes in books, without
-the inconvenience of the reader having to look up the number, it appears directly in context. A popover can be configured to open on click or when the reader hovers it. You can either link the popover to a piece of text, or an image tool. Note that hover gestures are difficult on touch devices. 
-
 ![what a popover looks like](images/popover.gif "reader hoovers over a link, a
 popover window appears")
 
+__Popovers__ provide a way to present additional
+content in your _graphical_ and _block_ pages without cluttering the page. _Popovers_ thus
+serve a purpose very similar to that of numbered footnotes in books, without
+the inconvenience of the reader having to look up the number, it appears directly in context. A popover can be configured to open on click or when the reader hovers it. You can either link the popover to a piece of text, or an image tool.
+An advantage of opening on click is that it works better on touch devices.
+
+
+
 The content of a popup is edited in the same way as graphical pages, and its size and position can be customized as well.
 
-A common use in the past for __Popovers__ was to make bibliographical references that pop up
+A common use in the past for _popovers_ was to make bibliographical references that pop up
 in the text. However, the RC also has a dedicated [__reference
 feature__](#references) for that now, that will also generate a bibliographical
 list on the metadata page.

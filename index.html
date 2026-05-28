@@ -323,8 +323,8 @@ Popover</a></li>
 <li><a href="#changing-the-position-or-display-settings-of-a-footnote"
 id="toc-changing-the-position-or-display-settings-of-a-footnote">Changing
 the Position or Display Settings of a Footnote</a></li>
-<li><a href="#auto-numbered-footnotes"
-id="toc-auto-numbered-footnotes">Auto-Numbered Footnotes</a></li>
+<li><a href="#auto-numbered-popovers"
+id="toc-auto-numbered-popovers">Auto-Numbered Popovers</a></li>
 <li><a href="#pictures" id="toc-pictures">Pictures</a></li>
 </ul></li>
 <li><a href="#references" id="toc-references">References</a>
@@ -3238,23 +3238,24 @@ title="table of content">table of content</a>.</p>
 <h2 id="popovers">Popovers</h2>
 <p><strong>Naming</strong>: As of June, 2026, this feature is officially
 named “popover”,</p>
-<p><strong>Popovers</strong> provide a way to present additional content
-in your <em>graphical</em> and <em>block</em> pages without cluttering
-the page. Popovers thus serve a purpose very similar to that of numbered
-footnotes in books, without the inconvenience of the reader having to
-look up the number, it appears directly in context. A popover can be
-configured to open on click or when the reader hovers it. You can either
-link the popover to a piece of text, or an image tool. Note that hover
-gestures are difficult on touch devices.</p>
 <figure>
 <img loading="lazy" src="images/popover.gif"
 title="reader hoovers over a link, a popover window appears"
 alt="what a popover looks like" />
 <figcaption aria-hidden="true">what a popover looks like</figcaption>
 </figure>
+<p><strong>Popovers</strong> provide a way to present additional content
+in your <em>graphical</em> and <em>block</em> pages without cluttering
+the page. <em>Popovers</em> thus serve a purpose very similar to that of
+numbered footnotes in books, without the inconvenience of the reader
+having to look up the number, it appears directly in context. A popover
+can be configured to open on click or when the reader hovers it. You can
+either link the popover to a piece of text, or an image tool. An
+advantage of opening on click is that it works better on touch
+devices.</p>
 <p>The content of a popup is edited in the same way as graphical pages,
 and its size and position can be customized as well.</p>
-<p>A common use in the past for <strong>Popovers</strong> was to make
+<p>A common use in the past for <em>popovers</em> was to make
 bibliographical references that pop up in the text. However, the RC also
 has a dedicated <a href="#references"><strong>reference
 feature</strong></a> for that now, that will also generate a
@@ -3386,18 +3387,20 @@ existing footnote, the best way is:</p>
 <li>Click Edit Settings (“pen”) icon.</li>
 <li>Go to the options tab.</li>
 </ol>
-<h3 id="auto-numbered-footnotes">Auto-Numbered Footnotes</h3>
-<p>Instead of using text as footnote links it is also possible to use
-numbered links. The numbers will be filled in and adjusted
-automatically. In order to create auto-numbered footnotes create a
-footnote in the text or HTML tool as described above but without
+<h3 id="auto-numbered-popovers">Auto-Numbered Popovers</h3>
+<p>Instead of using text as popover links it is also possible to use
+automatically numbered links, more like traditional numbered footnotes.
+<strong>This works best in the block editor</strong>. The numbers will
+be filled in and adjusted automatically if you reorder your content,
+based on position. In order to create auto-numbered Popovers create a
+popover in the text or HTML tool as described above but without
 selecting any text. An “x” will be inserted where the cursor is placed.
 This “x” will be replaced by the correct number when the text is
 displayed.</p>
 <figure>
 <img loading="lazy" src="images/footnote_auto.png"
-alt="Auto-numbered footnote in the editor" />
-<figcaption aria-hidden="true">Auto-numbered footnote in the
+alt="Auto-numbered Popover in the editor" />
+<figcaption aria-hidden="true">Auto-numbered Popover in the
 editor</figcaption>
 </figure>
 <p>The numbering starts at 1 and encompasses all text and HTML objects
@@ -3409,10 +3412,10 @@ notes (1,2,3 etc..) are in a vertical column, for example:</p>
 <figure>
 <img class="portrait-image" src="images/footnotes_align_correct.png" title="image demonstrating incorrect allignment will result in incorrect numbering" alt="">
 <figcaption>
-Footnote numbering in correctly vertically-aligned tools
+Popover numbering in correctly vertically-aligned tools
 </figcaption>
 </figure>
-<p>When the tools are lined up like this, footnotes are correctly
+<p>When the tools are lined up like this, popover are correctly
 numbered. However, if one of the text tools containing an automatic
 footnote in a column is just a bit (even 1 pixel) to the left, like so
 (exaggeration):</p>
@@ -3427,17 +3430,17 @@ Incorrect auto-numbering in non-aligned tools
 the same x position (through right click -&gt; style tab you can check
 this most easily).</p>
 <h3 id="pictures">Pictures</h3>
-<p>It is also possible to use images as links to footnotes. When
-clicking on the image or moving over it with the mouse cursor the
-popover will be show. In order to use an image as a footnote click the
+<p>It is also possible to use an image as “trigger zone” for a popover.
+When clicking on the image or moving over it with the mouse cursor the
+popover will be show. In order to link an image to a popover click the
 menu icon on the bottom right of the image (or right click the image) in
-order to open the context menu. Click the item “add footnote” from the
+order to open the context menu. Click the item “add popover” from the
 context menu and fill in the appearing dialog window.</p>
 <p><a id="references"></a></p>
 <h2 id="references">References</h2>
 <p>The reference feature allows you to build a bibliography for your
 exposition. It is available for both <em>graphical</em> and
-<em>block</em> pages.</p>
+<em>block</em> pages, as an option in the HTML tool.</p>
 <h3 id="creating-a-reference">Creating a Reference</h3>
 <p>You can create a new reference by going to the Ref tab, which is
 located on the right-hand side of the workspace editor. Click the +
