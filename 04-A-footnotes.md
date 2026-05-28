@@ -104,16 +104,16 @@ footnote, the best way is:
 3. Click Edit Settings ("pen") icon.
 4. Go to the options tab.
 
-### Auto-Numbered Footnotes
+### Auto-Numbered Popovers
 
-Instead of using text as footnote links it is also possible to use numbered
-links. The numbers will be filled in and adjusted automatically. In order to
-create auto-numbered footnotes create a footnote in the text or HTML tool as
+Instead of using text as popover links it is also possible to use automatically numbered
+links, more like traditional numbered footnotes. __This works best in the block editor__. The numbers will be filled in and adjusted automatically if you reorder your content, based on position. In order to
+create auto-numbered Popovers create a popover in the text or HTML tool as
 described above but without selecting any text. An "x" will be inserted where
 the cursor is placed. This "x" will be replaced by the correct number when the
 text is displayed. 
 
-![Auto-numbered footnote in the editor](images/footnote_auto.png)
+![Auto-numbered Popover in the editor](images/footnote_auto.png)
 
 The numbering starts at 1 and encompasses all text and HTML objects on the
 weave. Numbering is performed by object and proceeds from the top and left to
@@ -124,10 +124,10 @@ depends on x and y position of the tools. This means that if the notes (1,2,3
 etc..) are in a vertical column, for example:
 
 <figure>
-<img class="portrait-image" src="images/footnotes_align_correct.png" title="image demonstrating incorrect allignment will result in incorrect numbering" alt=""><figcaption>Footnote numbering in correctly vertically-aligned tools</figcaption>
+<img class="portrait-image" src="images/footnotes_align_correct.png" title="image demonstrating incorrect allignment will result in incorrect numbering" alt=""><figcaption>Popover numbering in correctly vertically-aligned tools</figcaption>
 </figure>
 
-When the tools are lined up like this, footnotes are correctly numbered.
+When the tools are lined up like this, popover are correctly numbered.
 However, if one of the text tools containing an automatic footnote in a column
 is just a bit (even 1 pixel) to the left, like so (exaggeration):
  
@@ -141,18 +141,18 @@ case, it is very important to have the text tools exactly at the same x position
 
 ### Pictures 
 
-It is also possible to use images as links to footnotes. When clicking on the
+It is also possible to use an image as "trigger zone" for a popover. When clicking on the
 image or moving over it with the mouse cursor the popover will be show. In order
-to use an image as a footnote click the menu icon on the bottom right of the
+to link an image to a popover click the menu icon on the bottom right of the
 image (or right click the image) in order to open the context menu. Click the
-item "add footnote" from the context menu and fill in the appearing dialog
+item "add popover" from the context menu and fill in the appearing dialog
 window. 
 
 <a id="references"></a>
 
 ## References 
 
-The reference feature allows you to build a bibliography for your exposition. It is available for both _graphical_ and _block_ pages.
+The reference feature allows you to build a bibliography for your exposition. It is available for both _graphical_ and _block_ pages, as an option in the HTML tool.
 
 
 ### Creating a Reference
