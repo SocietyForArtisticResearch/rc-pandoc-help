@@ -3,6 +3,8 @@ import sys
 import os
 
 def find_broken_internal_links(html_file_path):
+    base_dir = os.path.dirname(os.path.abspath(html_file_path))
+
     if not os.path.exists(html_file_path):
         print(f"File not found: {html_file_path}")
         return
@@ -26,13 +28,36 @@ def find_broken_internal_links(html_file_path):
             if fragment not in valid_targets:
                 broken_links.append((href, str(a)))
 
+    # Find all images with missing src files
+    missing_images = []
+    for img in soup.find_all('img', src=True):
+        src = img['src']
+        if src.startswith('http://') or src.startswith('https://') or src.startswith('data:'):
+            continue
+        img_path = os.path.join(base_dir, src)
+        if not os.path.exists(img_path):
+            missing_images.append(src)
+
+    errors = False
+
     if broken_links:
-        print("⚠️ warning: broken internal links found:")
+        print("⚠️  broken internal links found:")
         for href, tag in broken_links:
             print(f"  {href} → Not found. Link tag: {tag}")
-        sys.exit(1)  # Exit with error code if broken links found
+        errors = True
     else:
         print("✅ No broken internal links found.")
+
+    if missing_images:
+        print("⚠️  missing images found:")
+        for src in missing_images:
+            print(f"  {src}")
+        errors = True
+    else:
+        print("✅ No missing images found.")
+
+    if errors:
+        sys.exit(1)
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:

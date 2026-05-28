@@ -26,7 +26,7 @@ pages that are not yet listed in the table of contents.
 
 <a id="workspace-editor-for-graphical-expositions"></a>
 
-![workspace view of the graphical exposition format](images/workspace-view-2018.png "workspace view")
+![workspace view of the graphical exposition format](images/graphical-editor-2026.png "workspace view")
 
 The __workspace editor__ is the editor of content on the RC. It can be opened by clicking __☰ > edit workspace__ on an exposition listed on your profile. If you are reading one of your own expositions, you can also open the editor by clicking __EDIT__ in the navigation bar on top. Which editor will show will depend on the format.
 

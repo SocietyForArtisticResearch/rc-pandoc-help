@@ -6,8 +6,7 @@ See the [video tutorial](https://www.researchcatalogue.net/view/273532/1685164#t
 
 ![an example of a contents list, made through the table of content](images/table-of-content-example.png)
 
-The table of content is designed to facilitate the navigation through
-an exposition. Both pages and locations within a page can be added in the table of content.
+The table of content is designed to facilitate the navigation through an exposition. Both pages and locations within a page can be added in the table of content. You can also set an __entry page__, this is the page where the user starts reading.
 In order to edit the table of content, go to the __"Options"__ menu > __"Edit Table of Content"__. 
 
 ![Table of content dialog](images/table-of-content-dialog.png)
@@ -26,7 +25,7 @@ You can use a tool coordinates as an entry point. You will be provided with the 
 * __X-COORD & Y-COORD__\
 you can use this to create an entry that has an offset, which immediately opens the page on a specific location within the exposition. The X,Y values correspond to an offset in pixels. The Y offset is measured from the top. Instead of looking these values up by hand, you may also use [__options -> show current position__](#options-show-current-position).
 
-*Tip: you can easily reorder the table of contents entries by clicking and dragging the boxes.*
+*Tip: you can reorder the table of contents entries by clicking and dragging them using the ☰ icon*
 
 ### Static Navigation Bar
 
