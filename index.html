@@ -311,8 +311,7 @@ using Simple Media</a></li>
 Settings</a></li>
 <li><a href="#raw-css" id="toc-raw-css">Raw CSS</a></li>
 </ul></li>
-<li><a href="#popovers-footnotes" id="toc-popovers-footnotes">Popovers /
-Footnotes</a>
+<li><a href="#popovers" id="toc-popovers">Popovers</a>
 <ul>
 <li><a href="#creating-a-popover" id="toc-creating-a-popover">Creating a
 Popover</a></li>
@@ -3236,42 +3235,41 @@ remove it from the <a href="#table-of-content"
 title="table of content">table of content</a>.</p>
 <p><a id="footnotes-and-popovers"></a> <a id="footnotes"></a>
 <a id="popovers"></a></p>
-<h2 id="popovers-footnotes">Popovers / Footnotes</h2>
+<h2 id="popovers">Popovers</h2>
+<p><strong>Naming</strong>: As of June, 2026, this feature is officially
+named “popover”,</p>
 <p><strong>Popovers</strong> provide a way to present additional content
 in your <em>graphical</em> and <em>block</em> pages without cluttering
 the page. Popovers thus serve a purpose very similar to that of numbered
 footnotes in books, without the inconvenience of the reader having to
-look up the number, they can just hoover over the reference to view the
-extra content. The popover appears when the reader clicks/hoovers over
-the popovers’ activation hyperlink. Instead of as hyperlink within text,
-you can also make them show up on hoovering a particular image tool.</p>
+look up the number, it appears directly in context. A popover can be
+configured to open on click or when the reader hovers it. You can either
+link the popover to a piece of text, or an image tool. Note that hover
+gestures are difficult on touch devices.</p>
 <figure>
 <img loading="lazy" src="images/popover.gif"
 title="reader hoovers over a link, a popover window appears"
 alt="what a popover looks like" />
 <figcaption aria-hidden="true">what a popover looks like</figcaption>
 </figure>
-<p>The content of a popup is edited in the same way as graphical
-pages.</p>
-<p><strong>Naming</strong>: Inside of the RC, <strong>Popovers</strong>
-may still be refered to as <strong>Footnotes</strong> in certain places:
-there is no difference in functionality.</p>
-<p>A common use for <strong>Popovers</strong> was to make
-bibliographical references that pop up in the text. however, the RC also
+<p>The content of a popup is edited in the same way as graphical pages,
+and its size and position can be customized as well.</p>
+<p>A common use in the past for <strong>Popovers</strong> was to make
+bibliographical references that pop up in the text. However, the RC also
 has a dedicated <a href="#references"><strong>reference
 feature</strong></a> for that now, that will also generate a
 bibliographical list on the metadata page.</p>
 <h3 id="creating-a-popover">Creating a Popover</h3>
 <p>Popovers can be created in two ways:</p>
 <ol type="1">
-<li>As a hyperlink within text tools</li>
+<li>Inside of the HTML tool</li>
 <li>Linked to an image tool</li>
 </ol>
-<p>To create a popover within a text tool, open a <strong>Text</strong>
-or <strong>HTML tool</strong> and select a piece of text. After this,
-click the hyperlink button <img
-src="images/hyperlink-button.png" class="wide-icon" alt="insert
-hyperlink"></img>, this will open a dialog:</p>
+<p>To create a popover within a text tool, open a <strong>HTML
+tool</strong> and select a piece of text. After this, click the popover
+button <img
+src="images/popover-button.png" class="wide-icon" alt="insert popover"></img>,
+this will open a dialog:</p>
 <figure>
 <img loading="lazy" src="images/footnote_dia.png" title="footnote dialog"
 alt="image of insert link/footnote dialog" />
@@ -3281,7 +3279,7 @@ dialog</figcaption>
 <p>Now choose the second tab <strong>“footnote”</strong> to create a new
 <strong>popover</strong>.</p>
 <p>To link a <strong>popover</strong> to an image tool, right click the
-image tool and select <strong>“add footnote”</strong>.</p>
+image tool and select <strong>“add popover”</strong>.</p>
 <h3 id="customizing-the-popover-properties">Customizing the Popover
 Properties</h3>
 <figure>

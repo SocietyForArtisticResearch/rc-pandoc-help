@@ -2,27 +2,22 @@
 <a id="footnotes"></a>
 <a id="popovers"></a>
 
-## Popovers / Footnotes
+## Popovers 
+
+**Naming**: As of June, 2026, this feature is officially named "popover",
 
 __Popovers__ provide a way to present additional
 content in your _graphical_ and _block_ pages without cluttering the page. Popovers thus
 serve a purpose very similar to that of numbered footnotes in books, without
-the inconvenience of the reader having to look up the number, they can just
-hoover over the reference to view the extra content. The popover appears when
-the reader clicks/hoovers over the popovers' activation hyperlink. Instead of as
-hyperlink within text, you can also make them show up on hoovering a particular
-image tool.
+the inconvenience of the reader having to look up the number, it appears directly in context. A popover can be configured to open on click or when the reader hovers it. You can either link the popover to a piece of text, or an image tool. Note that hover gestures are difficult on touch devices. 
 
 ![what a popover looks like](images/popover.gif "reader hoovers over a link, a
 popover window appears")
 
-The content of a popup is edited in the same way as graphical pages.
+The content of a popup is edited in the same way as graphical pages, and its size and position can be customized as well.
 
-**Naming**: Inside of the RC, __Popovers__ may still be refered to as
-__Footnotes__ in certain places: there is no difference in functionality.
-
-A common use for __Popovers__ was to make bibliographical references that pop up
-in the text. however, the RC also has a dedicated [__reference
+A common use in the past for __Popovers__ was to make bibliographical references that pop up
+in the text. However, the RC also has a dedicated [__reference
 feature__](#references) for that now, that will also generate a bibliographical
 list on the metadata page.
 
@@ -30,20 +25,19 @@ list on the metadata page.
 
 Popovers can be created in two ways:
 
-1. As a hyperlink within text tools
+1. Inside of the HTML tool
 2. Linked to an image tool
 
-To create a popover within a text tool, open a __Text__ or __HTML tool__ and
-select a piece of text. After this, click the hyperlink button <img
-src="images/hyperlink-button.png" class="wide-icon" alt="insert
-hyperlink"></img>,  this will open a dialog: 
+To create a popover within a text tool, open a __HTML tool__ and
+select a piece of text. After this, click the popover button <img
+src="images/popover-button.png" class="wide-icon" alt="insert popover"></img>,  this will open a dialog: 
 
 ![image of insert link/footnote dialog](images/footnote_dia.png "footnote dialog") 
 
 Now choose the second tab __"footnote"__ to create a new __popover__.
 
 To link a __popover__ to an image tool, right click the image tool and select
-__"add footnote"__.
+__"add popover"__.
 
 ### Customizing the Popover Properties
 
