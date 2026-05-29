@@ -302,18 +302,15 @@ Text is edited in the __media__ tab. You can style your text using the buttons.
    A safer practice is to import the text without any formatting, and format it within RC.
    This can be done either by exporting your text as plain text and copy pasting from that version, or importing your document using the [document import](#word-doc-import)*
 
-To enlarge the palette of text styling options, click on the first
-button, __show/hide toolbars__. Opening it will allow you to insert lists, enumerations, tables,
+The toolbar allows you to insert lists, enumerations, tables,
 citations. Regarding the availability of typefaces/fonts please read [fonts](#fonts).
 
 
-Another commenly used feature is the hyperlink button (it looks like a chain link). This can be used to insert [hyperlinks](https://guide.researchcatalogue.net/#hyperlinking) or [footnotes](https://guide.researchcatalogue.net/#footnotes) into your text.
+Another commenly used feature is the hyperlink button (it looks like a chain link). This can be used to insert [hyperlinks](https://guide.researchcatalogue.net/#hyperlinking).
 
-The top right button opens the editor in fullscreen. Note: you will have to exit full screen mode to submit your changes, using the same button.
+To enter the text editor fullscreen click on view > Fullscreen. Note: you will have to exit full screen mode to submit your changes, using the same button.
 
-<a id="html-tool-bar-extended"></a>
-
-![html extended tool options](images/html-tool-bar-extended.png) 
+![html full screen view](images/html-fullscreen.png) 
 
 #### Anchors (Graphical/Block) 
 
