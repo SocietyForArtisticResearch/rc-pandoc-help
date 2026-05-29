@@ -191,7 +191,9 @@ Tool</a></li>
 
 The context menu of a tool is reached by clicking on the menu icon (see below), or right clicking (Apple: CTRL+click) inside a tool. The only exception is the text tool, see text tool.
 
+<div class="medium_image">
 ![context menu](images/context-menu.png "context menu")
+</div>
 
 * __Edit__ (open edit dialog)  
 Open edit dialog
