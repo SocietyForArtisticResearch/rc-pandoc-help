@@ -312,11 +312,6 @@ To enter the text editor fullscreen click on view > Fullscreen. Note: you will h
 
 ![html full screen view](images/html-fullscreen.png) 
 
-#### Anchors (Graphical/Block) 
-
-You can use the anchor button to insert standard HTML anchors to a specific location in your HTML tool. 
-When creating a hyperlink to your anchor, do not forget to prefix it with a '#'. So if you anchor is called "anchor1", the link should be to "#anchor1".
-
 #### Tips Using the HTML Tool:
 
 * Make sure the tool size matches the length of the text within. If the text is too long, it will result in __scrollbars__.
