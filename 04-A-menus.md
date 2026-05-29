@@ -98,7 +98,7 @@ Note that if you have not selected any text, the link dialog will not offer a hy
 Within the hyperlink dialog there are a couple of options:
 
 * __Link URL__ : here you can type or paste a link 
-* __Text__ : change the title of the link
+* __Text__ : change the text of the link
 * __Target__ : control whether the link will open in a new screen or not.
 * __Class__ : set the class of the link (this is rarely used)
 
@@ -212,9 +212,9 @@ The position link in Hyperlinking, or simply to share a specific position throug
 
 Restore recently deleted tools. Currently, this option is only available in the graphical editor mode.
 
-#### Restore Deleted Footnotes
+#### Restore Deleted Popovers
 
-Restore recently deleted footnotes. Currently, this option is only available in the graphical editor mode.
+Restore recently deleted popovers. Currently, this option is only available in the graphical editor mode.
 
 ### Help Menu
 
