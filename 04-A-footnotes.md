@@ -37,7 +37,7 @@ src="images/popover-button.png" class="wide-icon" alt="insert popover"></img>,  
 
 ![image of insert link/footnote dialog](images/footnote_dia.png "footnote dialog") 
 
-Now choose the second tab __"footnote"__ to create a new __popover__.
+Now choose the second tab __"popover"__ to create a new __popover__.
 
 To link a __popover__ to an image tool, right click the image tool and select
 __"add popover"__.
