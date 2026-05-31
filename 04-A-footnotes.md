@@ -37,7 +37,7 @@ src="images/popover-button.png" class="wide-icon" alt="insert popover"></img>,  
 
 ![image of insert link/footnote dialog](images/footnote_dia.png "footnote dialog") 
 
-Now choose the second tab __"footnote"__ to create a new __popover__.
+Now choose the second tab __"popover"__ to create a new __popover__.
 
 To link a __popover__ to an image tool, right click the image tool and select
 __"add popover"__.
@@ -69,7 +69,7 @@ All popovers are listed in the "Popups" tab on the right hand side. If you click
 one, the RC will automatically scroll to it's reference in the text or image
 tool.
 
-![List of popovers](images/footnotes_list_new.png)
+![List of popovers](images/popover-list.png)
 
 The list has the following actions:
 
@@ -77,9 +77,9 @@ The list has the following actions:
 <tr>
 <th> Icon </th><th>Function</th>
 <tr> <td> <img src="images/icon-tool.png" class="icon" alt="open popover workspace"></img> </td><td> opens the popover workspace editor where you can edit thecontent of the popover </td> </tr>
-<tr> <td> <img src="images/icon-pencil.png" class="icon" alt="edit settings"></img> </td> <td>opens a window which allows editing the title, size, and styling of the footnote.  </td> </tr>
+<tr> <td> <img src="images/icon-pencil.png" class="icon" alt="edit settings"></img> </td> <td>opens a window which allows editing the title, size, and styling of the popover.  </td> </tr>
 <tr> <td> <img src="images/icon-trash.png" class="icon" alt="open popover
-workspace"></img> </td><td> delete a footnote </td></tr> 
+workspace"></img> </td><td> delete a popover </td></tr> 
 </table>
 
 The popover's content is edited using the [graphical editor mode](#graphical-editor-mode). There is one important difference: the popover canvas has a specific size which can be set by dragging the right-bottom corner:
@@ -97,13 +97,13 @@ need to change the size of the tool within that popover after resizing. To edit
 a "simple text" popover internal tools, simply double click it in the popover
 list.
 
-### Changing the Position or Display Settings of a Footnote
+### Changing the Position or Display Settings of a Popover
 
 If you need to change the screen position or display settings of an existing
-footnote, the best way is:  
+popover, the best way is:  
 
-1. Go to the Footnote tab.
-2. Click the footnote you want to change.
+1. Go to the Popover tab.
+2. Click the popover you want to change.
 3. Click Edit Settings ("pen") icon.
 4. Go to the options tab.
 

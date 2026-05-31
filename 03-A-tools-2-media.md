@@ -17,7 +17,7 @@ tabs</figcaption>
 | --------------------------------------------------- | ---------------------------------------  |
 | [map](#overview-1)                             | map and list overview                    |
 | [media](#simple-media)                              | view previously uploaded media files     |
-| [popup](#footnotes-and-popovers)                | manage popovers                         |
+| [popover](#popovers)                | manage popovers                         |
 | [ref](#references)                                 | manage references / bibliography  |
 | [pages](https://guide.researchcatalogue.net/#pages) | manage pages                             |
 
@@ -105,7 +105,7 @@ doc upload section")
 To ensure maximum compatibility with RC fonts and styling, all word specific
 styling is filtered, but the inner structure of the text is maintained. This
 includes: paragraphs, headers, bold, italics, footnotes, illustrations & tables.
-Footnotes are also converted into RC Footnotes/Popovers.
+Footnotes are also converted into RC Popovers.
 
 Once converted, the document will show up as a folder in your simple media. You
 can drag the elements from this folder to a desired location in the exposition,
@@ -210,7 +210,7 @@ Here one can change:
 * __background__: Change the color or set an image as background.
 * __links__: Change the default color for all hyperlinks within the
   page. One can set seperate colors for links the user visited.
-* __footnote__: The color of footnote/popover links works the same way as with links, but for links of footnotes/popovers.
+* __popover__: The color of popover links works the same way as with links, but for links of popovers.
 * __raw css__: apply your own CSS rules to the page, see below
 
 ### Raw CSS

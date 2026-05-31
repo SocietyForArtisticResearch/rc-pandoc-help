@@ -39,17 +39,39 @@ Choose whether the links in the content menu should be displayed *horizontally* 
 
 See the [video tutorial](https://www.researchcatalogue.net/view/273532/1685164) on this topic.
 
-It is possible to create hyperlinks between pages (or "weaves") of an
-exposition and within a single page. This process has two steps:
+### Link to Other Page
+In a simple text tool or HTML tool, click on the "Insert/edit link" button.
+
+![HTML tool displaying the hyperlink button.](images/insert-link.png "The hyperlink function in HTML tool.")
+
+In the form that opens, select "pages".
+
+![Hyperlink menu highlighting the "pages" button.](images/pages-button.png "The "pages" button in hyperlink menu.").
+
+Choose the page you want to link to, and click on "use page".
+
+![Page selection menu.](images/pages-menu.png "Page selction menu.").
+
+In the "text" field, write the text you want to be displayed for the hyperlink.
+
+![Insert link meny.](images/insert-link-menu.png "Insert link menu.").
+
+The page you selected can now be reached by clicking on the hyperlink.
+
+![Hyperlinking to other page.](images/hyperlinking-other-page.png "Hyperlink pointing to the selected page.").
+
+### Link to a Specific Tool or Coordinate
+
+This process has two steps:
 
 1. Fetch a link to a position or tool you want to link to.
 2. Insert the hyperlink within text, or attach the link to an image tool.
 
-In order to fetch a link to a different page within your exposition:
+In order to fetch a link to a tool within your exposition:
   
 1. Open the page you want to link __to__ in the editor
    (through the page tab on the right hand side).
-2. *(optional)* scroll the page to the position where you want the link to point to.
+2. Scroll the page to the position where you want the link to point to.
 3. Right click any tool you want to link to and click "copy tool link". 
 
    ![context menu showing the copy tool link command](images/copy-tool-link2.png "context menu, copy-tool-link is the second option")
@@ -76,8 +98,8 @@ Note that if you have not selected any text, the link dialog will not offer a hy
 Within the hyperlink dialog there are a couple of options:
 
 * __Link URL__ : here you can type or paste a link 
+* __Text__ : change the text of the link
 * __Target__ : control whether the link will open in a new screen or not.
-* __Title__ : change the title of the link
 * __Class__ : set the class of the link (this is rarely used)
 
 ## Overview
@@ -190,9 +212,9 @@ The position link in Hyperlinking, or simply to share a specific position throug
 
 Restore recently deleted tools. Currently, this option is only available in the graphical editor mode.
 
-#### Restore Deleted Footnotes
+#### Restore Deleted Popovers
 
-Restore recently deleted footnotes. Currently, this option is only available in the graphical editor mode.
+Restore recently deleted popovers. Currently, this option is only available in the graphical editor mode.
 
 ### Help Menu
 

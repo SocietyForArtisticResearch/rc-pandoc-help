@@ -191,7 +191,9 @@ Tool</a></li>
 
 The context menu of a tool is reached by clicking on the menu icon (see below), or right clicking (Apple: CTRL+click) inside a tool. The only exception is the text tool, see text tool.
 
+<div class="medium_image">
 ![context menu](images/context-menu.png "context menu")
+</div>
 
 * __Edit__ (open edit dialog)  
 Open edit dialog
@@ -302,23 +304,15 @@ Text is edited in the __media__ tab. You can style your text using the buttons.
    A safer practice is to import the text without any formatting, and format it within RC.
    This can be done either by exporting your text as plain text and copy pasting from that version, or importing your document using the [document import](#word-doc-import)*
 
-To enlarge the palette of text styling options, click on the first
-button, __show/hide toolbars__. Opening it will allow you to insert lists, enumerations, tables,
+The toolbar allows you to insert lists, enumerations, tables,
 citations. Regarding the availability of typefaces/fonts please read [fonts](#fonts).
 
 
-Another commenly used feature is the hyperlink button (it looks like a chain link). This can be used to insert [hyperlinks](https://guide.researchcatalogue.net/#hyperlinking) or [footnotes](https://guide.researchcatalogue.net/#footnotes) into your text.
+Another commenly used feature is the hyperlink button (it looks like a chain link). This can be used to insert [hyperlinks](https://guide.researchcatalogue.net/#hyperlinking).
 
-The top right button opens the editor in fullscreen. Note: you will have to exit full screen mode to submit your changes, using the same button.
+To enter the text editor fullscreen click on view > Fullscreen. Note: you will have to exit full screen mode to submit your changes, using the same button.
 
-<a id="html-tool-bar-extended"></a>
-
-![html extended tool options](images/html-tool-bar-extended.png) 
-
-#### Anchors (Graphical/Block) 
-
-You can use the anchor button to insert standard HTML anchors to a specific location in your HTML tool. 
-When creating a hyperlink to your anchor, do not forget to prefix it with a '#'. So if you anchor is called "anchor1", the link should be to "#anchor1".
+![html full screen view](images/html-fullscreen.png) 
 
 #### Tips Using the HTML Tool:
 
