@@ -54,7 +54,7 @@ will automatically fit the content: the bottom of the previous tool determines
 where the next one starts. The blocks are thus stitched together end to end, never
 overlapping. This means it easier to work with text content.
 
-A block page will never be wider then the screen it is viewed with. Using
+A block page will never be wider than the screen it is viewed with. Using
 relative sizes like this is often associated with the concept of [responsive web
 design](https://en.wikipedia.org/wiki/Responsive_web_design).
 
@@ -102,7 +102,7 @@ Within each __row__, you can have one or more __columns__
 of __cells__ dividing the content in that row. You can think of it as
 a table, except that the number of columns is allowed to be different
 for each row. Within a __column__ you can drag-and-drop any number of tools,
-although it is probably a good idea not too have too many in one
+although it is probably a good idea not to have too many in one
 column, since this will make it harder to change layout afterwards.
 
 You can add tools by clicking the green "+" sign, or __dragging them from the toolbar__:
@@ -318,9 +318,9 @@ To enter the text editor fullscreen click on view > Fullscreen. Note: you will h
 
 * Make sure the tool size matches the length of the text within. If the text is too long, it will result in __scrollbars__.
 
-* It is possible to insert image or even iframes within an HTML tool, but it is not recommended in most situations. Preferably media is added to the catalogue using the appropriate tools, to avoid the of risk external content going missing when it is removed by the original source. Never copy a media link from a resource in the RC, since it has a timeout.
+* It is possible to insert image or even iframes within an HTML tool, but it is not recommended in most situations. Preferably media is added to the catalogue using the appropriate tools, to avoid the risk of external content going missing when it is removed by the original source. Never copy a media link from a resource in the RC, since it has a timeout.
 
-* Be careful making very large texts within a single HTML tool, this may result in unexpected overlap when your exposition is viewed with another browser. 3 or 4 paragraphs per tool is a good average. If you do make a large HTML tool, keep a large margin at the bottom bordor.
+* Be careful making very large texts within a single HTML tool, this may result in unexpected overlap when your exposition is viewed with another browser. 3 or 4 paragraphs per tool is a good average. If you do make a large HTML tool, keep a large margin at the bottom border.
 
 * You can also choose the colour or the background of the text using the colour tools,
 insert symbols and tables, and control the edits with the __show
@@ -418,7 +418,7 @@ To allow a (smaller) image to be enlarged by the reader: __"on click open image 
 
 If you want to use a picture as a hyperlink, paste a URL into the field __on click open link__. 
 
-__Show on hover__  controls wether to display the copyright when the user hovers (or touches) a tool in your exposition.
+__Show on hover__  controls whether to display the copyright when the user hovers (or touches) a tool in your exposition.
 In addition to copyright, you can also specify a custom caption text __"Text On Hover"__.
 
 
@@ -534,7 +534,7 @@ bandwidth costs (and thereby RC's environmental impact!) and keeps loading times
 for readers acceptable. 
 
 Since 2025, all videos are transcoded by the Research
-Catalogue itself using our own local transcoder. In very rare cases, were the
+Catalogue itself using our own local transcoder. In very rare cases, where the
 local transcoder cannot handle a rare file format, we may rely on a backup
 external transcoder (Zencoder).
 
@@ -603,7 +603,7 @@ may be helpful to use the [sync-tool](#sync-tool "jump to play tool
 help").
 
 - __display minimal__ 
-When selected, the player constists of only the
+When selected, the player consists of only the
 play button and the bar.
 
 
@@ -623,9 +623,9 @@ The slideshow tool allows you to:
 * the slideshow can also be automated, with user defined timing
 * each slide can be combined with an audio "background" file \[*\]
 
-[*] Of course, what you consider *"background"* may depend on your intented use:
+[*] Of course, what you consider *"background"* may depend on your intended use:
 you can also use the slideshow as an audio playlist/sequencer and consider the
-images "background", for example by selecting transparant images.
+images "background", for example by selecting transparent images.
 
 #### Slides tab
 
@@ -689,7 +689,7 @@ __timeout__ between the audio fragments.
 
 The PDF tool gives you the possibility to add PDF documents containing
 texts, graphics or scores. By default the PDF is displayed as a small
-thumbnail showing a miniture of the first page. The reader of your
+thumbnail showing a miniature of the first page. The reader of your
 exposition can load this PDF in a new tab by clicking the
 thumbnail. Alternatively, you can set the tool to display the PDF
 content directly embedded in the page (see [options](#pdf-options "link to pdf options")).
@@ -697,7 +697,7 @@ content directly embedded in the page (see [options](#pdf-options "link to pdf o
 PDF is a suitable format for uploading (paper) based documents into
 your exposition. The limitation is that PDF files, by nature, only
 support static (printable) graphics and text, not video or
-audio. Although Abobe has started to support rich media embedding in
+audio. Although Adobe has started to support rich media embedding in
 their own PDF viewers, there is almost no support for this in other
 PDF viewers (like the one in browsers). In case text from a word
 processor needs to be combined with video and audio, use the [HTML
@@ -715,7 +715,7 @@ When done, click submit and the file will begin uploading.
 ![The pdf tool dialog](images/pdf-tool-dialog.png "the pdf tool dialog")
 
 The __PREVIEW__ field is for changing the image that represents the pdf in the exposition for the reader.
-If no preview image is provided, a miniturised copy of the first page will be used. You can later change the preview image, by selecting one from your media list.
+If no preview image is provided, a miniaturised copy of the first page will be used. You can later change the preview image, by selecting one from your media list.
 
 #### Changing the PDF Preview Image
 
@@ -789,7 +789,7 @@ The Sync Tool itself functions as the start/stop button, but you have to upload 
 
 #### Options
 
-In the options tab you can sellect which tools need to be connected to this Sync
+In the options tab you can select which tools need to be connected to this Sync
 Tool. Only tools already present in the current weave may be selected. The
 option “pause other players when playing” will ensure that only the selected
 media files will be played back.
@@ -815,7 +815,7 @@ shape. By clicking and dragging the yellow point you can rotate an element.
 
 The note tool allows you to organize your work on RC, comment on
 sections, and communicate with co-authors. Drag the note icon from the
-tool-pallett onto the weave. You can write directly into the note
+tool-palette onto the weave. You can write directly into the note
 without opening a new edit-window. Each note has a time-stamp which is
 generated when the note is placed on the weave. 
 
@@ -991,7 +991,7 @@ After the default is changed, every newly created tool will initially use these 
 
 #### History
 
-The *history tab* gives you the posibility to change the content
+The *history tab* gives you the possibility to change the content
 __within the tool__ to an older version.  The versions of a text
 object are created each time you have clicked outside it (and the
 three animated dots show inside). With the html tool, a version is

@@ -9,8 +9,8 @@ expositions connected to the group as well as general information. As a member,
 you can create (your own) expositions within the group, that will be directly
 visible to all the group's members.
 
-The group may also have one or more group admins (administrators). The groups's admins
-have the ability to manage the groups' members, expositions and edit the description and
+The group may also have one or more group admins (administrators). The group's admins
+have the ability to manage the group's members, expositions and edit the description and
 other metadata. They can also set collaborations for the expositions that are
 connected to the group. In some sense the group is a sub-portal within the portal.
 
@@ -58,7 +58,7 @@ There are two roles within the group:
 1. __Members__ (as described in the previous section):
     * Can view the project page and all expositions within it.
     * Can create expositions within the group.
-    * Can send a request to connect a exposition from them to a project.
+    * Can send a request to connect an exposition from them to a project.
 2. __Admins__:
     * Can view the project page and all expositions within it.
     * Invite other users to the group.

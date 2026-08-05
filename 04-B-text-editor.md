@@ -33,17 +33,17 @@ __Monospace:__
 If you have an older exposition (created before April, 2022), you will also be
 able to select additional fonts. The reason for this is that Research Catalogue
 used to allow users to select these in the past. A majority of these fonts were
-only available in Windows and/or MacOS. The licensing around these proprietory
+only available in Windows and/or MacOS. The licensing around these proprietary
 fonts prevented Research Catalogue from self-hosting them. When a font was not
 available locally, the browser would switch to an alternative and this resulted
 in smaller or bigger visual differences and a warning message to the user.
 
 The current solution to this problem is that Research Catalogue now provides a
-set of fonts that we can host ourselves. This guarentees that a font chosen in
+set of fonts that we can host ourselves. This guarantees that a font chosen in
 the text & html tools can never be missing. To ease the switch, we have included
 replacements that are designed to closely match the common fonts like Arial,
 Calibri and Helvetica and Impact. Older expositions will keep their current
-fonts but allow you to also use the new ones. Published expositions expositions
+fonts but allow you to also use the new ones. Published expositions
 cannot be changed, but you can create a new version of the exposition.
 
 ## Migration of fonts in your expositions
@@ -118,7 +118,7 @@ First time user of the text editor? <a href="#introduction">click here</a>.
 ### Introduction  
 
 The text-based editor is aimed at creating
-[responsive](http://https://nl.wikipedia.org/wiki/Responsive_webdesign)
+[responsive](https://nl.wikipedia.org/wiki/Responsive_webdesign)
 RC expositions. Despite the "text" in the name, expositions made with
 this editor can also contain images, video, audio or PDF. "Text based"
 refers to the method of editing: through plain text. 
@@ -131,7 +131,7 @@ styling the text one may use Cascading Style Sheets (CSS).
 
 Advantages:
 
-- You can change the look of an exposition globaly very easily after writing it
+- You can change the look of an exposition globally very easily after writing it
 - Portable: you can copy and paste the source from and to external editors
 - Many programs support converting something into Markdown
 - Closer to HTML: you may use HTML directly to do some custom markup or styling
@@ -209,7 +209,7 @@ screen. For a full view preview, use the eye button in the toolbar.
 #### Upload Media
 
 To add new media, click upload media. After the upload finishes, the
-media edit dialog opens. This allow you to edit its metadata, size and
+media edit dialog opens. This allows you to edit its metadata, size and
 to insert the media at the current cursor position.
 
 If you want to insert previously used media, you can use the "media
@@ -243,7 +243,7 @@ edit media dialog")
 ### Insert Media
 
 Media is represented on the editor side using a !{*media-name*} tag.
-The easiest way of inserting such a media tag is throught the [insert
+The easiest way of inserting such a media tag is through the [insert
 media toolbar button](#insert-toolbar-button), which shows a list of
 available media that can be inserted. Double click any item to insert.
 
@@ -264,7 +264,7 @@ You can import content from documents from text editors like Word (.docx),
 Libre/Open Office (.odt), HTML and several other formats. Not all
 styling is supported but images, footnotes, tables and most other
 structural features of the text are. Best results will be achieved if
-the document that is imported has a simple structure. When you import a
+the document that is imported has a simple structure. When you import
 a document, it will not replace the current content, but be appended at 
 the end of your page.
 
@@ -457,7 +457,7 @@ item, keep an empty line.
 Thus, when you write:  
 
     * my first point
-    * another throught
+    * another thought
     * yet another thought
 
 it will result in  

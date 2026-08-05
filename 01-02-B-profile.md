@@ -90,7 +90,7 @@ In most cases however, it is the task of the portal admin to make you a member
 of their portal. Most portals therefore do not allow users to request membership
 themselves.
 
-Click "edit" to request / widthdraw a portal membership.
+Click "edit" to request / withdraw a portal membership.
 
 ## Research Section
 
@@ -243,7 +243,7 @@ published).
 ### Being Anonymous
 
 <strong style="color:red">Important: using a pseudonym does not make you fully anonymous</strong>, as the authors and co-authors will still be displayed in the metadata (contributors are not shown). The only way to be fully anonymous, is to request an ALIAS for your account as a whole. You can request an ALIAS by contacting:
-[support@researchcatalogue.net](mailto:support@researchcatalogue.net). In this case, your own name will not be shown anywhere in public pages of the RC, however even with an ALIAS, SAR will still be able to indentify the user that created the exposition if there is copyright infringement or other illegal material.
+[support@researchcatalogue.net](mailto:support@researchcatalogue.net). In this case, your own name will not be shown anywhere in public pages of the RC, however even with an ALIAS, SAR will still be able to identify the user that created the exposition if there is copyright infringement or other illegal material.
 
 * __Table of content__ change the content menu, which the user can use
 to navigate between pages.  See [table-of-content](#table-of-content).

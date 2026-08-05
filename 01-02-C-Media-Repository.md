@@ -51,7 +51,7 @@ There are various ways to create new media:
 
 ## Upload
 
-Click "__Upload media__" to add a new file. Once you have select one or
+Click "__Upload media__" to add a new file. Once you have selected one or
 more files, you will be asked to provide at least copyright
 information. If you are the creator, you can fill in your own name
 here.
@@ -173,7 +173,7 @@ form:
 
 * The top section of this form allows you to control the visibility of
   the set on your profile.
-* The middle section allows you to invite collaborates. These users
+* The middle section allows you to invite collaborators. These users
   will only have read access (default) or they have write access,
   which allows them to remove or change metadata and media belonging
   to the set.

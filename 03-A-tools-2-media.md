@@ -109,7 +109,7 @@ Footnotes are also converted into RC Popovers.
 
 Once converted, the document will show up as a folder in your simple media. You
 can drag the elements from this folder to a desired location in the exposition,
-resize and further adjust them. The document will be split whevever there is an
+resize and further adjust them. The document will be split whenever there is an
 image and the images will become available as image tools.
 
 If you want to reproduce the feel of a text document in your RC exposition, it
@@ -145,7 +145,7 @@ with a single page, called "default page".
 
 #### Creating a Page
 
-New pages are by default *private*, they have to be explicitely added
+New pages are by default *private*, they have to be explicitly added
 to the [table of content](#table-of-content "table of content") to be
 visible (or by making a [hyperlink](#hyperlinking) to the page in your
 own content). The order of pages cannot be changed in the pages list,
@@ -186,7 +186,7 @@ work:
       "https on wikipedia"). Links with TLS enabled can in most cases
       be identified by the __https://__ instead of __http://__ at the
       start.
-	* You need to provide the full URL (inlude the https:// at the
+	* You need to provide the full URL (include the https:// at the
       start).
 
 	Please note that if a correct iFrame url is provided, the entire
@@ -209,7 +209,7 @@ Here one can change:
   larger.
 * __background__: Change the color or set an image as background.
 * __links__: Change the default color for all hyperlinks within the
-  page. One can set seperate colors for links the user visited.
+  page. One can set separate colors for links the user visited.
 * __popover__: The color of popover links works the same way as with links, but for links of popovers.
 * __raw css__: apply your own CSS rules to the page, see below
 
@@ -268,15 +268,15 @@ There is no way to control line height within the HTML or text tool, but you can
 "em" is a relative size unit, it measures the line-height ratio from
 the size of the 'm' character in the font.
 
-Be aware that changing the CSS 
+
 	
 
 #### Deleting a Page
 
 The page can be deleted by clicking the trashcan icon next to the page title.
-Deleted pages can be recovered throught the __options__ menu > __restore deleted
-pages__, but only for 30 days within deletion. Of course, if you want to make a
-page invisible to the reader it may be prefered to just remove it from the
+Deleted pages can be recovered through the __options__ menu > __restore deleted
+pages__, but only within 30 days of deletion. Of course, if you want to make a
+page invisible to the reader it may be preferred to just remove it from the
 [table of content](#table-of-content "table of content").
 
 

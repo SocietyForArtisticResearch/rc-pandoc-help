@@ -21,7 +21,7 @@ The Research Catalogue offers two general-purpose editors:
 
 *Users can combine both __graphical__ and __block__ pages in a single exposition.*
 
-And two aditional specialized formats (cannot be combined):
+And two additional specialized formats (cannot be combined):
 
 - **text-based**  
 - **HTML** import
@@ -76,9 +76,9 @@ cannot be combined with block or graphical editors. The editor is optimized for
 writing (and importing) texts, while still supporting the embedding of inline media.
 
 You can structure and format the text using the commonly used
-[Markdown](http://https://en.wikipedia.org/wiki/Markdown) notation. Content can
+[Markdown](https://en.wikipedia.org/wiki/Markdown) notation. Content can
 be automatically imported and exported from and to various external formats, for
-example Word, Open Office and LateX documents. Styling can be
+example Word, Open Office and LaTeX documents. Styling can be
 customized extensively using standard [CSS](https://www.w3schools.com/css/ "more
 information on CSS"). Text-based expositions are *responsive* and thus mobile-friendly.
 

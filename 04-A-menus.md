@@ -46,11 +46,11 @@ In a simple text tool or HTML tool, click on the "Insert/edit link" button.
 
 In the form that opens, select "pages".
 
-![Hyperlink menu highlighting the "pages" button.](images/pages-button.png "The "pages" button in hyperlink menu.").
+![Hyperlink menu highlighting the "pages" button.](images/pages-button.png "The "pages" button in hyperlink menu.")
 
 Choose the page you want to link to, and click on "use page".
 
-![Page selection menu.](images/pages-menu.png "Page selction menu.").
+![Page selection menu.](images/pages-menu.png "Page selection menu.").
 
 In the "text" field, write the text you want to be displayed for the hyperlink.
 
@@ -148,7 +148,7 @@ These functions help with aligning (two or more) tools. To select multiple tools
 holding ctrl/cmd key, then choose the function you want to apply from the arrange menu. 
 
 <span style="red">
-(!) Be careful when applying changes to many tools at once on a complex weave. The changes in position are not reversable (unless you copied the tools before).
+(!) Be careful when applying changes to many tools at once on a complex weave. The changes in position are not reversible (unless you copied the tools before).
 </span>
 
 * left edges: all left sides will be aligned (to the last tool you selected)
@@ -156,7 +156,7 @@ holding ctrl/cmd key, then choose the function you want to apply from the arrang
 * top : all top sides will be aligned
 * bottom : all bottom sides will be aligned
 * center on vertical axis : the tools will all be centered around one vertical line (like centered text !)
-* center on horizontal axis : the horizontal middle of the tools will al be on the same horizontal line
+* center on horizontal axis : the horizontal middle of the tools will all be on the same horizontal line
 * distribute left edges equally: the left and rightmost tool stay in the same place, equally space the left sides of the tools in between
 * distribute top edges equally: the top and bottom tool stay the same, equally space the top sides of the tools in between
 * make vertical gaps equal: the gaps between tools are all made the same (by dividing the sum of gaps equally)

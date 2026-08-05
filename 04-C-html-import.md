@@ -31,7 +31,7 @@ To create a HTML based exposition:
 
 	When the upload finished and there is no error, you can view the
 	exposition by clicking the preview button (eye in the top right
-	corner). If it is not succesful you can use the error message to 
+	corner). If it is not successful you can use the error message to 
 	see what changes you may need to make and try again.
 
 

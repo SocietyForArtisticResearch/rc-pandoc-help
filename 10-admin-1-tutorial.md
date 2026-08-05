@@ -5,7 +5,7 @@
 This portal admin guide consists of two parts:
 
 1. A tutorial for new portal admins
-2. Reference manual of all adminstration pages in more detail
+2. Reference manual of all administration pages in more detail
 
 ## Tutorial for new portal admins
 
@@ -88,7 +88,7 @@ The basic workflow of a portal consists of the following:
 __admin account password__
 
 As an admin account has special abilities, it is very important that you use a strong password for your
-portal admin account, as admininstration rights should not come in the wrong hands. You can change your password under __settings__. It is recommended to use a password manager (most browsers have this built-in) or a secure method like EFF's [dice based generator](https://www.eff.org/dice).
+portal admin account, as administration rights should not come in the wrong hands. You can change your password under __settings__. It is recommended to use a password manager (most browsers have this built-in) or a secure method like EFF's [dice based generator](https://www.eff.org/dice).
 
 </div>
 
@@ -96,7 +96,7 @@ portal admin account, as admininstration rights should not come in the wrong han
 
 <!-- Insert screenshot of user page -->
 
-Users are created and managed in the "Users" tab of the portal adminstration:  
+Users are created and managed in the "Users" tab of the portal administration:  
 <https://www.researchcatalogue.net/admin/user/list>
 
 To create a user, click __create user__ at the right top corner of the screen. 
@@ -301,7 +301,7 @@ For example, in the case of an ongoing research project, where results are being
 In this case, the author can request an exposition to be "connected to".
 The portal admin will be able to accept such a request by accepting it here:  
 <https://www.researchcatalogue.net/admin/part-of-requests/list>
-"Connecting to" a portal is only possible if the exposition has a minimum of visiblity. This means the exposition has to be __shared__ within the portal, or fully public.
+"Connecting to" a portal is only possible if the exposition has a minimum of visibility. This means the exposition has to be __shared__ within the portal, or fully public.
 
 ### Portal feed
 

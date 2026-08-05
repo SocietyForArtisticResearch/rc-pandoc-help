@@ -65,9 +65,9 @@ page.
 You can find all collaboration invitations under
 <https://www.researchcatalogue.net/collaboration/list>. At the bottom of the
 list of invitations, you can find the __backlog__. In the backlog you can easily
-find all your past collaboration interactions, including links to the expositons
+find all your past collaboration interactions, including links to the expositions
 & groups that you have been invited to. If you have "collaboration"
-notifications switched on in your profile settings, you will also recieve an
+notifications switched on in your profile settings, you will also receive an
 email when somebody invites you.
 
 ![Collaboration page](images/collaborations_page.png "the collaborations page")
@@ -225,7 +225,7 @@ the second case you will have to resubmit it using the normal method.
 
 After the portal admin accepts the publication request, you will
 receive a message and the content of the exposition will be
-premanently locked.
+permanently locked.
 
 #### Submitting collaborated expositions
 

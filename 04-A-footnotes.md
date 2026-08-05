@@ -4,9 +4,9 @@
 
 ## Popovers 
 
-**Naming**: As of June, 2026, this feature is officially named "popover",
+**Naming**: As of June, 2026, this feature is officially named "popover".
 
-![what a popover looks like](images/popover.gif "reader hoovers over a link, a
+![what a popover looks like](images/popover.gif "reader hovers over a link, a
 popover window appears")
 
 __Popovers__ provide a way to present additional
@@ -66,7 +66,7 @@ and adjust its size. ![Popover/footnote dialog window](images/footnote_dia.png)
 ### Editing a Popover 
 
 All popovers are listed in the "Popups" tab on the right hand side. If you click
-one, the RC will automatically scroll to it's reference in the text or image
+one, the RC will automatically scroll to its reference in the text or image
 tool.
 
 ![List of popovers](images/popover-list.png)
@@ -76,7 +76,7 @@ The list has the following actions:
 <table>
 <tr>
 <th> Icon </th><th>Function</th>
-<tr> <td> <img src="images/icon-tool.png" class="icon" alt="open popover workspace"></img> </td><td> opens the popover workspace editor where you can edit thecontent of the popover </td> </tr>
+<tr> <td> <img src="images/icon-tool.png" class="icon" alt="open popover workspace"></img> </td><td> opens the popover workspace editor where you can edit the content of the popover </td> </tr>
 <tr> <td> <img src="images/icon-pencil.png" class="icon" alt="edit settings"></img> </td> <td>opens a window which allows editing the title, size, and styling of the popover.  </td> </tr>
 <tr> <td> <img src="images/icon-trash.png" class="icon" alt="open popover
 workspace"></img> </td><td> delete a popover </td></tr> 
@@ -211,5 +211,5 @@ default hyperlink color, that can be customized in the __Page__ settings page.
 
 ### Viewing the References
 
-References are listed on the META page of an expostion, at the bottom. 
+References are listed on the META page of an exposition, at the bottom. 
 

@@ -75,7 +75,7 @@ Here you can set which emails the user should receive.
 #### Log in as a user
 The admins can log in as another user, for example to help resolve issues with a specific account. While logged in as another user, you will see a red bar on the top of your window that shows who you are and enables you to switch back to your own account. This feature is useful while helping somebody with issues specific to their account.
 
-Keep in mind: you become this user in all the tabs of your browser window, so you would temporarly lose some of you admin permissions while navigating as this user.-->
+Keep in mind: you become this user in all the tabs of your browser window, so you would temporarily lose some of your admin permissions while navigating as this user.-->
 
 ### Portal page
 
@@ -138,7 +138,7 @@ Here you can edit the various roles of the portal:
 
 ### Templates
 
-Portal admins can select any of their Text based expositions to be available as templates for users within their portal. This allows users to start with a predifined CSS sheet or even content. 
+Portal admins can select any of their Text based expositions to be available as templates for users within their portal. This allows users to start with a predefined CSS sheet or even content. 
 
 <a id="submissions">
 
@@ -158,7 +158,7 @@ Here you can set which objects can be submitted to the portal.
 * __linking to external portal page instead of rc profile page.__ <a id="external-portal-page">
 	If selected, the portal link on the RC frontpage, will directly link to the website of the portal (the one provided in the URL* field), instead of the internal RC page.
 * __listing in 'member of' dialog.__    
-    Weither users can request membership of a portal themselves. If a user request membership, the portal admin will still receive a confirmation request.
+    Whether users can request membership of a portal themselves. If a user request membership, the portal admin will still receive a confirmation request.
 * __creation of application programs.__  
     This enables the application module, it should only be selected after an agreement with SAR has been made about using the Application Module.
 
@@ -204,7 +204,7 @@ Here you can manage all research connected to the portal. Expositions are sorted
 | Block     | <img src="images/research-icon-block.png" class="icon">      |
 
 #### Unpublishing an exposition
-The unpublishing of expositions is not encuraged. Published expositions are supposed to be a permament reference, never to be deleted or changed. If an exposition is to be continuously changed or temporary, it is better to not publish, but simply set its sharing settings to __public__.  When unpublishing an exposition make sure with the author of the exposition that there are no connected works that have been deleted since, otherwise it may be impossible to reconstruct the publication. 
+The unpublishing of expositions is not encouraged. Published expositions are supposed to be a permanent reference, never to be deleted or changed. If an exposition is to be continuously changed or temporary, it is better to not publish, but simply set its sharing settings to __public__.  When unpublishing an exposition make sure with the author of the exposition that there are no connected works that have been deleted since, otherwise it may be impossible to reconstruct the publication. 
 
 ### Connection Requests
 It is possible for users to connect a work or exposition to a portal. The works that have been accepted by an admin of the portal will be listed here.
@@ -214,7 +214,7 @@ A connected exposition will appear on the Portal's landing page, and the metadat
 Requests can be accepted with: __V__ or rejected with: __X__.
 
 Once research is connected, the portal admin can add an __Editor__ role to the expositions.
-The editor is than able to change the content within the exposition.
+The editor is then able to change the content within the exposition.
 
 They can also add __Supervisor__ role, which can only read the exposition.
 
@@ -224,7 +224,7 @@ They can also add __Supervisor__ role, which can only read the exposition.
 ### Reviewing (admin) 
 
 
-The reviewing page allows managment of expositions that have been applied for publication by the author. Reviewers or editors can be assigned to these works. When a reviewer is added they will automatically recieve a notification from RC that they have been added. Reviewers can leave notes only visible to themselves (so not to other reviewers) and the portal admin(s). 
+The reviewing page allows management of expositions that have been applied for publication by the author. Reviewers or editors can be assigned to these works. When a reviewer is added they will automatically receive a notification from RC that they have been added. Reviewers can leave notes only visible to themselves (so not to other reviewers) and the portal admin(s). 
 
 Actions that are available:
 
@@ -311,7 +311,7 @@ __status__ :
 	- published : a permanent exposition, will not be edited or removed
 
 __doi__ :
-	if published, most expsoitions will have a DOI.
+	if published, most expositions will have a DOI.
 
 __published in__:
 	This shows in which portal(s) the exposition is published in 
@@ -332,7 +332,7 @@ __license__:
 see details in [licences](#licenses)
 
 __issue__:
-	Portals in the RC always publish their expositions as part of Issues. For journals these can mean __issue__ as in journal issue, however, other portals also use it to distinguish between different variaties of research (student, staff, 3rd cycle etc..)
+	Portals in the RC always publish their expositions as part of Issues. For journals these can mean __issue__ as in journal issue, however, other portals also use it to distinguish between different varieties of research (student, staff, 3rd cycle etc..)
 
 __author__:
 	Internal RC ID (can be used to construct author profile link: `https://www.researchcatalogue.net/profile/?person=[id]` )
