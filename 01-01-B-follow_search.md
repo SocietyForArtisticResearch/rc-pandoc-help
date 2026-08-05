@@ -5,7 +5,7 @@ This chapter discusses various ways of navigating the content of RC.
 ## Visual Search
 
 This allows you to browse all expositions within RC, by making searches and
-seeing a miniture of the exposition front page. Typing queries will immediately update results.
+seeing a miniature of the exposition front page. Typing queries will immediately update results.
 [https://map.rcdata.org](https://map.rcdata.org "a visual map of the RC"). You
 can also browse by keywords and sort results by date or even topology.
 
@@ -17,7 +17,7 @@ can also browse by keywords and sort results by date or even topology.
 
 You can search the RC by using the search field in the top right
 corner. Moreover you can use the "advanced search" functionality,
-which allows for filtered searches and and searches according to
+which allows for filtered searches and searches according to
 specific criteria such as object type, keywords, authors, etc.
 
 ## Researchers
@@ -132,7 +132,7 @@ The RC supports the following metadata for expositions
     <tr>
         <td>Author and Co-author(s)</td>
         <td>Work may also be published under a pseudonym. But the original author(s) will always be listed as well.
-            The order of authors can be decided by the owner role. There is no seperation of first and last name.</td>
+            The order of authors can be decided by the owner role. There is no separation of first and last name.</td>
         <td>Required</td>
     </tr>
     <tr>
@@ -231,7 +231,7 @@ The RC supports the following metadata for expositions
 
 The meta page provides information on the contents of the exposition in a formalized list.
 
-It constists of
+It consists of
 
 * Title
 * Author names

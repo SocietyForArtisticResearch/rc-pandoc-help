@@ -320,9 +320,9 @@ id="toc-customizing-the-popover-properties">Customizing the Popover
 Properties</a></li>
 <li><a href="#editing-a-popover" id="toc-editing-a-popover">Editing a
 Popover</a></li>
-<li><a href="#changing-the-position-or-display-settings-of-a-footnote"
-id="toc-changing-the-position-or-display-settings-of-a-footnote">Changing
-the Position or Display Settings of a Footnote</a></li>
+<li><a href="#changing-the-position-or-display-settings-of-a-popover"
+id="toc-changing-the-position-or-display-settings-of-a-popover">Changing
+the Position or Display Settings of a Popover</a></li>
 <li><a href="#auto-numbered-popovers"
 id="toc-auto-numbered-popovers">Auto-Numbered Popovers</a></li>
 <li><a href="#pictures" id="toc-pictures">Pictures</a></li>
@@ -347,6 +347,11 @@ Alignment</a></li>
 </ul></li>
 <li><a href="#hyperlinking" id="toc-hyperlinking">Hyperlinking</a>
 <ul>
+<li><a href="#link-to-other-page" id="toc-link-to-other-page">Link to
+Other Page</a></li>
+<li><a href="#link-to-a-specific-tool-or-coordinate"
+id="toc-link-to-a-specific-tool-or-coordinate">Link to a Specific Tool
+or Coordinate</a></li>
 <li><a href="#dialog-options" id="toc-dialog-options">Dialog
 Options:</a></li>
 </ul></li>
@@ -2103,11 +2108,13 @@ title="context menu location" alt="context menu location" />
 <p>The context menu of a tool is reached by clicking on the menu icon
 (see below), or right clicking (Apple: CTRL+click) inside a tool. The
 only exception is the text tool, see text tool.</p>
+<div class="medium_image">
 <figure>
 <img loading="lazy" src="images/context-menu.png" title="context menu"
 alt="context menu" />
 <figcaption aria-hidden="true">context menu</figcaption>
 </figure>
+</div>
 <ul>
 <li><p><strong>Edit</strong> (open edit dialog)<br />
 Open edit dialog</p></li>
@@ -2244,31 +2251,19 @@ is to import the text without any formatting, and format it within RC.
 This can be done either by exporting your text as plain text and copy
 pasting from that version, or importing your document using the <a
 href="#word-doc-import">document import</a></em></p>
-<p>To enlarge the palette of text styling options, click on the first
-button, <strong>show/hide toolbars</strong>. Opening it will allow you
-to insert lists, enumerations, tables, citations. Regarding the
-availability of typefaces/fonts please read <a
+<p>The toolbar allows you to insert lists, enumerations, tables,
+citations. Regarding the availability of typefaces/fonts please read <a
 href="#fonts">fonts</a>.</p>
 <p>Another commenly used feature is the hyperlink button (it looks like
 a chain link). This can be used to insert <a
-href="https://guide.researchcatalogue.net/#hyperlinking">hyperlinks</a>
-or <a
-href="https://guide.researchcatalogue.net/#footnotes">footnotes</a> into
-your text.</p>
-<p>The top right button opens the editor in fullscreen. Note: you will
-have to exit full screen mode to submit your changes, using the same
-button.</p>
-<p><a id="html-tool-bar-extended"></a></p>
+href="https://guide.researchcatalogue.net/#hyperlinking">hyperlinks</a>.</p>
+<p>To enter the text editor fullscreen click on view &gt; Fullscreen.
+Note: you will have to exit full screen mode to submit your changes,
+using the same button.</p>
 <figure>
-<img loading="lazy" src="images/html-tool-bar-extended.png"
-alt="html extended tool options" />
-<figcaption aria-hidden="true">html extended tool options</figcaption>
+<img loading="lazy" src="images/html-fullscreen.png" alt="html full screen view" />
+<figcaption aria-hidden="true">html full screen view</figcaption>
 </figure>
-<h4 id="anchors-graphicalblock">Anchors (Graphical/Block)</h4>
-<p>You can use the anchor button to insert standard HTML anchors to a
-specific location in your HTML tool. When creating a hyperlink to your
-anchor, do not forget to prefix it with a ‘#’. So if you anchor is
-called “anchor1”, the link should be to “#anchor1”.</p>
 <h4 id="tips-using-the-html-tool">Tips Using the HTML Tool:</h4>
 <ul>
 <li><p>Make sure the tool size matches the length of the text within. If
@@ -2988,7 +2983,7 @@ map, media, references, popover and pages tabs
 <td>view previously uploaded media files</td>
 </tr>
 <tr>
-<td><a href="#footnotes-and-popovers">popup</a></td>
+<td><a href="#popovers">popover</a></td>
 <td>manage popovers</td>
 </tr>
 <tr>
@@ -3078,7 +3073,7 @@ alt="upload doc dialog" />
 specific styling is filtered, but the inner structure of the text is
 maintained. This includes: paragraphs, headers, bold, italics,
 footnotes, illustrations &amp; tables. Footnotes are also converted into
-RC Footnotes/Popovers.</p>
+RC Popovers.</p>
 <p>Once converted, the document will show up as a folder in your simple
 media. You can drag the elements from this folder to a desired location
 in the exposition, resize and further adjust them. The document will be
@@ -3177,8 +3172,8 @@ background.</li>
 <li><strong>links</strong>: Change the default color for all hyperlinks
 within the page. One can set seperate colors for links the user
 visited.</li>
-<li><strong>footnote</strong>: The color of footnote/popover links works
-the same way as with links, but for links of footnotes/popovers.</li>
+<li><strong>popover</strong>: The color of popover links works the same
+way as with links, but for links of popovers.</li>
 <li><strong>raw css</strong>: apply your own CSS rules to the page, see
 below</li>
 </ul>
@@ -3279,7 +3274,7 @@ alt="image of insert link/footnote dialog" />
 <figcaption aria-hidden="true">image of insert link/footnote
 dialog</figcaption>
 </figure>
-<p>Now choose the second tab <strong>“footnote”</strong> to create a new
+<p>Now choose the second tab <strong>“popover”</strong> to create a new
 <strong>popover</strong>.</p>
 <p>To link a <strong>popover</strong> to an image tool, right click the
 image tool and select <strong>“add popover”</strong>.</p>
@@ -3318,7 +3313,7 @@ alt="Popover/footnote dialog window" /></li>
 If you click one, the RC will automatically scroll to it’s reference in
 the text or image tool.</p>
 <figure>
-<img loading="lazy" src="images/footnotes_list_new.png" alt="List of popovers" />
+<img loading="lazy" src="images/popover-list.png" alt="List of popovers" />
 <figcaption aria-hidden="true">List of popovers</figcaption>
 </figure>
 <p>The list has the following actions:</p>
@@ -3345,7 +3340,7 @@ popover
 </td>
 <td>
 opens a window which allows editing the title, size, and styling of the
-footnote.
+popover.
 </td>
 </tr>
 <tr>
@@ -3354,7 +3349,7 @@ footnote.
 workspace"></img>
 </td>
 <td>
-delete a footnote
+delete a popover
 </td>
 </tr>
 </table>
@@ -3378,14 +3373,13 @@ text”</strong> popover as a whole, since you would also need to change
 the size of the tool within that popover after resizing. To edit a
 “simple text” popover internal tools, simply double click it in the
 popover list.</p>
-<h3
-id="changing-the-position-or-display-settings-of-a-footnote">Changing
-the Position or Display Settings of a Footnote</h3>
+<h3 id="changing-the-position-or-display-settings-of-a-popover">Changing
+the Position or Display Settings of a Popover</h3>
 <p>If you need to change the screen position or display settings of an
-existing footnote, the best way is:</p>
+existing popover, the best way is:</p>
 <ol type="1">
-<li>Go to the Footnote tab.</li>
-<li>Click the footnote you want to change.</li>
+<li>Go to the Popover tab.</li>
+<li>Click the popover you want to change.</li>
 <li>Click Edit Settings (“pen”) icon.</li>
 <li>Go to the options tab.</li>
 </ol>
@@ -3560,20 +3554,46 @@ bar continuously (instead of automatically hiding it).</p>
 <p>See the <a
 href="https://www.researchcatalogue.net/view/273532/1685164">video
 tutorial</a> on this topic.</p>
-<p>It is possible to create hyperlinks between pages (or “weaves”) of an
-exposition and within a single page. This process has two steps:</p>
+<h3 id="link-to-other-page">Link to Other Page</h3>
+<p>In a simple text tool or HTML tool, click on the “Insert/edit link”
+button.</p>
+<figure>
+<img loading="lazy" src="images/insert-link.png"
+title="The hyperlink function in HTML tool."
+alt="HTML tool displaying the hyperlink button." />
+<figcaption aria-hidden="true">HTML tool displaying the hyperlink
+button.</figcaption>
+</figure>
+<p>In the form that opens, select “pages”.</p>
+<p><img loading="lazy" src="images/pages-button.png"
+title="The &quot;pages&quot; button in hyperlink menu."
+alt="Hyperlink menu highlighting the “pages” button." />.</p>
+<p>Choose the page you want to link to, and click on “use page”.</p>
+<p><img loading="lazy" src="images/pages-menu.png" title="Page selction menu."
+alt="Page selection menu." />.</p>
+<p>In the “text” field, write the text you want to be displayed for the
+hyperlink.</p>
+<p><img loading="lazy" src="images/insert-link-menu.png" title="Insert link menu."
+alt="Insert link meny." />.</p>
+<p>The page you selected can now be reached by clicking on the
+hyperlink.</p>
+<p><img loading="lazy" src="images/hyperlinking-other-page.png"
+title="Hyperlink pointing to the selected page."
+alt="Hyperlinking to other page." />.</p>
+<h3 id="link-to-a-specific-tool-or-coordinate">Link to a Specific Tool
+or Coordinate</h3>
+<p>This process has two steps:</p>
 <ol type="1">
 <li>Fetch a link to a position or tool you want to link to.</li>
 <li>Insert the hyperlink within text, or attach the link to an image
 tool.</li>
 </ol>
-<p>In order to fetch a link to a different page within your
-exposition:</p>
+<p>In order to fetch a link to a tool within your exposition:</p>
 <ol type="1">
 <li><p>Open the page you want to link <strong>to</strong> in the editor
 (through the page tab on the right hand side).</p></li>
-<li><p><em>(optional)</em> scroll the page to the position where you
-want the link to point to.</p></li>
+<li><p>Scroll the page to the position where you want the link to point
+to.</p></li>
 <li><p>Right click any tool you want to link to and click “copy tool
 link”.</p>
 <figure>
@@ -3612,9 +3632,9 @@ dialog will not offer a hyperlink option.</p>
 <p>Within the hyperlink dialog there are a couple of options:</p>
 <ul>
 <li><strong>Link URL</strong> : here you can type or paste a link</li>
+<li><strong>Text</strong> : change the text of the link</li>
 <li><strong>Target</strong> : control whether the link will open in a
 new screen or not.</li>
-<li><strong>Title</strong> : change the title of the link</li>
 <li><strong>Class</strong> : set the class of the link (this is rarely
 used)</li>
 </ul>
@@ -3724,8 +3744,8 @@ or simply to share a specific position through a position link.</p>
 <h4 id="restore-deleted-tools">Restore Deleted Tools</h4>
 <p>Restore recently deleted tools. Currently, this option is only
 available in the graphical editor mode.</p>
-<h4 id="restore-deleted-footnotes">Restore Deleted Footnotes</h4>
-<p>Restore recently deleted footnotes. Currently, this option is only
+<h4 id="restore-deleted-popovers">Restore Deleted Popovers</h4>
+<p>Restore recently deleted popovers. Currently, this option is only
 available in the graphical editor mode.</p>
 <h3 id="help-menu">Help Menu</h3>
 <p>Get help!</p>

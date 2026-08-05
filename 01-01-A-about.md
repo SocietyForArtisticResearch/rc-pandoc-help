@@ -129,11 +129,11 @@ You may find this resource by Mozilla useful:
 It is possible for institutions to open their own Institutional Portal in the Research Catalogue. 
 Having a portal will allow institutions to:
 
-- Publish research to a highly relavant audience (there are 30000 registered users in the RC, all specific to the Artistic Research field).
+- Publish research to a highly relevant audience (there are 30000 registered users in the RC, all specific to the Artistic Research field).
 - Use the RC to manage, edit, review and publish a rich media online journal.
 - Use RC as a teaching platform for students.
 - Organize researchers in portal subgroups, for easy collaboration of a small group of authors.
-- Publish and share research resources interally to only the users connected to the portal.
+- Publish and share research resources internally to only the users connected to the portal.
 - Use the RC as a closed archive.
 - Be listed as an official portal partner in the institutional portal page.
 

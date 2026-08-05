@@ -50,7 +50,7 @@ Allows usage only with your permission.
   
 
 * CC-BY-NC-SA - [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/)\
-  If your work is remixed, transformed, or build upon, creations must distributed under the same license as the original. 
+  If your work is remixed, transformed, or build upon, creations must be distributed under the same license as the original. 
 
 * public domain - <https://en.wikipedia.org/wiki/Public_domain>\
   No restrictions.
