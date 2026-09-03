@@ -198,7 +198,10 @@ Here you can manage all research connected to the portal. Expositions are sorted
 | Block     | <img src="images/research-icon-block.png" class="icon">      |
 
 #### Unpublishing an exposition
-The unpublishing of expositions is not encouraged. Published expositions are supposed to be a permanent reference, never to be deleted or changed. If an exposition is to be continuously changed or temporary, it is better to not publish, but simply set its sharing settings to __public__.  When unpublishing an exposition make sure with the author of the exposition that there are no connected works that have been deleted since, otherwise it may be impossible to reconstruct the publication. 
+
+In case of an accidental publication, or you find a mistake in an exposition after publication, it is possible to unpublish it. You do this through the exposition list. This brings the exposition back in the "in progress" state and allows the author to edit it again. After the changes are completed, it may be resubmitted to the portal and republished. Its DOI will never be modified during any of these steps: it keeps pointing at the exposition link. 
+
+The permanent unpublishing of expositions is not encouraged as a normal practice. Published expositions are supposed to be a permanent object, never to be deleted or changed, especially if your portal has DOI deposition enabled. If an exposition is to be continuously changed or is to be removed at some point, it is better to not publish it, but  set its sharing settings to __public__.  When unpublishing an exposition, please make sure it is republished to make sure the DOI does not end up at a dead link.
 
 ### Connection Requests
 It is possible for users to connect a work or exposition to a portal. The works that have been accepted by an admin of the portal will be listed here.
