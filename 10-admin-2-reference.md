@@ -71,12 +71,6 @@ When the option is turned on, the user cannot create any content. This is the de
 
 Here you can set which emails the user should receive.
 
-<!--
-#### Log in as a user
-The admins can log in as another user, for example to help resolve issues with a specific account. While logged in as another user, you will see a red bar on the top of your window that shows who you are and enables you to switch back to your own account. This feature is useful while helping somebody with issues specific to their account.
-
-Keep in mind: you become this user in all the tabs of your browser window, so you would temporarily lose some of your admin permissions while navigating as this user.-->
-
 ### Portal page
 
 The portal tab shows you which users are administrators on the portal.
@@ -234,7 +228,7 @@ Actions that are available:
 | edit          | <img src="images/edit-action.png" class="icon">              | Add reviewers and/or editors                                           |
 | accept        | <img src="images/accept-action.png" class="icon">            | [__Accept__](#publication-dialog "publication dialog") publication request |
 | reject        | <img src="images/reject-action.png" class="icon">            | Reject publication request                                             |
-| change status | <img src="images/revision-action.png" class="icon">          | Put exposition [__in revision__](#in-revision "in revision")           |
+| change status | <img src="images/revision-action.svg" class="icon">          | Put exposition [__in revision__](#in-revision "in revision")           |
 | export        | <img src="images/export-action.png" class="icon">            | Export the exposition as zip                                           |
 	
 
