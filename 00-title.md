@@ -5,8 +5,8 @@
 -->
 
 ---
-title: Research Catalogue Extended Guide (V2)
-date: August 2026
+title: Research Catalogue Extended Guide
+date: October 2026
 ---
 
 
