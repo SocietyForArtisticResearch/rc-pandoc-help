@@ -265,14 +265,17 @@ one by another RC user, they will appear under "Expositions
 (collaborated)".
 
 Custom grouping: You can also create your own exposition groupings. To add a new
-grouping click "add grouping" and enter the name of the grouping. You can sort
+grouping click "add grouping", which is at the top of your profile, and enter the name of the grouping. You can sort
 your objects within a grouping, arrange the groupings themselves and move object
 between groups via drag and drop. Click and drag a grouping itself to change the
 order of the groups.
 
 On the right-hand side of a grouping's title, there are a series of
 icons displayed. Here you can edit and delete the grouping and control
-its public visibility (using the circle icon).
+its public visibility (using the eye icon). You can also edit which expositions are part of the group.
+
+![edit group dialog: here you can directly select which expositions should be part of the group](images/edit_profile_group.png "a selection interface")
+
 
 Only custom grouping can be deleted. If you have only one grouping
 containing content, its title will not be shown on your public
