@@ -115,7 +115,7 @@ To access the menu, click on the "hamburger" menu icon, located in
 the bottom right corner of an object (expositions or works). Some
 options are only available to the author of the object.
 
-* __Change layout__ change the size of an exposition preview on the profile.
+* __Organize__ change the grouping and set the box size.
 
 * __Edit workspace__ open the exposition in the editor.
 
@@ -162,17 +162,6 @@ It is only available to the exposition [owner](#owner-role). Using it will lock 
 
 * __Delete__ delete an exposition or work from the RC. *Only the [owner](#the-owner-role) can do this.*
 You can restore a deleted exposition, by clicking on your Profile icon and clicking "trash".
-
-### Change Layout
-
-This dialogue gives you the option of choosing the size of the
-research description boxes on your profile page. Depending on the length of the content, the abstract and additional
-information may be reduced or even hidden.
-
-![The 4 options for how to display research on your
-profile](images/change-layout.png "image displaying layout options for
-research on My Profile")
-
 
 ## Manage Versions
 
@@ -257,32 +246,40 @@ to navigate between pages.  See [table-of-content](#table-of-content).
 
 <a id="grouping"></a>
 
-### Exposition Grouping
+## Profile Grouping & Organize
 
 Default groupings: When you create a set or exposition the new objects will appear in
 default groupings ("Sets" and "Expositions"). If you are invited to
 one by another RC user, they will appear under "Expositions
 (collaborated)".
 
-Custom grouping: You can also create your own exposition groupings. To add a new
-grouping click "add grouping", which is at the top of your profile, and enter the name of the grouping. You can sort
-your objects within a grouping, arrange the groupings themselves and move object
-between groups via drag and drop. Click and drag a grouping itself to change the
+## Custom grouping:  
+
+You can also create your own exposition groupings. To add a new
+grouping click "add grouping", which is at the top of your profile. 
+
+You can sort
+your objects within a grouping by dragging the exposition. 
+
+Click and drag a grouping itself to change the
 order of the groups.
 
 On the right-hand side of a grouping's title, there are a series of
-icons displayed. Here you can edit and delete the grouping and control
+icons displayed <img src="images/profile_grouping_icons.png" alt="toggle visibility, select expositions, remove" style="display:inline;width:32px;min-width:unset">. Here you can edit and delete the grouping and control
 its public visibility (using the eye icon). You can also edit which expositions are part of the group.
 
 ![edit group dialog: here you can directly select which expositions should be part of the group](images/edit_profile_group.png "a selection interface")
 
+You can set the profile grouping directly per exposition. For this, you use ☰ -> Organize, and select the appropriate group from the dropdown. 
+
+![Organize dialog](images/profile_organize.png "select group as dropdown, set layout as radio buttons")
 
 Only custom grouping can be deleted. If you have only one grouping
 containing content, its title will not be shown on your public
 profile. Empty groupings will also not be displayed on your public
 profile page.
 
-### Cleaning up Cluttered Profiles:
+## Tips cleaning up cluttered profiles
 
 You can delete expositions you have created by clicking ☰ -> delete exposition.
 Expositions which are in review or published cannot be deleted. Please note that
@@ -293,7 +290,7 @@ can "leave collaboration" to remove the exposition from your profile.
 
 You can open / close groupings by clicking the small triangle on the
 left of the grouping. You can also make the box of an exposition
-smaller by clicking ☰ -> change layout. It can also be easier to get
+smaller, or change its group by clicking ☰ -> organize. It can also be easier to get
 an overview by using your browsers zoom (ctrl/cmd + ctrl/cmd -). 
 You can return to default zoom level with ctrl/cmd 0.
 
