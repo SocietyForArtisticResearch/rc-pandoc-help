@@ -95,15 +95,17 @@ Limited accounts do not have the option to create expositions or publish work. D
 that has a portal within the RC, you should contact your <a
 href="https://www.researchcatalogue.net/view/1369076/1369075">local portal admin</a> for receiving the full account.</p>
 
+<a id="upgrading-full-account"></a>
+
 ## Upgrading to full account
 
-If you have a limited account (this includes all SARA subscribers):
- you can upgrade it via [the upgrade page](https://www.researchcatalogue.net/portal/upgrade).
+Limited accounts (including all SARA subscribers) can be upgraded free of charge. Log in, click "request upgrade" and verify through one of three options: 
 
-The account upgrade is free of charge. You can upgrade your limited account by logging in, and clicking "request
-upgrade", where you will be instructed to send in a proof of identity to
-support@researchcatalogue.net. Please read about "safe upgrade" below, to make sure
-you send this information safely.
+* institutional email address, 
+* ORCID iD or 
+* SAR Individual Membership. 
+  
+If you are a student or staff member of a Portal Partner institution, please contact your local portal admin instead.
 
 | **Limited account**           | **Full Account**         |
 |-------------------------------|--------------------------|
@@ -114,15 +116,6 @@ you send this information safely.
 |                               | use the media repository |
 |                               | collaborate              |
 
-## Safe Upgrade 
-
-[support@researchcatalogue.net](mailto:support@researchcatalogue.net "mail user support") supports OpenPGP email signing to prevent
-sensitive information from going lost. If you have never used OpenPGP, by far,
-the easiest way is to use Mozilla's Thunderbird application, which has OpenPGP
-built-in, is free and well documented.
-
-You may find this resource by Mozilla useful:
-[Mozilla Help: I have never used OpenPGP before](https://support.mozilla.org/en-US/kb/openpgp-thunderbird-howto-and-faq#w_i-have-never-used-openpgp-with-thunderbird-before-how-do-i-setup-openpgp)
 
 ## Institutional Portals, Journals and Project Portals
 

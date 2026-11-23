@@ -9,8 +9,8 @@ page](www.researchcatalogue.net/profile) page, by clicking __Create Exposition__
 are the creator of an exposition, the copyright is typically your own name. All
 of these may be changed later.
 
-If you do not see \[ create exposition \], you may have to arrange a [full
-account](#upgrading-your-account) first. 
+Tip: if you do not see \[ create exposition \], you may have to arrange a [full
+account](#upgrading-full-account) first. 
 
 ## Choosing an Editor 
 
